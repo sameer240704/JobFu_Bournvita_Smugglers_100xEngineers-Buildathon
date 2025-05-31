@@ -202,7 +202,7 @@ const Page = () => {
 
   return (
     <div>
-      <div className="md:ml-64 transition-all duration-300">
+      <div className=" transition-all duration-300">
         <div className="min-h-screen flex items-center justify-center p-4">
           <div className="w-full max-w-4xl">
             <div className="mb-8 flex items-center justify-center">
