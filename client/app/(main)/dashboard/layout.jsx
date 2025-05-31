@@ -1,7 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import Sidebar from "@/components/ui/Sidebar";
 
-export default function RootLayout({ children }) {
+export default function Layout({ children }) {
   return (
     <html lang="en">
       <body>
