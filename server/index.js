@@ -5,6 +5,9 @@ import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
 import cors from "cors";
 
+// Importing routes
+import userRoutes from "./routes/user.routes.js";
+
 dotenv.config();
 
 const app = express();
@@ -23,6 +26,7 @@ app.use(cookieParser());
 app.use(bodyParser.json({ limit: "100mb" }));
 app.use(bodyParser.urlencoded({ limit: "100mb", extended: true }));
 
+app.use("/api/users", userRoutes);
 
 app.get("/", (req, res) => {
     res.send("Connected to MongoDB!");

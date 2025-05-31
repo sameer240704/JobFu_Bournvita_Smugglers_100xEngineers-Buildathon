@@ -1,6 +1,6 @@
 "use client";
 
-import { createClient } from "@/lib/supabase/client";
+import { createClient } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
@@ -15,54 +15,94 @@ export default function SignUpPage() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [emailLoading, setEmailLoading] = useState(false);
+  const [googleLoading, setGoogleLoading] = useState(false);
   const [agreedToTerms, setAgreedToTerms] = useState(false);
+  const [showEmailSent, setShowEmailSent] = useState(false);
   const supabase = createClient();
   const router = useRouter();
 
   useEffect(() => {
     const getUser = async () => {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser();
-      setUser(user);
-      setLoading(false);
+      try {
+        const {
+          data: { user },
+          error,
+        } = await supabase.auth.getUser();
 
-      if (user) {
-        router.push("/dashboard");
+        if (error) {
+          console.error("Error getting user:", error);
+        }
+
+        setUser(user);
+        setLoading(false);
+
+        if (user && user.email_confirmed_at) {
+          router.push("/dashboard");
+        }
+      } catch (error) {
+        console.error("Unexpected error:", error);
+        setLoading(false);
       }
     };
+
     getUser();
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (event, session) => {
+      console.log("Auth state changed:", event, session?.user?.email);
+
       if (event === "SIGNED_IN" && session?.user) {
         setUser(session.user);
-        await syncUserToMongoDB(session.user);
-        router.push("/dashboard");
+
+        // Only redirect to dashboard if email is confirmed
+        // For email signups, user needs to confirm email first
+        if (session.user.email_confirmed_at) {
+          await syncUserToMongoDB(session.user);
+          router.push("/dashboard");
+        }
+      } else if (event === "SIGNED_OUT") {
+        setUser(null);
       }
     });
 
     return () => subscription.unsubscribe();
-  }, [router]);
+  }, [router, supabase.auth]);
 
   const signInWithGoogle = async () => {
-    setLoading(true);
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
-      },
-    });
-    if (error) {
-      console.error("Error:", error);
-      setLoading(false);
+    try {
+      setGoogleLoading(true);
+      const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: "google",
+        options: {
+          redirectTo: `${window.location.origin}/auth/callback`,
+          queryParams: {
+            access_type: "offline",
+            prompt: "consent",
+          },
+        },
+      });
+
+      if (error) {
+        console.error("Google sign-up error:", error);
+        alert(`Error: ${error.message}`);
+      }
+      // Note: Don't set loading to false here because the redirect will happen
+    } catch (error) {
+      console.error("Unexpected error:", error);
+      setGoogleLoading(false);
     }
   };
 
   const signUpWithEmail = async () => {
-    if (password !== confirmPassword) {
-      alert("Passwords do not match!");
+    // Validation checks
+    if (!email.trim()) {
+      alert("Please enter your email address");
+      return;
+    }
+
+    if (!isValidEmail(email)) {
+      alert("Please enter a valid email address");
       return;
     }
 
@@ -71,40 +111,130 @@ export default function SignUpPage() {
       return;
     }
 
+    if (password !== confirmPassword) {
+      alert("Passwords do not match!");
+      return;
+    }
+
     if (!agreedToTerms) {
       alert("Please agree to the Terms of Service and Privacy Policy!");
       return;
     }
 
-    setEmailLoading(true);
-    const { error } = await supabase.auth.signUp({
-      email,
-      password,
-    });
+    try {
+      setEmailLoading(true);
+      const { data, error } = await supabase.auth.signUp({
+        email: email.trim(),
+        password,
+        options: {
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
+        },
+      });
 
-    if (error) {
-      console.error("Error:", error);
-      alert(error.message);
-    } else {
-      alert("Check your email for the confirmation link!");
+      if (error) {
+        console.error("Email sign-up error:", error);
+        alert(`Error: ${error.message}`);
+        return;
+      }
+
+      if (data.user && !data.user.email_confirmed_at) {
+        // Email confirmation required
+        setShowEmailSent(true);
+        console.log("Sign-up successful, email confirmation required");
+      } else if (data.user && data.user.email_confirmed_at) {
+        // Email already confirmed (shouldn't happen with sign-up, but just in case)
+        console.log("Sign-up successful and email confirmed");
+        await syncUserToMongoDB(data.user);
+        router.push("/dashboard");
+      }
+    } catch (error) {
+      console.error("Unexpected error:", error);
+      alert("An unexpected error occurred. Please try again.");
+    } finally {
+      setEmailLoading(false);
     }
-    setEmailLoading(false);
   };
 
   const syncUserToMongoDB = async (user) => {
     try {
-      await fetch("/api/sync-user", {
+      const response = await fetch("/api/sync-user", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({
           supabaseId: user.id,
           email: user.email,
-          avatar: user.user_metadata?.avatar_url,
+          name: user.user_metadata?.full_name || user.user_metadata?.name,
+          avatar: user.user_metadata?.avatar_url || user.user_metadata?.picture,
           provider: user.app_metadata?.provider || "email",
+          createdAt: user.created_at,
         }),
       });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log("User synced to MongoDB:", result);
     } catch (error) {
-      console.error("Failed to sync user:", error);
+      console.error("Failed to sync user to MongoDB:", error);
+      // Don't block the registration process if MongoDB sync fails
+    }
+  };
+
+  const isValidEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const getPasswordStrength = () => {
+    let strength = 0;
+    if (password.length >= 6) strength++;
+    if (password.length >= 8) strength++;
+    if (/[A-Z]/.test(password)) strength++;
+    if (/[0-9]/.test(password)) strength++;
+    if (/[^A-Za-z0-9]/.test(password)) strength++;
+    return strength;
+  };
+
+  const getPasswordStrengthText = () => {
+    const strength = getPasswordStrength();
+    if (strength < 2) return { text: "Weak", color: "text-red-500" };
+    if (strength < 4) return { text: "Fair", color: "text-yellow-500" };
+    return { text: "Strong", color: "text-green-500" };
+  };
+
+  // Handle Enter key press for form submission
+  const handleKeyPress = (e) => {
+    if (
+      e.key === "Enter" &&
+      !emailLoading &&
+      email &&
+      password &&
+      confirmPassword &&
+      agreedToTerms
+    ) {
+      signUpWithEmail();
+    }
+  };
+
+  const resendConfirmation = async () => {
+    try {
+      const { error } = await supabase.auth.resend({
+        type: "signup",
+        email: email,
+      });
+
+      if (error) {
+        alert(`Error: ${error.message}`);
+      } else {
+        alert("Confirmation email resent! Please check your inbox.");
+      }
+    } catch (error) {
+      console.error("Error resending confirmation:", error);
+      alert("Failed to resend confirmation email. Please try again.");
     }
   };
 
@@ -112,6 +242,55 @@ export default function SignUpPage() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-pink-50">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
+      </div>
+    );
+  }
+
+  // Show email confirmation message
+  if (showEmailSent) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-pink-50 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-md w-full space-y-8">
+          <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8 text-center">
+            <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 mb-4">
+              <svg
+                className="h-6 w-6 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Check your email
+            </h2>
+            <p className="text-gray-600 mb-6">
+              We've sent a confirmation link to <strong>{email}</strong>. Please
+              click the link in the email to activate your account.
+            </p>
+            <div className="space-y-4">
+              <Button
+                onClick={resendConfirmation}
+                className="w-full bg-purple-600 hover:bg-purple-700 text-white"
+              >
+                Resend confirmation email
+              </Button>
+              <Button
+                onClick={() => router.push("/auth/login")}
+                variant="outline"
+                className="w-full"
+              >
+                Back to Sign In
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -132,11 +311,17 @@ export default function SignUpPage() {
           <div className="space-y-6">
             <Button
               onClick={signInWithGoogle}
-              disabled={loading}
-              className="w-full h-10 flex items-center justify-center px-4 py-3 border border-gray-300 rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200 hover:shadow-sm disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+              disabled={googleLoading || emailLoading}
+              className="w-full h-12 flex items-center justify-center gap-3 px-4 py-3 border border-gray-300 rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200 hover:shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              <FcGoogle className="h-5 w-auto" />
-              Sign up with Google
+              {googleLoading ? (
+                <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-gray-400"></div>
+              ) : (
+                <>
+                  <FcGoogle className="h-5 w-5" />
+                  Sign up with Google
+                </>
+              )}
             </Button>
 
             <div className="relative">
@@ -164,7 +349,9 @@ export default function SignUpPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  onKeyPress={handleKeyPress}
                   required
+                  autoComplete="email"
                   className="appearance-none h-10 relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm transition-all duration-200"
                   placeholder="Enter your email"
                 />
@@ -183,7 +370,9 @@ export default function SignUpPage() {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
+                  onKeyPress={handleKeyPress}
                   required
+                  autoComplete="new-password"
                   className="appearance-none h-10 relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm transition-all duration-200"
                   placeholder="Create a password (min. 6 characters)"
                 />
@@ -202,45 +391,68 @@ export default function SignUpPage() {
                   type="password"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
+                  onKeyPress={handleKeyPress}
                   required
+                  autoComplete="new-password"
                   className="appearance-none h-10 relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm transition-all duration-200"
                   placeholder="Confirm your password"
                 />
+                {confirmPassword && password !== confirmPassword && (
+                  <p className="mt-1 text-sm text-red-600">
+                    Passwords do not match
+                  </p>
+                )}
               </div>
 
               {password && (
                 <div className="space-y-2">
                   <div className="flex space-x-1">
                     <div
-                      className={`h-1 w-1/4 rounded ${
+                      className={`h-1 w-1/5 rounded ${
                         password.length >= 6 ? "bg-green-500" : "bg-gray-200"
                       }`}
                     ></div>
                     <div
-                      className={`h-1 w-1/4 rounded ${
+                      className={`h-1 w-1/5 rounded ${
                         password.length >= 8 ? "bg-green-500" : "bg-gray-200"
                       }`}
                     ></div>
                     <div
-                      className={`h-1 w-1/4 rounded ${
+                      className={`h-1 w-1/5 rounded ${
                         /[A-Z]/.test(password) ? "bg-green-500" : "bg-gray-200"
                       }`}
                     ></div>
                     <div
-                      className={`h-1 w-1/4 rounded ${
+                      className={`h-1 w-1/5 rounded ${
                         /[0-9]/.test(password) ? "bg-green-500" : "bg-gray-200"
                       }`}
                     ></div>
+                    <div
+                      className={`h-1 w-1/5 rounded ${
+                        /[^A-Za-z0-9]/.test(password)
+                          ? "bg-green-500"
+                          : "bg-gray-200"
+                      }`}
+                    ></div>
                   </div>
-                  <p className="text-xs text-gray-500">
-                    Password strength: Use 6+ characters with numbers and
-                    uppercase letters
-                  </p>
+                  <div className="flex justify-between items-center">
+                    <p className="text-xs text-gray-500">
+                      Password strength: Use 6+ characters with numbers,
+                      uppercase letters, and symbols
+                    </p>
+                    <span
+                      className={`text-xs font-medium ${
+                        getPasswordStrengthText().color
+                      }`}
+                    >
+                      {getPasswordStrengthText().text}
+                    </span>
+                  </div>
                 </div>
               )}
 
               <div className="flex items-start">
-                <Input
+                <input
                   id="terms"
                   type="checkbox"
                   checked={agreedToTerms}
@@ -249,19 +461,31 @@ export default function SignUpPage() {
                 />
                 <Label htmlFor="terms" className="ml-2 text-sm text-gray-600">
                   I agree to the{" "}
-                  <a
-                    href="#"
-                    className="text-purple-600 hover:text-purple-500 font-medium"
+                  <button
+                    type="button"
+                    onClick={() => {
+                      // You can implement a modal or redirect to terms page
+                      alert(
+                        "Terms of Service - Please implement the actual terms page"
+                      );
+                    }}
+                    className="text-purple-600 hover:text-purple-500 font-medium underline"
                   >
                     Terms of Service
-                  </a>{" "}
+                  </button>{" "}
                   and{" "}
-                  <a
-                    href="#"
-                    className="text-purple-600 hover:text-purple-500 font-medium"
+                  <button
+                    type="button"
+                    onClick={() => {
+                      // You can implement a modal or redirect to privacy page
+                      alert(
+                        "Privacy Policy - Please implement the actual privacy page"
+                      );
+                    }}
+                    className="text-purple-600 hover:text-purple-500 font-medium underline"
                   >
                     Privacy Policy
-                  </a>
+                  </button>
                 </Label>
               </div>
 
@@ -269,12 +493,15 @@ export default function SignUpPage() {
                 onClick={signUpWithEmail}
                 disabled={
                   emailLoading ||
-                  !email ||
+                  googleLoading ||
+                  !email.trim() ||
                   !password ||
                   !confirmPassword ||
+                  password !== confirmPassword ||
+                  password.length < 6 ||
                   !agreedToTerms
                 }
-                className="group relative h-10 w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-400 to-purple-500/90 hover:from-purple-500 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200 transform hover:scale-[1.02] hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="group relative h-12 w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200 transform hover:scale-[1.02] hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
                 {emailLoading ? (
                   <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
@@ -289,12 +516,12 @@ export default function SignUpPage() {
         <div className="text-center">
           <p className="text-gray-600">
             Already have an account?{" "}
-            <a
-              href="/auth/login"
+            <button
+              onClick={() => router.push("/auth/login")}
               className="font-medium text-purple-600 hover:text-purple-500 transition-colors"
             >
               Sign in here
-            </a>
+            </button>
           </p>
         </div>
       </div>

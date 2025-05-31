@@ -3,7 +3,9 @@ import { NextResponse } from 'next/server'
 export async function POST(request) {
   try {
     const userData = await request.json()
-    
+
+    console.log("USER: ", userData);
+
     const response = await fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/sync`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

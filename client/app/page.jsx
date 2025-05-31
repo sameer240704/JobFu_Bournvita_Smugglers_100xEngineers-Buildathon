@@ -90,8 +90,7 @@ const LandingPage = () => {
 
           {/* Right Side Controls */}
           <div className="flex items-center space-x-3">
-            {/* Theme Toggle */}
-            <button
+            <Button
               onClick={() => setDarkMode(!darkMode)}
               className="p-2.5 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-200"
               aria-label="Toggle theme"
@@ -101,23 +100,21 @@ const LandingPage = () => {
               ) : (
                 <FiMoon className="w-5 h-5" />
               )}
-            </button>
+            </Button>
 
-            {/* Get Started Button - Desktop */}
-            <button
+            <Button
               onClick={handleNavigateLogin}
               className="hidden lg:flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-2.5 rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 shadow-lg shadow-purple-500/25 dark:shadow-purple-900/30 font-semibold"
             >
               <span>Get Started</span>
-            </button>
+            </Button>
 
-            {/* Mobile Get Started Button */}
-            <button
+            <Button
               onClick={handleNavigateLogin}
               className="lg:hidden bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-4 py-2 rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 shadow-lg shadow-purple-500/25 text-sm font-semibold"
             >
               Start
-            </button>
+            </Button>
 
             <button
               className="lg:hidden p-2.5 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-200"
