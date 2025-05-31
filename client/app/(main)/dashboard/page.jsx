@@ -1,5 +1,4 @@
 "use client";
-import Sidebar from "@/components/ui/Sidebar";
 import React from "react";
 
 // Remove the d3 imports and create separate components for each chart type
