@@ -1,0 +1,229 @@
+{
+  "candidate_name": "HARSH CHITALIYA",
+  "contact_information": {
+    "email": "harshchitaliya010@gmail.com",
+    "phone": "9321694382",
+    "location": null,
+    "linkedin": "https://www.linkedin.com/in/harshchitaliya",
+    "github": "https://github.com/harshchi19",
+    "portfolio": null,
+    "other_links": [
+      "https://github.com/harshchi1",
+      "https://www.linkedin.com/in/harshchitaliya"
+    ]
+  },
+  "candidate_description": "Dedicated Machine Learning Engineer with a focus on Artificial Intelligence and Data Science, currently pursuing a BTech degree.",
+  "education": [
+    {
+      "degree": "BTech",
+      "institution": "Dwarkadas Sanghvi College of Engineering",
+      "location": "Mumbai",
+      "duration": "2022-2026",
+      "gpa_cgpa": "8.68",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "HSC",
+      "institution": "Sadar Vallabhai Patel Jr College of Science and Commerce",
+      "location": "Mumbai",
+      "duration": "2021-2022",
+      "gpa_cgpa": "80%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "SSC",
+      "institution": "The Saraswati Vidayalaya",
+      "location": "Mumbai",
+      "duration": "2020-2021",
+      "gpa_cgpa": "92%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": null,
+      "company": "WEBXELA",
+      "location": null,
+      "duration": "1st June 2024 – 1st September 2024",
+      "description": "As a Cloud Computing Intern, I assist in designing, managing, and optimizing cloud infrastructure on platforms like Azure, AWS, or Google Cloud.",
+      "type": "Internship",
+      "key_achievements": [],
+      "technologies_used": [
+        "Cloud Computing"
+      ]
+    },
+    {
+      "position": null,
+      "company": "CodeSoft",
+      "location": null,
+      "duration": "5th Sept 2023 - 5th Oct 2023",
+      "description": "Internship experience in CodeSoft and Java Programming, involving hands-on development, debugging, and testing of software applications.",
+      "type": "Internship",
+      "key_achievements": [],
+      "technologies_used": [
+        "Java"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Speech Language Therapy Management",
+      "description": "Developed 'Vani Vikas,' a comprehensive digital platform leveraging AI-driven automation, data-driven insights, Google FLAN-T5, Microsoft TrOCR, and cloud-based digital storage for efficient speech therapy management from patient registration to therapy completion.",
+      "technologies": [
+        "AI",
+        "Google Cloud",
+        "Microsoft TrOCR"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "WINNER",
+      "duration": "SIH 2024"
+    },
+    {
+      "name": "SmartSure",
+      "description": "Developed a revolutionary insurance platform with AI-powered customer support using Mistral and Hugging Face API, fitness score calculator using Random Forest, AI-driven base plan recommendations with KNN, and customizable insurance plan generator with Neural Networks, achieving up to 95% accuracy and 80% reduction in response time.",
+      "technologies": [
+        "AI",
+        "Mistral",
+        "Hugging Face API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "WINNER",
+      "duration": "Hack2Skill’s HumanAIze Hackathon (FinTech Edition)"
+    },
+    {
+      "name": "Fake Image Detection",
+      "description": "Innovative professional skilled in deep learning and machine learning techniques. Developed VeriGuard-Fake Image Detection tool to accurately differentiate between real and fake images.",
+      "technologies": [
+        "Deep Learning",
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "100% accuracy on test sets",
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Html",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "Python",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "Bootstrap",
+        "Angular",
+        "Flask",
+        "Django"
+      ],
+      "databases": [
+        "MySql",
+        "Sqlite3"
+      ],
+      "tools_software": [
+        "TensorFlow",
+        "PyTorch",
+        "Google Cloud AutoMl",
+        "Tableau",
+        "PowerBi",
+        "Microsoft365",
+        "Excel",
+        "Canva",
+        "Figma",
+        "Linux"
+      ],
+      "cloud_platforms": [
+        "Google Cloud"
+      ],
+      "devops": [],
+      "data_science": [],
+      "other_technical": [
+        "Data-Structure",
+        "DBMS",
+        "Gen AI tools"
+      ]
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "BOLT IOT",
+      "issuing_organization": null,
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Artifical Intelligence Training",
+      "issuing_organization": "BOLT IOT",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Basics of C Programming",
+      "issuing_organization": "Eduonix",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Digishock 3.0 : The Future of Artifical Intelligence",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "7 day Python and Machine Learning Bootcamp",
+      "issuing_organization": "Edspread",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [
+      "DJS INFOMATRIX, VCP Tech-Head",
+      "DJS-NSDC, Marketing Head",
+      "DJS S4DS, Publicity Co-Committee"
+    ],
+    "hobbies": [],
+    "awards": [
+      "WINNER",
+      "WINNER"
+    ],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:59:45.149139",
+    "model_used": "llama3-8b-8192",
+    "source_file": "HARSHRESUME.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 6,
+    "file_size_mb": 0.75
+  }
+}

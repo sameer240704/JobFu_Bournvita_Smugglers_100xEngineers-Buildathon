@@ -1,0 +1,163 @@
+{
+  "candidate_name": "Pratham Malavia",
+  "contact_information": {
+    "email": "prathammalavia9@gmail.com",
+    "phone": "+91 9820085978",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin": "http://www.linkedin.com/in/pratham-malavia27",
+    "github": [
+      "https://github.com/Pratham279",
+      "https://github.com/sameer240704/game-hub"
+    ],
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": "Dynamic and collaborative team player with a proven track record of fostering constructive relationships and driving impactful results in fast-paced environments.",
+  "education": [
+    {
+      "degree": "B.Tech in Artificial Intelligence & Data Science",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, Maharashtra, India",
+      "duration": "2022-2026",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": [
+        "Artificial Intelligence",
+        "Data Mining",
+        "Full Stack Development",
+        "Data Structures",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Machine Learning Developer",
+      "company": "Acmegrade",
+      "location": null,
+      "duration": "Jun 2024 - Aug 2024",
+      "description": "Developed and deployed machine learning models using libraries like NumPy, Pandas, Scikit-Learn, TensorFlow, and PyTorch. Implemented feature engineering and hyperparameter tuning to achieve 95% accuracy in classification tasks and 90% precision in regression tasks.",
+      "type": null,
+      "key_achievements": [
+        "Achieved 95% accuracy in classification tasks and 90% precision in regression tasks"
+      ],
+      "technologies_used": [
+        "NumPy",
+        "Pandas",
+        "Scikit-Learn",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    },
+    {
+      "position": "Full Stack Developer Intern",
+      "company": "Pantech.ai",
+      "location": null,
+      "duration": "Mar 2024 - Jun 2024",
+      "description": "Gained hands-on experience in both front-end and back-end development. Contributed to meaningful projects, enhancing skills in HTML, CSS, JavaScript, and server-side technologies. Developed a dynamic web application, improving user engagement by 20% and optimizing code for faster load times.",
+      "type": null,
+      "key_achievements": [
+        "Improved user engagement by 20% and optimized code for faster load times"
+      ],
+      "technologies_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "React.js",
+        "Three.js",
+        "Socket.io",
+        "Blender"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Game Hub",
+      "description": "A multi-game platform featuring Wordle, Sims Clone, and Tic Tac Toe.",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Three.js",
+        "Socket.io",
+        "Blender"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/sameer240704/game-hub",
+        "other": null
+      },
+      "achievements": "Utilized Three.js and Socket.io in Sims Clone for real-time interactions and seamless movement within the game world, enhancing user engagement and providing a dynamic multiplayer experience.",
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C++",
+        "Python",
+        "C",
+        "JavaScript",
+        "Java",
+        "HTML",
+        "CSS",
+        "Django",
+        "Bootstrap"
+      ],
+      "frameworks_libraries": [
+        "Pandas",
+        "Numpy",
+        "Scikit-Learn",
+        "Git",
+        "GitHub",
+        "Jupyter"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "tools_software": [
+        "TensorFlow",
+        "PyTorch",
+        "OpenCV"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "GitHub Foundations Certification",
+      "issuing_organization": "GitHub",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [
+      "Events and Logistics Lead at DJS Beats, the Official Music Club at DJ Sanghvi College of Engineering"
+    ],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:51:58.242351",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Pratham Malavia Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 3,
+    "file_size_mb": 0.18
+  }
+}

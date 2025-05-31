@@ -1,0 +1,198 @@
+{
+  "candidate_name": "DARSHAN JAIN",
+  "contact_information": {
+    "email": "jaindarshan1005@gmail.com",
+    "phone": "9892284503",
+    "location": null,
+    "linkedin": "https://linkedin.com/in/djain07",
+    "github": "https://github.com/DarshanJain-07",
+    "portfolio": null,
+    "other_links": [
+      "https://github.com/DarshanJain-07",
+      "https://linkedin.com/in/djain07"
+    ]
+  },
+  "candidate_description": "ML-OPS & BA ENTHUSIAST",
+  "education": [
+    {
+      "degree": "B. Tech",
+      "institution": "Dwarkadas Jeevanlal Sanghvi College of Engineering",
+      "location": null,
+      "duration": "9.55(SGPA)/10",
+      "gpa_cgpa": "9.55",
+      "additional_info": "AI and DS",
+      "coursework": []
+    },
+    {
+      "degree": null,
+      "institution": "Noble International School",
+      "location": null,
+      "duration": "81.40%",
+      "gpa_cgpa": null,
+      "additional_info": "Grade 12 (CBSE)",
+      "coursework": []
+    },
+    {
+      "degree": null,
+      "institution": "Nava Samaj Mandal School",
+      "location": null,
+      "duration": "94.16%",
+      "gpa_cgpa": null,
+      "additional_info": "Grade 10 (ICSE)",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "AI Cyber Lab Researcher",
+      "company": "Deepcytes",
+      "location": null,
+      "duration": "July - Ongoing",
+      "description": "Working on a Medical Deepfakes Detection Model, Created a Deepfake Generation Model, Working on General Purpose Deepfake detection Model, Plan to Extend its usability in Medical Field",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "C",
+        "JS",
+        "CSS",
+        "HTML",
+        "R",
+        "MATLAB",
+        "SQL",
+        "Java",
+        "React"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Library",
+      "description": "Developed a web application utilizing Google Books API to fetch book titles and descriptions. Utilized React for front-end development, enhancing user experience. In process of integrating an API to download books, demonstrating adeptness in API usage and React, and a commitment to creating functional, user centric applications.Working on Recommendation Engine which recommends books based on tags.",
+      "technologies": [
+        "React",
+        "Google Books API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Is Your Flight Late?",
+      "description": "Based on Public dataset, develop a predictive model for flight delays, categorizing delays into ‘small’ and ‘large’. Implemented a user-friendly GUI using Gradio for real-time predictions based on Date, Airport and Airline.",
+      "technologies": [
+        "Gradio"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Stress Detection using Machine Learning",
+      "description": "Amid rising social media consumption and workloads, need for such project is at its peak, even for remote area residents. It features a user-friendly Conversational AI, multimedia for reaction analysis, local open-source AI for privacy, and Docker for platform compatibility. Camera and interaction data are handled for improved predictions and mental state analysis, providing timely, effective support.",
+      "technologies": [
+        "Docker"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Power BI Dashboard",
+      "description": "I have created a dynamic dashboard of IPL Data Analysis with Player Performance Analysis and Team Performance Analysis. This greatly assists Business Analysts in getting better insights.",
+      "technologies": [
+        "Power BI"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C",
+        "JS",
+        "CSS",
+        "HTML",
+        "R",
+        "MATLAB",
+        "SQL",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "Django",
+        "Node JS"
+      ],
+      "databases": [
+        "SQL",
+        "Astro DB"
+      ],
+      "tools_software": [
+        "Postman",
+        "Tableau",
+        "Power BI"
+      ],
+      "cloud_platforms": [],
+      "devops": [
+        "Docker",
+        "Podman"
+      ],
+      "data_science": [],
+      "other_technical": [
+        "Canva",
+        "Microsoft Office",
+        "Video Editing",
+        "Blogging",
+        "SEO",
+        "Prompt Engineering"
+      ]
+    },
+    "soft_skills": [
+      "Teamwork",
+      "Leadership",
+      "Time Management",
+      "Design Thinking",
+      "Critical Thinking"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:58:37.893211",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Darshan Jain Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 5,
+    "file_size_mb": 0.06
+  }
+}

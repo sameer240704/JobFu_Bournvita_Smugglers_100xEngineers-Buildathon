@@ -1,0 +1,209 @@
+{
+  "candidate_name": "Tejas Maroo",
+  "contact_information": {
+    "email": "tejasmaroo1103@gmail.com",
+    "phone": "+91 8356934279",
+    "linkedin": "https://linkedin.com/in/tejas-maroo",
+    "github": "https://github.com/tejasmaroo",
+    "other_links": [
+      "https://github.com/tejasmaroo",
+      "https://linkedin.com/in/tejas-maroo",
+      "https://tel:+91-835-693-42-79"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": null,
+      "duration": "2022-2026",
+      "gpa_cgpa": null,
+      "additional_info": "Artifcial Intelligence and Data Science",
+      "coursework": []
+    },
+    {
+      "degree": "HSC Board - Class XII",
+      "institution": "Nirmala College of Science and Commerce",
+      "location": null,
+      "duration": "2020-2022",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "International Certificate of Secondary Education ICSE - Class - X",
+      "institution": "Children’s Academy Group of Schools",
+      "location": null,
+      "duration": null,
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Spam Detection",
+      "company": "Codosft Virtual Internship",
+      "location": null,
+      "duration": null,
+      "description": "Built and deployed machine learning models to identify and filter spam SMS messages, improving communication security and user experience.",
+      "type": null,
+      "key_achievements": [
+        "Improved communication security and user experience"
+      ],
+      "technologies_used": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "position": "Genre Classification",
+      "company": "Codosft Virtual Internship",
+      "location": null,
+      "duration": null,
+      "description": "Designed a genre classification model for movies, enhancing content discovery and personalization.",
+      "type": null,
+      "key_achievements": [
+        "Enhanced content discovery and personalization"
+      ],
+      "technologies_used": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "position": "Churn Prediction",
+      "company": "Codosft Virtual Internship",
+      "location": null,
+      "duration": null,
+      "description": "Developed predictive models to forecast customer churn, enabling retention strategies and boosting customer engagement.",
+      "type": null,
+      "key_achievements": [
+        "Enabled retention strategies and boosted customer engagement"
+      ],
+      "technologies_used": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "position": "Python Developer (Generative AI)",
+      "company": "Build Fast With AI",
+      "location": null,
+      "duration": null,
+      "description": null,
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "Lang chain",
+        "GPT"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Syncvox",
+      "description": "Built an AI pipeline for synchronized video dubbing into various Indic languages from YouTube video links.",
+      "technologies": [
+        "AI",
+        "Machine Learning"
+      ],
+      "links": {
+        "github": "https://github.com/tejasmaroo/Syncvox"
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "LipRead",
+      "description": "Created a machine learning model with TensorFlow to read lip movements from input videos.",
+      "technologies": [
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "links": {
+        "github": "https://github.com/tejasmaroo/LipRead"
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Cold Email Generator",
+      "description": "Developed an AI-powered tool leveraging Langchain and Groq Llama for automated cold email generation. Integrated with Chroma DB for efficient email content storage and retrieval.",
+      "technologies": [
+        "AI",
+        "Machine Learning",
+        "Langchain",
+        "Groq Llama"
+      ],
+      "links": {
+        "github": "https://github.com/tejasmaroo/Cold-EMail"
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C++",
+        "C",
+        "Java",
+        "Python",
+        "SQL",
+        "JavaScript"
+      ],
+      "frameworks_libraries": [
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
+        "Tensorflow",
+        "Langchain"
+      ],
+      "databases": [],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "Tensorflow 2.0: Deep Learning and AI",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Data Visualisation, Numpy, Pandas",
+      "issuing_organization": "Kaggle",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:09:41.149192",
+    "model_used": "llama3-8b-8192",
+    "source_file": "TejasMaroo.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 9,
+    "file_size_mb": 0.05
+  }
+}

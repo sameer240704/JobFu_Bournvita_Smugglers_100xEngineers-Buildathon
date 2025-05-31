@@ -1,0 +1,239 @@
+{
+  "candidate_name": "Arya R. Gawde",
+  "contact_information": {
+    "email": "gawdearya26@gmail.com",
+    "phone": "+91-9326780048",
+    "location": null,
+    "linkedin": "https://www.linkedin.com/in/arya-gawde-a855b4262",
+    "github": "https://github.com/AryaG26",
+    "portfolio": null,
+    "other_links": [
+      "https://linkedin.com/in/arya",
+      "https://github.com/AryaG26"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering, Mumbai",
+      "location": "Mumbai",
+      "duration": "2022-2026",
+      "gpa_cgpa": "9.24",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "XII (Higher Secondary Certificate)",
+      "institution": "Pace Junior College, Mumbai",
+      "location": "Mumbai",
+      "duration": null,
+      "gpa_cgpa": "85.33%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "X (Secondary School Certificate)",
+      "institution": "St. Xavier's High School, Borivali",
+      "location": "Borivali",
+      "duration": null,
+      "gpa_cgpa": "94.60%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Artificial Intelligence and UI/UX Intern",
+      "company": "169Pi",
+      "location": null,
+      "duration": "October 2024 - January 2025",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Developing a domain-specific Small Language Model (SLM) trained on text extracted from 90+ engineering reference books using transformer-based architectures.",
+        "Designed Education Mode wireframes with a focus on responsive design and intuitive user workflows.",
+        "Implemented a PDF processing agent with the GROBID library for text extraction and metadata parsing from large-scale academic references."
+      ],
+      "technologies_used": [
+        "Python",
+        "C",
+        "Java",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "React.js"
+      ]
+    },
+    {
+      "position": "Summer Research Intern",
+      "company": "PHCCO, Indian Institute of Science, Bangalore",
+      "location": "Bangalore",
+      "duration": "May 2024 - July 2024",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Analyzed spatial transcriptomics data to identify hypoxic regions in Oral Squamous Cancer Cells, contributing to the understanding of tumor progression.",
+        "Utilized Seurat (R) for tissue classification, applying advanced dimensionality reduction techniques (PCA, t-SNE) to classify tumor and stromal regions in OSCC.",
+        "Applied graph-based modeling to explore tumor microenvironment pathways, mapping cellular interactions and identifying potential therapeutic targets."
+      ],
+      "technologies_used": [
+        "Python",
+        "R",
+        "Seurat"
+      ]
+    },
+    {
+      "position": "Section Leader",
+      "company": "Code in Place by Stanford University",
+      "location": null,
+      "duration": "April 2024 - June 2024",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Led and mentored 30 students from various countries in an introductory Python programming course, focusing on core programming concepts such as control structures (loops, conditionals), data structures (lists, dictionaries, sets), and functions, object-oriented programming (OOP).",
+        "Provided hands-on guidance on implementing algorithms, debugging code, and improving code efficiency."
+      ],
+      "technologies_used": [
+        "Python"
+      ]
+    },
+    {
+      "position": "Vice Chairperson Technical",
+      "company": "DJS Informatrix",
+      "location": null,
+      "duration": "March 2024 - Present",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Leading the Data Science mentoring team, guiding second-year undergraduates in Feature Extraction, Exploratory Data Analysis (EDA), Data Visualization, and other key Data Science concepts.",
+        "Organized training sessions and competitions in Data Science, Machine Learning, and Web/App Development, fostering hands-on learning and student engagement through real-world applications and interactive sessions."
+      ],
+      "technologies_used": [
+        "Python",
+        "Data Science"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enhancing Mental Health Disorder Detection Using Hybrid Ensemble Models",
+      "description": null,
+      "technologies": [
+        "Python",
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Achieved 94% accuracy across multiple disorders with SMOTE and optimized text feature extraction using TF-IDF.",
+      "duration": null
+    },
+    {
+      "name": "Exoplanet Detection using Support Vector Machine",
+      "description": null,
+      "technologies": [
+        "Python",
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Achieved an accuracy of 95.61% with a linear kernel and 95.57% with an RBF kernel.",
+      "duration": null
+    },
+    {
+      "name": "Indian Sign Language Detection System using LSTM",
+      "description": null,
+      "technologies": [
+        "Python",
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Achieved 97.59% training accuracy and 90.28% validation accuracy.",
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "React.js",
+        "MediaPipe"
+      ],
+      "databases": [
+        "MySQL"
+      ],
+      "tools_software": [
+        "GROBID",
+        "Seurat"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "Data Mining",
+        "Information Retrieval",
+        "Statistical Modeling",
+        "Data Visualization",
+        "DBMS"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Winner of Hackathon by National Student Data Corps",
+      "description": null,
+      "date": "15th March 2024",
+      "organization": "VCET, Palghar",
+      "prize_amount": null
+    },
+    {
+      "title": "Scholar's Challenge Medal in World Scholar's Cup",
+      "description": null,
+      "date": "July 2019",
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Atal Girl Award - Atal Tinkering Lab",
+      "description": null,
+      "date": "2019",
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:05:22.201691",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Arya Gawde Resume (3).pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 6,
+    "file_size_mb": 0.39
+  }
+}

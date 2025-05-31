@@ -1,0 +1,282 @@
+{
+  "candidate_name": "BHA VVYA JAIN",
+  "contact_information": {
+    "email": "bhavvya.jain@gmail.com",
+    "phone": "+91 9372395941",
+    "location": "Mumbai, Maharashtra - 400101, India",
+    "linkedin": "https://www.linkedin.com/in/bhavvya-jain-380944275/",
+    "github": "https://github.com/Royalrival",
+    "portfolio": null,
+    "other_links": [
+      "https://webxela.com/",
+      "https://www.cloudskillsboost.google/public_profiles/4e81e73c-2161-4c77-a97e-b4454f3325d9/",
+      "https://coursera.org/share/5c38fce31c82bd9d1dcfd8919e2950dd/",
+      "https://djs-infomatrix.vercel.app/",
+      "https://www.datacamp.com/completed/statement-of-accomplishment/course/37871cff5ef63c82ccf1ac595d84c8a5d8273f6d/"
+    ]
+  },
+  "candidate_description": "An enthusiastic B.Tech Student specializing in Artificial Intelligence and Data Science, with hands-on experience in cloud computing and a passion for developing AI-driven solutions.",
+  "education": [
+    {
+      "degree": "B.Tech in Artificial Intelligence and Data Science with Honours in Computational Biology",
+      "institution": "Dwarkadas J Sanghvi College of Engineering",
+      "location": "Mumbai, India",
+      "duration": "2022 - 2026",
+      "gpa_cgpa": "8.4/10.00",
+      "additional_info": null,
+      "coursework": [
+        "OS",
+        "DBMS",
+        "Data Structures & Algorithms",
+        "Data Mining & Analytics",
+        "ML",
+        "NLP",
+        "Devops"
+      ]
+    },
+    {
+      "degree": "Pre-University Education",
+      "institution": "Thakur Vidya Mandir Junior College",
+      "location": "Mumbai, India",
+      "duration": "2022",
+      "gpa_cgpa": "81.3%",
+      "additional_info": null,
+      "coursework": null
+    },
+    {
+      "degree": "Secondary Education",
+      "institution": "Lokhandwala Foundation School",
+      "location": "Mumbai, India",
+      "duration": "2020",
+      "gpa_cgpa": "96.83%",
+      "additional_info": null,
+      "coursework": null
+    }
+  ],
+  "experience": [
+    {
+      "position": "Cloud Computing Intern",
+      "company": "WEBXELA",
+      "location": "Mumbai, Remote",
+      "duration": "June 2024 - September 2024",
+      "description": "Gained hands-on experience with major cloud platforms including GCP, AWS, and Microsoft Azure.",
+      "type": "Internship",
+      "key_achievements": [
+        "Implemented Azure Web Apps and deployed an HR Management System which improved the efficiency of the HR department by 50% overall.",
+        "Analyzed different Azure services and identified key services and their specific use cases."
+      ],
+      "technologies_used": [
+        "Azure",
+        "GCP",
+        "AWS",
+        "Microsoft Azure"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fin-AI-lytics",
+      "description": "AI Financial Advisor: Stocks, Portfolio Management with Risk Analysis",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Plotly",
+        "Altair",
+        "Streamlit",
+        "Firestore",
+        "ML models",
+        "YFinance API",
+        "Alphavantage API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Designed a user-friendly walkthrough system to explain financial concepts, increasing accessibility for beginners while providing advanced insights for an experienced investor.",
+      "duration": "September 2024"
+    },
+    {
+      "name": "HR Management System",
+      "description": "Cloud Computing Internship Project",
+      "technologies": [
+        "Python",
+        "Numpy",
+        "Streamlit",
+        "Plotly",
+        "Altair",
+        "PyPDF2",
+        "Azure Cloud",
+        "PowerBi"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Developed and implemented a comprehensive HR automation platform featuring- an AI-powered chatbot, Resume screener, Interview scheduler, Analytic Dashboard, and Leave management system.",
+      "duration": "August 2024 - September 2024"
+    },
+    {
+      "name": "TTS Generation",
+      "description": "Text-to-Speech Model with Accent and Emotion",
+      "technologies": [
+        "Python",
+        "Transformers",
+        "ParlerTTS",
+        "Pytorch",
+        "Pyaudio",
+        "Streamlit"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Utilized transformers to fine-tune a pre-trained TTS model to add audio cues to the Speech generated.",
+      "duration": "January 2024-Present"
+    },
+    {
+      "name": "MedPlex",
+      "description": "HealthCare based Recommendation System",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Sklearn",
+        "Streamlit"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Combined multiple extracted datasets with approx 5000 records for disease detection from symptoms.",
+      "duration": "October 2024 - Present"
+    },
+    {
+      "name": "Transport Data Science Project",
+      "description": "Data Science and Research based project for enhancing road safety",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Folium",
+        "Visual Boards",
+        "Geospatial Visualization tools"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Conducted thorough Exploratory Data Analysis (EDA) on accident data, identifying risk factors.",
+      "duration": "April 2024"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "C++",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Typescript",
+        "Angular.js",
+        "Flask",
+        "Streamlit",
+        "Django"
+      ],
+      "databases": [
+        "MySQL",
+        "SQLite3"
+      ],
+      "tools_software": [
+        "Excel",
+        "Tableau",
+        "PowerBi"
+      ],
+      "cloud_platforms": [
+        "Google Cloud Platform",
+        "Azure"
+      ],
+      "devops": [],
+      "data_science": [
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Seaborn",
+        "ScikitLearn",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "other_technical": [
+        "LLMs",
+        "Prompt Engineering",
+        "GenAI",
+        "Google Vertex Studio"
+      ]
+    },
+    "soft_skills": [
+      "Effective Communication",
+      "Eagerness to Learn",
+      "Teamwork & Cooperation"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "Google Cloud Computing Fundamentals Certification & Badges",
+      "issuing_organization": "Google Cloud Skill Boost",
+      "date": "October 2023",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Foundations of Cybersecurity",
+      "issuing_organization": "Google",
+      "date": "August 2024",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Introduction to Portfolio Risk Management in Python",
+      "issuing_organization": "DataCamp",
+      "date": "August 2024",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "TechBlitz Data Science Analysis using AI Competition",
+      "issuing_organization": "VCET NSDC",
+      "date": "April 2024",
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:58:03.184306",
+    "model_used": "llama3-8b-8192",
+    "source_file": "BhavvyaJain_TY_AIDS_60018220108.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 8,
+    "file_size_mb": 0.1
+  }
+}

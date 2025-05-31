@@ -1,0 +1,176 @@
+{
+  "candidate_name": "Dev Parekh",
+  "contact_information": {
+    "email": "email-devparekh21@gmail.com",
+    "phone": "+91 9892114510",
+    "location": null,
+    "linkedin": "https://www.linkedin.com/in/dev-parekh-5b3662230/",
+    "github": "https://github.com/Devp21",
+    "portfolio": null,
+    "other_links": [
+      "https://github.com/Devp21",
+      "https://tel:+91 9892114510",
+      "https://linkedin.com/in/dev-parekh-5b3662230/"
+    ]
+  },
+  "candidate_description": "Results-driven student with a proven ability to tackle complex challenges and drive innovation with leadership skills. Demonstrated success in delivering impactful projects. Having a keen interest in artificial intelligence and machine learning",
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, India",
+      "duration": "September 2023-Present",
+      "gpa_cgpa": "8.6 / 10.00",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Diploma in I.T. Engineering",
+      "institution": "Shri Bhagubhai Mafatlal Polytechnic",
+      "location": "Mumbai, India",
+      "duration": "Jan 2020-June 2023",
+      "gpa_cgpa": "9.11 / 10.00",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "I.T Intern (Technical & Network)",
+      "company": "Endress+Hauser",
+      "location": "Mumbai, India",
+      "duration": "July 2022 - Aug 2022",
+      "description": "Contributed on improving company's website. Worked on application testing. Server Architecture. Introduction to robotic process automation and SAP modules",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": "Machine Learning Intern (Technical)",
+      "company": "ValueDX",
+      "location": "Pune, India",
+      "duration": "June 2024 - Aug 2024",
+      "description": "Gained in-depth knowledge on machine learning topics. Worked on companies project",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nyaya Sahay",
+      "description": "Developed an interactive AI chat bot for Department of Justice using LLama 1b model & fine-tuned it with law data scraped from multiple law websites. Integrated a system for data retrieval and web. Enabled chat bot to learn and respond on the basis of user feedback",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Dec 2024 - Dec 2024"
+    },
+    {
+      "name": "Achija- food ordering system",
+      "description": "Developed various qr codes which redirect to a website (HTML & CSS) & integrated with PHP for back-end. Connected Back-end (PHP) on kitchen PC & deployed ordering system",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Jan 2023 - June 2023"
+    },
+    {
+      "name": "Divya- Open innovation for disabled people",
+      "description": "Website to empower disabled people by creating a platform where they can lookout for jobs, know about various community events, post blogs, gain insights about various government schemes launched for them. Features like read aloud, color blind toggle, map accessibility",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Mar 2023 - Mar 2023"
+    },
+    {
+      "name": "Fauxreal-AI",
+      "description": "Built a synthetic dataset generator using WGAN, CTGAN, and VAE to create realistic datasets from user-provided samples, evaluated with robust metrics. Designed a scalable pipeline to generate and assess synthetic data for privacy-preserving and ML training applications",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Mar 2024 - Dec 2024"
+    },
+    {
+      "name": "AdGenius -AI",
+      "description": "Developed and launched Adgenius AI, an online platform leveraging AI agents for comprehensive marketing automation. Created specialized agents for ad content generation, budget optimization, scalability analysis, reporting insights, and market trend monitoring, enhancing marketing efficiency and decision-making",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Feb 2025 - Feb 2025"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C/C++",
+        "HTML",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "C#",
+        "Java"
+      ],
+      "frameworks_libraries": [],
+      "databases": [
+        "MySQL",
+        "OracleDB"
+      ],
+      "tools_software": [
+        "Git",
+        "Latex",
+        "Wordpress"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [
+      "Project head, DJS Infomatrix"
+    ],
+    "hobbies": [
+      "Creatives Designer, DJS Trinity"
+    ],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:09:11.371964",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Dev_parekh_resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 7,
+    "file_size_mb": 0.04
+  }
+}

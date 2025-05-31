@@ -1,0 +1,222 @@
+{
+  "candidate_name": "Mahek Shah",
+  "contact_information": {
+    "email": "pemac.shah.207@gmail.com",
+    "phone": "+91 93720 80140",
+    "location": "Mumbai, Maharashtra",
+    "linkedin": "https://www.linkedin.com/in/mahek-shah-23498b293/",
+    "github": "https://github.com/mahek0123",
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Artificial Intelligence and Data Science",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, Maharashtra",
+      "duration": "2023-2026",
+      "gpa_cgpa": "8.50",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Diploma in Information Technology",
+      "institution": "Shri Bhagubhai Mafatlal Polytechnic",
+      "location": "Mumbai, Maharashtra",
+      "duration": "2020-2023",
+      "gpa_cgpa": "9.02",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "C++ Technology program Intern",
+      "company": "63 Moons Technologies LTD.",
+      "location": "Mumbai, India",
+      "duration": "July, 2022 – August, 2022",
+      "description": "Developed a network using socket programming, Designed a Server and a Client, Basic analysis and learning on log data",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "C++",
+        "Citrix Workspace"
+      ]
+    },
+    {
+      "position": "Website Developer Intern",
+      "company": "Hexagen",
+      "location": "Mumbai, India",
+      "duration": "July, 2022 – August, 2022",
+      "description": "Created API's for mail and message systems, Developed an interactive website",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nyaya Sahay | SMART INDIA HACKATHON",
+      "description": "Developed an interactive chatbot for the Department of Justice (DoJ) website, providing users with real-time information and assistance related to judicial processes and services like DoJ divisions, traffic fines, eFiling, Fast Track Courts, and Tele Law Services, Live streaming of court cases and access to eCourts Services and eCourts status.",
+      "technologies": [
+        "NLP",
+        "Machine Learning",
+        "Llama model",
+        "selenium",
+        "UI/UX design",
+        "website integration",
+        "AWS cloud services",
+        "APIs"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Designed and implemented a user-friendly UI for the chatbot, enhancing accessibility and usability. Integrated the chatbot on a dummy DoJ website, ensuring seamless functionality and responsiveness.",
+      "duration": null
+    },
+    {
+      "name": "Faux-RealAI",
+      "description": "A Synthetic Dataset Generator to generate synthetic datasets from existing data using advanced Generative Adversarial Networks (GANs). The solution addresses data scarcity, privacy concerns, configurable datasets tailored to specific needs, allowing users to select the optimal GAN approach for their requirements.",
+      "technologies": [
+        "Generative Adversarial Networks",
+        "GANs"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Sparsh | Freelancing project",
+      "description": "An E-Commercial live website of CVD Diamond Jewellery, featuring a seamless shopping experience, secure payment gateways, and user-friendly navigation",
+      "technologies": [
+        "Flutter",
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "GupShup-Say no to boredom | Diploma Final Year Project",
+      "description": "Developed a virtual friend application providing one-to-one interaction as humans does, integrating Flutter application and Python machine learning model, providing people with a user-friendly interface.",
+      "technologies": [
+        "Flutter",
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Implemented interactive and personalized experience for people with stress, anxiety, and boredom.",
+      "duration": null
+    },
+    {
+      "name": "Divya",
+      "description": "Created an inclusive website catering to physically disabled individuals, featuring accessibility tools like voice-activated read-aloud and color toggle for color blindness. Spotlighted blogs, success stories, and real-time government schemes for disabled individuals, alongside a specialized job search portal. Integrated maps using the OpenStreetMap API to display nearby disabled-friendly locations, enhancing accessibility.",
+      "technologies": [
+        "OpenStreetMap API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "C++",
+        "C#",
+        "Java",
+        "Python",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP",
+        "Dart"
+      ],
+      "frameworks_libraries": [
+        "Postman",
+        "Jupyter",
+        "Git",
+        "Flutter",
+        "Github",
+        "Docker",
+        "Wordpress",
+        "Android"
+      ],
+      "databases": [
+        "MySQL",
+        "Oracle",
+        "PostgreSQL",
+        "Firebase",
+        "NoSQL"
+      ],
+      "tools_software": [
+        "Scikit-learn",
+        "Numpy",
+        "Pandas",
+        "SciPy",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "cloud_platforms": [
+        "Amazon Web Services (AWS)"
+      ],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [
+    {
+      "title": "GUPSHUP- A Machine Learning Powered Virtual Friend",
+      "journal_conference": "International Conference on Intelligent Computing & Networking (IC-ICN 2024)",
+      "date": "February, 2024",
+      "authors": [],
+      "description": null
+    }
+  ],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:50:23.066531",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Mahek_TE_AIDS_60018230107.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 3,
+    "file_size_mb": 0.13
+  }
+}

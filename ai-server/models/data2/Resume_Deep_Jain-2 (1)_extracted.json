@@ -1,0 +1,200 @@
+{
+  "candidate_name": "Deep Rajesh Jain",
+  "contact_information": {
+    "email": "deepjain1405@gmail.com",
+    "phone": "+91 7709494643",
+    "location": null,
+    "linkedin": "https://www.linkedin.com/in/deep-jain-81230126a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/deepjaindrj",
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": "Passionate Design and Full -Stack Development enthusiast pursuing a BTech degree, with a strong focus on UI/UX and web technologies.",
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "University Of Mumbai (DJ Sanghvi College of Engineering)",
+      "location": null,
+      "duration": "2022 - 2026",
+      "gpa_cgpa": "8.84/10",
+      "additional_info": null,
+      "coursework": [
+        "Data Structures",
+        "Analysis of Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Artificial Intelligence",
+        "Statistics",
+        "Data Mining and Analytics",
+        "Design Thinking",
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "degree": "HSC",
+      "institution": "Sheth Vidya Mandir English High School & Jr. College",
+      "location": null,
+      "duration": "2020 - 2022",
+      "gpa_cgpa": "83.33%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "SSC",
+      "institution": "Sheth Vidya Mandir English High School & Jr. College",
+      "location": null,
+      "duration": "2019 - 2020",
+      "gpa_cgpa": "93%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Product Design Intern",
+      "company": "Strommer Industries",
+      "location": null,
+      "duration": "December 2023 - January 2024",
+      "description": "Contributed to product design and development processes using software like AutoCad. Assisted in creating concepts for outer packaging design. Managed company social media accounts across multiple platforms. Gained hands-on experience in product development and packaging design.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Legal Matchmaking",
+      "description": "Developed a web application using the PERN stack (PostgreSQL, Express, React, Node.js) to connect clients with legal attorneys online.",
+      "technologies": [
+        "PERN stack",
+        "PostgreSQL",
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Case Analysis and Nyaai Chatbot",
+      "description": "Created the frontend for an AI-powered legal assistant using the PERN stack. Integrated a chatbot feature for resolving legal queries and a case analysis tool to help law students practice with simulated cases.",
+      "technologies": [
+        "PERN stack",
+        "PostgreSQL",
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Info Finance (Personal Finance Dashboard)",
+      "description": "Contributed significantly to improving the UI/UX of an all-inclusive personal finance and stock price prediction model.",
+      "technologies": [
+        "Streamlit",
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Online Parking System App Prototype",
+      "description": "Designed a prototype for an online parking system application using Figma.",
+      "technologies": [
+        "Figma"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Java",
+        "Python"
+      ],
+      "frameworks_libraries": [
+        "Html",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "React",
+        "Node",
+        "Express",
+        "AXIOS",
+        "RestAPI"
+      ],
+      "databases": [
+        "MySql",
+        "PostgreSQL"
+      ],
+      "tools_software": [
+        "Figma",
+        "AutoCad",
+        "Streamlit",
+        "Tableau",
+        "PowerBi",
+        "Microsoft Excel",
+        "PowerPoint",
+        "Google Sheets",
+        "Forms",
+        "Canva",
+        "Git"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "Data preprocessing",
+        "Data cleaning",
+        "Data restructuring",
+        "Data Visualization"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:07:13.142776",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Resume_Deep_Jain-2 (1).pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 3,
+    "file_size_mb": 0.13
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "candidate_name": "Rajvardhan Singh Chib",
+  "contact_information": {
+    "email": "rajvardhansinghchib@gmail.com",
+    "phone": "+91 7021230903",
+    "location": "Mumbai, Maharashtra - 400093, India",
+    "linkedin": "https://www.linkedin.com/in/rajvardhan-singh-chib-1a328a212/",
+    "github": "https://github.com/Rajvardhan135",
+    "portfolio": null,
+    "other_links": [
+      "https://www.horizonview.in/",
+      "https://apps.apple.com/in/app/timesup/id6517351574...",
+      "https://apps.apple.com/in/app/timesup/id6517351574"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": null,
+      "institution": "Dwarkadas .J. Sanghvi College of Engineering",
+      "location": "Vile Parle, Mumbai",
+      "duration": "2026",
+      "gpa_cgpa": "8.6",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Diploma in Computer Engineering",
+      "institution": "Thakur Polytechnic",
+      "location": "Kandivali, Mumbai",
+      "duration": "null",
+      "gpa_cgpa": "91.3%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "React Native Developer",
+      "company": "Horizon View",
+      "location": "Remote",
+      "duration": "null",
+      "description": "Developed and deployed a feature-rich React Native app, available on the App Store.\nUtilized NativeWind for seamless, responsive styling, ensuring a cohesive user experience across different devices.\nImplemented WatermelonDB for efficient offline-first data management, enhancing app performance and user experience.\nIntegrated advanced features like push notifications, real-time updates, and smooth navigation, adhering to best practices in mobile app development.\nCollaborated on UI/UX design, ensuring a visually appealing and user-friendly interface.",
+      "type": "null",
+      "key_achievements": [
+        "Developed and deployed a feature-rich React Native app",
+        "Utilized NativeWind for seamless, responsive styling",
+        "Implemented WatermelonDB for efficient offline-first data management"
+      ],
+      "technologies_used": [
+        "React Native",
+        "NativeWind",
+        "WatermelonDB"
+      ]
+    },
+    {
+      "position": "Web Developer",
+      "company": "Horizon View",
+      "location": "Remote",
+      "duration": "null",
+      "description": "Led the development of HorizonView, a dynamic and responsive company website using React.\nIntegrated Sanity as a headless CMS, enabling flexible content management and easy updates for non-technical users.\nDesigned and implemented modern, visually appealing interfaces, ensuring a strong online presence for the company.\nFocused on performance optimization, achieving fast loading times and a smooth user experience across various devices.\nCollaborated closely with stakeholders to ensure the website met business goals and user expectations.",
+      "type": "null",
+      "key_achievements": [
+        "Led the development of HorizonView",
+        "Integrated Sanity as a headless CMS",
+        "Designed and implemented modern, visually appealing interfaces"
+      ],
+      "technologies_used": [
+        "React",
+        "Sanity"
+      ]
+    },
+    {
+      "position": "Software Developer Intern",
+      "company": "Antennae Ventures",
+      "location": "Mumbai, India",
+      "duration": "June 2024 - August 2024",
+      "description": "Worked on building a SAAS product using React and firebase.\nDemonstrated ability to collaborate with cross-functional teams, adapt to evolving technologies, and contribute effectively to the development lifecycle",
+      "type": "null",
+      "key_achievements": [
+        "Worked on building a SAAS product",
+        "Demonstrated ability to collaborate with cross-functional teams"
+      ],
+      "technologies_used": [
+        "React",
+        "Firebase"
+      ]
+    },
+    {
+      "position": "Web Development Intern",
+      "company": "Rely Services",
+      "location": "Remote",
+      "duration": "July 2022 - August 2022",
+      "description": "Proven experience in developing and maintaining web applications.\nProficient in front-end technologies such as HTML, CSS, and JavaScript",
+      "type": "null",
+      "key_achievements": [
+        "Proven experience in developing and maintaining web applications"
+      ],
+      "technologies_used": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Website",
+      "description": "Developed a comprehensive E-commerce website using React, Redux, and SCSS for state management and styling.\nImplemented cart functionality with real-time totaling and checkout processes, enhancing the user shopping experience.\nIntegrated Firebase for user authentication, real-time database management, and secure payment processing.\nEnsured responsive design and seamless user interactions across various devices, improving customer satisfaction and retention.",
+      "technologies": [
+        "React",
+        "Redux",
+        "SCSS",
+        "Firebase"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Rajvardhan135/e-commerce-website",
+        "other": null
+      },
+      "achievements": "Developed a comprehensive E-commerce website",
+      "duration": null
+    },
+    {
+      "name": "Space Launch Project",
+      "description": "Built a Space Launch project powered by Node.js and MongoDB, leveraging NASA and SpaceX APIs for real-time data retrieval.\nImplemented robust backend architecture using Express for efficient API handling and routing.\nEmployed Mongoose for schema-based data modeling and MongoDB for scalable database management.\nUsed Jest for unit testing, ensuring code quality and reliability.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "Jest"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Built a Space Launch project",
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "React Native",
+        "Redux",
+        "SCSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose"
+      ],
+      "databases": [
+        "PostgresSql"
+      ],
+      "tools_software": [
+        "NativeWind",
+        "WatermelonDB",
+        "Firebase",
+        "Sanity",
+        "Jest"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:51:24.707846",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Rajvardhan Resume.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 7,
+    "file_size_mb": 0.08
+  }
+}

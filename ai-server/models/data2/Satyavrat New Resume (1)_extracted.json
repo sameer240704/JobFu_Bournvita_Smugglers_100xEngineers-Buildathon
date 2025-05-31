@@ -1,0 +1,171 @@
+{
+  "candidate_name": "Satyavrat Tiwari",
+  "contact_information": {
+    "email": "satyavrat2501@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/satyavrat-tiwari-7919b1253",
+    "github": "https://github.com/Satyavrat2005",
+    "other_links": [
+      "https://www.cloudskillsboost.google/public_profiles/fef4a846-073b-46c4-9f25-6ad6799e96dd/badges/5705990?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    ]
+  },
+  "candidate_description": "Passionate AI and Data Science Engineering student with a relentless drive for innovation and problem-solving.",
+  "education": [
+    {
+      "degree": "BTech in AI & DS",
+      "institution": "DJ Sanghavi College of Engineering",
+      "location": "Vile Parle, Mumbai",
+      "duration": "2022-2026",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "High School",
+      "institution": "SVP College of Science",
+      "location": "Dahisar",
+      "duration": "2020-2022",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Developer",
+      "company": "NyaAI",
+      "location": null,
+      "duration": null,
+      "description": "Developed a multilingual legal chatbot using the Gemini API, React, Node.js, and PostgreSQL, designed to answer legal queries with contextual accuracy.",
+      "type": null,
+      "key_achievements": [
+        "Led the integration of advanced AI models for tailored solutions, enhancing data-driven decision-making processes across various business functions."
+      ],
+      "technologies_used": [
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Gemini API"
+      ]
+    },
+    {
+      "position": null,
+      "company": null,
+      "location": null,
+      "duration": null,
+      "description": "Developed a case analysis application utilizing the Gemini API, featuring a dummy case generator for law students, allowing selection of legal domains (criminal, civil, constitutional, etc.) with optional solutions.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Gemini API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sarvagyaata AI",
+      "description": "A comprehensive business intelligence platform using Streamlit, incorporating features like personalized content generation, computer vision, predictive analytics, and sentiment analysis.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Uddeshya",
+      "description": "A web-based platform simplifying operations for NGOs focused on underprivileged student education.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQLite"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Python",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "React.js",
+        "Node.js",
+        "Flask",
+        "Django"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "SQLite"
+      ],
+      "tools_software": [
+        "Streamlit",
+        "Gemini API"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "Machine Learning"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
+      "issuing_organization": "Amazon Web Services (AWS)",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [
+      {
+        "organization": "DJS - NSDC",
+        "role": "Event Co-committee",
+        "description": "Actively contributed to the strategic planning and flawless execution of diverse events, enhancing the committee's success and overall impact"
+      }
+    ],
+    "hobbies": [],
+    "awards": [
+      {
+        "title": "Aryavarta Event Winner",
+        "description": "Instrumental in clinching victory at Aryavarta, I led the AI & DS department to win the Best Debate Team award, securing the Best Speaker title and contributing significantly to our department's recognition as the Best Department."
+      }
+    ],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:04:16.383163",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Satyavrat New Resume (1).pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 4,
+    "file_size_mb": 0.11
+  }
+}

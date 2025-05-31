@@ -1,0 +1,247 @@
+{
+  "candidate_name": "Yash Buddhadev",
+  "contact_information": {
+    "email": "yashbuddhadev21@gmail.com",
+    "phone": "+91 8369306269",
+    "location": "Mumbai, India",
+    "linkedin": "https://www.linkedin.com/in/yash-buddhadev-889955289/",
+    "github": "https://github.com/buddhadevyash",
+    "portfolio": "https://yashbuddhadev.vercel.app/",
+    "other_links": [
+      "https://simppl.org/",
+      "https://docs.google.com/presentation/d/1bbiSmbYgVdqRtph4FXTSQn3oSjLxwf-S/edit?usp=sharing&ouid=106781853094931295951&rtpof=true&sd=true",
+      "https://yashbuddhadev.vercel.app/",
+      "https://drive.google.com/file/d/1jo2kFDO-ncBgcfbLNkAdKgyTiOfHQEy1/view?usp=sharing",
+      "https://www.figma.com/file/PwBxNxdStFO1l33XU8vVho?node-id=0:1&locale=en&type=design",
+      "https://www.figma.com/file/D5ztYYYUqd01nStiVXDsXQ/TechBlitz?type=design&node-id=0-1&mode=design&t=xz5oSM6jKVwrTC2u-0",
+      "https://www.infiheal.com/"
+    ]
+  },
+  "candidate_description": "A student passionate about Artificial Intelligence, Computational Finance and Data Analytics. With a drive for problem-solving and a desire to make a meaningful impact in these dynamic realms.",
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "DJSCE",
+      "location": "Mumbai, India",
+      "duration": "2022-2026",
+      "gpa_cgpa": "8.5",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Mozilla AI Fellow",
+      "company": "@SimPPL",
+      "location": "Remote, HQ in New York",
+      "duration": "February 2024 - present",
+      "description": "Working in AI research, I contribute actively to industry-level RCC projects, focusing on innovative solutions and real-world applications. My work bridges the gap between academic theory and practical implementation.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Microsoft Power BI",
+        "Tableau",
+        "AWS SageMaker",
+        "IBM Watson",
+        "Google Cloud AutoML",
+        "Microsoft Azure ML",
+        "Figma",
+        "Invision Studio",
+        "Adobe Ecosystem",
+        "Microsoft Ecosystem"
+      ]
+    },
+    {
+      "position": "Product Developer",
+      "company": "@Infiheal HealthTech",
+      "location": "Remote, HQ in Pune",
+      "duration": "February 2024 - present",
+      "description": "Contributed to build an app using Flutter, developing revenue models, achieve a product-market fit in the AI space having a lack of benchmarks in India, doing competitive analysis for further research and development.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Flutter",
+        "Firebase",
+        "SQLite3",
+        "MySQL",
+        "MongoDB",
+        "PostgreDB",
+        "Flask",
+        "Django",
+        "Node"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "VaniVikas: Portal For Better Connectivity",
+      "description": "Developed a secure, smart, and user-friendly portal for Ali Yavar Jung Institute, streamlining patient data management and treatment tracking. It features seamless digital case files, automated case allocation, and real-time treatment updates.",
+      "technologies": [
+        "GitHub",
+        "Smart India Hackathon 2024"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/buddhadevyash/INNOV8-HumanAIze-FintechEdition/tree/main",
+        "other": null
+      },
+      "achievements": "Winner at Smart India Hackathon 2024",
+      "duration": null
+    },
+    {
+      "name": "PhysioPlay: AI Playground Demo",
+      "description": "Developing 'PhysioPlay', a persona-based AI system that helps physiotherapy students and doctors enhance their diagnostic skills. Supported by Mozilla India, it offers a platform for hands-on practice and skill development in physiotherapy.",
+      "technologies": [
+        "Mozilla RCC Grant"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "SmartSure: Revolutionising Insurance",
+      "description": "Leveraging AI and advanced analytics, we personalize insurance premiums using fitness data, ML models, and an AI assistant for real-time insights and seamless interaction.",
+      "technologies": [
+        "GitHub",
+        "HumanAIze (FinTech Edition) Hackathon Winner"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/buddhadevyash/INNOV8-HumanAIze-FintechEdition/tree/main",
+        "other": null
+      },
+      "achievements": "Winner at HumanAIze (FinTech Edition) Hackathon",
+      "duration": null
+    },
+    {
+      "name": "Serenity: The New-Age Music App",
+      "description": "Serenity is a Figma prototype music app with seamless controls, including play/pause, skip, and intuitive swiping. It lets users connect with artist communities, discover music, and live stream concerts with real-time interactions.",
+      "technologies": [
+        "Figma",
+        "TechBlitz 2024 UI/UX Design Winner"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Winner at TechBlitz 2024 UI/UX Design",
+      "duration": null
+    },
+    {
+      "name": "Linkrr: One-Stop-Solution For Students",
+      "description": "A platform connecting students with internships, collaborators for research, and small businesses with freelancers for tech, business, and marketing. It fosters global collaboration, empowering students and enabling seamless cross-border opportunities.",
+      "technologies": [
+        "PPT Winner at VECT Ideathon 1.0"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Winner at VECT Ideathon 1.0",
+      "duration": null
+    },
+    {
+      "name": "CheckMate: Your Compliance Buddy",
+      "description": "Developed entire UI and automation software for automated compliance checking AI tool, with thorough research for UX and AI architecture, understanding the parameters required and the industry requirements.",
+      "technologies": [
+        "Figma",
+        "CODECRAFT Hackathon Winner"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Winner at CODECRAFT Hackathon",
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Java",
+        "Python",
+        "Solidity",
+        "Dart",
+        "HTML",
+        "CSS",
+        "JS",
+        "React",
+        "Next.js",
+        "Flutter"
+      ],
+      "frameworks_libraries": [
+        "Microsoft Power BI",
+        "Tableau",
+        "AWS SageMaker",
+        "IBM Watson",
+        "Google Cloud AutoML",
+        "Microsoft Azure ML",
+        "Figma",
+        "Invision Studio",
+        "Adobe Ecosystem",
+        "Microsoft Ecosystem"
+      ],
+      "databases": [
+        "Firebase",
+        "SQLite3",
+        "MySQL",
+        "MongoDB",
+        "PostgreDB"
+      ],
+      "tools_software": [
+        "Flask",
+        "Django",
+        "Node"
+      ],
+      "cloud_platforms": [
+        "AWS",
+        "Google Cloud",
+        "Microsoft Azure"
+      ],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [
+    {
+      "title": "Automated Compliance Checking Of Unstructured Data Using LLMs And Langchain IRJMT",
+      "journal_conference": "IRJMT",
+      "date": null,
+      "authors": [],
+      "description": null
+    }
+  ],
+  "additional_information": {
+    "volunteering": [
+      "Founding Member and Chairperson, @DJS InfoMatrix",
+      "Incharge Treasurer, @DJS National Student Data Corps"
+    ],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:50:20.145181",
+    "model_used": "llama3-8b-8192",
+    "source_file": "YASHRESUME (1).pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 15,
+    "file_size_mb": 0.12
+  }
+}

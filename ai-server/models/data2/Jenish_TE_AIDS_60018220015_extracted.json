@@ -1,0 +1,136 @@
+{
+  "candidate_name": "Jenish Soni",
+  "contact_information": {
+    "email": "jenishsoni62@gmail.com",
+    "phone": "9004192834",
+    "location": null,
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor Of Technology in Artificial Intelligence and Data Science",
+      "institution": "Dwarkadas J. Sanghavi College of Engineering, Mumbai University",
+      "location": null,
+      "duration": "Dec 2022 - Present",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": [
+        "Operating Systems",
+        "Data Structures",
+        "Database Management Systems",
+        "Python Programming",
+        "Data Mining",
+        "Data Analysis Algorithm",
+        "Full Stack Development",
+        "Machine Learning",
+        "NLP"
+      ]
+    },
+    {
+      "degree": null,
+      "institution": "Rustomjee International School & Junior College, Dahisar -west",
+      "location": null,
+      "duration": "2010 -2020",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Student Fellowship",
+      "company": "SimPPL",
+      "location": "Remote",
+      "duration": "March 2024 – Present",
+      "description": "Leading a 1-year AI project funded by Mozilla Firefox under the guidance of an MIT researcher, focused on building a communication-enhancing AI bot.\r\nDeveloping real-time speech analysis tools to assist public speakers and language learners with personalized feedback on pace, grammar, fillers, and emotional tone.\r\nCollaborating with a New York-based nonprofit to deploy scalable AI solutions aimed at improving professional communication skills.",
+      "type": "Student Fellowship",
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": "Video & photo editor",
+      "company": "Kalash jewelers",
+      "location": "Remote",
+      "duration": "April 2023 – May 2024",
+      "description": "Edited high-quality video content for social media enhancing viewer engagement.\r\nCollaborated with creative teams to conceptualize and execute video projects, ensuring alignment with brand vision and messaging.\r\nReceived positive feedback from clients and stakeholders for delivering high-quality edits that meet project goals.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScript",
+        "Python",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "frameworks_libraries": [
+        "Googlecollab",
+        "VScode",
+        "Jennkins"
+      ],
+      "databases": [
+        "MySQL"
+      ],
+      "tools_software": [
+        "Git",
+        "GitHub",
+        "Figma",
+        "Jupyter",
+        "Canva",
+        "Power BI"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [
+      {
+        "organization": "DJSCE TRINI TY",
+        "position": "VICE-CHAIRPERSON HOSPITALITY",
+        "description": "Served as a Volunteer and Committee Member in the Publicity and Hospitality Department, coordinating with artists and content creators while managing publicity efforts to ensure successful events. Currently serving as the Vice Chairperson of the Hospitality Department, overseeing operations and leading a team to deliver exceptional service and seamless coordination."
+      },
+      {
+        "organization": "DJSCE LITSOC",
+        "position": "PUBLICITY HEAD",
+        "description": "With experience in publicity, I co-created impactful Instagram content and successfully organized events to elevate brand visibility and engagement. Currently, as Publicity Head, I oversee all publicity efforts, developing and executing strategies to enhance brand recognition, strengthen media relations, and drive audience engagement."
+      }
+    ],
+    "hobbies": [
+      "UI&UX Design",
+      "Data Analytics",
+      "Natural Language Processing",
+      "Video&photo Editing",
+      "Web Development"
+    ],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:00:21.655098",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Jenish_TE_AIDS_60018220015.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 0,
+    "file_size_mb": 0.81
+  }
+}

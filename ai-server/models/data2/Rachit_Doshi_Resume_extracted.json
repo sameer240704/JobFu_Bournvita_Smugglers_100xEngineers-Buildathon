@@ -1,0 +1,225 @@
+{
+  "candidate_name": "Rachit Doshi",
+  "contact_information": {
+    "email": "rachit404@gmail.com",
+    "phone": "+91-8097039637",
+    "location": "Mumbai, India",
+    "linkedin": "https://www.linkedin.com/in/rachit-doshi404",
+    "github": "https://github.com/rachit404",
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "BTech",
+      "institution": "DJ Sanghvi College of Engineering",
+      "location": "Mumbai, India",
+      "duration": "2022-Present",
+      "gpa_cgpa": "9.2",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "HSC",
+      "institution": "Prakash College",
+      "location": "Mumbai, India",
+      "duration": "2022",
+      "gpa_cgpa": "71",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "ICSE",
+      "institution": "C.N.M. School",
+      "location": "Mumbai, India",
+      "duration": "2020",
+      "gpa_cgpa": "97",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Cloud Computing Intern",
+      "company": "WEBXELA",
+      "location": "Remote",
+      "duration": "June-September, 2024",
+      "description": "Built foundational understanding of cloud service models, cloud deployment types, and IAM standards. Analyzed cloud pricing structures and services offered to identify cost-effective solutions across Azure, AWS, GCP. Contributed to internal documentation summarizing key cloud components, deployment strategies, and platform service comparisons.",
+      "type": "Internship",
+      "key_achievements": [],
+      "technologies_used": [
+        "Cloud Computing"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "FINDR (Food Industry Network for Digital Recommendations)",
+      "description": "A digital platform offering recommendation-driven solutions for food industry machinery.",
+      "technologies": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "React.js",
+        "Flask",
+        "Flask REST APIs",
+        "TensorFlow",
+        "Lucide-React components",
+        "daisyUI themes"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/rachit404/FINDR_IPD",
+        "other": null
+      },
+      "achievements": "Generated accurate recommendations using TF-IDF vectorization along with cosine similarity on collected data.",
+      "duration": null
+    },
+    {
+      "name": "ChatWebApp",
+      "description": "Seamless multimedia communication using MERN, Socket.IO, and Cloudinary",
+      "technologies": [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "Mongoose",
+        "bcrypt.js",
+        "jsonwebtoken",
+        "Socket.IO",
+        "Cloudinary"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/rachit404/ChatWebApp",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Code Editor",
+      "description": "Code playground for HTML, CSS and JS",
+      "technologies": [
+        "JavaScript",
+        "React.js",
+        "CodeMirror",
+        "lucide-react icons",
+        "Vite"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/rachit404/code_editor_frontend",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "C"
+      ],
+      "frameworks_libraries": [
+        "React.js",
+        "Vite.js",
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "Flask REST APIs"
+      ],
+      "databases": [
+        "MySQL",
+        "MongoDB",
+        "Neo4j"
+      ],
+      "tools_software": [
+        "Axios",
+        "React Router",
+        "Tailwind CSS",
+        "Mongoose",
+        "bcrypt.js",
+        "jsonwebtoken",
+        "numpy",
+        "pandas"
+      ],
+      "cloud_platforms": [
+        "Azure",
+        "AWS",
+        "GCP"
+      ],
+      "devops": [],
+      "data_science": [
+        "TensorFlow"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [
+      "Communication",
+      "Team Work",
+      "Problem Solving"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "DeepLearningAI : Machine Learning Specialization",
+      "issuing_organization": "DeepLearningAI",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Palo Alto Networks (AICTE) : CyberSecurity Virtual Internship",
+      "issuing_organization": "Palo Alto Networks (AICTE)",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Coursera : Google Cybersecurity Professional Certificate V2",
+      "issuing_organization": "Coursera",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Google Cloud (AICTE) : Generative AI Virtual Internship",
+      "issuing_organization": "Google Cloud (AICTE)",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Google Cloud : Google Cloud Computing Foundations",
+      "issuing_organization": "Google Cloud",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:02:05.987373",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Rachit_Doshi_Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 6,
+    "file_size_mb": 0.19
+  }
+}

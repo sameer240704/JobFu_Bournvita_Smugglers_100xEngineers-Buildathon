@@ -1,0 +1,88 @@
+2025-05-31 16:28:22,890 - INFO - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+2025-05-31 16:28:27,503 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:28:28,790 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:28:28,792 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 16:28:30,461 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 16:28:30,463 - INFO - Successfully extracted data on attempt 1
+2025-05-31 16:29:09,712 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:29:11,045 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:29:11,046 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 16:29:14,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 16:29:14,120 - INFO - Successfully extracted data on attempt 1
+2025-05-31 16:48:07,708 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:48:11,610 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:48:11,611 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 16:48:18,508 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 16:48:18,511 - INFO - Successfully extracted data on attempt 1
+2025-05-31 16:49:17,015 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:49:18,523 - INFO - Successfully extracted text from 1 pages
+2025-05-31 16:49:18,524 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 16:49:22,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 16:49:22,623 - INFO - Successfully extracted data on attempt 1
+2025-05-31 17:32:39,207 - INFO - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+2025-05-31 17:32:42,761 - INFO - Successfully extracted text from 1 pages
+2025-05-31 17:32:44,969 - INFO - Successfully extracted text from 1 pages
+2025-05-31 17:32:44,971 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 17:32:47,082 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 17:32:47,091 - INFO - Successfully extracted data on attempt 1
+2025-05-31 17:33:57,620 - INFO - Successfully extracted text from 1 pages
+2025-05-31 17:33:58,699 - INFO - Successfully extracted text from 1 pages
+2025-05-31 17:33:58,702 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 17:34:01,531 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 17:34:01,533 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:26:00,380 - INFO - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+2025-05-31 20:26:04,965 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:26:06,626 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:26:06,628 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:26:08,480 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:26:08,488 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:26:47,305 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:26:48,541 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:26:48,542 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:26:50,097 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:26:50,100 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:27:15,549 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:27:16,638 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:27:16,639 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:27:18,767 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:27:18,769 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:28:00,919 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:28:02,169 - INFO - Successfully extracted text from 1 pages
+2025-05-31 20:28:02,170 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:28:04,038 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:28:04,042 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:34:28,895 - INFO - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 401 Unauthorized"
+2025-05-31 20:34:28,896 - ERROR - Failed to initialize Groq client: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-31 20:34:48,309 - INFO - Found GitHub URL: https://github.com/parthgala1/SIH
+2025-05-31 20:34:48,310 - INFO - Found GitHub URL: https://github.com/parthgala1/Game-AI
+2025-05-31 20:34:48,310 - INFO - Found GitHub URL: https://github.com/sameer240704/virtual-vibe
+2025-05-31 20:34:48,310 - INFO - Link extraction completed: LinkedIn: 0, GitHub: 3, Other: 0
+2025-05-31 20:34:48,337 - INFO - Successfully extracted text from 1 pages and 3 links
+2025-05-31 20:34:54,858 - INFO - Found GitHub URL: https://github.com/parthgala1/SIH
+2025-05-31 20:34:54,859 - INFO - Found GitHub URL: https://github.com/parthgala1/Game-AI
+2025-05-31 20:34:54,859 - INFO - Found GitHub URL: https://github.com/sameer240704/virtual-vibe
+2025-05-31 20:34:54,859 - INFO - Link extraction completed: LinkedIn: 0, GitHub: 3, Other: 0
+2025-05-31 20:34:54,899 - INFO - Successfully extracted text from 1 pages and 3 links
+2025-05-31 20:34:54,903 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:34:56,779 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:34:56,781 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:36:46,784 - INFO - Found LinkedIn URL: https://www.linkedin.com/in/sakshi-patel-b70444307/
+2025-05-31 20:36:46,786 - INFO - Link extraction completed: LinkedIn: 1, GitHub: 0, Other: 0
+2025-05-31 20:36:46,833 - INFO - Successfully extracted text from 1 pages and 6 links
+2025-05-31 20:36:49,837 - INFO - Found LinkedIn URL: https://www.linkedin.com/in/sakshi-patel-b70444307/
+2025-05-31 20:36:49,837 - INFO - Link extraction completed: LinkedIn: 1, GitHub: 0, Other: 0
+2025-05-31 20:36:49,885 - INFO - Successfully extracted text from 1 pages and 6 links
+2025-05-31 20:36:49,888 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:37:01,475 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:37:01,477 - INFO - Successfully extracted data on attempt 1
+2025-05-31 20:39:38,721 - INFO - Found LinkedIn URL: https://www.linkedin.com/in/deep-jain-81230126a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+2025-05-31 20:39:38,721 - INFO - Found GitHub URL: https://github.com/deepjaindrj
+2025-05-31 20:39:38,722 - INFO - Link extraction completed: LinkedIn: 1, GitHub: 1, Other: 0
+2025-05-31 20:39:38,765 - INFO - Successfully extracted text from 1 pages and 3 links
+2025-05-31 20:39:39,860 - INFO - Found LinkedIn URL: https://www.linkedin.com/in/deep-jain-81230126a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+2025-05-31 20:39:39,861 - INFO - Found GitHub URL: https://github.com/deepjaindrj
+2025-05-31 20:39:39,861 - INFO - Link extraction completed: LinkedIn: 1, GitHub: 1, Other: 0
+2025-05-31 20:39:39,913 - INFO - Successfully extracted text from 1 pages and 3 links
+2025-05-31 20:39:39,915 - INFO - Attempt 1/5: Processing with Llama 3 8B...
+2025-05-31 20:39:41,742 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:39:41,745 - INFO - Successfully extracted data on attempt 1

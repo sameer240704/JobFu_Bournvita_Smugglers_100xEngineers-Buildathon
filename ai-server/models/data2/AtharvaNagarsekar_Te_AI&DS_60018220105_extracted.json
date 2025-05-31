@@ -1,0 +1,275 @@
+{
+  "candidate_name": "Atharva Nagarsekar",
+  "contact_information": {
+    "email": "atharvanagarsekar17@gmail.com",
+    "phone": "+91 89288 02076",
+    "location": "Mumbai",
+    "linkedin": "https://www.linkedin.com/in/atharva-nagarsekar-9699a9207",
+    "github": "https://github.com/Atharva-N",
+    "portfolio": null,
+    "other_links": [
+      "https://github.com/Atharva-N",
+      "https://drive.google.com/file/d/1Qp4E17kBXgrqiI_ru4qTRjVSITebuX-C/view?usp=sharing",
+      "https://drive.google.com/file/d/1ym9CHVsQCE5CtfqJKpQnFKepws4gHHWL/view?usp=sharing",
+      "https://drive.google.com/file/d/1wRlhiFzWwrZwZvWhaTrv5iBnecyhP-Aq/view?usp=sharing",
+      "https://drive.google.com/file/d/1pR3BJNP8uWczo4j_nQH_IAUUQBQCHbK-/view?usp=sharing",
+      "https://drive.google.com/file/d/1z9W8iUHPTRmArMprD5q9tNwZFSquWaRu/view?usp=sharing",
+      "https://drive.google.com/file/d/1ytMXCkq9HfLl_Gq2fx2bp0t9FtivqfSY/view?usp=sharing",
+      "https://drive.google.com/file/d/1ocYaHsdaylbxCgTjWtO8Vs5eZinJl9hB/view?usp=sharing",
+      "https://drive.google.com/file/d/1yd39zfRnm_mIgIwrvfl34qsRWCATftGt/view?usp=sharing",
+      "https://drive.google.com/file/d/1-cMkMwOGwCmWPSE1LQnQcLlRENJOGR87/view?usp=sharing",
+      "https://drive.google.com/file/d/13F-7rXQV036wENNR50Thiptn4DlGOFdR/view?usp=sharing",
+      "https://drive.google.com/file/d/1s4-YIFbNo_Dm6XAFqHonrvjFk26lisGI/view?usp=sharing",
+      "https://drive.google.com/file/d/1dnfZR-3oQzYXOTinwnj2o1GrF6EEe5i9/view?usp=sharing",
+      "https://linkedin.com/in/Atharva",
+      "https://drive.google.com/file/d/1zGd61pJOK-syhzI2N5BBNaoxScg_BT7q/view?usp=sharing"
+    ]
+  },
+  "candidate_description": "I am currently pursuing a Bachelor of Technology in Artificial Intelligence and Data Science at DJ Sanghvi College of Engineering, Mumbai, where I’ve built a strong academic foundation (9.1 CGPA) and a passion for using technology to address real-world challenges.",
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Artificial Intelligence and Data Science",
+      "institution": "Dwarkadas J Sanghvi College of Engineering",
+      "location": "Mumbai",
+      "duration": "Aug. 2022 – June. 2026",
+      "gpa_cgpa": "9.1 CGPA",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Grade 12",
+      "institution": "Sathaye College",
+      "location": "Vile Parle, Mumbai",
+      "duration": "Aug. 2020 – March 2022",
+      "gpa_cgpa": "83%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Grade 10",
+      "institution": "Parle Tilak Vidyalaya(ICSE)",
+      "location": "Vile Parle, Mumbai",
+      "duration": "June. 2017 – March 2020",
+      "gpa_cgpa": "97%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Data Science Intern",
+      "company": "Next24tech Technology and Services",
+      "location": "Nagpur, Maharashtra",
+      "duration": "June 2024 – August 2024",
+      "description": "Developed a House Price Prediction System Using Data Analytics Algorithms\nDeveloped a E-commerce Product Recommendation System capable of suggesting personalized product recommendations to users, enhancing their shopping experience and increasing sales.\nExplored ways to perform Social Media Sentiment Analysis",
+      "type": null,
+      "key_achievements": [
+        "Developed a House Price Prediction System Using Data Analytics Algorithms",
+        "Developed a E-commerce Product Recommendation System capable of suggesting personalized product recommendations to users, enhancing their shopping experience and increasing sales."
+      ],
+      "technologies_used": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "C++",
+        "SQL",
+        "Django",
+        "React",
+        "Flask"
+      ]
+    },
+    {
+      "position": "Android App Development Intern",
+      "company": "AICTE Eduskills Virtual",
+      "location": null,
+      "duration": "April 2024 – June 2024",
+      "description": "Assisted in developing an Android App to track the number of Covid-19 patients near the user and show directions to the nearest medical care centre.\nAssisted in the development of the interface of the music app.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Android",
+        "Java",
+        "Kotlin"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fin-AI-lytics",
+      "description": "AI Financial Advisor: Stocks, Portfolio Management with Risk Analysis",
+      "technologies": [
+        "API Integration",
+        "AWS",
+        "Firestore",
+        "ML",
+        "Recommendation system",
+        "Generative AI"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Designed a user-friendly walkthrough system to explain financial concepts, increasing accessibility for beginners while providing advanced insights for experienced investor",
+      "duration": "September 2024"
+    },
+    {
+      "name": "RetroSnap",
+      "description": "Developed an image processing application that transforms input photos to mimic the aesthetic of 90s digital cameras using custom filters and computer vision techniques",
+      "technologies": [
+        "React-Native",
+        "AI",
+        "OpenCV",
+        "Pillow",
+        "Image Processing",
+        "Computer Vision"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Implemented advanced image processing techniques using OpenCV to recreate vintage camera effects, such as noise, color grading, and vignetting, enhancing user experience with authentic retro visuals",
+      "duration": "October 2024 – Ongoing"
+    },
+    {
+      "name": "VidGyan",
+      "description": "Developed a full-stack web application which helps students to learn complex topics easily by explaining it with simple real life examples with visualizations.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "Moviepy",
+        "Generative AI",
+        "NLP",
+        "Web scrapping"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "December 2023 – Present"
+    },
+    {
+      "name": "QUESTX",
+      "description": "Developed a personalized AI-driven quiz platform that generates flashcards using reinforcement learning",
+      "technologies": [
+        "React",
+        "Vite",
+        "Reinforcement Learning",
+        "GenAI"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Oct 2024 – Nov 2024"
+    },
+    {
+      "name": "TasteTrail",
+      "description": "Collected and preprocessed data on dishes, including ingredients, cuisine types, calories, and costs, ensuring data quality and consistency.\nDeveloped and trained a recommendation model using collaborative filtering techniques to suggest personalized dish options based on user preferences.",
+      "technologies": [
+        "Recommendation System",
+        "Scikit Learn",
+        "Data Processing",
+        "MySQL"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "August 2024 – Ongoing"
+    },
+    {
+      "name": "Ticket Booking Chatbot",
+      "description": "Developed a web-based travel booking chatbot with secure Firebase Authentication (email, password, Google sign-in) and Amadeus API integration for booking flights, hotels, and trains.",
+      "technologies": [
+        "Generative AI",
+        "NLP",
+        "API Integration",
+        "MongoDB"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "August 2024 – October 2024"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Java",
+        "Python",
+        "C/C++",
+        "SQL"
+      ],
+      "frameworks_libraries": [
+        "Django",
+        "React",
+        "Flask",
+        "Node.js",
+        "Kotlin"
+      ],
+      "databases": [
+        "MySQL"
+      ],
+      "tools_software": [
+        "Git",
+        "Docker",
+        "Google Cloud Platform",
+        "VS Code",
+        "Visual Studio",
+        "PyCharm",
+        "IntelliJ",
+        "Eclipse"
+      ],
+      "cloud_platforms": [
+        "AWS"
+      ],
+      "devops": [
+        "DevOps"
+      ],
+      "data_science": [
+        "Data Science",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "other_technical": [
+        "Generative AI",
+        "Computer Vision",
+        "Image Processing",
+        "NLP"
+      ]
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:00:57.017395",
+    "model_used": "llama3-8b-8192",
+    "source_file": "AtharvaNagarsekar_Te_AI&DS_60018220105.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 19,
+    "file_size_mb": 0.11
+  }
+}

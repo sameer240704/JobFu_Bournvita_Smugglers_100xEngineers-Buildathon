@@ -1,0 +1,216 @@
+{
+  "candidate_name": "Ami Haresh Khatri",
+  "contact_information": {
+    "email": "ćamikhatri100704@gmail.com",
+    "phone": "+91-8369437738",
+    "linkedin": "Linkedin",
+    "github": "https://github.com/amikhatri-07",
+    "other_links": [
+      "https://github.com/amikhatri-07",
+      "https://drive.google.com/file/d/1NV7lAquAXK1R40a0mj9gxgbYK4f08txO/view?usp=drive_link",
+      "https://drive.google.com/file/d/1NhNJNdUYX1BJMiRMlBnFA-Ni38cBTR8L/view?usp=sharing"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Dwarkadas J.Sanghvi College of Engineering, Mumbai University, Maharashtra",
+      "location": "Mumbai, Maharashtra",
+      "duration": "null",
+      "gpa_cgpa": "8.71/10",
+      "additional_info": "Relevant Coursework: Object Oriented Programming, Databases, Discrete Maths, Data Structures and Algorithms, Operating Systems, Natural Language Processing, Computer Networks, Machine Learning, Data Mining, Data Structures and Algorithms, Information Retrieval, Image Processing",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "AI/ML Project Contributer",
+      "company": "SimPPL-registered under Mozilla Firefox, New York",
+      "location": "New York",
+      "duration": "Mar 2024 - Present",
+      "description": "Developed an AI-powered chatbot for physiotherapy students and doctors to practice diagnostic skills, using a JSON-based backend for storing and retrieving patient case studies.\r\nDesigned an interactive conversation system, allowing users to question a virtual patient, analyze symptoms, and make diagnostic decisions.\r\nImplemented a feature to automatically generate and export case studies as PDFs, providing users with detailed reference materials.",
+      "type": "null",
+      "key_achievements": [],
+      "technologies_used": [
+        "JSON",
+        "Git",
+        "GitHub",
+        "Tableau",
+        "Power BI",
+        "Azure",
+        "Docker",
+        "JSON Web Token(JWT)",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Bootstrap",
+        "Canva",
+        "Figma"
+      ]
+    },
+    {
+      "position": "Web Development Intern LOR",
+      "company": "Rogue Code, Mumbai",
+      "location": "Mumbai",
+      "duration": "Jun 2024 - Jul 2024",
+      "description": "Gathered requirements from clients and assisted in designing and developing static and dynamic websites using HTML, TailwindCSS and JavaScript.\r\nMaintained and managed client websites, ensuring smooth functionality and updates.\r\nIntegrated Firebase to store and retrieve student details efficiently.\r\nImplemented EmailJS for automated email notifications and communication.",
+      "type": "null",
+      "key_achievements": [],
+      "technologies_used": [
+        "HTML",
+        "TailwindCSS",
+        "JavaScript",
+        "Firebase",
+        "EmailJS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PhysioPlay",
+      "description": "Developed PhysioPlay, an AI-powered chatbot for physiotherapy students and doctors to practice diagnostics. It features an interactive system for analyzing patient symptoms and a JSON-based backend for storing case studies. Users can also generate and export case studies as PDFs for reference.",
+      "technologies": [
+        "JSON",
+        "Git",
+        "GitHub",
+        "Tableau",
+        "Power BI",
+        "Azure",
+        "Docker",
+        "JSON Web Token(JWT)",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Bootstrap",
+        "Canva",
+        "Figma"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/amikhatri-07/FakeNewsDetection.git",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Fake News Detection System",
+      "description": "Developed a Fake News Detection model using Logistic Regression and TF-IDF to classify news articles. The project included data preprocessing, stemming, and stopword removal, achieving high accuracy with Python and scikit-learn.",
+      "technologies": [
+        "Python",
+        "scikit-learn"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/amikhatri-07/FakeNewsDetection.git",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Email Spam Classifier",
+      "description": "Developed a Spam Email Classifier using Logistic Regression and TF-IDF to categorize emails as spam or ham. The model was trained on email content, achieving high accuracy in predictions, and can classify new emails accordingly.",
+      "technologies": [
+        "Python",
+        "scikit-learn"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/amikhatri-07/EmailSpam-NotSpam.git",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks_libraries": [
+        "Git",
+        "GitHub",
+        "Tableau",
+        "Power BI",
+        "Azure",
+        "Docker",
+        "JSON Web Token(JWT)",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Bootstrap",
+        "Canva",
+        "Figma"
+      ],
+      "databases": [
+        "MySQL",
+        "Firebase"
+      ],
+      "tools_software": [
+        "Git",
+        "GitHub",
+        "Tableau",
+        "Power BI",
+        "Azure",
+        "Docker",
+        "JSON Web Token(JWT)",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Bootstrap",
+        "Canva",
+        "Figma"
+      ],
+      "cloud_platforms": [
+        "Azure"
+      ],
+      "devops": [],
+      "data_science": [
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Web Development"
+    ],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:08:38.556298",
+    "model_used": "llama3-8b-8192",
+    "source_file": "AmiKhatriResume-sem6.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 7,
+    "file_size_mb": 0.07
+  }
+}

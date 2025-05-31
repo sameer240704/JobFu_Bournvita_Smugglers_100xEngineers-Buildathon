@@ -1,0 +1,164 @@
+{
+  "candidate_name": "Atharva Patkar",
+  "contact_information": {
+    "email": "atharva60204@gmail.com",
+    "phone": null,
+    "location": null,
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": "tech enthusiast with a strong passion for Machine learning, generative AI",
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "SVKM'S Dj Sanghvi College of Engineering",
+      "location": null,
+      "duration": "2022-Present",
+      "gpa_cgpa": "8.6",
+      "additional_info": "B.Tech in Artificial Intelligence and Data Science",
+      "coursework": [
+        "Machine learning",
+        "DBMS",
+        "Python",
+        "Cloud Computing",
+        "NLP",
+        "Artificial Intelligence",
+        "Image Processing",
+        "Data Mining and analytics"
+      ]
+    },
+    {
+      "degree": "HSC",
+      "institution": "Sardar Vallabhbhai Patel Jr College",
+      "location": null,
+      "duration": null,
+      "gpa_cgpa": "74.83%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "SSC",
+      "institution": "Sardar Vallabhbhai Patel Vidyalaya",
+      "location": null,
+      "duration": "2020-2022",
+      "gpa_cgpa": "92.80%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": null,
+      "company": "DJS NSDC",
+      "location": null,
+      "duration": null,
+      "description": "Responsible for leading fundraising initiatives and overseeing the coordination committee to secure sponsorships and financial support for events. Responsible for developing strategic partnerships, executing branding and promotional campaigns, and enhancing the organization’s outreach.",
+      "type": "Marketing Head",
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": null,
+      "company": "DJS BEATS",
+      "location": null,
+      "duration": null,
+      "description": "Creatives and Social Media Head at DJS NSDC, responsible for designing event-related creatives and overseeing the junior committee to ensure timely execution of creative tasks. Manage social media strategies to enhance engagement and promote events effectively.",
+      "type": "Creatives and Social Media Head",
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vid-Gyan | Text-to-Video Generation",
+      "description": "Developed an AI-powered system that generates educational videos from text prompts. The project automates the entire workflow, including web scraping for relevant images, creating a structured slideshow, generating AI-based audio narration, and synchronizing the visuals with the narration. This solution enhances content accessibility and simplifies video creation for educational purposes.",
+      "technologies": [
+        "AI",
+        "Machine learning",
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "FacultyFlo | Faculty Management System",
+      "description": "In my Faculty Management System project, I integrated HTML and CSS for the frontend, Django for the backend, and SQLite for the database. Additionally, Incorporated a chatbot using an LLM model to enhance user interactions. An essential feature I added was the attendance manager, specifically designed to streamline faculty tasks and improve efficiency within the system. This comprehensive approach aimed to provide a user-friendly interface while leveraging advanced technologies for seamless functionality and robust performance.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Django",
+        "SQLite",
+        "LLM model"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Python3",
+        "Java",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL"
+      ],
+      "frameworks_libraries": [
+        "OpenCV",
+        "NumPy",
+        "Pandas",
+        "SpaCy",
+        "NLTK"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Git",
+        "VSCode",
+        "Google Colab",
+        "Jupyter Notebook"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [
+      "trekking"
+    ],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:52:59.870652",
+    "model_used": "llama3-8b-8192",
+    "source_file": "AtharvaPatkar_TE_AIDS_60018220129.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 0,
+    "file_size_mb": 0.07
+  }
+}

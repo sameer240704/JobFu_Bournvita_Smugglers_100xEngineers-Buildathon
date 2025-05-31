@@ -1,0 +1,489 @@
+2025-05-31 20:50:17,832 - INFO - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+2025-05-31 20:50:17,837 - INFO - ✅ Groq client initialized successfully
+2025-05-31 20:50:17,839 - INFO - 🚀 Starting batch processing of 36 PDF files
+2025-05-31 20:50:17,839 - INFO - 📁 Input folder: /home/yashbuddhadev21/Documents/100x/100xEngineers-Buildathon/ai-server/models/data
+2025-05-31 20:50:17,840 - INFO - 📁 Output folder: /home/yashbuddhadev21/Documents/100x/100xEngineers-Buildathon/ai-server/models/data2
+2025-05-31 20:50:17,841 - INFO - 
+📄 File 1/36: YASHRESUME (1).pdf
+2025-05-31 20:50:17,841 - INFO - 🔄 Processing: YASHRESUME (1).pdf
+2025-05-31 20:50:18,080 - INFO - Processing YASHRESUME (1).pdf - Attempt 1/5
+2025-05-31 20:50:20,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:50:20,144 - INFO - Successfully extracted data for YASHRESUME (1).pdf on attempt 1
+2025-05-31 20:50:20,146 - INFO - ✅ Successfully processed: YASHRESUME (1).pdf
+2025-05-31 20:50:20,147 - INFO -    👤 Candidate: Yash Buddhadev
+2025-05-31 20:50:20,147 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/yash-buddhadev-889955289/
+2025-05-31 20:50:20,147 - INFO -    🐙 GitHub: https://github.com/buddhadevyash
+2025-05-31 20:50:20,148 - INFO -    💾 Saved to: YASHRESUME (1)_extracted.json
+2025-05-31 20:50:21,149 - INFO - 
+📄 File 2/36: Mahek_TE_AIDS_60018230107.pdf
+2025-05-31 20:50:21,149 - INFO - 🔄 Processing: Mahek_TE_AIDS_60018230107.pdf
+2025-05-31 20:50:21,221 - INFO - Processing Mahek_TE_AIDS_60018230107.pdf - Attempt 1/5
+2025-05-31 20:50:23,062 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:50:23,066 - INFO - Successfully extracted data for Mahek_TE_AIDS_60018230107.pdf on attempt 1
+2025-05-31 20:50:23,067 - INFO - ✅ Successfully processed: Mahek_TE_AIDS_60018230107.pdf
+2025-05-31 20:50:23,068 - INFO -    👤 Candidate: Mahek Shah
+2025-05-31 20:50:23,068 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/mahek-shah-23498b293/
+2025-05-31 20:50:23,069 - INFO -    🐙 GitHub: https://github.com/mahek0123
+2025-05-31 20:50:23,069 - INFO -    💾 Saved to: Mahek_TE_AIDS_60018230107_extracted.json
+2025-05-31 20:50:24,070 - INFO - 
+📄 File 3/36: Sakshi Patel CV (1).pdf
+2025-05-31 20:50:24,071 - INFO - 🔄 Processing: Sakshi Patel CV (1).pdf
+2025-05-31 20:50:24,135 - INFO - Processing Sakshi Patel CV (1).pdf - Attempt 1/5
+2025-05-31 20:50:24,166 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:50:24,167 - INFO - Retrying request to /openai/v1/chat/completions in 26.000000 seconds
+2025-05-31 20:50:51,807 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:50:51,811 - INFO - Successfully extracted data for Sakshi Patel CV (1).pdf on attempt 1
+2025-05-31 20:50:51,813 - INFO - ✅ Successfully processed: Sakshi Patel CV (1).pdf
+2025-05-31 20:50:51,813 - INFO -    👤 Candidate: Sakshi Patel
+2025-05-31 20:50:51,813 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/sakshi-patel-b70444307/
+2025-05-31 20:50:51,814 - INFO -    🐙 GitHub: https://github.com/SakshiPatel7
+2025-05-31 20:50:51,814 - INFO -    💾 Saved to: Sakshi Patel CV (1)_extracted.json
+2025-05-31 20:50:52,816 - INFO - 
+📄 File 4/36: Rajvardhan Resume.pdf
+2025-05-31 20:50:52,816 - INFO - 🔄 Processing: Rajvardhan Resume.pdf
+2025-05-31 20:50:52,846 - INFO - Processing Rajvardhan Resume.pdf - Attempt 1/5
+2025-05-31 20:50:52,877 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:50:52,878 - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2025-05-31 20:51:24,703 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:51:24,707 - INFO - Successfully extracted data for Rajvardhan Resume.pdf on attempt 1
+2025-05-31 20:51:24,708 - INFO - ✅ Successfully processed: Rajvardhan Resume.pdf
+2025-05-31 20:51:24,709 - INFO -    👤 Candidate: Rajvardhan Singh Chib
+2025-05-31 20:51:24,709 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/rajvardhan-singh-chib-1a328a212/
+2025-05-31 20:51:24,709 - INFO -    🐙 GitHub: https://github.com/Rajvardhan135
+2025-05-31 20:51:24,709 - INFO -    💾 Saved to: Rajvardhan Resume_extracted.json
+2025-05-31 20:51:25,710 - INFO - 
+📄 File 5/36: Pratham Malavia Resume.pdf
+2025-05-31 20:51:25,710 - INFO - 🔄 Processing: Pratham Malavia Resume.pdf
+2025-05-31 20:51:25,753 - INFO - Processing Pratham Malavia Resume.pdf - Attempt 1/5
+2025-05-31 20:51:25,780 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:51:25,781 - INFO - Retrying request to /openai/v1/chat/completions in 31.000000 seconds
+2025-05-31 20:51:58,239 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:51:58,241 - INFO - Successfully extracted data for Pratham Malavia Resume.pdf on attempt 1
+2025-05-31 20:51:58,243 - INFO - ✅ Successfully processed: Pratham Malavia Resume.pdf
+2025-05-31 20:51:58,243 - INFO -    👤 Candidate: Pratham Malavia
+2025-05-31 20:51:58,243 - INFO -    🔗 LinkedIn: http://www.linkedin.com/in/pratham-malavia27
+2025-05-31 20:51:58,244 - INFO -    🐙 GitHub: ['https://github.com/Pratham279', 'https://github.com/sameer240704/game-hub']
+2025-05-31 20:51:58,244 - INFO -    💾 Saved to: Pratham Malavia Resume_extracted.json
+2025-05-31 20:51:59,245 - INFO - 
+📄 File 6/36: Sakshi Patel CV.pdf
+2025-05-31 20:51:59,245 - INFO - 🔄 Processing: Sakshi Patel CV.pdf
+2025-05-31 20:51:59,291 - INFO - Processing Sakshi Patel CV.pdf - Attempt 1/5
+2025-05-31 20:51:59,319 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:51:59,319 - INFO - Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2025-05-31 20:52:22,921 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:52:22,923 - INFO - Successfully extracted data for Sakshi Patel CV.pdf on attempt 1
+2025-05-31 20:52:22,923 - INFO - ✅ Successfully processed: Sakshi Patel CV.pdf
+2025-05-31 20:52:22,923 - INFO -    👤 Candidate: Sakshi Patel
+2025-05-31 20:52:22,924 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/sakshi-patel-b70444307/
+2025-05-31 20:52:22,924 - INFO -    🐙 GitHub: https://github.com/SakshiPatel7
+2025-05-31 20:52:22,924 - INFO -    💾 Saved to: Sakshi Patel CV_extracted.json
+2025-05-31 20:52:23,925 - INFO - 
+📄 File 7/36: AtharvaPatkar_TE_AIDS_60018220129.pdf
+2025-05-31 20:52:23,925 - INFO - 🔄 Processing: AtharvaPatkar_TE_AIDS_60018220129.pdf
+2025-05-31 20:52:23,985 - INFO - Processing AtharvaPatkar_TE_AIDS_60018220129.pdf - Attempt 1/5
+2025-05-31 20:52:24,012 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:52:24,012 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-05-31 20:52:59,648 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:52:59,870 - INFO - Successfully extracted data for AtharvaPatkar_TE_AIDS_60018220129.pdf on attempt 1
+2025-05-31 20:52:59,871 - INFO - ✅ Successfully processed: AtharvaPatkar_TE_AIDS_60018220129.pdf
+2025-05-31 20:52:59,872 - INFO -    👤 Candidate: Atharva Patkar
+2025-05-31 20:52:59,872 - INFO -    🔗 LinkedIn: None
+2025-05-31 20:52:59,872 - INFO -    🐙 GitHub: None
+2025-05-31 20:52:59,872 - INFO -    💾 Saved to: AtharvaPatkar_TE_AIDS_60018220129_extracted.json
+2025-05-31 20:53:00,874 - INFO - 
+📄 File 8/36: VRResume_2_6.pdf
+2025-05-31 20:53:00,875 - INFO - 🔄 Processing: VRResume_2_6.pdf
+2025-05-31 20:53:01,001 - INFO - Processing VRResume_2_6.pdf - Attempt 1/5
+2025-05-31 20:53:01,033 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:53:01,034 - INFO - Retrying request to /openai/v1/chat/completions in 25.000000 seconds
+2025-05-31 20:53:27,937 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:53:27,939 - INFO - Successfully extracted data for VRResume_2_6.pdf on attempt 1
+2025-05-31 20:53:27,941 - INFO - ✅ Successfully processed: VRResume_2_6.pdf
+2025-05-31 20:53:27,941 - INFO -    👤 Candidate: Veer S. Raje
+2025-05-31 20:53:27,941 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/veer-raje-067658290/
+2025-05-31 20:53:27,941 - INFO -    🐙 GitHub: https://github.com/VR952004
+2025-05-31 20:53:27,942 - INFO -    💾 Saved to: VRResume_2_6_extracted.json
+2025-05-31 20:53:28,943 - INFO - 
+📄 File 9/36: NamanResume.pdf
+2025-05-31 20:53:28,943 - INFO - 🔄 Processing: NamanResume.pdf
+2025-05-31 20:53:28,980 - INFO - Processing NamanResume.pdf - Attempt 1/5
+2025-05-31 20:53:29,008 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:53:29,009 - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2025-05-31 20:54:00,369 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:54:00,370 - INFO - Successfully extracted data for NamanResume.pdf on attempt 1
+2025-05-31 20:54:00,371 - INFO - ✅ Successfully processed: NamanResume.pdf
+2025-05-31 20:54:00,372 - INFO -    👤 Candidate: Naman Harishkumar Rathod
+2025-05-31 20:54:00,372 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/naman-rathod-a34a3628a
+2025-05-31 20:54:00,372 - INFO -    🐙 GitHub: None
+2025-05-31 20:54:00,372 - INFO -    💾 Saved to: NamanResume_extracted.json
+2025-05-31 20:54:01,373 - INFO - 
+📄 File 10/36: resume_ParthKaria_0125.pdf
+2025-05-31 20:54:01,373 - INFO - 🔄 Processing: resume_ParthKaria_0125.pdf
+2025-05-31 20:54:01,424 - INFO - Processing resume_ParthKaria_0125.pdf - Attempt 1/5
+2025-05-31 20:54:01,450 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:54:01,451 - INFO - Retrying request to /openai/v1/chat/completions in 27.000000 seconds
+2025-05-31 20:54:30,406 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:54:30,410 - INFO - Successfully extracted data for resume_ParthKaria_0125.pdf on attempt 1
+2025-05-31 20:54:30,411 - INFO - ✅ Successfully processed: resume_ParthKaria_0125.pdf
+2025-05-31 20:54:30,411 - INFO -    👤 Candidate: Parth Karia
+2025-05-31 20:54:30,411 - INFO -    🔗 LinkedIn: https://linkedin.com/in/parth-karia-aa415821b/
+2025-05-31 20:54:30,412 - INFO -    🐙 GitHub: https://github.com/parthkaria14
+2025-05-31 20:54:30,412 - INFO -    💾 Saved to: resume_ParthKaria_0125_extracted.json
+2025-05-31 20:54:31,413 - INFO - 
+📄 File 11/36: Gaurav_Resume.pdf
+2025-05-31 20:54:31,413 - INFO - 🔄 Processing: Gaurav_Resume.pdf
+2025-05-31 20:54:31,531 - INFO - Processing Gaurav_Resume.pdf - Attempt 1/5
+2025-05-31 20:54:31,561 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:54:31,562 - INFO - Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2025-05-31 20:55:20,884 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:55:20,886 - INFO - Successfully extracted data for Gaurav_Resume.pdf on attempt 1
+2025-05-31 20:55:20,888 - INFO - ✅ Successfully processed: Gaurav_Resume.pdf
+2025-05-31 20:55:20,888 - INFO -    👤 Candidate: Gaurav Singh Khati
+2025-05-31 20:55:20,889 - INFO -    🔗 LinkedIn: None
+2025-05-31 20:55:20,889 - INFO -    🐙 GitHub: None
+2025-05-31 20:55:20,889 - INFO -    💾 Saved to: Gaurav_Resume_extracted.json
+2025-05-31 20:55:21,891 - INFO - 
+📄 File 12/36: Resume_Aditi_Ambasta .pdf
+2025-05-31 20:55:21,891 - INFO - 🔄 Processing: Resume_Aditi_Ambasta .pdf
+2025-05-31 20:55:21,997 - INFO - Processing Resume_Aditi_Ambasta .pdf - Attempt 1/5
+2025-05-31 20:55:22,024 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:55:22,024 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-05-31 20:55:29,914 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:55:29,917 - INFO - Successfully extracted data for Resume_Aditi_Ambasta .pdf on attempt 1
+2025-05-31 20:55:29,919 - INFO - ✅ Successfully processed: Resume_Aditi_Ambasta .pdf
+2025-05-31 20:55:29,920 - INFO -    👤 Candidate: ADITI AMBASTA
+2025-05-31 20:55:29,920 - INFO -    🔗 LinkedIn: https://www.linkedin.com/posts/vcet-nsdc_we-are-thrilled-to-announce-that-vcet-nsdc-activity-7177020395886178304-zncL?utm_source=share&utm_medium=member_desktop
+2025-05-31 20:55:29,921 - INFO -    🐙 GitHub: https://github.com/AditiAmbasta13
+2025-05-31 20:55:29,921 - INFO -    💾 Saved to: Resume_Aditi_Ambasta _extracted.json
+2025-05-31 20:55:30,922 - INFO - 
+📄 File 13/36: JenishBoricha_2026_AI&DS_60018220051.pdf
+2025-05-31 20:55:30,922 - INFO - 🔄 Processing: JenishBoricha_2026_AI&DS_60018220051.pdf
+2025-05-31 20:55:30,949 - INFO - Processing JenishBoricha_2026_AI&DS_60018220051.pdf - Attempt 1/5
+2025-05-31 20:55:30,989 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:55:30,990 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-05-31 20:56:01,311 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-31 20:56:01,312 - ERROR - API call failed for JenishBoricha_2026_AI&DS_60018220051.pdf - Attempt 1: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n   "candidate_name": "Jenish Boricha",\n   "contact_information": {\n      "email": "jenishboricha07@gmail.com",\n      "phone": "+91 9967731337",\n      "location": "Mumbai - 400067, Maharashtra, India",\n      "linkedin": "https://in.linkedin.com/in/jenish-boricha-8365521b0",\n      "github": "https://github.com/jenishboricha/",\n      "portfolio": null,\n      "other_links": []\n   },\n   "candidate_description": "A passionate AI & Data Science student with a keen interest in Machine Learning, Deep Learning, Data Analytics, Image Processing, and Computer Vision . With a strong analytical mindset and effective communication, I thrive in collaborative environments and continuously adapt to new technologies.",\n   "education": [\n      {\n         "degree": "B.Tech",\n         "institution": "Dwarkadas Jivanlal Sanghvi College of Engineering",\n         "location": null,\n         "duration": "2022 - 2026",\n         "gpa_cgpa": "8.95",\n         "additional_info": null,\n         "coursework": ["Statistics", "DBMS", "Data Structures & Algorithms", "Data Mining", "ML", "DL", "NLP", "DevOps"]\n      }\n   ],\n   "experience": [],\n   "projects": [\n      {\n         "name": "Vidgyaan",\n         "description": "An easy to use and understandable learning tool - learning through video and other visual tools for school students, using Gemini for script generation and extensive scraping and python libraries for making videos and speech.",\n         "technologies": ["Python", "Gemini", "Google TTS"],\n         "links": {\n            "demo": null,\n            "github": null,\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      },\n      {\n         "name": "Nostalgia: [Image Processing App]",\n         "description": "Built a program to edit digital photos in one click to emulate them like film images accurately, using various Image Processing Tools, Libraries along with real film-like characteristics.",\n         "technologies": ["Python"],\n         "links": {\n            "demo": null,\n            "github": null,\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      },\n      {\n         "name": "Regional Food Recommendation System",\n         "description": "Built custom Indian Foods dataset for various popular and local dishes of each state to predict the best dish suitable for an individual by their liking using Clustering.",\n         "technologies": ["Python"],\n         "links": {\n            "demo": null,\n            "github": null,\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      }\n   ],\n   "skills": {\n      "technical_skills": {\n         "programming_languages": ["C", "Python", "JavaScript"],\n         "frameworks_libraries": ["HTML", "CSS", "JavaScript", "Bootstrap", "Flask", "Streamlit"],\n         "databases": ["MySQL", "MSSQL", "MongoDB"],\n         "tools_software": [],\n         "cloud_platforms": [],\n         "devops": [],\n         "data_science": ["Pandas", "Numpy", "Matplotlib", "Seaborn", "ScikitLearn", "TensorFlow", "PyTorch"],\n         "other_technical": ["Alteryx", "Excel", "Power BI", "Tableau"]\n      },\n      "soft_skills": ["Effective Communication", "Adaptibality", "Teamwork", "Creativity"],\n      "industry_knowledge": []\n   ],\n   "achievements": [],\n   "certifications": [],\n   "publications": [],\n   "additional_information": {\n      "volunteering": [],\n      "hobbies": [],\n      "awards": [],\n      "other": []\n   },\n   "extraction_metadata": {\n      "extraction_date": "2023-03-15",\n      "model_used": "Precise Resume Parser",\n      "extraction_method": "Manual",\n      "pages_processed": 1,\n      "ocr_used": false,\n      "links_extracted": 3\n   }\n}}'}}
+2025-05-31 20:56:02,314 - INFO - Processing JenishBoricha_2026_AI&DS_60018220051.pdf - Attempt 2/5
+2025-05-31 20:56:02,361 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:56:02,362 - INFO - Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2025-05-31 20:56:26,724 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-31 20:56:26,727 - ERROR - API call failed for JenishBoricha_2026_AI&DS_60018220051.pdf - Attempt 2: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n   "candidate_name": "Jenish Boricha",\n   "contact_information": {\n      "email": "jenishboricha07@gmail.com",\n      "phone": "+91 9967731337",\n      "location": "Mumbai - 400067, Maharashtra, India",\n      "linkedin": "https://in.linkedin.com/in/jenish-boricha-8365521b0",\n      "github": "https://github.com/jenishboricha/",\n      "portfolio": null,\n      "other_links": []\n   },\n   "candidate_description": "A passionate AI & Data Science student with a keen interest in Machine Learning, Deep Learning, Data Analytics, Image Processing, and Computer Vision . With a strong analytical mindset and effective communication, I thrive in collaborative environments and continuously adapt to new technologies.",\n   "education": [\n      {\n         "degree": "B.Tech",\n         "institution": "Dwarkadas Jivanlal Sanghvi College of Engineering",\n         "location": null,\n         "duration": "2022 - 2026",\n         "gpa_cgpa": "8.95",\n         "additional_info": null,\n         "coursework": [\n            "Statistics",\n            "DBMS",\n            "Data Structures & Algorithms",\n            "Data Mining",\n            "ML",\n            "DL",\n            "NLP",\n            "DevOps"\n         ]\n      }\n   ],\n   "experience": [],\n   "projects": [\n      {\n         "name": "Vidgyaan",\n         "description": "An easy to use and understandable learning tool - learning through video and other visual tools for school students, using Gemini for script generation and extensive scraping and python libraries for making videos and speech.",\n         "technologies": [\n            "Python",\n            "Gemini",\n            "Google TTS"\n         ],\n         "links": {\n            "demo": null,\n            "github": null,\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      },\n      {\n         "name": "Nostalgia: [Image Processing App]",\n         "description": "Built a program to edit digital photos in one click to emulate them like film images accurately, using various Image Processing Tools, Libraries along with real film-like characteristics.",\n         "technologies": [\n            "Python"\n         ],\n         "links": {\n            "demo": null,\n            "github": null,\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      },\n      {\n         "name": "Regional Food Recommendation System",\n         "description": "Built custom Indian Foods dataset for various popular and local dishes of each state to predict the best dish suitable for an individual by their liking using Clustering.",\n         "technologies": [\n            "Python"\n         ],\n         "links": {\n            "demo": null,\n            "github": null,\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      }\n   ],\n   "skills": {\n      "technical_skills": {\n         "programming_languages": [\n            "C",\n            "Python",\n            "JavaScript"\n         ],\n         "frameworks_libraries": [\n            "HTML",\n            "CSS",\n            "JavaScript",\n            "Bootstrap",\n            "Flask",\n            "Streamlit"\n         ],\n         "databases": [\n            "MySQL",\n            "MSSQL",\n            "MongoDB"\n         ],\n         "tools_software": [],\n         "cloud_platforms": [],\n         "devops": [],\n         "data_science": [\n            "Pandas",\n            "Numpy",\n            "Matplotlib",\n            "Seaborn",\n            "ScikitLearn",\n            "TensorFlow",\n            "PyTorch"\n         ],\n         "other_technical": [\n            "Alteryx",\n            "Excel",\n            "Power BI",\n            "Tableau"\n         ]\n      },\n      "soft_skills": [\n         "Effective Communication",\n         "Adaptibality",\n         "Teamwork",\n         "Creativity"\n      ],\n      "industry_knowledge": []\n   ],\n   "achievements": [],\n   "certifications": [],\n   "publications": [],\n   "additional_information": {\n      "volunteering": [],\n      "hobbies": [],\n      "awards": [],\n      "other": []\n   },\n   "extraction_metadata": {\n      "extraction_date": "2023-03-15",\n      "model_used": "Resume Parser",\n      "extraction_method": "Manual",\n      "pages_processed": 1,\n      "ocr_used": false,\n      "links_extracted": 3\n   }\n}}'}}
+2025-05-31 20:56:28,729 - INFO - Processing JenishBoricha_2026_AI&DS_60018220051.pdf - Attempt 3/5
+2025-05-31 20:56:28,767 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:56:28,767 - INFO - Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2025-05-31 20:56:52,209 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:56:52,211 - INFO - Successfully extracted data for JenishBoricha_2026_AI&DS_60018220051.pdf on attempt 3
+2025-05-31 20:56:52,213 - INFO - ✅ Successfully processed: JenishBoricha_2026_AI&DS_60018220051.pdf
+2025-05-31 20:56:52,213 - INFO -    👤 Candidate: Jenish Boricha
+2025-05-31 20:56:52,213 - INFO -    🔗 LinkedIn: https://in.linkedin.com/in/jenish-boricha-8365521b0
+2025-05-31 20:56:52,213 - INFO -    🐙 GitHub: https://github.com/jenishboricha/
+2025-05-31 20:56:52,213 - INFO -    💾 Saved to: JenishBoricha_2026_AI&DS_60018220051_extracted.json
+2025-05-31 20:56:53,215 - INFO - 
+📄 File 14/36: AshnaAglawe_TY_resume.docx.pdf
+2025-05-31 20:56:53,215 - INFO - 🔄 Processing: AshnaAglawe_TY_resume.docx.pdf
+2025-05-31 20:56:53,308 - INFO - Processing AshnaAglawe_TY_resume.docx.pdf - Attempt 1/5
+2025-05-31 20:56:53,333 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:56:53,334 - INFO - Retrying request to /openai/v1/chat/completions in 25.000000 seconds
+2025-05-31 20:57:19,499 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:57:19,501 - INFO - Successfully extracted data for AshnaAglawe_TY_resume.docx.pdf on attempt 1
+2025-05-31 20:57:19,502 - INFO - ✅ Successfully processed: AshnaAglawe_TY_resume.docx.pdf
+2025-05-31 20:57:19,502 - INFO -    👤 Candidate: Ashna Aglawe
+2025-05-31 20:57:19,502 - INFO -    🔗 LinkedIn: http://www.linkedin.com/in/ashna-aglawe-7a335b252
+2025-05-31 20:57:19,503 - INFO -    🐙 GitHub: Not found
+2025-05-31 20:57:19,503 - INFO -    💾 Saved to: AshnaAglawe_TY_resume.docx_extracted.json
+2025-05-31 20:57:20,504 - INFO - 
+📄 File 15/36: BhavvyaJain_TY_AIDS_60018220108.pdf
+2025-05-31 20:57:20,504 - INFO - 🔄 Processing: BhavvyaJain_TY_AIDS_60018220108.pdf
+2025-05-31 20:57:20,578 - INFO - Processing BhavvyaJain_TY_AIDS_60018220108.pdf - Attempt 1/5
+2025-05-31 20:57:20,607 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:57:20,608 - INFO - Retrying request to /openai/v1/chat/completions in 40.000000 seconds
+2025-05-31 20:58:03,180 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:58:03,183 - INFO - Successfully extracted data for BhavvyaJain_TY_AIDS_60018220108.pdf on attempt 1
+2025-05-31 20:58:03,185 - INFO - ✅ Successfully processed: BhavvyaJain_TY_AIDS_60018220108.pdf
+2025-05-31 20:58:03,186 - INFO -    👤 Candidate: BHA VVYA JAIN
+2025-05-31 20:58:03,186 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/bhavvya-jain-380944275/
+2025-05-31 20:58:03,186 - INFO -    🐙 GitHub: https://github.com/Royalrival
+2025-05-31 20:58:03,187 - INFO -    💾 Saved to: BhavvyaJain_TY_AIDS_60018220108_extracted.json
+2025-05-31 20:58:04,188 - INFO - 
+📄 File 16/36: Darshan Jain Resume.pdf
+2025-05-31 20:58:04,188 - INFO - 🔄 Processing: Darshan Jain Resume.pdf
+2025-05-31 20:58:04,240 - INFO - Processing Darshan Jain Resume.pdf - Attempt 1/5
+2025-05-31 20:58:04,274 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:58:04,274 - INFO - Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2025-05-31 20:58:37,889 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:58:37,892 - INFO - Successfully extracted data for Darshan Jain Resume.pdf on attempt 1
+2025-05-31 20:58:37,894 - INFO - ✅ Successfully processed: Darshan Jain Resume.pdf
+2025-05-31 20:58:37,894 - INFO -    👤 Candidate: DARSHAN JAIN
+2025-05-31 20:58:37,894 - INFO -    🔗 LinkedIn: https://linkedin.com/in/djain07
+2025-05-31 20:58:37,895 - INFO -    🐙 GitHub: https://github.com/DarshanJain-07
+2025-05-31 20:58:37,895 - INFO -    💾 Saved to: Darshan Jain Resume_extracted.json
+2025-05-31 20:58:38,896 - INFO - 
+📄 File 17/36: Sameer Gupta Resume (1) (2).pdf
+2025-05-31 20:58:38,896 - INFO - 🔄 Processing: Sameer Gupta Resume (1) (2).pdf
+2025-05-31 20:58:38,941 - INFO - Processing Sameer Gupta Resume (1) (2).pdf - Attempt 1/5
+2025-05-31 20:58:38,974 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:58:38,975 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-05-31 20:59:09,966 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:59:09,969 - INFO - Successfully extracted data for Sameer Gupta Resume (1) (2).pdf on attempt 1
+2025-05-31 20:59:09,970 - INFO - ✅ Successfully processed: Sameer Gupta Resume (1) (2).pdf
+2025-05-31 20:59:09,971 - INFO -    👤 Candidate: Sameer Gupta
+2025-05-31 20:59:09,971 - INFO -    🔗 LinkedIn: None
+2025-05-31 20:59:09,971 - INFO -    🐙 GitHub: https://github.com/sameer240704/virtual-vibe,https://github.com/parthgala1/Game-AI,https://github.com/parthgala1/SIH
+2025-05-31 20:59:09,971 - INFO -    💾 Saved to: Sameer Gupta Resume (1) (2)_extracted.json
+2025-05-31 20:59:10,972 - INFO - 
+📄 File 18/36: HARSHRESUME.pdf
+2025-05-31 20:59:10,972 - INFO - 🔄 Processing: HARSHRESUME.pdf
+2025-05-31 20:59:11,040 - INFO - Processing HARSHRESUME.pdf - Attempt 1/5
+2025-05-31 20:59:11,073 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:59:11,073 - INFO - Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2025-05-31 20:59:45,145 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 20:59:45,148 - INFO - Successfully extracted data for HARSHRESUME.pdf on attempt 1
+2025-05-31 20:59:45,150 - INFO - ✅ Successfully processed: HARSHRESUME.pdf
+2025-05-31 20:59:45,150 - INFO -    👤 Candidate: HARSH CHITALIYA
+2025-05-31 20:59:45,150 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/harshchitaliya
+2025-05-31 20:59:45,151 - INFO -    🐙 GitHub: https://github.com/harshchi19
+2025-05-31 20:59:45,151 - INFO -    💾 Saved to: HARSHRESUME_extracted.json
+2025-05-31 20:59:46,152 - INFO - 
+📄 File 19/36: Jenish_TE_AIDS_60018220015.pdf
+2025-05-31 20:59:46,152 - INFO - 🔄 Processing: Jenish_TE_AIDS_60018220015.pdf
+2025-05-31 20:59:46,194 - INFO - Processing Jenish_TE_AIDS_60018220015.pdf - Attempt 1/5
+2025-05-31 20:59:46,226 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 20:59:46,228 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-05-31 21:00:21,651 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:00:21,654 - INFO - Successfully extracted data for Jenish_TE_AIDS_60018220015.pdf on attempt 1
+2025-05-31 21:00:21,656 - INFO - ✅ Successfully processed: Jenish_TE_AIDS_60018220015.pdf
+2025-05-31 21:00:21,656 - INFO -    👤 Candidate: Jenish Soni
+2025-05-31 21:00:21,656 - INFO -    🔗 LinkedIn: None
+2025-05-31 21:00:21,656 - INFO -    🐙 GitHub: None
+2025-05-31 21:00:21,657 - INFO -    💾 Saved to: Jenish_TE_AIDS_60018220015_extracted.json
+2025-05-31 21:00:22,658 - INFO - 
+📄 File 20/36: AtharvaNagarsekar_Te_AI&DS_60018220105.pdf
+2025-05-31 21:00:22,658 - INFO - 🔄 Processing: AtharvaNagarsekar_Te_AI&DS_60018220105.pdf
+2025-05-31 21:00:22,703 - INFO - Processing AtharvaNagarsekar_Te_AI&DS_60018220105.pdf - Attempt 1/5
+2025-05-31 21:00:22,729 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:00:22,730 - INFO - Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2025-05-31 21:00:57,013 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:00:57,017 - INFO - Successfully extracted data for AtharvaNagarsekar_Te_AI&DS_60018220105.pdf on attempt 1
+2025-05-31 21:00:57,018 - INFO - ✅ Successfully processed: AtharvaNagarsekar_Te_AI&DS_60018220105.pdf
+2025-05-31 21:00:57,019 - INFO -    👤 Candidate: Atharva Nagarsekar
+2025-05-31 21:00:57,019 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/atharva-nagarsekar-9699a9207
+2025-05-31 21:00:57,019 - INFO -    🐙 GitHub: https://github.com/Atharva-N
+2025-05-31 21:00:57,019 - INFO -    💾 Saved to: AtharvaNagarsekar_Te_AI&DS_60018220105_extracted.json
+2025-05-31 21:00:58,020 - INFO - 
+📄 File 21/36: Rachit_Doshi_Resume.pdf
+2025-05-31 21:00:58,020 - INFO - 🔄 Processing: Rachit_Doshi_Resume.pdf
+2025-05-31 21:00:58,061 - INFO - Processing Rachit_Doshi_Resume.pdf - Attempt 1/5
+2025-05-31 21:00:58,101 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:00:58,102 - INFO - Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2025-05-31 21:01:37,599 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-31 21:01:37,601 - ERROR - API call failed for Rachit_Doshi_Resume.pdf - Attempt 1: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n   "candidate_name": "Rachit Doshi",\n   "contact_information": {\n      "email": "rachit404@gmail.com",\n      "phone": "+91-8097039637",\n      "location": "Mumbai, India",\n      "linkedin": "https://www.linkedin.com/in/rachit-doshi404",\n      "github": "https://github.com/rachit404",\n      "portfolio": null,\n      "other_links": []\n   },\n   "candidate_description": null,\n   "education": [\n      {\n         "degree": "BTech",\n         "institution": "DJ Sanghvi College of Engineering",\n         "location": "Mumbai, India",\n         "duration": "2022-Present",\n         "gpa_cgpa": "9.2",\n         "additional_info": null,\n         "coursework": []\n      },\n      {\n         "degree": "HSC",\n         "institution": "Prakash College",\n         "location": "Mumbai, India",\n         "duration": "2022",\n         "gpa_cgpa": "71",\n         "additional_info": null,\n         "coursework": []\n      },\n      {\n         "degree": "ICSE",\n         "institution": "C.N.M. School",\n         "location": "Mumbai, India",\n         "duration": "2020",\n         "gpa_cgpa": "97",\n         "additional_info": null,\n         "coursework": []\n      }\n   ],\n   "experience": [\n      {\n         "position": "Cloud Computing Intern",\n         "company": "WEBXELA",\n         "location": "Remote",\n         "duration": "June-September, 2024",\n         "description": "Built foundational understanding of cloud service models, cloud deployment types, and IAM standards. Analyzed cloud pricing structures and services offered to identify cost-effective solutions across Azure, AWS, GCP. Contributed to internal documentation summarizing key cloud components, deployment strategies, and platform service comparisons.",\n         "type": "Internship",\n         "key_achievements": [],\n         "technologies_used": ["Cloud Computing"]\n      }\n   ],\n   "projects": [\n      {\n         "name": "FINDR (Food Industry Network for Digital Recommendations)",\n         "description": "A digital platform offering recommendation-driven solutions for food industry machinery.",\n         "technologies": ["Java", "Python", "JavaScript", "Flask", "React", "Flask REST APIs", "Socket.IO", "Cloudinary"],\n         "links": {\n            "demo": null,\n            "github": "https://github.com/rachit404/FINDR_IPD",\n            "other": null\n         },\n         "achievements": "Generated accurate recommendations using TF-IDF vectorization along with cosine similarity on collected data.",\n         "duration": null\n      },\n      {\n         "name": "ChatWebApp",\n         "description": "Seamless multimedia communication using MERN, Socket.IO, and Cloudinary",\n         "technologies": ["JavaScript", "MERN", "Socket.IO", "Cloudinary"],\n         "links": {\n            "demo": null,\n            "github": "https://github.com/rachit404/ChatWebApp",\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      },\n      {\n         "name": "Code Editor",\n         "description": "Code playground for HTML, CSS and JS",\n         "technologies": ["JavaScript", "CodeMirror", "Lucide-React icons", "Vite"],\n         "links": {\n            "demo": null,\n            "github": "https://github.com/rachit404/code_editor_frontend",\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      }\n   ],\n   "skills": {\n      "technical_skills": {\n         "programming_languages": ["Java", "Python", "JavaScript", "C"],\n         "frameworks_libraries": ["React.js", "Vite.js", "Node.js", "Express.js", "Flask", "Mongoose", "bcrypt.js", "jsonwebtoken", "numpy", "pandas"],\n         "databases": ["MySQL", "MongoDB", "Neo4j"],\n         "tools_software": ["Axios", "React Router", "Tailwind CSS"],\n         "cloud_platforms": ["Azure", "AWS", "GCP"],\n         "devops": [],\n         "data_science": [],\n         "other_technical": []\n      },\n      "soft_skills": ["Communication", "Team Work", "Problem Solving"],\n      "industry_knowledge": []\n   },\n   "achievements": [],\n   "certifications": [\n      {\n         "name": "DeepLearningAI : Machine Learning Specialization",\n         "issuing_organization": " "candidate_name": "Rachit Doshi",\\n   "contact_information": {\\n      "email": "rachit404@gmail.com",\n      "phone": "+91-8097039637",\n      "location": "Mumbai, India",\n      "linkedin": "https://www.linkedin.com/in/rachit-doshi404",\n      "github": "https://github.com/rachit404",\n      "portfolio": null,\n      "other_links": []\n   },\n   "candidate_description": null,\n   "education": [\n      {\n         "degree": "BTech",\n         "institution": "DJ Sanghvi College of Engineering",\n         "location": "Mumbai, India",\n         "duration": "2022-Present",\n         "gpa_cgpa": "9.2",\n         "additional_info": null,\n         "coursework": []\n      },\n      {\n         "degree": "HSC",\n         "institution": "Prakash College",\n         "location": "Mumbai, India",\n         "duration": "2022",\n         "gpa_cgpa": "71",\n         "additional_info": null,\n         "coursework": []\n      },\n      {\n         "degree": "ICSE",\n         "institution": "C.N.M. School",\n         "location": "Mumbai, India",\n         "duration": "2020",\n         "gpa_cgpa": "97",\n         "additional_info": null,\n         "coursework": []\n      }\n   ],\n   "experience": [\n      {\n         "position": "Cloud Computing Intern",\n         "company": "WEBXELA",\n         "location": "Remote",\n         "duration": "June-September, 2024",\n         "description": "Built foundational understanding of cloud service models, cloud deployment types, and IAM standards. Analyzed cloud pricing structures and services offered to identify cost-effective solutions across Azure, AWS, GCP. Contributed to internal documentation summarizing key cloud components, deployment strategies, and platform service comparisons.",\n         "type": "Internship",\n         "key_achievements": [],\n         "technologies_used": ["Cloud Computing"]\n      }\n   ],\n   "projects": [\n      {\n         "name": "FINDR (Food Industry Network for Digital Recommendations)",\n         "description": "A digital platform offering recommendation-driven solutions for food industry machinery.",\n         "technologies": ["Java", "Python", "JavaScript", "Flask", "React", "Flask REST APIs", "Socket.IO", "Cloudinary"],\n         "links": {\n            "demo": null,\n            "github": "https://github.com/rachit404/FINDR_IPD",\n            "other": null\n         },\n         "achievements": "Generated accurate recommendations using TF-IDF vectorization along with cosine similarity on collected data.",\n         "duration": null\n      },\n      {\n         "name": "ChatWebApp",\n         "description": "Seamless multimedia communication using MERN, Socket.IO, and Cloudinary",\n         "technologies": ["JavaScript", "MERN", "Socket.IO", "Cloudinary"],\n         "links": {\n            "demo": null,\n            "github": "https://github.com/rachit404/ChatWebApp",\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      },\n      {\n         "name": "Code Editor",\n         "description": "Code playground for HTML, CSS and JS",\n         "technologies": ["JavaScript", "CodeMirror", "Lucide-React icons", "Vite"],\n         "links": {\n            "demo": null,\n            "github": "https://github.com/rachit404/code_editor_frontend",\n            "other": null\n         },\n         "achievements": null,\n         "duration": null\n      }\n   ],\n   "skills": {\n      "technical_skills": {\n         "programming_languages": ["Java", "Python", "JavaScript", "C"],\n         "frameworks_libraries": ["React.js", "Vite.js", "Node.js", "Express.js", "Flask", "Mongoose", "bcrypt.js", "jsonwebtoken", "numpy", "pandas"],\n         "databases": ["MySQL", "MongoDB", "Neo4j"],\n         "tools_software": ["Axios", "React Router", "Tailwind CSS"],\n         "cloud_platforms": ["Azure", "AWS", "GCP"],\n         "devops": [],\n         "data_science": [],\n         "other_technical": []\n      },\n      "soft_skills": ["Communication", "Team Work", "Problem Solving"],\n      "industry_knowledge": []\n   },\n   "achievements": [],\n   "certifications": [\n      {\n         "name": "DeepLearningAI : Machine Learning Specialization",\n         "issuing_organization": "DeepLearningAI",\n         "date": null,\n         "expiry_date": null,\n         "credential_id": null\n      },\n      {\n         "name": "Palo Alto Networks (AICTE) : CyberSecurity Virtual Internship",\n         "issuing_organization": "Palo Alto Networks (AICTE)",\n         "date": null,\n         "expiry_date": null,\n         "credential_id": null\n      },\n      {\n         "name": "Coursera : Google Cybersecurity Professional Certificate V2",\n         "issuing_organization": "Coursera",\n         "date": null,\n         "expiry_date": null,\n         "credential_id": null\n      },\n      {\n         "name": "Google Cloud (AICTE) : Generative AI Virtual Internship",\n         "issuing_organization": "Google Cloud (AICTE)",\n         "date": null,\n         "expiry_date": null,\n         "credential_id": null\n      },\n      {\n         "name": "Google Cloud : Google Cloud Computing Foundations",\n         "issuing_organization": "Google Cloud",\n         "date": null,\n         "expiry_date": null,\n         "credential_id": null\n      }\n   ],\n   "publications": [],\n   "additional_information": {\n      "volunteering": [],\n      "hobbies": [],\n      "awards": [],\n      "other": []\n   },\n   "extraction_metadata": {\n      "extraction_date": "2023-03-15",\n      "model_used": "ResumeParser",\n      "extraction_method": "Manual",\n      "pages_processed": 1,\n      "ocr_used": false,\n      "links_extracted": 4\n   }\n}'}}
+2025-05-31 21:01:38,602 - INFO - Processing Rachit_Doshi_Resume.pdf - Attempt 2/5
+2025-05-31 21:01:38,639 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:01:38,640 - INFO - Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2025-05-31 21:02:05,983 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:02:05,986 - INFO - Successfully extracted data for Rachit_Doshi_Resume.pdf on attempt 2
+2025-05-31 21:02:05,988 - INFO - ✅ Successfully processed: Rachit_Doshi_Resume.pdf
+2025-05-31 21:02:05,989 - INFO -    👤 Candidate: Rachit Doshi
+2025-05-31 21:02:05,989 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/rachit-doshi404
+2025-05-31 21:02:05,989 - INFO -    🐙 GitHub: https://github.com/rachit404
+2025-05-31 21:02:05,989 - INFO -    💾 Saved to: Rachit_Doshi_Resume_extracted.json
+2025-05-31 21:02:06,990 - INFO - 
+📄 File 22/36: Nilay Koul Resume.pdf
+2025-05-31 21:02:06,990 - INFO - 🔄 Processing: Nilay Koul Resume.pdf
+2025-05-31 21:02:07,108 - INFO - Processing Nilay Koul Resume.pdf - Attempt 1/5
+2025-05-31 21:02:07,141 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:02:07,142 - INFO - Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2025-05-31 21:02:36,805 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:02:36,808 - INFO - Successfully extracted data for Nilay Koul Resume.pdf on attempt 1
+2025-05-31 21:02:36,810 - INFO - ✅ Successfully processed: Nilay Koul Resume.pdf
+2025-05-31 21:02:36,810 - INFO -    👤 Candidate: NIlay Koul
+2025-05-31 21:02:36,811 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/nilay-koul-28nk07/
+2025-05-31 21:02:36,811 - INFO -    🐙 GitHub: ['https://github.com/Nilay-28', 'https://github.com/Nilay-28/Food_Delivery_Website', 'https://github.com/Nilay-28/Placement_System_Database', 'https://github.com/Nilay-28/Google_Assistant_Clone', 'https://github.com/DragonRider01598/ipdbyannar.git']
+2025-05-31 21:02:36,812 - INFO -    💾 Saved to: Nilay Koul Resume_extracted.json
+2025-05-31 21:02:37,813 - INFO - 
+📄 File 23/36: Vedant_Gavankar_resume.pdf
+2025-05-31 21:02:37,813 - INFO - 🔄 Processing: Vedant_Gavankar_resume.pdf
+2025-05-31 21:02:37,867 - INFO - Processing Vedant_Gavankar_resume.pdf - Attempt 1/5
+2025-05-31 21:02:37,896 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:02:37,897 - INFO - Retrying request to /openai/v1/chat/completions in 27.000000 seconds
+2025-05-31 21:03:06,562 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:03:06,563 - INFO - Successfully extracted data for Vedant_Gavankar_resume.pdf on attempt 1
+2025-05-31 21:03:06,564 - INFO - ✅ Successfully processed: Vedant_Gavankar_resume.pdf
+2025-05-31 21:03:06,564 - INFO -    👤 Candidate: Vedant Gavankar
+2025-05-31 21:03:06,564 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/vedantgavankar
+2025-05-31 21:03:06,565 - INFO -    🐙 GitHub: https://github.com/vedantgavankar24
+2025-05-31 21:03:06,565 - INFO -    💾 Saved to: Vedant_Gavankar_resume_extracted.json
+2025-05-31 21:03:07,566 - INFO - 
+📄 File 24/36: Rohit_Resume.pdf
+2025-05-31 21:03:07,566 - INFO - 🔄 Processing: Rohit_Resume.pdf
+2025-05-31 21:03:07,636 - INFO - Processing Rohit_Resume.pdf - Attempt 1/5
+2025-05-31 21:03:07,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:03:07,662 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-05-31 21:03:38,558 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:03:38,560 - INFO - Successfully extracted data for Rohit_Resume.pdf on attempt 1
+2025-05-31 21:03:38,562 - INFO - ✅ Successfully processed: Rohit_Resume.pdf
+2025-05-31 21:03:38,562 - INFO -    👤 Candidate: ROHIT PARMAR
+2025-05-31 21:03:38,563 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/rohit-parmar-008161258/
+2025-05-31 21:03:38,563 - INFO -    🐙 GitHub: https://github.com/RohitParmar-17
+2025-05-31 21:03:38,564 - INFO -    💾 Saved to: Rohit_Resume_extracted.json
+2025-05-31 21:03:39,565 - INFO - 
+📄 File 25/36: Satyavrat New Resume (1).pdf
+2025-05-31 21:03:39,565 - INFO - 🔄 Processing: Satyavrat New Resume (1).pdf
+2025-05-31 21:03:39,687 - INFO - Processing Satyavrat New Resume (1).pdf - Attempt 1/5
+2025-05-31 21:03:39,722 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:03:39,724 - INFO - Retrying request to /openai/v1/chat/completions in 35.000000 seconds
+2025-05-31 21:04:16,380 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:04:16,382 - INFO - Successfully extracted data for Satyavrat New Resume (1).pdf on attempt 1
+2025-05-31 21:04:16,384 - INFO - ✅ Successfully processed: Satyavrat New Resume (1).pdf
+2025-05-31 21:04:16,384 - INFO -    👤 Candidate: Satyavrat Tiwari
+2025-05-31 21:04:16,385 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/satyavrat-tiwari-7919b1253
+2025-05-31 21:04:16,385 - INFO -    🐙 GitHub: https://github.com/Satyavrat2005
+2025-05-31 21:04:16,385 - INFO -    💾 Saved to: Satyavrat New Resume (1)_extracted.json
+2025-05-31 21:04:17,386 - INFO - 
+📄 File 26/36: NamanResume (1).pdf
+2025-05-31 21:04:17,386 - INFO - 🔄 Processing: NamanResume (1).pdf
+2025-05-31 21:04:17,431 - INFO - Processing NamanResume (1).pdf - Attempt 1/5
+2025-05-31 21:04:17,461 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:04:17,462 - INFO - Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2025-05-31 21:04:41,804 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:04:41,807 - INFO - Successfully extracted data for NamanResume (1).pdf on attempt 1
+2025-05-31 21:04:41,808 - INFO - ✅ Successfully processed: NamanResume (1).pdf
+2025-05-31 21:04:41,809 - INFO -    👤 Candidate: Naman Harishkumar Rathod
+2025-05-31 21:04:41,809 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/naman-rathod-a34a3628a
+2025-05-31 21:04:41,809 - INFO -    🐙 GitHub: None
+2025-05-31 21:04:41,809 - INFO -    💾 Saved to: NamanResume (1)_extracted.json
+2025-05-31 21:04:42,810 - INFO - 
+📄 File 27/36: Arya Gawde Resume (3).pdf
+2025-05-31 21:04:42,810 - INFO - 🔄 Processing: Arya Gawde Resume (3).pdf
+2025-05-31 21:04:42,976 - INFO - Processing Arya Gawde Resume (3).pdf - Attempt 1/5
+2025-05-31 21:04:43,006 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:04:43,007 - INFO - Retrying request to /openai/v1/chat/completions in 37.000000 seconds
+2025-05-31 21:05:22,198 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:05:22,201 - INFO - Successfully extracted data for Arya Gawde Resume (3).pdf on attempt 1
+2025-05-31 21:05:22,203 - INFO - ✅ Successfully processed: Arya Gawde Resume (3).pdf
+2025-05-31 21:05:22,203 - INFO -    👤 Candidate: Arya R. Gawde
+2025-05-31 21:05:22,203 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/arya-gawde-a855b4262
+2025-05-31 21:05:22,204 - INFO -    🐙 GitHub: https://github.com/AryaG26
+2025-05-31 21:05:22,204 - INFO -    💾 Saved to: Arya Gawde Resume (3)_extracted.json
+2025-05-31 21:05:23,205 - INFO - 
+📄 File 28/36: Resume_Aditi_Ambasta  (1).pdf
+2025-05-31 21:05:23,205 - INFO - 🔄 Processing: Resume_Aditi_Ambasta  (1).pdf
+2025-05-31 21:05:23,318 - INFO - Processing Resume_Aditi_Ambasta  (1).pdf - Attempt 1/5
+2025-05-31 21:05:23,346 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:05:23,347 - INFO - Retrying request to /openai/v1/chat/completions in 38.000000 seconds
+2025-05-31 21:06:08,502 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:06:08,505 - INFO - Successfully extracted data for Resume_Aditi_Ambasta  (1).pdf on attempt 1
+2025-05-31 21:06:08,506 - INFO - ✅ Successfully processed: Resume_Aditi_Ambasta  (1).pdf
+2025-05-31 21:06:08,507 - INFO -    👤 Candidate: ADITI AMBASTA
+2025-05-31 21:06:08,507 - INFO -    🔗 LinkedIn: https://www.linkedin.com/posts/vcet-nsdc_we-are-thrilled-to-announce-that-vcet-nsdc-activity-7177020395886178304-zncL?utm_source=share&utm_medium=member_desktop
+2025-05-31 21:06:08,507 - INFO -    🐙 GitHub: https://github.com/AditiAmbasta13
+2025-05-31 21:06:08,507 - INFO -    💾 Saved to: Resume_Aditi_Ambasta  (1)_extracted.json
+2025-05-31 21:06:09,508 - INFO - 
+📄 File 29/36: RESUME_NIKKI_MEHTA.pdf
+2025-05-31 21:06:09,509 - INFO - 🔄 Processing: RESUME_NIKKI_MEHTA.pdf
+2025-05-31 21:06:09,597 - INFO - Processing RESUME_NIKKI_MEHTA.pdf - Attempt 1/5
+2025-05-31 21:06:09,622 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:06:09,623 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-05-31 21:06:40,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:06:40,315 - INFO - Successfully extracted data for RESUME_NIKKI_MEHTA.pdf on attempt 1
+2025-05-31 21:06:40,316 - INFO - ✅ Successfully processed: RESUME_NIKKI_MEHTA.pdf
+2025-05-31 21:06:40,317 - INFO -    👤 Candidate: Nikki Mehta
+2025-05-31 21:06:40,317 - INFO -    🔗 LinkedIn: None
+2025-05-31 21:06:40,317 - INFO -    🐙 GitHub: https://github.com/nikkiii2807
+2025-05-31 21:06:40,317 - INFO -    💾 Saved to: RESUME_NIKKI_MEHTA_extracted.json
+2025-05-31 21:06:41,318 - INFO - 
+📄 File 30/36: Resume_Deep_Jain-2 (1).pdf
+2025-05-31 21:06:41,318 - INFO - 🔄 Processing: Resume_Deep_Jain-2 (1).pdf
+2025-05-31 21:06:41,389 - INFO - Processing Resume_Deep_Jain-2 (1).pdf - Attempt 1/5
+2025-05-31 21:06:41,417 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:06:41,418 - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2025-05-31 21:07:13,140 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:07:13,142 - INFO - Successfully extracted data for Resume_Deep_Jain-2 (1).pdf on attempt 1
+2025-05-31 21:07:13,143 - INFO - ✅ Successfully processed: Resume_Deep_Jain-2 (1).pdf
+2025-05-31 21:07:13,144 - INFO -    👤 Candidate: Deep Rajesh Jain
+2025-05-31 21:07:13,144 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/deep-jain-81230126a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+2025-05-31 21:07:13,144 - INFO -    🐙 GitHub: https://github.com/deepjaindrj
+2025-05-31 21:07:13,144 - INFO -    💾 Saved to: Resume_Deep_Jain-2 (1)_extracted.json
+2025-05-31 21:07:14,145 - INFO - 
+📄 File 31/36: Akshad Jain CV.pdf
+2025-05-31 21:07:14,146 - INFO - 🔄 Processing: Akshad Jain CV.pdf
+2025-05-31 21:07:14,150 - INFO - Attempting OCR fallback for Akshad Jain CV.pdf...
+2025-05-31 21:07:14,567 - WARNING - OCR failed for page 1 of Akshad Jain CV.pdf: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-31 21:07:14,567 - ERROR - OCR failed to extract any text from Akshad Jain CV.pdf
+2025-05-31 21:07:14,571 - ERROR - ❌ Could not extract text from Akshad Jain CV.pdf
+2025-05-31 21:07:15,572 - INFO - 
+📄 File 32/36: owess_resume.pdf
+2025-05-31 21:07:15,572 - INFO - 🔄 Processing: owess_resume.pdf
+2025-05-31 21:07:15,616 - INFO - Processing owess_resume.pdf - Attempt 1/5
+2025-05-31 21:07:15,645 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:07:15,646 - INFO - Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2025-05-31 21:07:45,318 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:07:45,319 - INFO - Successfully extracted data for owess_resume.pdf on attempt 1
+2025-05-31 21:07:45,320 - INFO - ✅ Successfully processed: owess_resume.pdf
+2025-05-31 21:07:45,321 - INFO -    👤 Candidate: Owais Ansari
+2025-05-31 21:07:45,321 - INFO -    🔗 LinkedIn: https://linkedin.com/in/owais
+2025-05-31 21:07:45,321 - INFO -    🐙 GitHub: https://github.com/owais
+2025-05-31 21:07:45,321 - INFO -    💾 Saved to: owess_resume_extracted.json
+2025-05-31 21:07:46,323 - INFO - 
+📄 File 33/36: Aryan More Resume.pdf.pdf
+2025-05-31 21:07:46,323 - INFO - 🔄 Processing: Aryan More Resume.pdf.pdf
+2025-05-31 21:07:46,392 - INFO - Processing Aryan More Resume.pdf.pdf - Attempt 1/5
+2025-05-31 21:07:46,417 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:07:46,418 - INFO - Retrying request to /openai/v1/chat/completions in 24.000000 seconds
+2025-05-31 21:08:11,731 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:08:11,735 - INFO - Successfully extracted data for Aryan More Resume.pdf.pdf on attempt 1
+2025-05-31 21:08:11,737 - INFO - ✅ Successfully processed: Aryan More Resume.pdf.pdf
+2025-05-31 21:08:11,737 - INFO -    👤 Candidate: ARYAN MORE
+2025-05-31 21:08:11,738 - INFO -    🔗 LinkedIn: None
+2025-05-31 21:08:11,738 - INFO -    🐙 GitHub: None
+2025-05-31 21:08:11,738 - INFO -    💾 Saved to: Aryan More Resume.pdf_extracted.json
+2025-05-31 21:08:12,740 - INFO - 
+📄 File 34/36: AmiKhatriResume-sem6.pdf
+2025-05-31 21:08:12,740 - INFO - 🔄 Processing: AmiKhatriResume-sem6.pdf
+2025-05-31 21:08:12,788 - INFO - Processing AmiKhatriResume-sem6.pdf - Attempt 1/5
+2025-05-31 21:08:12,816 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:08:12,816 - INFO - Retrying request to /openai/v1/chat/completions in 24.000000 seconds
+2025-05-31 21:08:38,553 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:08:38,555 - INFO - Successfully extracted data for AmiKhatriResume-sem6.pdf on attempt 1
+2025-05-31 21:08:38,557 - INFO - ✅ Successfully processed: AmiKhatriResume-sem6.pdf
+2025-05-31 21:08:38,558 - INFO -    👤 Candidate: Ami Haresh Khatri
+2025-05-31 21:08:38,558 - INFO -    🔗 LinkedIn: Linkedin
+2025-05-31 21:08:38,559 - INFO -    🐙 GitHub: https://github.com/amikhatri-07
+2025-05-31 21:08:38,559 - INFO -    💾 Saved to: AmiKhatriResume-sem6_extracted.json
+2025-05-31 21:08:39,560 - INFO - 
+📄 File 35/36: Dev_parekh_resume.pdf
+2025-05-31 21:08:39,561 - INFO - 🔄 Processing: Dev_parekh_resume.pdf
+2025-05-31 21:08:39,628 - INFO - Processing Dev_parekh_resume.pdf - Attempt 1/5
+2025-05-31 21:08:39,660 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:08:39,661 - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2025-05-31 21:09:11,368 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:09:11,371 - INFO - Successfully extracted data for Dev_parekh_resume.pdf on attempt 1
+2025-05-31 21:09:11,372 - INFO - ✅ Successfully processed: Dev_parekh_resume.pdf
+2025-05-31 21:09:11,373 - INFO -    👤 Candidate: Dev Parekh
+2025-05-31 21:09:11,373 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/dev-parekh-5b3662230/
+2025-05-31 21:09:11,373 - INFO -    🐙 GitHub: https://github.com/Devp21
+2025-05-31 21:09:11,373 - INFO -    💾 Saved to: Dev_parekh_resume_extracted.json
+2025-05-31 21:09:12,374 - INFO - 
+📄 File 36/36: TejasMaroo.pdf
+2025-05-31 21:09:12,374 - INFO - 🔄 Processing: TejasMaroo.pdf
+2025-05-31 21:09:12,399 - INFO - Processing TejasMaroo.pdf - Attempt 1/5
+2025-05-31 21:09:12,424 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-31 21:09:12,425 - INFO - Retrying request to /openai/v1/chat/completions in 27.000000 seconds
+2025-05-31 21:09:41,146 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-31 21:09:41,148 - INFO - Successfully extracted data for TejasMaroo.pdf on attempt 1
+2025-05-31 21:09:41,150 - INFO - ✅ Successfully processed: TejasMaroo.pdf
+2025-05-31 21:09:41,150 - INFO -    👤 Candidate: Tejas Maroo
+2025-05-31 21:09:41,150 - INFO -    🔗 LinkedIn: https://linkedin.com/in/tejas-maroo
+2025-05-31 21:09:41,151 - INFO -    🐙 GitHub: https://github.com/tejasmaroo
+2025-05-31 21:09:41,151 - INFO -    💾 Saved to: TejasMaroo_extracted.json
+2025-05-31 21:09:42,152 - INFO - 
+============================================================
+2025-05-31 21:09:42,153 - INFO - 📊 BATCH PROCESSING COMPLETE
+2025-05-31 21:09:42,153 - INFO - ============================================================
+2025-05-31 21:09:42,153 - INFO - ✅ Successfully processed: 35
+2025-05-31 21:09:42,153 - INFO - ⏭️  Skipped (already exists): 0
+2025-05-31 21:09:42,153 - INFO - ❌ Failed: 1
+2025-05-31 21:09:42,153 - INFO - 📄 Total files: 36
+2025-05-31 21:09:42,154 - INFO - ⏱️  Total time: 1164.31 seconds
+2025-05-31 21:09:42,155 - INFO - ⚡ Average time per file: 32.34 seconds
+2025-05-31 21:09:42,155 - INFO - ============================================================
