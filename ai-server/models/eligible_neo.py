@@ -10,6 +10,81 @@ class Neo4jCandidateDatabase:
         self.password = "JmNzZQpC5fn-McE111oF-axC9q1dsw6B9TTuRTBl3j8"
         self.database = "neo4j"
         self.driver = GraphDatabase.driver(self.uri, auth=(self.username, self.password))
+        
+        # Location mapping for standardizing locations
+        self.location_mapping = {
+            'mumbai': 'Mumbai, Maharashtra, India',
+            'new york': 'New York, NY, USA',
+            'melbourne': 'Melbourne, Victoria, Australia',
+            'adelaide': 'Adelaide, South Australia, Australia',
+            'bangalore': 'Bangalore, Karnataka, India',
+            'pune': 'Pune, Maharashtra, India',
+            'troy': 'Troy, NY, USA',
+            'são paulo': 'São Paulo, SP, Brazil',
+            'bangkok': 'Bangkok, Bangkok, Thailand',
+            'remote': 'Remote, Remote, Remote',
+            'bengaluru': 'Bangalore, Karnataka, India',
+            'new delhi': 'New Delhi, Delhi, India',
+            'delhi': 'New Delhi, Delhi, India',
+            'chennai': 'Chennai, Tamil Nadu, India',
+            'hyderabad': 'Hyderabad, Telangana, India',
+            'kolkata': 'Kolkata, West Bengal, India',
+            'ahmedabad': 'Ahmedabad, Gujarat, India',
+            'jaipur': 'Jaipur, Rajasthan, India',
+            'lucknow': 'Lucknow, Uttar Pradesh, India',
+            'kanpur': 'Kanpur, Uttar Pradesh, India',
+            'nagpur': 'Nagpur, Maharashtra, India',
+            'indore': 'Indore, Madhya Pradesh, India',
+            'thane': 'Thane, Maharashtra, India',
+            'bhopal': 'Bhopal, Madhya Pradesh, India',
+            'visakhapatnam': 'Visakhapatnam, Andhra Pradesh, India',
+            'pimpri chinchwad': 'Pimpri Chinchwad, Maharashtra, India',
+            'patna': 'Patna, Bihar, India',
+            'vadodara': 'Vadodara, Gujarat, India',
+            'ghaziabad': 'Ghaziabad, Uttar Pradesh, India',
+            'ludhiana': 'Ludhiana, Punjab, India',
+            'coimbatore': 'Coimbatore, Tamil Nadu, India',
+            'kochi': 'Kochi, Kerala, India',
+            'thiruvananthapuram': 'Thiruvananthapuram, Kerala, India',
+            'sydney': 'Sydney, New South Wales, Australia',
+            'brisbane': 'Brisbane, Queensland, Australia',
+            'perth': 'Perth, Western Australia, Australia',
+            'darwin': 'Darwin, Northern Territory, Australia',
+            'hobart': 'Hobart, Tasmania, Australia',
+            'canberra': 'Canberra, ACT, Australia',
+            'los angeles': 'Los Angeles, CA, USA',
+            'chicago': 'Chicago, IL, USA',
+            'houston': 'Houston, TX, USA',
+            'philadelphia': 'Philadelphia, PA, USA',
+            'phoenix': 'Phoenix, AZ, USA',
+            'san antonio': 'San Antonio, TX, USA',
+            'san diego': 'San Diego, CA, USA',
+            'dallas': 'Dallas, TX, USA',
+            'san jose': 'San Jose, CA, USA',
+            'austin': 'Austin, TX, USA',
+            'jacksonville': 'Jacksonville, FL, USA',
+            'san francisco': 'San Francisco, CA, USA',
+            'columbus': 'Columbus, OH, USA',
+            'fort worth': 'Fort Worth, TX, USA',
+            'charlotte': 'Charlotte, NC, USA',
+            'seattle': 'Seattle, WA, USA',
+            'denver': 'Denver, CO, USA',
+            'washington': 'Washington, DC, USA',
+            'boston': 'Boston, MA, USA',
+            'rio de janeiro': 'Rio de Janeiro, RJ, Brazil',
+            'brasília': 'Brasília, DF, Brazil',
+            'salvador': 'Salvador, BA, Brazil',
+            'fortaleza': 'Fortaleza, CE, Brazil',
+            'belo horizonte': 'Belo Horizonte, MG, Brazil',
+            'manaus': 'Manaus, AM, Brazil',
+            'curitiba': 'Curitiba, PR, Brazil',
+            'recife': 'Recife, PE, Brazil',
+            'porto alegre': 'Porto Alegre, RS, Brazil',
+            'chiang mai': 'Chiang Mai, Chiang Mai, Thailand',
+            'phuket': 'Phuket, Phuket, Thailand',
+            'pattaya': 'Pattaya, Chonburi, Thailand',
+            'hat yai': 'Hat Yai, Songkhla, Thailand'
+        }
 
     def close(self):
         self.driver.close()
@@ -59,6 +134,60 @@ class Neo4jCandidateDatabase:
             return value
         return {}
     
+    def _standardize_location(self, location_str: str) -> str:
+        """Standardize location to 'City, State, Country' format"""
+        if not location_str:
+            return None
+        
+        location_clean = str(location_str).strip().lower()
+        
+        # Direct mapping lookup
+        if location_clean in self.location_mapping:
+            return self.location_mapping[location_clean]
+        
+        # Try to parse existing location strings
+        location_parts = [part.strip() for part in str(location_str).split(',')]
+        
+        if len(location_parts) >= 3:
+            # Already in City, State, Country format
+            return ', '.join([part.strip() for part in location_parts[:3]])
+        elif len(location_parts) == 2:
+            # Might be City, Country - try to add state/region
+            city = location_parts[0].strip().lower()
+            country = location_parts[1].strip().lower()
+            
+            # Look up in mapping
+            city_key = city.lower()
+            if city_key in self.location_mapping:
+                return self.location_mapping[city_key]
+            
+            # Default handling for two-part locations
+            if 'india' in country or 'in' == country:
+                return f"{location_parts[0].strip()}, Unknown State, India"
+            elif 'usa' in country or 'us' == country or 'united states' in country:
+                return f"{location_parts[0].strip()}, Unknown State, USA"
+            elif 'australia' in country or 'au' == country:
+                return f"{location_parts[0].strip()}, Unknown State, Australia"
+            elif 'brazil' in country or 'br' == country:
+                return f"{location_parts[0].strip()}, Unknown State, Brazil"
+            elif 'thailand' in country or 'th' == country:
+                return f"{location_parts[0].strip()}, Unknown Province, Thailand"
+            else:
+                return f"{location_parts[0].strip()}, Unknown State, {location_parts[1].strip()}"
+        else:
+            # Single part - try to match with mapping
+            single_location = location_clean.strip()
+            if single_location in self.location_mapping:
+                return self.location_mapping[single_location]
+            
+            # Try partial matching
+            for key, value in self.location_mapping.items():
+                if key in single_location or single_location in key:
+                    return value
+            
+            # Default fallback
+            return f"{location_str.strip()}, Unknown State, Unknown Country"
+    
     def _create_candidate_node(self, session, candidate: Dict[str, Any]):
         # Create Candidate node
         candidate_id = candidate.get('_id', {}).get('$oid', '')
@@ -88,17 +217,30 @@ class Neo4jCandidateDatabase:
         github=self._safe_value(contact_info.get('github')),
         description=self._safe_value(candidate.get('candidate_description')))
         
-        # Process location
+        # Process location with standardized format
         location = contact_info.get('location')
         if location:
-            # Clean location string and extract primary location (city/country)
-            primary_location = self._extract_primary_location(location)
-            if primary_location:
+            standardized_location = self._standardize_location(location)
+            if standardized_location:
+                # Parse city, state, country from standardized location
+                location_parts = [part.strip() for part in standardized_location.split(',')]
+                city = location_parts[0] if len(location_parts) > 0 else ""
+                state = location_parts[1] if len(location_parts) > 1 else ""
+                country = location_parts[2] if len(location_parts) > 2 else ""
+                
                 session.run("""
                     MERGE (l:Location {name: $location})
+                    SET l.city = $city,
+                        l.state = $state,
+                        l.country = $country
                     MERGE (c:Candidate {candidate_id: $candidate_id})
                     MERGE (c)-[:LOCATED_IN]->(l)
-                """, location=primary_location, candidate_id=candidate_id)
+                """, 
+                location=standardized_location, 
+                city=city,
+                state=state,
+                country=country,
+                candidate_id=candidate_id)
         
         # Process education
         education_list = self._safe_list(candidate.get('education'))
@@ -257,28 +399,6 @@ class Neo4jCandidateDatabase:
         soft_skills = self._safe_list(skills_dict.get('soft_skills'))
         for soft in soft_skills:
             create_skill_with_category(session, soft, 'Soft', candidate_id)
-    
-    def _extract_primary_location(self, location_str: str) -> str:
-        """Extract primary location (city or country) from location string"""
-        if not location_str:
-            return None
-        
-        # Common patterns
-        patterns = [
-            r"(Mumbai|New York|Melbourne|Adelaide|Bangalore|Pune|Troy|São Paulo|Bangkok|Remote)",
-            r"([A-Z][a-z]+),?\s*(?:[A-Z]{2})?,?\s*([A-Z][a-z]+)?"
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, str(location_str))
-            if match:
-                # Return the first non-empty group
-                for group in match.groups():
-                    if group:
-                        return group.strip()
-        
-        # Fallback to the entire string if no pattern matches
-        return str(location_str).strip()
 
     def query_candidates(self, query_text: str) -> List[Dict[str, Any]]:
         """Query candidates based on natural language text"""
@@ -287,13 +407,24 @@ class Neo4jCandidateDatabase:
         
         # Build and execute Cypher query
         with self.driver.session(database=self.database) as session:
-            # Updated query to handle both Skills and Technologies
-            result = session.run("""
+            # Updated query to handle both Skills and Technologies with location filtering
+            if parsed_query['location']:
+                # If specific location is requested, filter by it
+                location_filter = """
+                    AND EXISTS {
+                        MATCH (c)-[:LOCATED_IN]->(l:Location)
+                        WHERE l.name CONTAINS $location_filter OR 
+                              l.city CONTAINS $location_filter OR
+                              l.state CONTAINS $location_filter OR
+                              l.country CONTAINS $location_filter
+                    }
+                """
+            else:
+                location_filter = ""
+            
+            query = f"""
                 MATCH (c:Candidate)
-                WHERE $location_filter = '' OR EXISTS {
-                    MATCH (c)-[:LOCATED_IN]->(l:Location)
-                    WHERE l.name = $location_filter
-                }
+                WHERE 1=1 {location_filter}
                 OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)
                 OPTIONAL MATCH (c)-[:HAS_EXPERIENCE_WITH]->(t:Technology)
                 WITH c, 
@@ -309,13 +440,15 @@ class Neo4jCandidateDatabase:
                        c.github AS github,
                        locations,
                        skills + technologies AS all_skills,
-                       [(c)-[:WORKED_AT]->(co) | {company: co.name}] AS experience,
-                       [(c)-[:WORKED_ON]->(p) | {project: p.name, description: p.description}] AS projects
+                       [(c)-[:WORKED_AT]->(co) | {{company: co.name}}] AS experience,
+                       [(c)-[:WORKED_ON]->(p) | {{project: p.name, description: p.description}}] AS projects
                 ORDER BY size([skill IN $skills WHERE skill IN skills + technologies]) DESC, c.name
                 LIMIT 50
-            """, 
-            skills=parsed_query['skills'], 
-            location_filter=parsed_query['location'])
+            """
+            
+            result = session.run(query, 
+                skills=parsed_query['skills'], 
+                location_filter=parsed_query['location'] if parsed_query['location'] else "")
             
             return [dict(record) for record in result]
     
@@ -324,23 +457,39 @@ class Neo4jCandidateDatabase:
         # This is a simplified version - you might want to use NLP for more complex parsing
         query_text = query_text.lower()
         
-        # Known locations
+        # Known locations - updated to work with full location format
         locations = {
             'mumbai': 'Mumbai',
             'new york': 'New York',
             'melbourne': 'Melbourne',
             'adelaide': 'Adelaide',
             'bangalore': 'Bangalore',
+            'bengaluru': 'Bangalore',
             'pune': 'Pune',
             'troy': 'Troy',
             'são paulo': 'São Paulo',
             'bangkok': 'Bangkok',
             'remote': 'Remote',
-            'australia': ['Melbourne', 'Adelaide'],
-            'usa': ['New York', 'Troy'],
-            'brazil': ['São Paulo'],
-            'india': ['Mumbai', 'Bangalore', 'Pune'],
-            'thailand': ['Bangkok']
+            'australia': 'Australia',
+            'usa': 'USA',
+            'united states': 'USA',
+            'brazil': 'Brazil',
+            'india': 'India',
+            'thailand': 'Thailand',
+            'maharashtra': 'Maharashtra',
+            'karnataka': 'Karnataka',
+            'delhi': 'Delhi',
+            'tamil nadu': 'Tamil Nadu',
+            'telangana': 'Telangana',
+            'west bengal': 'West Bengal',
+            'gujarat': 'Gujarat',
+            'rajasthan': 'Rajasthan',
+            'uttar pradesh': 'Uttar Pradesh',
+            'madhya pradesh': 'Madhya Pradesh',
+            'andhra pradesh': 'Andhra Pradesh',
+            'bihar': 'Bihar',
+            'punjab': 'Punjab',
+            'kerala': 'Kerala'
         }
         
         # Known skill categories
@@ -359,10 +508,7 @@ class Neo4jCandidateDatabase:
         found_location = ''
         for loc_key, loc_value in locations.items():
             if loc_key in query_text:
-                if isinstance(loc_value, list):
-                    found_location = loc_value[0]  # Take the first matching city
-                else:
-                    found_location = loc_value
+                found_location = loc_value
                 break
         
         # Extract skills
@@ -413,7 +559,7 @@ class Neo4jCandidateDatabase:
                        c.linkedin AS linkedin,
                        c.github AS github,
                        c.description AS description,
-                       COLLECT(DISTINCT {type: 'location', name: l.name}) AS locations,
+                       COLLECT(DISTINCT {type: 'location', name: l.name, city: l.city, state: l.state, country: l.country}) AS locations,
                        COLLECT(DISTINCT {type: 'education', institution: i.name, degree: edu.degree, duration: edu.duration, gpa: edu.gpa}) AS education,
                        COLLECT(DISTINCT {type: 'experience', company: co.name, position: exp.position, duration: exp.duration, description: exp.description}) AS experience,
                        COLLECT(DISTINCT {type: 'project', name: p.name, description: p.description, duration: proj.duration, achievements: proj.achievements}) AS projects,
@@ -448,6 +594,21 @@ class Neo4jCandidateDatabase:
             if record:
                 return dict(record)
             return {}
+
+    def get_location_breakdown(self):
+        """Get breakdown of candidates by location"""
+        with self.driver.session(database=self.database) as session:
+            result = session.run("""
+                MATCH (c:Candidate)-[:LOCATED_IN]->(l:Location)
+                RETURN l.name AS location, 
+                       l.city AS city,
+                       l.state AS state,
+                       l.country AS country,
+                       COUNT(c) AS candidate_count
+                ORDER BY candidate_count DESC
+            """)
+            
+            return [dict(record) for record in result]
 
 # Example usage
 if __name__ == "__main__":
