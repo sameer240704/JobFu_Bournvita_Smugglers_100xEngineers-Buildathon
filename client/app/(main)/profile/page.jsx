@@ -1,19 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import {
-  Save,
-  User,
-  Mail,
-  Phone,
-  Building,
-  Link,
-  Github,
-  Twitter,
-  Check,
-  X,
-} from "lucide-react";
-import { FaXTwitter, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { Save, User, Mail, Phone, Building, Check, X } from "lucide-react";
+import { FaXTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { Label } from "@/components/ui/label";
 import { useCurrentUserImage } from "@/hooks/use-current-user-image";
 import { useCurrentUserName } from "@/hooks/use-current-user-name";
@@ -137,7 +126,7 @@ const ProfilePage = () => {
         );
         const data = await response.json();
         if (response.ok) {
-          setUser(data.user);
+          setUser(data.user[0]);
         }
       } catch (error) {
         console.error("Error fetching user data:", error);
@@ -154,7 +143,7 @@ const ProfilePage = () => {
 
   return (
     <div className="h-screen bg-transparent overflow-auto">
-      <div className="container mx-auto px-4 max-w-7xl">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
         <div className="mb-8 p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-purple-100 dark:border-purple-800/30">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
@@ -347,7 +336,7 @@ const ProfilePage = () => {
                           handleInputChange("role", e.target.value)
                         }
                         disabled={!isEditing}
-                        className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all disabled:bg-gray-50 dark:disabled:bg-gray-800 disabled:cursor-not-allowed"
+                        className="w-full h-12.5 px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all disabled:bg-gray-50 dark:disabled:bg-gray-800 disabled:cursor-not-allowed"
                       >
                         <option value="recruiter">Recruiter</option>
                         <option value="hiring_manager">Hiring Manager</option>
@@ -409,7 +398,7 @@ const ProfilePage = () => {
                         Twitter URL
                       </Label>
                       <div className="relative">
-                        <FaTwitter
+                        <FaXTwitter
                           size={16}
                           className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
                         />
