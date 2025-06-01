@@ -13,24 +13,24 @@
       "https://frcelipe7.github.io/"
     ]
   },
-  "candidate_description": "Desenvolvedor Full Stack com experiência na construção e otimização de aplicações web, melhoramento da experiência do usuário e redução de custos por meio de soluções de software.",
+  "candidate_description": "Full Stack Developer with experience in building and optimizing web applications, improving user experience and reducing costs through software solutions.",
   "education": [
     {
       "degree": null,
       "institution": "UEPA",
       "location": null,
-      "duration": "Previsão 2027",
+      "duration": "Till 2027",
       "gpa_cgpa": null,
-      "additional_info": "Engenharia de Software",
+      "additional_info": "Software Engineering",
       "coursework": []
     },
     {
       "degree": null,
       "institution": "IFPA",
       "location": null,
-      "duration": "Jun 2021 - Dez 2021",
+      "duration": "June 2021 - December 2021",
       "gpa_cgpa": null,
-      "additional_info": "Técnico em Eletroeletrônica",
+      "additional_info": "Electronics Technician",
       "coursework": []
     }
   ],
@@ -39,14 +39,14 @@
       "position": "Full Stack Web Developer",
       "company": "Bioquality",
       "location": null,
-      "duration": "Set 2023 - atualmente",
-      "description": "Automatizei fluxos de trabalho e atualizei processos, aumentando a eficiência em 40% e reduzindo o trabalho manual em 90% em algumas áreas;",
+      "duration": "Sep 2023 - present",
+      "description": "Automated workflows and updated processes, increasing efficiency by 40% and reducing manual work by 90% in some areas",
       "type": null,
       "key_achievements": [
-        "Aumentou a eficiência em 40%",
-        "Reduziu o trabalho manual em 90%",
-        "Reduziu os custos da empresa em 15%",
-        "Aumentou a satisfação do cliente em 20%"
+        "Increased efficiency by 40%",
+        "Reduced manual labor by 90%",
+        "Reduced company costs by 15%",
+        "Increased customer satisfaction by 20%"
       ],
       "technologies_used": [
         "Django",
@@ -59,24 +59,24 @@
       ]
     },
     {
-      "position": "Estagiário Técnico em Eletroeletrônica",
+      "position": "Intern in Electronics Technology",
       "company": "IFPA",
       "location": null,
-      "duration": "Jun 2021 - Dez 2021",
-      "description": "Desenvolvi um site para a AFMA para melhorar a presença online e a acessibilidade.",
+      "duration": "June 2021 - December 2021",
+      "description": "I developed a website for AFMA to improve online presence and accessibility.",
       "type": null,
       "key_achievements": [],
       "technologies_used": [
         "HTML",
         "CSS",
         "JavaScript",
-        "Suporte Técnico & Matemática Financeira"
+        "Technical Support and Financial Mathematics"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Criação de Landing Page",
+      "name": "Landing Page Creation",
       "description": null,
       "technologies": [
         "Figma",
@@ -114,7 +114,7 @@
       "duration": null
     },
     {
-      "name": "Jogo da Velha com IA",
+      "name": "Tic Tac Toe with AI",
       "description": null,
       "technologies": [
         "Django",
@@ -134,7 +134,7 @@
       "duration": null
     },
     {
-      "name": "Caminhos & Trilhas",
+      "name": "Paths and Trails",
       "description": null,
       "technologies": [
         "HTML",
@@ -211,7 +211,7 @@
       "credential_id": null
     },
     {
-      "name": "Certificado de Inglês C1 Avançado",
+      "name": "Advanced C1 English Certificate",
       "issuing_organization": "EF SET",
       "date": "2024",
       "expiry_date": null,

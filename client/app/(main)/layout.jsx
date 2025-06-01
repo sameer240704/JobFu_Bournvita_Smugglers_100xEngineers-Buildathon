@@ -14,7 +14,7 @@ export default function MindPlayLayout({ children }) {
             {children}
           </main>
 
-          <Toaster />
+          <Toaster position="bottom-right" richColors />
         </div>
       </NextStep>
     </NextStepProvider>
