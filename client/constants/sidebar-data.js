@@ -6,6 +6,7 @@ import {
   User,
   Settings,
   BookOpenText,
+  Newspaper,
 } from "lucide-react";
 
 export const sidebarData = [
@@ -28,6 +29,11 @@ export const sidebarData = [
     title: "Follow-Ups",
     route: "/follow-ups",
     icon: Clock,
+  },
+  {
+    title: "News",
+    route: "/news",
+    icon: Newspaper,
   },
   {
     title: "Documentation",

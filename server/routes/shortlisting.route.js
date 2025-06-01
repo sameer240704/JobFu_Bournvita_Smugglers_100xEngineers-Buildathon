@@ -1,18 +1,22 @@
-import express from 'express';
+import express from "express";
 import {
-    getShortlistedCandidates,
-    sendOffer,
-    trackEmailOpen,
-    getOfferDetails,
-    respondToOffer
-} from '../controllers/shortlisting.controller.js';
+  addShortlistedCandidate,
+  getShortlistedCandidates,
+  sendOffer,
+  trackEmailOpen,
+  getOfferDetails,
+  respondToOffer,
+  deleteShortlistedCandidate,
+} from "../controllers/shortlisting.controller.js";
 
 const router = express.Router();
 
-router.get('/user/:userId', getShortlistedCandidates);
-router.post('/user/:userId/send-offer', sendOffer);
-router.get('/track-email/:offerId', trackEmailOpen);
-router.get('/offer/:offerId', getOfferDetails);
-router.post('/offer/:offerId/respond', respondToOffer);
+router.post("/user/:userId/add", addShortlistedCandidate);
+router.get("/user/:userId", getShortlistedCandidates);
+router.post("/user/:userId/send-offer", sendOffer);
+router.get("/track-email/:offerId", trackEmailOpen);
+router.get("/offer/:offerId", getOfferDetails);
+router.post("/offer/:offerId/respond", respondToOffer);
+router.delete("/user/:userId/delete/:candidateId", deleteShortlistedCandidate);
 
 export default router;

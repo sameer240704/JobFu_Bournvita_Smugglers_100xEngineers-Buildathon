@@ -1,140 +1,199 @@
-import Shortlisting from '../models/shortlisting.model.js';
-import { sendOfferEmail } from '../middlewares/email.middleware.js';
-import User from '../models/user.model.js';
+import Shortlisting from "../models/shortlisting.model.js";
+import { sendOfferEmail } from "../middlewares/email.middleware.js";
+import User from "../models/user.model.js";
+
+export const addShortlistedCandidate = async (req, res) => {
+  try {
+    const { userId, candidateId, chatHistoryId, offerDetails } = req.body;
+    const existingShortlisting = await Shortlisting.findOne({
+      userId,
+      candidateId,
+    });
+    if (existingShortlisting) {
+      return res
+        .status(400)
+        .json({ message: "Candidate is already shortlisted" });
+    }
+    const shortlisted = new Shortlisting({
+      userId,
+      candidateId,
+      chatHistoryId,
+      offerDetails,
+      status: "pending",
+      emailStatus: {
+        sentAt: new Date(),
+        openedAt: null,
+        lastViewed: null,
+      },
+    });
+    await shortlisted.save();
+    res.status(201).json({ message: "Candidate added to shortlist" });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
 
 export const getShortlistedCandidates = async (req, res) => {
-    try {
-        const { userId } = req.params;
-        const { status, search } = req.query;
+  try {
+    const { userId } = req.params;
+    const { status, search } = req.query;
 
-        let query = { userId };
+    let query = { userId };
 
-        if (status && status !== 'all') {
-            query.status = status;
-        }
-
-        if (search) {
-            query.$or = [
-                { 'candidateDetails.name': { $regex: search, $options: 'i' } },
-                { 'offerDetails.jobTitle': { $regex: search, $options: 'i' } }
-            ];
-        }
-
-        const shortlisted = await Shortlisting.find(query)
-            .populate('candidateId', 'candidate_name contact_information skills experience')
-            .populate('chatHistoryId', 'createdAt')
-            .sort({ createdAt: -1 });
-
-        res.status(200).json(shortlisted);
-    } catch (error) {
-        res.status(500).json({ message: error.message });
+    if (status && status !== "all") {
+      query.status = status;
     }
+
+    if (search) {
+      query.$or = [
+        { "candidateDetails.name": { $regex: search, $options: "i" } },
+        { "offerDetails.jobTitle": { $regex: search, $options: "i" } },
+      ];
+    }
+
+    const shortlisted = await Shortlisting.find(query)
+      .populate(
+        "candidateId",
+        "candidate_name contact_information skills experience"
+      )
+      .populate("chatHistoryId", "createdAt")
+      .sort({ createdAt: -1 });
+
+    res.status(200).json(shortlisted);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };
 
 export const sendOffer = async (req, res) => {
-    try {
-        const { userId } = req.params;
-        const { candidate, emailTemplate, templateVariables } = req.body;
+  try {
+    const { userId } = req.params;
+    const { candidate, emailTemplate, templateVariables } = req.body;
 
-        const sessionUserId = await User.find({ supabaseId: userId }, { _id: 1 });
+    const sessionUserId = await User.find({ supabaseId: userId }, { _id: 1 });
 
-        const result = await sendOfferEmail(sessionUserId, candidate, emailTemplate, templateVariables);
+    const result = await sendOfferEmail(
+      sessionUserId,
+      candidate,
+      emailTemplate,
+      templateVariables
+    );
 
-        console.log(result);
+    console.log(result);
 
-        if (result.success) {
-            res.status(200).json({
-                success: true,
-                message: 'Email sent successfully',
-                offerId: result.offerId,
-                // shortlistingId: result.shortlistingId
-            });
-        } else {
-            res.status(500).json({ message: result.error });
-        }
-    } catch (error) {
-        res.status(500).json({ message: error.message });
+    if (result.success) {
+      res.status(200).json({
+        success: true,
+        message: "Email sent successfully",
+        offerId: result.offerId,
+        // shortlistingId: result.shortlistingId
+      });
+    } else {
+      res.status(500).json({ message: result.error });
     }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };
 
 export const trackEmailOpen = async (req, res) => {
-    try {
-        const { offerId } = req.params;
+  try {
+    const { offerId } = req.params;
 
-        await Shortlisting.findOneAndUpdate(
-            { offerId },
-            {
-                $set: {
-                    status: 'viewed',
-                    'emailStatus.openedAt': new Date(),
-                    'emailStatus.lastViewed': new Date()
-                }
-            }
-        );
+    await Shortlisting.findOneAndUpdate(
+      { offerId },
+      {
+        $set: {
+          status: "viewed",
+          "emailStatus.openedAt": new Date(),
+          "emailStatus.lastViewed": new Date(),
+        },
+      }
+    );
 
-        res.set('Content-Type', 'image/png');
-        res.send(Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=', 'base64'));
-    } catch (error) {
-        console.error('Error tracking email open:', error);
-        res.status(500).end();
-    }
+    res.set("Content-Type", "image/png");
+    res.send(
+      Buffer.from(
+        "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+        "base64"
+      )
+    );
+  } catch (error) {
+    console.error("Error tracking email open:", error);
+    res.status(500).end();
+  }
 };
 
 export const getOfferDetails = async (req, res) => {
-    try {
-        const { offerId } = req.params;
+  try {
+    const { offerId } = req.params;
 
-        const offer = await Shortlisting.findOne({ offerId })
-            .populate('candidateId', 'candidate_name contact_information')
-            .populate('userId', 'name email');
+    const offer = await Shortlisting.findOne({ offerId })
+      .populate("candidateId", "candidate_name contact_information")
+      .populate("userId", "name email");
 
-        if (!offer) {
-            return res.status(404).json({ message: 'Offer not found' });
-        }
-
-        res.status(200).json(offer);
-    } catch (error) {
-        res.status(500).json({ message: error.message });
+    if (!offer) {
+      return res.status(404).json({ message: "Offer not found" });
     }
+
+    res.status(200).json(offer);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };
 
 // Update offer response
 export const respondToOffer = async (req, res) => {
-    try {
-        const { offerId } = req.params;
-        const { decision, comments } = req.body;
+  try {
+    const { offerId } = req.params;
+    const { decision, comments } = req.body;
 
-        const updatedOffer = await Shortlisting.findOneAndUpdate(
-            { offerId },
-            {
-                $set: {
-                    status: decision,
-                    response: {
-                        decision,
-                        comments,
-                        respondedAt: new Date()
-                    }
-                },
-                $push: {
-                    communications: {
-                        type: 'email',
-                        content: `Candidate ${decision} the offer`,
-                        direction: 'inbound'
-                    }
-                }
-            },
-            { new: true }
-        ).populate('candidateId', 'candidate_name');
+    const updatedOffer = await Shortlisting.findOneAndUpdate(
+      { offerId },
+      {
+        $set: {
+          status: decision,
+          response: {
+            decision,
+            comments,
+            respondedAt: new Date(),
+          },
+        },
+        $push: {
+          communications: {
+            type: "email",
+            content: `Candidate ${decision} the offer`,
+            direction: "inbound",
+          },
+        },
+      },
+      { new: true }
+    ).populate("candidateId", "candidate_name");
 
-        if (!updatedOffer) {
-            return res.status(404).json({ message: 'Offer not found' });
-        }
-
-        res.status(200).json({
-            message: `Offer ${decision} successfully`,
-            candidateName: updatedOffer.candidateId.candidate_name
-        });
-    } catch (error) {
-        res.status(500).json({ message: error.message });
+    if (!updatedOffer) {
+      return res.status(404).json({ message: "Offer not found" });
     }
+
+    res.status(200).json({
+      message: `Offer ${decision} successfully`,
+      candidateName: updatedOffer.candidateId.candidate_name,
+    });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+export const deleteShortlistedCandidate = async (req, res) => {
+  try {
+    const { shortlistingId } = req.params;
+    const deletedShortlisting = await Shortlisting.findByIdAndDelete(
+      shortlistingId
+    );
+    if (!deletedShortlisting) {
+      return res.status(404).json({ message: "Shortlisting not found" });
+    }
+    res.status(200).json({ message: "Shortlisting deleted successfully" });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };

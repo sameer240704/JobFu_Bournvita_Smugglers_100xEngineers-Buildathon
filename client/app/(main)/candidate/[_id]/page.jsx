@@ -17,6 +17,8 @@ import {
   BookOpen,
 } from "lucide-react";
 import { useParams } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import { useCurrentUserId } from "@/hooks/use-current-user-id";
 
 const CandidateProfile = () => {
   const [activeTab, setActiveTab] = useState("experiences");
@@ -28,14 +30,75 @@ const CandidateProfile = () => {
       .then((response) => response.json())
       .then((data) => {
         // console.log(data.experience);
-        setCandidateData(data);
+        const experienceArray = Object.values(data.experience || {});
+        setCandidateData({ ...data, experience: experienceArray });
+        // setCandidateData(data);
       })
       .catch((error) => {
         console.error("Error fetching candidate data:", error);
       });
   }, [id]);
 
-  console.log(candidateData);
+  const userId = useCurrentUserId();
+  const [ids, setIds] = useState("");
+  useEffect(() => {
+    if (userId) {
+      fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${userId}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setIds(data);
+          console.log(data);
+        });
+    }
+  }, []);
+  console.log(ids);
+
+  const [shortlistedCandidates, setShortlistedCandidates] = useState([]);
+
+  // useEffect(() => {
+  //   try {
+  //     fetch(
+  //       `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${ids}`
+  //     )
+  //       .then((response) => response.json())
+  //       .then((data) => {
+  //         setShortlistedCandidates(data);
+  //       });
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }, [candidateData]);
+
+  console.log(shortlistedCandidates);
+
+  const handleUpdate = () => {
+    const method = candidateData.shortlisted ? "DELETE" : "POST";
+    const url = fetch(
+      `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/${id}`,
+      {
+        method,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body:
+          method === "POST"
+            ? JSON.stringify({
+                shortlisted: true,
+              })
+            : null,
+      }
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setCandidateData({
+          ...candidateData,
+          shortlisted: !candidateData.shortlisted,
+        });
+      })
+      .catch((error) => {
+        console.error("Error updating shortlist status:", error);
+      });
+  };
 
   const TabButton = ({ id, label, icon: Icon, isActive, onClick }) => (
     <button
@@ -55,7 +118,7 @@ const CandidateProfile = () => {
     <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow duration-200">
       <div className="flex items-start gap-4 mb-4">
         <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-          {experience.company.charAt(1)}
+          {experience.company.charAt(0)}
         </div>
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-gray-900 mb-1">
@@ -78,7 +141,7 @@ const CandidateProfile = () => {
         {experience.description}
       </p>
       <div className="flex flex-wrap gap-2">
-        {experience.technologies.slice(0, 6).map((tech, index) => (
+        {experience.technologies_used.slice(0, 6).map((tech, index) => (
           <span
             key={index}
             className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
@@ -86,9 +149,9 @@ const CandidateProfile = () => {
             {tech}
           </span>
         ))}
-        {experience.technologies.length > 6 && (
+        {experience.technologies_used.length > 6 && (
           <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
-            +{experience.technologies.length - 6} more
+            +{experience.technologies_used.length - 6} more
           </span>
         )}
       </div>
@@ -113,11 +176,11 @@ const CandidateProfile = () => {
       <p className="text-gray-700 mb-4 leading-relaxed">
         {project.description}
       </p>
-      {project.achievement && (
+      {project.achievements && (
         <div className="flex items-center gap-2 mb-3">
           <Award size={16} className="text-yellow-500" />
           <span className="text-sm font-medium text-yellow-700 bg-yellow-50 px-3 py-1 rounded-full">
-            {project.achievement}
+            {project.achievements}
           </span>
         </div>
       )}
@@ -125,7 +188,7 @@ const CandidateProfile = () => {
   );
 
   const SkillSection = ({ title, skills, icon: Icon }) =>
-    skills ? (
+    skills.length != 0 ? (
       <div className="mb-6">
         <h4 className="flex items-center gap-2 text-sm font-semibold text-gray-900 mb-3">
           <Icon size={16} className="text-blue-600" />
@@ -156,26 +219,31 @@ const CandidateProfile = () => {
               Candidate Profile
             </h1>
             <div className="flex items-center gap-3">
-              <button className="px-4 py-2 text-blue-600 border border-blue-200 rounded-lg hover:bg-blue-50 transition-colors">
+              <Button className="px-4 py-2 border-purple-600 border hover:border-purplr-400">
                 Add to Sequence
-              </button>
-              <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              </Button>
+              <Button
+                className="px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-lg hover:from-purple-600 hover:to-purple-700 cursor-pointer"
+                onClick={handleUpdate}
+              >
                 Shortlisted
-              </button>
+              </Button>
             </div>
           </div>
         </div>
 
         {/* Profile Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-purple-700 px-6 py-8">
+        <div className="bg-gradient-to-r from-blue-600 to-purple-700 px-6 py-8 rounded">
           <div className="flex items-start gap-6">
             <div className="w-32 h-32 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-white text-4xl font-bold">
-              YB
+              {candidateData.candidate_name?.split(" ").map((word, index) => {
+                return <span key={index}>{word.charAt(0)}</span>;
+              })}
             </div>
             <div className="flex-1 text-white">
               <h2 className="text-3xl font-bold mb-2">{candidateData.name}</h2>
               <p className="text-xl text-blue-100 mb-3">
-                {candidateData.title}
+                {candidateData.candidate_name}
               </p>
               <p className="text-blue-100 mb-4 max-w-2xl leading-relaxed">
                 {candidateData.description}
@@ -184,24 +252,24 @@ const CandidateProfile = () => {
               <div className="flex items-center gap-6 text-sm">
                 <span className="flex items-center gap-2">
                   <MapPin size={16} />
-                  {candidateData.location}
+                  {candidateData.contact_information?.location}
                 </span>
                 <a
                   href={`mailto:${candidateData.email}`}
                   className="flex items-center gap-2 hover:text-blue-200 transition-colors"
                 >
                   <Mail size={16} />
-                  {candidateData.email}
+                  {candidateData.contact_information?.email}
                 </a>
                 <span className="flex items-center gap-2">
                   <Phone size={16} />
-                  {candidateData.phone}
+                  {candidateData.contact_information?.phone}
                 </span>
               </div>
 
               <div className="flex items-center gap-4 mt-4">
                 <a
-                  href={candidateData.linkedin}
+                  href={candidateData.contact_information?.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
@@ -210,7 +278,7 @@ const CandidateProfile = () => {
                   LinkedIn
                 </a>
                 <a
-                  href={candidateData.github}
+                  href={candidateData.contact_information?.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
@@ -219,7 +287,7 @@ const CandidateProfile = () => {
                   GitHub
                 </a>
                 <a
-                  href={candidateData.portfolio}
+                  href={candidateData.contact_information?.portfolio}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
@@ -263,13 +331,15 @@ const CandidateProfile = () => {
               isActive={activeTab === "skills"}
               onClick={setActiveTab}
             />
-            <TabButton
-              id="additional"
-              label="Additional"
-              icon={Users}
-              isActive={activeTab === "additional"}
-              onClick={setActiveTab}
-            />
+            {candidateData.additional_information?.length == 0 && (
+              <TabButton
+                id="additional"
+                label="Additional"
+                icon={Users}
+                isActive={activeTab === "additional"}
+                onClick={setActiveTab}
+              />
+            )}
           </div>
         </div>
 
@@ -284,10 +354,9 @@ const CandidateProfile = () => {
                   Work Experience
                 </h2>
               </div>
-              {/* {candidateData.experience.map((exp, index) => {
-                console.log(exp);
+              {candidateData.experience?.map((exp, index) => {
                 return <ExperienceCard key={index} experience={exp} />;
-              })} */}
+              })}
             </div>
           )}
 
@@ -315,33 +384,39 @@ const CandidateProfile = () => {
               </div>
               <div className="bg-white rounded-xl border border-gray-200 p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
-                    DJ
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
-                      {candidateData.education.degree}
-                    </h3>
-                    <p className="text-blue-600 font-medium mb-1">
-                      {candidateData.education.institution}
-                    </p>
-                    <div className="flex items-center gap-4 text-sm text-gray-500 mb-2">
-                      <span className="flex items-center gap-1">
-                        <Calendar size={14} />
-                        {candidateData.education.duration}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <MapPin size={14} />
-                        {candidateData.education.location}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Star size={16} className="text-yellow-500" />
-                      <span className="text-sm font-medium text-gray-700">
-                        CGPA: {candidateData.education.gpa}
-                      </span>
-                    </div>
-                  </div>
+                  {candidateData.education.map((ed, index) => {
+                    return (
+                      <>
+                        <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
+                          {ed.institution.charAt(0)}
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                            {ed.degree}
+                          </h3>
+                          <p className="text-blue-600 font-medium mb-1">
+                            {ed.institution}
+                          </p>
+                          <div className="flex items-center gap-4 text-sm text-gray-500 mb-2">
+                            <span className="flex items-center gap-1">
+                              <Calendar size={14} />
+                              {ed.duration}
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <MapPin size={14} />
+                              {ed.location}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <Star size={16} className="text-yellow-500" />
+                            <span className="text-sm font-medium text-gray-700">
+                              CGPA: {ed.gpa_cgpa}
+                            </span>
+                          </div>
+                        </div>
+                      </>
+                    );
+                  })}
                 </div>
               </div>
             </div>
@@ -414,24 +489,49 @@ const CandidateProfile = () => {
                   Additional Information
                 </h2>
               </div>
-
-              {/* Publications */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
-                <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
-                  <BookOpen size={20} className="text-blue-600" />
-                  Publications
-                </h3>
-                <div className="space-y-3">
-                  {candidateData.publications.map((pub, index) => (
-                    <div key={index} className="p-4 bg-gray-50 rounded-lg">
-                      <h4 className="font-medium text-gray-900 mb-1">
-                        {pub.title}
-                      </h4>
-                      <p className="text-sm text-gray-600">{pub.journal}</p>
+              {/* Volunteering */}
+              {candidateData.additional_information.length == 0 && (
+                <>
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
+                      <Users size={20} className="text-blue-600" />
+                      Volunteering
+                    </h3>
+                    <div className="space-y-3">
+                      {candidateData.additional_information.volunteering.map(
+                        (vol, index) => (
+                          <div
+                            key={index}
+                            className="p-4 bg-gray-50 rounded-lg"
+                          >
+                            <h4 className="font-medium text-gray-900 mb-1">
+                              {vol}
+                            </h4>
+                          </div>
+                        )
+                      )}
                     </div>
-                  ))}
-                </div>
-              </div>
+                  </div>
+
+                  {/* Publications */}
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
+                      <BookOpen size={20} className="text-blue-600" />
+                      Publications
+                    </h3>
+                    <div className="space-y-3">
+                      {candidateData.publications.map((pub, index) => (
+                        <div key={index} className="p-4 bg-gray-50 rounded-lg">
+                          <h4 className="font-medium text-gray-900 mb-1">
+                            {pub.title}
+                          </h4>
+                          <p className="text-sm text-gray-600">{pub.journal}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           )}
         </div>

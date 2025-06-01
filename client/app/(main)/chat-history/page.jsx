@@ -1,8 +1,9 @@
-  "use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import ChatHistoryPanel from "@/components/misc/ChatHistoryPanel";
+import { useCurrentUserId } from "@/hooks/use-current-user-id";
 
 // --- ICONS (DropdownIcon, CloseIcon, ChatIcon, ChevronLeftIcon, TrashIcon) ---
 const DropdownIcon = () => (
@@ -24,8 +25,6 @@ const CloseIcon = () => (
   </svg>
 );
 
-const LOCAL_STORAGE_CHAT_KEY = "peopleGptChatHistory";
-
 // --- MAIN PAGE COMPONENT ---
 const Page = () => {
   const router = useRouter();
@@ -33,6 +32,7 @@ const Page = () => {
   const [currentMultiInputValue, setCurrentMultiInputValue] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const initialFilters = {
     location: [],
@@ -45,7 +45,27 @@ const Page = () => {
   const [filters, setFilters] = useState(initialFilters);
   const [isChatHistoryOpen, setIsChatHistoryOpen] = useState(false);
   const [chatHistory, setChatHistory] = useState([]);
+  const [candidates, setCandidates] = useState([]);
 
+  useEffect(() => {
+    try {
+      const getChatHistory = fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats`
+      );
+
+      getChatHistory
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("Fetched chat history:", data);
+          setChatHistory(data);
+        })
+        .catch((error) => {
+          console.error("Error fetching chat history:", error);
+        });
+    } catch (error) {
+      console.error("Error fetching chat history:", error);
+    }
+  }, []);
 
   const dropdownRefs = {
     location: useRef(null),
@@ -116,90 +136,60 @@ const Page = () => {
     );
   };
 
+  const userId = useCurrentUserId();
+  console.log(userId);
+
   // Handle search functionality
-  const handleSearch = async () => {
-    const trimmedQuery = searchQuery.trim();
-    if (!trimmedQuery && !hasActiveFilters()) {
-      alert("Please enter a search query or apply filters");
-      return;
-    }
-
-    setIsSearching(true);
-
+  const handleSearch = async (query, filters) => {
+    setLoading(true);
     try {
-      // Prepare search payload
-      const searchPayload = {
-        query: trimmedQuery,
-        filters: {
-          location: filters.location,
-          jobTitle: filters.jobTitle,
-          minExperience: filters.minExperience,
-          maxExperience: filters.maxExperience,
-          industry: filters.industry,
-          skills: filters.skills,
-        },
-      };
+      // Get current user ID
 
-      console.log("Search payload:", searchPayload);
-
-      // Simulate API delay
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      // --- Create a new chat entry for this search ---
-      const activeFilterItems = getActiveFilterDisplayItems(); // Get this before router.push or state changes
-      const currentFiltersForHistory = JSON.parse(JSON.stringify(filters)); // Deep clone current filters
-
-      let chatTitle = trimmedQuery;
-      let chatLastMessage = "";
-      const hasFiltersApplied = activeFilterItems.length > 0;
-
-      if (trimmedQuery && hasFiltersApplied) {
-        chatTitle = trimmedQuery;
-        chatLastMessage = `Query: ${trimmedQuery} | Filters: ${activeFilterItems
-          .map((f) => f.displayValue)
-          .join(", ")}`;
-      } else if (trimmedQuery) {
-        chatTitle = trimmedQuery;
-        chatLastMessage = `Query: ${trimmedQuery}`;
-      } else if (hasFiltersApplied) {
-        chatTitle = "Filtered Search";
-        chatLastMessage = `Filters: ${activeFilterItems
-          .map((f) => f.displayValue)
-          .join(", ")}`;
-      }
-
-      if (chatTitle) {
-        // Ensure there's something to title the chat
-        const newSearchChat = {
-          id: Date.now(),
-          title: chatTitle,
-          lastMessage: chatLastMessage,
-          timestamp: new Date().toLocaleTimeString([], {
-            hour: "2-digit",
-            minute: "2-digit",
-          }),
-          searchParameters: {
-            // Store the state that led to this search
-            query: trimmedQuery,
-            filters: currentFiltersForHistory,
-          },
-        };
-        setChatHistory((prev) => [newSearchChat, ...prev]);
-      }
-      // --- End new chat entry ---
-
-      // Navigate to results page with search params
-      const searchParams = new URLSearchParams({
-        q: trimmedQuery, // Use trimmedQuery here
-        filters: JSON.stringify(searchPayload.filters),
+      // 1. Make search request to AI server
+      const aiResponse = await fetch("http://localhost:8080/search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query, filters }),
       });
 
-      router.push(`/results?${searchParams.toString()}`);
+      const aiData = await aiResponse.json();
+      if (!aiData.success) {
+        throw new Error(aiData.error || "AI search failed");
+      }
+
+      // 3. Update chat history
+      const chatResponse = await fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user: userId,
+            query,
+            filters,
+            response: aiData.response,
+          }),
+        }
+      );
+
+      const chatData = await chatResponse.json();
+      if (chatData.success) {
+        const updatedHistory = [chatData.data, ...chatHistory];
+        setChatHistory(updatedHistory);
+      }
+
+      // 4. Update UI state
+      setSearchQuery(query);
+      setFilters(filters);
+      setIsChatHistoryOpen(true);
+
+      // 5. Navigate to results
+      router.push("/results");
     } catch (error) {
       console.error("Search error:", error);
-      alert("Search failed. Please try again.");
+      // TODO: Show error to user via toast/alert
     } finally {
-      setIsSearching(false);
+      setLoading(false);
     }
   };
 
