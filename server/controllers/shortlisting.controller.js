@@ -40,11 +40,14 @@ export const sendOffer = async (req, res) => {
 
         const result = await sendOfferEmail(sessionUserId, candidate, emailTemplate, templateVariables);
 
+        console.log(result);
+
         if (result.success) {
             res.status(200).json({
+                success: true,
                 message: 'Email sent successfully',
                 offerId: result.offerId,
-                shortlistingId: result.shortlistingId
+                // shortlistingId: result.shortlistingId
             });
         } else {
             res.status(500).json({ message: result.error });

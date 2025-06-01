@@ -68,7 +68,7 @@ export const demoCandidates = [
         _id: "3",
         candidate_name: "Emma Rodriguez",
         contact_information: {
-            email: "emma.rodriguez@example.com",
+            email: "parth.gala1356@gmail.com",
             phone: "+44 20 1234 5678",
             github: "https://github.com/emmarodriguez"
         },
