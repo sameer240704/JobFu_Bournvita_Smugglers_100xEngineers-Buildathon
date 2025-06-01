@@ -444,28 +444,6 @@ const CandidateSearchResults = () => {
 
   const { pills: displayPills, otherFiltersCount } = getDisplayableFilters();
 
-  // Persist editableFilters to localStorage (optional, if you want them to persist UI changes)
-  // This is separate from the URL-driven appliedFiltersFromUrl
-  useEffect(() => {
-    const savedEditableFilters = localStorage.getItem(
-      "peopleGptEditableFilters"
-    );
-    if (savedEditableFilters) {
-      try {
-        setEditableFilters(JSON.parse(savedEditableFilters));
-      } catch (e) {
-        console.error("Error parsing editableFilters from localStorage", e);
-      }
-    }
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem(
-      "peopleGptEditableFilters",
-      JSON.stringify(editableFilters)
-    );
-  }, [editableFilters]);
-
   if (loading && candidates.length === 0) {
     // Show main loading only if no candidates yet
     return (

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   MapPin,
   Mail,
@@ -21,139 +21,19 @@ import { useParams } from "next/navigation";
 const CandidateProfile = () => {
   const [activeTab, setActiveTab] = useState("experiences");
   const id = useParams()._id;
+  const [candidateData, setCandidateData] = useState({});
 
-  const candidateData = {
-    name: "Yash Buddhadev",
-    title: "AI & FinTech Enthusiast | Mozilla AI Fellow",
-    description:
-      "A student passionate about Artificial Intelligence, Computational Finance and Data Analytics. With a drive for problem-solving and a desire to make a meaningful impact in these dynamic realms.",
-    location: "Mumbai, India",
-    email: "yashbuddhadev21@gmail.com",
-    phone: "+91 8369306269",
-    linkedin: "https://www.linkedin.com/in/yash-buddhadev-889955289/",
-    github: "https://github.com/buddhadevyash",
-    portfolio: "https://yashbuddhadev.vercel.app/",
-    education: {
-      degree: "B.Tech",
-      institution: "DJSCE",
-      location: "Mumbai, India",
-      duration: "2022-2026",
-      gpa: "8.5",
-    },
-    experiences: [
-      {
-        position: "Mozilla AI Fellow",
-        company: "@SimPPL",
-        location: "Remote, HQ in New York",
-        duration: "February 2024 - Present",
-        description:
-          "Working in AI research, I contribute actively to industry-level RCC projects, focusing on innovative solutions and real-world applications. My work bridges the gap between academic theory and practical implementation.",
-        technologies: [
-          "Microsoft Power BI",
-          "Tableau",
-          "AWS SageMaker",
-          "IBM Watson",
-          "Google Cloud AutoML",
-          "Microsoft Azure ML",
-          "Figma",
-          "Adobe Ecosystem",
-        ],
-      },
-      {
-        position: "Product Developer",
-        company: "@Infiheal HealthTech",
-        location: "Remote, HQ in Pune",
-        duration: "February 2024 - Present",
-        description:
-          "Contributed to build an app using Flutter, developing revenue models, achieve a product-market fit in the AI space having a lack of benchmarks in India, doing competitive analysis for further research and development.",
-        technologies: [
-          "Flutter",
-          "Firebase",
-          "SQLite3",
-          "MySQL",
-          "MongoDB",
-          "PostgreDB",
-          "Flask",
-          "Django",
-          "Node",
-        ],
-      },
-    ],
-    projects: [
-      {
-        name: "VaniVikas: Portal For Better Connectivity",
-        description:
-          "Developed a secure, smart, and user-friendly portal for Ali Yavar Jung Institute, streamlining patient data management and treatment tracking. It features seamless digital case files, automated case allocation, and real-time treatment updates.",
-        achievement: "Winner at Smart India Hackathon 2024",
-        github:
-          "https://github.com/buddhadevyash/INNOV8-HumanAIze-FintechEdition/tree/main",
-      },
-      {
-        name: "PhysioPlay: AI Playground Demo",
-        description:
-          "Developing 'PhysioPlay', a persona-based AI system that helps physiotherapy students and doctors enhance their diagnostic skills. Supported by Mozilla India, it offers a platform for hands-on practice and skill development in physiotherapy.",
-        achievement: "Mozilla RCC Grant",
-      },
-      {
-        name: "SmartSure: Revolutionising Insurance",
-        description:
-          "Leveraging AI and advanced analytics, we personalize insurance premiums using fitness data, ML models, and an AI assistant for real-time insights and seamless interaction.",
-        achievement: "Winner at HumanAIze (FinTech Edition) Hackathon",
-        github:
-          "https://github.com/buddhadevyash/INNOV8-HumanAIze-FintechEdition/tree/main",
-      },
-      {
-        name: "Serenity: The New-Age Music App",
-        description:
-          "Serenity is a Figma prototype music app with seamless controls, including play/pause, skip, and intuitive swiping. It lets users connect with artist communities, discover music, and live stream concerts with real-time interactions.",
-        achievement: "Winner at TechBlitz 2024 UI/UX Design",
-      },
-      {
-        name: "CheckMate: Your Compliance Buddy",
-        description:
-          "Developed entire UI and automation software for automated compliance checking AI tool, with thorough research for UX and AI architecture, understanding the parameters required and the industry requirements.",
-        achievement: "Winner at CODECRAFT Hackathon",
-      },
-    ],
-    skills: {
-      programming: [
-        "C",
-        "Java",
-        "Python",
-        "Solidity",
-        "Dart",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Next.js",
-        "Flutter",
-      ],
-      frameworks: [
-        "Microsoft Power BI",
-        "Tableau",
-        "AWS SageMaker",
-        "IBM Watson",
-        "Google Cloud AutoML",
-        "Microsoft Azure ML",
-        "Figma",
-      ],
-      databases: ["Firebase", "SQLite3", "MySQL", "MongoDB", "PostgreDB"],
-      tools: ["Flask", "Django", "Node"],
-      cloud: ["AWS", "Google Cloud", "Microsoft Azure"],
-    },
-    volunteering: [
-      "Founding Member and Chairperson, @DJS InfoMatrix",
-      "Incharge Treasurer, @DJS National Student Data Corps",
-    ],
-    publications: [
-      {
-        title:
-          "Automated Compliance Checking Of Unstructured Data Using LLMs And Langchain IRJMT",
-        journal: "IRJMT",
-      },
-    ],
-  };
+  useEffect(() => {
+    fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/candidates/${id}`)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data.skills.technical_skills);
+        setCandidateData(data);
+      })
+      .catch((error) => {
+        console.error("Error fetching candidate data:", error);
+      });
+  }, [id]);
 
   const TabButton = ({ id, label, icon: Icon, isActive, onClick }) => (
     <button
@@ -242,24 +122,27 @@ const CandidateProfile = () => {
     </div>
   );
 
-  const SkillSection = ({ title, skills, icon: Icon }) => (
-    <div className="mb-6">
-      <h4 className="flex items-center gap-2 text-sm font-semibold text-gray-900 mb-3">
-        <Icon size={16} className="text-blue-600" />
-        {title}
-      </h4>
-      <div className="flex flex-wrap gap-2">
-        {skills.map((skill, index) => (
-          <span
-            key={index}
-            className="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg"
-          >
-            {skill}
-          </span>
-        ))}
+  const SkillSection = ({ title, skills, icon: Icon }) =>
+    skills ? (
+      <div className="mb-6">
+        <h4 className="flex items-center gap-2 text-sm font-semibold text-gray-900 mb-3">
+          <Icon size={16} className="text-blue-600" />
+          {title}
+        </h4>
+        <div className="flex flex-wrap gap-2">
+          {skills.map((skill, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
       </div>
-    </div>
-  );
+    ) : (
+      <></>
+    );
 
   return (
     <div className="h-screen overflow-scroll bg-gray-50">
@@ -399,9 +282,10 @@ const CandidateProfile = () => {
                   Work Experience
                 </h2>
               </div>
-              {candidateData.experiences.map((exp, index) => (
-                <ExperienceCard key={index} experience={exp} />
-              ))}
+              {/* {candidateData.experience.map((exp, index) => {
+                console.log(exp);
+                return <ExperienceCard key={index} experience={exp} />;
+              })} */}
             </div>
           )}
 
@@ -473,27 +357,46 @@ const CandidateProfile = () => {
               <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-6">
                 <SkillSection
                   title="Programming Languages"
-                  skills={candidateData.skills.programming}
+                  skills={
+                    candidateData.skills.technical_skills.programming_languages
+                  }
                   icon={Code}
                 />
                 <SkillSection
                   title="Frameworks & Libraries"
-                  skills={candidateData.skills.frameworks}
+                  skills={
+                    candidateData.skills.technical_skills.frameworks_libraries
+                  }
                   icon={Building2}
                 />
                 <SkillSection
                   title="Databases"
-                  skills={candidateData.skills.databases}
+                  skills={candidateData.skills.technical_skills.databases}
                   icon={Star}
                 />
                 <SkillSection
                   title="Tools & Platforms"
-                  skills={candidateData.skills.tools}
+                  skills={candidateData.skills.technical_skills.tools_software}
                   icon={Star}
                 />
                 <SkillSection
                   title="Cloud Platforms"
-                  skills={candidateData.skills.cloud}
+                  skills={candidateData.skills.technical_skills.cloud_platforms}
+                  icon={Star}
+                />
+                <SkillSection
+                  title="DevOPs"
+                  skills={candidateData.skills.technical_skills.devops}
+                  icon={Star}
+                />
+                <SkillSection
+                  title="Data Science"
+                  skills={candidateData.skills.technical_skills.data_science}
+                  icon={Star}
+                />
+                <SkillSection
+                  title="Other Technical Skills"
+                  skills={candidateData.skills.technical_skills.other_technical}
                   icon={Star}
                 />
               </div>

@@ -46,40 +46,6 @@ const Page = () => {
   const [isChatHistoryOpen, setIsChatHistoryOpen] = useState(false);
   const [chatHistory, setChatHistory] = useState([]);
 
-  // Load chats from localStorage on component mount
-  useEffect(() => {
-    const storedChats = localStorage.getItem(LOCAL_STORAGE_CHAT_KEY);
-    if (storedChats) {
-      try {
-        const parsedData = JSON.parse(storedChats);
-        // Handle both array and object formats
-        if (Array.isArray(parsedData)) {
-          setChatHistory(parsedData);
-        } else if (Array.isArray(parsedData.chats)) {
-          setChatHistory(parsedData.chats);
-        } else {
-          setChatHistory([]);
-        }
-      } catch (error) {
-        console.error("Error parsing chat history from localStorage:", error);
-        setChatHistory([]);
-      }
-    }
-  }, []);
-
-  // Update the localStorage save effect
-  useEffect(() => {
-    if (typeof window !== "undefined" && chatHistory.length > 0) {
-      try {
-        localStorage.setItem(
-          LOCAL_STORAGE_CHAT_KEY,
-          JSON.stringify(chatHistory)
-        );
-      } catch (error) {
-        console.error("Error saving chat history to localStorage:", error);
-      }
-    }
-  }, [chatHistory]);
 
   const dropdownRefs = {
     location: useRef(null),

@@ -26,11 +26,12 @@ import {
   addEdge,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
+import { useTheme } from "@/context/theme-context";
 
 const DocumentationPage = () => {
   const [activeTab, setActiveTab] = useState("knowledge");
   const [expandedFAQ, setExpandedFAQ] = useState(null);
-  const theme = localStorage.getItem("theme") || "light";
+  const { theme, toggleTheme } = useTheme();
 
   // Apply theme to HTML element for global dark styles
   useEffect(() => {
