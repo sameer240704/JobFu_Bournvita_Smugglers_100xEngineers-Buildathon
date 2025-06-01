@@ -8,16 +8,18 @@ import cors from "cors";
 // Importing routes
 import userRoutes from "./routes/user.routes.js";
 import shortlistingRoutes from "./routes/shortlisting.route.js";
+import chatRoutes from "./routes/chathistory.routes.js";
+import candidateRoutes from "./routes/candidate.routes.js";
 
 dotenv.config();
 
 const app = express();
 
 const corsOptions = {
-    origin: "*",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: true,
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true,
 };
 
 app.use(express.json());
@@ -29,15 +31,17 @@ app.use(bodyParser.urlencoded({ limit: "100mb", extended: true }));
 
 app.use("/api/users", userRoutes);
 app.use("/api/shortlisting", shortlistingRoutes);
+app.use("/api/chats", chatRoutes);
+app.use("/api/candidates", candidateRoutes);
 
 app.get("/", (req, res) => {
-    res.send("Connected to MongoDB!");
+  res.send("Connected to MongoDB!");
 });
 
 const PORT = process.env.PORT || 4224;
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
 
 connectToDatabase();

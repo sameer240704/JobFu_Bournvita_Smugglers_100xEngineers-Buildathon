@@ -1,4 +1,4 @@
-"use client";
+  "use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
@@ -19,33 +19,6 @@ const CloseIcon = () => (
     <path
       fillRule="evenodd"
       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-const ChatIcon = () => (
-  <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-    <path
-      fillRule="evenodd"
-      d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zm-4 0H9v2h2V9z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-const ChevronLeftIcon = () => (
-  <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-    <path
-      fillRule="evenodd"
-      d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-const TrashIcon = () => (
-  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-    <path
-      fillRule="evenodd"
-      d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
       clipRule="evenodd"
     />
   </svg>
@@ -73,37 +46,6 @@ const Page = () => {
   const [isChatHistoryOpen, setIsChatHistoryOpen] = useState(false);
   const [chatHistory, setChatHistory] = useState([]);
 
-  // Load chats from localStorage on component mount
-  useEffect(() => {
-    const storedChats = localStorage.getItem(LOCAL_STORAGE_CHAT_KEY);
-    if (storedChats) {
-      try {
-        const parsedData = JSON.parse(storedChats);
-        // Handle both array and object formats
-        if (Array.isArray(parsedData)) {
-          setChatHistory(parsedData);
-        } else if (Array.isArray(parsedData.chats)) {
-          setChatHistory(parsedData.chats);
-        } else {
-          setChatHistory([]);
-        }
-      } catch (error) {
-        console.error("Error parsing chat history from localStorage:", error);
-        setChatHistory([]);
-      }
-    }
-  }, []);
-
-  // Update the localStorage save effect
-  useEffect(() => {
-    if (typeof window !== "undefined" && chatHistory.length > 0) {
-      try {
-        localStorage.setItem(LOCAL_STORAGE_CHAT_KEY, JSON.stringify(chatHistory));
-      } catch (error) {
-        console.error("Error saving chat history to localStorage:", error);
-      }
-    }
-  }, [chatHistory]);
 
   const dropdownRefs = {
     location: useRef(null),
@@ -434,11 +376,14 @@ const Page = () => {
                     </svg>
                   </div>
                   <h1 className="text-3xl font-bold text-gray-800">
-                    PeopleGPT by Juicebox
+                    HireGPT by JobFu
                   </h1>
                   <p className="mt-2 text-gray-600">
                     Find exactly who you're looking for, in seconds.{" "}
-                    <a href="#" className="text-purple-600 hover:underline">
+                    <a
+                      href="/documentation"
+                      className="text-purple-600 hover:underline"
+                    >
                       See how it works.
                     </a>
                   </p>
