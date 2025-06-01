@@ -37,8 +37,8 @@ class BatchResumeProcessor:
     def __init__(self, api_key: str):
         self.api_key = api_key
         self.client = self.init_groq_client()
-        self.data_folder = Path("data")
-        self.output_folder = Path("data2")
+        self.data_folder = Path("global")
+        self.output_folder = Path("global2")
         self.processed_count = 0
         self.failed_count = 0
         self.skipped_count = 0

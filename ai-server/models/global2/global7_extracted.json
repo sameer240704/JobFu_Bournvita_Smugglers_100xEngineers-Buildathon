@@ -1,0 +1,161 @@
+{
+  "candidate_name": "Ziad Tariq",
+  "contact_information": {
+    "email": "ziadtariq802@gmail.com",
+    "phone": "+923335671519",
+    "location": "Rawalpindi, Pakistan",
+    "linkedin": "https://www.linkedin.com/in/ziad-tariq-951193182/",
+    "github": "https://github.com/Ziadtari",
+    "portfolio": null,
+    "other_links": [
+      "https://github.com/Ziadtari",
+      "https://facebook.com/ziadtariq90@yahoo.com",
+      "https://linkedin.com/in/ziad-tariq-951193182"
+    ]
+  },
+  "candidate_description": "To become a successful expert in the field of Information Technology by channelize my technical knowledge and skills to ensure personal and professional growth and to contribute to the prosperity of the organization.",
+  "education": [
+    {
+      "degree": "Bachelor's in Software Engineering",
+      "institution": "Comsats University Islamabad",
+      "location": "Rawalpindi",
+      "duration": "06/2023 - Present",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Projects in University",
+      "company": "Rawalpindi",
+      "location": "Comsats Wah",
+      "duration": null,
+      "description": "Worked on C++ ,Laravel, HTML, CSS Heart Disease Classification using ML (SVM) C++,JavaScript, Reacts js Attend different workshops C++,JavaScript Assignments On fiver",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "C++",
+        "Laravel",
+        "HTML",
+        "CSS",
+        "Python",
+        "Datawarehouse & datamining",
+        "Web & Performance Testing"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Library Management System (Java)",
+      "description": "Admin can check any records related to Books and Students. Fine will be issued after the due date. User can take and return the Book.",
+      "technologies": [
+        "Java"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Datamining",
+      "description": "Data Cleaning and Visualization using Python. Clean the raw form of data. Apply sentiment Analysis Visualization.",
+      "technologies": [
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Ticket Reservation System (Laravel)",
+      "description": "User can Book the Tickets. User can check the seats available. User can check the timing and prize of tickets.",
+      "technologies": [
+        "Laravel"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "01/2022 - 02/2022"
+    },
+    {
+      "name": "Auto Mania (Ecommerce)",
+      "description": "Ecommerce Web app build in MERN STACK User can buy Vehicles spare parts Delivery service with Mechanic is provided",
+      "technologies": [
+        "MERN STACK"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "12/2022 - Present"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Html",
+        "Css",
+        "Javascript",
+        "C++",
+        "Laravel",
+        "Python"
+      ],
+      "frameworks_libraries": [
+        "Bootstrap",
+        "React js"
+      ],
+      "databases": [
+        "Mongo Db",
+        "MySQL"
+      ],
+      "tools_software": [
+        "Selenium Testing"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "Datamining using Numpy & pandas"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [
+      "Web Development",
+      "Movies",
+      "Photography"
+    ],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:16:27.060685",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global7.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 7,
+    "file_size_mb": 0.06
+  }
+}

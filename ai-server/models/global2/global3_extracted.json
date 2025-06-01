@@ -1,0 +1,254 @@
+{
+  "candidate_name": "Haoyi Duan",
+  "contact_information": {
+    "email": "/envel⌢pehaoyid@stanford.edu",
+    "linkedin": "https://www.linkedin.com/in/haoyi-duan-a07576291/",
+    "github": "https://github.com/haoyi-duan",
+    "other_links": [
+      "https://kovenyu.com/wonderjourney/",
+      "https://arxiv.org/pdf/2312.03884.pdf",
+      "https://kovenyu.com/wonderworld/",
+      "https://papers.nips.cc/paper_files/paper/2023/file/af01716e08073368a7c8a62be46dba17-Paper-Conference.pdf",
+      "https://dl.acm.org/doi/pdf/10.1145/3539618.3591643",
+      "https://arxiv.org/pdf/2406.09394",
+      "https://sws.comp.nus.edu.sg/2022/",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_LaPE_Layer-adaptive_Position_Embedding_for_Vision_Transformers_with_Independent_Layer_ICCV_2023_paper.pdf",
+      "https://dl.acm.org/doi/pdf/10.1145/3583780.3615083",
+      "https://haoyi-duan.github.io/"
+    ]
+  },
+  "candidate_description": "3D Vision; Computer Vision; Multimodal Learning.",
+  "education": [
+    {
+      "degree": "M.S.",
+      "institution": "Stanford University",
+      "location": "California, USA",
+      "duration": "09/2023 - Present",
+      "gpa_cgpa": "3.97/4.00",
+      "additional_info": "GPA: 3.97/4.00 (91.38 /100), Major GPA: 3.99/4.00 (93.17 /100)",
+      "coursework": []
+    },
+    {
+      "degree": "B.Eng.",
+      "institution": "Zhejiang University",
+      "location": "Zhejiang, China",
+      "duration": "09/2019 - 06/2023",
+      "gpa_cgpa": "3.97/4.00",
+      "additional_info": "GPA: 3.97/4.00 (91.38 /100), Major GPA: 3.99/4.00 (93.17 /100)",
+      "coursework": []
+    },
+    {
+      "degree": "School of Computing Summer Workshop",
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "duration": "05/2022 - 07/2022",
+      "gpa_cgpa": "A+",
+      "additional_info": "GPA: A+, Real-Time Graphics Rendering",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "WonderWorld: Interactive 3D Scene Generation from a Single Image",
+      "company": "Stanford Vision & Learning Lab",
+      "location": "Stanford, California, USA",
+      "duration": "01/2024 - 09/2024",
+      "description": "Presented a novel framework for interactive 3D scene generation that enables users to interactively specify scene contents and layout and see the created scenes in low latency.",
+      "type": "Research Experience",
+      "key_achievements": [
+        "Introduced the Fast LAyered Gaussian Surfels (FLAGS) as the scene representation and an algorithm to generate it from a single view.",
+        "Employed the guided depth diffusion that allows partial conditioning of depth estimation."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "WonderJourney: Going from Anywhere to Everywhere",
+      "company": "Stanford Vision & Learning Lab",
+      "location": "Stanford, California, USA",
+      "duration": "09/2023 - 01/2024",
+      "description": "Designed a modularized framework, which starts at any user-provided location and generate a journey through a long sequence of diverse yet coherently connected 3D scenes.",
+      "type": "Research Experience",
+      "key_achievements": [
+        "Leveraged an LLM to generate textual descriptions of the scenes in this journey, a text-driven point cloud generation pipeline to make a compelling and coherent sequence of 3D scenes, and a large VLM to verify the generated scenes."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "Adapting Large Pre-trained Models for Audio-Visual Downstream Tasks",
+      "company": "Zhejiang University DCD Lab",
+      "location": "Zhejiang, China",
+      "duration": "12/2022 - 08/2023",
+      "description": "Proposed a novel Dual-Guided Spatial-Channel-Temporal attention mechanism, which leverages audio and visual modalities as soft prompts to dynamically adjust the parameters of pre-trained models based on the current multi-modal input features.",
+      "type": "Research Experience",
+      "key_achievements": [
+        "Achieved state-of-the-art results across multiple downstream tasks; exhibited promising performance in challenging few-shot and zero-shot scenarios."
+      ],
+      "technologies_used": []
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C/C++",
+        "Python",
+        "CUDA",
+        "mini SQL",
+        "JavaScript",
+        "Verilog",
+        "x86",
+        "HTML"
+      ],
+      "frameworks_libraries": [
+        "Pytorch",
+        "OpenGL",
+        "MySQL",
+        "LA TEX",
+        "Vivado",
+        "Adobe"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Blender",
+        "Unity",
+        "Unreal Engine"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Outstanding Graduation Thesis",
+      "description": "Zhejiang University",
+      "date": "2023",
+      "organization": "Zhejiang University",
+      "prize_amount": null
+    },
+    {
+      "title": "Zhejiang Provincial Outstanding Graduate",
+      "description": null,
+      "date": "2023",
+      "organization": "Zhejiang Province",
+      "prize_amount": null
+    },
+    {
+      "title": "Outstanding Graduate of Zhejiang University",
+      "description": null,
+      "date": "2023",
+      "organization": "Zhejiang University",
+      "prize_amount": null
+    }
+  ],
+  "publications": [
+    {
+      "title": "WonderWorld: Interactive 3D Scene Generation from a Single Image",
+      "journal_conference": "CVPR'2025",
+      "date": "2025",
+      "authors": [
+        "Haoyi Duan",
+        "Hong-Xing (Koven) Yu",
+        "Charles Herrmann",
+        "William T. Freeman",
+        "Jiajun Wu"
+      ],
+      "description": null
+    },
+    {
+      "title": "WonderJourney: Going from Anywhere to Everywhere",
+      "journal_conference": "CVPR'2024",
+      "date": "2024",
+      "authors": [
+        "Haoyi Duan",
+        "Hong-Xing (Koven) Yu",
+        "Junhwa Hur",
+        "Michael Rubinstein",
+        "William T. Freeman",
+        "Forrester Cole",
+        "Deqing Sun",
+        "Noah Snavely",
+        "Jiajun Wu",
+        "Charles Herrmann"
+      ],
+      "description": null
+    },
+    {
+      "title": "Cross-modal Prompts: Adapting Large Pre-trained Models for Audio-Visual Downstream Tasks",
+      "journal_conference": "NeurIPS'2023",
+      "date": "2023",
+      "authors": [
+        "Haoyi Duan",
+        "Yan Xia",
+        "Mingze Zhou",
+        "Li Tang",
+        "Jieming Zhu",
+        "Zhou Zhao"
+      ],
+      "description": null
+    },
+    {
+      "title": "LaPE: Layer-adaptive Position Embedding for Vision Transformers with Independent Layer Normalization",
+      "journal_conference": "ICCV'2023",
+      "date": "2023",
+      "authors": [
+        "Runyi Yu",
+        "Zhennan Wang",
+        "Yinhuai Wang",
+        "Kehan Li",
+        "Chang Liu",
+        "Haoyi Duan",
+        "Xiangyang Ji",
+        "Jie Chen"
+      ],
+      "description": null
+    },
+    {
+      "title": "Timestamps as Prompts for Geography-Aware Location Recommendation",
+      "journal_conference": "CIKM'2023",
+      "date": "2023",
+      "authors": [
+        "Yan Luo",
+        "Haoyi Duan",
+        "Ye Liu",
+        "Chung Fu-Lai"
+      ],
+      "description": null
+    },
+    {
+      "title": "Beyond Two-Tower Matching: Learning Sparse Retrievable Interaction Models for Recommendation",
+      "journal_conference": "SIGIR'2023",
+      "date": "2023",
+      "authors": [
+        "Liangcai Su",
+        "Fan Yan",
+        "Jieming Zhu",
+        "Xi Xiao",
+        "Haoyi Duan",
+        "Zhou Zhao",
+        "Zhenhua Dong",
+        "Ruiming Tang"
+      ],
+      "description": null
+    }
+  ],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:03:02.930248",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global3.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 16,
+    "file_size_mb": 0.17
+  }
+}

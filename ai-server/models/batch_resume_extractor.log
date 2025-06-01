@@ -487,3 +487,346 @@
 2025-05-31 21:09:42,154 - INFO - ⏱️  Total time: 1164.31 seconds
 2025-05-31 21:09:42,155 - INFO - ⚡ Average time per file: 32.34 seconds
 2025-05-31 21:09:42,155 - INFO - ============================================================
+2025-06-01 13:02:54,840 - INFO - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+2025-06-01 13:02:54,844 - INFO - ✅ Groq client initialized successfully
+2025-06-01 13:02:54,845 - INFO - 🚀 Starting batch processing of 22 PDF files
+2025-06-01 13:02:54,846 - INFO - 📁 Input folder: /home/yashbuddhadev21/Documents/100x/100xEngineers-Buildathon/ai-server/models/global
+2025-06-01 13:02:54,846 - INFO - 📁 Output folder: /home/yashbuddhadev21/Documents/100x/100xEngineers-Buildathon/ai-server/models/global2
+2025-06-01 13:02:54,846 - INFO - 
+📄 File 1/22: Satyabrata Pradhan Resume.pdf
+2025-06-01 13:02:54,847 - INFO - 🔄 Processing: Satyabrata Pradhan Resume.pdf
+2025-06-01 13:02:55,012 - INFO - Processing Satyabrata Pradhan Resume.pdf - Attempt 1/5
+2025-06-01 13:02:57,705 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:02:57,712 - INFO - Successfully extracted data for Satyabrata Pradhan Resume.pdf on attempt 1
+2025-06-01 13:02:57,714 - INFO - ✅ Successfully processed: Satyabrata Pradhan Resume.pdf
+2025-06-01 13:02:57,714 - INFO -    👤 Candidate: Satyabrata Pradhan
+2025-06-01 13:02:57,714 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/satyabrata-pradhan-00a6b916b/
+2025-06-01 13:02:57,714 - INFO -    🐙 GitHub: https://github.com/Satya1998-debug
+2025-06-01 13:02:57,714 - INFO -    💾 Saved to: Satyabrata Pradhan Resume_extracted.json
+2025-06-01 13:02:58,715 - INFO - 
+📄 File 2/22: global3.pdf
+2025-06-01 13:02:58,716 - INFO - 🔄 Processing: global3.pdf
+2025-06-01 13:02:58,764 - INFO - Processing global3.pdf - Attempt 1/5
+2025-06-01 13:03:02,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:03:02,930 - INFO - Successfully extracted data for global3.pdf on attempt 1
+2025-06-01 13:03:02,931 - INFO - ✅ Successfully processed: global3.pdf
+2025-06-01 13:03:02,931 - INFO -    👤 Candidate: Haoyi Duan
+2025-06-01 13:03:02,931 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/haoyi-duan-a07576291/
+2025-06-01 13:03:02,931 - INFO -    🐙 GitHub: https://github.com/haoyi-duan
+2025-06-01 13:03:02,931 - INFO -    💾 Saved to: global3_extracted.json
+2025-06-01 13:03:03,931 - INFO - 
+📄 File 3/22: [PUBLIC]CReedResume07May25.pdf
+2025-06-01 13:03:03,932 - INFO - 🔄 Processing: [PUBLIC]CReedResume07May25.pdf
+2025-06-01 13:03:04,041 - INFO - Processing [PUBLIC]CReedResume07May25.pdf - Attempt 1/5
+2025-06-01 13:03:04,076 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:03:04,078 - INFO - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2025-06-01 13:03:15,218 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:03:15,221 - WARNING - JSON parsing failed for [PUBLIC]CReedResume07May25.pdf - Attempt 1: Expecting ',' delimiter: line 28 column 88 (char 1126)
+2025-06-01 13:03:16,222 - INFO - Processing [PUBLIC]CReedResume07May25.pdf - Attempt 2/5
+2025-06-01 13:03:16,258 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:03:16,259 - INFO - Retrying request to /openai/v1/chat/completions in 40.000000 seconds
+2025-06-01 13:03:58,301 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:03:58,303 - WARNING - JSON parsing failed for [PUBLIC]CReedResume07May25.pdf - Attempt 2: Expecting ',' delimiter: line 28 column 88 (char 1126)
+2025-06-01 13:04:00,305 - INFO - Processing [PUBLIC]CReedResume07May25.pdf - Attempt 3/5
+2025-06-01 13:04:00,341 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:04:00,342 - INFO - Retrying request to /openai/v1/chat/completions in 40.000000 seconds
+2025-06-01 13:04:42,414 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:04:42,418 - WARNING - JSON parsing failed for [PUBLIC]CReedResume07May25.pdf - Attempt 3: Expecting ',' delimiter: line 28 column 88 (char 1119)
+2025-06-01 13:04:46,422 - INFO - Processing [PUBLIC]CReedResume07May25.pdf - Attempt 4/5
+2025-06-01 13:04:46,462 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:04:46,464 - INFO - Retrying request to /openai/v1/chat/completions in 37.000000 seconds
+2025-06-01 13:05:25,856 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:05:25,859 - WARNING - JSON parsing failed for [PUBLIC]CReedResume07May25.pdf - Attempt 4: Expecting ',' delimiter: line 34 column 28 (char 1157)
+2025-06-01 13:05:33,867 - INFO - Processing [PUBLIC]CReedResume07May25.pdf - Attempt 5/5
+2025-06-01 13:05:33,925 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:05:33,926 - INFO - Retrying request to /openai/v1/chat/completions in 37.000000 seconds
+2025-06-01 13:06:13,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:06:13,121 - WARNING - JSON parsing failed for [PUBLIC]CReedResume07May25.pdf - Attempt 5: Expecting ',' delimiter: line 34 column 28 (char 1157)
+2025-06-01 13:06:13,121 - ERROR - Final attempt failed for [PUBLIC]CReedResume07May25.pdf. Raw response:
+2025-06-01 13:06:13,122 - ERROR - {
+   "candidate_name": "Cooper Reed",
+   "contact_information": {
+      "email": "cjreed@alumni.stanford.edu",
+      "linkedin": "https://www.linkedin.com/in/cooper-reed/",
+      "other_links": []
+   },
+   "candidate_description": null,
+   "education": [
+      {
+         "degree": "Bachelor of Science",
+         "institution": "Stanford University",
+         "location": "Stanford, CA",
+         "duration": "Class of 2023",
+         "gpa_cgpa": null,
+         "additional_info": "Human-Centered AI Design",
+         "coursework": [
+            "AI Principles & Techniques",
+            "Natural Language Understanding",
+            "CS+Social Good Studio"
+         ]
+      }
+   ],
+   "experience": [
+      {
+         "position": "Full Stack Engineer",
+         "company": "Harvard Skills Lab",
+         "location": "Cambridge, MA",
+         "duration": "November 2023 - Present",
+         "description": "Design + code backend Django dataflows, as well as frontend TS GUIs, for psych experiments i...
+2025-06-01 13:06:29,137 - ERROR - ❌ Failed to extract valid data from [PUBLIC]CReedResume07May25.pdf
+2025-06-01 13:06:30,139 - INFO - 
+📄 File 4/22: Surabhi Waigankar Resume.pdf
+2025-06-01 13:06:30,140 - INFO - 🔄 Processing: Surabhi Waigankar Resume.pdf
+2025-06-01 13:06:30,189 - INFO - Processing Surabhi Waigankar Resume.pdf - Attempt 1/5
+2025-06-01 13:06:30,249 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:06:30,251 - INFO - Retrying request to /openai/v1/chat/completions in 20.000000 seconds
+2025-06-01 13:06:52,257 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:06:52,260 - INFO - Successfully extracted data for Surabhi Waigankar Resume.pdf on attempt 1
+2025-06-01 13:06:52,261 - INFO - ✅ Successfully processed: Surabhi Waigankar Resume.pdf
+2025-06-01 13:06:52,262 - INFO -    👤 Candidate: Surabhi Waingankar
+2025-06-01 13:06:52,262 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/surabhi-waingankar-898b9a26a/
+2025-06-01 13:06:52,262 - INFO -    🐙 GitHub: https://github.com/surabhiwaingankar
+2025-06-01 13:06:52,262 - INFO -    💾 Saved to: Surabhi Waigankar Resume_extracted.json
+2025-06-01 13:06:53,263 - INFO - 
+📄 File 5/22: global6.pdf
+2025-06-01 13:06:53,264 - INFO - 🔄 Processing: global6.pdf
+2025-06-01 13:06:53,352 - INFO - Processing global6.pdf - Attempt 1/5
+2025-06-01 13:06:53,379 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:06:53,380 - INFO - Retrying request to /openai/v1/chat/completions in 43.000000 seconds
+2025-06-01 13:07:43,616 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:07:43,619 - INFO - Successfully extracted data for global6.pdf on attempt 1
+2025-06-01 13:07:43,621 - INFO - ✅ Successfully processed: global6.pdf
+2025-06-01 13:07:43,622 - INFO -    👤 Candidate: Georgia Hobson
+2025-06-01 13:07:43,622 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/georgia-h-b48434150/
+2025-06-01 13:07:43,622 - INFO -    🐙 GitHub: https://github.com/G-bot987
+2025-06-01 13:07:43,622 - INFO -    💾 Saved to: global6_extracted.json
+2025-06-01 13:07:44,623 - INFO - 
+📄 File 6/22: resume.de5523fb8b3d8e03d97d.pdf
+2025-06-01 13:07:44,624 - INFO - 🔄 Processing: resume.de5523fb8b3d8e03d97d.pdf
+2025-06-01 13:07:44,742 - INFO - Processing resume.de5523fb8b3d8e03d97d.pdf - Attempt 1/5
+2025-06-01 13:07:44,770 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:07:44,771 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-06-01 13:08:15,513 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:08:15,516 - INFO - Successfully extracted data for resume.de5523fb8b3d8e03d97d.pdf on attempt 1
+2025-06-01 13:08:15,517 - INFO - ✅ Successfully processed: resume.de5523fb8b3d8e03d97d.pdf
+2025-06-01 13:08:15,517 - INFO -    👤 Candidate: Zhonghui Duan
+2025-06-01 13:08:15,517 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/leslie-duan-641853121/
+2025-06-01 13:08:15,518 - INFO -    🐙 GitHub: https://github.com/leslied41
+2025-06-01 13:08:15,518 - INFO -    💾 Saved to: resume.de5523fb8b3d8e03d97d_extracted.json
+2025-06-01 13:08:16,519 - INFO - 
+📄 File 7/22: Oliver_Wu_Résumé.pdf
+2025-06-01 13:08:16,519 - INFO - 🔄 Processing: Oliver_Wu_Résumé.pdf
+2025-06-01 13:08:16,601 - INFO - Processing Oliver_Wu_Résumé.pdf - Attempt 1/5
+2025-06-01 13:08:16,630 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:08:16,630 - INFO - Retrying request to /openai/v1/chat/completions in 33.000000 seconds
+2025-06-01 13:08:51,478 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:08:51,480 - INFO - Successfully extracted data for Oliver_Wu_Résumé.pdf on attempt 1
+2025-06-01 13:08:51,482 - INFO - ✅ Successfully processed: Oliver_Wu_Résumé.pdf
+2025-06-01 13:08:51,482 - INFO -    👤 Candidate: Yuanming (Oliver) Wu
+2025-06-01 13:08:51,483 - INFO -    🔗 LinkedIn: https://linkedin.com/in/yuanming-wu-094b40232
+2025-06-01 13:08:51,483 - INFO -    🐙 GitHub: https://github.com/MUOliver1026
+2025-06-01 13:08:51,483 - INFO -    💾 Saved to: Oliver_Wu_Résumé_extracted.json
+2025-06-01 13:08:52,485 - INFO - 
+📄 File 8/22: global10.pdf
+2025-06-01 13:08:52,485 - INFO - 🔄 Processing: global10.pdf
+2025-06-01 13:08:52,537 - INFO - Processing global10.pdf - Attempt 1/5
+2025-06-01 13:08:52,564 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:08:52,565 - INFO - Retrying request to /openai/v1/chat/completions in 33.000000 seconds
+2025-06-01 13:09:27,593 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:09:27,597 - INFO - Successfully extracted data for global10.pdf on attempt 1
+2025-06-01 13:09:27,599 - INFO - ✅ Successfully processed: global10.pdf
+2025-06-01 13:09:27,599 - INFO -    👤 Candidate: Abdulaziz EL Sabbagh
+2025-06-01 13:09:27,600 - INFO -    🔗 LinkedIn: https://abduls-portfolio.vercel.app
+2025-06-01 13:09:27,600 - INFO -    🐙 GitHub: None
+2025-06-01 13:09:27,600 - INFO -    💾 Saved to: global10_extracted.json
+2025-06-01 13:09:28,601 - INFO - 
+📄 File 9/22: global2.pdf
+2025-06-01 13:09:28,602 - INFO - 🔄 Processing: global2.pdf
+2025-06-01 13:09:28,655 - INFO - Processing global2.pdf - Attempt 1/5
+2025-06-01 13:09:28,696 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:09:28,697 - INFO - Retrying request to /openai/v1/chat/completions in 43.000000 seconds
+2025-06-01 13:10:18,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:10:18,968 - INFO - Successfully extracted data for global2.pdf on attempt 1
+2025-06-01 13:10:18,970 - INFO - ✅ Successfully processed: global2.pdf
+2025-06-01 13:10:18,971 - INFO -    👤 Candidate: Miguel Liu-Schiaffini
+2025-06-01 13:10:18,971 - INFO -    🔗 LinkedIn: https://mliuschi.github.io/
+2025-06-01 13:10:18,971 - INFO -    🐙 GitHub: https://github.com/neuraloperator/neuraloperator
+2025-06-01 13:10:18,971 - INFO -    💾 Saved to: global2_extracted.json
+2025-06-01 13:10:19,972 - INFO - 
+📄 File 10/22: Yulong Zhang Resume.pdf
+2025-06-01 13:10:19,973 - INFO - 🔄 Processing: Yulong Zhang Resume.pdf
+2025-06-01 13:10:21,024 - INFO - Processing Yulong Zhang Resume.pdf - Attempt 1/5
+2025-06-01 13:10:21,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:10:21,069 - INFO - Retrying request to /openai/v1/chat/completions in 25.000000 seconds
+2025-06-01 13:10:47,837 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:10:47,841 - INFO - Successfully extracted data for Yulong Zhang Resume.pdf on attempt 1
+2025-06-01 13:10:47,842 - INFO - ✅ Successfully processed: Yulong Zhang Resume.pdf
+2025-06-01 13:10:47,842 - INFO -    👤 Candidate: Yulong Zhang (Albert)
+2025-06-01 13:10:47,843 - INFO -    🔗 LinkedIn: https://www.albertwork.com
+2025-06-01 13:10:47,843 - INFO -    🐙 GitHub: None
+2025-06-01 13:10:47,843 - INFO -    💾 Saved to: Yulong Zhang Resume_extracted.json
+2025-06-01 13:10:48,844 - INFO - 
+📄 File 11/22: Henry_Heffernan_S22_Resume.85110887afd66d826043.pdf
+2025-06-01 13:10:48,845 - INFO - 🔄 Processing: Henry_Heffernan_S22_Resume.85110887afd66d826043.pdf
+2025-06-01 13:10:48,872 - INFO - Processing Henry_Heffernan_S22_Resume.85110887afd66d826043.pdf - Attempt 1/5
+2025-06-01 13:10:48,900 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:10:48,901 - INFO - Retrying request to /openai/v1/chat/completions in 34.000000 seconds
+2025-06-01 13:11:29,626 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:11:29,628 - INFO - Successfully extracted data for Henry_Heffernan_S22_Resume.85110887afd66d826043.pdf on attempt 1
+2025-06-01 13:11:29,630 - INFO - ✅ Successfully processed: Henry_Heffernan_S22_Resume.85110887afd66d826043.pdf
+2025-06-01 13:11:29,630 - INFO -    👤 Candidate: Henry Heffernan
+2025-06-01 13:11:29,631 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/henryheffernan/
+2025-06-01 13:11:29,631 - INFO -    🐙 GitHub: https://github.com/henryjeff
+2025-06-01 13:11:29,631 - INFO -    💾 Saved to: Henry_Heffernan_S22_Resume.85110887afd66d826043_extracted.json
+2025-06-01 13:11:30,632 - INFO - 
+📄 File 12/22: Stanley Edward Resume (1).pdf
+2025-06-01 13:11:30,633 - INFO - 🔄 Processing: Stanley Edward Resume (1).pdf
+2025-06-01 13:11:30,669 - INFO - Processing Stanley Edward Resume (1).pdf - Attempt 1/5
+2025-06-01 13:11:30,698 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:11:30,699 - INFO - Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2025-06-01 13:11:55,589 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:11:55,593 - INFO - Successfully extracted data for Stanley Edward Resume (1).pdf on attempt 1
+2025-06-01 13:11:55,595 - INFO - ✅ Successfully processed: Stanley Edward Resume (1).pdf
+2025-06-01 13:11:55,595 - INFO -    👤 Candidate: Stanley Edward
+2025-06-01 13:11:55,595 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/stanley-edward
+2025-06-01 13:11:55,596 - INFO -    🐙 GitHub: https://github.com/stanleyedward
+2025-06-01 13:11:55,596 - INFO -    💾 Saved to: Stanley Edward Resume (1)_extracted.json
+2025-06-01 13:11:56,596 - INFO - 
+📄 File 13/22: PARTH JAIN RESUME.pdf
+2025-06-01 13:11:56,597 - INFO - 🔄 Processing: PARTH JAIN RESUME.pdf
+2025-06-01 13:11:56,627 - INFO - Processing PARTH JAIN RESUME.pdf - Attempt 1/5
+2025-06-01 13:11:56,657 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:11:56,658 - INFO - Retrying request to /openai/v1/chat/completions in 33.000000 seconds
+2025-06-01 13:12:31,913 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:12:31,916 - INFO - Successfully extracted data for PARTH JAIN RESUME.pdf on attempt 1
+2025-06-01 13:12:31,917 - INFO - ✅ Successfully processed: PARTH JAIN RESUME.pdf
+2025-06-01 13:12:31,917 - INFO -    👤 Candidate: Parth Jain
+2025-06-01 13:12:31,917 - INFO -    🔗 LinkedIn: https://linkedin.com/in/parthjain18
+2025-06-01 13:12:31,918 - INFO -    🐙 GitHub: https://github.com/parthjain18
+2025-06-01 13:12:31,918 - INFO -    💾 Saved to: PARTH JAIN RESUME_extracted.json
+2025-06-01 13:12:32,918 - INFO - 
+📄 File 14/22: global.pdf
+2025-06-01 13:12:32,919 - INFO - 🔄 Processing: global.pdf
+2025-06-01 13:12:33,014 - INFO - Processing global.pdf - Attempt 1/5
+2025-06-01 13:12:33,057 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:12:33,058 - INFO - Retrying request to /openai/v1/chat/completions in 39.000000 seconds
+2025-06-01 13:13:14,154 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:13:14,158 - INFO - Successfully extracted data for global.pdf on attempt 1
+2025-06-01 13:13:14,160 - INFO - ✅ Successfully processed: global.pdf
+2025-06-01 13:13:14,160 - INFO -    👤 Candidate: vansh tibrewal
+2025-06-01 13:13:14,161 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/vanshtibrewal/
+2025-06-01 13:13:14,162 - INFO -    🐙 GitHub: ['https://github.com/vanshtibrewal', 'https://github.com/nika-chuzhoy/cuda-gpt-2']
+2025-06-01 13:13:14,162 - INFO -    💾 Saved to: global_extracted.json
+2025-06-01 13:13:15,163 - INFO - 
+📄 File 15/22: Fernando_Salviati_resume.pdf
+2025-06-01 13:13:15,164 - INFO - 🔄 Processing: Fernando_Salviati_resume.pdf
+2025-06-01 13:13:15,277 - INFO - Processing Fernando_Salviati_resume.pdf - Attempt 1/5
+2025-06-01 13:13:15,303 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:13:15,304 - INFO - Retrying request to /openai/v1/chat/completions in 44.000000 seconds
+2025-06-01 13:14:01,275 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:14:01,279 - INFO - Successfully extracted data for Fernando_Salviati_resume.pdf on attempt 1
+2025-06-01 13:14:01,280 - INFO - ✅ Successfully processed: Fernando_Salviati_resume.pdf
+2025-06-01 13:14:01,281 - INFO -    👤 Candidate: FERNANDO SALVIATI
+2025-06-01 13:14:01,281 - INFO -    🔗 LinkedIn: None
+2025-06-01 13:14:01,281 - INFO -    🐙 GitHub: None
+2025-06-01 13:14:01,281 - INFO -    💾 Saved to: Fernando_Salviati_resume_extracted.json
+2025-06-01 13:14:02,281 - INFO - 
+📄 File 16/22: cv_dev_felipe.pdf
+2025-06-01 13:14:02,282 - INFO - 🔄 Processing: cv_dev_felipe.pdf
+2025-06-01 13:14:02,362 - INFO - Processing cv_dev_felipe.pdf - Attempt 1/5
+2025-06-01 13:14:02,388 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:14:02,389 - INFO - Retrying request to /openai/v1/chat/completions in 29.000000 seconds
+2025-06-01 13:14:33,930 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:14:33,933 - INFO - Successfully extracted data for cv_dev_felipe.pdf on attempt 1
+2025-06-01 13:14:33,935 - INFO - ✅ Successfully processed: cv_dev_felipe.pdf
+2025-06-01 13:14:33,935 - INFO -    👤 Candidate: FELIPE RAPHAEL COELHO DOS SANTOS
+2025-06-01 13:14:33,935 - INFO -    🔗 LinkedIn: https://linkedin.com/in/frcelipe7/
+2025-06-01 13:14:33,935 - INFO -    🐙 GitHub: https://github.com/Engenharia-de-Software-da-UEPA/ia-jogo-da-velha
+2025-06-01 13:14:33,935 - INFO -    💾 Saved to: cv_dev_felipe_extracted.json
+2025-06-01 13:14:34,936 - INFO - 
+📄 File 17/22: Bhimesh Patil Resume.pdf
+2025-06-01 13:14:34,937 - INFO - 🔄 Processing: Bhimesh Patil Resume.pdf
+2025-06-01 13:14:35,060 - INFO - Processing Bhimesh Patil Resume.pdf - Attempt 1/5
+2025-06-01 13:14:35,084 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:14:35,085 - INFO - Retrying request to /openai/v1/chat/completions in 36.000000 seconds
+2025-06-01 13:15:13,538 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:15:13,541 - INFO - Successfully extracted data for Bhimesh Patil Resume.pdf on attempt 1
+2025-06-01 13:15:13,544 - INFO - ✅ Successfully processed: Bhimesh Patil Resume.pdf
+2025-06-01 13:15:13,544 - INFO -    👤 Candidate: Bhimesh Patil
+2025-06-01 13:15:13,545 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/bhimesh-patil/
+2025-06-01 13:15:13,545 - INFO -    🐙 GitHub: ['https://github.com/Bhimesh1/finance-tracker', 'https://github.com/Bhimesh1/Deballot', 'https://github.com/Bhimesh1/MidlewareBhimesh']
+2025-06-01 13:15:13,545 - INFO -    💾 Saved to: Bhimesh Patil Resume_extracted.json
+2025-06-01 13:15:14,546 - INFO - 
+📄 File 18/22: CV-TDech-BDZYBxXF.pdf
+2025-06-01 13:15:14,547 - INFO - 🔄 Processing: CV-TDech-BDZYBxXF.pdf
+2025-06-01 13:15:14,796 - INFO - Processing CV-TDech-BDZYBxXF.pdf - Attempt 1/5
+2025-06-01 13:15:14,824 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:15:14,824 - INFO - Retrying request to /openai/v1/chat/completions in 58.000000 seconds
+2025-06-01 13:16:15,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:16:15,912 - INFO - Successfully extracted data for CV-TDech-BDZYBxXF.pdf on attempt 1
+2025-06-01 13:16:15,914 - INFO - ✅ Successfully processed: CV-TDech-BDZYBxXF.pdf
+2025-06-01 13:16:15,914 - INFO -    👤 Candidate: Tanapong Dechsakul
+2025-06-01 13:16:15,914 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/tanapongdech
+2025-06-01 13:16:15,914 - INFO -    🐙 GitHub: None
+2025-06-01 13:16:15,914 - INFO -    💾 Saved to: CV-TDech-BDZYBxXF_extracted.json
+2025-06-01 13:16:16,915 - INFO - 
+📄 File 19/22: Stanley Edward Resume.pdf
+2025-06-01 13:16:16,916 - INFO - 🔄 Processing: Stanley Edward Resume.pdf
+2025-06-01 13:16:16,953 - INFO - Processing Stanley Edward Resume.pdf - Attempt 1/5
+2025-06-01 13:16:18,830 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:16:18,833 - INFO - Successfully extracted data for Stanley Edward Resume.pdf on attempt 1
+2025-06-01 13:16:18,834 - INFO - ✅ Successfully processed: Stanley Edward Resume.pdf
+2025-06-01 13:16:18,835 - INFO -    👤 Candidate: Stanley Edward
+2025-06-01 13:16:18,835 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/stanley-edward
+2025-06-01 13:16:18,835 - INFO -    🐙 GitHub: https://github.com/stanleyedward
+2025-06-01 13:16:18,835 - INFO -    💾 Saved to: Stanley Edward Resume_extracted.json
+2025-06-01 13:16:19,836 - INFO - 
+📄 File 20/22: global7.pdf
+2025-06-01 13:16:19,837 - INFO - 🔄 Processing: global7.pdf
+2025-06-01 13:16:20,610 - INFO - Processing global7.pdf - Attempt 1/5
+2025-06-01 13:16:20,635 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:16:20,636 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-06-01 13:16:27,058 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:16:27,060 - INFO - Successfully extracted data for global7.pdf on attempt 1
+2025-06-01 13:16:27,062 - INFO - ✅ Successfully processed: global7.pdf
+2025-06-01 13:16:27,062 - INFO -    👤 Candidate: Ziad Tariq
+2025-06-01 13:16:27,062 - INFO -    🔗 LinkedIn: https://www.linkedin.com/in/ziad-tariq-951193182/
+2025-06-01 13:16:27,062 - INFO -    🐙 GitHub: https://github.com/Ziadtari
+2025-06-01 13:16:27,062 - INFO -    💾 Saved to: global7_extracted.json
+2025-06-01 13:16:28,063 - INFO - 
+📄 File 21/22: global5.pdf
+2025-06-01 13:16:28,064 - INFO - 🔄 Processing: global5.pdf
+2025-06-01 13:16:28,098 - INFO - Processing global5.pdf - Attempt 1/5
+2025-06-01 13:16:28,127 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:16:28,128 - INFO - Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2025-06-01 13:16:52,600 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:16:52,602 - INFO - Successfully extracted data for global5.pdf on attempt 1
+2025-06-01 13:16:52,604 - INFO - ✅ Successfully processed: global5.pdf
+2025-06-01 13:16:52,604 - INFO -    👤 Candidate: Mary Ella Hill
+2025-06-01 13:16:52,604 - INFO -    🔗 LinkedIn: https://www.maryella.dev/
+2025-06-01 13:16:52,605 - INFO -    🐙 GitHub: http://github.com/maryella
+2025-06-01 13:16:52,605 - INFO -    💾 Saved to: global5_extracted.json
+2025-06-01 13:16:53,605 - INFO - 
+📄 File 22/22: Sujal Choudhari Resume.pdf
+2025-06-01 13:16:53,606 - INFO - 🔄 Processing: Sujal Choudhari Resume.pdf
+2025-06-01 13:16:53,663 - INFO - Processing Sujal Choudhari Resume.pdf - Attempt 1/5
+2025-06-01 13:16:53,694 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-01 13:16:53,695 - INFO - Retrying request to /openai/v1/chat/completions in 28.000000 seconds
+2025-06-01 13:17:23,595 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-01 13:17:23,598 - INFO - Successfully extracted data for Sujal Choudhari Resume.pdf on attempt 1
+2025-06-01 13:17:23,599 - INFO - ✅ Successfully processed: Sujal Choudhari Resume.pdf
+2025-06-01 13:17:23,600 - INFO -    👤 Candidate: Sujal Choudhari
+2025-06-01 13:17:23,600 - INFO -    🔗 LinkedIn: https://linkedin.com/in/sujalchoudhari
+2025-06-01 13:17:23,600 - INFO -    🐙 GitHub: https://github.com/SujalChoudhari
+2025-06-01 13:17:23,600 - INFO -    💾 Saved to: Sujal Choudhari Resume_extracted.json
+2025-06-01 13:17:24,601 - INFO - 
+============================================================
+2025-06-01 13:17:24,602 - INFO - 📊 BATCH PROCESSING COMPLETE
+2025-06-01 13:17:24,602 - INFO - ============================================================
+2025-06-01 13:17:24,603 - INFO - ✅ Successfully processed: 21
+2025-06-01 13:17:24,603 - INFO - ⏭️  Skipped (already exists): 0
+2025-06-01 13:17:24,603 - INFO - ❌ Failed: 1
+2025-06-01 13:17:24,603 - INFO - 📄 Total files: 22
+2025-06-01 13:17:24,603 - INFO - ⏱️  Total time: 869.75 seconds
+2025-06-01 13:17:24,603 - INFO - ⚡ Average time per file: 39.53 seconds
+2025-06-01 13:17:24,603 - INFO - ============================================================

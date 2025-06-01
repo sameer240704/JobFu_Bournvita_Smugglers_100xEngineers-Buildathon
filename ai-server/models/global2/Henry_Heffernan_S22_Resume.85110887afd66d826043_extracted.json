@@ -1,0 +1,155 @@
+{
+  "candidate_name": "Henry Heffernan",
+  "contact_information": {
+    "email": "henryheffernan@gmail.com",
+    "phone": "(914) 715-6106",
+    "location": "Troy, New York",
+    "linkedin": "https://www.linkedin.com/in/henryheffernan/",
+    "github": "https://github.com/henryjeff",
+    "portfolio": "https://henryheffernan.com/",
+    "other_links": [
+      "https://henryheffernan.com/",
+      "http://henryheffernan.com/",
+      "https://www.linkedin.com/in/henryheffernan/",
+      "https://linkedin.com/in/henryheffernan",
+      "https://hover.gg/",
+      "https://bracs.co/",
+      "https://github.com/henryjeffHenry"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Rensselaer Polytechnic Institute",
+      "location": "Troy, New York",
+      "duration": "Fall 2018 - Spring 2022",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": [
+        "Data Structures",
+        "Intro to Algorithms",
+        "Foundations of Computer Science",
+        "Software Design and Documentation",
+        "Principles of Software",
+        "Database Systems",
+        "Intro to Artificial Intelligence",
+        "Network Programming",
+        "Operating Systems",
+        "Programming Languages",
+        "Computer Organization"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Team Lead and Front End Engineer",
+      "company": "bracs.co BRACS",
+      "location": null,
+      "duration": "Fall 2021 - Spring 2022",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Architected and engineered the vertical scrolling discover player which, at peak usage, was responsible for generating over 600,000 views across 20,000 active users.",
+        "Designed and implemented features to increase app usability and user experience while ensuring the quality, maintainability and scalability of the front end as the user base grew by over 50,000.",
+        "Coordinated a major refactor targeted towards app optimization and performance resulting in a smoother user experience and accomplished by eliminating redundant re-renders and API calls by over 50%",
+        "Directed and executed an internal migration of 3 individual repositories to a single mono repository, reducing overhead for developing new features, fixing bugs, and managing dependencies."
+      ],
+      "technologies_used": [
+        "React",
+        "React Native",
+        "Three.js",
+        "Redux",
+        "Node",
+        "Express",
+        "Jest",
+        "Framer",
+        "React Navigation"
+      ]
+    },
+    {
+      "position": "Front End Engineer",
+      "company": "Hover",
+      "location": null,
+      "duration": "Summer 2020 - Fall 2021",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Built the website with React and shared mobile app components allowing users to access a multitude of app interactions entirely on the web, resulting in over 700,000 total site visits."
+      ],
+      "technologies_used": [
+        "React",
+        "React Native",
+        "Framer",
+        "Express",
+        "Redux"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "henryheffernan.com 3D Interactive Portfolio Website",
+      "description": null,
+      "technologies": [
+        "React",
+        "Three.js"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Spring 2022"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Typescript",
+        "JavaScript",
+        "Java",
+        "C++",
+        "C",
+        "C#",
+        "SQL",
+        "Haskell"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "React Native",
+        "Three.js",
+        "Redux"
+      ],
+      "databases": [],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:11:29.629143",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Henry_Heffernan_S22_Resume.85110887afd66d826043.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 13,
+    "file_size_mb": 0.46
+  }
+}
