@@ -27,13 +27,15 @@ const CandidateProfile = () => {
     fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/candidates/${id}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.skills.technical_skills);
+        // console.log(data.experience);
         setCandidateData(data);
       })
       .catch((error) => {
         console.error("Error fetching candidate data:", error);
       });
   }, [id]);
+
+  console.log(candidateData);
 
   const TabButton = ({ id, label, icon: Icon, isActive, onClick }) => (
     <button
@@ -411,25 +413,6 @@ const CandidateProfile = () => {
                 <h2 className="text-2xl font-bold text-gray-900">
                   Additional Information
                 </h2>
-              </div>
-
-              {/* Volunteering */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
-                <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
-                  <Users size={20} className="text-blue-600" />
-                  Leadership & Volunteering
-                </h3>
-                <div className="space-y-3">
-                  {candidateData.volunteering.map((vol, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
-                    >
-                      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                      <span className="text-gray-700">{vol}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
 
               {/* Publications */}

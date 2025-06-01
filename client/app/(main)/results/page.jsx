@@ -14,7 +14,7 @@ import {
   GraduationCap,
   Clock,
 } from "lucide-react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 // import Link from "next/link"; // Not used in the provided snippet
 import ChatHistoryPanel from "@/components/misc/ChatHistoryPanel"; // Assuming this path is correct
 import Link from "next/link";
@@ -37,7 +37,6 @@ const CandidateSearchResults = () => {
   const [sortBy, setSortBy] = useState("relevance");
   const [shortlisted, setShortlisted] = useState(new Set());
 
-  const searchParams = useSearchParams();
   const router = useRouter();
 
   const [searchQueryFromUrl, setSearchQueryFromUrl] = useState("");
@@ -146,55 +145,6 @@ const CandidateSearchResults = () => {
   useEffect(() => {
     fetchChatHistory();
   }, [fetchChatHistory]);
-
-  // --- Parse URL parameters and fetch initial candidates ---
-  useEffect(() => {
-    const queryFromUrlParam = searchParams.get("q");
-    const filtersStringFromUrl = searchParams.get("filters");
-
-    let currentQuery = "";
-    let currentFilters = initialFiltersState;
-
-    if (queryFromUrlParam) {
-      currentQuery = queryFromUrlParam;
-      setSearchQueryFromUrl(queryFromUrlParam);
-    }
-    if (filtersStringFromUrl) {
-      try {
-        const parsedFilters = JSON.parse(filtersStringFromUrl);
-        currentFilters = {
-          ...initialFiltersState,
-          ...parsedFilters,
-          location: parsedFilters.location || [],
-          skills: parsedFilters.skills || [],
-        };
-        setAppliedFiltersFromUrl(currentFilters);
-        setEditableFilters(currentFilters); // Sync editable filters
-      } catch (error) {
-        console.error("Error parsing filters from URL:", error);
-        setAppliedFiltersFromUrl(initialFiltersState);
-        setEditableFilters(initialFiltersState);
-      }
-    } else {
-      setAppliedFiltersFromUrl(initialFiltersState);
-      setEditableFilters(initialFiltersState);
-    }
-
-    // Simulate API call for candidates based on URL params
-    setLoading(true);
-    console.log(
-      "Simulating API call with query:",
-      currentQuery,
-      "and filters:",
-      currentFilters
-    );
-    // TODO: Replace with actual API call to fetch candidates
-    // For now, we use mockCandidates. In a real app, filter mockCandidates or fetch.
-    setTimeout(() => {
-      setCandidates(mockCandidates);
-      setLoading(false);
-    }, 1500);
-  }, [searchParams]);
 
   // --- Save new search to DB-backed chat history ---
   const saveSearchToDbHistory = useCallback(
@@ -330,20 +280,6 @@ const CandidateSearchResults = () => {
         );
       }
       router.push(`?${newParams.toString()}`);
-      // The useEffect listening to searchParams will then update states and "re-fetch" candidates
-
-      // setSearchQueryFromUrl(selectedChat.searchData.query);
-      // setAppliedFiltersFromUrl(selectedChat.searchData.filters);
-      // setEditableFilters(selectedChat.searchData.filters); // Also update editable filters
-
-      // // Simulate re-fetching candidates based on restored search
-      // setLoading(true);
-      // // TODO: In a real app, you'd fetch candidates based on these restored params
-      // // For now, just use mock data or filter mock data if possible
-      // setTimeout(() => {
-      //   setCandidates(mockCandidates); // Or filter mockCandidates
-      //   setLoading(false);
-      // }, 500);
     }
     setIsChatHistoryOpen(false);
   };
@@ -444,7 +380,7 @@ const CandidateSearchResults = () => {
 
   const { pills: displayPills, otherFiltersCount } = getDisplayableFilters();
 
-  if (loading && candidates.length === 0) {
+  if (loading) {
     // Show main loading only if no candidates yet
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -507,19 +443,7 @@ const CandidateSearchResults = () => {
                 }
                 className="text-xs sm:text-sm border border-gray-300 rounded-md px-2 py-1.5 focus:ring-2 focus:ring-purple-500 focus:border-transparent w-32 sm:w-auto"
               />
-              <button
-                onClick={() => {
-                  const newParams = new URLSearchParams(
-                    searchParams.toString()
-                  );
-                  newParams.set("filters", JSON.stringify(editableFilters));
-                  if (searchQueryFromUrl)
-                    newParams.set("q", searchQueryFromUrl);
-                  else newParams.delete("q");
-                  router.push(`?${newParams.toString()}`);
-                }}
-                className="px-3 py-1.5 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors text-xs sm:text-sm"
-              >
+              <button className="px-3 py-1.5 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors text-xs sm:text-sm">
                 Apply
               </button>
             </div>
