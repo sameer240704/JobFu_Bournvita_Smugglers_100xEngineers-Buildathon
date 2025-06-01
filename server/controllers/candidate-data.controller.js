@@ -63,7 +63,7 @@ const transformCandidateData = (data, aiSummary = null, linkedinData = null) => 
     }
 
     let linkedinDataTransformed = null;
-    if (linkedinData && Array.isArray(linkedinData) && linkedinData.length > 0) {
+    if (linkedinData && typeof linkedinData === 'object' && !Array.isArray(linkedinData)) {
         linkedinDataTransformed = {
             profile_data: linkedinData,
             last_updated: new Date()
@@ -124,7 +124,7 @@ const processCandidateFile = async (filePath, summaryData = null, linkedinData =
         if (retries > 0) {
             console.log(`Retrying ${filePath} (${retries} retries left)`);
             await new Promise(resolve => setTimeout(resolve, 1000)); // Wait 1 second before retry
-            return processCandidateFile(filePath, summaryData, retries - 1);
+            return processCandidateFile(filePath, summaryData, linkedinData, retries - 1);
         }
 
         console.error(`Error processing file ${filePath}:`, err.message);
@@ -134,7 +134,6 @@ const processCandidateFile = async (filePath, summaryData = null, linkedinData =
 
 const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPath = null, linkedinDirectoryPath = null, concurrency = 5) => {
     try {
-        // Process candidate data files
         const dataFiles = fs.readdirSync(dataDirectoryPath);
         const jsonDataFiles = dataFiles.filter(file => file.endsWith('.json'));
 
@@ -145,7 +144,6 @@ const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPa
 
         console.log(`Found ${jsonDataFiles.length} candidate data files to process`);
 
-        // Process summary files if directory provided
         let summaryFilesMap = new Map();
         if (summariesDirectoryPath && fs.existsSync(summariesDirectoryPath)) {
             const summaryFiles = fs.readdirSync(summariesDirectoryPath);
@@ -177,16 +175,38 @@ const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPa
 
             console.log(`Found ${jsonLinkedinFiles.length} LinkedIn files to process`);
 
-            // Create a map of LinkedIn files by candidate number for easy lookup
             for (const file of jsonLinkedinFiles) {
                 try {
-                    // Extract candidate number from filename (linkedin_candidate_1.json -> 1)
-                    const candidateNumberMatch = file.match(/linkeldn_candidate_(\d+)\.json/);
+                    let candidateNumberMatch = file.match(/linkedin_candidate_(\d+)\.json/);
+
+                    if (!candidateNumberMatch) {
+                        candidateNumberMatch = file.match(/(?:candidate_)?(\d+)(?:_linkedin)?\.json/) ||
+                            file.match(/linkedin_(\d+)\.json/);
+                    }
+
                     if (candidateNumberMatch && candidateNumberMatch[1]) {
                         const candidateNumber = candidateNumberMatch[1];
                         const filePath = path.join(linkedinDirectoryPath, file);
-                        const linkedinData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-                        linkedinFilesMap.set(candidateNumber, linkedinData);
+                        const fileContent = fs.readFileSync(filePath, 'utf8');
+
+                        let linkedinData;
+                        try {
+                            linkedinData = JSON.parse(fileContent);
+                        } catch (parseError) {
+                            console.error(`JSON parsing error for LinkedIn file ${file}:`, parseError.message);
+                            continue;
+                        }
+
+                        const finalLinkedinData = Array.isArray(linkedinData) ? linkedinData[0] : linkedinData;
+
+                        if (finalLinkedinData && (finalLinkedinData.fullName || finalLinkedinData.first_name || finalLinkedinData.public_identifier)) {
+                            linkedinFilesMap.set(candidateNumber, finalLinkedinData);
+                            console.log(`Successfully loaded LinkedIn data for candidate ${candidateNumber} from file: ${file}`);
+                        } else {
+                            console.warn(`LinkedIn file ${file} doesn't contain valid LinkedIn data structure`);
+                        }
+                    } else {
+                        console.warn(`Could not extract candidate number from LinkedIn filename: ${file}`);
                     }
                 } catch (err) {
                     console.error(`Error reading LinkedIn file ${file}:`, err);
@@ -194,8 +214,10 @@ const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPa
             }
         }
 
+        console.log(`LinkedIn files map size: ${linkedinFilesMap.size}`);
+        console.log(`Summary files map size: ${summaryFilesMap.size}`);
+
         const results = [];
-        const processQueue = [];
 
         for (let i = 0; i < jsonDataFiles.length; i += concurrency) {
             const batch = jsonDataFiles.slice(i, i + concurrency);
@@ -204,8 +226,17 @@ const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPa
 
                 const candidateNumberMatch = file.match(/candidate_(\d+)\.json/);
                 const candidateNumber = candidateNumberMatch && candidateNumberMatch[1];
+
                 const summaryData = candidateNumber ? summaryFilesMap.get(candidateNumber) : null;
                 const linkedinData = candidateNumber ? linkedinFilesMap.get(candidateNumber) : null;
+
+                console.log(`Processing ${file}:`);
+                console.log(`  - Candidate number: ${candidateNumber}`);
+                console.log(`  - Has summary data: ${!!summaryData}`);
+                console.log(`  - Has LinkedIn data: ${!!linkedinData}`);
+                if (linkedinData) {
+                    console.log(`  - LinkedIn name: ${linkedinData.fullName || linkedinData.first_name + ' ' + linkedinData.last_name || 'Unknown'}`);
+                }
 
                 return processCandidateFile(filePath, summaryData, linkedinData)
                     .then(result => results.push(result));
