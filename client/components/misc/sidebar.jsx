@@ -42,10 +42,10 @@ const Sidebar = ({ isCollapsed = false }) => {
                 </div>
                 <div>
                   <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                    HireAI
+                    JobFu
                   </h1>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">
-                    Recruitment Platform
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    Hire like a master
                   </p>
                 </div>
               </div>
