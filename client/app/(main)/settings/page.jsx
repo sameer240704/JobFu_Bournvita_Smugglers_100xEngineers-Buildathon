@@ -17,8 +17,10 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
+import { useTheme } from "@/context/theme-context";
 
 const SettingsPage = () => {
+  const { theme, toggleTheme } = useTheme();
   const [darkMode, setDarkMode] = useState(false);
   const [emailNotifications, setEmailNotifications] = useState(true);
   const [pushNotifications, setPushNotifications] = useState(true);
@@ -29,16 +31,11 @@ const SettingsPage = () => {
 
   const router = useRouter();
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle("dark");
-  };
-
   const ToggleSwitch = ({ enabled, onToggle, size = "default" }) => {
     const sizeClasses = size === "large" ? "w-10 h-6" : "w-10 h-6";
     const thumbClasses = size === "large" ? "w-4 h-4" : "w-4 h-4";
     const translateClasses =
-      size === "large" ? "translate-x-7" : "translate-x-5";
+      size === "large" ? "translate-x-5" : "translate-x-5";
 
     return (
       <button
@@ -120,14 +117,14 @@ const SettingsPage = () => {
             </h2>
             <div className="space-y-4">
               <SettingCard
-                icon={darkMode ? Moon : Sun}
+                icon={theme == "dark" ? Moon : Sun}
                 title="Theme"
                 description="Switch between light and dark mode"
                 highlight={true}
               >
                 <ToggleSwitch
-                  enabled={darkMode}
-                  onToggle={toggleDarkMode}
+                  enabled={theme == "dark"}
+                  onToggle={toggleTheme}
                   size="large"
                 />
               </SettingCard>
@@ -265,7 +262,7 @@ const SettingsPage = () => {
                       </p>
                     </div>
                   </div>
-                  <Button className="px-4 py-2 border border-border text-foreground rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors duration-200 text-sm font-medium cursor-pointer">
+                  <Button className="px-4 py-2 border border-border text-foreground rounded-lg bg-opacity-10 hover:bg-purple-50/10 dark:hover:bg-purple-900/20 transition-colors duration-200 text-sm font-medium cursor-not-allowed">
                     Configure
                   </Button>
                 </div>
@@ -296,7 +293,6 @@ const SettingsPage = () => {
           </div>
         </div>
 
-        {/* Footer */}
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex items-center justify-between text-sm text-muted-foreground">
             <p>Settings are automatically saved</p>

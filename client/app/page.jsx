@@ -2,6 +2,7 @@
 import CandidateCarousel from "@/components/landing-page/candidate-carousel";
 import PricingSection from "@/components/landing-page/pricing-section";
 import { Button } from "@/components/ui/button";
+import { useTheme } from "@/context/theme-context";
 import { useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import {
@@ -32,17 +33,17 @@ const FeatureCard = ({ icon, title, description }) => (
 );
 
 const LandingPage = () => {
-  const [darkMode, setDarkMode] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
-    if (darkMode) {
+    if (theme == "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
-  }, [darkMode]);
+  }, [theme]);
 
   const handleNavigateLogin = () => {
     router.push("/auth/login");
@@ -91,11 +92,11 @@ const LandingPage = () => {
           {/* Right Side Controls */}
           <div className="flex items-center space-x-3">
             <Button
-              onClick={() => setDarkMode(!darkMode)}
+              onClick={() => toggleTheme()}
               className="p-2.5 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-200"
               aria-label="Toggle theme"
             >
-              {darkMode ? (
+              {theme == "dark" ? (
                 <FiSun className="w-5 h-5" />
               ) : (
                 <FiMoon className="w-5 h-5" />
