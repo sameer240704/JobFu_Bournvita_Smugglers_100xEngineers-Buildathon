@@ -1,0 +1,180 @@
+{
+  "candidate_name": "Owais Ansari",
+  "contact_information": {
+    "email": "owess49@gmail.com",
+    "phone": "+91-9082631318",
+    "location": null,
+    "linkedin": "https://linkedin.com/in/owais",
+    "github": "https://github.com/owais",
+    "portfolio": null,
+    "other_links": [
+      "https://github.com/owais",
+      "https://leetcode.com/u/oasis1/",
+      "https://codeforces.com/profile/owess"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelors of Technology in Artificial Intelligence and Data Science",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering, Mumbai",
+      "location": "Mumbai, Maharashtra",
+      "duration": "August 2023 – June 2026",
+      "gpa_cgpa": "9.4/10.0",
+      "additional_info": null,
+      "coursework": [
+        "Computer Science : Data Structures and Algorithms, Databases, Operating Systems, Computer Networks, Data Mining and Analytics.",
+        "Mathematics : Discrete Mathematics, Probability and Statistics, Number Theory, Linear Algebra."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Backend Developer",
+      "company": "Fyre Gig",
+      "location": "Mumbai, Maharashtra",
+      "duration": "August 2024 – Present",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Designed & implemented a high-throughput real-time messaging system using Apache Kafka & Solace, enabling 10M+ users to receive targeted broadcasts via dynamic topic filtering.",
+        "Achieved 70% reduction in database insertions through event streaming optimization, while implementing TTL (time-to-live) policies and persistent log compaction to ensure 24/7 message durability.",
+        "Orchestrated a CDC-powered data synchronization framework using Debezium + Kafka , enabling sub-second replication of records 1M+ from MySQL to ClickHouse. Achieved 99.9% data consistency while supporting real-time BI dashboards for loan risk analysis.",
+        "Revamped map visualization APIs to dynamically aggregate organizational member counts using geospatial sharding . Reduced query latency by 50% (from 2.1s to 1.05s) through R-tree indexing and bounding box optimizations in PostGIS.",
+        "Led end-to-end backend development of a BNPL (Buy Now Pay Later) platform. Architected AWS-based microservices handling $10k+ monthly transactions."
+      ],
+      "technologies_used": [
+        "Apache Kafka",
+        "Solace",
+        "Debezium",
+        "Kafka",
+        "MySQL",
+        "ClickHouse",
+        "PostGIS",
+        "AWS",
+        "Spring Boot",
+        "Node.js",
+        "Java",
+        "Python",
+        "SQL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Payment Gateway System Prototype",
+      "description": null,
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/owais012/AI-Based_Synchronised-Video_Dubbing",
+        "other": null
+      },
+      "achievements": "Developed a distributed, real-time payment gateway system, capable of handling up to 1,000 transactions per second with microservices for transaction processing, fraud detection, and reconciliation.",
+      "duration": null
+    },
+    {
+      "name": "Synchronized Video Dubbing using AI",
+      "description": null,
+      "technologies": [
+        "NLP",
+        "Flask API",
+        "Node.js"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Achieved 80% reduction in manual dubbing efforts and 60% faster turnaround time.",
+      "duration": "September 2023 – Present"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Java",
+        "Python",
+        "SQL"
+      ],
+      "frameworks_libraries": [
+        "Node.js",
+        "Spring Boot",
+        "RESTful APIs",
+        "Apache Kafka",
+        "Solace Pub/Sub"
+      ],
+      "databases": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "tools_software": [
+        "Docker",
+        "Git",
+        "Swagger",
+        "Kubernetes",
+        "AWS",
+        "FCM",
+        "PowerBI",
+        "Tableau"
+      ],
+      "cloud_platforms": [
+        "AWS"
+      ],
+      "devops": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": null,
+      "description": "Resolved 1000+ problems across various platforms like Leetcode (1662 max), Codeforces and GeeksforGeeks.",
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [
+      {
+        "title": "JP Morgan External Engagement Program",
+        "description": null,
+        "date": "February 2024 - Present",
+        "organization": "Dwarkadas J. Sanghvi College of Engineering, Maharashtra",
+        "prize_amount": null
+      }
+    ],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:07:45.319939",
+    "model_used": "llama3-8b-8192",
+    "source_file": "owess_resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 8,
+    "file_size_mb": 0.12
+  }
+}

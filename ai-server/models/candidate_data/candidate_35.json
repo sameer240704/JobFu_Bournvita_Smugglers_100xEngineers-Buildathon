@@ -1,0 +1,221 @@
+{
+  "candidate_name": "Parth Karia",
+  "contact_information": {
+    "email": "parthkaria72@gmail.com",
+    "phone": "9820426999",
+    "location": "Mumbai, India",
+    "linkedin": "https://linkedin.com/in/parth-karia-aa415821b/",
+    "github": "https://github.com/parthkaria14",
+    "portfolio": null,
+    "other_links": [
+      "https://alpsvoyage.com",
+      "https://interception.in",
+      "https://taahibudgetbazaar.com",
+      "https://github.com/parthkaria14"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "SVKM’s Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, India",
+      "duration": "2023-2026",
+      "gpa_cgpa": "8.5",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Diploma",
+      "institution": "Shri Bhagubhai Mafatlal Polytechnic",
+      "location": "Mumbai, India",
+      "duration": "2020-2023",
+      "gpa_cgpa": "9.02",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Software Development Intern",
+      "company": "Smowcode",
+      "location": "Mumbai, India",
+      "duration": "June 2024 - August 2024",
+      "description": "Developed a Python-based compiler to convert JSON objects into Smowcode nodes, enabling enhanced customization for client workflows. Boosted compiler performance with Cython, achieving a 40% reduction in execution time, improving efficiency.",
+      "type": null,
+      "key_achievements": [
+        "Developed a Python-based compiler",
+        "Boosted compiler performance with Cython"
+      ],
+      "technologies_used": [
+        "Python",
+        "Cython"
+      ]
+    },
+    {
+      "position": "Freelance Web Developer",
+      "company": "Aristoart, Ryzen Tech",
+      "location": "Mumbai, India",
+      "duration": "June 2024 - Present",
+      "description": "Designed and deployed three professional websites (alpsvoyage.com, interception.in, taahibudgetbazaar.com) using Shopify, Wix, and ReactJS. Managed end-to-end website deployment processes, including hosting and domain setup on GoDaddy, ensuring seamless online presence for clients.",
+      "type": null,
+      "key_achievements": [
+        "Designed and deployed three professional websites",
+        "Managed end-to-end website deployment processes"
+      ],
+      "technologies_used": [
+        "Shopify",
+        "Wix",
+        "ReactJS",
+        "GoDaddy"
+      ]
+    },
+    {
+      "position": "Web Developer Intern",
+      "company": "Hungry Brain",
+      "location": "Mumbai, India",
+      "duration": "July 2022 - August 2022",
+      "description": "Optimized Shopify product listings and implemented SEO strategies, boosting organic traffic by 35%. Efficiently resolved technical issues, minimizing project disruptions.",
+      "type": null,
+      "key_achievements": [
+        "Optimized Shopify product listings",
+        "Implemented SEO strategies"
+      ],
+      "technologies_used": [
+        "Shopify"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nyaya-Sahay (AI Powered Legal Assistant)",
+      "description": "Developed and deployed an API for a legal chatbot, document finder, and case status using FastAPI, Docker, and AWS ECS for scalable, reliable hosting. Utilized Selenium to scrape real-time legal data and integrated the API with the frontend.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "AWS ECS",
+        "Selenium"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Synthetic Dataset Generator",
+      "description": "Used CTGANs, WGANs, and VAEs to generate synthetic data, improving model accuracy by 4% when trained on synthetic data (82%) compared to real data (78%). Successfully generated up to 3,000 synthetic rows from an initial dataset of just 300, significantly enhancing model training and performance with a larger data set.",
+      "technologies": [
+        "CTGANs",
+        "WGANs",
+        "VAEs"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Multilingual Chatbot",
+      "description": "Developed a multilingual chatbot supporting English, Hindi, Marathi, and Gujarati using Helsinki models for translation and Llama for context-aware conversations, ensuring smooth interactions across languages. Built a user-friendly frontend with Streamlit, enabling seamless communication across multiple languages.",
+      "technologies": [
+        "Helsinki models",
+        "Llama",
+        "Streamlit"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Movie Recommendation System",
+      "description": "Developed a movie recommendation system using Python and Streamlit for the frontend, leveraging scikit-learn’s vectorization and similarity algorithms with Pandas and NumPy for content-based filtering on a dataset of over 5,000 movies. Integrated the TMDb API to fetch and display movie posters.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "scikit-learn",
+        "Pandas",
+        "NumPy",
+        "TMDb API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP"
+      ],
+      "frameworks_libraries": [
+        "Bootstrap",
+        "Tailwind",
+        "Next.js",
+        "React.js",
+        "FastAPI",
+        "Cython",
+        "Shopify",
+        "Wix"
+      ],
+      "databases": [
+        "MySQL",
+        "Oracle",
+        "MongoDB"
+      ],
+      "tools_software": [
+        "GitHub",
+        "Docker",
+        "AWS",
+        "GoDaddy"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:54:30.410377",
+    "model_used": "llama3-8b-8192",
+    "source_file": "resume_ParthKaria_0125.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 8,
+    "file_size_mb": 0.11
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "candidate_name": "Sujal Choudhari",
+  "contact_information": {
+    "email": "sjlchoudhari@gmail.com",
+    "phone": "8408873439",
+    "location": null,
+    "linkedin": "https://linkedin.com/in/sujalchoudhari",
+    "github": "https://github.com/SujalChoudhari",
+    "portfolio": null,
+    "other_links": [
+      "https://tel:8408873439",
+      "https://www.youtube.com/watch?v=RJW3zgzZl3w",
+      "https://linkedin.com/in/sujalchoudhari",
+      "https://sujal.xyz",
+      "https://github.com/SujalChoudhari"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Information Technology and Honors in DevOps",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, India",
+      "duration": "2022-2026",
+      "gpa_cgpa": "9.07/10 CGPA",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Higher Secondary Certificate",
+      "institution": "R. P. Jr College of Arts, Commerce and Science",
+      "location": "Vasai, India",
+      "duration": "2020-2022",
+      "gpa_cgpa": "85%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Secondary School Certificate",
+      "institution": "Dr. M. G. Parulekar Mirtamandals School",
+      "location": "Vasai, India",
+      "duration": "2011-2020",
+      "gpa_cgpa": "89%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Software Developer Intern",
+      "company": "Meresu Ventures India Pvt. Ltd.",
+      "location": "Remote",
+      "duration": "July 2024 - Present",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Engineered extremely secure HTTPS APIs and backend systems using Supabase for an enterprise HR analytics for managing the productivity of 200+ employees.",
+        "Optimized backend infrastructure supporting real-time analytics and high-volume data processing for multiple enterprise clients, with 99% uptime of the AI call bot.",
+        "Strengthened authentication protocols, with 2 layers of authentication and data protection mechanisms to ensure secure handling of corporate communication data."
+      ],
+      "technologies_used": [
+        "Supabase",
+        "C++",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "Rust",
+        "FastAPI",
+        "Flask",
+        "Django",
+        "MongoDB",
+        "MySQL",
+        "Firebase",
+        "Git"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Coda",
+      "description": null,
+      "technologies": [
+        "C++",
+        "Formal Language and Grammar Custom Programming Language"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/SujalChoudhari/Coda",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Triayami Darshan",
+      "description": null,
+      "technologies": [
+        "C#",
+        "Unity",
+        "NuGet"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Cleo",
+      "description": null,
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "React",
+        "AI/ML"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Won 1st place in the Diffusion and LLM category in Yourstory’s and OLA’s 100x Engineers Buildathon.",
+      "duration": null
+    },
+    {
+      "name": "Neptune.js",
+      "description": null,
+      "technologies": [
+        "JavaScript ES6",
+        "Web Technologies"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/SujalChoudhari/Neptune.js",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C/C++",
+        "C#",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "Rust"
+      ],
+      "frameworks_libraries": [
+        "FastAPI",
+        "Flask",
+        "Django",
+        "MongoDB",
+        "MySQL",
+        "Firebase",
+        "Git"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "tools_software": [
+        "Supabase",
+        "NuGet"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Led teams to victory in 6 hackathons",
+      "description": "Competed against 4 lakh participants from all over India, focusing on real problem solving.",
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Managed development of 2 game development frameworks",
+      "description": "Coordinating feature implementation and community feedback across distributed teams, leaving an impact on the real world.",
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Developed and maintained a localization tool",
+      "description": "Improving accessibility in global projects.",
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Created comprehensive technical guides and practices",
+      "description": "Made freely available on Gumroad to support developers and open-source community.",
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:17:23.598780",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Sujal Choudhari Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 11,
+    "file_size_mb": 0.13
+  }
+}

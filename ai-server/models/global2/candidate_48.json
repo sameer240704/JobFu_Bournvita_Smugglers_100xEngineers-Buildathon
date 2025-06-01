@@ -1,0 +1,239 @@
+{
+  "candidate_name": "FELIPE RAPHAEL COELHO DOS SANTOS",
+  "contact_information": {
+    "email": "feliperaphaelpara@gmail.com",
+    "linkedin": "https://linkedin.com/in/frcelipe7/",
+    "github": "https://github.com/Engenharia-de-Software-da-UEPA/ia-jogo-da-velha",
+    "portfolio": null,
+    "other_links": [
+      "https://bioqualityconsultoria.com.br/",
+      "https://linkedin.com/in/frcelipe7/",
+      "https://filhasdomel.github.io/site/",
+      "https://sandro-a-moraes.github.io/",
+      "https://frcelipe7.github.io/"
+    ]
+  },
+  "candidate_description": "Desenvolvedor Full Stack com experiência na construção e otimização de aplicações web, melhoramento da experiência do usuário e redução de custos por meio de soluções de software.",
+  "education": [
+    {
+      "degree": null,
+      "institution": "UEPA",
+      "location": null,
+      "duration": "Previsão 2027",
+      "gpa_cgpa": null,
+      "additional_info": "Engenharia de Software",
+      "coursework": []
+    },
+    {
+      "degree": null,
+      "institution": "IFPA",
+      "location": null,
+      "duration": "Jun 2021 - Dez 2021",
+      "gpa_cgpa": null,
+      "additional_info": "Técnico em Eletroeletrônica",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Full Stack Web Developer",
+      "company": "Bioquality",
+      "location": null,
+      "duration": "Set 2023 - atualmente",
+      "description": "Automatizei fluxos de trabalho e atualizei processos, aumentando a eficiência em 40% e reduzindo o trabalho manual em 90% em algumas áreas;",
+      "type": null,
+      "key_achievements": [
+        "Aumentou a eficiência em 40%",
+        "Reduziu o trabalho manual em 90%",
+        "Reduziu os custos da empresa em 15%",
+        "Aumentou a satisfação do cliente em 20%"
+      ],
+      "technologies_used": [
+        "Django",
+        "Python",
+        "Sass",
+        "JavaScript",
+        "Figma",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "position": "Estagiário Técnico em Eletroeletrônica",
+      "company": "IFPA",
+      "location": null,
+      "duration": "Jun 2021 - Dez 2021",
+      "description": "Desenvolvi um site para a AFMA para melhorar a presença online e a acessibilidade.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Suporte Técnico & Matemática Financeira"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Criação de Landing Page",
+      "description": null,
+      "technologies": [
+        "Figma",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Attendance Tracking System",
+      "description": null,
+      "technologies": [
+        "Django",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Jogo da Velha com IA",
+      "description": null,
+      "technologies": [
+        "Django",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Engenharia-de-Software-da-UEPA/ia-jogo-da-velha",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Caminhos & Trilhas",
+      "description": null,
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Figma",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Landing Page AFMA",
+      "description": null,
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "GitHub"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "frameworks_libraries": [
+        "Django"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Figma",
+        "Git",
+        "GitHub"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "CS50's Web Programming with Python and JavaScript",
+      "issuing_organization": "HarvardX",
+      "date": "2022",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Guided Project: ReactJS",
+      "issuing_organization": "IBM",
+      "date": "2025",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Certificado de Inglês C1 Avançado",
+      "issuing_organization": "EF SET",
+      "date": "2024",
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:14:33.933912",
+    "model_used": "llama3-8b-8192",
+    "source_file": "cv_dev_felipe.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 9,
+    "file_size_mb": 0.17
+  }
+}

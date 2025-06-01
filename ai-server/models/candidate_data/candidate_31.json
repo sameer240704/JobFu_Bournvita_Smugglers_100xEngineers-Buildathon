@@ -1,0 +1,192 @@
+{
+  "candidate_name": "Veer S. Raje",
+  "contact_information": {
+    "email": null,
+    "phone": "+91 9820359493",
+    "location": "Mumbai, India",
+    "linkedin": "https://www.linkedin.com/in/veer-raje-067658290/",
+    "github": "https://github.com/VR952004",
+    "portfolio": null,
+    "other_links": [
+      "https://badgr.com/public/assertions/BsOxvUXbRqqg-A8QcG9kFA",
+      "https://courses.edx.org/certificates/34c7b7fa1ddc4e40afb51183010f5dd6",
+      "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2",
+      "https://g.dev/VeerRaje"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "University Of Mumbai",
+      "location": "Mumbai, India",
+      "duration": "2022-Present",
+      "gpa_cgpa": "8.66/10",
+      "additional_info": "Artificial Intelligence & Data Science",
+      "coursework": []
+    },
+    {
+      "degree": "ICSE 10th Board Examination",
+      "institution": "Arya Vidya Mandir Bandra (West)",
+      "location": "Mumbai, India",
+      "duration": "2020",
+      "gpa_cgpa": "94.20%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Creatives Core Member",
+      "company": "DJS NSDC",
+      "location": null,
+      "duration": "April 2024 - Present",
+      "description": "Led a team of creatively inclined juniors in organizing various college events. Contributed to the design of the committee's website. Promoted and fostered teamwork among juniors working in the Creatives sub-committee.",
+      "type": null,
+      "key_achievements": [
+        "Led a team of creatively inclined juniors in organizing various college events.",
+        "Contributed to the design of the committee's website.",
+        "Promoted and fostered teamwork among juniors working in the Creatives sub-committee."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "Machine Learning Mentor",
+      "company": "DJS InfoMatrix",
+      "location": null,
+      "duration": "May 2024 - Present",
+      "description": "Enhanced leadership and public speaking abilities while deepening knowledge in Machine Learning and Deep Learning. Mentored juniors enrolled as mentees, imparting the same concepts through structured teaching. Implemented a project-based learning approach, providing practical insights into real-world problems and their solutions.",
+      "type": null,
+      "key_achievements": [
+        "Enhanced leadership and public speaking abilities.",
+        "Mentored juniors enrolled as mentees.",
+        "Implemented a project-based learning approach."
+      ],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Predicting SpaceX Falcon 9 First Stage Landing Success",
+      "description": "Analyzed SpaceX Falcon 9 flight data to predict reusable first-stage landings, aiming to reduce space mission costs. Collected data through APIs and web scraping, followed by extensive cleaning and feature engineering. Performed exploratory data analysis with SQL and Python (Pandas, NumPy, Matplotlib, Seaborn, Folium, Plotly) to identify key trends and variable relationships. Trained and optimized machine learning models, enhancing predictive accuracy through iterative hyperparameter tuning.",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Final model successfully predicts optimal racing paths.",
+      "duration": null
+    },
+    {
+      "name": "Breast Cancer Data Analysis",
+      "description": "Conducted a comprehensive analysis of medical reports from breast cancer patients using Pandas. Compared the findings for M atplotlib visualizations reports of healthy individuals to identify key differences. Identified and tried to deduce the causes of various types of breast cancer based on observed trends in the data.",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Racing Line Prediction for Formula 1 Onboard Footage",
+      "description": "Developed a semi-supervised U-Net and LSTM-based model to predict continuous racing lines from onboard F1 footage. Used U-Net to detect car nose position in each frame and LSTM to predict subsequent positions for smooth trajectory. Preprocessed over 26,000 frames for model training, achieving real-time frame-by-frame racing line predictions.",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Final model successfully predicts optimal racing paths.",
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Java",
+        "C"
+      ],
+      "frameworks_libraries": [
+        "FastAPI",
+        "MySQL",
+        "MongoDB"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "Docker",
+        "Figma",
+        "Adobe After Effects"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "PowerBi",
+        "BeautifulSoup",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Folium",
+        "Plotly",
+        "Scikit Learn",
+        "TensorFlow"
+      ],
+      "other_technical": [
+        "NLTK",
+        "Spacy",
+        "OpenCV"
+      ]
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "Postman API Fundamentals Student Expert Credential",
+      "issuing_organization": "Google",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Google Cloud Skill Boost Certifications",
+      "issuing_organization": "Google",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Data Science and Machine Learning Capstone Project by IBM",
+      "issuing_organization": "IBM",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:53:27.940098",
+    "model_used": "llama3-8b-8192",
+    "source_file": "VRResume_2_6.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 6,
+    "file_size_mb": 0.1
+  }
+}

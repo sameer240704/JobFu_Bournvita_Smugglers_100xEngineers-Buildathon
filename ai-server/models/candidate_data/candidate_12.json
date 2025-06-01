@@ -1,0 +1,167 @@
+{
+  "candidate_name": "Jenish Boricha",
+  "contact_information": {
+    "email": "jenishboricha07@gmail.com",
+    "phone": "+91 9967731337",
+    "location": "Mumbai - 400067, Maharashtra, India",
+    "linkedin": "https://in.linkedin.com/in/jenish-boricha-8365521b0",
+    "github": "https://github.com/jenishboricha/",
+    "portfolio": null,
+    "other_links": [
+      "https://tel:+91--9967731337"
+    ]
+  },
+  "candidate_description": "A passionate AI & Data Science student with a keen interest in Machine Learning, Deep Learning, Data Analytics, Image Processing, and Computer Vision . With a strong analytical mindset and effective communication, I thrive in collaborative environments and continuously adapt to new technologies.",
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Dwarkadas Jivanlal Sanghvi College of Engineering",
+      "location": null,
+      "duration": "2022 - 2026",
+      "gpa_cgpa": "CGPA: 8.95, SGPA: 9.84 (Semester V)",
+      "additional_info": null,
+      "coursework": [
+        "Statistics",
+        "DBMS",
+        "Data Structures & Algorithms",
+        "Data Mining",
+        "ML",
+        "DL",
+        "NLP",
+        "DevOps"
+      ]
+    },
+    {
+      "degree": "HSC",
+      "institution": "Shri TP Bhatia Junior College",
+      "location": null,
+      "duration": "2022",
+      "gpa_cgpa": "Grade: 79.0%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "SSC",
+      "institution": "Oxford Public School",
+      "location": null,
+      "duration": "2020",
+      "gpa_cgpa": "Grade: 93.2%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "name": "Vidgyaan",
+      "description": "An easy to use and understandable learning tool - learning through video and other visual tools for school students, using Gemini for script generation and extensive scraping and python libraries for making videos and speech.",
+      "technologies": [
+        "Python",
+        "Gemini",
+        "Google TTS"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Nostalgia: [Image Processing App]",
+      "description": "Built a program to edit digital photos in one click to emulate them like film images accurately, using various Image Processing Tools, Libraries along with real film-like characteristics.",
+      "technologies": [
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Regional Food Recommendation System",
+      "description": "Built custom Indian Foods dataset for various popular and local dishes of each state to predict the best dish suitable for an individual by their liking using Clustering.",
+      "technologies": [
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Python",
+        "JavaScript"
+      ],
+      "frameworks_libraries": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Flask",
+        "Streamlit"
+      ],
+      "databases": [
+        "MySQL",
+        "MSSQL",
+        "MongoDB"
+      ],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Seaborn",
+        "ScikitLearn",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "other_technical": [
+        "Alteryx",
+        "Excel",
+        "Power BI",
+        "Tableau"
+      ]
+    },
+    "soft_skills": [
+      "Effective Communication",
+      "Adaptibality",
+      "Teamwork",
+      "Creativity"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:56:52.211926",
+    "model_used": "llama3-8b-8192",
+    "source_file": "JenishBoricha_2026_AI&DS_60018220051.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 5,
+    "file_size_mb": 0.17
+  }
+}

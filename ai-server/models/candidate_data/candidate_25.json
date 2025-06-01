@@ -1,0 +1,211 @@
+{
+  "candidate_name": "ROHIT PARMAR",
+  "contact_information": {
+    "email": "rohitghost5050@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rohit-parmar-008161258/",
+    "github": "https://github.com/RohitParmar-17",
+    "other_links": [
+      "https://drive.google.com/file/d/1b43OMBykxLDQ_7nZgI5PUos9jCBgMrWf/view",
+      "https://unstop.com/certificate-preview/95da802f-477c-4b0c-8a30-e036c33968eb"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": null,
+      "duration": "2022-2026",
+      "gpa_cgpa": "9.8",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": null,
+      "company": "J.P. Morgan External Engagement Program",
+      "location": null,
+      "duration": "Apr 2024 - Present",
+      "description": "Engaged in a structured program focused on building skills in finance and technology. Gained exposure to industry insights through networking with professionals. Collaborating on projects aimed at addressing real-world challenges.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": null,
+      "company": "AI - ML Virtual Internship",
+      "location": null,
+      "duration": "Apr - June 2024",
+      "description": "Gained hands-on experience in building machine learning models using Python libraries. Worked on supervised and unsupervised learning algorithms. Applied AI-driven techniques to solve real-world problems.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "iNotebook",
+      "description": "Manage user details and notes efficiently with iNotebook, a MERN stack website. Facilitate effortless note management through an intuitive interface that allows users to add, delete, and modify notes. Ensure secure storage and seamless access to user data with a robust backend. Employ the Context API for state management and implement secure login and signup using authentication tokens.",
+      "technologies": [
+        "MERN stack",
+        "Context API"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/RohitParmar-17/iNotebook",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "NewsMaster",
+      "description": "Provide users with real-time news updates across various categories using NewsMaster, a React.js website powered by an external news API. Incorporate a sleek top-loading bar for seamless navigation and enable endless news browsing with an infinite scroller. Master the integration of external news APIs to deliver up-to-date information.",
+      "technologies": [
+        "React.js"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/RohitParmar-17/NewsMaster",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Google Assistant Clone",
+      "description": "Create a Google Assistant clone using the Gemini API. Enable users to interact with a virtual assistant that answers questions, provides information, and performs tasks based on user input.",
+      "technologies": [
+        "Gemini API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Placement System",
+      "description": "Coordinated project tasks, ensuring adherence to engineering standards and regulations. Conducted comprehensive project analyses, identifying and rectifying discrepancies in engineering designs.",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/RohitParmar-17/Placement_System",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Community Hub",
+      "description": "Developed an inclusive website using Django, providing a vibrant space for blogs, forums, and a marketplace. Facilitated user engagement through diverse discussions and blog sharing. Implemented a marketplace feature to explore various products and services.",
+      "technologies": [
+        "Django"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/RohitParmar-17/CommunityHub",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Python",
+        "Java",
+        "Javascript",
+        "DSA"
+      ],
+      "frameworks_libraries": [
+        "DSA",
+        "Django",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "MediaPipe"
+      ],
+      "databases": [
+        "MySQL",
+        "SQLite",
+        "MongoDB"
+      ],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "1st Runner - Up",
+      "description": "ISM's Nirmiti Treasure Hunt",
+      "date": null,
+      "organization": "ISM",
+      "prize_amount": null
+    },
+    {
+      "title": "Silver and Bronze Medal",
+      "description": "Maths Olympiad",
+      "date": "2013 and 2015",
+      "organization": "Maths Olympiad",
+      "prize_amount": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Fundamentals of Deep Learning (NVIDIA)",
+      "issuing_organization": "NVIDIA",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "CTF - NEXUS ‘24",
+      "issuing_organization": "CTF - NEXUS ‘24",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "NSDC - TechnoGrad",
+      "issuing_organization": "NSDC - TechnoGrad",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:03:38.561091",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Rohit_Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 10,
+    "file_size_mb": 0.06
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "candidate_name": "Tanapong Dechsakul",
+  "contact_information": {
+    "email": "tanapong11027@gmail.com",
+    "phone": "0435 752 699",
+    "location": "Adelaide, SA 5000",
+    "linkedin": "https://www.linkedin.com/in/tanapongdech",
+    "github": null,
+    "portfolio": "tdech.me",
+    "other_links": [
+      "https://www.udemy.com/course-dashboard-redirect/?course_id=2430492",
+      "https://www.udemy.com/course-dashboard-redirect/?course_id=3279504"
+    ]
+  },
+  "candidate_description": "A recent Master of Information Technology graduate with an interest in system and software development, particularly in building systems and software solutions that support data analysis, improve decision-making, and facilitate or automate business processes.",
+  "education": [
+    {
+      "degree": "Master of Information Technology",
+      "institution": "Flinders University",
+      "location": "Adelaide, SA, Australia",
+      "duration": "Feb 2023 - Dec 2024",
+      "gpa_cgpa": "6.62/7.0",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Bachelor of Business Administration",
+      "institution": "Ramkhamhaeng University",
+      "location": "Bangkok, Thailand",
+      "duration": "Jun 2011 - Oct 2013",
+      "gpa_cgpa": "3.46/4.0",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Manual Software Tester (Freelance)",
+      "company": "IGET UGOT Co., Ltd.",
+      "location": "Bangkok, Thailand",
+      "duration": "Aug 2019 - Oct 2019",
+      "description": "Tested a web application for a Point of Sale (POS) system.",
+      "type": "Freelance",
+      "key_achievements": [
+        "Analysed user interfaces and use cases to ensure alignment with system requirements.",
+        "Conducted manual testing across multiple platforms, including Windows and Android, to identify and resolve issues.",
+        "Followed test case procedures to verify system functionality and reported defects for resolution."
+      ],
+      "technologies_used": [
+        "Python",
+        "Java",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "position": "Restaurant System Administrator",
+      "company": "Highway Steak Restaurant and Heng Charoen Butchery Restaurant",
+      "location": "Bangkok, Thailand",
+      "duration": "Jun 2017 - Aug 2019",
+      "description": "Installed and maintained CCTV systems, with cloud-based storage for video files.",
+      "type": "Full-time",
+      "key_achievements": [
+        "Set up and managed Point of Sale (POS) and payment systems, supporting CSV data exports for reporting and visualisation in Excel.",
+        "Analysed costs, sales, and inventory data to generate detailed performance reports and business insights.",
+        "Maintained dashboards for menu creation, cost tracking, inventory control, and income and expense auditing."
+      ],
+      "technologies_used": [
+        "Azure SQL",
+        "PostgreSQL",
+        "PHP MyAdmin"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Financial Data Analysis for Algorithmic Trading",
+      "description": "To create a money machine, an automated system that can fetch real-time financial market data, analyse and predict financial market trends regarding trading strategy, and utilise machine learning-based systems to optimise the trades.",
+      "technologies": [
+        "Spyder IDE",
+        "Python",
+        "Numpy",
+        "Pandas",
+        "JSON",
+        "OS",
+        "Datetime",
+        "TensorFlow 2.0 (Keras)",
+        "PyTorch",
+        "Metatrader 5",
+        "Plotly"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "The system achieved 70% trading accuracy in training datasets and 62% in testing datasets with the trading symbol NAS100.",
+      "duration": "Jun 2023 - Present"
+    },
+    {
+      "name": "Asset Tracking Application",
+      "description": "To develop an application that allows users to combine all their assets, keep tracking their values, and visualise the assets' growth in real-time, which can be used for further financial planning.",
+      "technologies": [
+        "VS Code IDE",
+        "C#",
+        "ASP.NET Core framework",
+        "JavaScript libraries (React.js, TypeScript, Tailwind CSS)",
+        "Azure SQL",
+        "Neon PostgreSQL database",
+        "Azure Web App - Cloud Services",
+        "GitHub"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Developed a functional prototype that allows users to manage and visualise multi-asset portfolios on one platform.",
+      "duration": "Mar 2025"
+    },
+    {
+      "name": "TDech LLM - My Second Brain (AI Assistant)",
+      "description": "To create a Large Language Modelling (LLM) AI assistant designed to provide information about myself and assist with job applications by analysing job requirements against my experiences, qualifications, and skills.",
+      "technologies": [
+        "VS Code IDE",
+        "Python",
+        "Flask web framework",
+        "OpenAI library",
+        "Vercel cloud platform"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Developed a smart assistant that can analyse job descriptions, enhance job-matching efficiency, and deliver valuable insights for job opportunities.",
+      "duration": "Feb 2025"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Java",
+        "C#",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks_libraries": [
+        "Spyder IDE",
+        "Flask web framework",
+        "OpenAI library",
+        "TensorFlow 2.0 (Keras)",
+        "PyTorch",
+        "Metatrader 5",
+        "Plotly"
+      ],
+      "databases": [
+        "Azure SQL",
+        "PostgreSQL",
+        "PHP MyAdmin"
+      ],
+      "tools_software": [
+        "Git",
+        "GitHub Actions"
+      ],
+      "cloud_platforms": [
+        "Azure",
+        "Vercel"
+      ],
+      "devops": [
+        "Azure DevOps"
+      ],
+      "data_science": [
+        "Numpy",
+        "Pandas",
+        "JSON",
+        "OS",
+        "Datetime"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [
+      "Teamwork",
+      "Collaboration",
+      "Proactive attitude towards learning"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "CyberOps Associate (Cisco)",
+      "issuing_organization": "Cisco",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Walmart: Advanced Software Engineering (Forage Virtual Experience)",
+      "issuing_organization": "Walmart",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Data Analytics Professional (Coursera)",
+      "issuing_organization": "Coursera",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Tensorflow 2.0: Deep Learning and AI (Udemy)",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "PyTorch: Deep Learning and AI (Udemy)",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "MERN Stack (Udemy)",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "React, Real-World Projects (Udemy)",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Financial Engineering and AI in Python (Udemy)",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "CCNA: Overview of Networking Components",
+      "issuing_organization": "Cisco",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Generative AI: OpenAI, DeepSeek, and ChatGPT in Python (Udemy)",
+      "issuing_organization": "Udemy",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [
+      {
+        "title": "Go Beyond Scholarship",
+        "description": "Recognised as a top-performing international student, demonstrating academic excellence and potential to contribute positively to Flinders University and the global community.",
+        "date": null,
+        "organization": "Flinders University",
+        "prize_amount": null
+      },
+      {
+        "title": "Chancellor's Letter of Commendation",
+        "description": "Excellent performance in the Master of Information Technology program at the College of Science and Engineering, demonstrated by outstanding academic achievement and a high GPA.",
+        "date": null,
+        "organization": "Flinders University",
+        "prize_amount": null
+      }
+    ],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:16:15.912423",
+    "model_used": "llama3-8b-8192",
+    "source_file": "CV-TDech-BDZYBxXF.pdf",
+    "pages_processed": 3,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 5,
+    "file_size_mb": 0.18
+  }
+}

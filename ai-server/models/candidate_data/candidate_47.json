@@ -1,0 +1,180 @@
+{
+  "candidate_name": "Yulong Zhang (Albert)",
+  "contact_information": {
+    "email": "albertzhang.design@gmail.com",
+    "phone": "412-806-5599",
+    "location": null,
+    "linkedin": "https://www.albertwork.com",
+    "github": null,
+    "portfolio": null,
+    "other_links": [
+      "https://www.albertwork.com"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Master of Design in design for interactions",
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA, USA",
+      "duration": "Aug. 2023 - May 2025",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "B.E. Industrial design",
+      "institution": "Tongji University",
+      "location": "Shanghai, China",
+      "duration": "Sept. 2017 - Jul. 2021",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "UX Designer",
+      "company": "AgWise",
+      "location": null,
+      "duration": "Jun. 2024 - Dec. 2024",
+      "description": "Founding UX Designer of an AI-driven commodity trading platform, covering branding, strategy, UX, UI, web site design. Wrote UX documentation for developers to build the product (launching soon). Led the redesign and animation of AgWise's web site features, now live.",
+      "type": null,
+      "key_achievements": [
+        "Led the redesign and animation of AgWise's web site features, now live."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "UX Designer II",
+      "company": "Volkswagen Group",
+      "location": null,
+      "duration": "Jul. 2021 - Jun. 2023",
+      "description": "Won Top 10 Commercial Design in China (2023) for AR glasses system design. Product is now used by 1000+ factories. Helped client increase sales by 229% compared to last year. Led user research for 6 projects using Human-Centered Design methods, conducted 30+ qualitative interviews to find user needs and insights.",
+      "type": null,
+      "key_achievements": [
+        "Won Top 10 Commercial Design in China (2023) for AR glasses system design.",
+        "Helped client increase sales by 229% compared to last year."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "Freelance UX Designer",
+      "company": "IDEO",
+      "location": null,
+      "duration": "Apr. - Jun. 2021",
+      "description": "Designed a holiday park focused on self-care experiences for middle-aged people, working closely with researchers and designers. Led presentations to company executives, showing design ideas through immersive experiences.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": "Research Intern",
+      "company": "AKQA",
+      "location": null,
+      "duration": "Jun. - Aug. 2020",
+      "description": "Assisted manager in quantitative research and desktop research. Prepared clear reports for clients, including Apple, Armani, and Lincoln.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [],
+      "frameworks_libraries": [],
+      "databases": [],
+      "tools_software": [
+        "Figma",
+        "Sketch",
+        "Bender",
+        "Prototyper",
+        "Frame",
+        "After Effects",
+        "Photoshop",
+        "Illustrator",
+        "Premiere Pro",
+        "Ableton Live",
+        "Logic Pro",
+        "Arduino"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Core77 Design Awards 2024 | Student Winner",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Indigo Awards 2024 | Gold Winner",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "NY Product Design Award | Silver Winner",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Muse Creative Awards 2024 | Silver Winner",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Red Dot Design Award 2020 | Design Concept Award",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Dyson Design Award 2019 | Global Top 20",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "A' Design Award 2020 | Silver Award",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:10:47.841492",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Yulong Zhang Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 1,
+    "file_size_mb": 1.33
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "candidate_name": "Miguel Liu-Schiaffini",
+  "contact_information": {
+    "email": "mliuschi@caltech.edu",
+    "linkedin": "https://mliuschi.github.io/",
+    "github": "https://github.com/neuraloperator/neuraloperator",
+    "other_links": [
+      "https://mliuschi.github.io/",
+      "https://github.com/neuraloperator/neuraloperator",
+      "https://github.com/neuraloperator/markov",
+      "https://scholar.google.com/citations?user=LebtA84AAAAJ&hl=en&oi=ao",
+      "https://github.com/neuraloperator/"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.S.",
+      "institution": "California Institute of Technology",
+      "location": "Pasadena, CA",
+      "duration": "Sept. 2021 – June 2025",
+      "gpa_cgpa": "4.3 / 4",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Research Intern",
+      "company": "NVIDIA Research",
+      "location": "Pasadena, CA",
+      "duration": "June 2024 – Present",
+      "description": "Function space diffusion models: Developing function space diffusion models for efficient image generation at arbitrary resolutions using operator learning. Designing and validating neural operators for natural images.",
+      "type": "Research",
+      "key_achievements": [
+        "Developed function space diffusion models for efficient image generation",
+        "Designed and validated neural operators for natural images"
+      ],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow"
+      ]
+    },
+    {
+      "position": "Undergraduate Researcher",
+      "company": "Anima Anandkumar Lab, Caltech",
+      "location": "Pasadena, CA",
+      "duration": "Sept. 2021 – Present",
+      "description": "Local neural operator: Developed learnable finite-difference kernels and local convolutions into existing neural operator frameworks. Developed method for converting U-Net and other convolutional neural networks to neural operators mapping between function spaces.",
+      "type": "Research",
+      "key_achievements": [
+        "Developed learnable finite-difference kernels and local convolutions",
+        "Converted U-Net and other convolutional neural networks to neural operators"
+      ],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow"
+      ]
+    },
+    {
+      "position": "Research Intern",
+      "company": "University of Texas Institute for Geophysics",
+      "location": "Austin, TX",
+      "duration": "June – Aug. 2019 / June 2020 – May 2023",
+      "description": "Deep learning for accelerating ice thickness measurements: Proposed and initiated project to automate generation of ice thickness measurements using radar data for ice sheets and glaciers.",
+      "type": "Research",
+      "key_achievements": [
+        "Proposed and initiated project to automate ice thickness measurements"
+      ],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow"
+      ]
+    }
+  ],
+  "projects": [],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "MATLAB",
+        "Java",
+        "C/C++",
+        "R"
+      ],
+      "frameworks_libraries": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "NumPy",
+        "SciPy"
+      ],
+      "databases": [],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Barry Goldwater Scholar",
+      "description": null,
+      "date": "2024",
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Henry Ford II Scholar Award",
+      "description": null,
+      "date": "2024",
+      "organization": "Caltech",
+      "prize_amount": null
+    },
+    {
+      "title": "Mellon Mays Undergraduate Fellowship",
+      "description": null,
+      "date": "2023",
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Mellon Mays Summer Undergraduate Research Fellowship",
+      "description": null,
+      "date": "2023",
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Stephen Adelman Memorial Summer Undergraduate Research Fellowship",
+      "description": null,
+      "date": "2022",
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [
+    {
+      "title": "Neural Operators with Localized Integral and Differential Kernels",
+      "journal_conference": "International conference on machine learning (ICML 2024)",
+      "date": "2024",
+      "authors": [
+        "M. Liu-Schiaffini",
+        "J. Berner",
+        "B. Bonev",
+        "T. Kurth",
+        "K. Azizzadenesheli",
+        "A. Anandkumar"
+      ],
+      "description": null
+    },
+    {
+      "title": "Learning Dissipative Dynamics in Chaotic Systems",
+      "journal_conference": "Advances in Neural Information Processing Systems (NeurIPS 2022)",
+      "date": "2022",
+      "authors": [
+        "M. Liu-Schiaffini",
+        "Z. Li",
+        "N. Kovachki",
+        "B. Liu",
+        "K. Azizzadenesheli",
+        "K. Bhattacharya",
+        "A. Stuart",
+        "A. Anandkumar"
+      ],
+      "description": null
+    },
+    {
+      "title": "Ice Thickness from Deep Learning and Conditional Random Fields: Application to Ice Penetrating Radar Data with Radiometric Validation",
+      "journal_conference": "IEEE Transactions on Geoscience and Remote Sensing",
+      "date": "2022",
+      "authors": [
+        "M. Liu-Schiaffini",
+        "G. Ng",
+        "C. Grima",
+        "D. Young"
+      ],
+      "description": null
+    },
+    {
+      "title": "Tipping Point Forecasting in Non-Stationary Dynamics on Function Spaces",
+      "journal_conference": "arXiv preprint arXiv:2308.08794",
+      "date": "2023",
+      "authors": [
+        "M. Liu-Schiaffini",
+        "C. E. Singer",
+        "N. Kovachki",
+        "T. Schneider",
+        "K. Azizzadenesheli",
+        "A. Anandkumar"
+      ],
+      "description": null
+    },
+    {
+      "title": "Neural Operators for Accelerating Scientific Simulations and Design",
+      "journal_conference": "Nature Reviews Physics",
+      "date": "2024",
+      "authors": [
+        "K. Azizzadenesheli",
+        "N. Kovachki",
+        "Z. Li",
+        "M. Liu-Schiaffini",
+        "J. Kossaifi",
+        "A. Anandkumar"
+      ],
+      "description": null
+    }
+  ],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [
+      "Cello (orchestra and chamber music)",
+      "football",
+      "chess"
+    ],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:10:18.969256",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global2.pdf",
+    "pages_processed": 3,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 10,
+    "file_size_mb": 0.13
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "candidate_name": "Surabhi Waingankar",
+  "contact_information": {
+    "email": "surabhiwaingankar@gmail.com",
+    "phone": "+91-8291025964",
+    "location": "Mumbai, Maharashtra",
+    "linkedin": "https://www.linkedin.com/in/surabhi-waingankar-898b9a26a/",
+    "github": "https://github.com/surabhiwaingankar",
+    "portfolio": null,
+    "other_links": [
+      "https://gemini-competetion-axon.vercel.app/generate",
+      "https://github.com/surabhi",
+      "https://redact.streamlit.app/",
+      "https://linkedin.com/in/surabhi"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Information Technology, Honors in Devops",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, Maharashtra",
+      "duration": "Aug. 2022 – Present",
+      "gpa_cgpa": "9.5",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Artificial Intelligence and Machine Learning Intern",
+      "company": "Datamatics",
+      "location": "Mumbai, Maharashtra",
+      "duration": "June 2024 – Aug 2024",
+      "description": "Developed Agentic Process Automation (APA) systems to optimize various business workflows. Utilized Large Language Models (LLMs) to enhance Large Action Models (LAMs) for decision-making. Technical Skills: Python, LangChain, Autogen, CrewAI, Generative AI.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "LangChain",
+        "Autogen",
+        "CrewAI",
+        "Generative AI"
+      ]
+    },
+    {
+      "position": "Data Analyst Intern",
+      "company": "Rubix Data Sciences Pvt. Ltd.",
+      "location": "Mumbai, Maharashtra",
+      "duration": "Feb 2024 – May 2024",
+      "description": "Designed and deployed a module on Docker that scrapes news from Google News. Summarized the scraped news, analyzed it’s sentiment to provide insights for effective decision making. Technical Skills: Python, NLP, Flask, Selenium, Web scraping, Docker.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "NLP",
+        "Flask",
+        "Selenium",
+        "Web scraping",
+        "Docker"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "RE-DACT – NLP-Based Anonymization Tool",
+      "description": "Used NER models like SpaCy, Flair, Multilingual RoBERTa for Hindi and Regex to anonymize sensitive data. Enabled synthetic data generation with BERT and Faker to create contextually consistent, anonymized data. Implemented OCR and OpenCV for redaction in images and used XTTS model for audio cloning. Supported various input formats, including PDFs, PPTs, DOCX, logs, images, videos and audio, with customizable redaction levels.",
+      "technologies": [
+        "Python",
+        "SpaCy",
+        "Flair",
+        "Multilingual RoBERTa",
+        "BERT",
+        "Faker",
+        "OCR",
+        "OpenCV",
+        "XTTS"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Winner of Smart India Hackathon 2024",
+      "duration": null
+    },
+    {
+      "name": "CLEO – AI Powered Sales Assistant",
+      "description": "Generated tailored proposals using the uploaded pdfs, implemented AI voice calling, created a chatbot which supports both voice as well as text input and also integrated bulk email sending to customers. Created an interactive and dynamic user-interface for the admin with kanban board and analytics section. Implemented Retrieval Augmented Generation (RAG) with multi-query retrieval for proposal generation. Tech Stack: FastAPI, Pinecone, LangChain, Vapi, Llama3, Groq, NextJs, MongoDB, 11Labs.",
+      "technologies": [
+        "FastAPI",
+        "Pinecone",
+        "LangChain",
+        "Vapi",
+        "Llama3",
+        "Groq",
+        "NextJs",
+        "MongoDB",
+        "11Labs"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Winner of 100X Engineers Buildathon",
+      "duration": null
+    },
+    {
+      "name": "AXON - AI Powered Generative User Interface System",
+      "description": "Fine-tuned Gemini-1.5-Pro on ShadCN components to generate unique themes and React code based on ShadCN UI and TailwindCSS. Implemented seamless microapp deployment with text and image prompts, enhancing user experience. Created a marketplace for users to discover, customize and deploy AI-generated microapps. Tech Stack: Postgres, NextJs, ShadCN, Gemini AI Studio.",
+      "technologies": [
+        "Postgres",
+        "NextJs",
+        "ShadCN",
+        "Gemini AI Studio"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Java",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "C"
+      ],
+      "frameworks_libraries": [
+        "Flask",
+        "LangChain",
+        "Autogen",
+        "CrewAI",
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Tailwind CSS"
+      ],
+      "databases": [
+        "MySQL",
+        "Snowflake",
+        "Tableau",
+        "PowerBI",
+        "RestAPI",
+        "Docker",
+        "MongoDB"
+      ],
+      "tools_software": [
+        "Git",
+        "Figma",
+        "Canva"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "NLP"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Winner of Smart India Hackathon 2024",
+      "description": null,
+      "date": "Dec 2024",
+      "organization": "IIT Kharagpur",
+      "prize_amount": null
+    },
+    {
+      "title": "Winner of first prize in National Level IDEA Hackathon",
+      "description": null,
+      "date": "March 2025",
+      "organization": "Union Bank",
+      "prize_amount": "Rs. 5 Lakh"
+    },
+    {
+      "title": "First place at National Level 100x Engineers Generative AI Buildathon",
+      "description": null,
+      "date": "April 2024",
+      "organization": "DevSparks, Bangalore",
+      "prize_amount": null
+    },
+    {
+      "title": "Second place at National Level JPMorgan Chase and Co’s Code For Good Hackathon",
+      "description": null,
+      "date": "June 2024",
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Second place at National Level IIT Bombay Techfest’23 Datamatics Hackathon",
+      "description": null,
+      "date": "Dec 2023",
+      "organization": "IIT Bombay",
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:06:52.260515",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Surabhi Waigankar Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 10,
+    "file_size_mb": 0.11
+  }
+}

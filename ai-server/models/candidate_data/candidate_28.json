@@ -1,0 +1,220 @@
+{
+  "candidate_name": "Sameer Gupta",
+  "contact_information": {
+    "email": "sameergupta79711@gmail.com",
+    "phone": "+91 9082201988",
+    "location": "Mumbai, Maharashtra, India",
+    "linkedin": null,
+    "github": "https://github.com/sameer240704/virtual-vibe,https://github.com/parthgala1/Game-AI,https://github.com/parthgala1/SIH",
+    "portfolio": "Portfolio",
+    "other_links": []
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech in Artificial Intelligence & Data Science",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, Maharashtra, India",
+      "duration": "2022 - 2026",
+      "gpa_cgpa": "9.52",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Full Stack Developer Intern",
+      "company": "FMX Proptech Pvt. Ltd.",
+      "location": null,
+      "duration": "Jun 2024 - Sep 2024",
+      "description": "Developed the frontend and backend of a Visitor Management System, including creating the dashboard, implementing frontend logic with EJS, CSS, and SCSS, and ensuring cross-browser compatibility and responsiveness. Implemented backend logic using Node.js and Express, developed RESTful APIs, created crucial MongoDB schemas, and collaborated with senior developers to manage data efficiently and ensure seamless functionality.",
+      "type": null,
+      "key_achievements": [
+        "Developed the frontend and backend of a Visitor Management System"
+      ],
+      "technologies_used": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "C++",
+        "C#",
+        "C",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Java",
+        "Golang",
+        "ReactJS",
+        "Next.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Express",
+        "React Native",
+        "Socket.io",
+        "Git",
+        "GitHub",
+        "Jupyter",
+        "Figma",
+        "TensorFlow",
+        "Docker",
+        "HuggingFace",
+        "OpenAI",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Firebase"
+      ]
+    },
+    {
+      "position": null,
+      "company": "J.P. Morgan External Engagement Program",
+      "location": null,
+      "duration": "Apr 2024 - Present",
+      "description": "Focused on professional development and industry insights through collaborative projects, gaining exposure to financial services and corporate strategies.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "VaniVikas - Speech Therapy Management",
+      "description": "Developed a scalable platform to manage speech therapy sessions, track progress, schedule therapy sessions, and facilitate seamless communication between patients, student therapists, and supervisors. Integrated AI-driven tools like HuggingFace, OpenAI, and TrOCR for speech recognition, transcription, and digitization of therapy materials, with AES-256-GCM two-layer encryption ensuring the privacy and security of patient and therapist data.",
+      "technologies": [
+        "Next.js",
+        "Python",
+        "MongoDB",
+        "Azure",
+        "HuggingFace",
+        "OpenAI",
+        "TrOCR"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/sameer240704/virtual-vibe",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "CosmosAI - AI Generated Game",
+      "description": "Developed a Procedural Content Generation and Dynamic Difficulty Adjustment system to dynamically generate levels and adjust difficulty in Space Invaders game based on player performance and gameplay history. Implemented a Deep Q-Learning model with 76% accuracy for adaptive enemy behavior and designed a Generative Adversarial Network (GAN) to create diverse, engaging game levels using manually curated training data.",
+      "technologies": [
+        "Python",
+        "Tensorflow",
+        "DCGAN",
+        "LSTM",
+        "Deep Q-Learning",
+        "JavaScript",
+        "PostgreSQL"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/parthgala1/Game-AI",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Virtual Vibe - Video Conferencing Website",
+      "description": "Developed dynamic and responsive video calling website using Next.js and TypeScript, significantly enhancing user experience, interface interactivity, and overall satisfaction during virtual meetings. Implemented secure private room features with GetStream and Clerk.js, ensuring user confidentiality, personalized interaction spaces, and smooth real-time collaboration during virtual sessions.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "GetStream",
+        "Clerk.js"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/sameer240704/virtual-vibe",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "C++",
+        "C#",
+        "C",
+        "HTML",
+        "CSS",
+        "SQL",
+        "Java",
+        "Golang"
+      ],
+      "frameworks_libraries": [
+        "ReactJS",
+        "Next.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Express",
+        "React Native",
+        "Socket.io",
+        "Git",
+        "GitHub",
+        "Jupyter",
+        "Figma",
+        "TensorFlow",
+        "Docker",
+        "HuggingFace",
+        "OpenAI"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Firebase"
+      ],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Winner at VCET TechBlitz 2024",
+      "description": "Awarded Winner at VCET TechBlitz 2024 in the Web Development using AI domain.",
+      "date": null,
+      "organization": "VCET TechBlitz 2024",
+      "prize_amount": null
+    },
+    {
+      "title": "Led a team to victory in Smart India Hackathon 2024",
+      "description": "Led a team to victory in Smart India Hackathon 2024, competing against over 3 lakh participants nationwide, by focusing on solving real-world problems through innovative solutions.",
+      "date": null,
+      "organization": "Smart India Hackathon 2024",
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:59:09.970146",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Sameer Gupta Resume (1) (2).pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 3,
+    "file_size_mb": 0.06
+  }
+}

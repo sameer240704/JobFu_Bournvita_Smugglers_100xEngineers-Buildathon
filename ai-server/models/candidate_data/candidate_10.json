@@ -1,0 +1,137 @@
+{
+  "candidate_name": "Gaurav Singh Khati",
+  "contact_information": {
+    "email": "khatigaurav8@gmail.com",
+    "phone": "9820904940",
+    "location": null,
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": null,
+      "institution": "SVP College of Science",
+      "location": "Dahisar",
+      "duration": "2020-2022",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "BTECH IN AI & DS",
+      "institution": null,
+      "location": null,
+      "duration": "2022 - 2026",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "name": "NGO for Students and Volunteers",
+      "description": "Developed a web-based platform to revolutionize the educational landscape for underprivileged students",
+      "technologies": [
+        "Full Stack Development"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Implemented gamification techniques to motivate volunteers and enhance user engagement on the platform",
+      "duration": "2024"
+    },
+    {
+      "name": "Detection of DeepFake Images and Audio",
+      "description": "Developed a machine learning model to detect DeepFake images and audio, contributing to the fight against misinformation and fake content online",
+      "technologies": [
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2024"
+    },
+    {
+      "name": "Vegetable and Fruit Detection",
+      "description": "Developed a machine learning model to detect and classify vegetables and fruits, enhancing food recognition technology",
+      "technologies": [
+        "Machine Learning"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2024"
+    },
+    {
+      "name": "Car Parking Management System",
+      "description": "Developed a user-friendly frontend for a Car Parking Management System using Python, ensuring seamless interaction and intuitive design",
+      "technologies": [
+        "Python",
+        "MySQL"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2023"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "Python",
+        "Java"
+      ],
+      "frameworks_libraries": [],
+      "databases": [
+        "SQL"
+      ],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "Machine Learning"
+      ],
+      "other_technical": [
+        "Full Stack Development"
+      ]
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": null,
+    "hobbies": "DJS-BEATS (Producer | Composer | Songwriter)",
+    "awards": null,
+    "other": null
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:55:20.887377",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Gaurav_Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 0,
+    "file_size_mb": 0.06
+  }
+}

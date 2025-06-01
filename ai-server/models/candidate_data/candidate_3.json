@@ -1,0 +1,131 @@
+{
+  "candidate_name": "ARYAN MORE",
+  "contact_information": {
+    "email": "aryan95lm@gmail.com",
+    "phone": "+91-8355902636",
+    "location": "Borivali (East), Mumbai",
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": "I am results-driven, open to take on new challenges, explore new ideas and the urge to excel will help me make the best use of every opportunity.",
+  "education": [
+    {
+      "degree": "Pursuing B.Tech in Artificial Intelligence and Data Science",
+      "institution": "Dwarkadas J. Sanghvi College Of Engineering",
+      "location": "Mumbai",
+      "duration": "2020-2022",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "name": "Mozilla AI-ML Fellow at SimPPL building a persona based AI chatbot",
+      "description": null,
+      "technologies": [
+        "Python",
+        "C",
+        "SQL",
+        "Html",
+        "CSS"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Ongoing"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C"
+      ],
+      "frameworks_libraries": [],
+      "databases": [
+        "SQL"
+      ],
+      "tools_software": [
+        "Html",
+        "CSS"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [
+      "Teamwork",
+      "Punctuality",
+      "Interpersonal Communication",
+      "Active Listening"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Secured Second Place in Inter-Branch Volleyball Tournament",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Secured Second Place in the Mumbai Schools Sports Association (MSSA) Volleyball Tournament",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Secured Third Place in the Council’s National Sports & Games AISM Volleyball Tournament",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Participated in the Council’s National Sports & Games AISM Volleyball Tournament",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "Participated in a Harris Shield Cricket Tournament as the Captain of the School Cricket team",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [
+      "Participated in the campaign for creating awareness and raising resources for the cause of vulnerable children (2016-17)",
+      "Participated in the All India Flag Day Collection Drive for the Blind (2013)"
+    ],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:08:11.735920",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Aryan More Resume.pdf.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 0,
+    "file_size_mb": 0.26
+  }
+}

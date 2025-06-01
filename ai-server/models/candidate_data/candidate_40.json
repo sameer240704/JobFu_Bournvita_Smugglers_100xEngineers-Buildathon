@@ -1,0 +1,211 @@
+{
+  "candidate_name": "Yuanming (Oliver) Wu",
+  "contact_information": {
+    "email": "yuanming.oliver.wu@gmail.com",
+    "phone": "+61 405454324",
+    "location": "Melbourne, VIC, Australia",
+    "linkedin": "https://linkedin.com/in/yuanming-wu-094b40232",
+    "github": "https://github.com/MUOliver1026",
+    "portfolio": "https://oliver-wu.vercel.app/",
+    "other_links": [
+      "https://github.com/MUOliver1026",
+      "https://linkedin.com/in/yuanming-wu-094b40232",
+      "https://oliver-wu.vercel.app/"
+    ]
+  },
+  "candidate_description": "Results-driven Full Stack Engineer with expertise in React, Next.js, TypeScript, and GraphQL.",
+  "education": [
+    {
+      "degree": "Master of Information Technology (Artificial Intelligence)",
+      "institution": "University of New South Wales (UNSW)",
+      "location": "Australia",
+      "duration": "02.2022 - 12.2023",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Bachelor of Electronic Engineering (Communication Engineering)",
+      "institution": "Shenzhen University",
+      "location": "China",
+      "duration": "09.2017 - 07.2021",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Full Stack Engineer",
+      "company": "TidyTeddy",
+      "location": "Melbourne",
+      "duration": "09.2024 - present",
+      "description": "Spearheaded the redevelopment of www.tidyteddy.com.au, upgrading to a modern stack (React, Vite, Tailwind CSS), leading to 20% faster load times and a 25% increase in quote request submissions.",
+      "type": null,
+      "key_achievements": [
+        "20% faster load times",
+        "25% increase in quote request submissions"
+      ],
+      "technologies_used": [
+        "React.js",
+        "TypeScript",
+        "Express.js",
+        "Redux",
+        "MySQL",
+        "Node.js",
+        "Docker",
+        "Git",
+        "Jira",
+        "cPanel"
+      ]
+    },
+    {
+      "position": "Web Developer",
+      "company": "QuickSite.guru",
+      "location": "Remote",
+      "duration": "06.2024 - 09.2024",
+      "description": "Developed a UI guideline system using React.js and reusable component libraries, ensuring design consistency and improving developer efficiency by 25%.",
+      "type": null,
+      "key_achievements": [
+        "25% improvement in developer efficiency"
+      ],
+      "technologies_used": [
+        "React.js",
+        "Vite",
+        "GitHub Actions",
+        "GCP",
+        "Firebase"
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "company": "Award Global",
+      "location": "Sydney",
+      "duration": "04.2023 - 07.2023",
+      "description": "Engineered a fully responsive showcase website with Next.js and Tailwind CSS, optimizing layouts to improve mobile UX by 35% and reduce bounce rates by 20%.",
+      "type": null,
+      "key_achievements": [
+        "35% improvement in mobile UX",
+        "20% reduction in bounce rates"
+      ],
+      "technologies_used": [
+        "Next.js",
+        "Tailwind CSS",
+        "Ant Design",
+        "WordPress",
+        "Vanilla JavaScript",
+        "Python",
+        "Bash"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TutorTrackr",
+      "description": "Designed and implemented tutorial scheduling and real-time messaging features, enabling seamless communication between students and administrators.",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "GraphQL",
+        "Node.js",
+        "Prisma",
+        "MongoDB",
+        "Tailwind CSS",
+        "Cypress"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/MUOliver1026/tutor_management_platform",
+        "other": null
+      },
+      "achievements": "Optimized API performance with Prisma and GraphQL, reducing response times by 20% and ensuring efficient front-end and back-end communication.",
+      "duration": "09.2023 - 12.2023"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "C#",
+        "HTML/CSS",
+        "Bash"
+      ],
+      "frameworks_libraries": [
+        "React.js",
+        "Next.js",
+        "Vite",
+        "MUI",
+        "Tailwind CSS",
+        "Redux",
+        "Express.js",
+        "Node.js",
+        "Prisma",
+        "Drizzle ORM",
+        "Flask",
+        "Django"
+      ],
+      "databases": [
+        "SQLite",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "tools_software": [
+        "Docker",
+        "CI/CD (GitHub Actions, GitLab CI/CD)",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Git",
+        "NPM",
+        "Yarn",
+        "Jira",
+        "cPanel"
+      ],
+      "cloud_platforms": [
+        "AWS",
+        "GCP",
+        "Azure"
+      ],
+      "devops": [
+        "Docker",
+        "CI/CD (GitHub Actions, GitLab CI/CD)"
+      ],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuing_organization": "AWS",
+      "date": "09.2023",
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:08:51.481125",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Oliver_Wu_Résumé.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 9,
+    "file_size_mb": 0.05
+  }
+}

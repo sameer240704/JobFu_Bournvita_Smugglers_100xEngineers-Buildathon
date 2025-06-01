@@ -1,0 +1,205 @@
+{
+  "candidate_name": "Stanley Edward",
+  "contact_information": {
+    "email": "stanleyedwardy@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/stanley-edward",
+    "github": "https://github.com/stanleyedward",
+    "other_links": [
+      "https://www.coursera.org/account/accomplishments/specialization/MRSKFPBTK79R",
+      "https://github.com/stanleyedward",
+      "https://courses.edx.org/certificates/175e21a2be5843a0bddd0e90623d54d7",
+      "https://www.coursera.org/account/accomplishments/specialization/PGXBMG3DMVK9",
+      "https://linkedin.com/in/stanley-edward"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science Engineering with spl. in Big Data Analytics",
+      "institution": "SRM Institute of Science and Technology",
+      "location": "Chennai, India",
+      "duration": "Jun 2022 – May 2026",
+      "gpa_cgpa": "9.08/10.00",
+      "additional_info": null,
+      "coursework": [
+        "Calculus and Linear Algebra",
+        "Advance Calculus and Complex Analysis",
+        "Probability and Statistics",
+        "Discrete Math",
+        "Digital Image Processing",
+        "DSA",
+        "Design and Analysis of Algorithms",
+        "Advanved OOP",
+        "Operating Systems",
+        "DB Management Systems",
+        "ANNs",
+        "ML for Data Analysis",
+        "Compiler Design"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Research Director",
+      "company": "Data Science Community SRM Chennai, India",
+      "location": "Chennai, India",
+      "duration": "Jul 2024 – Present",
+      "description": "Co-led with 2 research supervisors to guide and mentor members on projects and initiatives.\r\nDirected a project blocking 96% of explicit content to enhance the security of children in online environments.\r\nArchitected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video.",
+      "type": null,
+      "key_achievements": [
+        "Directed a project blocking 96% of explicit content to enhance the security of children in online environments.",
+        "Architected a queue-based parallel computing framework, accelerating machine learning processing by 3x across diverse content channels, including text, image, speech, and video."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "Member of McCarthy Lab",
+      "company": "Next Tech Lab Chennai, India",
+      "location": "Chennai, India",
+      "duration": "Oct 2023 – Present",
+      "description": "Advanced a suite of deep learning projects, sharpening expertise in 3D/computer vision, and graphics domains.\r\nFostered lab growth and collaboration by recruiting new associates and engaging in 20+ paper discussions, seminars, and talks to stay current with emerging research.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "High Performance Neural Networks",
+      "description": null,
+      "technologies": [
+        "CUDA",
+        "Nsight",
+        "C/C++"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/stanleyedward/high_performance_neural_nets",
+        "other": null
+      },
+      "achievements": "Reduced training epoch times by 49% by developing a GPU-accelerated neural network pipeline.\r\nAttained a 6x speedup by implementing L1 cache tiling, minimizing memory access latency in FMA kernels.\r\nDeveloped an optimized Softmax kernel that reduced compute time by 2 orders of magnitudes through shared memory reduction and coalesced accesses.",
+      "duration": null
+    },
+    {
+      "name": "Neural Radiance Fields",
+      "description": null,
+      "technologies": [
+        "PyTorch",
+        "Weights & Biases",
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/stanleyedward/nerf_pytorch/",
+        "other": null
+      },
+      "achievements": "Executed the Neural Radiance Fields research methodology to deliver novel view synthesis and 3D scene reconstruction, achieving robust results on the NeRF synthetic datasets.\r\nEnhanced deep learning workflow by integrating PyTorch Lightning and Weights & Biases, automated the tracking and monitoring of 10+ experiments to boost reproducibility and accelerate model iteration.\r\nAchieved an average Peak Signal-to-Noise Ratio score of 29.20 on the test set for View Synthesis.",
+      "duration": null
+    },
+    {
+      "name": "Recursive Ray Tracing Engine",
+      "description": null,
+      "technologies": [
+        "OpenGL Math",
+        "C++"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Vision Transformers",
+      "description": null,
+      "technologies": [
+        "PyTorch",
+        "Tensorboard",
+        "Python"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/stanleyedward/vision_transformer_pytorch",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "CUDA",
+        "C/C++",
+        "Bash",
+        "SQL"
+      ],
+      "frameworks_libraries": [
+        "PyTorch",
+        "PyTorch Lightning",
+        "OpenCV",
+        "Selenium",
+        "OpenGL"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Weights and Biases",
+        "Github",
+        "Docker",
+        "Vast.ai",
+        "Nsight"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "CSE167x: Computer Graphics",
+      "issuing_organization": "UC San DiegoX",
+      "date": "Mar 2024",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "First Principles of Computer Vision Specialization",
+      "issuing_organization": "Columbia University",
+      "date": "Feb 2024",
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "issuing_organization": "DeepLearning.AI",
+      "date": "Dec 2023",
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:11:55.593985",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Stanley Edward Resume (1).pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 13,
+    "file_size_mb": 0.1
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "candidate_name": "Naman Harishkumar Rathod",
+  "contact_information": {
+    "email": "work.namanrathod@gmail.com",
+    "phone": "+91 9834302237",
+    "location": null,
+    "linkedin": "https://www.linkedin.com/in/naman-rathod-a34a3628a",
+    "github": null,
+    "portfolio": null,
+    "other_links": [
+      "https://leetcode.com/u/BuggyNaman/",
+      "https://drive.google.com/open?id=1vkrBD4ZCjslA0KA-mR44oeCibx4qq7IN",
+      "https://coursera.org/share/31bd1e1e183decd441a8d5308abfe9d5"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering, Mumbai University",
+      "location": "Mumbai",
+      "duration": "Dec 2022 - June 2026",
+      "gpa_cgpa": "9.00/10",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Research Fellow",
+      "company": "SimPPL, Remote",
+      "location": null,
+      "duration": "Mar 2024 - October 2024",
+      "description": "Lead the Ai-CommuniT ech team in the development of an AI-based communication improvement tool.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Node.js",
+        "Express",
+        "MySql",
+        "MongoDB",
+        "React"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Amazon-clone",
+      "description": "Developed a fully responsive Amazon clone using HTML, CSS, and JavaScript.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Course-Selling Website",
+      "description": "Developed the backend for a course-selling website using Node.js, Express, and MongoDB.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "C++",
+        "Python",
+        "HTML",
+        "CSS",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "Node.js",
+        "Express",
+        "React"
+      ],
+      "databases": [
+        "MySql",
+        "MongoDB"
+      ],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Certificate of Machine Learning: Regression and Classification",
+      "description": null,
+      "date": null,
+      "organization": "DeepLearning.Ai",
+      "prize_amount": null
+    },
+    {
+      "title": "Winner of Palghar district level chess tournament",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    },
+    {
+      "title": "1st Runner-up in UCMAS Mumbai competition",
+      "description": null,
+      "date": null,
+      "organization": null,
+      "prize_amount": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certificate of Machine Learning: Regression and Classification",
+      "issuing_organization": "DeepLearning.Ai",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:54:00.370995",
+    "model_used": "llama3-8b-8192",
+    "source_file": "NamanResume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 5,
+    "file_size_mb": 0.15
+  }
+}

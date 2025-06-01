@@ -1,0 +1,213 @@
+{
+  "candidate_name": "Zhonghui Duan",
+  "contact_information": {
+    "email": "leslied41@gmail.com",
+    "phone": "0468911943",
+    "linkedin": "https://www.linkedin.com/in/leslie-duan-641853121/",
+    "github": "https://github.com/leslied41",
+    "portfolio": "https://my-portfolio-six-mocha.vercel.app/",
+    "other_links": [
+      "https://github.com/leslied41/premier_league_api",
+      "https://www.phdgroup.art/",
+      "https://premier-league-api-frontend.herokuapp.com/",
+      "https://github.com/leslied41/",
+      "https://github.com/leslied41/art_gallery_hk",
+      "https://my-portfolio-six-mocha.vercel.app/",
+      "https://www.freecodecamp.org/",
+      "https://fullstackopen.com/en/",
+      "https://github.com/leslied41/premier_league_api_frontend"
+    ]
+  },
+  "candidate_description": "Motivated fullstack web developer with experience building websites and web applications, focusing on HTML, CSS, JavaScript, React, Next.js and Node.js.",
+  "education": [
+    {
+      "degree": "Master of Information & Communication Technology (ICT)",
+      "institution": "University of Tasmania",
+      "location": null,
+      "duration": "July 2019 - June 2021",
+      "gpa_cgpa": "90%",
+      "additional_info": null,
+      "coursework": [
+        "KIT-502 Web Development",
+        "KIT-506 Software Development",
+        "KIT-607 Mobile Application Development",
+        "KIT-712 Data Management Technology",
+        "KIT-501 ICT Systems Administration Fundamentals",
+        "KIT-717 Internet of Things and Web Applications"
+      ]
+    },
+    {
+      "degree": "Bachelor of Electrical Engineering and Automation",
+      "institution": "Henan Institute of Science and Technology",
+      "location": null,
+      "duration": "Sep 2008 - June 2012",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": [
+        "C Programming",
+        "Basis of Computer"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Full Stack Developer",
+      "company": "Contemporary Art Gallery (PHD Group)",
+      "location": null,
+      "duration": "Nov 2021 - Jan 2022",
+      "description": "Solodeveloper for the web application both front-end and back-end using Next.js and Sanity from scratch.",
+      "type": null,
+      "key_achievements": [
+        "Built functionality that enabled users to edit website UI and content by updating data stored in Sanity.",
+        "Collaborated with designer to develop and update site's frontend and interaction according to client's requirements.",
+        "Created mobile responsive user experience using grid layout that allowed cross-platform accessibility to this website on any device."
+      ],
+      "technologies_used": [
+        "Next.js",
+        "Sanity",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": null,
+      "location": null,
+      "duration": "Feb 2022",
+      "description": "Implemented authentication and authorization using JWT. Only admin can add, edit, delete teams in dashboard through rest api.",
+      "type": null,
+      "key_achievements": [
+        "Implemented authentication and authorization using JWT.",
+        "Besides CRUD, teams can be filtered, searched and sorted based on different terms."
+      ],
+      "technologies_used": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JWT",
+        "Mongoose"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Contemporary Art Gallery (PHD Group) website",
+      "description": null,
+      "technologies": [
+        "Next.js",
+        "Sanity",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/leslied41/art_gallery_hk",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Nov 2021 - Jan 2022"
+    },
+    {
+      "name": "CRUD app with Node, Express, and MongoDB",
+      "description": null,
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JWT",
+        "Mongoose"
+      ],
+      "links": {
+        "demo": null,
+        "github": [
+          "https://github.com/leslied41/premier_league_api",
+          "https://github.com/leslied41/premier_league_api_frontend"
+        ],
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Feb 2022"
+    },
+    {
+      "name": "My Portfolio Website",
+      "description": null,
+      "technologies": [
+        "React",
+        "Sass",
+        "TypeScript"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/leslied41/my-portfolio",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Oct 2021"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Sanity",
+        "Express",
+        "Mongoose"
+      ],
+      "databases": [
+        "MongoDB"
+      ],
+      "tools_software": [
+        "Git",
+        "GitHub",
+        "Vercel",
+        "Heroku",
+        "Postman",
+        "Yarn",
+        "Npm",
+        "Figma"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [
+      "Creative",
+      "Teamwork",
+      "Problem-solving"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:08:15.516569",
+    "model_used": "llama3-8b-8192",
+    "source_file": "resume.de5523fb8b3d8e03d97d.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 19,
+    "file_size_mb": 0.08
+  }
+}

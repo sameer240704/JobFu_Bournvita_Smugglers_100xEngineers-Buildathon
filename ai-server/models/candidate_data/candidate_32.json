@@ -1,0 +1,189 @@
+{
+  "candidate_name": "Vedant Gavankar",
+  "contact_information": {
+    "email": "vedantgavankar@gmail.com",
+    "phone": "+91 8850336556",
+    "location": "Mumbai, India",
+    "linkedin": "https://www.linkedin.com/in/vedantgavankar",
+    "github": "https://github.com/vedantgavankar24",
+    "portfolio": null,
+    "other_links": [
+      "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_L79osR93z83TPTrLs_1730552074371_completion_certificate.pdf",
+      "https://tel:+918850336556",
+      "https://djsce.ac.in",
+      "https://drive.google.com/file/d/1LqYaXvW386RWKGY9dsIECWI6Ogq3pmbz/view?usp=sharing",
+      "https://www.figma.com/proto/KAgbmFGsHhYzC9EfsTgxtD/Design-Dojo"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelors in Technology in Artificial Intelligence and Data Science",
+      "institution": "SVKM's Dwarkadas J. Sanghvi College of Engineering",
+      "location": "Mumbai, India",
+      "duration": "2022 - 2026",
+      "gpa_cgpa": "7.10/10.00",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Machine Learning Intern",
+      "company": "Prodigy Infotech",
+      "location": "Remote",
+      "duration": "Jul 2024 - Aug 2024",
+      "description": "Developed a understanding of the working and intricacies of different ML algorithms. Implemented image identification, and learned how to derive insights from quantitative data.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "position": "Technical Executive",
+      "company": "DJS Helios",
+      "location": "Mumbai, India",
+      "duration": "Feb 2024 - Aug 2024",
+      "description": "Performed research on how a vehicle can be made autonomous. Spearheaded design process and contributed to management of the team.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cold-email sender",
+      "description": "Created an application for the purpose of sending cold emails to recruiters on user’s behalf.",
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Streamlit",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "HBS"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/vedantgavankar24/coldmail",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Oct 2024 - Jan 2025"
+    },
+    {
+      "name": "Sleep health and lifestyle advisory chatbot",
+      "description": "Led a team to develop a chatbot which can help detect sleep disorders and provide custom lifestyle recommendations.",
+      "technologies": [
+        "Next.js",
+        "React.js",
+        "Hugging face transformers",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/vedantgavankar24/sleepnova",
+        "other": null
+      },
+      "achievements": "97.50% accuracy",
+      "duration": "Sep 2024 - Feb 2025"
+    },
+    {
+      "name": "Game programming - LUDO",
+      "description": "Programmed the game of Ludo in Java, making use of its GUI library.",
+      "technologies": [
+        "Java",
+        "IntelliJ interface"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/vedantgavankar24/LudoGame",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Jul 2023 - Sep 2023"
+    },
+    {
+      "name": "StuPay - App interface design",
+      "description": "StuPay is a prototype of an app where students get paid for uploading class notes, encouraging them by helping them manage their academic expenses.",
+      "technologies": [
+        "Figma"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Nov 2023 - Feb 2024"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Java",
+        "C",
+        "PHP",
+        "SQL"
+      ],
+      "frameworks_libraries": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Node.js",
+        "Express.js",
+        "React.js"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "tools_software": [
+        "Tableau",
+        "PowerBI",
+        "HuggingFace",
+        "BotPress",
+        "Figma",
+        "Canva"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "Tata Data Visualisation: Empowering Business with Effective Insights Job Simulation",
+      "issuing_organization": "Forage",
+      "date": "Nov 2024",
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:03:06.563838",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Vedant_Gavankar_resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 12,
+    "file_size_mb": 0.1
+  }
+}

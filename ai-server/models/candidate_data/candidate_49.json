@@ -1,0 +1,229 @@
+{
+  "candidate_name": "Abdulaziz EL Sabbagh",
+  "contact_information": {
+    "email": "abdulaziz.elsabbagh7.9@gmail.com",
+    "phone": "0421709904",
+    "location": null,
+    "linkedin": "https://abduls-portfolio.vercel.app",
+    "github": null,
+    "portfolio": "https://abduls-portfolio.vercel.app",
+    "other_links": [
+      "https://abduls",
+      "https://abduls-portfolio.vercel.app/"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Computing Science (Honours)",
+      "institution": "University of Technology Sydney (UTS)",
+      "location": null,
+      "duration": "February 2020 - November 2024",
+      "gpa_cgpa": "6/7",
+      "additional_info": "Major: Artificial Intelligence and Data Analytics",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Student Ambassador",
+      "company": "University of Technology Sydney (UTS)",
+      "location": null,
+      "duration": "May 2024 - Current",
+      "description": "Represented UTS at various events, showcasing strong communication, leadership, and organizational skills while fostering engagement with prospective students.",
+      "type": null,
+      "key_achievements": [
+        "Conducted workshops on advanced topics like 'Bad USB' and led interactive sessions on drones and AI, engaging high school students in hands-on learning experiences.",
+        "Directed a team for the setup and coordination of a building during UTS Open Day, ensuring smooth operations and a positive visitor experience."
+      ],
+      "technologies_used": []
+    },
+    {
+      "position": "supervisor/customer service",
+      "company": "Event Services Australia (ESA)",
+      "location": null,
+      "duration": "June 2022 - February 2023",
+      "description": "Accurately prepared and packed orders for dispatch, maintaining high attention to detail.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": "Warehouse Staff",
+      "company": "Staff Australia",
+      "location": null,
+      "duration": "Feb 2019 - March 2023",
+      "description": "Implemented and coordinated strategic pre-fight planning for specialized drone operations, ensuring safety and compliance with regulations.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    },
+    {
+      "position": "Remote Pilot",
+      "company": "UAVAIR",
+      "location": null,
+      "duration": "January 2019 - December 2019",
+      "description": "Implemented and coordinated strategic pre-fight planning for specialized drone operations, ensuring safety and compliance with regulations.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Honours Project",
+      "description": "Designed and implemented a drone-based system to enhance bushfire detection and emergency response using AI.",
+      "technologies": [
+        "YOLO",
+        "CNNs",
+        "GANs",
+        "U-Net",
+        "Faster R-CNN",
+        "Mask R-CNN",
+        "OpenPose"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Curated and annotated a bespoke aerial imagery dataset to train and evaluate three AI models (YOLOv8-Seg, Mask R-CNN, U-Net) for fire and smoke detection, with YOLOv8-Seg emerging as the most effective.",
+      "duration": "November 2024"
+    },
+    {
+      "name": "Capstone Project",
+      "description": "Led a team of 7 in developing a personalized AI-powered chatbot tutor for stage 6 Mathematics students in preparation for the Higher School Certificate (HSC).",
+      "technologies": [
+        "Xcode",
+        "Firebase",
+        "Claudi API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "March 2024"
+    },
+    {
+      "name": "InkVision (IOS app)",
+      "description": "Won the UTS AI Showcase, InkVision is a virtual reality app allowing users to virtually try on tattoos on forearms.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "Matplotlib",
+        "NumPy",
+        "OpenCV"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Trained on a dataset of 1000+ captured and annotated images, creating a CNN leveraging TensorFlow for accurate forearm prediction.",
+      "duration": "September 2023"
+    },
+    {
+      "name": "Traffic Sign Detection",
+      "description": "Created a road sign detection model targeting 3 YOLO architectures (v3, v5, v8) with other architectures for comparison.",
+      "technologies": [
+        "YOLO"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": "Classified road signs into 4 classes: Prohibitory, Danger, Mandatory, and Other categories, ensuring comprehensive coverage and accuracy.",
+      "duration": "July 2023"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Javascript/Typescript",
+        "Swift",
+        "Dart",
+        "SQL",
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "Pytorch",
+        "Tensorflow",
+        "Keras",
+        "Flask",
+        "OpenCV",
+        "Matplotlib",
+        "Pandas",
+        "Scikit-learn",
+        "React"
+      ],
+      "databases": [],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "First aid certificate",
+      "issuing_organization": null,
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Certificate in Machine learning using SAS Viya",
+      "issuing_organization": null,
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Aeronautical Remote Operators Certificate (AROC)",
+      "issuing_organization": null,
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Cert III in remote pilot (VLOS)",
+      "issuing_organization": null,
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Wandb certified in building llm powered apps",
+      "issuing_organization": null,
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:09:27.597891",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global10.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 2,
+    "file_size_mb": 0.08
+  }
+}

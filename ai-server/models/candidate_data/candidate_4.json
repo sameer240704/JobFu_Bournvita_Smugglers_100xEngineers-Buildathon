@@ -1,0 +1,108 @@
+{
+  "candidate_name": "Ashna Aglawe",
+  "contact_information": {
+    "email": "ashna.aglawe@gmail.com",
+    "linkedin": "http://www.linkedin.com/in/ashna-aglawe-7a335b252",
+    "other_links": []
+  },
+  "candidate_description": "Currently studying at JSCED and exploring the world of web development and design.",
+  "education": [
+    {
+      "degree": "B.E. in Artificial Intelligence and Data Science",
+      "institution": "College of Engineering, Ville Parle",
+      "location": "Ville Parle",
+      "duration": "2022-2026",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Standard 12th",
+      "institution": "Sulochana Devi Singhania School",
+      "location": "Thane",
+      "duration": "2008-2022",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Dancer and Social Media Head",
+      "company": "DJSCED",
+      "location": null,
+      "duration": "2022-Present",
+      "description": "Attended college dance team, attended competitions and social events, and helped improve social media presence.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mentorship Platform",
+      "description": "Used HTML, CSS, and Vanilla JavaScript to create a platform for mentors and mentees.",
+      "technologies": [],
+      "links": {
+        "demo": null,
+        "github": "https://learnverse.netlify.app",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C",
+        "Java",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "frameworks_libraries": [
+        "Bootstrap",
+        "React"
+      ],
+      "databases": [
+        "SQL"
+      ],
+      "tools_software": [
+        "Bootsrap",
+        "React"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [
+      "Time Management",
+      "Negotiation",
+      "Attention to Detail",
+      "Communication"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T20:57:19.501372",
+    "model_used": "llama3-8b-8192",
+    "source_file": "AshnaAglawe_TY_resume.docx.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 1,
+    "file_size_mb": 0.07
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "candidate_name": "NIlay Koul",
+  "contact_information": {
+    "email": "koulnilay28@gmail.com",
+    "phone": "+91 8291089328",
+    "location": null,
+    "linkedin": "https://www.linkedin.com/in/nilay-koul-28nk07/",
+    "github": [
+      "https://github.com/Nilay-28",
+      "https://github.com/Nilay-28/Food_Delivery_Website",
+      "https://github.com/Nilay-28/Placement_System_Database",
+      "https://github.com/Nilay-28/Google_Assistant_Clone",
+      "https://github.com/DragonRider01598/ipdbyannar.git"
+    ],
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": "As a second-year engineering student, I am deeply dedicated to exploring the intricate realms of the technological domain.",
+  "education": [
+    {
+      "degree": "B.Tech Artificial Intelligence & Data Science",
+      "institution": "Dwarkadas J. Sanghvi College of Engineering",
+      "location": null,
+      "duration": "2022-2026",
+      "gpa_cgpa": "8.78 CGPA",
+      "additional_info": "Government of Maharashtra • 2016 Government of Maharashtra • 2017",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "AI/ML Research Intern",
+      "company": "Earth5R",
+      "location": null,
+      "duration": "2 Months",
+      "description": "Researched AI/ML techniques focused on green and sustainable challenges. Developed theoretical solutions to global problems by leveraging AI/ML models and eco-friendly strategies. Aimed to drive sustainability through innovative, technology-driven approaches.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Google Assistant Clone",
+      "description": "Developed a Google Assistant clone using Gemini API. The application allows users to interact with the assistant through text commands, offering the functionality of retrieving information. The assistant leverages Google’s NLP capabilities by integrating the API to accurately respond to user queries.",
+      "technologies": [
+        "Python",
+        "API"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Nilay-28/Google_Assistant_Clone",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2023"
+    },
+    {
+      "name": "Hands To Voices",
+      "description": "Developed an Indian Sign Language recognition system with a React.js front end and real-time gesture recognition using computer vision. Enabled seamless translation between languages for accessibility. Designed for accurate, efficient sign interpretation to bridge communication gaps.",
+      "technologies": [
+        "ReackJS",
+        "NodeJS",
+        "Computer Vision"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Nilay-28",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2024"
+    },
+    {
+      "name": "Placement System Database",
+      "description": "Successfully developed a Graphical User Interface (GUI) to facilitate database modification tasks. The MySQL-based backend supports essential entities, enabling seamless data manipulation through the intuitive GUI.",
+      "technologies": [
+        "Python",
+        "MySQL"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Nilay-28/Placement_System_Database",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2023"
+    },
+    {
+      "name": "Food Delivery Website",
+      "description": "Developed a dynamic food delivery website using ReactJS, integrating Google Firebase for backend functionality. Ensured seamless user experience with real-time updates and efficient order processing. Implemented responsive design principles to optimize the website for various devices, resulting in improved accessibility and user engagement.",
+      "technologies": [
+        "ReactJS",
+        "Google Firebase"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Nilay-28/Food_Delivery_Website",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "2024"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "C",
+        "DSA",
+        "Python",
+        "Java",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Django"
+      ],
+      "frameworks_libraries": [
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-learn",
+        "Scikit-image",
+        "Tensorflow",
+        "Keras",
+        "NLTK"
+      ],
+      "databases": [
+        "MySQL",
+        "SQLite"
+      ],
+      "tools_software": [],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": [
+        "OpenCV",
+        "MediaPipe"
+      ]
+    },
+    "soft_skills": [
+      "Interpersonal Skills",
+      "Collaboration",
+      "Adaptability",
+      "Critical Thinking"
+    ],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": "sports enthusiast",
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-05-31T21:02:36.808706",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Nilay Koul Resume.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 6,
+    "file_size_mb": 0.07
+  }
+}
