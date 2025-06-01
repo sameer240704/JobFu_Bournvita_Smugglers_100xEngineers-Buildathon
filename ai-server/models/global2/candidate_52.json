@@ -1,0 +1,145 @@
+{
+  "candidate_name": "Mary Ella Hill",
+  "contact_information": {
+    "email": "yella@gmail.com",
+    "linkedin": "https://www.maryella.dev/",
+    "github": "http://github.com/maryella",
+    "other_links": [
+      "https://www.maryella.dev/"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Doct or of Pharmacy",
+      "institution": "Auburn University",
+      "location": null,
+      "duration": "May 2013",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "BS in Biomedic al Sciences",
+      "institution": "Auburn University",
+      "location": null,
+      "duration": "May 2009",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Full St ack Immer sive Program",
+      "institution": "DigitalCrafts",
+      "location": null,
+      "duration": "Dec 2019",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Software Engineer II",
+      "company": "Charity vest",
+      "location": "A tlanta, GA",
+      "duration": "May 2020 - Mar 2024",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Used R eact t o build the UI f or key product f eatures",
+        "Wrote API endpoin ts in Node.js and Gr aphQL",
+        "Added aut oma ted unit, in tegration, and end t o end t ests writ ten with Jes t, Pla ywrigh t, and Mock Service W orker (MS W)",
+        "Converted 50+ files t o TypeScrip t, incr easing r eposit ory coverage to >95%"
+      ],
+      "technologies_used": [
+        "JavaScrip t",
+        "TypeScrip t",
+        "React",
+        "R eactQuer y",
+        "HTML",
+        "CSS",
+        "Ne xt.js",
+        "Expr ess.js",
+        "Node.js",
+        "P ostgreSQL",
+        "GraphQL",
+        "Playwrigh t",
+        "Jes t",
+        "Git",
+        "Github",
+        "Figma",
+        "A WS",
+        "Shortcut (pr oject manag emen t)"
+      ]
+    },
+    {
+      "position": "Developer in Residence",
+      "company": "Digit al Cr afts",
+      "location": "A tlanta, GA",
+      "duration": "Jan 2020 - Ma y 2020",
+      "description": null,
+      "type": null,
+      "key_achievements": [
+        "Acted as a t eaching assis tant to primar y ins truct or",
+        "Led w eekly seminar s to enhance s tuden t under standing of c oding and languag e principles"
+      ],
+      "technologies_used": [
+        "P ython",
+        "Javascrip t",
+        "React",
+        "P ostgreSQL"
+      ]
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "JavaScrip t",
+        "TypeScrip t"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "R eactQuer y",
+        "GraphQL",
+        "Playwrigh t"
+      ],
+      "databases": [
+        "P ostgreSQL"
+      ],
+      "tools_software": [
+        "Git",
+        "Github",
+        "Figma",
+        "A WS",
+        "Shortcut (pr oject manag emen t)"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:16:52.603334",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global5.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 3,
+    "file_size_mb": 0.03
+  }
+}

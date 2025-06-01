@@ -1,0 +1,218 @@
+{
+  "candidate_name": "FERNANDO SALVIATI",
+  "contact_information": {
+    "email": null,
+    "phone": null,
+    "location": "Melbourne, Australia",
+    "linkedin": null,
+    "github": null,
+    "portfolio": null,
+    "other_links": []
+  },
+  "candidate_description": "Qualified Software Developer with a Master’s degree in Cloud Computing, bringing a wealth of expertise in web development, system analysis, and innovative technologies.",
+  "education": [
+    {
+      "degree": "Master’s degree in Cloud Computing",
+      "institution": "Torrens University, Melbourne",
+      "location": "Melbourne, Australia",
+      "duration": "2021",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Bachelor’s Degree",
+      "institution": "Impacta University, Brazil",
+      "location": "Brazil",
+      "duration": "2013",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Advanced Diploma of Program Management",
+      "institution": "Lonsdale Institute, Melbourne",
+      "location": "Melbourne, Australia",
+      "duration": "2019",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Diploma of Project Management",
+      "institution": "Lonsdale Institute, Melbourne",
+      "location": "Melbourne, Australia",
+      "duration": "2018",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "PL/SQL Programming (Module I, Module II, Module III)",
+      "institution": "Deloitte, Brazil",
+      "location": "Brazil",
+      "duration": "2013",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Full Stack Developer",
+      "company": "Aurecon Melbourne, Australia",
+      "location": "Melbourne, Australia",
+      "duration": "02/2024 - 11/2024",
+      "description": "Developed and maintained full-stack applications using React, Sass, Node.js, and SQL Server, ensuring efficient and reliable performance across Aurecon’s projects.",
+      "type": "Contract",
+      "key_achievements": [
+        "Built and documented reusable UI components using Storybook to promote design consistency.",
+        "Implemented AI and LLM integrations, contributing to AI-driven solutions that enhanced project outcomes, becoming one of the most utilised applications across the organisation.",
+        "Developed robust backend services using Node.js for efficient and secure API handling."
+      ],
+      "technologies_used": [
+        "React",
+        "Sass",
+        "Node.js",
+        "SQL Server",
+        "Azure Cloud"
+      ]
+    },
+    {
+      "position": "Web Developer",
+      "company": "My Fashion Republic - Cosette Melbourne, Australia",
+      "location": "Melbourne, Australia",
+      "duration": "07/2021 – 12/2023",
+      "description": "Researched, designed, implemented, and managed web applications integral to the company's ecommerce website.",
+      "type": null,
+      "key_achievements": [
+        "Successfully optimised website performance by 30%, enhancing user experience and SEO.",
+        "Led the initiative to develop and implement several new pages and functionalities on the company website, enhancing its online presence.",
+        "Integrated third-party APIs seamlessly into the ecommerce platform, fostering the implementation of new features and establishing secure connections with external systems from suppliers."
+      ],
+      "technologies_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Shopify",
+        "Storybook"
+      ]
+    },
+    {
+      "position": "Frontend Developer (React) - Internship",
+      "company": "Reesby Melbourne, Australia",
+      "location": "Melbourne, Australia",
+      "duration": "02/2021 – 04/2021",
+      "description": "Developed a web-based CRM using React and Material UI.",
+      "type": "Internship",
+      "key_achievements": null,
+      "technologies_used": [
+        "React",
+        "Material UI"
+      ]
+    },
+    {
+      "position": "Technical Consultant / Developer",
+      "company": "Deloitte São Paulo - Brazil",
+      "location": "São Paulo, Brazil",
+      "duration": "05/2011 - 05/2016",
+      "description": "Oracle System Analyst / Developer, sustained operations for General Electric (GE).",
+      "type": null,
+      "key_achievements": null,
+      "technologies_used": [
+        "Oracle",
+        "PL/SQL"
+      ]
+    },
+    {
+      "position": "Oracle Developer",
+      "company": "Fujitsu São Paulo - Brazil",
+      "location": "São Paulo, Brazil",
+      "duration": "09/2010 - 02/2011",
+      "description": "Oracle Developer / Analyst.",
+      "type": null,
+      "key_achievements": null,
+      "technologies_used": [
+        "Oracle",
+        "PL/SQL"
+      ]
+    },
+    {
+      "position": "Analyst / Developer",
+      "company": "IBM São Paulo - Brazil",
+      "location": "São Paulo, Brazil",
+      "duration": "08/2008 - 09/2010",
+      "description": "Oracle Developer / Analyst.",
+      "type": null,
+      "key_achievements": null,
+      "technologies_used": [
+        "Oracle",
+        "PL/SQL"
+      ]
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Node.js"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "Next.js",
+        "Bootstrap",
+        "Sass",
+        "Tailwind"
+      ],
+      "databases": [
+        "SQL",
+        "Oracle",
+        "MongoDB"
+      ],
+      "tools_software": [
+        "Git",
+        "Jira",
+        "Agile Methodology"
+      ],
+      "cloud_platforms": [
+        "AWS",
+        "Azure"
+      ],
+      "devops": null,
+      "data_science": null,
+      "other_technical": [
+        "UX & UI Design",
+        "Shopify",
+        "Storybook"
+      ]
+    },
+    "soft_skills": null,
+    "industry_knowledge": null
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": null,
+    "hobbies": null,
+    "awards": null,
+    "other": null
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:14:01.279498",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Fernando_Salviati_resume.pdf",
+    "pages_processed": 3,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 0,
+    "file_size_mb": 0.17
+  }
+}

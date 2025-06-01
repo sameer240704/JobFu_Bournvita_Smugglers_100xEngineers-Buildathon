@@ -1,0 +1,268 @@
+{
+  "candidate_name": "Parth Jain",
+  "contact_information": {
+    "email": "parthjain1812@gmail.com",
+    "phone": "+91 9923398548",
+    "location": null,
+    "linkedin": "https://linkedin.com/in/parthjain18",
+    "github": "https://github.com/parthjain18",
+    "portfolio": "parthjain.works",
+    "other_links": [
+      "https://coursera.org/share/db7fac110d95f9acd62b6d3373604e06",
+      "https://coursera.org/share/db6d4d3247d7d7228cf46ae01847019a",
+      "https://linkedin.com/in/parthjain18",
+      "https://github.com/parthjain18",
+      "https://parthjain.works",
+      "https://doi.org/10.1007/978-3-031-84391-4_11"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Information Technology, Honours in Data Science",
+      "institution": "Atharva College of Engineering",
+      "location": null,
+      "duration": "Dec. 2021 – May 2025",
+      "gpa_cgpa": "9.06",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Higher Secondary Certificate (XII)",
+      "institution": "Maharashtra State Board",
+      "location": null,
+      "duration": "2021",
+      "gpa_cgpa": "93.17%",
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "Secondary School Certificate (X)",
+      "institution": "Sundaram Central School - CBSE",
+      "location": null,
+      "duration": "2019",
+      "gpa_cgpa": "94%",
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Research Intern",
+      "company": "e-Yantra, IIT Bombay",
+      "location": "Powai, Mumbai",
+      "duration": "May 2025 – Current",
+      "description": "Working on Systematic Literature Review for automating Thematic Analysis or Qualitative Analysis using AI tools. Developing a tool to automate the process of conducting thematic analysis using LLMs.",
+      "type": null,
+      "key_achievements": [
+        "Published in Springer as part of COMPUTE 2024",
+        "Developed a data collection pipeline from video recordings using OpenCV, OCR and Pandas that increased the volume of the usable data by over 200%"
+      ],
+      "technologies_used": [
+        "AI tools",
+        "LLMs",
+        "OpenCV",
+        "OCR",
+        "Pandas"
+      ]
+    },
+    {
+      "position": "Data Analysis and Research Intern",
+      "company": "e-Yantra, IIT Bombay",
+      "location": "Powai, Mumbai",
+      "duration": "May 2024 – July 2024",
+      "description": "Research findings were published in Springer as part of COMPUTE 2024. Developed a data collection pipeline from video recordings using OpenCV, OCR and Pandas that increased the volume of the usable data by over 200%. Explored ways to analyse and visualize the log data using various types of graphs using tools like Celonis and Matplotlib.",
+      "type": null,
+      "key_achievements": [
+        "Published in Springer as part of COMPUTE 2024",
+        "Developed a data collection pipeline from video recordings using OpenCV, OCR and Pandas that increased the volume of the usable data by over 200%"
+      ],
+      "technologies_used": [
+        "OpenCV",
+        "OCR",
+        "Pandas",
+        "Celonis",
+        "Matplotlib"
+      ]
+    },
+    {
+      "position": "Backend Development Intern",
+      "company": "Engaze Remote",
+      "location": null,
+      "duration": "Dec 2023 – Jan 2024",
+      "description": "Worked on data modeling and creating and testing APIs using Node JS, and Mongo DB for a social media startup called Engaze.",
+      "type": null,
+      "key_achievements": null,
+      "technologies_used": [
+        "Node JS",
+        "Mongo DB"
+      ]
+    },
+    {
+      "position": "Android Development Intern",
+      "company": "Shreemati Nathibai Damodar Thackersey (SNDT) Women’s University",
+      "location": "Remote",
+      "duration": "July 2023 – October 2023",
+      "description": "Built an android application using Kotlin and Jetpack Compose Library called COPD-Asthma Healthcare. The application was used by hundreds of patients as part of research on healthcare interventions for COPD and asthma management.",
+      "type": null,
+      "key_achievements": null,
+      "technologies_used": [
+        "Kotlin",
+        "Jetpack Compose Library",
+        "Google Firebase",
+        "Geofencing API",
+        "Weather API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "RAG-Based System for Enhanced Information Retrieval of Browsing Activities",
+      "description": "Developed a system using RAG and LLMs to enhance productivity through continuous screenshot capture, real-time image captioning, and browser history tracking. Streamlined information retrieval by creating structured timelines of user activities.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "LLMs",
+        "BLIP"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Aug 2024 – Present"
+    },
+    {
+      "name": "ElderEase",
+      "description": "An app for elderly people where users (elders) can use the app to chat with their schedule or get any medicinal or general information using a ReAct-Based AI agent built using LangChain. A website for their relatives and doctors to manage their schedules.",
+      "technologies": [
+        "Kotlin",
+        "React",
+        "MongoDB",
+        "Fast API",
+        "LangChain",
+        "AI agents"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "Dec 2024 – Jan 2025"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "Kotlin",
+        "Dart",
+        "C/C++",
+        "SQL",
+        "JavaScript",
+        "Java",
+        "HTML/CSS"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "Node.js",
+        "Flask",
+        "Flutter",
+        "FastAPI",
+        "LangChain"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Git",
+        "Docker",
+        "Google Cloud Platform",
+        "AWS"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [
+        "OpenCV",
+        "Tensorflow",
+        "Keras",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Scikit-Learn",
+        "NLTK"
+      ],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Secured AIR 5 among 460 other teams at E-Yantra Robotics Competition, at IIT Bombay",
+      "description": null,
+      "date": null,
+      "organization": "IIT Bombay",
+      "prize_amount": null
+    },
+    {
+      "title": "Winner of UNPLUGGED 2.0 hackathon at Dwarkadas J. Sanghvi College of Engineering",
+      "description": null,
+      "date": null,
+      "organization": "Dwarkadas J. Sanghvi College of Engineering",
+      "prize_amount": null
+    },
+    {
+      "title": "Secured 5th position among 35+ other teams appearing for Know Code hackathon at K J Somaiya Institute of Technology",
+      "description": null,
+      "date": null,
+      "organization": "K J Somaiya Institute of Technology",
+      "prize_amount": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Supervised Machine Learning: Regression and Classification",
+      "issuing_organization": "DeepLearning.AI",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Advanced Machine Learning Algorithms",
+      "issuing_organization": "DeepLearning.AI",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [
+    {
+      "title": "Enhancing and Analyzing Log Generation for Collaborative Problem-Solving Activities: Video Analysis and OCR Techniques",
+      "journal_conference": "COMPUTE 2024, ACM India Conference, Springer",
+      "date": "March 2025",
+      "authors": [
+        "Parth Jain"
+      ],
+      "description": null
+    }
+  ],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:12:31.916361",
+    "model_used": "llama3-8b-8192",
+    "source_file": "PARTH JAIN RESUME.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 9,
+    "file_size_mb": 0.1
+  }
+}

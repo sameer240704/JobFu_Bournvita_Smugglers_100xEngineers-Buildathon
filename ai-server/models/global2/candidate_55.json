@@ -1,0 +1,254 @@
+{
+  "candidate_name": "vansh tibrewal",
+  "contact_information": {
+    "email": "vanshtibrewal@gmail.com",
+    "phone": "(626) 786-9418",
+    "location": "California",
+    "linkedin": "https://www.linkedin.com/in/vanshtibrewal/",
+    "github": [
+      "https://github.com/vanshtibrewal",
+      "https://github.com/nika-chuzhoy/cuda-gpt-2"
+    ],
+    "portfolio": "https://vanshtibrewal.github.io",
+    "other_links": [
+      "https://vanshtibrewal.github.io/cs3.html",
+      "https://www.tandfonline.com/doi/full/10.1080/19475683.2021.1982001",
+      "http://vanshtibrewal.github.io",
+      "https://bit.ly/CAA159"
+    ]
+  },
+  "candidate_description": null,
+  "education": [
+    {
+      "degree": "B.S.",
+      "institution": "California Institute of Technology (Caltech)",
+      "location": "California",
+      "duration": "Expected 2026",
+      "gpa_cgpa": "4.3 / 4.0",
+      "additional_info": null,
+      "coursework": [
+        "Advanced Topics in ML",
+        "LLMs for Reasoning",
+        "Large Language and Vision Models Learning Systems",
+        "GPU Programming",
+        "Linear Algebra",
+        "Probability and Statistics",
+        "Networks",
+        "Software Engineering",
+        "Head Teaching Assistant for Computing Systems",
+        "Teaching Assistant for Software Design",
+        "Computer Programming"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Researcher",
+      "company": "Caltech (Perona) Vision Lab",
+      "location": "California",
+      "duration": "Jan 2024 - Present",
+      "description": "Developing novel segmentation-based methods for improved self-supervised training of vision foundation models for action recognition. Applying methods to unsupervised identification of behavior motifs linked to neurosurgical outcomes in sheep.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ]
+    },
+    {
+      "position": "Researcher",
+      "company": "Caltech (Anima) AI + Science Lab",
+      "location": "California",
+      "duration": "Nov 2022 - Present",
+      "description": "Training foundation models for computational fluid dynamics by pre-training on complex geometries in graphics data. Designing a better propeller for drones by solving the inverse problem using a multi-scale, graph-based Fourier Neural Operator architecture.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "company": "Harvard University",
+      "location": "Massachusetts",
+      "duration": "July 2020 - July 2022",
+      "description": "Co-authored research paper published in Taylor & Francis Journal. Implemented Holt-Winters algorithm, ARIMA models. Replicated and extended augmented SEIR model, presented to NSF. Implemented ecological regression model.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "R",
+        "PyTorch",
+        "TensorFlow",
+        "Keras"
+      ]
+    },
+    {
+      "position": "ML Engineer",
+      "company": "Coronavirus Visualization Team",
+      "location": "California",
+      "duration": "June 2020 - May 2021",
+      "description": "Used data augmentation and transfer learning to diagnose COVID-19 from CT scans with a 97.13% precision. Implemented Naive Bayes Classifier to conduct sentiment analysis of Twitter data to track public sentiment during the lockdown.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ]
+    },
+    {
+      "position": "Programmer",
+      "company": "Angel Xpress Foundation",
+      "location": "California",
+      "duration": "May 2021 - June 2021",
+      "description": "Built, trained, and deployed chatbot to answer queries of visitors for a website which receives 5000+ monthly visitors. Led to an 80% decrease in email queries with no change in number of customers (donors, volunteers).",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Activation Steering for Model Interpretability",
+      "description": null,
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/nika-chuzhoy/cuda-gpt-2",
+        "other": null
+      },
+      "achievements": "Applied CAA to improve LLM reasoning capabilities. Tested different intervention points for CAA (post-multi-head-attention vs. residual stream).",
+      "duration": null
+    },
+    {
+      "name": "Accelerating GPT-2 Inference in CUDA",
+      "description": null,
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/nika-chuzhoy/cuda-gpt-2",
+        "other": null
+      },
+      "achievements": "Achieved an 80x speedup in GPT-2 inference. Wrote custom, optimized CUDA kernels for numerous operations (matrix multiplication, element-wise GELU, etc.) to inference GPT-2 in C and CUDA.",
+      "duration": null
+    },
+    {
+      "name": "Slime",
+      "description": null,
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "links": {
+        "demo": "https://vanshtibrewal.github.io/cs3.html",
+        "github": "https://github.com/vanshtibrewal",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Python",
+        "C",
+        "Java",
+        "JavaScript",
+        "C++",
+        "R"
+      ],
+      "frameworks_libraries": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "CUDA"
+      ],
+      "databases": [],
+      "tools_software": [
+        "Git",
+        "Makefile"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": [
+        "OCaml",
+        "Haskell"
+      ]
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [
+    {
+      "title": "Winner of MIT COVID-19 Challenge: Beat the Pandemic II",
+      "description": "A global hackathon with 1800+ hackers.",
+      "date": null,
+      "organization": "MIT",
+      "prize_amount": "5000"
+    },
+    {
+      "title": "National Rank 4+ AIME qualifier in American Mathematics Competition",
+      "description": null,
+      "date": null,
+      "organization": "American Mathematics Competition",
+      "prize_amount": null
+    },
+    {
+      "title": "Award at MIT AWS Buildathon",
+      "description": null,
+      "date": null,
+      "organization": "MIT AWS Buildathon",
+      "prize_amount": "5000"
+    }
+  ],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:13:14.158557",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global.pdf",
+    "pages_processed": 1,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 8,
+    "file_size_mb": 0.09
+  }
+}

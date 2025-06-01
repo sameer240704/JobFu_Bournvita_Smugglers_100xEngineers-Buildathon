@@ -1,0 +1,268 @@
+{
+  "candidate_name": "Georgia Hobson",
+  "contact_information": {
+    "email": "ghobs987@gmail.com",
+    "phone": "07947128426",
+    "location": "Birmingham UK, B30 2RR",
+    "linkedin": "https://www.linkedin.com/in/georgia-h-b48434150/",
+    "github": "https://github.com/G-bot987",
+    "portfolio": "https://portfolio-g-bot987.vercel.app/",
+    "other_links": [
+      "https://github.com/G",
+      "https://next-dn-d-character-manager.vercel.app/#",
+      "http://alluring-kings-canyon-06696-e97f27ca535a.herokuapp.com/",
+      "https://adaptable-three.vercel.app/",
+      "https://github.com/G-bot987",
+      "https://drive.google.com/file/d/15txAIc4Z2BPdBKAf3sJxDxTj62HhlTK2/view",
+      "https://github.com/G-bot987/",
+      "https://portfolio-g-bot987.vercel.app/"
+    ]
+  },
+  "candidate_description": "Full stack developer and Marketing Graduate with experience across multiple agencies with a passion for bug fixing, and the drive to excel technically.",
+  "education": [
+    {
+      "degree": "A- Certificate in Full Stack Development",
+      "institution": "Birmingham University",
+      "location": null,
+      "duration": "December 2021",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    },
+    {
+      "degree": "BSc Marketing",
+      "institution": "University of Salford",
+      "location": null,
+      "duration": "2:1",
+      "gpa_cgpa": null,
+      "additional_info": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Support Developer",
+      "company": "Univers Labs",
+      "location": "Birmingham UK, B30 2RR",
+      "duration": "May 22 - November 22",
+      "description": "Resolving tickets of varying complexity in a agile setting. Working with React with and without hooks, React.Native for IOS and Android, Testflight for IOS, TypeScript, MYSQL, Deis for deployment, Sublime merge for branch resolution , Node and MySQL .",
+      "type": null,
+      "key_achievements": [
+        "Sophisticated diagnostician, with the technical understanding to interpret, isolate and resolve bugs over a variety of frameworks and interlinked technologies",
+        "My communication , time management  and technical proficiency  saw a significant improvement in our ability to resolve tickets, within our  contracted time frame."
+      ],
+      "technologies_used": [
+        "Typescript",
+        "Javascript",
+        "Node.JS",
+        "Angular",
+        "React.JS",
+        "React Native",
+        "Next.JS",
+        "MongoDB",
+        "Prisma",
+        "Command Line",
+        "CSS",
+        "Docker",
+        "JQuery",
+        "Bootstrap",
+        "Express.JS",
+        "MySQL",
+        "Docker",
+        "HandleBars",
+        "Jest",
+        "Tailwind",
+        "Sequelize"
+      ]
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "Squarcle",
+      "location": null,
+      "duration": "November 22- January 23",
+      "description": "Worked independently in an agile setting, completing issues of diverse sophistication detailed on a Gitlab Kanban board, for a well respected Multi-National client in the technology sector.",
+      "type": null,
+      "key_achievements": [
+        "Self Motivated and determined with regards to digesting and implementing coding principles detailed in Angular documentation",
+        "Intuitive understanding of coding principles allowed for the scaling of solutions for issues based on similar principles"
+      ],
+      "technologies_used": [
+        "Angular",
+        "Material UI",
+        "LESS",
+        "TypeScript",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "Georgia Hobson",
+      "location": null,
+      "duration": "March 23 - Present",
+      "description": "Worked as a solo developer to implement full stack applications in the logistics sector using Next.JS, TypeScript, and MongoDB.",
+      "type": null,
+      "key_achievements": [
+        "Sophisticated problem solving skills nurtured through working as a solo developer",
+        "Strategic decision making experience with regards to the implementation of technologies"
+      ],
+      "technologies_used": [
+        "Next.JS",
+        "TypeScript",
+        "MongoDB"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio",
+      "description": "A professional portfolio showcasing my career, skills, and projects. It serves as a digital CV, providing detailed information to potential employers and recruiters.",
+      "technologies": [
+        "Next.JS",
+        "TypeScript",
+        "Tailwind",
+        "TS.Particles",
+        "Vercel"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/G-bot987/NextPortfolio",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "DnD Character Manager",
+      "description": "A full-stack application that utilises a Dungeons and Dragons 5E character sheet as a template.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "MongoDB",
+        "Redux",
+        "Tailwind",
+        "Vercel"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/G-bot987/NextDnDCharacterManager",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Shopify GraphQL API integration",
+      "description": "An illustrative project demonstrating the integration of scripts into a Shopify store for efficient data collection and manipulation.",
+      "technologies": [
+        "TypeScript",
+        "GraphQL",
+        "Node.js",
+        "Shopify"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/G-bot987/cake",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Figma Design Front End UI Showcase",
+      "description": "The standout piece in my portfolio, showcasing my ability to translate Figma designs into high-quality front-end interfaces with meticulous attention to detail.",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "SCSS",
+        "Figma",
+        "Vercel"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/G-bot987/adaptable",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    },
+    {
+      "name": "Pokedex",
+      "description": "A passion project highlighting my eagerness to explore diverse technologies.",
+      "technologies": [
+        "Laravel",
+        "Eloquent",
+        "PHP",
+        "Bootstrap",
+        "MySQL",
+        "Heroku"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/G-bot987/Pokedex",
+        "other": null
+      },
+      "achievements": null,
+      "duration": null
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Typescript",
+        "Javascript",
+        "Python"
+      ],
+      "frameworks_libraries": [
+        "React",
+        "Angular",
+        "Next.JS",
+        "Prisma",
+        "Redux",
+        "Material UI",
+        "LESS"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL"
+      ],
+      "tools_software": [
+        "Docker",
+        "JQuery",
+        "Bootstrap",
+        "Express.JS",
+        "HandleBars",
+        "Jest",
+        "Tailwind",
+        "Sequelize"
+      ],
+      "cloud_platforms": [],
+      "devops": [],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:07:43.620228",
+    "model_used": "llama3-8b-8192",
+    "source_file": "global6.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 20,
+    "file_size_mb": 0.24
+  }
+}

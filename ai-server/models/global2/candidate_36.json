@@ -1,0 +1,294 @@
+{
+  "candidate_name": "Bhimesh Patil",
+  "contact_information": {
+    "email": "bhimeshpatil1@gmail.com",
+    "phone": "+49 1785282394",
+    "location": "Stuttgart - Nord, Germany",
+    "linkedin": "https://www.linkedin.com/in/bhimesh-patil/",
+    "github": [
+      "https://github.com/Bhimesh1/finance-tracker",
+      "https://github.com/Bhimesh1/Deballot",
+      "https://github.com/Bhimesh1/MidlewareBhimesh"
+    ],
+    "portfolio": null,
+    "other_links": [
+      "https://www.hft-stuttgart.de/forschung/i-city",
+      "https://www.tcs.com/",
+      "https://vhbsenterprises.wixstudio.com/vhbs",
+      "https://www.hft-stuttgart.com/research/projects/current/knight-project...",
+      "https://www.hft-stuttgart.com/research/projects/current/knight-project"
+    ]
+  },
+  "candidate_description": "Java developer with over a year of hands-on experience in the IT industry and currently pursuing an M.Sc. in Software Technology. I enjoy building clean and reliable backend systems, with experience ranging from Azure to projects working on Spring boot. Focused on teamwork, automation, and developing software that genuinely improves user experience.",
+  "education": [
+    {
+      "degree": "Masters of Science In Software Technology",
+      "institution": "Hochschule für Technik Stuttgart",
+      "location": "Stuttgart, Germany",
+      "duration": "03/2023 - present",
+      "gpa_cgpa": null,
+      "additional_info": "Key Subjects: DSA, Software Architecture, Middleware Technology, Software Project Management, Software V&V.",
+      "coursework": []
+    },
+    {
+      "degree": "Bachelor of Science In Information Technology",
+      "institution": "University Of Mumbai",
+      "location": "Mumbai, India",
+      "duration": "07/2019 - 04/2022",
+      "gpa_cgpa": null,
+      "additional_info": "Key Subjects: OOP, C++, Python, Java, Linux, AI, Database Systems, .NET, C#, Business Intelligence.",
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Blockchain-Based Geospatial Data Storage (Master Thesis)",
+      "company": "Hochschule für Technik Stuttgart",
+      "location": "Stuttgart, Germany",
+      "duration": "10/2024 - present",
+      "description": "Designed a secure full-stack system for encrypted geospatial data using AES, RSA, and Ethereum Smart Contracts. Built a FastAPI backend (Web3.py) and React frontend for secure uploads, permission control, and map visualization. Deployed using Docker, NGINX, and GitHub Actions to enable decentralized access and scalable operations.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Java",
+        "Spring Boot",
+        "FastAPI",
+        "Web3.py",
+        "React",
+        "Docker",
+        "NGINX",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "position": "Full-Stack Developer (Working Student)",
+      "company": "KNIGHT Project",
+      "location": "Stuttgart, Germany",
+      "duration": "04/2024 - 09/2024",
+      "description": "Built a MongoDB-based backend integrated with Amazon S3 for efficient data ingestion pipelines. Automated data uploads and visualization using Python scripts and MongoDB Compass. Created CI/CD pipelines and integrated Grafana for real-time analytics on MySQL datasets.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Java",
+        "Spring Boot",
+        "MongoDB",
+        "Amazon S3",
+        "Python",
+        "MongoDB Compass",
+        "CI/CD",
+        "Grafana",
+        "MySQL"
+      ]
+    },
+    {
+      "position": "Software Developer",
+      "company": "Tata Consultancy Services",
+      "location": "Mumbai, India",
+      "duration": "05/2022 - 02/2023",
+      "description": "Modernized a legacy mainframe app into a cloud-based accounting platform on Azure. Developed transaction-processing microservices using Spring Boot. Automated revenue distribution processes using Spring Batch, reducing manual effort significantly.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Java",
+        "Spring Boot",
+        "Azure",
+        "Spring Batch"
+      ]
+    },
+    {
+      "position": "Cloud Computing Intern",
+      "company": "Verzeo",
+      "location": "Remote, India",
+      "duration": "02/2021 - 04/2021",
+      "description": "Worked on Azure VNet and Blob Storage setups; conducted server role testing and disaster recovery validation. Identified and optimized CPU resource allocations to improve server performance.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Azure",
+        "VNet",
+        "Blob Storage"
+      ]
+    },
+    {
+      "position": "Website Development & Administrative Support",
+      "company": "VHBS Enterprises",
+      "location": "Mumbai, India",
+      "duration": "11/2019 - 05/2020",
+      "description": "Designed and maintained a business website (Wix, WordPress), boosting company visibility. Handled administrative operations, including billing, quotations, and client correspondence.",
+      "type": null,
+      "key_achievements": [],
+      "technologies_used": [
+        "Wix",
+        "WordPress"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Finance Tracker",
+      "description": "Full-stack application for transaction tracking, budget setting, and financial analytics.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Bhimesh1/finance-tracker",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "07/2024"
+    },
+    {
+      "name": "Q&A Hub (Spring Boot Application)",
+      "description": "CRUD application for a Q&A platform with Dockerized MySQL backend and automated testing pipelines.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Docker"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "02/2024"
+    },
+    {
+      "name": "GPT Bot for Discord",
+      "description": "Intelligent Discord chatbot using OpenAI's API for real-time responses.",
+      "technologies": [
+        "Python",
+        "discord.py",
+        "OpenAI API"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "11/2023"
+    },
+    {
+      "name": "MyPlacement (Recruitment Portal)",
+      "description": "College recruitment system connecting students and recruiters with admin moderation features.",
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ],
+      "links": {
+        "demo": null,
+        "github": null,
+        "other": null
+      },
+      "achievements": null,
+      "duration": "06/2023"
+    },
+    {
+      "name": "DeBallot – Decentralized Voting System",
+      "description": "Blockchain-based transparent voting system built on NEAR Protocol.",
+      "technologies": [
+        "Node.js",
+        "React Bootstrap",
+        "NEAR"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/Bhimesh1/Deballot",
+        "other": null
+      },
+      "achievements": null,
+      "duration": "01/2022"
+    }
+  ],
+  "skills": {
+    "technical_skills": {
+      "programming_languages": [
+        "Java"
+      ],
+      "frameworks_libraries": [
+        "Spring Boot"
+      ],
+      "databases": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "tools_software": [
+        "Docker",
+        "NGINX",
+        "GitHub Actions",
+        "CI/CD",
+        "Grafana"
+      ],
+      "cloud_platforms": [
+        "Azure"
+      ],
+      "devops": [
+        "CI/CD",
+        "Grafana"
+      ],
+      "data_science": [],
+      "other_technical": []
+    },
+    "soft_skills": [],
+    "industry_knowledge": []
+  },
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: SC-900 (Security, Compliance, and Identity Fundamentals)",
+      "issuing_organization": "Microsoft",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Microsoft Certified: AZ-900 (Azure Fundamentals)",
+      "issuing_organization": "Microsoft",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "NVIDIA DLI: Fundamentals of Deep Learning",
+      "issuing_organization": "NVIDIA",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    },
+    {
+      "name": "Cisco Networking Academy: Introduction to Cybersecurity",
+      "issuing_organization": "Cisco",
+      "date": null,
+      "expiry_date": null,
+      "credential_id": null
+    }
+  ],
+  "publications": [],
+  "additional_information": {
+    "volunteering": [],
+    "hobbies": [],
+    "awards": [],
+    "other": []
+  },
+  "extraction_metadata": {
+    "extraction_date": "2025-06-01T13:15:13.542380",
+    "model_used": "llama3-8b-8192",
+    "source_file": "Bhimesh Patil Resume.pdf",
+    "pages_processed": 2,
+    "pages_with_errors": 0,
+    "ocr_used": false,
+    "extraction_method": "PyPDF2",
+    "links_extracted": 9,
+    "file_size_mb": 0.22
+  }
+}
