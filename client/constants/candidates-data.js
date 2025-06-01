@@ -97,11 +97,11 @@ export const demoCandidates = [
     },
     {
         _id: "4",
-        candidate_name: "David Kim",
+        candidate_name: "Sameer Gupta",
         contact_information: {
-            email: "david.kim@example.com",
-            phone: "+82 10 1234 5678",
-            linkedin: "https://linkedin.com/in/davidkim"
+            email: "sameergupta79711@gmail.com",
+            phone: "+91 9082201988",
+            linkedin: "https://www.linkedin.com/in/sameergupta24/",
         },
         experience: [
             {

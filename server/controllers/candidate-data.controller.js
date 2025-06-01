@@ -3,7 +3,7 @@ import path from 'path';
 import mongoose from 'mongoose';
 import Candidate from "../models/candidate.model.js"
 
-const transformCandidateData = (data) => {
+const transformCandidateData = (data, aiSummary = null) => {
     if (data.additional_information?.volunteering) {
         if (typeof data.additional_information.volunteering === 'string') {
             if (data.additional_information.volunteering.trim().startsWith('[') ||
@@ -46,15 +46,31 @@ const transformCandidateData = (data) => {
         data.contact_information.email = `no-email-${Math.random().toString(36).substring(2)}@placeholder.com`;
     }
 
+    let aiSummaryData = null;
+    if (aiSummary) {
+        const summaryPoints = [];
+        for (const [key, value] of Object.entries(aiSummary)) {
+            if (key.startsWith('point') && value) {
+                summaryPoints.push(`• ${value}`);
+            }
+        }
+
+        aiSummaryData = {
+            summary: summaryPoints.join('\n\n'),
+            raw_summary: aiSummary,
+            last_updated: new Date()
+        };
+    }
+
     return {
         ...data,
         linkedin_data: null,
         github_data: null,
-        ai_summary_data: null
+        ai_summary_data: aiSummaryData
     };
 };
 
-const processCandidateFile = async (filePath, retries = 3) => {
+const processCandidateFile = async (filePath, summaryData = null, retries = 3) => {
     try {
         const data = fs.readFileSync(filePath, 'utf8');
         let candidateData;
@@ -71,7 +87,7 @@ const processCandidateFile = async (filePath, retries = 3) => {
             candidateData = JSON.parse(fixedData);
         }
 
-        const transformedData = transformCandidateData(candidateData);
+        const transformedData = transformCandidateData(candidateData, summaryData);
         if (!transformedData) {
             return { success: false, file: filePath, error: 'Data transformation failed' };
         }
@@ -100,7 +116,7 @@ const processCandidateFile = async (filePath, retries = 3) => {
         if (retries > 0) {
             console.log(`Retrying ${filePath} (${retries} retries left)`);
             await new Promise(resolve => setTimeout(resolve, 1000)); // Wait 1 second before retry
-            return processCandidateFile(filePath, retries - 1);
+            return processCandidateFile(filePath, summaryData, retries - 1);
         }
 
         console.error(`Error processing file ${filePath}:`, err.message);
@@ -108,31 +124,63 @@ const processCandidateFile = async (filePath, retries = 3) => {
     }
 };
 
-const processCandidateDirectory = async (directoryPath, concurrency = 5) => {
+const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPath = null, concurrency = 5) => {
     try {
-        const files = fs.readdirSync(directoryPath);
-        const jsonFiles = files.filter(file => file.endsWith('.json'));
+        // Process candidate data files
+        const dataFiles = fs.readdirSync(dataDirectoryPath);
+        const jsonDataFiles = dataFiles.filter(file => file.endsWith('.json'));
 
-        if (jsonFiles.length === 0) {
-            console.log('No JSON files found in the directory');
-            return { success: false, message: 'No JSON files found' };
+        if (jsonDataFiles.length === 0) {
+            console.log('No JSON files found in the data directory');
+            return { success: false, message: 'No JSON files found in data directory' };
         }
 
-        console.log(`Found ${jsonFiles.length} JSON files to process`);
+        console.log(`Found ${jsonDataFiles.length} candidate data files to process`);
+
+        // Process summary files if directory provided
+        let summaryFilesMap = new Map();
+        if (summariesDirectoryPath && fs.existsSync(summariesDirectoryPath)) {
+            const summaryFiles = fs.readdirSync(summariesDirectoryPath);
+            const jsonSummaryFiles = summaryFiles.filter(file => file.endsWith('.json'));
+
+            console.log(`Found ${jsonSummaryFiles.length} summary files to process`);
+
+            // Create a map of summary files by candidate number for easy lookup
+            for (const file of jsonSummaryFiles) {
+                try {
+                    // Extract candidate number from filename (clean_summary_candidate_1.json -> 1)
+                    const candidateNumberMatch = file.match(/clean_summary_candidate_(\d+)\.json/);
+                    if (candidateNumberMatch && candidateNumberMatch[1]) {
+                        const candidateNumber = candidateNumberMatch[1];
+                        const filePath = path.join(summariesDirectoryPath, file);
+                        const summaryData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                        summaryFilesMap.set(candidateNumber, summaryData);
+                    }
+                } catch (err) {
+                    console.error(`Error reading summary file ${file}:`, err);
+                }
+            }
+        }
 
         const results = [];
         const processQueue = [];
 
-        for (let i = 0; i < jsonFiles.length; i += concurrency) {
-            const batch = jsonFiles.slice(i, i + concurrency);
+        for (let i = 0; i < jsonDataFiles.length; i += concurrency) {
+            const batch = jsonDataFiles.slice(i, i + concurrency);
             const batchPromises = batch.map(file => {
-                const filePath = path.join(directoryPath, file);
-                return processCandidateFile(filePath)
+                const filePath = path.join(dataDirectoryPath, file);
+
+                // Extract candidate number from filename (candidate_1.json -> 1)
+                const candidateNumberMatch = file.match(/candidate_(\d+)\.json/);
+                const candidateNumber = candidateNumberMatch && candidateNumberMatch[1];
+                const summaryData = candidateNumber ? summaryFilesMap.get(candidateNumber) : null;
+
+                return processCandidateFile(filePath, summaryData)
                     .then(result => results.push(result));
             });
 
             await Promise.all(batchPromises);
-            console.log(`Processed ${i + batch.length} of ${jsonFiles.length} files`);
+            console.log(`Processed ${i + batch.length} of ${jsonDataFiles.length} files`);
         }
 
         const successful = results.filter(r => r.success).length;
@@ -142,7 +190,7 @@ const processCandidateDirectory = async (directoryPath, concurrency = 5) => {
 
         return {
             success: true,
-            totalFiles: jsonFiles.length,
+            totalFiles: jsonDataFiles.length,
             successful,
             failed,
             results

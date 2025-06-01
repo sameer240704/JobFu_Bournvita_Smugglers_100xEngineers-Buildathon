@@ -113,6 +113,7 @@ const githubDataSchema = new mongoose.Schema({
 
 const aiSummaryDataSchema = new mongoose.Schema({
     summary: { type: String },
+    raw_summary: { type: Object },
     last_updated: { type: Date, default: Date.now }
 }, { _id: false });
 
