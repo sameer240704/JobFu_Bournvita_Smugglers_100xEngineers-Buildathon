@@ -3,12 +3,9 @@
   "contact_information": {
     "email": "vanshtibrewal@gmail.com",
     "phone": "(626) 786-9418",
-    "location": "California",
+    "location": "Pasadena, California, United States",
     "linkedin": "https://www.linkedin.com/in/vanshtibrewal/",
-    "github": [
-      "https://github.com/vanshtibrewal",
-      "https://github.com/nika-chuzhoy/cuda-gpt-2"
-    ],
+    "github": "https://github.com/vanshtibrewal",
     "portfolio": "https://vanshtibrewal.github.io",
     "other_links": [
       "https://vanshtibrewal.github.io/cs3.html",

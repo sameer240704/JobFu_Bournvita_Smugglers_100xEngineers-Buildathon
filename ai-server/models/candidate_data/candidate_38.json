@@ -1,12 +1,12 @@
 {
-  "candidate_name": "FERNANDO SALVIATI",
+  "candidate_name": "Fernando Salviati",
   "contact_information": {
-    "email": null,
+    "email": "fernandosalviati@gmail.com",
     "phone": null,
-    "location": "Melbourne, Australia",
+    "location": "Melbourne, Victoria, Australia",
     "linkedin": "https://www.linkedin.com/in/fernando-salviati/",
     "github": "https://github.com/fsalviati",
-    "portfolio": null,
+    "portfolio": "https://salviati-portfolio.vercel.app/",
     "other_links": []
   },
   "candidate_description": "Qualified Software Developer with a Master’s degree in Cloud Computing, bringing a wealth of expertise in web development, system analysis, and innovative technologies.",
