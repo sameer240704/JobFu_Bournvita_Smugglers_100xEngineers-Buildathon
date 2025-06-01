@@ -17,6 +17,9 @@ const syncUser = async (req, res) => {
             });
             await user.save();
         } else {
+            if (avatar) {
+                user.avatar = avatar;
+            }
             user.lastLogin = Date.now();
             await user.save();
         }
@@ -29,6 +32,22 @@ const syncUser = async (req, res) => {
     } catch (error) {
         console.error('Error syncing user:', error);
         res.status(500).json({ success: false, error: 'Failed to sync user' });
+    }
+};
+
+const getCurrentUser = async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const user = await User.find({ supabaseId: userId });
+
+        if (!user) {
+            return res.status(404).json({ success: false, error: "User not found" });
+        }
+
+        res.status(200).json({ success: true, user });
+    } catch (error) {
+        console.error("Error fetching user:", error);
+        res.status(500).json({ success: false, error: "Failed to fetch user" });
     }
 };
 
@@ -45,11 +64,6 @@ const updateProfile = async (req, res) => {
             twitterUrl
         } = req.body;
 
-        let avatar;
-        if (req.file) {
-            avatar = await processAvatarUpload(req.file);
-        }
-
         const updateData = {
             name,
             phone,
@@ -61,10 +75,6 @@ const updateProfile = async (req, res) => {
             profileCompleted: true,
             updatedAt: Date.now()
         };
-
-        if (avatar) {
-            updateData.avatar = avatar;
-        }
 
         const updatedUser = await User.findByIdAndUpdate(
             userId,
@@ -87,14 +97,8 @@ const updateProfile = async (req, res) => {
     }
 };
 
-async function processAvatarUpload(file) {
-    // Implement your avatar processing logic here
-    // This might involve resizing, storing in S3/Cloudinary, etc.
-    // Return the URL of the stored avatar
-    return `https://your-storage.com/avatars/${file.filename}`;
-}
-
 export {
     syncUser,
-    updateProfile
+    updateProfile,
+    getCurrentUser
 };

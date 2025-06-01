@@ -1,10 +1,10 @@
 import express from 'express';
-import { syncUser, updateProfile } from '../controllers/user.controller.js';
-import { upload } from '../middlewares/multer.middleware.js';
+import { getCurrentUser, syncUser, updateProfile } from '../controllers/user.controller.js';
 
 const router = express.Router();
 
+router.get('/me/:userId', getCurrentUser);
 router.post('/sync-user', syncUser);
-router.put('/users/:userId/profile', upload.single('avatar'), updateProfile);
+router.put('/:userId', updateProfile);
 
 export default router;

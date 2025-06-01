@@ -104,7 +104,7 @@ const LandingPage = () => {
 
             <Button
               onClick={handleNavigateLogin}
-              className="hidden lg:flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-2.5 rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 shadow-lg shadow-purple-500/25 dark:shadow-purple-900/30 font-semibold"
+              className="hidden lg:flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-2.5 rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 shadow-lg shadow-purple-500/25 dark:shadow-purple-900/30 font-semibold cursor-pointer"
             >
               <span>Get Started</span>
             </Button>
