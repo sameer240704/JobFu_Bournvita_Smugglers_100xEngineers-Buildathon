@@ -7,6 +7,7 @@ import cors from "cors";
 
 // Importing routes
 import userRoutes from "./routes/user.routes.js";
+import shortlistingRoutes from "./routes/shortlisting.route.js";
 import chatRoutes from "./routes/chathistory.routes.js";
 
 dotenv.config();
@@ -28,6 +29,7 @@ app.use(bodyParser.json({ limit: "100mb" }));
 app.use(bodyParser.urlencoded({ limit: "100mb", extended: true }));
 
 app.use("/api/users", userRoutes);
+app.use("/api/shortlisting", shortlistingRoutes);
 app.use("/api/chats", chatRoutes);
 
 app.get("/", (req, res) => {

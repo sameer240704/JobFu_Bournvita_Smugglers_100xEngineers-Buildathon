@@ -58,7 +58,7 @@ const LandingPage = () => {
               <FiActivity className="text-white text-xl" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent dark:from-purple-400 dark:to-indigo-400">
-              HireAI
+              JobFu
             </span>
           </div>
 

@@ -124,10 +124,7 @@
       ],
       "links": {
         "demo": null,
-        "github": [
-          "https://github.com/leslied41/premier_league_api",
-          "https://github.com/leslied41/premier_league_api_frontend"
-        ],
+        "github": "https://github.com/leslied41/premier_league_api",
         "other": null
       },
       "achievements": null,
