@@ -214,7 +214,7 @@ const AnalyticsPage = () => {
   return (
     <div className="min-h-screen overflow-scroll bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-50 p-4 sm:p-6 lg:p-8">
       {/* Top Header */}
-      <header className="flex justify-between items-center bg-white rounded-md mb-8 p-10 text-3xl font-bold">
+      <header className="flex justify-between items-center bg-white dark:bg-transparent rounded-md mb-8 p-10 text-3xl font-bold">
         Recruitment Analytics Dashboard
       </header>
 

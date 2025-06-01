@@ -412,7 +412,7 @@ const Page = () => {
   };
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden">
+    <div className="relative h-full">
       <div
         className={`transition-all duration-300 ${
           isChatHistoryOpen ? "md:mr-80" : "md:mr-0"
