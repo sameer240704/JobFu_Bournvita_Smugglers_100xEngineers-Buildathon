@@ -36,12 +36,13 @@ async function createTransporter() {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                type: 'OAuth2',
-                user: 'jobfutech@gmail.com',
-                clientId: process.env.CLIENT_ID,
-                clientSecret: process.env.CLIENT_SECRET,
-                refreshToken: process.env.REFRESH_TOKEN,
-                accessToken: token
+                // type: 'OAuth2',
+                user: process.env.EMAIL_USER,
+                // clientId: process.env.CLIENT_ID,
+                // clientSecret: process.env.CLIENT_SECRET,
+                // refreshToken: process.env.REFRESH_TOKEN,
+                // accessToken: token,
+                pass: process.env.PASSWORD_OAUTH
             },
             tls: {
                 rejectUnauthorized: false
@@ -141,16 +142,4 @@ async function sendOfferEmail(userId, candidate, emailTemplate, templateVariable
     }
 }
 
-// Test function
-async function testEmailConnection() {
-    try {
-        const transporter = await createTransporter();
-        console.log('✅ Gmail API connection successful');
-        return true;
-    } catch (error) {
-        console.error('❌ Gmail API connection failed:', error.message);
-        return false;
-    }
-}
-
-export { sendOfferEmail, createTransporter, testEmailConnection };
+export { sendOfferEmail, createTransporter };
