@@ -1,363 +1,361 @@
-[
-  {
-    "fullName": "Yash Buddhadev",
-    "linkedin_internal_id": "1175844777",
-    "first_name": "Yash",
-    "last_name": "Buddhadev",
-    "public_identifier": "yash-buddhadev-889955289",
-    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQFg9PnN92K5Tg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1715693738102?e=2147483647&v=beta&t=rXySganb9rl_Eq21UC6l_6vJNQoLXiQt3fnLhC7-hSU",
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQHiH89DnePkMA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706270623837?e=2147483647&v=beta&t=L-IEosCgtSgzAmywfTZ0cQhfYGPuoUapw6YhX9uhm1Q",
-    "headline": "SIH'24 Winner | 12x Hackathon Winner | Chairperson @DJS InfoMatrix | Mozilla RCC Fellow @SimPPL | ML Intern @IITPatna | Ex-Intern @Infiheal | Student at SVKM's Dwarkadas J. Sanghvi College Of Engineering",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "8K followers",
-    "connections": "500+ connections",
-    "about": "A passionate B.Tech student with Artificial Intelligence and Data Science major, and a minor degree in IoT & Industry 4.0, having interest in AI, Computational Finance & Software Development. Excited to connect with professionals and organizations in the tech and finance sectors, in order to contribute to meaningful projects and gain valuable industry experience.",
-    "experience": [
-      {
-        "position": "Machine Learning Intern",
-        "company_url": "https://in.linkedin.com/school/indian-institute-of-technology-patna/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGH4kZC3mionA/company-logo_100_100/company-logo_100_100/0/1631346744079?e=2147483647&v=beta&t=gZHzRSoC5_74zRY7h4Gj6MkjDxsEAqu3re15xwCCBic",
-        "company_name": "Indian Institute of Technology, Patna",
-        "location": "Patna, Bihar, India",
-        "summary": "",
-        "starts_at": "Feb 2025",
-        "ends_at": "May 2025",
-        "duration": "4 months"
-      },
-      {
-        "position": "Incharge Treasurer",
-        "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
-        "company_name": "DJS-NSDC",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "May 2024",
-        "ends_at": "Apr 2025",
-        "duration": "1 year"
-      },
-      {
-        "position": "Mozilla Responsible Computing Fellow",
-        "company_url": "https://www.linkedin.com/company/sim-ppl?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHhXqeArdg7iw/company-logo_100_100/company-logo_100_100/0/1680129523254?e=2147483647&v=beta&t=9J7u3WINO53iNrpj6yGNqsUUbJHjXcy2OYMA42bAbsE",
-        "company_name": "SimPPL",
-        "location": "New York, United States",
-        "summary": "",
-        "starts_at": "Feb 2024",
-        "ends_at": "Apr 2025",
-        "duration": "1 year 3 months"
-      },
-      {
-        "position": "Founding Member & Chairperson",
-        "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
-        "company_name": "DJS InfoMatrix",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Feb 2024",
-        "ends_at": "Apr 2025",
-        "duration": "1 year 3 months"
-      },
-      {
-        "position": "App & Product Developer",
-        "company_url": "https://in.linkedin.com/company/infiheal?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQF6kBwdprQbIg/company-logo_100_100/company-logo_100_100/0/1630563075272?e=2147483647&v=beta&t=ay3XSPjbW1tqnt7fqeY5WFrDErPRAY2Gb09Dv_8qov4",
-        "company_name": "Infiheal",
-        "location": "Pune, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Jun 2024",
-        "ends_at": "Jul 2024",
-        "duration": "2 months"
-      },
-      {
-        "position": "Open-Source Contributor",
-        "company_url": "https://in.linkedin.com/company/girlscriptsoc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=2147483647&v=beta&t=PnW1Ox6vGSlsUxIiTKR9XKLBHJfDDjA7VICHhTnHQIU",
-        "company_name": "GirlScript Summer of Code",
-        "location": "Delhi, India",
-        "summary": "",
-        "starts_at": "May 2024",
-        "ends_at": "Jul 2024",
-        "duration": "3 months"
-      },
-      {
-        "position": "AI/ML Virtual",
-        "company_url": "https://www.linkedin.com/company/googledevelopersgroup?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQESg1ALD9FfOQ/company-logo_100_100/company-logo_100_100/0/1631323988900?e=2147483647&v=beta&t=rlk132QvjlxjY6o4PFJ4k8SLe37uttFSVai2Sckamqk",
-        "company_name": "Google Developers Group",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "May 2024",
-        "ends_at": "Jun 2024",
-        "duration": "2 months"
-      },
-      {
-        "position": "Student Representative",
-        "company_url": "https://www.linkedin.com/company/djsce-lok-sabha?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQEdUMyKDzUPUw/company-logo_100_100/company-logo_100_100/0/1719255501376?e=2147483647&v=beta&t=3f_mqNOC7xj0eTaQnqvwxpJ-VxVTjt6pfqNqtREII3k",
-        "company_name": "DJSCE Lok Sabha",
-        "location": "Navi Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "May 2024",
-        "ends_at": "May 2024",
-        "duration": "1 month"
-      },
-      {
-        "position": "App Development Mentee",
-        "company_url": "https://in.linkedin.com/company/djscompute?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHW4z1eXq6m4w/company-logo_100_100/company-logo_100_100/0/1689496328978?e=2147483647&v=beta&t=yKV0sLrJRw7o1BOwkLgwj_ieZ4GX90hfUZaVCBkpI5A",
-        "company_name": "DJS Compute",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Sep 2023",
-        "ends_at": "May 2024",
-        "duration": "9 months"
-      },
-      {
-        "position": "Curator (Theme & Speakers)",
-        "company_url": "https://www.linkedin.com/company/tedxdjsce?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHDu0senr4GNw/company-logo_100_100/company-logo_100_100/0/1631330340799?e=2147483647&v=beta&t=pdQy1lN5xrs9Cybz3PxdnF7Cn6TNmvW-Hs6wfqRfjI0",
-        "company_name": "TEDxDJSCE",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Feb 2024",
-        "ends_at": "Apr 2024",
-        "duration": "3 months"
-      },
-      {
-        "position": "Public Relations Specialist",
-        "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
-        "company_name": "DJS S4DS",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Aug 2023",
-        "ends_at": "Mar 2024",
-        "duration": "8 months"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "BTech",
-        "college_degree_field": "9.10",
-        "college_duration": "2022 - 2026",
-        "college_activity": ""
-      },
-      {
-        "college_url": "https://in.linkedin.com/school/prakashcollege/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Prakash College",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEzrVD11wl3lw/company-logo_100_100/company-logo_100_100/0/1631350397077?e=2147483647&v=beta&t=RwA-s-FkwKemqTUbL2IcQpS_qEbUuMYMaCE3eZ1qiqA",
-        "college_degree": "HSC",
-        "college_degree_field": "94.05",
-        "college_duration": "2020 - 2022",
-        "college_activity": ""
-      },
-      {
-        "college_url": "https://in.linkedin.com/school/rustomjee-international-school/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Rustomjee International School",
-        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
-        "college_degree": "SSC",
-        "college_degree_field": "93.80%",
-        "college_duration": "2007 - 2020",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "Indian Institute of Technology, Patna",
-      "description1_link": "https://in.linkedin.com/school/indian-institute-of-technology-patna/?trk=public_profile_topcard-current-company",
-      "description2": "Dwarkadas J. Sanghvi College of Engineering",
-      "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description3": "Portfolio",
-      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fyashbuddhadev%2Evercel%2Eapp%2F&urlhash=E5ZC&trk=public_profile_topcard-website"
+{
+  "fullName": "Yash Buddhadev",
+  "linkedin_internal_id": "1175844777",
+  "first_name": "Yash",
+  "last_name": "Buddhadev",
+  "public_identifier": "yash-buddhadev-889955289",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQFg9PnN92K5Tg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1715693738102?e=2147483647&v=beta&t=rXySganb9rl_Eq21UC6l_6vJNQoLXiQt3fnLhC7-hSU",
+  "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQHiH89DnePkMA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706270623837?e=2147483647&v=beta&t=L-IEosCgtSgzAmywfTZ0cQhfYGPuoUapw6YhX9uhm1Q",
+  "headline": "SIH'24 Winner | 12x Hackathon Winner | Chairperson @DJS InfoMatrix | Mozilla RCC Fellow @SimPPL | ML Intern @IITPatna | Ex-Intern @Infiheal | Student at SVKM's Dwarkadas J. Sanghvi College Of Engineering",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "8K followers",
+  "connections": "500+ connections",
+  "about": "A passionate B.Tech student with Artificial Intelligence and Data Science major, and a minor degree in IoT & Industry 4.0, having interest in AI, Computational Finance & Software Development. Excited to connect with professionals and organizations in the tech and finance sectors, in order to contribute to meaningful projects and gain valuable industry experience.",
+  "experience": [
+    {
+      "position": "Machine Learning Intern",
+      "company_url": "https://in.linkedin.com/school/indian-institute-of-technology-patna/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGH4kZC3mionA/company-logo_100_100/company-logo_100_100/0/1631346744079?e=2147483647&v=beta&t=gZHzRSoC5_74zRY7h4Gj6MkjDxsEAqu3re15xwCCBic",
+      "company_name": "Indian Institute of Technology, Patna",
+      "location": "Patna, Bihar, India",
+      "summary": "",
+      "starts_at": "Feb 2025",
+      "ends_at": "May 2025",
+      "duration": "4 months"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/sgsachin_amaypatnaik-raid-raid-activity-7323968118832160768-qTcI",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQG7y2tZwC9y1Q/feedshare-shrink_2048_1536/B56ZaP2Lq0GkAs-/0/1746170070600?e=2147483647&v=beta&t=Mc7dL6jBg0w3YSE3A1K_cqvTtjlkQYjZoZK7yjQOgP0",
-        "title": "Ramesh Kumar ji is the Real-Life #AmayPatnaik from #Raid!\n\n\nIf you’ve seen #Raid or #Raid2, you’ll remember \"Amay Patnaik\"- that honest Income Tax…",
-        "activity": "Liked by Yash Buddhadev"
-      }
-    ],
-    "volunteering": [
-      {
-        "company_url": "https://in.linkedin.com/company/djsce-nss?trk=public_profile_volunteering-position_profile-section-card_image-click",
-        "company_position": "Student Volunteer",
-        "company_name": "DJS NSS",
-        "company_duration": "",
-        "starts_at": "Sep 2023",
-        "ends_at": "Present"
-      },
-      {
-        "company_url": "https://in.linkedin.com/company/muskurateraho?trk=public_profile_volunteering-position_profile-section-card_image-click",
-        "company_position": "Community Volunteer",
-        "company_name": "Muskurate Raho",
-        "company_duration": "",
-        "starts_at": "Oct 2023",
-        "ends_at": "Present"
-      },
-      {
-        "company_url": "https://in.linkedin.com/company/weareyuvaa?trk=public_profile_volunteering-position_profile-section-card_image-click",
-        "company_position": "Volunteer Assistant",
-        "company_name": "Yuvaa",
-        "company_duration": "",
-        "starts_at": "Jan 2024",
-        "ends_at": "Present"
-      }
-    ],
-    "certification": [
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
-        "certification": "Innovating with Google Cloud Artificial Intelligence",
-        "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google Cloud Skills Boost",
-        "issue_date": "Issued May 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.cloudskillsboost.google/course_templates/946/badge?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
-        "certification": "Introduction to Generative AI",
-        "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google Cloud Skills Boost",
-        "issue_date": "Issued May 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.cloudskillsboost.google/course_templates/536/badge?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
-        "certification": "Introduction to Large Language Models",
-        "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google Cloud Skills Boost",
-        "issue_date": "Issued May 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.cloudskillsboost.google/paths/118/course_templates/539/badge?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
-        "certification": "Introduction to Responsible AI",
-        "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google Cloud Skills Boost",
-        "issue_date": "Issued May 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.cloudskillsboost.google/paths/118/course_templates/554?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
-        "certification": "Machine Learning Operations (MLOps) for Generative AI",
-        "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google Cloud Skills Boost",
-        "issue_date": "Issued May 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.cloudskillsboost.google/course_templates/927/badge?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
-        "certification": "Finetuning Large Language Models",
-        "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "DeepLearning.AI",
-        "issue_date": "Issued Apr 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://learn.deeplearning.ai/accomplishments/02b48852-bf90-458e-86da-882059d5acd6?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
-        "certification": "Knowledge Graphs for RAG",
-        "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "DeepLearning.AI",
-        "issue_date": "Issued Apr 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://learn.deeplearning.ai/accomplishments/2fe83748-31bb-4a65-9395-11402bac9563?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
-        "certification": "LangChain Chat with Your Data",
-        "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "DeepLearning.AI",
-        "issue_date": "Issued Apr 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://learn.deeplearning.ai/accomplishments/2a122620-6543-452f-83ce-980fd984ace3?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
-        "certification": "Open Source Models with Hugging Face",
-        "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "DeepLearning.AI",
-        "issue_date": "Issued Apr 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://learn.deeplearning.ai/accomplishments/b0ae6d59-fa87-4f8e-a949-4435e2aea457?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
-        "certification": "ChatGPT Prompt Engineering for Developers",
-        "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "DeepLearning.AI",
-        "issue_date": "Issued Mar 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://learn.deeplearning.ai/accomplishments/d17a742a-5396-4ffa-b2db-f59e7b0f6efa?usp=sharing&trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/yash-buddhadev-2a92bbbb?trk=public_profile_samename-profile",
-        "name": "Yash Buddhadev",
-        "summary": "Operation Team lead",
-        "location": "Ahmedabad"
-      },
-      {
-        "link": "https://in.linkedin.com/in/yash-buddhadev-31879a344?trk=public_profile_samename-profile",
-        "name": "Yash Buddhadev",
-        "summary": "Business Owner at Shree Ram Dugdhalay",
-        "location": "Wankaner"
-      },
-      {
-        "link": "https://in.linkedin.com/in/yash-buddhadev-2a8227b7?trk=public_profile_samename-profile",
-        "name": "Yash Buddhadev",
-        "summary": "--",
-        "location": "India"
-      },
-      {
-        "link": "https://in.linkedin.com/in/yash-buddhadev-169782167?trk=public_profile_samename-profile",
-        "name": "yash buddhadev",
-        "summary": "--",
-        "location": "India"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [
-      {
-        "name": "English",
-        "level": "Full professional proficiency"
-      },
-      {
-        "name": "Hindi",
-        "level": "Full professional proficiency"
-      },
-      {
-        "name": "Gujarati",
-        "level": "Full professional proficiency"
-      },
-      {
-        "name": "French",
-        "level": "Limited working proficiency"
-      },
-      {
-        "name": "Marathi",
-        "level": "Professional working proficiency"
-      },
-      {
-        "name": "Sanskrit",
-        "level": "Elementary proficiency"
-      }
-    ],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "position": "Incharge Treasurer",
+      "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
+      "company_name": "DJS-NSDC",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "May 2024",
+      "ends_at": "Apr 2025",
+      "duration": "1 year"
+    },
+    {
+      "position": "Mozilla Responsible Computing Fellow",
+      "company_url": "https://www.linkedin.com/company/sim-ppl?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHhXqeArdg7iw/company-logo_100_100/company-logo_100_100/0/1680129523254?e=2147483647&v=beta&t=9J7u3WINO53iNrpj6yGNqsUUbJHjXcy2OYMA42bAbsE",
+      "company_name": "SimPPL",
+      "location": "New York, United States",
+      "summary": "",
+      "starts_at": "Feb 2024",
+      "ends_at": "Apr 2025",
+      "duration": "1 year 3 months"
+    },
+    {
+      "position": "Founding Member & Chairperson",
+      "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
+      "company_name": "DJS InfoMatrix",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Feb 2024",
+      "ends_at": "Apr 2025",
+      "duration": "1 year 3 months"
+    },
+    {
+      "position": "App & Product Developer",
+      "company_url": "https://in.linkedin.com/company/infiheal?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQF6kBwdprQbIg/company-logo_100_100/company-logo_100_100/0/1630563075272?e=2147483647&v=beta&t=ay3XSPjbW1tqnt7fqeY5WFrDErPRAY2Gb09Dv_8qov4",
+      "company_name": "Infiheal",
+      "location": "Pune, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Jun 2024",
+      "ends_at": "Jul 2024",
+      "duration": "2 months"
+    },
+    {
+      "position": "Open-Source Contributor",
+      "company_url": "https://in.linkedin.com/company/girlscriptsoc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=2147483647&v=beta&t=PnW1Ox6vGSlsUxIiTKR9XKLBHJfDDjA7VICHhTnHQIU",
+      "company_name": "GirlScript Summer of Code",
+      "location": "Delhi, India",
+      "summary": "",
+      "starts_at": "May 2024",
+      "ends_at": "Jul 2024",
+      "duration": "3 months"
+    },
+    {
+      "position": "AI/ML Virtual",
+      "company_url": "https://www.linkedin.com/company/googledevelopersgroup?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQESg1ALD9FfOQ/company-logo_100_100/company-logo_100_100/0/1631323988900?e=2147483647&v=beta&t=rlk132QvjlxjY6o4PFJ4k8SLe37uttFSVai2Sckamqk",
+      "company_name": "Google Developers Group",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "May 2024",
+      "ends_at": "Jun 2024",
+      "duration": "2 months"
+    },
+    {
+      "position": "Student Representative",
+      "company_url": "https://www.linkedin.com/company/djsce-lok-sabha?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQEdUMyKDzUPUw/company-logo_100_100/company-logo_100_100/0/1719255501376?e=2147483647&v=beta&t=3f_mqNOC7xj0eTaQnqvwxpJ-VxVTjt6pfqNqtREII3k",
+      "company_name": "DJSCE Lok Sabha",
+      "location": "Navi Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "May 2024",
+      "ends_at": "May 2024",
+      "duration": "1 month"
+    },
+    {
+      "position": "App Development Mentee",
+      "company_url": "https://in.linkedin.com/company/djscompute?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHW4z1eXq6m4w/company-logo_100_100/company-logo_100_100/0/1689496328978?e=2147483647&v=beta&t=yKV0sLrJRw7o1BOwkLgwj_ieZ4GX90hfUZaVCBkpI5A",
+      "company_name": "DJS Compute",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Sep 2023",
+      "ends_at": "May 2024",
+      "duration": "9 months"
+    },
+    {
+      "position": "Curator (Theme & Speakers)",
+      "company_url": "https://www.linkedin.com/company/tedxdjsce?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHDu0senr4GNw/company-logo_100_100/company-logo_100_100/0/1631330340799?e=2147483647&v=beta&t=pdQy1lN5xrs9Cybz3PxdnF7Cn6TNmvW-Hs6wfqRfjI0",
+      "company_name": "TEDxDJSCE",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Feb 2024",
+      "ends_at": "Apr 2024",
+      "duration": "3 months"
+    },
+    {
+      "position": "Public Relations Specialist",
+      "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
+      "company_name": "DJS S4DS",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Aug 2023",
+      "ends_at": "Mar 2024",
+      "duration": "8 months"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "BTech",
+      "college_degree_field": "9.10",
+      "college_duration": "2022 - 2026",
+      "college_activity": ""
+    },
+    {
+      "college_url": "https://in.linkedin.com/school/prakashcollege/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Prakash College",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEzrVD11wl3lw/company-logo_100_100/company-logo_100_100/0/1631350397077?e=2147483647&v=beta&t=RwA-s-FkwKemqTUbL2IcQpS_qEbUuMYMaCE3eZ1qiqA",
+      "college_degree": "HSC",
+      "college_degree_field": "94.05",
+      "college_duration": "2020 - 2022",
+      "college_activity": ""
+    },
+    {
+      "college_url": "https://in.linkedin.com/school/rustomjee-international-school/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Rustomjee International School",
+      "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+      "college_degree": "SSC",
+      "college_degree_field": "93.80%",
+      "college_duration": "2007 - 2020",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "Indian Institute of Technology, Patna",
+    "description1_link": "https://in.linkedin.com/school/indian-institute-of-technology-patna/?trk=public_profile_topcard-current-company",
+    "description2": "Dwarkadas J. Sanghvi College of Engineering",
+    "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description3": "Portfolio",
+    "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fyashbuddhadev%2Evercel%2Eapp%2F&urlhash=E5ZC&trk=public_profile_topcard-website"
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/sgsachin_amaypatnaik-raid-raid-activity-7323968118832160768-qTcI",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQG7y2tZwC9y1Q/feedshare-shrink_2048_1536/B56ZaP2Lq0GkAs-/0/1746170070600?e=2147483647&v=beta&t=Mc7dL6jBg0w3YSE3A1K_cqvTtjlkQYjZoZK7yjQOgP0",
+      "title": "Ramesh Kumar ji is the Real-Life #AmayPatnaik from #Raid!\n\n\nIf you’ve seen #Raid or #Raid2, you’ll remember \"Amay Patnaik\"- that honest Income Tax…",
+      "activity": "Liked by Yash Buddhadev"
+    }
+  ],
+  "volunteering": [
+    {
+      "company_url": "https://in.linkedin.com/company/djsce-nss?trk=public_profile_volunteering-position_profile-section-card_image-click",
+      "company_position": "Student Volunteer",
+      "company_name": "DJS NSS",
+      "company_duration": "",
+      "starts_at": "Sep 2023",
+      "ends_at": "Present"
+    },
+    {
+      "company_url": "https://in.linkedin.com/company/muskurateraho?trk=public_profile_volunteering-position_profile-section-card_image-click",
+      "company_position": "Community Volunteer",
+      "company_name": "Muskurate Raho",
+      "company_duration": "",
+      "starts_at": "Oct 2023",
+      "ends_at": "Present"
+    },
+    {
+      "company_url": "https://in.linkedin.com/company/weareyuvaa?trk=public_profile_volunteering-position_profile-section-card_image-click",
+      "company_position": "Volunteer Assistant",
+      "company_name": "Yuvaa",
+      "company_duration": "",
+      "starts_at": "Jan 2024",
+      "ends_at": "Present"
+    }
+  ],
+  "certification": [
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
+      "certification": "Innovating with Google Cloud Artificial Intelligence",
+      "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google Cloud Skills Boost",
+      "issue_date": "Issued May 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.cloudskillsboost.google/course_templates/946/badge?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
+      "certification": "Introduction to Generative AI",
+      "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google Cloud Skills Boost",
+      "issue_date": "Issued May 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.cloudskillsboost.google/course_templates/536/badge?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
+      "certification": "Introduction to Large Language Models",
+      "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google Cloud Skills Boost",
+      "issue_date": "Issued May 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.cloudskillsboost.google/paths/118/course_templates/539/badge?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
+      "certification": "Introduction to Responsible AI",
+      "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google Cloud Skills Boost",
+      "issue_date": "Issued May 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.cloudskillsboost.google/paths/118/course_templates/554?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQFV-ds_iFfVSQ/company-logo_100_100/company-logo_100_100/0/1698660876286?e=2147483647&v=beta&t=x0Nc_NWXeNfGjlkTtBR3SvmYNeVUr6j0veO0PNA2iWo",
+      "certification": "Machine Learning Operations (MLOps) for Generative AI",
+      "company_url": "https://id.linkedin.com/company/googlecloud-gcsb?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google Cloud Skills Boost",
+      "issue_date": "Issued May 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.cloudskillsboost.google/course_templates/927/badge?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
+      "certification": "Finetuning Large Language Models",
+      "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "DeepLearning.AI",
+      "issue_date": "Issued Apr 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://learn.deeplearning.ai/accomplishments/02b48852-bf90-458e-86da-882059d5acd6?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
+      "certification": "Knowledge Graphs for RAG",
+      "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "DeepLearning.AI",
+      "issue_date": "Issued Apr 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://learn.deeplearning.ai/accomplishments/2fe83748-31bb-4a65-9395-11402bac9563?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
+      "certification": "LangChain Chat with Your Data",
+      "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "DeepLearning.AI",
+      "issue_date": "Issued Apr 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://learn.deeplearning.ai/accomplishments/2a122620-6543-452f-83ce-980fd984ace3?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
+      "certification": "Open Source Models with Hugging Face",
+      "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "DeepLearning.AI",
+      "issue_date": "Issued Apr 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://learn.deeplearning.ai/accomplishments/b0ae6d59-fa87-4f8e-a949-4435e2aea457?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
+      "certification": "ChatGPT Prompt Engineering for Developers",
+      "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "DeepLearning.AI",
+      "issue_date": "Issued Mar 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://learn.deeplearning.ai/accomplishments/d17a742a-5396-4ffa-b2db-f59e7b0f6efa?usp=sharing&trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/yash-buddhadev-2a92bbbb?trk=public_profile_samename-profile",
+      "name": "Yash Buddhadev",
+      "summary": "Operation Team lead",
+      "location": "Ahmedabad"
+    },
+    {
+      "link": "https://in.linkedin.com/in/yash-buddhadev-31879a344?trk=public_profile_samename-profile",
+      "name": "Yash Buddhadev",
+      "summary": "Business Owner at Shree Ram Dugdhalay",
+      "location": "Wankaner"
+    },
+    {
+      "link": "https://in.linkedin.com/in/yash-buddhadev-2a8227b7?trk=public_profile_samename-profile",
+      "name": "Yash Buddhadev",
+      "summary": "--",
+      "location": "India"
+    },
+    {
+      "link": "https://in.linkedin.com/in/yash-buddhadev-169782167?trk=public_profile_samename-profile",
+      "name": "yash buddhadev",
+      "summary": "--",
+      "location": "India"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Full professional proficiency"
+    },
+    {
+      "name": "Hindi",
+      "level": "Full professional proficiency"
+    },
+    {
+      "name": "Gujarati",
+      "level": "Full professional proficiency"
+    },
+    {
+      "name": "French",
+      "level": "Limited working proficiency"
+    },
+    {
+      "name": "Marathi",
+      "level": "Professional working proficiency"
+    },
+    {
+      "name": "Sanskrit",
+      "level": "Elementary proficiency"
+    }
+  ],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

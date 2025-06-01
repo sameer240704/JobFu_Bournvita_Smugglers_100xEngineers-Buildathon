@@ -1,272 +1,270 @@
-[
-  {
-    "fullName": "Georgia H.",
-    "linkedin_internal_id": "610206824",
-    "first_name": "Georgia",
-    "last_name": "H.",
-    "public_identifier": "georgia-h-b48434150",
-    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4E16AQGWCp-tOpwEpg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1666946129781?e=2147483647&v=beta&t=t6FCFOBlGR-QW-bSpw2ndIowu-QgGfmJ9h9mmjqC-lg",
-    "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
-    "headline": "#typescript, #javascript, #next.js, #react, #react.native, #PHP, #Laravel, #python, #fullstack, #frontend, #node, #mongodb, #MySQL, #jest",
-    "location": "London, England, United Kingdom",
-    "followers": "739 followers",
-    "connections": "500+ connections",
-    "about": "As a Full Stack Developer with a Front-End focus and a Marketing Graduate experienced in working across multiple agencies, I am passionate about bug fixing and driven to excel technically. I am currently seeking exciting and rewarding opportunities in Birmingham that offer a technically demanding environment and the potential for personal growth and career progression.My skill set includes working with a diverse range of technologies and frameworks, such as the MERN and LAMP stack. I am proficient in utilizing Next.js, React, React.Native, Angular, TypeScript, JavaScript, Python, and Docker. Additionally, I possess experience in database technologies like MongoDB and MySQL, along with proficiency in PHP and Laravel.Throughout my professional journey, I have also gained valuable experience working with Git and Android Studio, further enhancing my development capabilities.I am eager to contribute my expertise to a dynamic team and make a significant impact. If you are looking for a dedicated Full Stack Developer with a keen eye for front-end development and a passion for continuous learning, I would welcome the opportunity to discuss how I can add value to your organization.Let's connect and explore how my skills and experience align with your company's goals.",
-    "experience": [
-      {
-        "position": "Full Stack Engineer",
-        "company_url": "https://uk.linkedin.com/company/lumen-research?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQFOSVBz-4f-5A/company-logo_100_100/company-logo_100_100/0/1723565741838/lumen_research_logo?e=2147483647&v=beta&t=TKtr2F2yuaz9FI3q_E_zH_i--xm5JcFSV4mAboW7eSk",
-        "company_name": "Lumen Research",
-        "location": "London Area, United Kingdom",
-        "summary": "Adtec,working with Typescript, Javascript, Next.js, React, React,Native, Node, Python, AWS, golang",
-        "starts_at": "Nov 2024",
-        "ends_at": "Present",
-        "duration": "8 months"
-      },
-      {
-        "position": "Full-stack Developer",
-        "company_url": "https://uk.linkedin.com/company/corporate-innovations?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHNhxXo3kg4Ag/company-logo_100_100/company-logo_100_100/0/1672847234607/corporate_innovations_logo?e=2147483647&v=beta&t=Q0guwIIbm3EdcOpcdc1vyYPszq36ifUUHSdZk3brX-Y",
-        "company_name": "CI Group",
-        "location": "London, England, United Kingdom",
-        "summary": "",
-        "starts_at": "Jul 2023",
-        "ends_at": "Nov 2024",
-        "duration": "1 year 5 months"
-      },
-      {
-        "position": "Full Stack Developer",
-        "company_url": "https://uk.linkedin.com/company/squarcleconsulting?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQGEZNhtdqQMKA/company-logo_100_100/company-logo_100_100/0/1730800022413/squarcleconsulting_logo?e=2147483647&v=beta&t=m_LTb7yk8YVvEr8sGr3webAObslBQ4L4R_rJsTTLB0s",
-        "company_name": "Squarcle",
-        "location": "Bristol, England, United Kingdom",
-        "summary": "",
-        "starts_at": "Mar 2023",
-        "ends_at": "Jun 2023",
-        "duration": "4 months"
-      },
-      {
-        "position": "Full Stack Developer",
-        "company_url": "https://uk.linkedin.com/company/psycle-interactive?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHdQV2_m3vKuw/company-logo_100_100/company-logo_100_100/0/1723644309302/psycle_interactive_logo?e=2147483647&v=beta&t=Tsf5cuM9gm0h9_vjtuNm6l2-47M0YvimXAJc0FjeJf8",
-        "company_name": "Psycle Interactive",
-        "location": "Whitchurch, England, United Kingdom",
-        "summary": "",
-        "starts_at": "Nov 2022",
-        "ends_at": "Jan 2023",
-        "duration": "3 months"
-      },
-      {
-        "position": "Support Developer",
-        "company_url": "https://uk.linkedin.com/company/univers-labs?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGpCRb68kW4MQ/company-logo_100_100/company-logo_100_100/0/1631432410776?e=2147483647&v=beta&t=iB_iji_tYArV3lGOdEqSWUY3ScXr-i-3zPtM7dld90Q",
-        "company_name": "Univers Labs",
-        "location": "Oxford, England, United Kingdom",
-        "summary": "",
-        "starts_at": "May 2022",
-        "ends_at": "Nov 2022",
-        "duration": "7 months"
-      },
-      {
-        "position": "Sales Associate/Manager",
-        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
-        "company_name": "Eye Contact Opticians",
-        "location": "Liverpool Street London",
-        "summary": "•\tThrough the implementation of innovative technology order delivery time was improved by 10% and monthly expenses reduced by 5%.•\texcellent communication drove learning and development resulting in improved team performance leading to record personal(70,000) and business sales(150,000).",
-        "starts_at": "Oct 2014",
-        "ends_at": "Sep 2016",
-        "duration": "2 years"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://uk.linkedin.com/school/university-of-birmingham/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "University of Birmingham",
-        "college_image": "https://media.licdn.com/dms/image/v2/D4E0BAQF9oXdyp2pkzg/company-logo_100_100/company-logo_100_100/0/1704901473490/university_of_birmingham_logo?e=2147483647&v=beta&t=VzNXnvBT8onsAUQHYjg7arnHvtlpxNMOJYc3dL0TKEk",
-        "college_degree": "Full Stack Development",
-        "college_degree_field": "A-",
-        "college_duration": "2021 - 2021",
-        "college_activity": "HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, Git"
-      },
-      {
-        "college_url": "https://uk.linkedin.com/school/university-of-salford/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "The University of Salford",
-        "college_image": "https://media.licdn.com/dms/image/v2/C560BAQGvhp9vn9v2fg/company-logo_100_100/company-logo_100_100/0/1631322950656?e=2147483647&v=beta&t=4o3T9759dg0asHZ_Nk3623WsvaoJEPLx16LmcSvKYSU",
-        "college_degree": "Bachelor of Science - BSc",
-        "college_degree_field": "2:1",
-        "college_duration": "2016 - 2019",
-        "college_activity": "Graduated with a 2:1 BSc In Marketing which includes three languages Arabic, Mandarin and Spanish I have a conversational familiarity with each. During my studies there was a focus on consumer loyalty, building brand communities using digital platforms, International Marketing strategies, the Gig economy and Brand development. For each of these areas I respectively wrote pieces on; Harley Davidson and targeting the younger generations, Uber with a focus on areas for growth as well its business…\n            \n\n    \n    \n\n    \n        Show more"
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "Lumen Research",
-      "description1_link": "https://uk.linkedin.com/company/lumen-research?trk=public_profile_topcard-current-company",
-      "description2": "University of Birmingham",
-      "description2_link": "https://uk.linkedin.com/school/university-of-birmingham/?trk=public_profile_topcard-school",
-      "description3": "Websites",
-      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fgithub%2Ecom%2FG-bot987&urlhash=xL2K&trk=public_profile_website"
+{
+  "fullName": "Georgia Hobson",
+  "linkedin_internal_id": "610206824",
+  "first_name": "Georgia",
+  "last_name": "Hobson",
+  "public_identifier": "georgia-h-b48434150",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4E16AQGWCp-tOpwEpg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1666946129781?e=2147483647&v=beta&t=t6FCFOBlGR-QW-bSpw2ndIowu-QgGfmJ9h9mmjqC-lg",
+  "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+  "headline": "#typescript, #javascript, #next.js, #react, #react.native, #PHP, #Laravel, #python, #fullstack, #frontend, #node, #mongodb, #MySQL, #jest",
+  "location": "London, England, United Kingdom",
+  "followers": "739 followers",
+  "connections": "500+ connections",
+  "about": "As a Full Stack Developer with a Front-End focus and a Marketing Graduate experienced in working across multiple agencies, I am passionate about bug fixing and driven to excel technically. I am currently seeking exciting and rewarding opportunities in Birmingham that offer a technically demanding environment and the potential for personal growth and career progression.My skill set includes working with a diverse range of technologies and frameworks, such as the MERN and LAMP stack. I am proficient in utilizing Next.js, React, React.Native, Angular, TypeScript, JavaScript, Python, and Docker. Additionally, I possess experience in database technologies like MongoDB and MySQL, along with proficiency in PHP and Laravel.Throughout my professional journey, I have also gained valuable experience working with Git and Android Studio, further enhancing my development capabilities.I am eager to contribute my expertise to a dynamic team and make a significant impact. If you are looking for a dedicated Full Stack Developer with a keen eye for front-end development and a passion for continuous learning, I would welcome the opportunity to discuss how I can add value to your organization.Let's connect and explore how my skills and experience align with your company's goals.",
+  "experience": [
+    {
+      "position": "Full Stack Engineer",
+      "company_url": "https://uk.linkedin.com/company/lumen-research?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQFOSVBz-4f-5A/company-logo_100_100/company-logo_100_100/0/1723565741838/lumen_research_logo?e=2147483647&v=beta&t=TKtr2F2yuaz9FI3q_E_zH_i--xm5JcFSV4mAboW7eSk",
+      "company_name": "Lumen Research",
+      "location": "London Area, United Kingdom",
+      "summary": "Adtec,working with Typescript, Javascript, Next.js, React, React,Native, Node, Python, AWS, golang",
+      "starts_at": "Nov 2024",
+      "ends_at": "Present",
+      "duration": "8 months"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/i-am-truly-honoured-to-be-named-a-finalist-activity-7330509017980534784-qWDm",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFWGxtVMMpl-w/feedshare-shrink_800/B4EZbszEdIHcAk-/0/1747729542786?e=2147483647&v=beta&t=wDW7Jf9-4vdeOuj8UehU348mWQ7Mrr8PqSxGOfyos88",
-        "title": "I am truly honoured to be named a finalist in the British Forces Business Awards for the contributions I made at Squarcle . To be drawn from a record…",
-        "activity": "Liked by Georgia H."
-      },
-      {
-        "link": "https://www.linkedin.com/posts/fciucci_vibe-coding-security-nightmare-slop-squatting-activity-7322963060292239360-LzdK",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQF4awWTDrRdDg/feedshare-shrink_2048_1536/B4DZaBkF_fG0Ao-/0/1745930446746?e=2147483647&v=beta&t=06uqs9hDlkgRybt9-mcmzoUxCx0wB0s1BjfPLhVd1G0",
-        "title": "\"Vibe coding\" security nightmare: \"slop squatting\"! AI-generated code hallucinates non-existent dependencies and package names.\nRather than getting…",
-        "activity": "Liked by Georgia H."
-      },
-      {
-        "link": "https://www.linkedin.com/posts/nour-nassar-930ab3b4_remote-work-has-opened-up-a-world-of-opportunities-activity-7320320977177878528-0ILh",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEwcDzlbyyEbg/feedshare-shrink_2048_1536/B4DZZcBItNG8Ao-/0/1745300524351?e=2147483647&v=beta&t=FtGRv6LMX_YYztDt94YnL0kjztiSZNPblzXYcNqaUkI",
-        "title": "Remote work has opened up a world of opportunities for job seekers! Whether you want more flexibility, better work-life balance, or the chance to…",
-        "activity": "Liked by Georgia H."
-      },
-      {
-        "link": "https://www.linkedin.com/posts/erik-bogsnes-94b38b3a_core-competencies-are-important-just-ask-activity-7315316863092056064-zhTg",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFzgW7nqpPqrQ/feedshare-shrink_2048_1536/B4EZYUpqHwHUAo-/0/1744103187414?e=2147483647&v=beta&t=NSpmiczPTh1OyL6MkSQEQNLwkttJgX6N1aiVYpBu9Gw",
-        "title": "Core competencies are important. Just ask Gary Hamel and C.K. Prahalad. \n\nAren’t we lucky at Lumen Research that our core competency is knowing…",
-        "activity": "Liked by Georgia H."
-      },
-      {
-        "link": "https://www.linkedin.com/posts/uzairulhassan_javascript-webdevelopment-codingtips-activity-7309279471767838720-qtRk",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFHD2BUyokmOg/feedshare-shrink_800/B4DZW_G8D0H4Ak-/0/1742668024663?e=2147483647&v=beta&t=1NYz_PAF0i2FKAo1hKRu_z-dXgtLnPCfjQS8daWw88Q",
-        "title": "🚀 VAR vs LET vs CONST in JavaScript [ Which Should You Use?]\n\nIf you’re still declaring variables with var in JavaScript, you could be adding…",
-        "activity": "Liked by Georgia H."
-      },
-      {
-        "link": "https://www.linkedin.com/posts/chloe-kupiec-ashton_digitalprojectmanagement-projectdelivery-activity-7297955188122767360-pUay",
-        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
-        "title": "🚀 Looking for expert support to deliver your digital projects? 🚀\n\nI’m excited to share that I have availability to take on new clients! If your…",
-        "activity": "Liked by Georgia H."
-      },
-      {
-        "link": "https://www.linkedin.com/posts/javascript-developer_activity-7306224754460409857-Lsqt",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQEm0ZZrYK7zMQ/feedshare-shrink_2048_1536/B56ZWTssSNGQAs-/0/1741939723537?e=2147483647&v=beta&t=wsuEibe8IXtGiAp2HMaekv-a5-21kVZUUCiA5QqUoy4",
-        "title": "Liked by Georgia H.",
-        "activity": ""
-      }
-    ],
-    "volunteering": [],
-    "certification": [
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQGw8ArXaPKMYA/company-logo_100_100/company-logo_100_100/0/1630547792795/2u_logo?e=2147483647&v=beta&t=-s8HWAN8CS2vI6uxpDES8Ef7NfwXSaO3EuWBibl_f7g",
-        "certification": "Demo Day Tech Mentor",
-        "company_url": "https://www.linkedin.com/company/2u?trk=public_profile_profile-section-card_image-click",
-        "company_name": "2U",
-        "issue_date": "Issued Jun 2023",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/3209f199-fcd4-4699-b432-e894c72378f7/linked_in_profile?trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://uk.linkedin.com/in/georgia-h-40baba170?trk=public_profile_samename-profile",
-        "name": "Georgia H",
-        "summary": "Deputy Head of Events, London Artfarm",
-        "location": "London Area, United Kingdom"
-      },
-      {
-        "link": "https://uk.linkedin.com/in/georgia-h-410632134?trk=public_profile_samename-profile",
-        "name": "Georgia H.",
-        "summary": "Manager at G3",
-        "location": "United Kingdom"
-      },
-      {
-        "link": "https://uk.linkedin.com/in/georgia-h-889333284?trk=public_profile_samename-profile",
-        "name": "Georgia H",
-        "summary": "Marketing Executive at Diverse Dining Ltd",
-        "location": "London"
-      },
-      {
-        "link": "https://uk.linkedin.com/in/georgia-h-assoc-cipd-6846a5184?trk=public_profile_samename-profile",
-        "name": "Georgia H (Assoc CIPD)",
-        "summary": "Human Resources",
-        "location": "London"
-      },
-      {
-        "link": "https://uk.linkedin.com/in/georgia-h-738490200?trk=public_profile_samename-profile",
-        "name": "Georgia H",
-        "summary": "Trainee Probation Officer - PQIP",
-        "location": "Greater Bristol Area, United Kingdom"
-      }
-    ],
-    "recommendations": [
-      {
-        "link": "https://uk.linkedin.com/in/robertsanins?trk=public_profile_recommendations",
-        "name": "Robert Sanins",
-        "summary": "“I worked with Georgia on the easyHotel project. Her coming into the project helped me have more time in working on the enhancements whilst she worked on the bugs.\n\nGeorgia was excellent at taking the time to understand the tickets and find solutions. Whilst working together she improved to have a really good understanding of the codebase which was React, Typescript, Node.js and React Native.\n\nGeorgia had a great attitude in learning and took any advice on board and didn't shy away from asking questions to improve her knowledge.”"
-      },
-      {
-        "link": "https://uk.linkedin.com/in/mehdi-mahmud?trk=public_profile_recommendations",
-        "name": "Mehdi Mahmud",
-        "summary": "“Worked with Georgia on MinGJM projects and many coding activities. Can honestly say she would be a great team player in any project as she was always keen to learn and understand the main problem which is the essential key in any problem-solving cycle. Whilst working with Georgia, she proved her intention to play a valuable role as part of a team and was willing to provide excellent contributions to the project and activities.\nI am amazed by her communication skill during the course by asking appropriate questions to understand the basis of any web development concepts.\nIn my view, Georgia is the perfect candidate for any company or organisatio.”"
-      }
-    ],
-    "publications": [],
-    "courses": [],
-    "languages": [
-      {
-        "name": "Spanish",
-        "level": "Limited working proficiency"
-      },
-      {
-        "name": "Chinese",
-        "level": "Limited working proficiency"
-      },
-      {
-        "name": "English",
-        "level": "Native or bilingual proficiency"
-      },
-      {
-        "name": "Arabic",
-        "level": "Limited working proficiency"
-      }
-    ],
-    "organizations": [],
-    "projects": [
-      {
-        "title": "DnD character Manager",
-        "link": "https://next-dn-d-character-manager.vercel.app/?trk=public_profile_project-title",
-        "duration": "Oct 2022"
-      },
-      {
-        "title": "Portfolio",
-        "link": "https://portfolio-g-bot987.vercel.app/?trk=public_profile_project-title",
-        "duration": "Oct 2022"
-      },
-      {
-        "title": "Pokedex",
-        "duration": "Jul 2023 - Jul 2023"
-      },
-      {
-        "title": "Figma Design Front End UI Showcase",
-        "duration": "Jun 2023 - Jun 2023"
-      },
-      {
-        "title": "Shopify GraphQL API intergration",
-        "duration": "Mar 2023 - Mar 2023"
-      },
-      {
-        "title": "Employee Manager",
-        "link": "https://drive.google.com/file/d/16ZVj7zfFe_IYRHH2Utjb4Rl4dU076VWi/view?trk=public_profile_project-title",
-        "duration": "Oct 2021 - Oct 2021"
-      }
-    ],
-    "awards": [
-      {
-        "name": "Optical Consultant of the year nomination",
-        "organization": "Opticians Weekly/https://www.opticianonline.net",
-        "duration": "Jun 2016",
-        "summary": "published in June 2016 edition"
-      }
-    ],
-    "score": []
-  }
-]
+    {
+      "position": "Full-stack Developer",
+      "company_url": "https://uk.linkedin.com/company/corporate-innovations?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHNhxXo3kg4Ag/company-logo_100_100/company-logo_100_100/0/1672847234607/corporate_innovations_logo?e=2147483647&v=beta&t=Q0guwIIbm3EdcOpcdc1vyYPszq36ifUUHSdZk3brX-Y",
+      "company_name": "CI Group",
+      "location": "London, England, United Kingdom",
+      "summary": "",
+      "starts_at": "Jul 2023",
+      "ends_at": "Nov 2024",
+      "duration": "1 year 5 months"
+    },
+    {
+      "position": "Full Stack Developer",
+      "company_url": "https://uk.linkedin.com/company/squarcleconsulting?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQGEZNhtdqQMKA/company-logo_100_100/company-logo_100_100/0/1730800022413/squarcleconsulting_logo?e=2147483647&v=beta&t=m_LTb7yk8YVvEr8sGr3webAObslBQ4L4R_rJsTTLB0s",
+      "company_name": "Squarcle",
+      "location": "Bristol, England, United Kingdom",
+      "summary": "",
+      "starts_at": "Mar 2023",
+      "ends_at": "Jun 2023",
+      "duration": "4 months"
+    },
+    {
+      "position": "Full Stack Developer",
+      "company_url": "https://uk.linkedin.com/company/psycle-interactive?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHdQV2_m3vKuw/company-logo_100_100/company-logo_100_100/0/1723644309302/psycle_interactive_logo?e=2147483647&v=beta&t=Tsf5cuM9gm0h9_vjtuNm6l2-47M0YvimXAJc0FjeJf8",
+      "company_name": "Psycle Interactive",
+      "location": "Whitchurch, England, United Kingdom",
+      "summary": "",
+      "starts_at": "Nov 2022",
+      "ends_at": "Jan 2023",
+      "duration": "3 months"
+    },
+    {
+      "position": "Support Developer",
+      "company_url": "https://uk.linkedin.com/company/univers-labs?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGpCRb68kW4MQ/company-logo_100_100/company-logo_100_100/0/1631432410776?e=2147483647&v=beta&t=iB_iji_tYArV3lGOdEqSWUY3ScXr-i-3zPtM7dld90Q",
+      "company_name": "Univers Labs",
+      "location": "Oxford, England, United Kingdom",
+      "summary": "",
+      "starts_at": "May 2022",
+      "ends_at": "Nov 2022",
+      "duration": "7 months"
+    },
+    {
+      "position": "Sales Associate/Manager",
+      "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+      "company_name": "Eye Contact Opticians",
+      "location": "Liverpool Street London",
+      "summary": "•\tThrough the implementation of innovative technology order delivery time was improved by 10% and monthly expenses reduced by 5%.•\texcellent communication drove learning and development resulting in improved team performance leading to record personal(70,000) and business sales(150,000).",
+      "starts_at": "Oct 2014",
+      "ends_at": "Sep 2016",
+      "duration": "2 years"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://uk.linkedin.com/school/university-of-birmingham/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "University of Birmingham",
+      "college_image": "https://media.licdn.com/dms/image/v2/D4E0BAQF9oXdyp2pkzg/company-logo_100_100/company-logo_100_100/0/1704901473490/university_of_birmingham_logo?e=2147483647&v=beta&t=VzNXnvBT8onsAUQHYjg7arnHvtlpxNMOJYc3dL0TKEk",
+      "college_degree": "Full Stack Development",
+      "college_degree_field": "A-",
+      "college_duration": "2021 - 2021",
+      "college_activity": "HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command Line, Git"
+    },
+    {
+      "college_url": "https://uk.linkedin.com/school/university-of-salford/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "The University of Salford",
+      "college_image": "https://media.licdn.com/dms/image/v2/C560BAQGvhp9vn9v2fg/company-logo_100_100/company-logo_100_100/0/1631322950656?e=2147483647&v=beta&t=4o3T9759dg0asHZ_Nk3623WsvaoJEPLx16LmcSvKYSU",
+      "college_degree": "Bachelor of Science - BSc",
+      "college_degree_field": "2:1",
+      "college_duration": "2016 - 2019",
+      "college_activity": "Graduated with a 2:1 BSc In Marketing which includes three languages Arabic, Mandarin and Spanish I have a conversational familiarity with each. During my studies there was a focus on consumer loyalty, building brand communities using digital platforms, International Marketing strategies, the Gig economy and Brand development. For each of these areas I respectively wrote pieces on; Harley Davidson and targeting the younger generations, Uber with a focus on areas for growth as well its business…\n            \n\n    \n    \n\n    \n        Show more"
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "Lumen Research",
+    "description1_link": "https://uk.linkedin.com/company/lumen-research?trk=public_profile_topcard-current-company",
+    "description2": "University of Birmingham",
+    "description2_link": "https://uk.linkedin.com/school/university-of-birmingham/?trk=public_profile_topcard-school",
+    "description3": "Websites",
+    "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fgithub%2Ecom%2FG-bot987&urlhash=xL2K&trk=public_profile_website"
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/i-am-truly-honoured-to-be-named-a-finalist-activity-7330509017980534784-qWDm",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFWGxtVMMpl-w/feedshare-shrink_800/B4EZbszEdIHcAk-/0/1747729542786?e=2147483647&v=beta&t=wDW7Jf9-4vdeOuj8UehU348mWQ7Mrr8PqSxGOfyos88",
+      "title": "I am truly honoured to be named a finalist in the British Forces Business Awards for the contributions I made at Squarcle . To be drawn from a record…",
+      "activity": "Liked by Georgia H."
+    },
+    {
+      "link": "https://www.linkedin.com/posts/fciucci_vibe-coding-security-nightmare-slop-squatting-activity-7322963060292239360-LzdK",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQF4awWTDrRdDg/feedshare-shrink_2048_1536/B4DZaBkF_fG0Ao-/0/1745930446746?e=2147483647&v=beta&t=06uqs9hDlkgRybt9-mcmzoUxCx0wB0s1BjfPLhVd1G0",
+      "title": "\"Vibe coding\" security nightmare: \"slop squatting\"! AI-generated code hallucinates non-existent dependencies and package names.\nRather than getting…",
+      "activity": "Liked by Georgia H."
+    },
+    {
+      "link": "https://www.linkedin.com/posts/nour-nassar-930ab3b4_remote-work-has-opened-up-a-world-of-opportunities-activity-7320320977177878528-0ILh",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEwcDzlbyyEbg/feedshare-shrink_2048_1536/B4DZZcBItNG8Ao-/0/1745300524351?e=2147483647&v=beta&t=FtGRv6LMX_YYztDt94YnL0kjztiSZNPblzXYcNqaUkI",
+      "title": "Remote work has opened up a world of opportunities for job seekers! Whether you want more flexibility, better work-life balance, or the chance to…",
+      "activity": "Liked by Georgia H."
+    },
+    {
+      "link": "https://www.linkedin.com/posts/erik-bogsnes-94b38b3a_core-competencies-are-important-just-ask-activity-7315316863092056064-zhTg",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFzgW7nqpPqrQ/feedshare-shrink_2048_1536/B4EZYUpqHwHUAo-/0/1744103187414?e=2147483647&v=beta&t=NSpmiczPTh1OyL6MkSQEQNLwkttJgX6N1aiVYpBu9Gw",
+      "title": "Core competencies are important. Just ask Gary Hamel and C.K. Prahalad. \n\nAren’t we lucky at Lumen Research that our core competency is knowing…",
+      "activity": "Liked by Georgia H."
+    },
+    {
+      "link": "https://www.linkedin.com/posts/uzairulhassan_javascript-webdevelopment-codingtips-activity-7309279471767838720-qtRk",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQFHD2BUyokmOg/feedshare-shrink_800/B4DZW_G8D0H4Ak-/0/1742668024663?e=2147483647&v=beta&t=1NYz_PAF0i2FKAo1hKRu_z-dXgtLnPCfjQS8daWw88Q",
+      "title": "🚀 VAR vs LET vs CONST in JavaScript [ Which Should You Use?]\n\nIf you’re still declaring variables with var in JavaScript, you could be adding…",
+      "activity": "Liked by Georgia H."
+    },
+    {
+      "link": "https://www.linkedin.com/posts/chloe-kupiec-ashton_digitalprojectmanagement-projectdelivery-activity-7297955188122767360-pUay",
+      "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+      "title": "🚀 Looking for expert support to deliver your digital projects? 🚀\n\nI’m excited to share that I have availability to take on new clients! If your…",
+      "activity": "Liked by Georgia H."
+    },
+    {
+      "link": "https://www.linkedin.com/posts/javascript-developer_activity-7306224754460409857-Lsqt",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQEm0ZZrYK7zMQ/feedshare-shrink_2048_1536/B56ZWTssSNGQAs-/0/1741939723537?e=2147483647&v=beta&t=wsuEibe8IXtGiAp2HMaekv-a5-21kVZUUCiA5QqUoy4",
+      "title": "Liked by Georgia H.",
+      "activity": ""
+    }
+  ],
+  "volunteering": [],
+  "certification": [
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQGw8ArXaPKMYA/company-logo_100_100/company-logo_100_100/0/1630547792795/2u_logo?e=2147483647&v=beta&t=-s8HWAN8CS2vI6uxpDES8Ef7NfwXSaO3EuWBibl_f7g",
+      "certification": "Demo Day Tech Mentor",
+      "company_url": "https://www.linkedin.com/company/2u?trk=public_profile_profile-section-card_image-click",
+      "company_name": "2U",
+      "issue_date": "Issued Jun 2023",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/3209f199-fcd4-4699-b432-e894c72378f7/linked_in_profile?trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://uk.linkedin.com/in/georgia-h-40baba170?trk=public_profile_samename-profile",
+      "name": "Georgia H",
+      "summary": "Deputy Head of Events, London Artfarm",
+      "location": "London Area, United Kingdom"
+    },
+    {
+      "link": "https://uk.linkedin.com/in/georgia-h-410632134?trk=public_profile_samename-profile",
+      "name": "Georgia H.",
+      "summary": "Manager at G3",
+      "location": "United Kingdom"
+    },
+    {
+      "link": "https://uk.linkedin.com/in/georgia-h-889333284?trk=public_profile_samename-profile",
+      "name": "Georgia H",
+      "summary": "Marketing Executive at Diverse Dining Ltd",
+      "location": "London"
+    },
+    {
+      "link": "https://uk.linkedin.com/in/georgia-h-assoc-cipd-6846a5184?trk=public_profile_samename-profile",
+      "name": "Georgia H (Assoc CIPD)",
+      "summary": "Human Resources",
+      "location": "London"
+    },
+    {
+      "link": "https://uk.linkedin.com/in/georgia-h-738490200?trk=public_profile_samename-profile",
+      "name": "Georgia H",
+      "summary": "Trainee Probation Officer - PQIP",
+      "location": "Greater Bristol Area, United Kingdom"
+    }
+  ],
+  "recommendations": [
+    {
+      "link": "https://uk.linkedin.com/in/robertsanins?trk=public_profile_recommendations",
+      "name": "Robert Sanins",
+      "summary": "“I worked with Georgia on the easyHotel project. Her coming into the project helped me have more time in working on the enhancements whilst she worked on the bugs.\n\nGeorgia was excellent at taking the time to understand the tickets and find solutions. Whilst working together she improved to have a really good understanding of the codebase which was React, Typescript, Node.js and React Native.\n\nGeorgia had a great attitude in learning and took any advice on board and didn't shy away from asking questions to improve her knowledge.”"
+    },
+    {
+      "link": "https://uk.linkedin.com/in/mehdi-mahmud?trk=public_profile_recommendations",
+      "name": "Mehdi Mahmud",
+      "summary": "“Worked with Georgia on MinGJM projects and many coding activities. Can honestly say she would be a great team player in any project as she was always keen to learn and understand the main problem which is the essential key in any problem-solving cycle. Whilst working with Georgia, she proved her intention to play a valuable role as part of a team and was willing to provide excellent contributions to the project and activities.\nI am amazed by her communication skill during the course by asking appropriate questions to understand the basis of any web development concepts.\nIn my view, Georgia is the perfect candidate for any company or organisatio.”"
+    }
+  ],
+  "publications": [],
+  "courses": [],
+  "languages": [
+    {
+      "name": "Spanish",
+      "level": "Limited working proficiency"
+    },
+    {
+      "name": "Chinese",
+      "level": "Limited working proficiency"
+    },
+    {
+      "name": "English",
+      "level": "Native or bilingual proficiency"
+    },
+    {
+      "name": "Arabic",
+      "level": "Limited working proficiency"
+    }
+  ],
+  "organizations": [],
+  "projects": [
+    {
+      "title": "DnD character Manager",
+      "link": "https://next-dn-d-character-manager.vercel.app/?trk=public_profile_project-title",
+      "duration": "Oct 2022"
+    },
+    {
+      "title": "Portfolio",
+      "link": "https://portfolio-g-bot987.vercel.app/?trk=public_profile_project-title",
+      "duration": "Oct 2022"
+    },
+    {
+      "title": "Pokedex",
+      "duration": "Jul 2023 - Jul 2023"
+    },
+    {
+      "title": "Figma Design Front End UI Showcase",
+      "duration": "Jun 2023 - Jun 2023"
+    },
+    {
+      "title": "Shopify GraphQL API intergration",
+      "duration": "Mar 2023 - Mar 2023"
+    },
+    {
+      "title": "Employee Manager",
+      "link": "https://drive.google.com/file/d/16ZVj7zfFe_IYRHH2Utjb4Rl4dU076VWi/view?trk=public_profile_project-title",
+      "duration": "Oct 2021 - Oct 2021"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Optical Consultant of the year nomination",
+      "organization": "Opticians Weekly/https://www.opticianonline.net",
+      "duration": "Jun 2016",
+      "summary": "published in June 2016 edition"
+    }
+  ],
+  "score": []
+}

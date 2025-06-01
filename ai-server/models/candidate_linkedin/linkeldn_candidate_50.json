@@ -1,0 +1,258 @@
+{
+    "fullName": "Miguel Liu-Schiaffini",
+    "linkedin_internal_id": "933183777",
+    "first_name": "Miguel",
+    "last_name": "Liu-Schiaffini",
+    "public_identifier": "miguel-liu-schiaffini",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/C5616AQEiqdZzqCO9pw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1631228806424?e=2147483647&v=beta&t=94hA0hKMGQVaok9W85VTtG3k-5E1PjPnsnK_sPJ7Z04",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQGDbAWpvznC8w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722641019016?e=2147483647&v=beta&t=3Ji62XzCOO4XgRhUxo4v3-zhCQmA8edcIujzsY4gTMM",
+    "headline": "CS at Caltech",
+    "location": "Pasadena, California, United States",
+    "about": "Current student at Caltech studying computer science. I am also currently interning at NVIDIA Research and an undergraduate researcher at Caltech's Anandkumar Lab, specializing in neural operator applications to solving PDEs. From 2019-2023, I conducted research at the University of Texas Institute for Geophysics, working in machine learning applications to geoscience since 2020.My current research interests lie broadly in deep learning, particularly in developing physically-guided and principled deep learning methods, such as for scientific applications.",
+    "experience": [
+        {
+            "position": "Research Intern",
+            "company_url": "https://www.linkedin.com/company/nvidia?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGV36q2EowSyw/company-logo_100_100/company-logo_100_100/0/1724881581208/nvidia_logo?e=2147483647&v=beta&t=oCxt8kGhi0AfLuVDY7D_jzkUIEe-fAV5Q5eLaRxXzOE",
+            "company_name": "NVIDIA",
+            "location": null,
+            "summary": "Intern at NVIDIA Research, Learning and Perception Research Group.",
+            "starts_at": "Jun 2024",
+            "ends_at": "Present",
+            "duration": "1 year 1 month"
+        },
+        {
+            "position": "Undergraduate Researcher: Anandkumar Lab",
+            "company_url": "https://www.linkedin.com/school/california-institute-of-technology/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C510BAQFCGqEmSwrc4w/company-logo_100_100/company-logo_100_100/0/1631338994369?e=2147483647&v=beta&t=c9UlAx6IJwmjpR9EGoLUCmZJO7WiBgPNVrZw-N5Pmow",
+            "company_name": "Caltech",
+            "location": "Pasadena, California, United States",
+            "summary": "Working on fundamental neural operator research and applications of neural operators to learn the dynamics of chaotic and non-stationary systems and predicting their tipping points. Papers accepted to NeurIPS 2022 and ICML 2024.",
+            "starts_at": "Sep 2021",
+            "ends_at": "Present",
+            "duration": "3 years 10 months"
+        },
+        {
+            "position": "Research Intern",
+            "company_url": "https://www.linkedin.com/company/utgeophysics?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGvixPeDl76Cg/company-logo_100_100/company-logo_100_100/0/1708970562022/university_of_texas_at_austin___institute_for_geophysics_logo?e=2147483647&v=beta&t=nu-uc5StRQpr7yRlv-UDuBaSD0GLfkezzIhrGVV6Vhw",
+            "company_name": "University of Texas at Austin - Institute for Geophysics",
+            "location": "Austin, Texas, United States",
+            "summary": "Proposed and initiated project for researching and applying advanced deep learning techniques to automatically identify the ice-bedrock interface of ice sheets and glaciers from airborne radar data. Paper published in IEEE Transactions on Geoscience and Remote Sensing.Also conducted research designing and implementing unsupervised deep learning methods to characterize Mars surface with radar and extract scientific insights. Findings applicable to search for life on Mars and identification of future rover landing sites. Presented work at 2021 Lunar and Planetary Science Conference.\n            \n\n    \n    \n\n    \n        Show less",
+            "starts_at": "Jul 2020",
+            "ends_at": "May 2023",
+            "duration": "2 years 11 months"
+        },
+        {
+            "position": "Summer Intern",
+            "company_url": "https://www.linkedin.com/company/utgeophysics?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGvixPeDl76Cg/company-logo_100_100/company-logo_100_100/0/1708970562022/university_of_texas_at_austin___institute_for_geophysics_logo?e=2147483647&v=beta&t=nu-uc5StRQpr7yRlv-UDuBaSD0GLfkezzIhrGVV6Vhw",
+            "company_name": "University of Texas at Austin - Institute for Geophysics",
+            "location": "Austin, Texas, United States",
+            "summary": "Defined and analyzed ice surface and bed returns from laser and radar data over ice caps/sheets around the world as a summer intern and worked on research project investigating offset/inaccuracy in ice surface elevation measurements derived from laser and radar-sounding instruments over Devon Ice Cap, Canadian Arctic. Poster presented at AGU 2019 Fall Meeting.",
+            "starts_at": "May 2019",
+            "ends_at": "Aug 2019",
+            "duration": "4 months"
+        }
+    ],
+    "education": [
+        {
+            "college_url": "https://www.linkedin.com/school/california-institute-of-technology/?trk=public_profile_school_profile-section-card_image-click",
+            "college_name": "Caltech",
+            "college_image": "https://media.licdn.com/dms/image/v2/C510BAQFCGqEmSwrc4w/company-logo_100_100/company-logo_100_100/0/1631338994369?e=2147483647&v=beta&t=c9UlAx6IJwmjpR9EGoLUCmZJO7WiBgPNVrZw-N5Pmow",
+            "college_degree": "Bachelor of Science - BS",
+            "college_degree_field": "Computer Science",
+            "college_duration": "2021 - 2025",
+            "college_activity": ""
+        },
+        {
+            "college_url": "https://www.linkedin.com/school/liberal-arts-science-academy/?trk=public_profile_school_profile-section-card_image-click",
+            "college_name": "Liberal Arts & Science Academy",
+            "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEVaaSJMWkRHQ/company-logo_100_100/company-logo_100_100/0/1630512955757/liberal_arts_science_academy_logo?e=2147483647&v=beta&t=eCU-nJrek-jbFJpm2sXlsPijzIgtY-f-W4-KYIrf_KY",
+            "college_degree": "High School Diploma",
+            "college_degree_field": null,
+            "college_duration": " - ",
+            "college_activity": "Graduated as salutatorian of class of 2021."
+        }
+    ],
+    "articles": [],
+    "description": {
+        "description1": "NVIDIA",
+        "description1_link": "https://www.linkedin.com/company/nvidia?trk=public_profile_topcard-current-company",
+        "description2": "Caltech",
+        "description2_link": "https://www.linkedin.com/school/california-institute-of-technology/?trk=public_profile_topcard-school",
+        "description3": "Personal Website",
+        "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fscholar%2Egoogle%2Ecom%2Fcitations%3Fuser%3DLebtA84AAAAJ%26hl%3Den%26oi%3Dao&urlhash=Ofnc&trk=public_profile_topcard-website"
+    },
+    "activities": [
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_a-library-for-learning-neural-operators-activity-7275858230445006848-yTNp",
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQF66CQf7KRIjA/articleshare-shrink_800/articleshare-shrink_800/0/1734645722563?e=2147483647&v=beta&t=Szi9th42sbB6pUyE-6MDXMgPiWVCpBfyzS6uS6btIns",
+            "title": "Just in time for Christmas! Our open-source Neural Operator library has just been released! This release brings:\n\t•\tComprehensive collection of…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_beyond-closure-models-learning-chaotic-systems-activity-7242141311108055040-BinS",
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGNaX6GPTDKuQ/articleshare-shrink_800/articleshare-shrink_800/0/1725397102001?e=2147483647&v=beta&t=SvuoBPeEoRklVHC0c2hf3T2b3l63Ql73OA2zbsL5ZFk",
+            "title": "How do we bring AI to scientific modeling? The standard approach has been AI to augment existing numerical simulations. In a new work…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/kamyar-azizzadenesheli-0624463a_icml-2024-tutorialmachine-learning-on-function-activity-7241310886634684416-JArr",
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQE2_SWrcwl20Q/articleshare-shrink_800/articleshare-shrink_800/0/1726463028474?e=2147483647&v=beta&t=eNp54mSUUxfEaZpZYerr543QtPCJ0DVzGDx_2QVZzAg",
+            "title": "ICML2024 Tutorial on \n\n\"Neural Operators & Machine Learning on Function Spaces\"\n\nis now out. #NeuralOperators #AInScience NVIDIA\n NVIDIA AI…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/bonevbs_huge-ensembles-part-i-design-of-ensemble-activity-7240273695712190465-6yAo",
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQFr-8X3KXZpyQ/articleshare-shrink_800/articleshare-shrink_800/0/1726051825426?e=2147483647&v=beta&t=jerYN8pSBNKl7Jh6oApw2BSqxObpFdp5OpcPrsKe07o",
+            "title": "I’m excited to share this fantastic work by Ankur Mahesh, William Collins and colleagues at Berkeley Lab and NVIDIA.\n\nThis work showcases the…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_honored-to-be-a-blavatnik-family-foundation-activity-7240329120063090688-CVVO",
+            "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+            "title": "Honored to be a Blavatnik Family Foundation Award finalist. I want to thank my Caltech team and collaborators. https://lnkd.in/gc2iEgVy   \n\nThis…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/danielle-maddix-robinson_we-are-looking-forward-to-our-iclr-2024-workshop-activity-7194457862104883200-BXjF",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQE57zYDEkLjzA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715292419485?e=2147483647&v=beta&t=7ycZToIURDdhnCyw3hFlPa4RX0pBXQE90nF4dnxghZc",
+            "title": "We are looking forward to our ICLR 2024 Workshop on AI4DifferentialEquations In Science in Vienna on Saturday May, 11th! It's not too late to join…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_leandojo-theorem-proving-in-lean-using-language-activity-7188939059308703745-NRBd",
+            "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHxkAy_UjXImQ/articleshare-shrink_800/articleshare-shrink_800/0/1711938542113?e=2147483647&v=beta&t=qMbMRmhHmuxguUGznyNROdL7NGewg8Fqvdkfe6ZxMKA",
+            "title": "Launching Lean Co-pilot for LLM-human collaboration to write formal mathematical proofs that are 100% accurate. We use LLMs to suggest proof tactics…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_ai-activity-7185970940214718464--NVd",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQF6KW_CosF-Gw/feedshare-shrink_800/feedshare-shrink_800/0/1713222584567?e=2147483647&v=beta&t=WmSxCM6-XsrUTJdsbli6BcPRs8DRXIwQ2AVWTw_2nNU",
+            "title": "Looking forward to my TED Conferences on building #AI with universal physical understanding. Excited to announce our recent works building the…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_our-nature-portfolio-article-is-out-it-is-activity-7183434225226821632-KcYT",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQHQ4R2_9k_-PA/feedshare-shrink_800/feedshare-shrink_800/0/1712611936286?e=2147483647&v=beta&t=2Y1Im2QfSIY8i4BqHeaeH4kfbmcs3-Q5fCZ4aKPLHwQ",
+            "title": "Our Nature Portfolio article is out! It is a perspective on neural operators and their ability to accelerate simulations and design…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/kamyar-azizzadenesheli-0624463a_neuraloperator-ai4sceicne-activity-7168654265303912448--OYc",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQG1wLa6iKYm7g/feedshare-shrink_800/feedshare-shrink_800/0/1709099908275?e=2147483647&v=beta&t=BVMtaORA5WLdO1QAkfaM000HPoAAaKoHjarfcRrRE4c",
+            "title": "We add two new components to #NeuralOperator architectures, \n1) explicit differentiation\n2) efficient local integration\nThese are two additions to…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/anima-anandkumar_how-do-we-capture-local-features-across-multiple-activity-7168591422193852417-DXqx",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQG1wLa6iKYm7g/feedshare-shrink_800/feedshare-shrink_800/0/1709099908275?e=2147483647&v=beta&t=BVMtaORA5WLdO1QAkfaM000HPoAAaKoHjarfcRrRE4c",
+            "title": "How do we capture local features across multiple resolutions? While standard convolutional layers rely on a fixed input resolution, we design local…",
+            "activity": "Liked by Miguel Liu-Schiaffini"
+        }
+    ],
+    "volunteering": [],
+    "certification": [],
+    "people_also_viewed": [],
+    "similar_profiles": [],
+    "recommendations": [],
+    "publications": [
+        {
+            "name": "Neural Operators with Localized Integral and Differential Kernels",
+            "sub_title": "International Conference on Machine Learning",
+            "summary": "",
+            "date": "June 25, 2024",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Farxiv%2Eorg%2Fabs%2F2402%2E16845&urlhash=17tU&trk=public_profile_publication-title"
+        },
+        {
+            "name": "Neural Operators for Accelerating Scientific Simulations and Design",
+            "sub_title": "Nature Reviews Physics",
+            "summary": "",
+            "date": "April 8, 2024",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Enature%2Ecom%2Farticles%2Fs42254-024-00712-5&urlhash=mu2m&trk=public_profile_publication-title"
+        },
+        {
+            "name": "Ice Thickness from Deep Learning and Conditional Random Fields: Application to Ice Penetrating Radar Data with Radiometric Validation",
+            "sub_title": "IEEE Transactions on Geoscience and Remote Sensing",
+            "summary": "",
+            "date": "October 12, 2022",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fieeexplore%2Eieee%2Eorg%2Fdocument%2F9916288&urlhash=zoh5&trk=public_profile_publication-title"
+        },
+        {
+            "name": "A Library for Learning Neural Operators",
+            "sub_title": "arXiv preprint \tarXiv:2412.10354",
+            "summary": "",
+            "date": "",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Farxiv%2Eorg%2Fabs%2F2412%2E10354&urlhash=dVQh&trk=public_profile_publication-title"
+        },
+        {
+            "name": "Learning Dissipative Dynamics in Chaotic Systems",
+            "sub_title": "NeurIPS 2022",
+            "summary": "",
+            "date": "",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Farxiv%2Eorg%2Fpdf%2F2106%2E06898%2Epdf&urlhash=TnB5&trk=public_profile_publication-title"
+        },
+        {
+            "name": "Tipping point forecasting in non-stationary dynamics on function spaces",
+            "sub_title": "arXiv preprint arXiv:2308.08794",
+            "summary": "",
+            "date": "",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Farxiv%2Eorg%2Fabs%2F2308%2E08794&urlhash=iUTA&trk=public_profile_publication-title"
+        },
+        {
+            "name": "Towards Enforcing Hard Physics Constraints in Operator Learning Frameworks",
+            "sub_title": "ICML 2024 AI for Science Workshop",
+            "summary": "",
+            "date": "",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fopenreview%2Enet%2Fpdf%3Fid%3DZvxm14Rd1F&urlhash=Ekl5&trk=public_profile_publication-title"
+        },
+        {
+            "name": "Unifying Subsampling Pattern Variations for Compressed Sensing MRI with Neural Operators",
+            "sub_title": "NeurIPS 2024 Compression Workshop",
+            "summary": "",
+            "date": "",
+            "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Farxiv%2Eorg%2Fabs%2F2410%2E16290&urlhash=PN7o&trk=public_profile_publication-title"
+        }
+    ],
+    "courses": [],
+    "languages": [
+        {
+            "name": "Chinese",
+            "level": "Native or bilingual proficiency"
+        },
+        {
+            "name": "Spanish",
+            "level": "Native or bilingual proficiency"
+        }
+    ],
+    "organizations": [],
+    "projects": [],
+    "awards": [
+        {
+            "name": "Hertz Fellowship Finalist",
+            "organization": "Fannie and John Hertz Foundation",
+            "duration": "Jan 2025",
+            "summary": ""
+        },
+        {
+            "name": "2024 Barry Goldwater Scholar",
+            "organization": "Barry Goldwater Scholarship and Excellence in Education Foundation",
+            "duration": "Mar 2024",
+            "summary": ""
+        },
+        {
+            "name": "Mellon Mays Undergraduate Fellow",
+            "organization": "Mellon Foundation",
+            "duration": "Apr 2023",
+            "summary": ""
+        },
+        {
+            "name": "First Place in High School Research",
+            "organization": "University of Texas Jackson School of Geosciences Student Research Symposium",
+            "duration": "2021",
+            "summary": ""
+        }
+    ],
+    "score": []
+}

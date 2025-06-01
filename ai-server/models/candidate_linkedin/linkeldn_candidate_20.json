@@ -1,277 +1,275 @@
-[
-  {
-    "fullName": "Rachit Doshi",
-    "linkedin_internal_id": "705002004",
-    "first_name": "Rachit",
-    "last_name": "Doshi",
-    "public_identifier": "rachit-doshi404",
-    "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQE8nD4Xl3A3yw/profile-displayphoto-shrink_200_200/B56ZW6AqLcGQAY-/0/1742582503667?e=2147483647&v=beta&t=qCtuOqc_zty7uMMwqupOxK69YMcUasT1Kz3jqqxORzs",
-    "headline": "Ex-Cloud Intern @WEBXELA | DJSCE@'26",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "183 followers",
-    "connections": "184 connections",
-    "about": "",
-    "experience": [
-      {
-        "position": "Cloud Computing",
-        "company_url": "https://in.linkedin.com/company/webxela?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGZkLllNSqYow/company-logo_100_100/B4DZYU7Oz9HIAY-/0/1744107795261/webxela_logo?e=2147483647&v=beta&t=lD2V-Mm-1mPutAuXg9rAFcmZt-QXBebhFvGk69MVk5s",
-        "company_name": "WEBXELA",
-        "location": null,
-        "summary": "",
-        "starts_at": "Jun 2024",
-        "ends_at": "Sep 2024",
-        "duration": "4 months"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "",
-        "college_degree_field": null,
-        "college_duration": " - ",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "WEBXELA",
-      "description1_link": "https://in.linkedin.com/company/webxela?trk=public_profile_topcard-current-company",
-      "description2": "Dwarkadas J. Sanghvi College of Engineering",
-      "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description3": ""
+{
+  "fullName": "Rachit Doshi",
+  "linkedin_internal_id": "705002004",
+  "first_name": "Rachit",
+  "last_name": "Doshi",
+  "public_identifier": "rachit-doshi404",
+  "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+  "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQE8nD4Xl3A3yw/profile-displayphoto-shrink_200_200/B56ZW6AqLcGQAY-/0/1742582503667?e=2147483647&v=beta&t=qCtuOqc_zty7uMMwqupOxK69YMcUasT1Kz3jqqxORzs",
+  "headline": "Ex-Cloud Intern @WEBXELA | DJSCE@'26",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "183 followers",
+  "connections": "184 connections",
+  "about": "",
+  "experience": [
+    {
+      "position": "Cloud Computing",
+      "company_url": "https://in.linkedin.com/company/webxela?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGZkLllNSqYow/company-logo_100_100/B4DZYU7Oz9HIAY-/0/1744107795261/webxela_logo?e=2147483647&v=beta&t=lD2V-Mm-1mPutAuXg9rAFcmZt-QXBebhFvGk69MVk5s",
+      "company_name": "WEBXELA",
+      "location": null,
+      "summary": "",
+      "starts_at": "Jun 2024",
+      "ends_at": "Sep 2024",
+      "duration": "4 months"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "",
+      "college_degree_field": null,
+      "college_duration": " - ",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "WEBXELA",
+    "description1_link": "https://in.linkedin.com/company/webxela?trk=public_profile_topcard-current-company",
+    "description2": "Dwarkadas J. Sanghvi College of Engineering",
+    "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description3": ""
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/nencyravaliya28_helping-basics-practiced-activity-7330577278986350593--K7P",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHG1bEkosk21Q/feedshare-shrink_800/B4DZbtxKZMH8Ag-/0/1747745816898?e=2147483647&v=beta&t=WSJokorauZZUEUrbbPcAVGh30j3VbmKYMMpKy_ppzcI",
+      "title": "𝗡𝗲𝘄 𝗰𝗹𝗼𝘂𝗱, 𝗻𝗲𝘄 𝗰𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 – 𝗳𝗿𝗲𝗲 𝗵𝗮𝗶, 𝗸𝗮𝗿 𝗹𝗼 𝗬𝗮𝘁𝗿𝗶𝘀! 😄🎉🔥\n\nI’m now Oracle 𝗚𝘂𝗶𝗱𝗲𝗱…",
+      "activity": "Liked by Rachit Doshi"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/nencyravaliya28_helping-basics-practiced-activity-7330577278986350593--K7P",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHG1bEkosk21Q/feedshare-shrink_800/B4DZbtxKZMH8Ag-/0/1747745816898?e=2147483647&v=beta&t=WSJokorauZZUEUrbbPcAVGh30j3VbmKYMMpKy_ppzcI",
-        "title": "𝗡𝗲𝘄 𝗰𝗹𝗼𝘂𝗱, 𝗻𝗲𝘄 𝗰𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 – 𝗳𝗿𝗲𝗲 𝗵𝗮𝗶, 𝗸𝗮𝗿 𝗹𝗼 𝗬𝗮𝘁𝗿𝗶𝘀! 😄🎉🔥\n\nI’m now Oracle 𝗚𝘂𝗶𝗱𝗲𝗱…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/nencyravaliya28_azureai-openai-az102-activity-7329856034414522368-X3l8",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQG2zG5DkKXfWw/feedshare-shrink_800/B4DZbjhKXKHQAg-/0/1747573858441?e=2147483647&v=beta&t=UQBL8ka80OpEsr64_KjjdtSMw4C4R-_FaeOtkX23-TM",
-        "title": "𝗧𝗵𝗼𝗱𝗮 𝘁𝗼𝘂𝗴𝗵 𝘁𝗵𝗮, 𝘁𝗵𝗼𝗱𝗮 𝗲𝗮𝘀𝘆 𝗯𝗵𝗶... 𝗯𝘂𝘁 𝗳𝗶𝗻𝗮𝗹𝗹𝘆 𝗜 𝗱𝗶𝗱 𝗶𝘁! 🤩😃🎉\n\nI’m now Microsoft Certified: 𝗔𝘇𝘂𝗿𝗲…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/nencyravaliya28_azuresecurity-az500-microsoftcertified-activity-7321852564340113409-CFTV",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHP_qhGrn2W1g/feedshare-shrink_800/B4DZZxyDX3H4Ao-/0/1745665683217?e=2147483647&v=beta&t=_n7vz2TchaxafrMKD0HfWX3mHNAzvp5X4lOQ82_l7XA",
-        "title": "𝗯𝗼𝗵𝗼𝘁 𝘁𝗼𝘂𝗴𝗵 𝘁𝗵𝗮 𝗮𝘇𝘂𝗿𝗲 𝘃𝗮𝗹𝗼! 🥹🔥⭐\n\nFinally cracked Microsoft Certified: 𝗔𝘇𝘂𝗿𝗲 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/prachidave13_madewithllms-airevolution-reactjs-activity-7320423446922903554-pvqF",
-        "image": "https://media.licdn.com/dms/image/v2/D4D05AQFm8W4i4Z0cpg/videocover-high/B4DZZdeR3dG0Bk-/0/1745324947353?e=2147483647&v=beta&t=hoBSZEQ7xXGRW71sJt9-K1D_a-GrqN_SfAWJfIaPiVo",
-        "title": "After months of building, debugging, and rethinking everything — The capstone project is completed.\n\nI’m super excited to present: 𝐎𝐌𝐍𝐈 𝐚𝐢…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/nencyravaliya28_firsteverevent-ai-cloud-activity-7321119781598715907-2ftn",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEE4M2yuKXcKA/feedshare-shrink_800/B4DZZnXnzfG4Ag-/0/1745490973873?e=2147483647&v=beta&t=kDo_IjKRs2OLP-60mQNWh4fSQHfVYo6iVYwFh65ugQc",
-        "title": "𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲 𝗵𝗼𝗹𝗱 𝘆𝗼𝘂𝗿 𝗯𝗿𝗲𝗮𝘁𝗵, 𝗮𝗳𝘁𝗲𝗿 𝗮 𝗹𝗼𝗻𝗴 𝘁𝗶𝗺𝗲, 𝗜’𝗺 𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗮𝗴𝗮𝗶𝗻 – same dream, new path…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/harshchitaliya_finnoverse25-fintechinnovation-teamideainnovators-activity-7318007721499230209-i7E5",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEi1xT7Dwf9hw/feedshare-shrink_800/B4DZY7JPcBHsAg-/0/1744749001099?e=2147483647&v=beta&t=DMu9qaOvBsuCCY4HFqnTbEONhY_16iXkgiegBwFmu0U",
-        "title": "🏆 1st Place at Finnoverse’25 – A Thrilling FinTech Buildathon Journey! 🚀\n\nI'm excited to share that my team Hemangini Patel, Deep Jain, Morvi…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/sujalchoudhari_mahahackathon-aiforgovernance-techforgood-activity-7321380714099142656-opqS",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFs6KvtRdjS8w/feedshare-shrink_800/B4DZZrE9WrG0Ao-/0/1745553184642?e=2147483647&v=beta&t=fYwiUSSyBJihnIIvni42L8ZnI-ueiowCx_D3wCtw8Ik",
-        "title": "\"𝐖𝐢𝐥𝐥 𝐲𝐨𝐮𝐫 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐬𝐜𝐚𝐥𝐞?\" 𝐭𝐡𝐞𝐲 𝐚𝐬𝐤𝐞𝐝. 📈\n\nRecently, we had the opportunity to participate in महा हॅकेथॉन चॅलेंज १.० —…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/sameergupta24_sharktankdjsce-checkmate-rizzbizz-activity-7322881277991219200-sX8V",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEDRy_jyxcM4Q/feedshare-shrink_2048_1536/B4DZaAZtumG8Ao-/0/1745910947542?e=2147483647&v=beta&t=JD2jAyMsFrnDC2csMCz7QjuYlhIghyS2Qc94mHYu9sI",
-        "title": "🚨 Big News from Shark Tank – DJSCE Trinity! 🦈\n\nWe’re beyond excited to share that Team RizzBizz successfully pitched our AI-powered compliance…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/morvi-panchal-37980128a_finnoverse25-fintechinnovation-atharvacollegeofengineering-activity-7319688919128657920-ZFp3",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQF2DNRkxJqAbw/feedshare-shrink_800/B4DZZTCSPtG8Ak-/0/1745149830779?e=2147483647&v=beta&t=qccCY46FLcLCRxu5yjuv3CdLLDUIOvla1RQ91hL6iQ0",
-        "title": "🏆 Excited to Share Our 1st Place Win at Finnoverse’25! \nThrilled to announce that my team, Harsh Chitaliya, Hemangini Patel, Deep Jain and I…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/hemangini21_finnoverse25-fintech-innovation-activity-7320851042865242114-nSu5",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEWzBaKpxpEmQ/feedshare-shrink_800/B4DZZjjOf3GgAk-/0/1745426902059?e=2147483647&v=beta&t=7ts_6B1Ar7feE_QCJf83UwcFn1WKL3BvDi94GX4a9Kc",
-        "title": "🏆 1st Place at Finnoverse’25-A Thrilling FinTech Buildathon Journey! 🚀\n\nThrilled to announce that our team, Harsh Chitaliya, Deep Jain, Morvi…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/krishan-kumar08_myntrainternship-sdeintern-2026graduates-activity-7322922032445165570-4Eni",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQHILC13tZCDLA/feedshare-shrink_1280/B56ZaA.yDIHsAk-/0/1745920664793?e=2147483647&v=beta&t=0xJDVL7bhEio0LZ_f9NTEH5d3jXjSSyLeahlNWG7M9w",
-        "title": "What if your summer internship came with a potential ₹30 LPA job offer attached?\nYes, you read that right - here’s a tech opportunity that could…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/devparekh21_aiinnovation-agenteconomy-nocoderevolution-activity-7316497279127838720-wPq4",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQG-kvPcuwzlwQ/feedshare-shrink_1280/B4DZYlrf6bHwAk-/0/1744388882610?e=2147483647&v=beta&t=7IQazEX4hUQtqxA4xVI1P7GqUgxFdDfSQmRryHbfwAg",
-        "title": "🚀𝐆𝐨𝐨𝐠𝐥𝐞 𝐣𝐮𝐬𝐭 𝐥𝐚𝐮𝐧𝐜𝐡𝐞𝐝 𝐭𝐡𝐞𝐢𝐫 𝐀𝐠𝐞𝐧𝐭 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐊𝐢𝐭 (𝐀𝐃𝐊) — a robust open-source framework to create and…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/parthsgala_llms-fintech-ai-activity-7310906085098332162-35RH",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGO1ofZ6M9q5A/feedshare-shrink_800/B4DZXWOU83HwAg-/0/1743055837576?e=2147483647&v=beta&t=vXFCkggj8XJPU5pPfTjdQFMEsXAE0t2kfWptlN22mXI",
-        "title": "🏆 Thrilled to Announce Our 1st Place Win at the App Development with LLMs Competition!\n\nExcited to share that Team Bournvita Smugglers—comprising…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/yash-buddhadev-889955289_ai-nlp-hackathon-activity-7312005769690857472-Yv7u",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHoo0YGSXLL-w/feedshare-shrink_2048_1536/B4DZXl2e8lH4Ao-/0/1743318023957?e=2147483647&v=beta&t=Xr1J-Q-Ob25yDd61Lo7qxXA_LLWwDMF2ScgDA2T6PS0",
-        "title": "🏆 9-Hour NLP Sprint – 1st Runner-Up! 🚀\n\nFrom idea to execution in just 9 hours—what a thrilling ride at DJ InIT.AI’s Data2Knowledge 3.0! Our team…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/sameergupta24_hack2infinity-legaltech-socialimpact-activity-7315216531183812608-aQ9G",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGbMui9EmghOA/feedshare-shrink_2048_1536/B4DZYTeqJzHIAo-/0/1744083529025?e=2147483647&v=beta&t=t_wo8-4bxO7aU8CPBThpgmgPGPNX-xd2mr6aF--6WKA",
-        "title": "Bridging the legal gap—one idea at a time.\n\nThrilled to share that Team Bournvita Smugglers — Yash Buddhadev, Akshansh Dwivedi, Parth Gala, and I —…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/harsh-chandramaniaia-427ab4324_github-spamziesagcantdsp-nsdc-activity-7315403341570674690-3K6Q",
-        "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQGSRwXEMU9d6w/articleshare-shrink_800/B4DZYWHsYlHwAI-/0/1745341075311?e=2147483647&v=beta&t=ocVZIcwDZob4Y4t3d5JNiaFIJYkJU_jzz2zcdAdqpvM",
-        "title": "🚀 Project Launch: Transportation Data Science Project (TDSP)\n 🔍 Domain: Data Science | Mobility Analytics | Real-world Problem Solving\nThrilled to…",
-        "activity": "Liked by Rachit Doshi"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/djsce_glad-to-share-with-you-all-that-teams-of-activity-7314161736125718529-0nlw",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGHwrWW7MUCOQ/feedshare-shrink_800/B4DZYEfVpyHIAg-/0/1743832046823?e=2147483647&v=beta&t=tGaIdYdVLtwmBEfnCJ0D5wQneeEbPHlZWmALGz4QdHc",
-        "title": "Glad to share with you all that  teams  of the following students from third year AIDS department of our Institute  have won first place and second…",
-        "activity": "Liked by Rachit Doshi"
-      }
-    ],
-    "volunteering": [],
-    "certification": [
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Google Cybersecurity Specialization",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Dec 2024",
-        "credential_id": "Credential ID 8Q3YP945O8BF",
-        "credential_url": "https://www.coursera.org/account/accomplishments/specialization/8Q3YP945O8BF?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Build a Secure Google Cloud Network Skill Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/be5603a1-148e-4744-8bab-31855db76f1e/linked_in_profile?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Google Cloud Computing Foundations Certificate",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/64ff8b8d-f48a-42a2-ba13-0d469ec9f9c2/linked_in_profile?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Implement Load Balancing on Compute Engine Skill Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/986d6a3c-16b7-42c3-a292-87f990b6c675/linked_in_profile?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Prepare Data for ML APIs on Google Cloud Skill Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/99d9ba7e-ad96-448d-8d13-4d1d10bfb86f/linked_in_profile?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Prompt Design in Vertex AI Skill Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/185debce-9c81-4e6c-9c26-777dba4c4871/linked_in_profile?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEhb_j1_sDRJQ/company-logo_100_100/company-logo_100_100/0/1720817595519/theforage_logo?e=2147483647&v=beta&t=HXxhI4B7d0y4g0IRarS8qZp3InTt4lw0LQMvGkO4rOQ",
-        "certification": "PwC Switzerland - Power BI Job Simulation",
-        "company_url": "https://www.linkedin.com/company/theforage?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Forage",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "Credential ID xcYXemJKdjD28H5LX",
-        "credential_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_wADC5cuvd4gXDHWEw_1725010189543_completion_certificate.pdf?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Set Up an App Dev Environment on Google Cloud Skill Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/3a49bdef-4eae-4a51-a310-f2bafc3c2ea7/linked_in_profile?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFmuLSyL1nlPA/company-logo_100_100/company-logo_100_100/0/1678231359044/github_logo?e=2147483647&v=beta&t=UUghe9xaOXGWbC_BBKioqARxrt-Mz704FPwNRO_3Q8Q",
-        "certification": "GitHub Foundations",
-        "company_url": "https://www.linkedin.com/company/github?trk=public_profile_profile-section-card_image-click",
-        "company_name": "GitHub",
-        "issue_date": "Issued Jul 2024\n                    \n                      \n                        Expires Jul 2027",
-        "credential_id": "See credential",
-        "credential_url": "https://www.credly.com/badges/816c6ebc-1f6e-4980-81a4-6b1297a9dc7d/linked_in_profile?trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/rachit-doshi?trk=public_profile_samename-profile",
-        "name": "Rachit Doshi",
-        "summary": "Business Analyst",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rachit-doshi-gg?trk=public_profile_samename-profile",
-        "name": "RACHIT DOSHI",
-        "summary": "Cost and Manufacturing Lead @ Pravega Racing | Mechanical Engineering",
-        "location": "Jaipur"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rachit-doshi-8850452b4?trk=public_profile_samename-profile",
-        "name": "Rachit Doshi",
-        "summary": "🎓 Marketing Enthusiast | 📈 Aspiring Brand & Digital Strategist | 💼 Ex-Corporate Marketing Intern @ The Fern Hotels & Resorts | Open to Opportunities",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rachitdoshi?trk=public_profile_samename-profile",
-        "name": "Rachit Doshi",
-        "summary": "Branding and Advertising student at B. D. Somani Institute of Digital Communication",
-        "location": "Mumbai"
-      }
-    ],
-    "recommendations": [
-      {
-        "link": "https://in.linkedin.com/in/nencyravaliya28?trk=public_profile_recommendations",
-        "name": "Nensi Ravaliya",
-        "summary": "“I recommend Rachit Doshi for his excellent problem-solving skills and quick learning abilities. He is professional, hardworking, and always eager to take on new challenges. Rachit consistently delivers high-quality work and would be a great addition to any team.”"
-      }
-    ],
-    "publications": [],
-    "courses": [],
-    "languages": [],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "link": "https://www.linkedin.com/posts/nencyravaliya28_azureai-openai-az102-activity-7329856034414522368-X3l8",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQG2zG5DkKXfWw/feedshare-shrink_800/B4DZbjhKXKHQAg-/0/1747573858441?e=2147483647&v=beta&t=UQBL8ka80OpEsr64_KjjdtSMw4C4R-_FaeOtkX23-TM",
+      "title": "𝗧𝗵𝗼𝗱𝗮 𝘁𝗼𝘂𝗴𝗵 𝘁𝗵𝗮, 𝘁𝗵𝗼𝗱𝗮 𝗲𝗮𝘀𝘆 𝗯𝗵𝗶... 𝗯𝘂𝘁 𝗳𝗶𝗻𝗮𝗹𝗹𝘆 𝗜 𝗱𝗶𝗱 𝗶𝘁! 🤩😃🎉\n\nI’m now Microsoft Certified: 𝗔𝘇𝘂𝗿𝗲…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/nencyravaliya28_azuresecurity-az500-microsoftcertified-activity-7321852564340113409-CFTV",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHP_qhGrn2W1g/feedshare-shrink_800/B4DZZxyDX3H4Ao-/0/1745665683217?e=2147483647&v=beta&t=_n7vz2TchaxafrMKD0HfWX3mHNAzvp5X4lOQ82_l7XA",
+      "title": "𝗯𝗼𝗵𝗼𝘁 𝘁𝗼𝘂𝗴𝗵 𝘁𝗵𝗮 𝗮𝘇𝘂𝗿𝗲 𝘃𝗮𝗹𝗼! 🥹🔥⭐\n\nFinally cracked Microsoft Certified: 𝗔𝘇𝘂𝗿𝗲 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/prachidave13_madewithllms-airevolution-reactjs-activity-7320423446922903554-pvqF",
+      "image": "https://media.licdn.com/dms/image/v2/D4D05AQFm8W4i4Z0cpg/videocover-high/B4DZZdeR3dG0Bk-/0/1745324947353?e=2147483647&v=beta&t=hoBSZEQ7xXGRW71sJt9-K1D_a-GrqN_SfAWJfIaPiVo",
+      "title": "After months of building, debugging, and rethinking everything — The capstone project is completed.\n\nI’m super excited to present: 𝐎𝐌𝐍𝐈 𝐚𝐢…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/nencyravaliya28_firsteverevent-ai-cloud-activity-7321119781598715907-2ftn",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEE4M2yuKXcKA/feedshare-shrink_800/B4DZZnXnzfG4Ag-/0/1745490973873?e=2147483647&v=beta&t=kDo_IjKRs2OLP-60mQNWh4fSQHfVYo6iVYwFh65ugQc",
+      "title": "𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲 𝗵𝗼𝗹𝗱 𝘆𝗼𝘂𝗿 𝗯𝗿𝗲𝗮𝘁𝗵, 𝗮𝗳𝘁𝗲𝗿 𝗮 𝗹𝗼𝗻𝗴 𝘁𝗶𝗺𝗲, 𝗜’𝗺 𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗮𝗴𝗮𝗶𝗻 – same dream, new path…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/harshchitaliya_finnoverse25-fintechinnovation-teamideainnovators-activity-7318007721499230209-i7E5",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEi1xT7Dwf9hw/feedshare-shrink_800/B4DZY7JPcBHsAg-/0/1744749001099?e=2147483647&v=beta&t=DMu9qaOvBsuCCY4HFqnTbEONhY_16iXkgiegBwFmu0U",
+      "title": "🏆 1st Place at Finnoverse’25 – A Thrilling FinTech Buildathon Journey! 🚀\n\nI'm excited to share that my team Hemangini Patel, Deep Jain, Morvi…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/sujalchoudhari_mahahackathon-aiforgovernance-techforgood-activity-7321380714099142656-opqS",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQFs6KvtRdjS8w/feedshare-shrink_800/B4DZZrE9WrG0Ao-/0/1745553184642?e=2147483647&v=beta&t=fYwiUSSyBJihnIIvni42L8ZnI-ueiowCx_D3wCtw8Ik",
+      "title": "\"𝐖𝐢𝐥𝐥 𝐲𝐨𝐮𝐫 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐬𝐜𝐚𝐥𝐞?\" 𝐭𝐡𝐞𝐲 𝐚𝐬𝐤𝐞𝐝. 📈\n\nRecently, we had the opportunity to participate in महा हॅकेथॉन चॅलेंज १.० —…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/sameergupta24_sharktankdjsce-checkmate-rizzbizz-activity-7322881277991219200-sX8V",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEDRy_jyxcM4Q/feedshare-shrink_2048_1536/B4DZaAZtumG8Ao-/0/1745910947542?e=2147483647&v=beta&t=JD2jAyMsFrnDC2csMCz7QjuYlhIghyS2Qc94mHYu9sI",
+      "title": "🚨 Big News from Shark Tank – DJSCE Trinity! 🦈\n\nWe’re beyond excited to share that Team RizzBizz successfully pitched our AI-powered compliance…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/morvi-panchal-37980128a_finnoverse25-fintechinnovation-atharvacollegeofengineering-activity-7319688919128657920-ZFp3",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQF2DNRkxJqAbw/feedshare-shrink_800/B4DZZTCSPtG8Ak-/0/1745149830779?e=2147483647&v=beta&t=qccCY46FLcLCRxu5yjuv3CdLLDUIOvla1RQ91hL6iQ0",
+      "title": "🏆 Excited to Share Our 1st Place Win at Finnoverse’25! \nThrilled to announce that my team, Harsh Chitaliya, Hemangini Patel, Deep Jain and I…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/hemangini21_finnoverse25-fintech-innovation-activity-7320851042865242114-nSu5",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEWzBaKpxpEmQ/feedshare-shrink_800/B4DZZjjOf3GgAk-/0/1745426902059?e=2147483647&v=beta&t=7ts_6B1Ar7feE_QCJf83UwcFn1WKL3BvDi94GX4a9Kc",
+      "title": "🏆 1st Place at Finnoverse’25-A Thrilling FinTech Buildathon Journey! 🚀\n\nThrilled to announce that our team, Harsh Chitaliya, Deep Jain, Morvi…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/krishan-kumar08_myntrainternship-sdeintern-2026graduates-activity-7322922032445165570-4Eni",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQHILC13tZCDLA/feedshare-shrink_1280/B56ZaA.yDIHsAk-/0/1745920664793?e=2147483647&v=beta&t=0xJDVL7bhEio0LZ_f9NTEH5d3jXjSSyLeahlNWG7M9w",
+      "title": "What if your summer internship came with a potential ₹30 LPA job offer attached?\nYes, you read that right - here’s a tech opportunity that could…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/devparekh21_aiinnovation-agenteconomy-nocoderevolution-activity-7316497279127838720-wPq4",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQG-kvPcuwzlwQ/feedshare-shrink_1280/B4DZYlrf6bHwAk-/0/1744388882610?e=2147483647&v=beta&t=7IQazEX4hUQtqxA4xVI1P7GqUgxFdDfSQmRryHbfwAg",
+      "title": "🚀𝐆𝐨𝐨𝐠𝐥𝐞 𝐣𝐮𝐬𝐭 𝐥𝐚𝐮𝐧𝐜𝐡𝐞𝐝 𝐭𝐡𝐞𝐢𝐫 𝐀𝐠𝐞𝐧𝐭 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐊𝐢𝐭 (𝐀𝐃𝐊) — a robust open-source framework to create and…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/parthsgala_llms-fintech-ai-activity-7310906085098332162-35RH",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGO1ofZ6M9q5A/feedshare-shrink_800/B4DZXWOU83HwAg-/0/1743055837576?e=2147483647&v=beta&t=vXFCkggj8XJPU5pPfTjdQFMEsXAE0t2kfWptlN22mXI",
+      "title": "🏆 Thrilled to Announce Our 1st Place Win at the App Development with LLMs Competition!\n\nExcited to share that Team Bournvita Smugglers—comprising…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/yash-buddhadev-889955289_ai-nlp-hackathon-activity-7312005769690857472-Yv7u",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHoo0YGSXLL-w/feedshare-shrink_2048_1536/B4DZXl2e8lH4Ao-/0/1743318023957?e=2147483647&v=beta&t=Xr1J-Q-Ob25yDd61Lo7qxXA_LLWwDMF2ScgDA2T6PS0",
+      "title": "🏆 9-Hour NLP Sprint – 1st Runner-Up! 🚀\n\nFrom idea to execution in just 9 hours—what a thrilling ride at DJ InIT.AI’s Data2Knowledge 3.0! Our team…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/sameergupta24_hack2infinity-legaltech-socialimpact-activity-7315216531183812608-aQ9G",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGbMui9EmghOA/feedshare-shrink_2048_1536/B4DZYTeqJzHIAo-/0/1744083529025?e=2147483647&v=beta&t=t_wo8-4bxO7aU8CPBThpgmgPGPNX-xd2mr6aF--6WKA",
+      "title": "Bridging the legal gap—one idea at a time.\n\nThrilled to share that Team Bournvita Smugglers — Yash Buddhadev, Akshansh Dwivedi, Parth Gala, and I —…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/harsh-chandramaniaia-427ab4324_github-spamziesagcantdsp-nsdc-activity-7315403341570674690-3K6Q",
+      "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQGSRwXEMU9d6w/articleshare-shrink_800/B4DZYWHsYlHwAI-/0/1745341075311?e=2147483647&v=beta&t=ocVZIcwDZob4Y4t3d5JNiaFIJYkJU_jzz2zcdAdqpvM",
+      "title": "🚀 Project Launch: Transportation Data Science Project (TDSP)\n 🔍 Domain: Data Science | Mobility Analytics | Real-world Problem Solving\nThrilled to…",
+      "activity": "Liked by Rachit Doshi"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/djsce_glad-to-share-with-you-all-that-teams-of-activity-7314161736125718529-0nlw",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGHwrWW7MUCOQ/feedshare-shrink_800/B4DZYEfVpyHIAg-/0/1743832046823?e=2147483647&v=beta&t=tGaIdYdVLtwmBEfnCJ0D5wQneeEbPHlZWmALGz4QdHc",
+      "title": "Glad to share with you all that  teams  of the following students from third year AIDS department of our Institute  have won first place and second…",
+      "activity": "Liked by Rachit Doshi"
+    }
+  ],
+  "volunteering": [],
+  "certification": [
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Google Cybersecurity Specialization",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Dec 2024",
+      "credential_id": "Credential ID 8Q3YP945O8BF",
+      "credential_url": "https://www.coursera.org/account/accomplishments/specialization/8Q3YP945O8BF?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Build a Secure Google Cloud Network Skill Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/be5603a1-148e-4744-8bab-31855db76f1e/linked_in_profile?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Google Cloud Computing Foundations Certificate",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/64ff8b8d-f48a-42a2-ba13-0d469ec9f9c2/linked_in_profile?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Implement Load Balancing on Compute Engine Skill Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/986d6a3c-16b7-42c3-a292-87f990b6c675/linked_in_profile?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Prepare Data for ML APIs on Google Cloud Skill Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/99d9ba7e-ad96-448d-8d13-4d1d10bfb86f/linked_in_profile?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Prompt Design in Vertex AI Skill Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/185debce-9c81-4e6c-9c26-777dba4c4871/linked_in_profile?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEhb_j1_sDRJQ/company-logo_100_100/company-logo_100_100/0/1720817595519/theforage_logo?e=2147483647&v=beta&t=HXxhI4B7d0y4g0IRarS8qZp3InTt4lw0LQMvGkO4rOQ",
+      "certification": "PwC Switzerland - Power BI Job Simulation",
+      "company_url": "https://www.linkedin.com/company/theforage?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Forage",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "Credential ID xcYXemJKdjD28H5LX",
+      "credential_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_wADC5cuvd4gXDHWEw_1725010189543_completion_certificate.pdf?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Set Up an App Dev Environment on Google Cloud Skill Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/3a49bdef-4eae-4a51-a310-f2bafc3c2ea7/linked_in_profile?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFmuLSyL1nlPA/company-logo_100_100/company-logo_100_100/0/1678231359044/github_logo?e=2147483647&v=beta&t=UUghe9xaOXGWbC_BBKioqARxrt-Mz704FPwNRO_3Q8Q",
+      "certification": "GitHub Foundations",
+      "company_url": "https://www.linkedin.com/company/github?trk=public_profile_profile-section-card_image-click",
+      "company_name": "GitHub",
+      "issue_date": "Issued Jul 2024\n                    \n                      \n                        Expires Jul 2027",
+      "credential_id": "See credential",
+      "credential_url": "https://www.credly.com/badges/816c6ebc-1f6e-4980-81a4-6b1297a9dc7d/linked_in_profile?trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/rachit-doshi?trk=public_profile_samename-profile",
+      "name": "Rachit Doshi",
+      "summary": "Business Analyst",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rachit-doshi-gg?trk=public_profile_samename-profile",
+      "name": "RACHIT DOSHI",
+      "summary": "Cost and Manufacturing Lead @ Pravega Racing | Mechanical Engineering",
+      "location": "Jaipur"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rachit-doshi-8850452b4?trk=public_profile_samename-profile",
+      "name": "Rachit Doshi",
+      "summary": "🎓 Marketing Enthusiast | 📈 Aspiring Brand & Digital Strategist | 💼 Ex-Corporate Marketing Intern @ The Fern Hotels & Resorts | Open to Opportunities",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rachitdoshi?trk=public_profile_samename-profile",
+      "name": "Rachit Doshi",
+      "summary": "Branding and Advertising student at B. D. Somani Institute of Digital Communication",
+      "location": "Mumbai"
+    }
+  ],
+  "recommendations": [
+    {
+      "link": "https://in.linkedin.com/in/nencyravaliya28?trk=public_profile_recommendations",
+      "name": "Nensi Ravaliya",
+      "summary": "“I recommend Rachit Doshi for his excellent problem-solving skills and quick learning abilities. He is professional, hardworking, and always eager to take on new challenges. Rachit consistently delivers high-quality work and would be a great addition to any team.”"
+    }
+  ],
+  "publications": [],
+  "courses": [],
+  "languages": [],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

@@ -1,293 +1,291 @@
-[
-  {
-    "fullName": "Sameer Gupta",
-    "linkedin_internal_id": "1169626598",
-    "first_name": "Sameer",
-    "last_name": "Gupta",
-    "public_identifier": "sameergupta24",
-    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQGUwqlanVP93Q/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1720436787507?e=2147483647&v=beta&t=dmO4nbgOvn3SaR5Dw4PE-bYU3kfp4uLwGWlfNDBuhtI",
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQErBFPM8Metkg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714549726810?e=2147483647&v=beta&t=g8YXh9uGH1Zu2Cfbh2KRcBESTuo3Fsglyo6HAqUpbsA",
-    "headline": "Research Intern @SimPPL | SIH '24 Winner | 8x Hackathon Winner | Ex-Intern @FMX Proptech | Full Stack Developer | Game Developer | VCP(Tech) @DJS-NSDC",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "2K followers",
-    "connections": "500+ connections",
-    "about": "As the Technical Vice Chairperson at DJS-NSDC and a B.Tech student in AI & DS at Dwarkadas J. Sanghvi College of Engineering, I am passionate about driving innovation in technology. I specialize in Full Stack Web and App Development, Game Development, and have a keen interest in GenAI and LLMs. With a strong foundation in responsive web design and a commitment to continuous learning, I am dedicated to creating impactful solutions and exploring new opportunities in the tech industry.",
-    "experience": [
-      {
-        "position": "Vice Chairperson (Technical)",
-        "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
-        "company_name": "DJS-NSDC",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Jun 2024",
-        "ends_at": "Present",
-        "duration": "1 year 1 month"
-      },
-      {
-        "position": "Vice Chairperson (Technical)",
-        "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
-        "company_name": "DJS InfoMatrix",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Feb 2024",
-        "ends_at": "Present",
-        "duration": "1 year 5 months"
-      },
-      {
-        "position": "Head of Technical Department",
-        "company_url": "https://in.linkedin.com/company/djsce-ecell?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQF75rMd2SJIXw/company-logo_100_100/company-logo_100_100/0/1728033541155?e=2147483647&v=beta&t=SPa1XCdoylC0czq4fJH9iQc2VjZENUv_gvkRhSo-Mdc",
-        "company_name": "DJSCE E-Cell",
-        "location": "Maharashtra, India",
-        "summary": "",
-        "starts_at": "Feb 2024",
-        "ends_at": "Oct 2024",
-        "duration": "9 months"
-      },
-      {
-        "position": "Full-stack Developer",
-        "company_url": "https://www.linkedin.com/company/punctualiti?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGU3wXW5W4tjg/company-logo_100_100/company-logo_100_100/0/1647351027173/punctualiti_logo?e=2147483647&v=beta&t=rXhLYIbOYEa9HXmpfK4AN0bNaj_ZIWYUuJL31jCt_HA",
-        "company_name": "Punctualiti",
-        "location": "Maharashtra, India",
-        "summary": "",
-        "starts_at": "Jun 2024",
-        "ends_at": "Sep 2024",
-        "duration": "4 months"
-      },
-      {
-        "position": "Events Co-Committee Member",
-        "company_url": "https://in.linkedin.com/company/dj-csi?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFw3q7_0KMSJQ/company-logo_100_100/company-logo_100_100/0/1630659208911?e=2147483647&v=beta&t=6f4OjvV_nkEZjfETw4Qhmg6ayBNIhyaM4TJWsH43l-g",
-        "company_name": "DJCSI - Computer Society of India, DJSCE",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Sep 2023",
-        "ends_at": "May 2024",
-        "duration": "9 months"
-      },
-      {
-        "position": "Web-Tech Mentee",
-        "company_url": "https://in.linkedin.com/company/djscompute?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHW4z1eXq6m4w/company-logo_100_100/company-logo_100_100/0/1689496328978?e=2147483647&v=beta&t=yKV0sLrJRw7o1BOwkLgwj_ieZ4GX90hfUZaVCBkpI5A",
-        "company_name": "DJS Compute",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Sep 2023",
-        "ends_at": "May 2024",
-        "duration": "9 months"
-      },
-      {
-        "position": "Technical Team Member",
-        "company_url": "https://in.linkedin.com/company/dj-lit-literary-society-of-d-j-sanghvi-college-of-engineering?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQEzmWrZEaWodg/company-logo_100_100/company-logo_100_100/0/1630633083037/dj_lit_literary_society_of_d_j_sanghvi_college_of_engineering_logo?e=2147483647&v=beta&t=mRNrasWGRnYU_q6zOK_k5qi2su-HQIyui-GuHMbS3kg",
-        "company_name": "DJ LIT - Literary Society, DJSCE",
-        "location": "India",
-        "summary": "",
-        "starts_at": "Sep 2023",
-        "ends_at": "May 2024",
-        "duration": "9 months"
-      },
-      {
-        "position": "Logistics Co-Committee Member",
-        "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
-        "company_name": "DJS S4DS",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Aug 2023",
-        "ends_at": "May 2024",
-        "duration": "10 months"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "Bachelor of Technology - BTech",
-        "college_degree_field": "9.52",
-        "college_duration": "2022 - 2026",
-        "college_activity": ""
-      },
-      {
-        "college_url": "https://in.linkedin.com/school/jai-hind-college-mumbai/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "JAI HIND COLLEGE, MUMBAI",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQE8CCjgczGRHQ/company-logo_100_100/company-logo_100_100/0/1647174871641?e=2147483647&v=beta&t=dnHia-dJ1xWN3BokY8-lIHN5nX6vX56lITnt5aK2YV4",
-        "college_degree": "HSC",
-        "college_degree_field": "85.60%",
-        "college_duration": "2020 - 2022",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "DJS-NSDC",
-      "description1_link": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_topcard-current-company",
-      "description2": "Dwarkadas J. Sanghvi College of Engineering",
-      "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description3": ""
+{
+  "fullName": "Sameer Gupta",
+  "linkedin_internal_id": "1169626598",
+  "first_name": "Sameer",
+  "last_name": "Gupta",
+  "public_identifier": "sameergupta24",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQGUwqlanVP93Q/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1720436787507?e=2147483647&v=beta&t=dmO4nbgOvn3SaR5Dw4PE-bYU3kfp4uLwGWlfNDBuhtI",
+  "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQErBFPM8Metkg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714549726810?e=2147483647&v=beta&t=g8YXh9uGH1Zu2Cfbh2KRcBESTuo3Fsglyo6HAqUpbsA",
+  "headline": "Research Intern @SimPPL | SIH '24 Winner | 8x Hackathon Winner | Ex-Intern @FMX Proptech | Full Stack Developer | Game Developer | VCP(Tech) @DJS-NSDC",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "2K followers",
+  "connections": "500+ connections",
+  "about": "As the Technical Vice Chairperson at DJS-NSDC and a B.Tech student in AI & DS at Dwarkadas J. Sanghvi College of Engineering, I am passionate about driving innovation in technology. I specialize in Full Stack Web and App Development, Game Development, and have a keen interest in GenAI and LLMs. With a strong foundation in responsive web design and a commitment to continuous learning, I am dedicated to creating impactful solutions and exploring new opportunities in the tech industry.",
+  "experience": [
+    {
+      "position": "Vice Chairperson (Technical)",
+      "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
+      "company_name": "DJS-NSDC",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Jun 2024",
+      "ends_at": "Present",
+      "duration": "1 year 1 month"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/ujjawal-agrawal-892278177_zepto-internship-growth-activity-7334843203201699840-5hMk",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHOMrLnLM5PrQ/feedshare-shrink_2048_1536/B4DZcqY9.zGUAs-/0/1748762884985?e=2147483647&v=beta&t=5EsOiV4gGnuASZOZZa-hX7G1Ze-XyZqy-Ud5xgmJiEY",
-        "title": "I joined Zepto  as a Software Development Engineering Intern almost a month ago (already halfway through my internship journey!), and I genuinely…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/siddhi-mehta-228048298_devsclub-appteam-gratitude-activity-7334591641200046080-WWNs",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFoT6uuaUqULQ/feedshare-shrink_2048_1536/B4DZcm0L2lHMAw-/0/1748702909916?e=2147483647&v=beta&t=eqfNBIN0rBH8bXpgekuWMl4HmzcmPNsFkQwJNXubf0U",
-        "title": "✨ Signing Off as a DevClub App Team Member ✨\n\nLife really does take unexpected turns — and one of the best ones was becoming part of the TSEC…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/aayush-anil-mishra_gsoc-2025-rejected-gssoc-2024-rejected-activity-7333512483715870721-4pZD",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEaKDf962mtJQ/feedshare-shrink_1280/B4DZcXeqEeGYAo-/0/1748445623587?e=2147483647&v=beta&t=H_wdBE6evK9YcJJwTX8ZBsVxK1Zt3B4FatxCHEK3CoA",
-        "title": "GSoC 2025 – Rejected.\nGSSoC 2024 – Rejected.\nSIH 2024 – Rejected.\n\nSummer Internship? Did Not Accept the Opportunity – (It was Unpaid 🥲)\n\nfor me…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/vjti-tpo_vjti-vjtitpo-google-activity-7334196790784606209-8J1Z",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEJtB8pw4-8CA/feedshare-shrink_2048_1536/B4DZchNGvnGUAs-/0/1748608775309?e=2147483647&v=beta&t=lE5ZznzL2CGrw-wWpixKa7lyvCC2jSTtYrEMsQBMogQ",
-        "title": "Dreams Take Flight as our VJTI Students Join Google 🧿 \n\nWe’re incredibly proud to announce that our student has secured placements at Google, where…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/kiah-monpara-34aa91292_olabsthon-olabs-uiux-activity-7334192114320195585-cwTO",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFdEIjDNFJM3g/feedshare-shrink_800/B4DZchI2EBH4Ak-/0/1748607657762?e=2147483647&v=beta&t=aZRUJdE9OckORzevSRvQ_osGU5Ap1mMpvN7OsfVIlIo",
-        "title": "🚀 𝐅𝐫𝐨𝐦 𝐂𝐥𝐚𝐬𝐬𝐫𝐨𝐨𝐦 𝐭𝐨 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫: 𝐖𝐞 𝐖𝐨𝐧 𝐚𝐭 #𝐎𝐋𝐚𝐛𝐬𝐭𝐡𝐨𝐧!  🎉\nI’m over the moon to share that our team --…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/vikaskumar20_leetcode-competitiveprogramming-knightbadge-activity-7333874746561896450-D_oY",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQGKeYeYgV-Sww/feedshare-shrink_800/B56ZccoNmYGsAg-/0/1748531994891?e=2147483647&v=beta&t=Fa3Cr70pRMqDaLg38CeMMdgZHJvNrWUYlRrCIetwhwA",
-        "title": "💻 Excited to share that I’ve just earned the LeetCode 𝗞𝗻𝗶𝗴𝗵𝘁 𝗕𝗮𝗱𝗴𝗲! ✨\n\n🎯 Milestones on LeetCode:\n   • 𝟭𝟲 contests completed\n   • Best…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/shresth-bansal_codeforces-competitiveprogramming-milestone-activity-7332101279395041280-NaKA",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQFz8bGAlZsNlw/feedshare-shrink_1280/B56ZcDbPjHGoAk-/0/1748109167910?e=2147483647&v=beta&t=S4o-LDw0E-hMf6vDr1jf5hi5TlatGr7N4tZPGoZNrDU",
-        "title": "🎉 After today’s Codeforces Round 1026 (Div. 2), I finally reached Expert — a major milestone in my competitive programming journey! 🚀\nAfter…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/dhairya-chauhan-696081226_leetcode-700daystreak-knightbadge-activity-7333896840867684357-3txJ",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEso4Fqi7Sc3A/feedshare-shrink_800/B4EZcc8TxYHsAg-/0/1748537262246?e=2147483647&v=beta&t=JFyBeuih-Pi9PULfYNdJ8Rsf_KDju_Vl2dknN9Mon6I",
-        "title": "🚀 700 Days of Consistency on LeetCode! 👑\nToday marks my 700th consecutive day of solving problems on LeetCode!\nWhat started as a personal challenge…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/aayushkolte_hackathonjourney-hackmernai-ai-activity-7334090603774758912-evMd",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGOlCpkwwWAiw/feedshare-shrink_800/B4DZcfshbFGgAg-/0/1748583457166?e=2147483647&v=beta&t=WQ__HJ_-_6fcsS8tLCUgJpKTyvxZ29jXogQvwB3PyN8",
-        "title": "🚀 First Runner-Up at HackMERN.Ai!\n\nElated to announce that our team HackStreet secured First Runner-Up at HackMERN.Ai, organized by CertifyO!!…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/prachisharma95_officially-survived-first-year-of-btech-activity-7333843580051939329-xltm",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQF7G3Z2dGSsFQ/feedshare-shrink_800/B4DZccL2Z2GgAg-/0/1748524562476?e=2147483647&v=beta&t=BMoISqTUV50ehUFIBs5ZEUY6Bdo-CuAEcvR2J09HXq0",
-        "title": "🌸 Officially Survived First Year of BTech CS! 🌸\n (Yes, I made it through with only a slightly burnt-out compiler brain 😂 )\n\n One year ago, I…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/shalini-richhariya-253053296_theelites-hackamania-microsoft-activity-7332825665102098433-wWa4",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEfb-Y-rMmQSg/feedshare-shrink_2048_1536/B4DZcNt.q7GwAo-/0/1748281859509?e=2147483647&v=beta&t=63SW0eUmxVpIXsFoAVw4PAPIu11lJiPXb6b3iCxrido",
-        "title": "What an electrifying experience at Hackamania, organized by the powerhouse team The Elites  and hosted at the iconic Microsoft office!⚡\n\nAs the…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/nidhi-jangid-9145b625b_hackathon-heretechnologies-civicsphere-activity-7333392297557909504-PKzc",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHaUZLNtAn_cw/feedshare-shrink_800/B4DZcVxYZBGkAg-/0/1748416956936?e=2147483647&v=beta&t=PPWF35RVKkF4_hGSTZIhruHthD0XdFRmg0SGYkQkH60",
-        "title": "🚨 Excited to share that our team secured the 2nd runner-up position at the Hackathon organized by HERE Technologies! 🏆🌍\nWe built CivicSphere: An…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/veershah04_hackathon-heretechnologies-civicsphere-activity-7333501496052858880-63II",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGG6IIopbzYuQ/feedshare-shrink_2048_1536/B4DZcXUvkfGYAw-/0/1748443004284?e=2147483647&v=beta&t=lbdR-L-sAic7WOojwgWasBev-S_Gijipc9ON2YxeUO0",
-        "title": "🚨 Ecstatic to share that Team WinTech clinched the 2nd Runner-Up title at the high-impact Hackathon hosted by HERE Technologies! 🏆🌍\n\nIntroducing…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/shubhamrajapurkar_herehackathon2025-firstwin-geospatialai-activity-7333705150986870784-aFlZ",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFxWI4qttTF5Q/feedshare-shrink_800/B4DZcaN92UG8Ak-/0/1748491559265?e=2147483647&v=beta&t=HyrKRiTvhxIQ87TqhXsqbBBRTKUtvaG41YPx-6i22LI",
-        "title": "🌟 A First That Feels Unforgettable: 1st Place at HERE Technologies India Hackathon 2025! 🏆\nThrilled to share that our team secured 1st place at the…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/krishna-naudiyal13_olabsthon-uiux-edtech-activity-7328088099710717953-hBEP",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHZayHH6RxhZw/feedshare-shrink_800/B4DZbKZRgkHsAk-/0/1747152349036?e=2147483647&v=beta&t=V6hSIK0tNM24Mq3om9LbwIIBtWFVwbggrDZTJOY2fNs",
-        "title": "🚀 𝐅𝐫𝐨𝐦 𝐂𝐥𝐚𝐬𝐬𝐫𝐨𝐨𝐦 𝐭𝐨 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫: 𝐖𝐞 𝐖𝐨𝐧 𝐚𝐭 #𝐎𝐋𝐚𝐛𝐬𝐭𝐡𝐨𝐧!  🎉\nI’m over the moon to share that our team -- Kiah…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/kriti-mehrotra_jpmorganchase-sepintern2025-summerinternship-activity-7333436254270767106-2TvT",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQG7jOkj6XErlg/feedshare-shrink_2048_1536/B56ZcWZYVkHoAo-/0/1748427446417?e=2147483647&v=beta&t=UWJ1miGVgaiPfZ9iOBUX-Y7dse7Oq3c9LDNrHulXpxA",
-        "title": "✨ A New Chapter Begins! ✨\n\nIt’s truly a surreal moment — holding the onboarding kit from JPMorganChase, a firm globally revered not only for its…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/sujaldas_codechef-competitiveprogramming-allkill-activity-7333534351785181185-muP1",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQGE28TyHuU28w/feedshare-shrink_2048_1536/B56ZcXyiDaG0As-/0/1748450838378?e=2147483647&v=beta&t=sYVuqlga1ZGw7jS59y74r5mX2QkT2mw0_0M0Aaj6T9o",
-        "title": "🏆 𝐀𝐥𝐥-𝐊𝐢𝐥𝐥 𝐢𝐧 𝐂𝐨𝐝𝐞𝐂𝐡𝐞𝐟 𝐒𝐭𝐚𝐫𝐭𝐞𝐫𝐬 𝟏𝟖𝟖 (𝐃𝐢𝐯. 𝟐)!\n\n 💻 5/5 Problems Solved | ⌛ 36 min for First 4\nSuper thrilled to…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/anikate-koul-9959b2228_greetings-connections-i-am-glad-to-announce-activity-7333508565296463873-bGw8",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQGq_sf16z_ydw/feedshare-shrink_800/B56ZcXbLS9HEAk-/0/1748444690414?e=2147483647&v=beta&t=-AhnHB6DI3nah5edRaKR-2wM5fKKKcBgldV2vhHVvOM",
-        "title": "Greetings Connections,\n\nI am glad to announce that I have received a full-time offer from Rubrik and will be joining this June as a Software…",
-        "activity": "Liked by Sameer Gupta"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/atharva-dahegaonkar-70530a259_herehackathon-hackathonwin-geospatialtech-activity-7333177711298871299-ayZo",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEEuc7OaaOotA/feedshare-shrink_800/B4DZcSuPOrG8Ag-/0/1748365807011?e=2147483647&v=beta&t=_iJ8jbtc1RweCIUeBntWqt6YVpRVWpjUfQZKe8YG3nE",
-        "title": "🚀 We Did It! Winners of the HERE Technologies Hackathon 2025 🏆\n\nExcited to share that our team secured 1st place at the HERE Technologies…",
-        "activity": "Liked by Sameer Gupta"
-      }
-    ],
-    "volunteering": [],
-    "certification": [],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/sameer-gupta-59199514b?trk=public_profile_samename-profile",
-        "name": "Sameer Gupta",
-        "summary": "Product success @ Sprinklr | Ex- Dehaat | Ex- Smartcube| PEC",
-        "location": "Chandigarh"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sameerguptasg?trk=public_profile_samename-profile",
-        "name": "Sameer Gupta",
-        "summary": "",
-        "location": "Bengaluru"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sameer-gupta-5662109?trk=public_profile_samename-profile",
-        "name": "Sameer Gupta",
-        "summary": "",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sameer-gupta-9ba0b017?trk=public_profile_samename-profile",
-        "name": "Sameer Gupta",
-        "summary": "",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/samgupta00?trk=public_profile_samename-profile",
-        "name": "Sameer Gupta",
-        "summary": "",
-        "location": "Delhi, India"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "position": "Vice Chairperson (Technical)",
+      "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
+      "company_name": "DJS InfoMatrix",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Feb 2024",
+      "ends_at": "Present",
+      "duration": "1 year 5 months"
+    },
+    {
+      "position": "Head of Technical Department",
+      "company_url": "https://in.linkedin.com/company/djsce-ecell?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQF75rMd2SJIXw/company-logo_100_100/company-logo_100_100/0/1728033541155?e=2147483647&v=beta&t=SPa1XCdoylC0czq4fJH9iQc2VjZENUv_gvkRhSo-Mdc",
+      "company_name": "DJSCE E-Cell",
+      "location": "Maharashtra, India",
+      "summary": "",
+      "starts_at": "Feb 2024",
+      "ends_at": "Oct 2024",
+      "duration": "9 months"
+    },
+    {
+      "position": "Full-stack Developer",
+      "company_url": "https://www.linkedin.com/company/punctualiti?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGU3wXW5W4tjg/company-logo_100_100/company-logo_100_100/0/1647351027173/punctualiti_logo?e=2147483647&v=beta&t=rXhLYIbOYEa9HXmpfK4AN0bNaj_ZIWYUuJL31jCt_HA",
+      "company_name": "Punctualiti",
+      "location": "Maharashtra, India",
+      "summary": "",
+      "starts_at": "Jun 2024",
+      "ends_at": "Sep 2024",
+      "duration": "4 months"
+    },
+    {
+      "position": "Events Co-Committee Member",
+      "company_url": "https://in.linkedin.com/company/dj-csi?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFw3q7_0KMSJQ/company-logo_100_100/company-logo_100_100/0/1630659208911?e=2147483647&v=beta&t=6f4OjvV_nkEZjfETw4Qhmg6ayBNIhyaM4TJWsH43l-g",
+      "company_name": "DJCSI - Computer Society of India, DJSCE",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Sep 2023",
+      "ends_at": "May 2024",
+      "duration": "9 months"
+    },
+    {
+      "position": "Web-Tech Mentee",
+      "company_url": "https://in.linkedin.com/company/djscompute?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHW4z1eXq6m4w/company-logo_100_100/company-logo_100_100/0/1689496328978?e=2147483647&v=beta&t=yKV0sLrJRw7o1BOwkLgwj_ieZ4GX90hfUZaVCBkpI5A",
+      "company_name": "DJS Compute",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Sep 2023",
+      "ends_at": "May 2024",
+      "duration": "9 months"
+    },
+    {
+      "position": "Technical Team Member",
+      "company_url": "https://in.linkedin.com/company/dj-lit-literary-society-of-d-j-sanghvi-college-of-engineering?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C510BAQEzmWrZEaWodg/company-logo_100_100/company-logo_100_100/0/1630633083037/dj_lit_literary_society_of_d_j_sanghvi_college_of_engineering_logo?e=2147483647&v=beta&t=mRNrasWGRnYU_q6zOK_k5qi2su-HQIyui-GuHMbS3kg",
+      "company_name": "DJ LIT - Literary Society, DJSCE",
+      "location": "India",
+      "summary": "",
+      "starts_at": "Sep 2023",
+      "ends_at": "May 2024",
+      "duration": "9 months"
+    },
+    {
+      "position": "Logistics Co-Committee Member",
+      "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
+      "company_name": "DJS S4DS",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Aug 2023",
+      "ends_at": "May 2024",
+      "duration": "10 months"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "Bachelor of Technology - BTech",
+      "college_degree_field": "9.52",
+      "college_duration": "2022 - 2026",
+      "college_activity": ""
+    },
+    {
+      "college_url": "https://in.linkedin.com/school/jai-hind-college-mumbai/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "JAI HIND COLLEGE, MUMBAI",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQE8CCjgczGRHQ/company-logo_100_100/company-logo_100_100/0/1647174871641?e=2147483647&v=beta&t=dnHia-dJ1xWN3BokY8-lIHN5nX6vX56lITnt5aK2YV4",
+      "college_degree": "HSC",
+      "college_degree_field": "85.60%",
+      "college_duration": "2020 - 2022",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "DJS-NSDC",
+    "description1_link": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_topcard-current-company",
+    "description2": "Dwarkadas J. Sanghvi College of Engineering",
+    "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description3": ""
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/ujjawal-agrawal-892278177_zepto-internship-growth-activity-7334843203201699840-5hMk",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHOMrLnLM5PrQ/feedshare-shrink_2048_1536/B4DZcqY9.zGUAs-/0/1748762884985?e=2147483647&v=beta&t=5EsOiV4gGnuASZOZZa-hX7G1Ze-XyZqy-Ud5xgmJiEY",
+      "title": "I joined Zepto  as a Software Development Engineering Intern almost a month ago (already halfway through my internship journey!), and I genuinely…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/siddhi-mehta-228048298_devsclub-appteam-gratitude-activity-7334591641200046080-WWNs",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQFoT6uuaUqULQ/feedshare-shrink_2048_1536/B4DZcm0L2lHMAw-/0/1748702909916?e=2147483647&v=beta&t=eqfNBIN0rBH8bXpgekuWMl4HmzcmPNsFkQwJNXubf0U",
+      "title": "✨ Signing Off as a DevClub App Team Member ✨\n\nLife really does take unexpected turns — and one of the best ones was becoming part of the TSEC…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/aayush-anil-mishra_gsoc-2025-rejected-gssoc-2024-rejected-activity-7333512483715870721-4pZD",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEaKDf962mtJQ/feedshare-shrink_1280/B4DZcXeqEeGYAo-/0/1748445623587?e=2147483647&v=beta&t=H_wdBE6evK9YcJJwTX8ZBsVxK1Zt3B4FatxCHEK3CoA",
+      "title": "GSoC 2025 – Rejected.\nGSSoC 2024 – Rejected.\nSIH 2024 – Rejected.\n\nSummer Internship? Did Not Accept the Opportunity – (It was Unpaid 🥲)\n\nfor me…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/vjti-tpo_vjti-vjtitpo-google-activity-7334196790784606209-8J1Z",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEJtB8pw4-8CA/feedshare-shrink_2048_1536/B4DZchNGvnGUAs-/0/1748608775309?e=2147483647&v=beta&t=lE5ZznzL2CGrw-wWpixKa7lyvCC2jSTtYrEMsQBMogQ",
+      "title": "Dreams Take Flight as our VJTI Students Join Google 🧿 \n\nWe’re incredibly proud to announce that our student has secured placements at Google, where…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/kiah-monpara-34aa91292_olabsthon-olabs-uiux-activity-7334192114320195585-cwTO",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQFdEIjDNFJM3g/feedshare-shrink_800/B4DZchI2EBH4Ak-/0/1748607657762?e=2147483647&v=beta&t=aZRUJdE9OckORzevSRvQ_osGU5Ap1mMpvN7OsfVIlIo",
+      "title": "🚀 𝐅𝐫𝐨𝐦 𝐂𝐥𝐚𝐬𝐬𝐫𝐨𝐨𝐦 𝐭𝐨 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫: 𝐖𝐞 𝐖𝐨𝐧 𝐚𝐭 #𝐎𝐋𝐚𝐛𝐬𝐭𝐡𝐨𝐧!  🎉\nI’m over the moon to share that our team --…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/vikaskumar20_leetcode-competitiveprogramming-knightbadge-activity-7333874746561896450-D_oY",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQGKeYeYgV-Sww/feedshare-shrink_800/B56ZccoNmYGsAg-/0/1748531994891?e=2147483647&v=beta&t=Fa3Cr70pRMqDaLg38CeMMdgZHJvNrWUYlRrCIetwhwA",
+      "title": "💻 Excited to share that I’ve just earned the LeetCode 𝗞𝗻𝗶𝗴𝗵𝘁 𝗕𝗮𝗱𝗴𝗲! ✨\n\n🎯 Milestones on LeetCode:\n   • 𝟭𝟲 contests completed\n   • Best…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/shresth-bansal_codeforces-competitiveprogramming-milestone-activity-7332101279395041280-NaKA",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQFz8bGAlZsNlw/feedshare-shrink_1280/B56ZcDbPjHGoAk-/0/1748109167910?e=2147483647&v=beta&t=S4o-LDw0E-hMf6vDr1jf5hi5TlatGr7N4tZPGoZNrDU",
+      "title": "🎉 After today’s Codeforces Round 1026 (Div. 2), I finally reached Expert — a major milestone in my competitive programming journey! 🚀\nAfter…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/dhairya-chauhan-696081226_leetcode-700daystreak-knightbadge-activity-7333896840867684357-3txJ",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQEso4Fqi7Sc3A/feedshare-shrink_800/B4EZcc8TxYHsAg-/0/1748537262246?e=2147483647&v=beta&t=JFyBeuih-Pi9PULfYNdJ8Rsf_KDju_Vl2dknN9Mon6I",
+      "title": "🚀 700 Days of Consistency on LeetCode! 👑\nToday marks my 700th consecutive day of solving problems on LeetCode!\nWhat started as a personal challenge…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/aayushkolte_hackathonjourney-hackmernai-ai-activity-7334090603774758912-evMd",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGOlCpkwwWAiw/feedshare-shrink_800/B4DZcfshbFGgAg-/0/1748583457166?e=2147483647&v=beta&t=WQ__HJ_-_6fcsS8tLCUgJpKTyvxZ29jXogQvwB3PyN8",
+      "title": "🚀 First Runner-Up at HackMERN.Ai!\n\nElated to announce that our team HackStreet secured First Runner-Up at HackMERN.Ai, organized by CertifyO!!…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/prachisharma95_officially-survived-first-year-of-btech-activity-7333843580051939329-xltm",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQF7G3Z2dGSsFQ/feedshare-shrink_800/B4DZccL2Z2GgAg-/0/1748524562476?e=2147483647&v=beta&t=BMoISqTUV50ehUFIBs5ZEUY6Bdo-CuAEcvR2J09HXq0",
+      "title": "🌸 Officially Survived First Year of BTech CS! 🌸\n (Yes, I made it through with only a slightly burnt-out compiler brain 😂 )\n\n One year ago, I…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/shalini-richhariya-253053296_theelites-hackamania-microsoft-activity-7332825665102098433-wWa4",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEfb-Y-rMmQSg/feedshare-shrink_2048_1536/B4DZcNt.q7GwAo-/0/1748281859509?e=2147483647&v=beta&t=63SW0eUmxVpIXsFoAVw4PAPIu11lJiPXb6b3iCxrido",
+      "title": "What an electrifying experience at Hackamania, organized by the powerhouse team The Elites  and hosted at the iconic Microsoft office!⚡\n\nAs the…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/nidhi-jangid-9145b625b_hackathon-heretechnologies-civicsphere-activity-7333392297557909504-PKzc",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHaUZLNtAn_cw/feedshare-shrink_800/B4DZcVxYZBGkAg-/0/1748416956936?e=2147483647&v=beta&t=PPWF35RVKkF4_hGSTZIhruHthD0XdFRmg0SGYkQkH60",
+      "title": "🚨 Excited to share that our team secured the 2nd runner-up position at the Hackathon organized by HERE Technologies! 🏆🌍\nWe built CivicSphere: An…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/veershah04_hackathon-heretechnologies-civicsphere-activity-7333501496052858880-63II",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGG6IIopbzYuQ/feedshare-shrink_2048_1536/B4DZcXUvkfGYAw-/0/1748443004284?e=2147483647&v=beta&t=lbdR-L-sAic7WOojwgWasBev-S_Gijipc9ON2YxeUO0",
+      "title": "🚨 Ecstatic to share that Team WinTech clinched the 2nd Runner-Up title at the high-impact Hackathon hosted by HERE Technologies! 🏆🌍\n\nIntroducing…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/shubhamrajapurkar_herehackathon2025-firstwin-geospatialai-activity-7333705150986870784-aFlZ",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQFxWI4qttTF5Q/feedshare-shrink_800/B4DZcaN92UG8Ak-/0/1748491559265?e=2147483647&v=beta&t=HyrKRiTvhxIQ87TqhXsqbBBRTKUtvaG41YPx-6i22LI",
+      "title": "🌟 A First That Feels Unforgettable: 1st Place at HERE Technologies India Hackathon 2025! 🏆\nThrilled to share that our team secured 1st place at the…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/krishna-naudiyal13_olabsthon-uiux-edtech-activity-7328088099710717953-hBEP",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHZayHH6RxhZw/feedshare-shrink_800/B4DZbKZRgkHsAk-/0/1747152349036?e=2147483647&v=beta&t=V6hSIK0tNM24Mq3om9LbwIIBtWFVwbggrDZTJOY2fNs",
+      "title": "🚀 𝐅𝐫𝐨𝐦 𝐂𝐥𝐚𝐬𝐬𝐫𝐨𝐨𝐦 𝐭𝐨 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫: 𝐖𝐞 𝐖𝐨𝐧 𝐚𝐭 #𝐎𝐋𝐚𝐛𝐬𝐭𝐡𝐨𝐧!  🎉\nI’m over the moon to share that our team -- Kiah…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/kriti-mehrotra_jpmorganchase-sepintern2025-summerinternship-activity-7333436254270767106-2TvT",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQG7jOkj6XErlg/feedshare-shrink_2048_1536/B56ZcWZYVkHoAo-/0/1748427446417?e=2147483647&v=beta&t=UWJ1miGVgaiPfZ9iOBUX-Y7dse7Oq3c9LDNrHulXpxA",
+      "title": "✨ A New Chapter Begins! ✨\n\nIt’s truly a surreal moment — holding the onboarding kit from JPMorganChase, a firm globally revered not only for its…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/sujaldas_codechef-competitiveprogramming-allkill-activity-7333534351785181185-muP1",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQGE28TyHuU28w/feedshare-shrink_2048_1536/B56ZcXyiDaG0As-/0/1748450838378?e=2147483647&v=beta&t=sYVuqlga1ZGw7jS59y74r5mX2QkT2mw0_0M0Aaj6T9o",
+      "title": "🏆 𝐀𝐥𝐥-𝐊𝐢𝐥𝐥 𝐢𝐧 𝐂𝐨𝐝𝐞𝐂𝐡𝐞𝐟 𝐒𝐭𝐚𝐫𝐭𝐞𝐫𝐬 𝟏𝟖𝟖 (𝐃𝐢𝐯. 𝟐)!\n\n 💻 5/5 Problems Solved | ⌛ 36 min for First 4\nSuper thrilled to…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/anikate-koul-9959b2228_greetings-connections-i-am-glad-to-announce-activity-7333508565296463873-bGw8",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQGq_sf16z_ydw/feedshare-shrink_800/B56ZcXbLS9HEAk-/0/1748444690414?e=2147483647&v=beta&t=-AhnHB6DI3nah5edRaKR-2wM5fKKKcBgldV2vhHVvOM",
+      "title": "Greetings Connections,\n\nI am glad to announce that I have received a full-time offer from Rubrik and will be joining this June as a Software…",
+      "activity": "Liked by Sameer Gupta"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/atharva-dahegaonkar-70530a259_herehackathon-hackathonwin-geospatialtech-activity-7333177711298871299-ayZo",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEEuc7OaaOotA/feedshare-shrink_800/B4DZcSuPOrG8Ag-/0/1748365807011?e=2147483647&v=beta&t=_iJ8jbtc1RweCIUeBntWqt6YVpRVWpjUfQZKe8YG3nE",
+      "title": "🚀 We Did It! Winners of the HERE Technologies Hackathon 2025 🏆\n\nExcited to share that our team secured 1st place at the HERE Technologies…",
+      "activity": "Liked by Sameer Gupta"
+    }
+  ],
+  "volunteering": [],
+  "certification": [],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/sameer-gupta-59199514b?trk=public_profile_samename-profile",
+      "name": "Sameer Gupta",
+      "summary": "Product success @ Sprinklr | Ex- Dehaat | Ex- Smartcube| PEC",
+      "location": "Chandigarh"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sameerguptasg?trk=public_profile_samename-profile",
+      "name": "Sameer Gupta",
+      "summary": "",
+      "location": "Bengaluru"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sameer-gupta-5662109?trk=public_profile_samename-profile",
+      "name": "Sameer Gupta",
+      "summary": "",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sameer-gupta-9ba0b017?trk=public_profile_samename-profile",
+      "name": "Sameer Gupta",
+      "summary": "",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/samgupta00?trk=public_profile_samename-profile",
+      "name": "Sameer Gupta",
+      "summary": "",
+      "location": "Delhi, India"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

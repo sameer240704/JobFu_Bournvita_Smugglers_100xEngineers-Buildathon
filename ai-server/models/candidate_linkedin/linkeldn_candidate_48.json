@@ -1,215 +1,213 @@
-[
-  {
-    "fullName": "Felipe Raphael",
-    "linkedin_internal_id": "883861991",
-    "first_name": "Felipe",
-    "last_name": "Raphael",
-    "public_identifier": "frcelipe7",
-    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQF_nwZQm8HujA/profile-displaybackgroundimage-shrink_200_800/B4DZVHdNbTG8AU-/0/1740660595582?e=2147483647&v=beta&t=LQmlnjkgKuM21EyThJEAfVsnmnVA-4mb4zwXZ1Zn6G4",
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQFALQId5n4Vpg/profile-displayphoto-shrink_200_200/B4DZVHUUnwHAAY-/0/1740658265021?e=2147483647&v=beta&t=upLUCoMYVz5EtnAtABpypceNWEgiPeiqcZeFIaevcOA",
-    "headline": "Fullstack Web Developer at @BioQuality | ReactJS · DRF· Figma · UML · UI/UX | Software Engineering | Creating Software Solutions",
-    "location": "Brazil",
-    "followers": "673 followers",
-    "connections": "500+ connections",
-    "about": "Full-stack Web Developer experienced in building and optimizing applications. Focused in improve users experience and reducing cost with software solutions.At Bioquality, I use Django and JavaScript for automating workflows resulting in efficiency improvement in some internal processes. I lead prototyping, development and deployment process using Django REST Framework, React.js, UML, Figma, Git and GitHub.My formation includes CS50's – Web Development With Python and JavaScript – from Harvard, participation at ICPC Programming Contest and Software Engineering at UEPA.What I did:- Used Django and JavaScript for automating workflows;- Designed and prototyped UI with Figma;- Implemented systems modeling with UML for improving software documentation;- Guided an intern in the frontend development process.Core technologies & tools:- Backend: Django, Django REST Framework, Python, APIs;- Frontend: React.js, JavaScript, HTML5, CSS3, SASS;- UI/UX & Design: Figma, UI/UX principles, prototyping;- Tools: Git, GitHub, UML, Postman.I'm always into new challenges. Currently I'm studying React.js and some concepts about React Native.Let's connect! You can email me or check out my work on GitHub.📧 Email: feliperaphaelpara@gmail.com 🌐 GitHub: https://github.com/frcelipe7",
-    "experience": [
-      {
-        "position": "Full Stack Web Developer | Django REST · ReactJS · Figma · UML · SASS · JavaScript",
-        "company_url": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG89vUGAReVvw/company-logo_100_100/company-logo_100_100/0/1736288328346?e=2147483647&v=beta&t=6yRvEiGwSR4iwvzTx5-SYdxn2JMpXizLtTGrfJ5X8GE",
-        "company_name": "BioQuality",
-        "location": "Parauapebas, Pará, Brasil",
-        "summary": "As a Full Stack Web Developer, I am responsible for the planning, creation, maintenance, and enhancement of software applications and systems. I leverage my skills in both frontend and backend development to build scalable, high-performing web applications. Working with technologies such as Django REST, ReactJS, and JavaScript, I ensure seamless integration between components, while focusing on delivering user-friendly, visually appealing interfaces. I contributed to the development of a scheduling and attendance platform for internal management, aiming to improve operational efficiency.Key responsibilities:- Providing support and guidance to an intern in project development and skill improvement;- Prototyped and designed interfaces using Figma, contributing to efficient design processes and collaboration with stakeholders;- Focused on UI/UX design principles to enhance user engagement and retention, improving the overall user experience;- Improved the speed of several websites by identifying bottlenecks and optimizing their performance using performance testing tools, significantly improving their loading times and performance;- Led code collaboration and versioning using Git and GitHub, ensuring streamlined development and effective teamwork;- Utilized UML (Unified Modeling Language) to model systems and processes, improving communication and clarity during development and project planning.\n            \n\n    \n    \n\n    \n        Show less",
-        "starts_at": "Jan 2024",
-        "ends_at": "Present",
-        "duration": "1 year 6 months"
-      },
-      {
-        "position": "Intern Web Developer | Django · JavaScript · Python · HTML · CSS",
-        "company_url": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG89vUGAReVvw/company-logo_100_100/company-logo_100_100/0/1736288328346?e=2147483647&v=beta&t=6yRvEiGwSR4iwvzTx5-SYdxn2JMpXizLtTGrfJ5X8GE",
-        "company_name": "BioQuality",
-        "location": "Parauapebas",
-        "summary": "As an Intern Web Developer, I gained practical experience building dynamic and responsive web applications using Django, JavaScript, and Python, ensuring seamless integration between front and backend components. During my internship, I contributed to the development of software solutions, including a personal evaluation system and a certification platform, both aimed at addressing the company’s needs. Key responsibilities:- Developed a Personal Evaluation System that helped the company reduce operational costs and improve student services by providing better data management and personalized evaluation processes- Developed backend features and functionalities using Django and Python, ensuring efficient and scalable code;- Designed and implemented responsive user interfaces with HTML, CSS, and Figma, enhancing user experience across devices;- Contributed to performance improvements by optimizing both frontend and backend processes, enhancing the speed and responsiveness of applications;- Participated in team meetings and collaborative discussions to plan, track, and meet project milestones, ensuring alignment with goals and deadlines.\n            \n\n    \n    \n\n    \n        Show less",
-        "starts_at": "Sep 2023",
-        "ends_at": "Dec 2023",
-        "duration": "4 months"
-      },
-      {
-        "position": "Administrative Assistant",
-        "company_url": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG89vUGAReVvw/company-logo_100_100/company-logo_100_100/0/1736288328346?e=2147483647&v=beta&t=6yRvEiGwSR4iwvzTx5-SYdxn2JMpXizLtTGrfJ5X8GE",
-        "company_name": "BioQuality",
-        "location": "Parauapebas, Pará, Brasil",
-        "summary": "As an Administrative Assistant, I was responsible for providing administrative support to ensure the smooth running of daily office operations. My role included handling office correspondence, organizing meetings, managing schedules, and assisting in various administrative tasks. I also supported the team with document management, data entry, and customer service, contributing to overall efficiency and helping the organization meet its operational goals.",
-        "starts_at": "Feb 2023",
-        "ends_at": "Aug 2023",
-        "duration": "7 months"
-      },
-      {
-        "position": "Internship in Electronics and Electrical Technician - IFPA | HTML · CSS · JavaScript · Teamwork",
-        "company_url": "https://br.linkedin.com/company/instituto-federal-de-educa%C3%A7%C3%A3o-ci%C3%AAncia-e-tecnologia-do-par%C3%A1-ifpa?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGnZEWTF2wqKw/company-logo_100_100/company-logo_100_100/0/1630577567812?e=2147483647&v=beta&t=yW1Mp5fqpdfi3Vw3wR0Yyqpy-KmsDWMYyqkPgGIsWqk",
-        "company_name": "Instituto Federal do Pará - IFPA",
-        "location": "Parauapebas, Pará, Brazil",
-        "summary": "During my internship as an Electronics and Electrical Technician at IFPA, I had the opportunity to apply my technical knowledge in various areas, contributing to the development and support of projects that benefited both organizations and small businesses.Key responsibilities:- Contributed to the development of a website for AFMA (Associação de Formação e Mão de Obra), improving its online presence and functionality to better serve the community;- Assisted companies in managing and enhancing their social media profiles, helping them improve online engagement and brand visibility;- Supported the organization and presentation of a financial mathematics lecture for microenterprises, offering valuable insights on how small businesses can optimize financial management and make informed decisions.\n            \n\n    \n    \n\n    \n        Show less",
-        "starts_at": "Jun 2021",
-        "ends_at": "Dec 2021",
-        "duration": "7 months"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://br.linkedin.com/school/uepaoficial/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Universidade do Estado do Pará",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQG6q0pxt71kCg/company-logo_100_100/company-logo_100_100/0/1630562227440/universidade_estadual_do_par__logo?e=2147483647&v=beta&t=fVtkLdlKGnZaILxieiYHD5ByCm9HBBo2CXMgL4LnQpQ",
-        "college_degree": "Bacharelado em Engenharia de Software",
-        "college_degree_field": "Computer Software Engineering",
-        "college_duration": "2023 - 2027",
-        "college_activity": ""
-      },
-      {
-        "college_name": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
-        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
-        "college_degree": "Técnico integrado ao ensino médio",
-        "college_degree_field": "Eletroeletrônica",
-        "college_duration": "2019 - 2021",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "BioQuality",
-      "description1_link": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_topcard-current-company",
-      "description2": "Universidade do Estado do Pará",
-      "description2_link": "https://br.linkedin.com/school/uepaoficial/?trk=public_profile_topcard-school",
-      "description3": "Websites",
-      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Ffrcelipe7%2Egithub%2Eio%2F&urlhash=TMwn&trk=public_profile_website"
+{
+  "fullName": "Felipe Raphael",
+  "linkedin_internal_id": "883861991",
+  "first_name": "Felipe",
+  "last_name": "Raphael",
+  "public_identifier": "frcelipe7",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQF_nwZQm8HujA/profile-displaybackgroundimage-shrink_200_800/B4DZVHdNbTG8AU-/0/1740660595582?e=2147483647&v=beta&t=LQmlnjkgKuM21EyThJEAfVsnmnVA-4mb4zwXZ1Zn6G4",
+  "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQFALQId5n4Vpg/profile-displayphoto-shrink_200_200/B4DZVHUUnwHAAY-/0/1740658265021?e=2147483647&v=beta&t=upLUCoMYVz5EtnAtABpypceNWEgiPeiqcZeFIaevcOA",
+  "headline": "Fullstack Web Developer at @BioQuality | ReactJS · DRF· Figma · UML · UI/UX | Software Engineering | Creating Software Solutions",
+  "location": "Brazil",
+  "followers": "673 followers",
+  "connections": "500+ connections",
+  "about": "Full-stack Web Developer experienced in building and optimizing applications. Focused in improve users experience and reducing cost with software solutions.At Bioquality, I use Django and JavaScript for automating workflows resulting in efficiency improvement in some internal processes. I lead prototyping, development and deployment process using Django REST Framework, React.js, UML, Figma, Git and GitHub.My formation includes CS50's – Web Development With Python and JavaScript – from Harvard, participation at ICPC Programming Contest and Software Engineering at UEPA.What I did:- Used Django and JavaScript for automating workflows;- Designed and prototyped UI with Figma;- Implemented systems modeling with UML for improving software documentation;- Guided an intern in the frontend development process.Core technologies & tools:- Backend: Django, Django REST Framework, Python, APIs;- Frontend: React.js, JavaScript, HTML5, CSS3, SASS;- UI/UX & Design: Figma, UI/UX principles, prototyping;- Tools: Git, GitHub, UML, Postman.I'm always into new challenges. Currently I'm studying React.js and some concepts about React Native.Let's connect! You can email me or check out my work on GitHub.📧 Email: feliperaphaelpara@gmail.com 🌐 GitHub: https://github.com/frcelipe7",
+  "experience": [
+    {
+      "position": "Full Stack Web Developer | Django REST · ReactJS · Figma · UML · SASS · JavaScript",
+      "company_url": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG89vUGAReVvw/company-logo_100_100/company-logo_100_100/0/1736288328346?e=2147483647&v=beta&t=6yRvEiGwSR4iwvzTx5-SYdxn2JMpXizLtTGrfJ5X8GE",
+      "company_name": "BioQuality",
+      "location": "Parauapebas, Pará, Brasil",
+      "summary": "As a Full Stack Web Developer, I am responsible for the planning, creation, maintenance, and enhancement of software applications and systems. I leverage my skills in both frontend and backend development to build scalable, high-performing web applications. Working with technologies such as Django REST, ReactJS, and JavaScript, I ensure seamless integration between components, while focusing on delivering user-friendly, visually appealing interfaces. I contributed to the development of a scheduling and attendance platform for internal management, aiming to improve operational efficiency.Key responsibilities:- Providing support and guidance to an intern in project development and skill improvement;- Prototyped and designed interfaces using Figma, contributing to efficient design processes and collaboration with stakeholders;- Focused on UI/UX design principles to enhance user engagement and retention, improving the overall user experience;- Improved the speed of several websites by identifying bottlenecks and optimizing their performance using performance testing tools, significantly improving their loading times and performance;- Led code collaboration and versioning using Git and GitHub, ensuring streamlined development and effective teamwork;- Utilized UML (Unified Modeling Language) to model systems and processes, improving communication and clarity during development and project planning.\n            \n\n    \n    \n\n    \n        Show less",
+      "starts_at": "Jan 2024",
+      "ends_at": "Present",
+      "duration": "1 year 6 months"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/valeria-lafuente-itrecruiter_latam-web-application-activity-7331358804145553409-PxTJ",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFQLVhz9q9ZQQ/feedshare-shrink_2048_1536/B4EZb43.5rHAAs-/0/1747932147743?e=2147483647&v=beta&t=xoppXl57i-caT5fBTnUaS1k1G0_Oro2Xl42uD6SHLiw",
-        "title": "We are Hiring!🚀 #LATAM\n\nWe’re hiring a #Web #Application #Developer with 3–5+ years of experience in #Python/Django to build scalable, data-driven…",
-        "activity": "Liked by Felipe Raphael"
-      },
-      {
-        "link": "https://pt.linkedin.com/posts/frcelipe7_cybersecurity-engenhariasocial-seguran%C3%A7adainforma%C3%A7%C3%A3o-activity-7331826605272576000-bhu5",
-        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
-        "title": "Senhas fortes salvam sistemas, mas atenção é o que os mantem seguros! 👇 👇👇\n\nEstou cursando Foundations of Cybersecurity (Google/Coursera) e me…",
-        "activity": "Shared by Felipe Raphael"
-      }
-    ],
-    "volunteering": [],
-    "certification": [
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
-        "certification": "React Essential Training",
-        "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
-        "company_name": "LinkedIn",
-        "issue_date": "Issued May 2025",
-        "credential_id": "See credential",
-        "credential_url": "https://www.linkedin.com/learning/certificates/ee3742ae9ec9247104834d1c1fbd1a430da5b7c4209c0550d73d585281438779?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
-        "certification": "Figma Essential Training",
-        "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
-        "company_name": "LinkedIn",
-        "issue_date": "Issued Mar 2025",
-        "credential_id": "Credential ID b4204812d0df9d4e1870ba38ddb3e59318a2098038815bc49e9715b09003cfb7",
-        "credential_url": "https://www.linkedin.com/learning/certificates/b4204812d0df9d4e1870ba38ddb3e59318a2098038815bc49e9715b09003cfb7?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
-        "certification": "Learning REST APIs",
-        "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
-        "company_name": "LinkedIn",
-        "issue_date": "Issued Mar 2025",
-        "credential_id": "Credential ID 9704a14b16bd756d7dbc31bed5068416a708d7de7a29ec93fb1859bf2b6941df",
-        "credential_url": "https://www.linkedin.com/learning/certificates/9704a14b16bd756d7dbc31bed5068416a708d7de7a29ec93fb1859bf2b6941df?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFbvUfaH2-1PQ/company-logo_100_100/company-logo_100_100/0/1687354992278?e=2147483647&v=beta&t=uDWchToz-lIm-pP52XsQHV_Sue9lV_t87xYwJ8u2KC4",
-        "certification": "Certificado de Participação - O Poder do Networking: Construindo Relações que Transformam Carreiras e Negócios",
-        "company_url": "https://br.linkedin.com/company/crea-pa?trk=public_profile_profile-section-card_image-click",
-        "company_name": "CREA-PA",
-        "issue_date": "Issued Feb 2025",
-        "credential_id": "Credential ID 18448870.8910864.6.8.8448870891086468",
-        "credential_url": "https://www.even3.com.br/documentos/imprimir?i=18448870.8910864.6.8.8448870891086468&cc=889E7EC3-EB82-4FA6-93C5-7A09961F095D&trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=2147483647&v=beta&t=HPSmWLOCvdPkWO1nRWwjjmCNpaCqww20rSJ4E54QtxQ",
-        "certification": "IBM Guided Project: Build a COVID Dashboard with React",
-        "company_url": "https://www.linkedin.com/company/ibm?trk=public_profile_profile-section-card_image-click",
-        "company_name": "IBM",
-        "issue_date": "Issued Feb 2025",
-        "credential_id": "Credential ID 54fd2857e42d4cc6b38bca7ba688fa1a",
-        "credential_url": "https://courses.edx.org/certificates/54fd2857e42d4cc6b38bca7ba688fa1a?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQFLraHojJVQhA/company-logo_100_100/company-logo_100_100/0/1728915497369/efset_logo?e=2147483647&v=beta&t=s_j3zyIJcrv0BYTrWL4NNrd3dJy6QNoaeSDWW5zvmmE",
-        "certification": "EF SET English Certificate 69/100 (C1 Advanced)",
-        "company_url": "https://ch.linkedin.com/company/efset?trk=public_profile_profile-section-card_image-click",
-        "company_name": "EF SET",
-        "issue_date": "Issued Nov 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://cert.efset.org/ngxuh7?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=2147483647&v=beta&t=t8rjBkeyY0jl6mLHwyU9LLkegem3U-xhDtA1prjuXtg",
-        "certification": "CS50's Web Programming with Python and JavaScript",
-        "company_url": "https://www.linkedin.com/school/cs50/?trk=public_profile_profile-section-card_image-click",
-        "company_name": "CS50",
-        "issue_date": "Issued Jun 2022",
-        "credential_id": "See credential",
-        "credential_url": "https://certificates.cs50.io/cbce5229-c2f3-453f-8bcc-4992ef105792?trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://br.linkedin.com/in/felipe-raphael-6688602a8?trk=public_profile_samename-profile",
-        "name": "Felipe Raphael",
-        "summary": "Analista de suporte | Help Desk N1/ N2 | Ticket Manager",
-        "location": "São Paulo, Brazil"
-      },
-      {
-        "link": "https://br.linkedin.com/in/felipe-raphael-5a86aa1b6?trk=public_profile_samename-profile",
-        "name": "Felipe Raphael",
-        "summary": "Lider Comercial",
-        "location": "Curitiba, PR"
-      },
-      {
-        "link": "https://br.linkedin.com/in/feliperaphael60?trk=public_profile_samename-profile",
-        "name": "Felipe Raphael",
-        "summary": "Técnico em Atendimento HelpDesk | Redes de Computadores | Estudante de Análise e Desenvolvimento de Sistemas | Foco em Redes e Segurança",
-        "location": "Palmas, TO"
-      },
-      {
-        "link": "https://br.linkedin.com/in/felipe-raphael-2ab460277?trk=public_profile_samename-profile",
-        "name": "Felipe Raphael",
-        "summary": "assistente de transporte",
-        "location": "Hortolândia, SP"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [
-      {
-        "name": "Inglês",
-        "level": "Full professional proficiency"
-      }
-    ],
-    "organizations": [],
-    "projects": [
-      {
-        "title": "IA for Tic Tac Toe",
-        "duration": "-"
-      }
-    ],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "position": "Intern Web Developer | Django · JavaScript · Python · HTML · CSS",
+      "company_url": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG89vUGAReVvw/company-logo_100_100/company-logo_100_100/0/1736288328346?e=2147483647&v=beta&t=6yRvEiGwSR4iwvzTx5-SYdxn2JMpXizLtTGrfJ5X8GE",
+      "company_name": "BioQuality",
+      "location": "Parauapebas",
+      "summary": "As an Intern Web Developer, I gained practical experience building dynamic and responsive web applications using Django, JavaScript, and Python, ensuring seamless integration between front and backend components. During my internship, I contributed to the development of software solutions, including a personal evaluation system and a certification platform, both aimed at addressing the company’s needs. Key responsibilities:- Developed a Personal Evaluation System that helped the company reduce operational costs and improve student services by providing better data management and personalized evaluation processes- Developed backend features and functionalities using Django and Python, ensuring efficient and scalable code;- Designed and implemented responsive user interfaces with HTML, CSS, and Figma, enhancing user experience across devices;- Contributed to performance improvements by optimizing both frontend and backend processes, enhancing the speed and responsiveness of applications;- Participated in team meetings and collaborative discussions to plan, track, and meet project milestones, ensuring alignment with goals and deadlines.\n            \n\n    \n    \n\n    \n        Show less",
+      "starts_at": "Sep 2023",
+      "ends_at": "Dec 2023",
+      "duration": "4 months"
+    },
+    {
+      "position": "Administrative Assistant",
+      "company_url": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG89vUGAReVvw/company-logo_100_100/company-logo_100_100/0/1736288328346?e=2147483647&v=beta&t=6yRvEiGwSR4iwvzTx5-SYdxn2JMpXizLtTGrfJ5X8GE",
+      "company_name": "BioQuality",
+      "location": "Parauapebas, Pará, Brasil",
+      "summary": "As an Administrative Assistant, I was responsible for providing administrative support to ensure the smooth running of daily office operations. My role included handling office correspondence, organizing meetings, managing schedules, and assisting in various administrative tasks. I also supported the team with document management, data entry, and customer service, contributing to overall efficiency and helping the organization meet its operational goals.",
+      "starts_at": "Feb 2023",
+      "ends_at": "Aug 2023",
+      "duration": "7 months"
+    },
+    {
+      "position": "Internship in Electronics and Electrical Technician - IFPA | HTML · CSS · JavaScript · Teamwork",
+      "company_url": "https://br.linkedin.com/company/instituto-federal-de-educa%C3%A7%C3%A3o-ci%C3%AAncia-e-tecnologia-do-par%C3%A1-ifpa?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGnZEWTF2wqKw/company-logo_100_100/company-logo_100_100/0/1630577567812?e=2147483647&v=beta&t=yW1Mp5fqpdfi3Vw3wR0Yyqpy-KmsDWMYyqkPgGIsWqk",
+      "company_name": "Instituto Federal do Pará - IFPA",
+      "location": "Parauapebas, Pará, Brazil",
+      "summary": "During my internship as an Electronics and Electrical Technician at IFPA, I had the opportunity to apply my technical knowledge in various areas, contributing to the development and support of projects that benefited both organizations and small businesses.Key responsibilities:- Contributed to the development of a website for AFMA (Associação de Formação e Mão de Obra), improving its online presence and functionality to better serve the community;- Assisted companies in managing and enhancing their social media profiles, helping them improve online engagement and brand visibility;- Supported the organization and presentation of a financial mathematics lecture for microenterprises, offering valuable insights on how small businesses can optimize financial management and make informed decisions.\n            \n\n    \n    \n\n    \n        Show less",
+      "starts_at": "Jun 2021",
+      "ends_at": "Dec 2021",
+      "duration": "7 months"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://br.linkedin.com/school/uepaoficial/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Universidade do Estado do Pará",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQG6q0pxt71kCg/company-logo_100_100/company-logo_100_100/0/1630562227440/universidade_estadual_do_par__logo?e=2147483647&v=beta&t=fVtkLdlKGnZaILxieiYHD5ByCm9HBBo2CXMgL4LnQpQ",
+      "college_degree": "Bacharelado em Engenharia de Software",
+      "college_degree_field": "Computer Software Engineering",
+      "college_duration": "2023 - 2027",
+      "college_activity": ""
+    },
+    {
+      "college_name": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+      "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+      "college_degree": "Técnico integrado ao ensino médio",
+      "college_degree_field": "Eletroeletrônica",
+      "college_duration": "2019 - 2021",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "BioQuality",
+    "description1_link": "https://www.linkedin.com/company/bioqualityconsult?trk=public_profile_topcard-current-company",
+    "description2": "Universidade do Estado do Pará",
+    "description2_link": "https://br.linkedin.com/school/uepaoficial/?trk=public_profile_topcard-school",
+    "description3": "Websites",
+    "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Ffrcelipe7%2Egithub%2Eio%2F&urlhash=TMwn&trk=public_profile_website"
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/valeria-lafuente-itrecruiter_latam-web-application-activity-7331358804145553409-PxTJ",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFQLVhz9q9ZQQ/feedshare-shrink_2048_1536/B4EZb43.5rHAAs-/0/1747932147743?e=2147483647&v=beta&t=xoppXl57i-caT5fBTnUaS1k1G0_Oro2Xl42uD6SHLiw",
+      "title": "We are Hiring!🚀 #LATAM\n\nWe’re hiring a #Web #Application #Developer with 3–5+ years of experience in #Python/Django to build scalable, data-driven…",
+      "activity": "Liked by Felipe Raphael"
+    },
+    {
+      "link": "https://pt.linkedin.com/posts/frcelipe7_cybersecurity-engenhariasocial-seguran%C3%A7adainforma%C3%A7%C3%A3o-activity-7331826605272576000-bhu5",
+      "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+      "title": "Senhas fortes salvam sistemas, mas atenção é o que os mantem seguros! 👇 👇👇\n\nEstou cursando Foundations of Cybersecurity (Google/Coursera) e me…",
+      "activity": "Shared by Felipe Raphael"
+    }
+  ],
+  "volunteering": [],
+  "certification": [
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+      "certification": "React Essential Training",
+      "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
+      "company_name": "LinkedIn",
+      "issue_date": "Issued May 2025",
+      "credential_id": "See credential",
+      "credential_url": "https://www.linkedin.com/learning/certificates/ee3742ae9ec9247104834d1c1fbd1a430da5b7c4209c0550d73d585281438779?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+      "certification": "Figma Essential Training",
+      "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
+      "company_name": "LinkedIn",
+      "issue_date": "Issued Mar 2025",
+      "credential_id": "Credential ID b4204812d0df9d4e1870ba38ddb3e59318a2098038815bc49e9715b09003cfb7",
+      "credential_url": "https://www.linkedin.com/learning/certificates/b4204812d0df9d4e1870ba38ddb3e59318a2098038815bc49e9715b09003cfb7?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+      "certification": "Learning REST APIs",
+      "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
+      "company_name": "LinkedIn",
+      "issue_date": "Issued Mar 2025",
+      "credential_id": "Credential ID 9704a14b16bd756d7dbc31bed5068416a708d7de7a29ec93fb1859bf2b6941df",
+      "credential_url": "https://www.linkedin.com/learning/certificates/9704a14b16bd756d7dbc31bed5068416a708d7de7a29ec93fb1859bf2b6941df?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFbvUfaH2-1PQ/company-logo_100_100/company-logo_100_100/0/1687354992278?e=2147483647&v=beta&t=uDWchToz-lIm-pP52XsQHV_Sue9lV_t87xYwJ8u2KC4",
+      "certification": "Certificado de Participação - O Poder do Networking: Construindo Relações que Transformam Carreiras e Negócios",
+      "company_url": "https://br.linkedin.com/company/crea-pa?trk=public_profile_profile-section-card_image-click",
+      "company_name": "CREA-PA",
+      "issue_date": "Issued Feb 2025",
+      "credential_id": "Credential ID 18448870.8910864.6.8.8448870891086468",
+      "credential_url": "https://www.even3.com.br/documentos/imprimir?i=18448870.8910864.6.8.8448870891086468&cc=889E7EC3-EB82-4FA6-93C5-7A09961F095D&trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=2147483647&v=beta&t=HPSmWLOCvdPkWO1nRWwjjmCNpaCqww20rSJ4E54QtxQ",
+      "certification": "IBM Guided Project: Build a COVID Dashboard with React",
+      "company_url": "https://www.linkedin.com/company/ibm?trk=public_profile_profile-section-card_image-click",
+      "company_name": "IBM",
+      "issue_date": "Issued Feb 2025",
+      "credential_id": "Credential ID 54fd2857e42d4cc6b38bca7ba688fa1a",
+      "credential_url": "https://courses.edx.org/certificates/54fd2857e42d4cc6b38bca7ba688fa1a?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQFLraHojJVQhA/company-logo_100_100/company-logo_100_100/0/1728915497369/efset_logo?e=2147483647&v=beta&t=s_j3zyIJcrv0BYTrWL4NNrd3dJy6QNoaeSDWW5zvmmE",
+      "certification": "EF SET English Certificate 69/100 (C1 Advanced)",
+      "company_url": "https://ch.linkedin.com/company/efset?trk=public_profile_profile-section-card_image-click",
+      "company_name": "EF SET",
+      "issue_date": "Issued Nov 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://cert.efset.org/ngxuh7?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=2147483647&v=beta&t=t8rjBkeyY0jl6mLHwyU9LLkegem3U-xhDtA1prjuXtg",
+      "certification": "CS50's Web Programming with Python and JavaScript",
+      "company_url": "https://www.linkedin.com/school/cs50/?trk=public_profile_profile-section-card_image-click",
+      "company_name": "CS50",
+      "issue_date": "Issued Jun 2022",
+      "credential_id": "See credential",
+      "credential_url": "https://certificates.cs50.io/cbce5229-c2f3-453f-8bcc-4992ef105792?trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://br.linkedin.com/in/felipe-raphael-6688602a8?trk=public_profile_samename-profile",
+      "name": "Felipe Raphael",
+      "summary": "Analista de suporte | Help Desk N1/ N2 | Ticket Manager",
+      "location": "São Paulo, Brazil"
+    },
+    {
+      "link": "https://br.linkedin.com/in/felipe-raphael-5a86aa1b6?trk=public_profile_samename-profile",
+      "name": "Felipe Raphael",
+      "summary": "Lider Comercial",
+      "location": "Curitiba, PR"
+    },
+    {
+      "link": "https://br.linkedin.com/in/feliperaphael60?trk=public_profile_samename-profile",
+      "name": "Felipe Raphael",
+      "summary": "Técnico em Atendimento HelpDesk | Redes de Computadores | Estudante de Análise e Desenvolvimento de Sistemas | Foco em Redes e Segurança",
+      "location": "Palmas, TO"
+    },
+    {
+      "link": "https://br.linkedin.com/in/felipe-raphael-2ab460277?trk=public_profile_samename-profile",
+      "name": "Felipe Raphael",
+      "summary": "assistente de transporte",
+      "location": "Hortolândia, SP"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [
+    {
+      "name": "Inglês",
+      "level": "Full professional proficiency"
+    }
+  ],
+  "organizations": [],
+  "projects": [
+    {
+      "title": "IA for Tic Tac Toe",
+      "duration": "-"
+    }
+  ],
+  "awards": [],
+  "score": []
+}

@@ -1,0 +1,291 @@
+{
+    "fullName": "Leslie Duan",
+    "linkedin_internal_id": "506731729",
+    "first_name": "Leslie",
+    "last_name": "Duan",
+    "public_identifier": "leslie-duan-641853121",
+    "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQE9PJlo3Mf3dw/profile-displayphoto-shrink_200_200/B56Zb9W5ZaHcAY-/0/1748007360867?e=2147483647&v=beta&t=FfkPS5fcJj3ZahbkDFcu5dvVKyoF4bMBG4WVpboybGU",
+    "headline": "",
+    "location": "Dynnyrne, Tasmania, Australia",
+    "followers": "481 followers",
+    "connections": "481 connections",
+    "about": "Motivated full stack web developer with experience building web applications, focusing on…",
+    "experience": [
+        {
+            "company_name": "Integrated Marine Observing System",
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGA0Fhd9vvOyQ/company-logo_100_100/company-logo_100_100/0/1705542192964/imos_aus_logo?e=2147483647&v=beta&t=cxl7KVIuaee3d8_uhPyVOiuHPjrMIyWTO50wS5ToGyQ"
+        }
+    ],
+    "education": [],
+    "articles": [],
+    "description": {
+        "description1": "Integrated Marine Observing System",
+        "description1_link": "https://au.linkedin.com/company/imos_aus?trk=public_profile_topcard-current-company",
+        "description2": "University of Tasmania",
+        "description2_link": "https://au.linkedin.com/school/university-of-tasmania/?trk=public_profile_topcard-school",
+        "description3": "Personal Website",
+        "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fmy-portfolio-git-main-leslied41-d%2Evercel%2Eapp%2F&urlhash=7Cab&trk=public_profile_topcard-website"
+    },
+    "activities": [
+        {
+            "link": "https://www.linkedin.com/posts/umesh-ranasinghe_devops-career-milestone-activity-7333818361560080384-R1ek",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQGlGv4rc5LecA/feedshare-shrink_800/B56Zcb03y6GoAg-/0/1748518551521?e=2147483647&v=beta&t=g4RIU8t7YH-NwVr0POc8_W7_RXjanQ2JWPFTMNXTUa8",
+            "title": "Today marks one year since I began my journey as a DevOps Engineer at IMOS in Hobart – my first job in Australia and a major milestone both…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/akash-javali-57879375_javascript-cleancode-webdevelopment-activity-7330869799255719937-mJHE",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQG3CWMw-JkDaA/feedshare-shrink_2048_1536/B4DZbx7O3bGwAs-/0/1747815560108?e=2147483647&v=beta&t=VMZFcfX2oarfbcRfm6TbQWdOgdx1LbkcVuXDvHA9XSA",
+            "title": "Ever written something like this?\n\nif (user && user.profile && user.profile.email)\n\nLooks familiar—and messy, right?\n\nAs developers, we often deal…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/akanshu-dutt-481332196_webdevelopment-csstips-frontenddevelopment-activity-7320059918948990976-nI7U",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQE3CxgaKuDtNA/feedshare-shrink_800/B56ZZYTtQeGQAk-/0/1745238283831?e=2147483647&v=beta&t=fjyzCR2_zJ3SFzsyofIaV-_gWgvnyQMIuIR3ri_byck",
+            "title": "Still using vh in your CSS? You might be breaking mobile layouts! \n\n❌ 100vh looks like full height… but it’s not.\nOn mobile, it ignores the browser’s…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/vijay-singh94_mastering-http-status-codes-the-developer-activity-7309823922428878848-TS6l",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQGYs9Qi3Wl4eg/feedshare-shrink_1280/B56ZXG2GI7HsAk-/0/1742797831384?e=2147483647&v=beta&t=dSbVQWVV-kc6y_RRMJ7wanGTv7Tm2GjENNOkA_zZO-c",
+            "title": "🚀 Mastering HTTP Status Codes: The Developer’s Cheat Sheet 🚀\n\nEvery request on the web comes with a response. Understanding HTTP status codes helps…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/james-li-works_back-in-london-after-a-trip-to-essaouira-activity-7282744665475321856-68f8",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQH_uFTFE-t61A/feedshare-shrink_2048_1536/B4EZRGBhorGwAo-/0/1736341632920?e=2147483647&v=beta&t=Fja-lfWes7e14H5fYs888Cr2yg2kej_g7bRGcLbThSc",
+            "title": "Back in London after a trip to Essaouira. It’s a city full of sunshine, sea breezes, and cats who seem to have life figured out. 🐱\n\nFor the locals…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/rani-dhage_java-backend-javaresources-activity-7225750119416004608-RRmd",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQEn9BIqjc7xVw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1722753074108?e=2147483647&v=beta&t=hNZfOXd1tcWabo__PN3zziIBVU5WR63WsNd1NPH5f34",
+            "title": "Complete Roadmap to Become a Java Developer: \n\nLearn these things (preferably) in the given order:\n\n1. Core Java (fundamentals of Java programming…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/bytebytego_systemdesign-coding-interviewtips-activity-7185877537401524225-hYRN",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQE16IDcgazniA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1713246711260?e=2147483647&v=beta&t=wzjh8E4qrrmA11V29JzQ0rxJRNjmVd1WPZcmTC3nlhU",
+            "title": "Oauth 2.0 Explained With Simple Terms. \n. \n. \nOAuth 2.0 is a powerful and secure framework that allows different applications to securely interact…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/bytebytego_systemdesign-coding-interviewtips-activity-7182621639744880640-DNTc",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQFrp-WYJeYI4w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1712470444487?e=2147483647&v=beta&t=_J9PYSeERh_bYjQL9ET1AiToq_Fhpi1DU9M3v7WT3II",
+            "title": "Authentication in REST APIs acts as the crucial gateway, ensuring that solely authorized users or applications gain access to the API's resources.…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7176612759881560065-c-zE",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQEWeS_t6z9YTg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1711037815167?e=2147483647&v=beta&t=FXoOSypRb94Rt9Ek__BkSOAo8PVPTzp9kO1yhrvTpXo",
+            "title": "Session, Cookie, JWT, Token, SSO, and OAuth 2.0 Explained in One Diagram \n \nWhen you login to a website, your identity needs to be managed. Here is…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7181318298393817088-pDaK",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQFAtGWvsTspDw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1712159701950?e=2147483647&v=beta&t=pn45LdeR6i7fBxwuaMYi4K0sqoomWHu0b7wBC-l-KLU",
+            "title": "How does Javascript Work?\n\nThe cheat sheet below shows most important characteristics of Javascript.\n\n🔹 Interpreted Language\nJavaScript code is…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/bytebytego_systemdesign-coding-interviewtips-activity-7168504169115426816-AG_6",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQGEm5BGvoEgjQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1709104580726?e=2147483647&v=beta&t=1eDXX9TXzb9lWP37leJGxLiMJBqrPs3kx1eYXY6emMk",
+            "title": "How Do C++, Java, Python Work?\n.\n.\nThe diagram shows how the compilation and execution work.\n\nCompiled languages are compiled into machine code by…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7130234240918540288-a9c5",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQH8JG-8Gh6FBw/feedshare-shrink_800/feedshare-shrink_800/0/1699980315203?e=2147483647&v=beta&t=K2E8rSYJDf-2MrFbp4Frxosxj5X8qWq-g5PwPhOf8Io",
+            "title": "CAP, BASE, SOLID, KISS, What do these acronyms mean? \n. \n. \nThe diagram below explains the common acronyms in system designs. \n \n🔹 CAP \nCAP theorem…",
+            "activity": "Liked by Leslie Duan"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7124783349029613568-8H5d",
+            "image": "https://media.licdn.com/dms/image/v2/D4E22AQFsRES4RwiaLQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1698680730520?e=2147483647&v=beta&t=TFQPEjr8RpQQijMnC6kf9QZhGXT7gRqqzMIXqS_DB3Q",
+            "title": "Top 12 Tips for API Security \n. \n. \n- Use HTTPS \n- Use OAuth2 \n- Use WebAuthn \n- Use Leveled API Keys \n- Authorization \n- Rate Limiting \n- API…",
+            "activity": "Liked by Leslie Duan"
+        }
+    ],
+    "volunteering": [
+        {
+            "company_url": "https://au.linkedin.com/company/salvos-stores?trk=public_profile_volunteering-position_profile-section-card_image-click",
+            "company_position": "Sales Attendant",
+            "company_name": "Salvos Stores",
+            "company_duration": "",
+            "starts_at": "Jul 2020",
+            "ends_at": "Dec 2021"
+        }
+    ],
+    "certification": [],
+    "people_also_viewed": [
+        {
+            "link": "https://cn.linkedin.com/in/chanderguo?trk=public_profile_browsemap-profile",
+            "name": "Chander Guo",
+            "summary": "Co-Founder at BestQuay",
+            "location": "Changning District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/vincent-zhang-b38aab43?trk=public_profile_browsemap-profile",
+            "name": "Vincent Zhang",
+            "summary": "Co-CEO - Zhitang Technology",
+            "location": "Chaoyang District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/aaron-chang-7a64ab37?trk=public_profile_browsemap-profile",
+            "name": "Aaron Chang",
+            "summary": "Founder & CEO",
+            "location": "Chaoyang District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/tony-shi-33b35757?trk=public_profile_browsemap-profile",
+            "name": "Tony SHI",
+            "summary": "Link+ Architects - Managing Partner",
+            "location": "Jing'an District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/simon-lan-1bb33394?trk=public_profile_browsemap-profile",
+            "name": "Simon Lan",
+            "summary": "Co-founder \\​ VP",
+            "location": "Shanghai, China"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/frank-shan-095a415b/en?trk=public_profile_browsemap-profile",
+            "name": "Frank Shan",
+            "summary": "CEO",
+            "location": "Shanghai, China"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/quhaijia?trk=public_profile_browsemap-profile",
+            "name": "Adam Qu",
+            "summary": "Digital Advertising | Content Creator",
+            "location": "Changping District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/jordan-tang-29a89439?trk=public_profile_browsemap-profile",
+            "name": "Jordan Tang",
+            "summary": "Management Trainee In Maybelline Newyork Digital Marketing — 欧莱雅",
+            "location": "Hangzhou-Shaoxing Metropolitan Area"
+        },
+        {
+            "link": "https://sg.linkedin.com/in/laylaxu?trk=public_profile_browsemap-profile",
+            "name": "Layla Xu",
+            "summary": "",
+            "location": "Singapore"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/sam-wang-17110323?trk=public_profile_browsemap-profile",
+            "name": "Sam Wang",
+            "summary": "SpaceMax Co-Founder",
+            "location": "Jing'an District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/victor-zhang-a0135927?trk=public_profile_browsemap-profile",
+            "name": "victor zhang",
+            "summary": "",
+            "location": "Beijing, China"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/%E5%AD%90%E6%AD%A3-tony-huang-%E9%BB%84-677649bb?trk=public_profile_browsemap-profile",
+            "name": "子正 Tony Huang 黄",
+            "summary": "Co-Founder of HYPEREAL",
+            "location": "Xuhui District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/scenix?trk=public_profile_browsemap-profile",
+            "name": "Aaron Shao",
+            "summary": "Co Founder - Sonmol",
+            "location": "Minhang District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/%E4%BF%8A-%E8%83%A1-0974661b?trk=public_profile_browsemap-profile",
+            "name": "胡俊",
+            "summary": "广州乐摇摇信息科技有限公司 副总裁",
+            "location": "Guangzhou"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/bidit?trk=public_profile_browsemap-profile",
+            "name": "叶凯",
+            "summary": "Co-founder VP",
+            "location": "Haidian District"
+        },
+        {
+            "link": "https://hk.linkedin.com/in/risoliao?trk=public_profile_browsemap-profile",
+            "name": "Riso Liao",
+            "summary": "Co-Founder — sosovalue.com",
+            "location": "Hong Kong SAR"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/raymond-qingyuan-wang-7a657113?trk=public_profile_browsemap-profile",
+            "name": "Raymond (Qingyuan) Wang",
+            "summary": "Founder & CEO",
+            "location": "Chaoyang District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/netcer?trk=public_profile_browsemap-profile",
+            "name": "Jerry Shen",
+            "summary": "Co-founder",
+            "location": "Chaoyang District"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/ted-guo-43b3406a?trk=public_profile_browsemap-profile",
+            "name": "Ted GUO",
+            "summary": "Co-Founder at yinker.com",
+            "location": "Beijing, China"
+        }
+    ],
+    "similar_profiles": [
+        {
+            "link": "https://cn.linkedin.com/in/leslie-duan-24789a20b?trk=public_profile_samename-profile",
+            "name": "Leslie Duan",
+            "summary": "Choice & Chance- Export sales",
+            "location": "Changsha"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/leslie-duan-548bb2219?trk=public_profile_samename-profile",
+            "name": "Leslie Duan",
+            "summary": "--",
+            "location": "Changsha"
+        },
+        {
+            "link": "https://www.linkedin.com/in/leslie-duan-39b7155?trk=public_profile_samename-profile",
+            "name": "leslie Duan",
+            "summary": "dental hygienist at dr watson",
+            "location": "Newport Beach, CA"
+        },
+        {
+            "link": "https://cn.linkedin.com/in/leslie-duan-073ba32b7?trk=public_profile_samename-profile",
+            "name": "Leslie Duan",
+            "summary": "Assistant Editor at MDPI",
+            "location": "Tianjin, China"
+        }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [
+        {
+            "name": "English",
+            "level": "Professional working proficiency"
+        },
+        {
+            "name": "Mandarin",
+            "level": "Native or bilingual proficiency"
+        }
+    ],
+    "organizations": [],
+    "projects": [
+        {
+            "title": "Here and there",
+            "link": "https://www.hereandthere.hk/?trk=public_profile_project-title",
+            "duration": "Sep 2022 - Nov 2022"
+        },
+        {
+            "title": "Contemporary Art Gallery(Property Holdings Development Group)",
+            "link": "https://www.phdgroup.art/?trk=public_profile_project-title",
+            "duration": "Nov 2021 - Jan 2022"
+        }
+    ],
+    "awards": [],
+    "score": []
+}

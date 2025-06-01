@@ -1,138 +1,136 @@
-[
-  {
-    "fullName": "Rohit Parmar",
-    "linkedin_internal_id": "1063385288",
-    "first_name": "Rohit",
-    "last_name": "Parmar",
-    "public_identifier": "rohit-parmar-008161258",
-    "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
-    "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
-    "headline": "Student at SVKM's Dwarkadas J. Sanghvi College of Engineering's Artificial Intelligence and Data Science Department",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "66 followers",
-    "connections": "65 connections",
-    "about": "",
-    "experience": [
-      {}
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "Bachelor of Technology - BTech",
-        "college_degree_field": "Artificial Intelligence and data science",
-        "college_duration": "2022 - 2026",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "Dwarkadas J. Sanghvi College of Engineering",
-      "description1_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description2": ""
+{
+  "fullName": "Rohit Parmar",
+  "linkedin_internal_id": "1063385288",
+  "first_name": "Rohit",
+  "last_name": "Parmar",
+  "public_identifier": "rohit-parmar-008161258",
+  "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+  "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+  "headline": "Student at SVKM's Dwarkadas J. Sanghvi College of Engineering's Artificial Intelligence and Data Science Department",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "66 followers",
+  "connections": "65 connections",
+  "about": "",
+  "experience": [
+    {}
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "Bachelor of Technology - BTech",
+      "college_degree_field": "Artificial Intelligence and data science",
+      "college_duration": "2022 - 2026",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "Dwarkadas J. Sanghvi College of Engineering",
+    "description1_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description2": ""
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/speak-boost_responsibleinnovation-ai-ethicaltech-activity-7317412008906125312-NmoI",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQFFAxibZIh0tQ/feedshare-shrink_800/B4DZYyrYG_G4Ag-/0/1744606956071?e=2147483647&v=beta&t=zQs1zzwJf1ZPZy3jMoHmba3MP3mTxLmhYfP2zyaEtls",
+      "title": "🌟 Honored to Present at Responsible Innovation Day! 🌟\n\nWe are thrilled to share that our team had the incredible opportunity to present at the…",
+      "activity": "Liked by Rohit Parmar"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/speak-boost_responsibleinnovation-ai-ethicaltech-activity-7317412008906125312-NmoI",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFFAxibZIh0tQ/feedshare-shrink_800/B4DZYyrYG_G4Ag-/0/1744606956071?e=2147483647&v=beta&t=zQs1zzwJf1ZPZy3jMoHmba3MP3mTxLmhYfP2zyaEtls",
-        "title": "🌟 Honored to Present at Responsible Innovation Day! 🌟\n\nWe are thrilled to share that our team had the incredible opportunity to present at the…",
-        "activity": "Liked by Rohit Parmar"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/djsce_happy-to-inform-you-all-that-one-more-student-activity-7230461817146249216-TLan",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHllh7AksNL3g/feedshare-shrink_800/feedshare-shrink_800/0/1723876431917?e=2147483647&v=beta&t=3JCUnUC8oztbpTjMZ1oMpzr-UiHTVSGswt2nCILpipQ",
-        "title": "Happy to inform you all that  one more student ( Dhvani Thakkar, 2026 batch-Computer Engg. ) of our Institute has been placed at Google India for…",
-        "activity": "Liked by Rohit Parmar"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/vedantgavankar_machinelearning-computervision-ai-activity-7224224789131841537-IeNK",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQEQI3RWWvMvow/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1722353529779?e=2147483647&v=beta&t=2HShNL42B1kimTDBCN4geg8HsPw7yZVUNhgpzvLxVoU",
-        "title": "🎉 Thrilled to share a project I've been working on as part of my ML internship! 🎉 \n\n📌 Task: Develop a hand gesture recognition model that can…",
-        "activity": "Liked by Rohit Parmar"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/naman-rathod-a34a3628a_t20-world-cup-2024-matches-dataset-created-activity-7217494853125885954-0OS6",
-        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
-        "title": "T20 World Cup 2024 Matches Dataset created by me.\nhttps://lnkd.in/damjp6hS\n\nOverview\nThis dataset contains detailed information about T20 World Cup…",
-        "activity": "Liked by Rohit Parmar"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/owais012_leetcode-codingmilestone-gratitude-activity-7192251267467927554-3_zt",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQG8jHGoI6sn2Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1714766326375?e=2147483647&v=beta&t=Rew5QZ92tQYU34-UpmDp1Xdu1PVB9zSmXFPxoQZgsQE",
-        "title": "🚀 Just Reached a Milestone: 300 LeetCode Questions Completed! 🚀\nI'm thrilled to share a significant achievement in my coding journey today - I've…",
-        "activity": "Liked by Rohit Parmar"
-      }
-    ],
-    "volunteering": [],
-    "certification": [
-      {
-        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
-        "certification": "Fundamentals of Deep Learning",
-        "company_url": "https://courses.nvidia.com/certificates/a4635277e0d04b19a3c4bddec276a00b/?trk=public_profile_certification-title",
-        "company_name": "NVIDIA",
-        "issue_date": "Issued Mar 2024",
-        "credential_id": "Credential ID a4635277e0d04b19a3c4bddec276a00b",
-        "credential_url": "https://courses.nvidia.com/certificates/a4635277e0d04b19a3c4bddec276a00b/?trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/rohitparmar1984?trk=public_profile_samename-profile",
-        "name": "Rohit Parmar",
-        "summary": "",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rohit-parmar-180b255?trk=public_profile_samename-profile",
-        "name": "Rohit Parmar",
-        "summary": "Senior Associate Director - Highway",
-        "location": "Bengaluru"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rohit-parmar-304aa1138?trk=public_profile_samename-profile",
-        "name": "Rohit Parmar",
-        "summary": "",
-        "location": "Bangalore Urban"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rohit-parmar-71b63bb1?trk=public_profile_samename-profile",
-        "name": "Rohit parmar",
-        "summary": "",
-        "location": "Delhi, India"
-      },
-      {
-        "link": "https://in.linkedin.com/in/rohit-parmar-ab4b3186?trk=public_profile_samename-profile",
-        "name": "Rohit Parmar",
-        "summary": "DevOps Lead at Thales DIS India",
-        "location": "Ghaziabad"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [
-      {
-        "name": "English",
-        "level": "-"
-      },
-      {
-        "name": "Hindi",
-        "level": "-"
-      },
-      {
-        "name": "Marathi",
-        "level": "Elementary proficiency"
-      },
-      {
-        "name": "Marwari",
-        "level": "Limited working proficiency"
-      }
-    ],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "link": "https://www.linkedin.com/posts/djsce_happy-to-inform-you-all-that-one-more-student-activity-7230461817146249216-TLan",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHllh7AksNL3g/feedshare-shrink_800/feedshare-shrink_800/0/1723876431917?e=2147483647&v=beta&t=3JCUnUC8oztbpTjMZ1oMpzr-UiHTVSGswt2nCILpipQ",
+      "title": "Happy to inform you all that  one more student ( Dhvani Thakkar, 2026 batch-Computer Engg. ) of our Institute has been placed at Google India for…",
+      "activity": "Liked by Rohit Parmar"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/vedantgavankar_machinelearning-computervision-ai-activity-7224224789131841537-IeNK",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQEQI3RWWvMvow/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1722353529779?e=2147483647&v=beta&t=2HShNL42B1kimTDBCN4geg8HsPw7yZVUNhgpzvLxVoU",
+      "title": "🎉 Thrilled to share a project I've been working on as part of my ML internship! 🎉 \n\n📌 Task: Develop a hand gesture recognition model that can…",
+      "activity": "Liked by Rohit Parmar"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/naman-rathod-a34a3628a_t20-world-cup-2024-matches-dataset-created-activity-7217494853125885954-0OS6",
+      "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+      "title": "T20 World Cup 2024 Matches Dataset created by me.\nhttps://lnkd.in/damjp6hS\n\nOverview\nThis dataset contains detailed information about T20 World Cup…",
+      "activity": "Liked by Rohit Parmar"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/owais012_leetcode-codingmilestone-gratitude-activity-7192251267467927554-3_zt",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQG8jHGoI6sn2Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1714766326375?e=2147483647&v=beta&t=Rew5QZ92tQYU34-UpmDp1Xdu1PVB9zSmXFPxoQZgsQE",
+      "title": "🚀 Just Reached a Milestone: 300 LeetCode Questions Completed! 🚀\nI'm thrilled to share a significant achievement in my coding journey today - I've…",
+      "activity": "Liked by Rohit Parmar"
+    }
+  ],
+  "volunteering": [],
+  "certification": [
+    {
+      "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+      "certification": "Fundamentals of Deep Learning",
+      "company_url": "https://courses.nvidia.com/certificates/a4635277e0d04b19a3c4bddec276a00b/?trk=public_profile_certification-title",
+      "company_name": "NVIDIA",
+      "issue_date": "Issued Mar 2024",
+      "credential_id": "Credential ID a4635277e0d04b19a3c4bddec276a00b",
+      "credential_url": "https://courses.nvidia.com/certificates/a4635277e0d04b19a3c4bddec276a00b/?trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/rohitparmar1984?trk=public_profile_samename-profile",
+      "name": "Rohit Parmar",
+      "summary": "",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rohit-parmar-180b255?trk=public_profile_samename-profile",
+      "name": "Rohit Parmar",
+      "summary": "Senior Associate Director - Highway",
+      "location": "Bengaluru"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rohit-parmar-304aa1138?trk=public_profile_samename-profile",
+      "name": "Rohit Parmar",
+      "summary": "",
+      "location": "Bangalore Urban"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rohit-parmar-71b63bb1?trk=public_profile_samename-profile",
+      "name": "Rohit parmar",
+      "summary": "",
+      "location": "Delhi, India"
+    },
+    {
+      "link": "https://in.linkedin.com/in/rohit-parmar-ab4b3186?trk=public_profile_samename-profile",
+      "name": "Rohit Parmar",
+      "summary": "DevOps Lead at Thales DIS India",
+      "location": "Ghaziabad"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [
+    {
+      "name": "English",
+      "level": "-"
+    },
+    {
+      "name": "Hindi",
+      "level": "-"
+    },
+    {
+      "name": "Marathi",
+      "level": "Elementary proficiency"
+    },
+    {
+      "name": "Marwari",
+      "level": "Limited working proficiency"
+    }
+  ],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

@@ -1,99 +1,97 @@
-[
-  {
-    "fullName": "Sakshi Patel",
-    "linkedin_internal_id": "1311933828",
-    "first_name": "Sakshi",
-    "last_name": "Patel",
-    "public_identifier": "sakshi-patel-b70444307",
-    "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQHDFgm-kEEuFA/profile-displayphoto-shrink_200_200/B4DZZDNdMKG8Ao-/0/1744884323921?e=2147483647&v=beta&t=OqL5_nMlEi4BxQu2yD-0d9ujqsZ-R1AytJq2AvKXYPE",
-    "headline": "Student at Dwarkadas J. Sanghvi College of Engineering",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "25 followers",
-    "connections": "25 connections",
-    "about": "",
-    "experience": [
-      {}
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "",
-        "college_degree_field": null,
-        "college_duration": "2022 - 2026",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "Dwarkadas J. Sanghvi College of Engineering",
-      "description1_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description2": ""
+{
+  "fullName": "Sakshi Patel",
+  "linkedin_internal_id": "1311933828",
+  "first_name": "Sakshi",
+  "last_name": "Patel",
+  "public_identifier": "sakshi-patel-b70444307",
+  "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+  "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQHDFgm-kEEuFA/profile-displayphoto-shrink_200_200/B4DZZDNdMKG8Ao-/0/1744884323921?e=2147483647&v=beta&t=OqL5_nMlEi4BxQu2yD-0d9ujqsZ-R1AytJq2AvKXYPE",
+  "headline": "Student at Dwarkadas J. Sanghvi College of Engineering",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "25 followers",
+  "connections": "25 connections",
+  "about": "",
+  "experience": [
+    {}
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "",
+      "college_degree_field": null,
+      "college_duration": "2022 - 2026",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "Dwarkadas J. Sanghvi College of Engineering",
+    "description1_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description2": ""
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/djsce_glad-to-inform-you-all-that-ateam-name-activity-7308016549028634625-b9mh",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQEqBQHrMNtXbg/feedshare-shrink_800/B4DZWtKU1xHAAg-/0/1742366920912?e=2147483647&v=beta&t=p-0i13S086O2H7M7Rt3Kj6eT4u3jV2ADlnoHsAZYXGA",
+      "title": "Glad to inform you all that a team ( name: Ctrl Alt Elite) of  following students of our Institute has won *First Prize* in \"All Females Category\" at…",
+      "activity": "Liked by Sakshi Patel"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/djsce_glad-to-inform-you-all-that-ateam-name-activity-7308016549028634625-b9mh",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEqBQHrMNtXbg/feedshare-shrink_800/B4DZWtKU1xHAAg-/0/1742366920912?e=2147483647&v=beta&t=p-0i13S086O2H7M7Rt3Kj6eT4u3jV2ADlnoHsAZYXGA",
-        "title": "Glad to inform you all that a team ( name: Ctrl Alt Elite) of  following students of our Institute has won *First Prize* in \"All Females Category\" at…",
-        "activity": "Liked by Sakshi Patel"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/arya-gawde-a855b4262_codeinplace-python-codingjourney-activity-7300581635542941696-4nGs",
-        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
-        "title": "I began my coding journey with Code in Place  (CIP)! My introduction to Python was truly special, thanks to an interesting friend—Karel the Robot…",
-        "activity": "Liked by Sakshi Patel"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/djsce_extremely-happy-to-inform-you-all-that-our-activity-7288889374077775875-1D-j",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGz3DvL8E--ow/feedshare-shrink_800/B4DZSdWQG0G4Ag-/0/1737806646093?e=2147483647&v=beta&t=L3HNlzsbxNxEn-vyD83Sv3U2Jz9WEUqHy4vrsbW0-XY",
-        "title": "Extremely happy to inform you all that our Institute(DJSCE) has been awarded as the \"Top Engg. Institute - Rank no. 1\" by Times Education Icons…",
-        "activity": "Liked by Sakshi Patel"
-      }
-    ],
-    "volunteering": [],
-    "certification": [],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/sakshi-patel-88a904171?trk=public_profile_samename-profile",
-        "name": "Sakshi Patel",
-        "summary": "",
-        "location": "Mumbai Metropolitan Region"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sakshi-patel-17745921b?trk=public_profile_samename-profile",
-        "name": "Sakshi Patel",
-        "summary": "HR Professional | Talent Management | People-Centric Solutions for Growth",
-        "location": "Indore"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sakshipatel06?trk=public_profile_samename-profile",
-        "name": "Sakshi Patel",
-        "summary": "DevOps Engineer | 6+Yr Expertise in Cloud (AWS, Azure) | Kubernetes, Docker, Terraform | CI/CD | Automation(Python/PowerShell) | DevSecOps | Cloud Monitoring | PaaS | IaaS | IaC | Open to Relocate",
-        "location": "Hyderabad"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sakshi-patel-636b80176?trk=public_profile_samename-profile",
-        "name": "Sakshi Patel",
-        "summary": "Recruitment Specialist at J.P. Morgan",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/sakshi-patel-660418193?trk=public_profile_samename-profile",
-        "name": "SAKSHI PATEL",
-        "summary": "Senior quality engineer | Rakuten",
-        "location": "Khandwa"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "link": "https://www.linkedin.com/posts/arya-gawde-a855b4262_codeinplace-python-codingjourney-activity-7300581635542941696-4nGs",
+      "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+      "title": "I began my coding journey with Code in Place  (CIP)! My introduction to Python was truly special, thanks to an interesting friend—Karel the Robot…",
+      "activity": "Liked by Sakshi Patel"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/djsce_extremely-happy-to-inform-you-all-that-our-activity-7288889374077775875-1D-j",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGz3DvL8E--ow/feedshare-shrink_800/B4DZSdWQG0G4Ag-/0/1737806646093?e=2147483647&v=beta&t=L3HNlzsbxNxEn-vyD83Sv3U2Jz9WEUqHy4vrsbW0-XY",
+      "title": "Extremely happy to inform you all that our Institute(DJSCE) has been awarded as the \"Top Engg. Institute - Rank no. 1\" by Times Education Icons…",
+      "activity": "Liked by Sakshi Patel"
+    }
+  ],
+  "volunteering": [],
+  "certification": [],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/sakshi-patel-88a904171?trk=public_profile_samename-profile",
+      "name": "Sakshi Patel",
+      "summary": "",
+      "location": "Mumbai Metropolitan Region"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sakshi-patel-17745921b?trk=public_profile_samename-profile",
+      "name": "Sakshi Patel",
+      "summary": "HR Professional | Talent Management | People-Centric Solutions for Growth",
+      "location": "Indore"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sakshipatel06?trk=public_profile_samename-profile",
+      "name": "Sakshi Patel",
+      "summary": "DevOps Engineer | 6+Yr Expertise in Cloud (AWS, Azure) | Kubernetes, Docker, Terraform | CI/CD | Automation(Python/PowerShell) | DevSecOps | Cloud Monitoring | PaaS | IaaS | IaC | Open to Relocate",
+      "location": "Hyderabad"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sakshi-patel-636b80176?trk=public_profile_samename-profile",
+      "name": "Sakshi Patel",
+      "summary": "Recruitment Specialist at J.P. Morgan",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/sakshi-patel-660418193?trk=public_profile_samename-profile",
+      "name": "SAKSHI PATEL",
+      "summary": "Senior quality engineer | Rakuten",
+      "location": "Khandwa"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

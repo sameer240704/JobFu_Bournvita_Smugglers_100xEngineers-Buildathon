@@ -1,56 +1,54 @@
-[
-  {
-    "fullName": "Jenish Boricha",
-    "linkedin_internal_id": "825484074",
-    "first_name": "Jenish",
-    "last_name": "Boricha",
-    "public_identifier": "jenish-boricha-8365521b0",
-    "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
-    "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
-    "headline": "--",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "31 followers",
-    "connections": "31 connections",
-    "about": "",
-    "experience": [
-      {}
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "Bachelor of Engineering - BE",
-        "college_degree_field": "Artificial Intelligence & Data Science",
-        "college_duration": "2022 - 2026",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "Dwarkadas J. Sanghvi College of Engineering",
-      "description1_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description2": ""
-    },
-    "activities": [],
-    "volunteering": [],
-    "certification": [],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/jenish-boricha-ba8abb367?trk=public_profile_samename-profile",
-        "name": "Jenish Boricha",
-        "summary": "Student at SDJ International College",
-        "location": "Surat"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+{
+  "fullName": "Jenish Boricha",
+  "linkedin_internal_id": "825484074",
+  "first_name": "Jenish",
+  "last_name": "Boricha",
+  "public_identifier": "jenish-boricha-8365521b0",
+  "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+  "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+  "headline": "--",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "31 followers",
+  "connections": "31 connections",
+  "about": "",
+  "experience": [
+    {}
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "Bachelor of Engineering - BE",
+      "college_degree_field": "Artificial Intelligence & Data Science",
+      "college_duration": "2022 - 2026",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "Dwarkadas J. Sanghvi College of Engineering",
+    "description1_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description2": ""
+  },
+  "activities": [],
+  "volunteering": [],
+  "certification": [],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/jenish-boricha-ba8abb367?trk=public_profile_samename-profile",
+      "name": "Jenish Boricha",
+      "summary": "Student at SDJ International College",
+      "location": "Surat"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

@@ -1,252 +1,250 @@
-[
-  {
-    "fullName": "Parth Jain",
-    "linkedin_internal_id": "739801098",
-    "first_name": "Parth",
-    "last_name": "Jain",
-    "public_identifier": "parthjain18",
-    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQHvjdYRj1EqLw/profile-displaybackgroundimage-shrink_200_800/B4DZWIW9CFG4AU-/0/1741749475213?e=2147483647&v=beta&t=ADCpLQVQ927dx3yaOQdNivjRGAtv1xjWSGINZd49l5M",
-    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQG1CGwm7PUQmQ/profile-displayphoto-shrink_200_200/B4DZYG_cCTG8AY-/0/1743874016722?e=2147483647&v=beta&t=V40dpQDfsp1w6HHjZ1faAayYbalS7k4ZAPYPwLQg-kQ",
-    "headline": "Research Intern @ e-Yantra, IIT Bombay | eYRC 23-24 Finalist | App Development | Python",
-    "location": "Palghar, Maharashtra, India",
-    "followers": "755 followers",
-    "connections": "500+ connections",
-    "about": "Aspiring AI and Software Engineer with hands-on experience in research, full-stack development, android development, and building AI-powered tools to solve real-world problems.Check out my portfolio: https://parthjain.works",
-    "experience": [
-      {
-        "position": "Research Intern",
-        "company_url": "https://in.linkedin.com/company/e-yantraiitb?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQG3ekbvxBgZ9A/company-logo_100_100/company-logo_100_100/0/1631396398590/e_yantra_logo?e=2147483647&v=beta&t=IgyNCna0TlcvQC1W_31mYxeozEFPE7i0DqH7QYitjDg",
-        "company_name": "e-Yantra, IIT Bombay",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "May 2025",
-        "ends_at": "Present",
-        "duration": "2 months"
-      },
-      {
-        "position": "Research and Data Analyst Intern",
-        "company_url": "https://in.linkedin.com/company/e-yantraiitb?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQG3ekbvxBgZ9A/company-logo_100_100/company-logo_100_100/0/1631396398590/e_yantra_logo?e=2147483647&v=beta&t=IgyNCna0TlcvQC1W_31mYxeozEFPE7i0DqH7QYitjDg",
-        "company_name": "e-Yantra, IIT Bombay",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "Analyzed user interactions on an educational platform.Developed a robust data pipeline to generate logs from videos. Utilized Python, OpenCV, OCR, and process mining tools to extract insights, visualize user behaviors, and assess resource effectiveness.",
-        "starts_at": "May 2024",
-        "ends_at": "Jul 2024",
-        "duration": "3 months"
-      },
-      {
-        "position": "Back End Developer",
-        "company_url": "https://in.linkedin.com/company/engaze-in?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQELwGeX07ccXg/company-logo_100_100/company-logo_100_100/0/1719257119297/engaze_in_logo?e=2147483647&v=beta&t=sjbWpC9wFLEzcqkxg2Te4N7wWhJ1uoPQ4EceP3e61Hs",
-        "company_name": "Engaze",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "Worked on creating and testing APIs using Node JS, and Mongo DB",
-        "starts_at": "Dec 2023",
-        "ends_at": "Jan 2024",
-        "duration": "2 months"
-      },
-      {
-        "position": "Android Developer",
-        "company_url": "https://in.linkedin.com/school/sndt-pg-dept-cs/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQH360PY7dq8bw/company-logo_100_100/company-logo_100_100/0/1644307822196/sndt_pg_dept_cs_logo?e=2147483647&v=beta&t=2IQHvoEkTNeyRmK4PdbD-5Is-wKmHRM1StVQIMC6n0Q",
-        "company_name": "SNDT Women's University - P. G. Department of Computer Science",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "Built an android application using Kotlin and Jetpack Compose Library called COPD-Asthma Healthcare.Worked with location services, Google Firebase, Geofencing API, Weather API, etc.",
-        "starts_at": "Jul 2023",
-        "ends_at": "Sep 2023",
-        "duration": "3 months"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Atharva College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQFun_IrhG4fbQ/company-logo_100_100/company-logo_100_100/0/1649437849911?e=2147483647&v=beta&t=sAdPDmzLHfdgZNAJAEt3BDxEovHVFrIoqcdFeJSnyXQ",
-        "college_degree": "Bachelor of Engineering - BE",
-        "college_degree_field": "9.04 GPA",
-        "college_duration": "2021 - 2025",
-        "college_activity": ""
-      },
-      {
-        "college_name": "Sundaram Central School, Palghar",
-        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
-        "college_degree": "SSC",
-        "college_degree_field": "94%",
-        "college_duration": " - ",
-        "college_activity": ""
-      },
-      {
-        "college_name": "Maharashtra State Board of Secondary and Higher Secondary Education",
-        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
-        "college_degree": "HSC (XII)",
-        "college_degree_field": "Science",
-        "college_duration": "2021 - 2021",
-        "college_activity": "Percentage: 93.17%"
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "e-Yantra, IIT Bombay",
-      "description1_link": "https://in.linkedin.com/company/e-yantraiitb?trk=public_profile_topcard-current-company",
-      "description2": "Atharva College of Engineering",
-      "description2_link": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_topcard-school",
-      "description3": "Portfolio",
-      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fparthjain%2Eworks&urlhash=hrV3&trk=public_profile_topcard-website"
+{
+  "fullName": "Parth Jain",
+  "linkedin_internal_id": "739801098",
+  "first_name": "Parth",
+  "last_name": "Jain",
+  "public_identifier": "parthjain18",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQHvjdYRj1EqLw/profile-displaybackgroundimage-shrink_200_800/B4DZWIW9CFG4AU-/0/1741749475213?e=2147483647&v=beta&t=ADCpLQVQ927dx3yaOQdNivjRGAtv1xjWSGINZd49l5M",
+  "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQG1CGwm7PUQmQ/profile-displayphoto-shrink_200_200/B4DZYG_cCTG8AY-/0/1743874016722?e=2147483647&v=beta&t=V40dpQDfsp1w6HHjZ1faAayYbalS7k4ZAPYPwLQg-kQ",
+  "headline": "Research Intern @ e-Yantra, IIT Bombay | eYRC 23-24 Finalist | App Development | Python",
+  "location": "Palghar, Maharashtra, India",
+  "followers": "755 followers",
+  "connections": "500+ connections",
+  "about": "Aspiring AI and Software Engineer with hands-on experience in research, full-stack development, android development, and building AI-powered tools to solve real-world problems.Check out my portfolio: https://parthjain.works",
+  "experience": [
+    {
+      "position": "Research Intern",
+      "company_url": "https://in.linkedin.com/company/e-yantraiitb?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C510BAQG3ekbvxBgZ9A/company-logo_100_100/company-logo_100_100/0/1631396398590/e_yantra_logo?e=2147483647&v=beta&t=IgyNCna0TlcvQC1W_31mYxeozEFPE7i0DqH7QYitjDg",
+      "company_name": "e-Yantra, IIT Bombay",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "May 2025",
+      "ends_at": "Present",
+      "duration": "2 months"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/asim-shah-64b5b2265_hackathon-hardwarehackathon-softwarehackathon-activity-7322247658121650176-DBGB",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGb7S4F1691CQ/feedshare-shrink_2048_1536/B4DZZ3ZbtmHwAo-/0/1745759880522?e=2147483647&v=beta&t=zT-ZZplJuNkrQj4lKMKeXCL4v-Vil9nFsl6HZxg3CEc",
-        "title": "🚀 Winning my first hardware + software hackathon — one of the most challenging and rewarding experiences!\n\nAfter winning 9 hackathons focused mainly…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/raj-patil-a492a1155_smartindiahackathon-sih2023-ntro-activity-7318630684753903616-0XH6",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQG5AX8rxMFYew/feedshare-shrink_800/B4DZZD_zgVG4Ao-/0/1744897526699?e=2147483647&v=beta&t=P0DrbvYRuIej8lYuRbEhZzp5DwkoEvOeBK4b1iyMmnA",
-        "title": "Hey folks, 𝐈 𝐫𝐞𝐜𝐞𝐧𝐭𝐥𝐲 𝐦𝐚𝐝𝐞 𝐢𝐭 𝐭𝐨 𝐭𝐡𝐞 𝐆𝐫𝐚𝐧𝐝 𝐅𝐢𝐧𝐚𝐥𝐞 of Smart India Hackathon 𝟐𝟎𝟐𝟒, securing a spot among the 𝐭𝐨𝐩…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/rohan-verma-sde_github-modsettersurfsense-open-source-activity-7316227911697473537-F0U_",
-        "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQHUWEbCdUpD3Q/articleshare-shrink_1280_800/B4DZcHR1VmIEAU-/0/1748173805304?e=2147483647&v=beta&t=AkKvGxo3T-OWX9uD5HLPEaMm6PPvn8Qcy-HlfO4uim4",
-        "title": "Super Excited to say that SurfSense (https://lnkd.in/gKy9C-e6) is selected for Open Core Ventures Open Source Sponsorship Program. Next few months…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/soham-bakkar_mangodb-hackathon-iot-activity-7314870317926010881-A1cY",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFKbb48c35DQA/feedshare-shrink_800/B4EZYOjwLXHgAg-/0/1744000984594?e=2147483647&v=beta&t=DTbs7UNfqrguCULVMgCFZS8vjpO7CZtTuffbLFMkbXg",
-        "title": "🏆 𝗧𝗵𝗿𝗶𝗹𝗹𝗲𝗱 𝘁𝗼 𝗮𝗻𝗻𝗼𝘂𝗻𝗰𝗲 𝘁𝗵𝗮𝘁 𝗼𝘂𝗿 𝘁𝗲𝗮𝗺 #𝗠𝗮𝗻𝗴𝗼𝗗𝗕 𝘄𝗼𝗻 𝗳𝗶𝗿𝘀𝘁 𝗽𝗹𝗮𝗰𝗲 𝗮𝘁 𝗨𝗡𝗣𝗟𝗨𝗚𝗚𝗘𝗗 𝟮.𝟬…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/ram-passi-6a8aa8288_indianinstituteoftechnologybombay-iitbombay-activity-7314119602584625152-7_6F",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGX1QJe3ZUmiQ/feedshare-shrink_1280/B4DZYCIKMBG4Ak-/0/1743792419265?e=2147483647&v=beta&t=xj52_fPnRqfgtl-lgTzVbOB_ztKH9mTEsT9XszizlMM",
-        "title": "I am beyond excited to share that after 7 months of relentless effort and countless sleepless nights our team- Vedant Ravnang, Anjali Aji, and…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/salosojaedwin_robotics-dronetech-ros2-activity-7312326410449088512-SF5D",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQGacy9PMSW2XA/feedshare-shrink_800/B56ZXqaHkRGoAg-/0/1743394471032?e=2147483647&v=beta&t=edRAcWk4_-uTZoZ2j1OYMvLYIJ_5sXOgGN5qa0KzLJA",
-        "title": "🚀 e-Yantra Robotics Competition 2024-25: Top 5 Finalists! 🎉\nAfter months of dedication, problem-solving, and hands-on robotics, our team made it to…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/jigneshshah110_k8sug-active-k8s-ai-meetup-facebook-activity-7310251634603782146-EmOL",
-        "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQE0Wlax62jxzA/articleshare-shrink_800/articleshare-shrink_800/0/1741134326407?e=2147483647&v=beta&t=B4CCg4PGjJwf1zwgm1KbhmBUOLoUGAmzEJ6Dc4sA7BQ",
-        "title": "🎉 Thrilled to Announce: March 2025 Share the Joy 100%! 🎉\nI’m incredibly honored to share that I’ve been selected as one of the winners for the…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/martin-sit_we-built-cursor-for-3d-modeling-winning-activity-7309937061094989824-NTep",
-        "image": "https://media.licdn.com/dms/image/v2/D5605AQFq6ypvDondHg/videocover-high/B56ZXGUIW.GsBs-/0/1742788925976?e=2147483647&v=beta&t=laFeAVpwkCq6ZIQGzdhCvDlsKhTGonCkCpGfi03diQQ",
-        "title": "👇 We built Cursor for 3D modeling, winning at Canada's largest AI hackathon!\n\nWhat if you could turn your roughest sketches into not just 3D models,…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/harjot-singh-raith-779a7028b_research-compute2024-acmindia-activity-7309895616057253888-kf8z",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHa-NwrUxyKCA/feedshare-shrink_2048_1536/B4DZXH3TO9HAAo-/0/1742814924184?e=2147483647&v=beta&t=1LCjS8HSjNJixrrkeD4gRvuGtg1u0w20K-Nm8UOlAII",
-        "title": "🚀 Thrilled to Announce My First Research Paper Publication! 🎉\n\nI’m excited to share that my first research paper has been published as part of…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/asim-shah-64b5b2265_spithackathon2025-aiml-domainwinners-activity-7301836166088024066-JoUb",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGFRWHzDoGVjw/feedshare-shrink_2048_1536/B4DZVOtmQNHkAo-/0/1740782333957?e=2147483647&v=beta&t=MtkrfeoCXMlV-nVEsmGcbd6uMIJQ-uvflvTWytSvVtM",
-        "title": "🏆 Winners at SPIT Hackathon 2025 AIML Track! 🏆\n\nIncredibly proud to announce that my team Vinayak Bhatia,Ninad Maadhavi and Ruchir Khare and I…",
-        "activity": "Liked by Parth Jain"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/joachim-schork_datavisualization-statistics-datasciencecourse-activity-7306465773307244544-DoJ4",
-        "image": "https://media.licdn.com/dms/image/v2/D4E10AQH-x8ZLJyPe4w/image-shrink_800/B4EZWXHzgcGwAg-/0/1741997167685?e=2147483647&v=beta&t=tqT6SldHfCPzmauA4WACmPrhLr061PWP7cpUVHHiQ9g",
-        "title": "Ever wanted to create custom data sets by just drawing them? The drawdata Python library lets you do just that directly in Jupyter, VSCode, and…",
-        "activity": "Liked by Parth Jain"
-      }
-    ],
-    "volunteering": [
-      {
-        "company_url": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_volunteering-position_profile-section-card_image-click",
-        "company_position": "Technical Team Member",
-        "company_name": "Atharva College of Engineering",
-        "company_duration": "",
-        "starts_at": "Mar 2024",
-        "ends_at": "Apr 2024"
-      }
-    ],
-    "certification": [
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
-        "certification": "Advanced Learning Algorithms",
-        "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "DeepLearning.AI",
-        "issue_date": "Issued Mar 2025",
-        "credential_id": "Credential ID XLXFQGG1JTEE",
-        "credential_url": "https://www.coursera.org/account/accomplishments/verify/XLXFQGG1JTEE?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
-        "certification": "Supervised Machine Learning: Regression and Classification",
-        "company_url": "https://www.coursera.org/account/accomplishments/records/NWC74X3ACG9M?trk=public_profile_certification-title",
-        "company_name": "DeepLearning.AI, Stanford University",
-        "issue_date": "Issued Mar 2025",
-        "credential_id": "Credential ID NWC74X3ACG9M",
-        "credential_url": "https://www.coursera.org/account/accomplishments/records/NWC74X3ACG9M?trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/parth-jain-010487245?trk=public_profile_samename-profile",
-        "name": "Parth Jain",
-        "summary": "Poker & RMG | 2 Million Views | Founder at YourContentStudio",
-        "location": "Mumbai"
-      },
-      {
-        "link": "https://in.linkedin.com/in/parthjain2000?trk=public_profile_samename-profile",
-        "name": "Parth J.",
-        "summary": "ION | Connecting Talent to Opportunity | Talent Partner(India) | FSM'25 | Corporate Research Founding member | SIG-HR Senior Member | HPAIR ACONF '24 | Certified KPMG Green belt | Unicharm Intern | Strategic Undertaking",
-        "location": "Delhi, India"
-      },
-      {
-        "link": "https://in.linkedin.com/in/parth-jain247?trk=public_profile_samename-profile",
-        "name": "Parth Jain",
-        "summary": "Senior Data Science Analyst | Python Developer | MERN Developer",
-        "location": "Delhi, India"
-      },
-      {
-        "link": "https://in.linkedin.com/in/parth-jain-here?trk=public_profile_samename-profile",
-        "name": "Parth Jain",
-        "summary": "Product Design Innovator @ Koshpal | Building Fintech Where Money Makes Sense | UI/UX Designer",
-        "location": "Rajasthan, India"
-      }
-    ],
-    "recommendations": [],
-    "publications": [
-      {
-        "name": "Enhancing and Analyzing Log Generation for Collaborative Problem-Solving Activities: Video Analysis and OCR  Techniques",
-        "sub_title": "Springer Nature",
-        "summary": "This study explores the use of video analysis and Optical Character Recognition (OCR) to generate accurate logs for tracking user search behaviors for external resources during collaborative problem-solving activities on the RoboReady educational platform. The research included 15 teams of engineering students who interacted with a website designed around the PISA 2015 collaborative problem-solving framework. Video recordings of the user’s screens were analyzed using image processing and OCR to…\n            \n\n    \n    \n\n    \n        Show more",
-        "date": "March 13, 2025",
-        "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flink%2Espringer%2Ecom%2Fchapter%2F10%2E1007%2F978-3-031-84391-4_11&urlhash=leZ1&trk=public_profile_publication-title"
-      }
-    ],
-    "courses": [],
-    "languages": [],
-    "organizations": [],
-    "projects": [],
-    "awards": [
-      {
-        "name": "Winner of UNPLUGGED 2.0 hackathon",
-        "organization": "Dwarkadas J. Sanghvi College of Engineering",
-        "duration": "Mar 2025",
-        "summary": "Secured first position at UNPLUGGED 2.0 hackathon at Dwarkadas J. Sanghvi College of Engineering."
-      },
-      {
-        "name": "AIR 5 at E-Yantra Robotics Competition, IIT Bombay",
-        "organization": "IIT Bombay",
-        "duration": "Mar 2024",
-        "summary": ""
-      }
-    ],
-    "score": []
-  }
-]
+    {
+      "position": "Research and Data Analyst Intern",
+      "company_url": "https://in.linkedin.com/company/e-yantraiitb?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C510BAQG3ekbvxBgZ9A/company-logo_100_100/company-logo_100_100/0/1631396398590/e_yantra_logo?e=2147483647&v=beta&t=IgyNCna0TlcvQC1W_31mYxeozEFPE7i0DqH7QYitjDg",
+      "company_name": "e-Yantra, IIT Bombay",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "Analyzed user interactions on an educational platform.Developed a robust data pipeline to generate logs from videos. Utilized Python, OpenCV, OCR, and process mining tools to extract insights, visualize user behaviors, and assess resource effectiveness.",
+      "starts_at": "May 2024",
+      "ends_at": "Jul 2024",
+      "duration": "3 months"
+    },
+    {
+      "position": "Back End Developer",
+      "company_url": "https://in.linkedin.com/company/engaze-in?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQELwGeX07ccXg/company-logo_100_100/company-logo_100_100/0/1719257119297/engaze_in_logo?e=2147483647&v=beta&t=sjbWpC9wFLEzcqkxg2Te4N7wWhJ1uoPQ4EceP3e61Hs",
+      "company_name": "Engaze",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "Worked on creating and testing APIs using Node JS, and Mongo DB",
+      "starts_at": "Dec 2023",
+      "ends_at": "Jan 2024",
+      "duration": "2 months"
+    },
+    {
+      "position": "Android Developer",
+      "company_url": "https://in.linkedin.com/school/sndt-pg-dept-cs/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQH360PY7dq8bw/company-logo_100_100/company-logo_100_100/0/1644307822196/sndt_pg_dept_cs_logo?e=2147483647&v=beta&t=2IQHvoEkTNeyRmK4PdbD-5Is-wKmHRM1StVQIMC6n0Q",
+      "company_name": "SNDT Women's University - P. G. Department of Computer Science",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "Built an android application using Kotlin and Jetpack Compose Library called COPD-Asthma Healthcare.Worked with location services, Google Firebase, Geofencing API, Weather API, etc.",
+      "starts_at": "Jul 2023",
+      "ends_at": "Sep 2023",
+      "duration": "3 months"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Atharva College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQFun_IrhG4fbQ/company-logo_100_100/company-logo_100_100/0/1649437849911?e=2147483647&v=beta&t=sAdPDmzLHfdgZNAJAEt3BDxEovHVFrIoqcdFeJSnyXQ",
+      "college_degree": "Bachelor of Engineering - BE",
+      "college_degree_field": "9.04 GPA",
+      "college_duration": "2021 - 2025",
+      "college_activity": ""
+    },
+    {
+      "college_name": "Sundaram Central School, Palghar",
+      "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+      "college_degree": "SSC",
+      "college_degree_field": "94%",
+      "college_duration": " - ",
+      "college_activity": ""
+    },
+    {
+      "college_name": "Maharashtra State Board of Secondary and Higher Secondary Education",
+      "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+      "college_degree": "HSC (XII)",
+      "college_degree_field": "Science",
+      "college_duration": "2021 - 2021",
+      "college_activity": "Percentage: 93.17%"
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "e-Yantra, IIT Bombay",
+    "description1_link": "https://in.linkedin.com/company/e-yantraiitb?trk=public_profile_topcard-current-company",
+    "description2": "Atharva College of Engineering",
+    "description2_link": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_topcard-school",
+    "description3": "Portfolio",
+    "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fparthjain%2Eworks&urlhash=hrV3&trk=public_profile_topcard-website"
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/asim-shah-64b5b2265_hackathon-hardwarehackathon-softwarehackathon-activity-7322247658121650176-DBGB",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGb7S4F1691CQ/feedshare-shrink_2048_1536/B4DZZ3ZbtmHwAo-/0/1745759880522?e=2147483647&v=beta&t=zT-ZZplJuNkrQj4lKMKeXCL4v-Vil9nFsl6HZxg3CEc",
+      "title": "🚀 Winning my first hardware + software hackathon — one of the most challenging and rewarding experiences!\n\nAfter winning 9 hackathons focused mainly…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/raj-patil-a492a1155_smartindiahackathon-sih2023-ntro-activity-7318630684753903616-0XH6",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQG5AX8rxMFYew/feedshare-shrink_800/B4DZZD_zgVG4Ao-/0/1744897526699?e=2147483647&v=beta&t=P0DrbvYRuIej8lYuRbEhZzp5DwkoEvOeBK4b1iyMmnA",
+      "title": "Hey folks, 𝐈 𝐫𝐞𝐜𝐞𝐧𝐭𝐥𝐲 𝐦𝐚𝐝𝐞 𝐢𝐭 𝐭𝐨 𝐭𝐡𝐞 𝐆𝐫𝐚𝐧𝐝 𝐅𝐢𝐧𝐚𝐥𝐞 of Smart India Hackathon 𝟐𝟎𝟐𝟒, securing a spot among the 𝐭𝐨𝐩…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/rohan-verma-sde_github-modsettersurfsense-open-source-activity-7316227911697473537-F0U_",
+      "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQHUWEbCdUpD3Q/articleshare-shrink_1280_800/B4DZcHR1VmIEAU-/0/1748173805304?e=2147483647&v=beta&t=AkKvGxo3T-OWX9uD5HLPEaMm6PPvn8Qcy-HlfO4uim4",
+      "title": "Super Excited to say that SurfSense (https://lnkd.in/gKy9C-e6) is selected for Open Core Ventures Open Source Sponsorship Program. Next few months…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/soham-bakkar_mangodb-hackathon-iot-activity-7314870317926010881-A1cY",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFKbb48c35DQA/feedshare-shrink_800/B4EZYOjwLXHgAg-/0/1744000984594?e=2147483647&v=beta&t=DTbs7UNfqrguCULVMgCFZS8vjpO7CZtTuffbLFMkbXg",
+      "title": "🏆 𝗧𝗵𝗿𝗶𝗹𝗹𝗲𝗱 𝘁𝗼 𝗮𝗻𝗻𝗼𝘂𝗻𝗰𝗲 𝘁𝗵𝗮𝘁 𝗼𝘂𝗿 𝘁𝗲𝗮𝗺 #𝗠𝗮𝗻𝗴𝗼𝗗𝗕 𝘄𝗼𝗻 𝗳𝗶𝗿𝘀𝘁 𝗽𝗹𝗮𝗰𝗲 𝗮𝘁 𝗨𝗡𝗣𝗟𝗨𝗚𝗚𝗘𝗗 𝟮.𝟬…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/ram-passi-6a8aa8288_indianinstituteoftechnologybombay-iitbombay-activity-7314119602584625152-7_6F",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGX1QJe3ZUmiQ/feedshare-shrink_1280/B4DZYCIKMBG4Ak-/0/1743792419265?e=2147483647&v=beta&t=xj52_fPnRqfgtl-lgTzVbOB_ztKH9mTEsT9XszizlMM",
+      "title": "I am beyond excited to share that after 7 months of relentless effort and countless sleepless nights our team- Vedant Ravnang, Anjali Aji, and…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/salosojaedwin_robotics-dronetech-ros2-activity-7312326410449088512-SF5D",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQGacy9PMSW2XA/feedshare-shrink_800/B56ZXqaHkRGoAg-/0/1743394471032?e=2147483647&v=beta&t=edRAcWk4_-uTZoZ2j1OYMvLYIJ_5sXOgGN5qa0KzLJA",
+      "title": "🚀 e-Yantra Robotics Competition 2024-25: Top 5 Finalists! 🎉\nAfter months of dedication, problem-solving, and hands-on robotics, our team made it to…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/jigneshshah110_k8sug-active-k8s-ai-meetup-facebook-activity-7310251634603782146-EmOL",
+      "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQE0Wlax62jxzA/articleshare-shrink_800/articleshare-shrink_800/0/1741134326407?e=2147483647&v=beta&t=B4CCg4PGjJwf1zwgm1KbhmBUOLoUGAmzEJ6Dc4sA7BQ",
+      "title": "🎉 Thrilled to Announce: March 2025 Share the Joy 100%! 🎉\nI’m incredibly honored to share that I’ve been selected as one of the winners for the…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/martin-sit_we-built-cursor-for-3d-modeling-winning-activity-7309937061094989824-NTep",
+      "image": "https://media.licdn.com/dms/image/v2/D5605AQFq6ypvDondHg/videocover-high/B56ZXGUIW.GsBs-/0/1742788925976?e=2147483647&v=beta&t=laFeAVpwkCq6ZIQGzdhCvDlsKhTGonCkCpGfi03diQQ",
+      "title": "👇 We built Cursor for 3D modeling, winning at Canada's largest AI hackathon!\n\nWhat if you could turn your roughest sketches into not just 3D models,…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/harjot-singh-raith-779a7028b_research-compute2024-acmindia-activity-7309895616057253888-kf8z",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQHa-NwrUxyKCA/feedshare-shrink_2048_1536/B4DZXH3TO9HAAo-/0/1742814924184?e=2147483647&v=beta&t=1LCjS8HSjNJixrrkeD4gRvuGtg1u0w20K-Nm8UOlAII",
+      "title": "🚀 Thrilled to Announce My First Research Paper Publication! 🎉\n\nI’m excited to share that my first research paper has been published as part of…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/asim-shah-64b5b2265_spithackathon2025-aiml-domainwinners-activity-7301836166088024066-JoUb",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQGFRWHzDoGVjw/feedshare-shrink_2048_1536/B4DZVOtmQNHkAo-/0/1740782333957?e=2147483647&v=beta&t=MtkrfeoCXMlV-nVEsmGcbd6uMIJQ-uvflvTWytSvVtM",
+      "title": "🏆 Winners at SPIT Hackathon 2025 AIML Track! 🏆\n\nIncredibly proud to announce that my team Vinayak Bhatia,Ninad Maadhavi and Ruchir Khare and I…",
+      "activity": "Liked by Parth Jain"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/joachim-schork_datavisualization-statistics-datasciencecourse-activity-7306465773307244544-DoJ4",
+      "image": "https://media.licdn.com/dms/image/v2/D4E10AQH-x8ZLJyPe4w/image-shrink_800/B4EZWXHzgcGwAg-/0/1741997167685?e=2147483647&v=beta&t=tqT6SldHfCPzmauA4WACmPrhLr061PWP7cpUVHHiQ9g",
+      "title": "Ever wanted to create custom data sets by just drawing them? The drawdata Python library lets you do just that directly in Jupyter, VSCode, and…",
+      "activity": "Liked by Parth Jain"
+    }
+  ],
+  "volunteering": [
+    {
+      "company_url": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_volunteering-position_profile-section-card_image-click",
+      "company_position": "Technical Team Member",
+      "company_name": "Atharva College of Engineering",
+      "company_duration": "",
+      "starts_at": "Mar 2024",
+      "ends_at": "Apr 2024"
+    }
+  ],
+  "certification": [
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQEHKffoI8RwIQ/company-logo_100_100/company-logo_100_100/0/1630672537710/deeplearningai_logo?e=2147483647&v=beta&t=xL90sNVi5ij9a9ncxXfrqKBsOrWaEKRBncad-R92olM",
+      "certification": "Advanced Learning Algorithms",
+      "company_url": "https://www.linkedin.com/company/deeplearningai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "DeepLearning.AI",
+      "issue_date": "Issued Mar 2025",
+      "credential_id": "Credential ID XLXFQGG1JTEE",
+      "credential_url": "https://www.coursera.org/account/accomplishments/verify/XLXFQGG1JTEE?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+      "certification": "Supervised Machine Learning: Regression and Classification",
+      "company_url": "https://www.coursera.org/account/accomplishments/records/NWC74X3ACG9M?trk=public_profile_certification-title",
+      "company_name": "DeepLearning.AI, Stanford University",
+      "issue_date": "Issued Mar 2025",
+      "credential_id": "Credential ID NWC74X3ACG9M",
+      "credential_url": "https://www.coursera.org/account/accomplishments/records/NWC74X3ACG9M?trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/parth-jain-010487245?trk=public_profile_samename-profile",
+      "name": "Parth Jain",
+      "summary": "Poker & RMG | 2 Million Views | Founder at YourContentStudio",
+      "location": "Mumbai"
+    },
+    {
+      "link": "https://in.linkedin.com/in/parthjain2000?trk=public_profile_samename-profile",
+      "name": "Parth J.",
+      "summary": "ION | Connecting Talent to Opportunity | Talent Partner(India) | FSM'25 | Corporate Research Founding member | SIG-HR Senior Member | HPAIR ACONF '24 | Certified KPMG Green belt | Unicharm Intern | Strategic Undertaking",
+      "location": "Delhi, India"
+    },
+    {
+      "link": "https://in.linkedin.com/in/parth-jain247?trk=public_profile_samename-profile",
+      "name": "Parth Jain",
+      "summary": "Senior Data Science Analyst | Python Developer | MERN Developer",
+      "location": "Delhi, India"
+    },
+    {
+      "link": "https://in.linkedin.com/in/parth-jain-here?trk=public_profile_samename-profile",
+      "name": "Parth Jain",
+      "summary": "Product Design Innovator @ Koshpal | Building Fintech Where Money Makes Sense | UI/UX Designer",
+      "location": "Rajasthan, India"
+    }
+  ],
+  "recommendations": [],
+  "publications": [
+    {
+      "name": "Enhancing and Analyzing Log Generation for Collaborative Problem-Solving Activities: Video Analysis and OCR  Techniques",
+      "sub_title": "Springer Nature",
+      "summary": "This study explores the use of video analysis and Optical Character Recognition (OCR) to generate accurate logs for tracking user search behaviors for external resources during collaborative problem-solving activities on the RoboReady educational platform. The research included 15 teams of engineering students who interacted with a website designed around the PISA 2015 collaborative problem-solving framework. Video recordings of the user’s screens were analyzed using image processing and OCR to…\n            \n\n    \n    \n\n    \n        Show more",
+      "date": "March 13, 2025",
+      "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flink%2Espringer%2Ecom%2Fchapter%2F10%2E1007%2F978-3-031-84391-4_11&urlhash=leZ1&trk=public_profile_publication-title"
+    }
+  ],
+  "courses": [],
+  "languages": [],
+  "organizations": [],
+  "projects": [],
+  "awards": [
+    {
+      "name": "Winner of UNPLUGGED 2.0 hackathon",
+      "organization": "Dwarkadas J. Sanghvi College of Engineering",
+      "duration": "Mar 2025",
+      "summary": "Secured first position at UNPLUGGED 2.0 hackathon at Dwarkadas J. Sanghvi College of Engineering."
+    },
+    {
+      "name": "AIR 5 at E-Yantra Robotics Competition, IIT Bombay",
+      "organization": "IIT Bombay",
+      "duration": "Mar 2024",
+      "summary": ""
+    }
+  ],
+  "score": []
+}

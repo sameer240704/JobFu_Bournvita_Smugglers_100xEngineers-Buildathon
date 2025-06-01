@@ -1,0 +1,282 @@
+{
+    "fullName": "Parth Karia",
+    "linkedin_internal_id": "929008924",
+    "first_name": "Parth",
+    "last_name": "Karia",
+    "public_identifier": "parth-karia-aa415821b",
+    "background_cover_image_url": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQFFSkwqBD0-6Q/profile-displayphoto-shrink_200_200/B4DZViJ6DgGkAY-/0/1741108520451?e=2147483647&v=beta&t=cYHW-APMAhlDg9n32tweYbiKutJ_KqbIYBcFxglF58s",
+    "headline": "ML Intern @Fyre Gig | 1x Hackathon Winner | Ex-SDE Intern @Smowcode | SIH'24 Finalist | AIDS DJSCE'26",
+    "location": "Mumbai, Maharashtra, India",
+    "about": "",
+    "experience": [
+        {
+            "position": "Machine Learning Intern",
+            "company_url": "https://in.linkedin.com/company/fyregig?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHPjzewOXfU8w/company-logo_100_100/company-logo_100_100/0/1727804507648/fyregig_logo?e=2147483647&v=beta&t=XJSAODgGIKDkFXi2TnnBOHWY_gswuiPUFwZbxboLoTo",
+            "company_name": "Fyre Gig",
+            "location": null,
+            "summary": "",
+            "starts_at": "Feb 2025",
+            "ends_at": "Present",
+            "duration": "5 months"
+        },
+        {
+            "position": "Sports Secretary",
+            "company_url": "https://in.linkedin.com/company/djsce-trinity?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGEF3kPAh6N3w/company-logo_100_100/company-logo_100_100/0/1667129256099/djsce_trinity_logo?e=2147483647&v=beta&t=P3WR3fgCPkkxUp_E16DRLNlQ3-NaeLFjwoY0izms8FE",
+            "company_name": "DJSCE Trinity",
+            "location": null,
+            "summary": "",
+            "starts_at": "Nov 2024",
+            "ends_at": "Present",
+            "duration": "8 months"
+        },
+        {
+            "position": "Freelance Web Developer",
+            "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "company_name": "Freelance",
+            "location": null,
+            "summary": "Developed and deployed websites for clients, including alpsvoyage.com (React.js), interception.in, and taahibudgetbazaar.com (Shopify).Managed hosting through GoDaddy and Shopify, ensuring seamless performance and client satisfaction.",
+            "starts_at": "Jun 2024",
+            "ends_at": "Mar 2025",
+            "duration": "10 months"
+        },
+        {
+            "position": "Co-Committee",
+            "company_url": "https://in.linkedin.com/company/ras-robotics-and-automation-society-djsce?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFod1KXnV4bSg/company-logo_100_100/company-logo_100_100/0/1630512791294/ras_robotics_and_automation_society_djsce_logo?e=2147483647&v=beta&t=3RGlm0AwSgBZHtCsb8qol02xRr-vk_v838o4qDm30GQ",
+            "company_name": "Robotics And Automation Society, DJSCE",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "",
+            "starts_at": "Oct 2023",
+            "ends_at": "Nov 2024",
+            "duration": "1 year 2 months"
+        },
+        {
+            "position": "Software Developer Intern",
+            "company_url": "https://in.linkedin.com/company/smowcode?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFyEfqyk1IlJg/company-logo_100_100/company-logo_100_100/0/1674052828713/smowcode_logo?e=2147483647&v=beta&t=XI1KuTi8mwIDzS7A9EJ1a0jXtX8CSPqgjswbGLj6gO0",
+            "company_name": "Smowcode",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "",
+            "starts_at": "Jun 2024",
+            "ends_at": "Aug 2024",
+            "duration": "3 months"
+        },
+        {
+            "position": "Web Development Intern",
+            "company_url": "https://in.linkedin.com/company/hungry-brain?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C560BAQE7yP4cbC36XA/company-logo_100_100/company-logo_100_100/0/1631323665758?e=2147483647&v=beta&t=3gKIOUnJcAzz0l75u55RcCAd6VRcqJZlZKjeAWRFDLo",
+            "company_name": "hungry brain",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "",
+            "starts_at": "Jul 2022",
+            "ends_at": "Jul 2022",
+            "duration": "1 month"
+        }
+    ],
+    "education": [
+        {
+            "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+            "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+            "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+            "college_degree": "Bachelor of Technology - BTech",
+            "college_degree_field": "Artificial Intelligence and Data Science",
+            "college_duration": "2023 - 2026",
+            "college_activity": ""
+        },
+        {
+            "college_name": "Shri Bhagubhai Mafatlal Polytechnic",
+            "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+            "college_degree": "Diploma",
+            "college_degree_field": "9.02",
+            "college_duration": "2020 - 2023",
+            "college_activity": ""
+        }
+    ],
+    "articles": [],
+    "description": {
+        "description1": "Fyre Gig",
+        "description1_link": "https://in.linkedin.com/company/fyregig?trk=public_profile_topcard-current-company",
+        "description2": "Dwarkadas J. Sanghvi College of Engineering",
+        "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+        "description3": ""
+    },
+    "activities": [
+        {
+            "link": "https://www.linkedin.com/posts/preem-pareva-20240217b_trinity2025-djsce-collegefest-activity-7334552726342647808-vYwm",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQHSQLIeNu9IoA/feedshare-shrink_800/B4DZcmQznGGkAg-/0/1748693632529?e=2147483647&v=beta&t=cZusaXrYic5_Y19R5LpjmA0K6xe0Sqo2jXyRDBZNPu8",
+            "title": "🚀 Wrapping up my journey as Vice Chairperson of Publicity for DJSCE Trinity 2024-25, and what an incredible ride it has been! 🌟\nFrom months of…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/theunblunt_saw-an-intern-working-on-an-ml-project-activity-7331735558504833025-O2n_",
+            "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+            "title": "Saw an intern working on an \"ML project\" today. Said he started learning it \"three weeks back.\"\n Was asking the cursor to install pandas more than…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/shantanugodbole12_im-excited-to-share-that-ive-officially-activity-7334463458513494016-ipUe",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQGj0uJkjknNhw/feedshare-shrink_2048_1536/B56Zck_oxBHgAo-/0/1748672353968?e=2147483647&v=beta&t=XOXEa_VDxWP1IWN48sqlD1_k52JQv1IBI_NvHN_xSJg",
+            "title": "I’m excited to share that I’ve officially graduated with a Master’s in Computer Science from the University of Southern California! 🎓\n\nIt’s hard to…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/prachisharma95_officially-survived-first-year-of-btech-activity-7333843580051939329-xltm",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQF7G3Z2dGSsFQ/feedshare-shrink_800/B4DZccL2Z2GgAg-/0/1748524562476?e=2147483647&v=beta&t=BMoISqTUV50ehUFIBs5ZEUY6Bdo-CuAEcvR2J09HXq0",
+            "title": "🌸 Officially Survived First Year of BTech CS! 🌸\n (Yes, I made it through with only a slightly burnt-out compiler brain 😂 )\n\n One year ago, I…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/datascience-stitchfix-summer2025-activity-7333922590559784960-8n5q",
+            "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+            "title": "Update 5/30/25: Appreciate all those who reached out! I am now considering this thread locked and will review prior responses, thank you!\n\n🚀 Summer…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/dhirajgatmane_free-research-with-top-researchers-columbia-activity-7333152516118884353-1pOT",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQHWzklH6S-uLQ/feedshare-shrink_1280/B4DZcR8MZ5HMAk-/0/1748352684026?e=2147483647&v=beta&t=npKArZo7NFH-UvTVuRCsHfUDyUo2PxWeDctZfmvKr70",
+            "title": "FREE research with top researchers — Columbia, MIT, Harvard, Duke — no fees, no fluff, just results.\n\nWe are thrilled to partner with the Institute…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/bhavikcm_artificialintelligence-aistartups-techbubble-activity-7334141770642903041-eceX",
+            "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+            "title": "💀 99% of AI Startups Will Die by 2026 —\nHere's Why 👇\n\nMost AI startups today? Just wrappers on OpenAI.\n⚠️ No IP. No moat. No backend.\n\nLet’s break…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/kunalshah1_ai-may-force-freshers-to-become-entrepreneurs-activity-7330855011662397440-26B8",
+            "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+            "title": "AI may force freshers to become entrepreneurs due to lack of entry level jobs.",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/snehaadeshmukh_engineeringjourney-collegelife-csicommittee-activity-7331891715487719425-7sns",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQEsCoPlHhQ4MA/feedshare-shrink_800/B4DZb.mevPGgAg-/0/1748028223634?e=2147483647&v=beta&t=qQZzQBdPNRgEaxy64we7jpr2J47DLxZ3Rnf0wDGgYTs",
+            "title": "4 YEARS. 8 SEMS. COUNTLESS MEMORIES. ONE HELL OF A RIDE!\n\nThis story began on 21st December 2021 — when I officially entered the world of…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/dishant-zaveri-4301471b9_jefferies-summerinternship-wallstreet-activity-7321541195321475074-tGrF",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQFVpOYMkjM9fA/feedshare-shrink_800/B4DZZtW60IGwAk-/0/1745591447152?e=2147483647&v=beta&t=XBSwnd3oTjaZVfhEJlqhP6yT1t2vWhr2aZydr_AfDZ8",
+            "title": "Made it to Wall Street, Mom! 📈✨\n\nI’m thrilled to share that I’ll be joining Jefferies this summer as a Technical Summer Associate in the Information…",
+            "activity": "Liked by Parth Karia"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/deon-menezes-a82552254_entrepreneurship-quizitt-hiring-activity-7331595462862376960-R6q2",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQEYWPILJxdqdQ/feedshare-shrink_2048_1536/B4DZb8POUMG8As-/0/1747988571866?e=2147483647&v=beta&t=p-agJhNIcf2YCoW8mPQpicnhLs7eCPpAqdVKxrYVKKE",
+            "title": "We're Hiring Interns – Join Quizitt!\nI'm excited to announce another entrepreneurial startup I’ve been building — Quizitt, an AI-powered edtech…",
+            "activity": "Liked by Parth Karia"
+        }
+    ],
+    "volunteering": [],
+    "certification": [
+        {
+            "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "certification": "Machine Learning Specialization",
+            "company_url": "https://www.coursera.org/account/accomplishments/specialization/GGYWCEL6WUTN?trk=public_profile_certification-title",
+            "company_name": "DeepLearning.AI, Stanford University",
+            "issue_date": "Issued Mar 2025",
+            "credential_id": "Credential ID GGYWCEL6WUTN",
+            "credential_url": "https://www.coursera.org/account/accomplishments/specialization/GGYWCEL6WUTN?trk=public_profile_see-credential"
+        },
+        {
+            "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+            "certification": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+            "company_url": "https://www.coursera.org/account/accomplishments/records/GRX4NACMDGD7?trk=public_profile_certification-title",
+            "company_name": "DeepLearning.AI, Stanford University",
+            "issue_date": "Issued Mar 2025",
+            "credential_id": "Credential ID GRX4NACMDGD7",
+            "credential_url": "https://www.coursera.org/account/accomplishments/records/GRX4NACMDGD7?trk=public_profile_see-credential"
+        },
+        {
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQH-5I5gu8cYiQ/company-logo_100_100/company-logo_100_100/0/1698271191415/stanford_online_logo?e=2147483647&v=beta&t=b4fT7CQKQlnc_lME1VVT8hjgey5x0Mg8z7b2J1H-3NQ",
+            "certification": "Advanced Learning Algorithms",
+            "company_url": "https://www.linkedin.com/company/stanford-online?trk=public_profile_profile-section-card_image-click",
+            "company_name": "Stanford Online",
+            "issue_date": "Issued Jul 2024",
+            "credential_id": "See credential",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/BBBARGQPQU3R?trk=public_profile_see-credential"
+        },
+        {
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQH-5I5gu8cYiQ/company-logo_100_100/company-logo_100_100/0/1698271191415/stanford_online_logo?e=2147483647&v=beta&t=b4fT7CQKQlnc_lME1VVT8hjgey5x0Mg8z7b2J1H-3NQ",
+            "certification": "Supervised Machine Learning: Regression and Classification",
+            "company_url": "https://www.linkedin.com/company/stanford-online?trk=public_profile_profile-section-card_image-click",
+            "company_name": "Stanford Online",
+            "issue_date": "Issued Apr 2024",
+            "credential_id": "See credential",
+            "credential_url": "https://coursera.org/share/198604f87ad5803459cfcf8fe282c63a?trk=public_profile_see-credential"
+        },
+        {
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQHqqREuYOZewQ/company-logo_100_100/company-logo_100_100/0/1701272685881/unstop_logo?e=2147483647&v=beta&t=8_FBoaijvc0FlZCFggdzpHgpFQPBJrQnOXM0mYb1MBY",
+            "certification": "Certificate of Participation in MCQ Assessment of CreaTech 2024",
+            "company_url": "https://in.linkedin.com/company/unstop?trk=public_profile_profile-section-card_image-click",
+            "company_name": "Unstop",
+            "issue_date": "Issued Mar 2024",
+            "credential_id": "Credential ID ea4896cd-aee7-4e98-ab6a-2c0524dc00e6",
+            "credential_url": "https://unstop.com/certificate-preview/ea4896cd-aee7-4e98-ab6a-2c0524dc00e6?utm_campaign&trk=public_profile_see-credential"
+        },
+        {
+            "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFw3q7_0KMSJQ/company-logo_100_100/company-logo_100_100/0/1630659208911?e=2147483647&v=beta&t=6f4OjvV_nkEZjfETw4Qhmg6ayBNIhyaM4TJWsH43l-g",
+            "certification": "Backend development Workshop",
+            "company_url": "https://in.linkedin.com/company/dj-csi?trk=public_profile_profile-section-card_image-click",
+            "company_name": "DJCSI - Computer Society of India, DJSCE",
+            "issue_date": "Issued Oct 2023",
+            "credential_id": ""
+        },
+        {
+            "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
+            "certification": "SKYJACK",
+            "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_profile-section-card_image-click",
+            "company_name": "DJS S4DS",
+            "issue_date": "Issued Mar 2022",
+            "credential_id": "Credential ID d320df2c-bc24-435a-9de7-64e6d688defe",
+            "credential_url": "https://certificate.givemycertificate.com/c/d320df2c-bc24-435a-9de7-64e6d688defe?trk=public_profile_see-credential"
+        },
+        {
+            "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+            "certification": "Data Structure & Algorithm using C++ : Zero To Mastery 2024",
+            "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+            "company_name": "Udemy",
+            "issue_date": "Issued Sep 2021",
+            "credential_id": ""
+        }
+    ],
+    "people_also_viewed": [],
+    "similar_profiles": [
+        {
+            "link": "https://in.linkedin.com/in/parth-karia?trk=public_profile_samename-profile",
+            "name": "Parth Karia",
+            "summary": "Engineering lead at Upwork",
+            "location": "Gujarat, India"
+        },
+        {
+            "link": "https://in.linkedin.com/in/parth-karia-aa917a39?trk=public_profile_samename-profile",
+            "name": "Parth Karia",
+            "summary": "Project Research Associate at IIT Bombay (Osdag FOSSEE)",
+            "location": "Mumbai"
+        },
+        {
+            "link": "https://in.linkedin.com/in/parth-karia-708b63146?trk=public_profile_samename-profile",
+            "name": "Parth Karia",
+            "summary": "Business Development Manager |MBA(Finance) | Portfolio Management|Equity research| Revenue Generation",
+            "location": "Mumbai"
+        },
+        {
+            "link": "https://in.linkedin.com/in/parth-karia-687476a3?trk=public_profile_samename-profile",
+            "name": "Parth karia",
+            "summary": "Equity Research Analyst | Valuation, Industry Analysis, and Financial Modeling | CA with specialization in Specialty Chemicals, Construction Materials, and Metal & Glass Containers sectors.",
+            "location": "Mumbai"
+        }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [],
+    "organizations": [],
+    "projects": [],
+    "awards": [],
+    "score": []
+}

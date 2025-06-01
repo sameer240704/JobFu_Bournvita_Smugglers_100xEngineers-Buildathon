@@ -1,322 +1,320 @@
-[
-  {
-    "fullName": "Veer Raje",
-    "linkedin_internal_id": "1184060239",
-    "first_name": "Veer",
-    "last_name": "Raje",
-    "public_identifier": "veer-raje-067658290",
-    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQEY83Q8xcOKGw/profile-displaybackgroundimage-shrink_200_800/B4DZWANmUiG4AU-/0/1741612804404?e=2147483647&v=beta&t=lsI4AOc9y93v1Xx7LRRDx_PENsYLwQo0obFn4brG3Es",
-    "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
-    "headline": "Machine Learning Intern @ Excelerate | Student at Dwarkadas J. Sanghvi College of Engineering",
-    "location": "Mumbai, Maharashtra, India",
-    "followers": "669 followers",
-    "connections": "500+ connections",
-    "about": "I am passionate about machine learning and artificial intelligence, with hands-on experience in developing projects from start to finish. Whether it's cleaning and exploring raw data, training and fine-tuning different models, or building APIs ready for deployment, I take pride in handling the entire process independently.My journey in ML has been driven by a strong desire to solve real-world problems using AI technologies. I’m constantly learning, experimenting, and working on projects that push the boundaries of what’s possible with machine learning.My ultimate goal is to leverage ML and AI in innovative ways to make a positive impact on the world, one project at a time.",
-    "experience": [
-      {
-        "position": "Creatives Head",
-        "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
-        "company_name": "DJS-NSDC",
-        "location": null,
-        "summary": "",
-        "starts_at": "May 2024",
-        "ends_at": "May 2025",
-        "duration": "1 year 1 month"
-      },
-      {
-        "position": "Creatives Co-Committee Member",
-        "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
-        "company_name": "DJS-NSDC",
-        "location": null,
-        "summary": "",
-        "starts_at": "Apr 2023",
-        "ends_at": "Apr 2024",
-        "duration": "1 year 1 month"
-      },
-      {
-        "position": "Machine Learning Mentor",
-        "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
-        "company_name": "DJS InfoMatrix",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "",
-        "starts_at": "Apr 2024",
-        "ends_at": "May 2025",
-        "duration": "1 year 2 months"
-      },
-      {
-        "position": "Data Visualization Intern",
-        "company_url": "https://ae.linkedin.com/company/4excelerate?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFsKCE82AoD_Q/company-logo_100_100/company-logo_100_100/0/1689287580187?e=2147483647&v=beta&t=4mmNiMsixfklzlr_SCX5tsb0_d54w77HQtbDYOgGQjo",
-        "company_name": "Excelerate",
-        "location": null,
-        "summary": "- Collaborated with a globally-distributed team to analyze Facebook ad-campaign performance data for a client, ensuring clear communication across time zones and functions.- Preprocessed and cleaned large datasets using Pandas and NumPy in Python, identified underperforming campaigns, and formulated data-driven recommendations for optimization or replacement.- Designed and deployed an interactive Power BI dashboard to visualize campaign metrics and deliver actionable insights to stakeholders.- Developed not only technical expertise in data wrangling and visualization, but also strengthened cross-cultural collaboration skills to maintain a smooth, efficient workflow.\n            \n\n    \n    \n\n    \n        Show less",
-        "starts_at": "Mar 2025",
-        "ends_at": "Apr 2025",
-        "duration": "2 months"
-      },
-      {
-        "position": "UI / UX Intern",
-        "company_url": "https://in.linkedin.com/company/webxela?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGZkLllNSqYow/company-logo_100_100/B4DZYU7Oz9HIAY-/0/1744107795261/webxela_logo?e=2147483647&v=beta&t=lD2V-Mm-1mPutAuXg9rAFcmZt-QXBebhFvGk69MVk5s",
-        "company_name": "WEBXELA",
-        "location": "Mumbai, Maharashtra, India",
-        "summary": "I am thrilled to announce that I have joined Webxela as a UI/UX Design Intern. In this role, I will be working on creating intuitive and engaging user interfaces, as well as enhancing user experiences across various digital platforms.",
-        "starts_at": "Jun 2024",
-        "ends_at": "Sep 2024",
-        "duration": "4 months"
-      },
-      {
-        "position": "Data Analysis and Machine Learning Mentee",
-        "company_url": "https://in.linkedin.com/company/djscompute?trk=public_profile_experience-item_profile-section-card_subtitle-click",
-        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHW4z1eXq6m4w/company-logo_100_100/company-logo_100_100/0/1689496328978?e=2147483647&v=beta&t=yKV0sLrJRw7o1BOwkLgwj_ieZ4GX90hfUZaVCBkpI5A",
-        "company_name": "DJS Compute",
-        "location": null,
-        "summary": "",
-        "starts_at": "Sep 2023",
-        "ends_at": "Mar 2024",
-        "duration": "7 months"
-      }
-    ],
-    "education": [
-      {
-        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
-        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
-        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
-        "college_degree": "Bachelor of Technology - BTech",
-        "college_degree_field": "Artificial Intelligence and Data Science",
-        "college_duration": "2022 - 2026",
-        "college_activity": ""
-      }
-    ],
-    "articles": [],
-    "description": {
-      "description1": "DJS-NSDC",
-      "description1_link": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_topcard-current-company",
-      "description2": "Dwarkadas J. Sanghvi College of Engineering",
-      "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
-      "description3": ""
+{
+  "fullName": "Veer Raje",
+  "linkedin_internal_id": "1184060239",
+  "first_name": "Veer",
+  "last_name": "Raje",
+  "public_identifier": "veer-raje-067658290",
+  "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQEY83Q8xcOKGw/profile-displaybackgroundimage-shrink_200_800/B4DZWANmUiG4AU-/0/1741612804404?e=2147483647&v=beta&t=lsI4AOc9y93v1Xx7LRRDx_PENsYLwQo0obFn4brG3Es",
+  "profile_photo": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+  "headline": "Machine Learning Intern @ Excelerate | Student at Dwarkadas J. Sanghvi College of Engineering",
+  "location": "Mumbai, Maharashtra, India",
+  "followers": "669 followers",
+  "connections": "500+ connections",
+  "about": "I am passionate about machine learning and artificial intelligence, with hands-on experience in developing projects from start to finish. Whether it's cleaning and exploring raw data, training and fine-tuning different models, or building APIs ready for deployment, I take pride in handling the entire process independently.My journey in ML has been driven by a strong desire to solve real-world problems using AI technologies. I’m constantly learning, experimenting, and working on projects that push the boundaries of what’s possible with machine learning.My ultimate goal is to leverage ML and AI in innovative ways to make a positive impact on the world, one project at a time.",
+  "experience": [
+    {
+      "position": "Creatives Head",
+      "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
+      "company_name": "DJS-NSDC",
+      "location": null,
+      "summary": "",
+      "starts_at": "May 2024",
+      "ends_at": "May 2025",
+      "duration": "1 year 1 month"
     },
-    "activities": [
-      {
-        "link": "https://www.linkedin.com/posts/priteshjagani_3-common-mistakes-that-can-get-your-f1-visa-activity-7334783259421114368-XitY",
-        "image": "https://media.licdn.com/dms/image/v2/D4E05AQFxzmPLjU05IQ/feedshare-thumbnail_720_1280/B4EZccYzmlHsA4-/0/1748527959398?e=2147483647&v=beta&t=WNoU1dgzKtchHppwG9D4p8dHB210Scxxvi4e75HE9Po",
-        "title": "3 common mistakes that can get your F1 visa rejected — and #3 is what trips up most students. \n\nI learned this directly from an ex-visa officer in my…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/alancjamieson_a-fantastic-profile-of-the-impact-that-our-activity-7331042470559924226-vZmk",
-        "image": "https://media.licdn.com/dms/image/v2/D4E10AQHyMXTTZMnrcQ/image-shrink_1280/B4EZbPGJ1pHYAQ-/0/1747231219575?e=2147483647&v=beta&t=fgRvMsnQMCS6v8CYK59H3b83pv-49yaIjco3Cy0J-4E",
-        "title": "A fantastic profile of the impact that our faculty at Khoury College of Computer Sciences and the The Roux Institute at Northeastern University are…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/anhad-mahajan_googlecloud-genai-gemini-activity-7333897875178872832-FnVo",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGAK4uWMu2c_A/feedshare-shrink_1280/B4EZcc9PS.G4A0-/0/1748537505979?e=2147483647&v=beta&t=hJ1_Hy94JAKnChTzEmgReU0DwITFxyDM7-_jbCW4N8w",
-        "title": "𝑱𝒖𝒔𝒕 𝒖𝒏𝒍𝒐𝒄𝒌𝒆𝒅 𝒂 𝒏𝒆𝒘 𝑨𝑰 𝒎𝒊𝒍𝒆𝒔𝒕𝒐𝒏𝒆 𝒘𝒊𝒕𝒉 𝑮𝒐𝒐𝒈𝒍𝒆 𝑪𝒍𝒐𝒖𝒅!\n 𝗘𝗮𝗿𝗻𝗲𝗱 𝘁𝗵𝗲 𝗦𝗸𝗶𝗹𝗹 𝗕𝗮𝗱𝗴𝗲: 𝗕𝘂𝗶𝗹𝗱…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/priyal-shah-70b09a22a_btech-computerengineering-research-activity-7334456664625934336-3fkf",
-        "image": "https://media.licdn.com/dms/image/v2/D4D22AQECB1c9ah6VdA/feedshare-shrink_1280/B4DZck5VWRGwAk-/0/1748670727611?e=2147483647&v=beta&t=4rRCSJuOiAvGHEcA0a9zvb9tQT2DVvEnRwL8Hp5-GTw",
-        "title": "🎓 B.Tech — Completed! 💻✨\n\nI’m excited to share that I’ve officially completed my Bachelor of Technology in Computer Engineering from Devang Patel…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/thedankoe_everything-is-a-muscle-everything-is-a-skill-activity-7334568267723743233-iQIH",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQES4IWbDp0aAA/feedshare-shrink_1280/B56Zcme8U2GoAk-/0/1748697343267?e=2147483647&v=beta&t=vTk17FLs57sNLvJVbDnt-rpY_XudkYxMBoednS38F8Q",
-        "title": "Everything is a muscle.\nEverything is a skill issue.",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/carnegie-mellon-university_a-team-from-the-carnegie-mellon-university-activity-7334233912715472896-1vCQ",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEqFao3vJrvyQ/feedshare-shrink_800/B4EZchu3gTHkAg-/0/1748617626865?e=2147483647&v=beta&t=vWlyAgVAAkerX4WftXTVdjXn9XsZBCqm0QoD7ooLrCw",
-        "title": "A team from the Carnegie Mellon University Robotics Institute, Appleseed Labs, has received the Farm Robotics Challenge Excellence in Regenerative…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/georgia-institute-of-technology_wecandothat-activity-7333135324107169792-ah6q",
-        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFl3q4KGClHXw/feedshare-shrink_800/B4EZcSHtdwG4As-/0/1748355702978?e=2147483647&v=beta&t=3GeuKarP-TitZqEBq0PgLaKl-WQV6iq2U13WtRnbt9E",
-        "title": "Georgia Tech Motorsports placed third overall out of 110 teams worldwide at the annual Formula SAE Michigan competition held at the Michigan…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/university-of-san-francisco_inspiration-at-spring-commencement-activity-7331820525591175168-ysph",
-        "image": "https://media.licdn.com/dms/image/v2/D5605AQHtXk-zE86QTg/videocover-high/B56Zb_a_DmHgBo-/0/1748042215205?e=2147483647&v=beta&t=-tLfq5ixdvxpFI4ITNTzwMj6WHbW_EWR3Uis8XJJNNA",
-        "title": "Inspiration at spring commencement. 🎓\n\n\"The principles of integrity, honesty, and importantly, caring for others — principles that were embedded in…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/university-of-maryland_umdgrad-activity-7331840718681817088-neKD",
-        "image": "https://media.licdn.com/dms/image/v2/D4E10AQGOJ1bz5wKHKw/image-shrink_800/B4EZb_uPgBHQAc-/0/1748047036032?e=2147483647&v=beta&t=2Czxxkt6FY6ghd57zCYORT1mag2dEMpWMgyOe8Ct7M8",
-        "title": "“Life is better when we leap together.” –Kermit the Frog 💚\n\nInspiring speeches, a Rainbow Connection chorus and so much Terp pride. Congratulations…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/priteshjagani_i-have-worked-with-hundreds-of-job-seekers-activity-7334602058932649984-Lqix",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQGfPcwL4uX3yA/feedshare-shrink_800/B56ZcX4X0EGsAo-/0/1748452345285?e=2147483647&v=beta&t=-oZWn3fLN76eXtF4YAoxrOCR7H-gp1u_gSq8zHCe02Q",
-        "title": "I have worked with hundreds of job seekers in 2024–2025, from recent grads to mid-career professionals and I keep seeing the same outdated beliefs…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/davidguybrizan_take-5-ai-and-the-future-of-work-activity-7331199664328712192-hCV8",
-        "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQElIdCR1ueHWw/articleshare-shrink_800/B56Zb2nO56HUAI-/0/1747894202337?e=2147483647&v=beta&t=K79kNw369xQ6vsSAMfZC4_-RtNiOCI4uSfrOZdvWdVg",
-        "title": "USF Magazine asked me 5 quetions about AI and the future of work. \"Keep the answers short,\" they said. https://lnkd.in/gp6GSPDf",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/columbia-university_columbia2025-activity-7333221360191594497-okQt",
-        "image": "https://media.licdn.com/dms/image/v2/D4E10AQHCpImOv39jQw/ads-video-thumbnail_720_1280/B4EZcTV1gCHkAg-/0/1748376186216?e=2147483647&v=beta&t=b9ubU2fGbzSPgGpQTGxJGmyOAGHSPIeCz6DcjNbrPBo",
-        "title": "🎓🦁 At Commencement, the Columbia community came together to honor our #Columbia2025 graduates. Look back at an amazing week of ceremonies and…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/georgia-institute-of-technology_georgia-tech-is-turning-the-iconic-biltmore-activity-7333513694905044993-xiKS",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQFMVCKbbguRBA/feedshare-shrink_800/B56ZcXf1jOG0Ag-/0/1748445914238?e=2147483647&v=beta&t=Rx2muxyJSGIWQ0TE2fZQQqXIU4whXaPWiUFZBF9-k4Y",
-        "title": "Georgia Tech is turning the iconic Biltmore in Tech Square into a strategic hub for innovation and entrepreneurship. The 100-year-old Atlanta…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/marianaantaya_mcp-agents-llm-activity-7327467800770293760-Gmj7",
-        "image": "https://media.licdn.com/dms/image/v2/D5605AQHDKGzgrIFUBg/videocover-high/B56ZbBk.1DGoBw-/0/1747004450282?e=2147483647&v=beta&t=Jy7x8X8TDrnsZFIvVSDK50sqiHVeAmuoWdeA3P5G4W8",
-        "title": "MCP vs API: What’s the difference? \n\nBreaking it down in the video… \n\n#mcp #agents #llm",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/niday-singhal-5b2425253_mba-mbagraduate-saintlouisuniversity-activity-7334311172348760065-jptv",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQFN4ipNB3fuPA/feedshare-shrink_800/B56Zci1GtHGoAg-/0/1748636045110?e=2147483647&v=beta&t=YhE8diIKF8k8m7Sp4RqRdy-KcXwrysMDR_a36md5Gbk",
-        "title": "MBA Journey Complete! 🎓\n🎓 What an incredible journey! Today I'm celebrating the completion of my MBA at Saint Louis University with a 3.85 GPA, and…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/sowmya-kumpatla_umsl-graduation2025-informationsystemsandtechnology-activity-7333891050043789313-rQtj",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQF2tJJykDV2vA/feedshare-shrink_2048_1536/B56Zcc3CY6G0As-/0/1748535881673?e=2147483647&v=beta&t=6R4CiH2_-r4NfoHlejfygA81lEnSpMLePgKrcNDMSJc",
-        "title": "I’m excited to share that I’ve officially graduated with a Master’s degree in Information Systems and Technology from the University of…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/anjali-viramgama_tech-cs-interview-activity-7333345159285276672-E2o1",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQFOzLvPGL7zlQ/feedshare-shrink_2048_1536/B56ZcVGhEkHUAs-/0/1748405730748?e=2147483647&v=beta&t=eLdAOR7row8LUqO0WlQT88cM7urGFW69vgu3onCw7r8",
-        "title": "When I was invited to the YouTube creator event, I met hundreds of extremely inspiring Youtubers from all over the world. I had long conversations…",
-        "activity": "Liked by Veer Raje"
-      },
-      {
-        "link": "https://www.linkedin.com/posts/hemalatha-jayanne-gowda_cmu-graduation2025-womenintech-activity-7332503521637924865-ew2t",
-        "image": "https://media.licdn.com/dms/image/v2/D5622AQFfCGOVfykUow/feedshare-shrink_800/B56ZcJJF8NGoAg-/0/1748205069537?e=2147483647&v=beta&t=10n3y_1GafjyQswX1dSikL8Igj5oaPtaOHr-cYOF-JI",
-        "title": "Officially a Carnegie Mellon Alum! 🎓 \n\nWhen I came to Carnegie Mellon University to begin my Master’s in Information Systems Management, with a…",
-        "activity": "Liked by Veer Raje"
-      }
-    ],
-    "volunteering": [],
-    "certification": [
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Introduction to Responsible AI",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Jan 2025",
-        "credential_id": "Credential ID 13489326",
-        "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13489326?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Prompt Design on Vertex AI",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Jan 2025",
-        "credential_id": "Credential ID 13514675",
-        "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13514675?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Introduction to Gen AI",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Dec 2024",
-        "credential_id": "Credential ID 13433483",
-        "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13433483?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Introduction to Large Language Models",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Dec 2024",
-        "credential_id": "Credential ID 13433432",
-        "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13433432?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Image Classification Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://developers.google.com/profile/badges/playlists/ml/going-further-image-classification?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Product Image Search Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Aug 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://developers.google.com/profile/badges/playlists/ml/going-further-image-product-search?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEx1F57_8I-Yg/company-logo_100_100/company-logo_100_100/0/1631301693161?e=2147483647&v=beta&t=KdHBbCCK8eqprZm5TizNf9nP6GftE9XHMZhITfBBJPQ",
-        "certification": "Cybersecurity and Ethical Hacking",
-        "company_url": "https://in.linkedin.com/company/idemi-mumbai?trk=public_profile_profile-section-card_image-click",
-        "company_name": "IDEMI MUMBAI",
-        "issue_date": "Issued Jul 2024",
-        "credential_id": ""
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Object Detection Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Jul 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://developers.google.com/profile/badges/playlists/ml/going-further-object-detection?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
-        "certification": "Tensorflow Badge",
-        "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Google",
-        "issue_date": "Issued Jul 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://developers.google.com/profile/badges/playlists/tensorflow?trk=public_profile_see-credential"
-      },
-      {
-        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFf8sH83foEVg/company-logo_100_100/company-logo_100_100/0/1654794308958/postman_platform_logo?e=2147483647&v=beta&t=vhUFiD_84RWtJWzqMFME4YJ9Jgnne9fH6DlCHgLCIEA",
-        "certification": "Postman API Fundamentals Student Expert",
-        "company_url": "https://www.linkedin.com/company/postman-platform?trk=public_profile_profile-section-card_image-click",
-        "company_name": "Postman",
-        "issue_date": "Issued Mar 2024",
-        "credential_id": "See credential",
-        "credential_url": "https://badgr.com/public/assertions/BsOxvUXbRqqg-A8QcG9kFA?trk=public_profile_see-credential"
-      }
-    ],
-    "people_also_viewed": [],
-    "similar_profiles": [
-      {
-        "link": "https://in.linkedin.com/in/veer-raje-234b21250?trk=public_profile_samename-profile",
-        "name": "Veer Raje",
-        "summary": "--",
-        "location": "Pune"
-      }
-    ],
-    "recommendations": [],
-    "publications": [],
-    "courses": [],
-    "languages": [],
-    "organizations": [],
-    "projects": [],
-    "awards": [],
-    "score": []
-  }
-]
+    {
+      "position": "Creatives Co-Committee Member",
+      "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
+      "company_name": "DJS-NSDC",
+      "location": null,
+      "summary": "",
+      "starts_at": "Apr 2023",
+      "ends_at": "Apr 2024",
+      "duration": "1 year 1 month"
+    },
+    {
+      "position": "Machine Learning Mentor",
+      "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
+      "company_name": "DJS InfoMatrix",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "",
+      "starts_at": "Apr 2024",
+      "ends_at": "May 2025",
+      "duration": "1 year 2 months"
+    },
+    {
+      "position": "Data Visualization Intern",
+      "company_url": "https://ae.linkedin.com/company/4excelerate?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFsKCE82AoD_Q/company-logo_100_100/company-logo_100_100/0/1689287580187?e=2147483647&v=beta&t=4mmNiMsixfklzlr_SCX5tsb0_d54w77HQtbDYOgGQjo",
+      "company_name": "Excelerate",
+      "location": null,
+      "summary": "- Collaborated with a globally-distributed team to analyze Facebook ad-campaign performance data for a client, ensuring clear communication across time zones and functions.- Preprocessed and cleaned large datasets using Pandas and NumPy in Python, identified underperforming campaigns, and formulated data-driven recommendations for optimization or replacement.- Designed and deployed an interactive Power BI dashboard to visualize campaign metrics and deliver actionable insights to stakeholders.- Developed not only technical expertise in data wrangling and visualization, but also strengthened cross-cultural collaboration skills to maintain a smooth, efficient workflow.\n            \n\n    \n    \n\n    \n        Show less",
+      "starts_at": "Mar 2025",
+      "ends_at": "Apr 2025",
+      "duration": "2 months"
+    },
+    {
+      "position": "UI / UX Intern",
+      "company_url": "https://in.linkedin.com/company/webxela?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGZkLllNSqYow/company-logo_100_100/B4DZYU7Oz9HIAY-/0/1744107795261/webxela_logo?e=2147483647&v=beta&t=lD2V-Mm-1mPutAuXg9rAFcmZt-QXBebhFvGk69MVk5s",
+      "company_name": "WEBXELA",
+      "location": "Mumbai, Maharashtra, India",
+      "summary": "I am thrilled to announce that I have joined Webxela as a UI/UX Design Intern. In this role, I will be working on creating intuitive and engaging user interfaces, as well as enhancing user experiences across various digital platforms.",
+      "starts_at": "Jun 2024",
+      "ends_at": "Sep 2024",
+      "duration": "4 months"
+    },
+    {
+      "position": "Data Analysis and Machine Learning Mentee",
+      "company_url": "https://in.linkedin.com/company/djscompute?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+      "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHW4z1eXq6m4w/company-logo_100_100/company-logo_100_100/0/1689496328978?e=2147483647&v=beta&t=yKV0sLrJRw7o1BOwkLgwj_ieZ4GX90hfUZaVCBkpI5A",
+      "company_name": "DJS Compute",
+      "location": null,
+      "summary": "",
+      "starts_at": "Sep 2023",
+      "ends_at": "Mar 2024",
+      "duration": "7 months"
+    }
+  ],
+  "education": [
+    {
+      "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+      "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+      "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+      "college_degree": "Bachelor of Technology - BTech",
+      "college_degree_field": "Artificial Intelligence and Data Science",
+      "college_duration": "2022 - 2026",
+      "college_activity": ""
+    }
+  ],
+  "articles": [],
+  "description": {
+    "description1": "DJS-NSDC",
+    "description1_link": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_topcard-current-company",
+    "description2": "Dwarkadas J. Sanghvi College of Engineering",
+    "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+    "description3": ""
+  },
+  "activities": [
+    {
+      "link": "https://www.linkedin.com/posts/priteshjagani_3-common-mistakes-that-can-get-your-f1-visa-activity-7334783259421114368-XitY",
+      "image": "https://media.licdn.com/dms/image/v2/D4E05AQFxzmPLjU05IQ/feedshare-thumbnail_720_1280/B4EZccYzmlHsA4-/0/1748527959398?e=2147483647&v=beta&t=WNoU1dgzKtchHppwG9D4p8dHB210Scxxvi4e75HE9Po",
+      "title": "3 common mistakes that can get your F1 visa rejected — and #3 is what trips up most students. \n\nI learned this directly from an ex-visa officer in my…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/alancjamieson_a-fantastic-profile-of-the-impact-that-our-activity-7331042470559924226-vZmk",
+      "image": "https://media.licdn.com/dms/image/v2/D4E10AQHyMXTTZMnrcQ/image-shrink_1280/B4EZbPGJ1pHYAQ-/0/1747231219575?e=2147483647&v=beta&t=fgRvMsnQMCS6v8CYK59H3b83pv-49yaIjco3Cy0J-4E",
+      "title": "A fantastic profile of the impact that our faculty at Khoury College of Computer Sciences and the The Roux Institute at Northeastern University are…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/anhad-mahajan_googlecloud-genai-gemini-activity-7333897875178872832-FnVo",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQGAK4uWMu2c_A/feedshare-shrink_1280/B4EZcc9PS.G4A0-/0/1748537505979?e=2147483647&v=beta&t=hJ1_Hy94JAKnChTzEmgReU0DwITFxyDM7-_jbCW4N8w",
+      "title": "𝑱𝒖𝒔𝒕 𝒖𝒏𝒍𝒐𝒄𝒌𝒆𝒅 𝒂 𝒏𝒆𝒘 𝑨𝑰 𝒎𝒊𝒍𝒆𝒔𝒕𝒐𝒏𝒆 𝒘𝒊𝒕𝒉 𝑮𝒐𝒐𝒈𝒍𝒆 𝑪𝒍𝒐𝒖𝒅!\n 𝗘𝗮𝗿𝗻𝗲𝗱 𝘁𝗵𝗲 𝗦𝗸𝗶𝗹𝗹 𝗕𝗮𝗱𝗴𝗲: 𝗕𝘂𝗶𝗹𝗱…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/priyal-shah-70b09a22a_btech-computerengineering-research-activity-7334456664625934336-3fkf",
+      "image": "https://media.licdn.com/dms/image/v2/D4D22AQECB1c9ah6VdA/feedshare-shrink_1280/B4DZck5VWRGwAk-/0/1748670727611?e=2147483647&v=beta&t=4rRCSJuOiAvGHEcA0a9zvb9tQT2DVvEnRwL8Hp5-GTw",
+      "title": "🎓 B.Tech — Completed! 💻✨\n\nI’m excited to share that I’ve officially completed my Bachelor of Technology in Computer Engineering from Devang Patel…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/thedankoe_everything-is-a-muscle-everything-is-a-skill-activity-7334568267723743233-iQIH",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQES4IWbDp0aAA/feedshare-shrink_1280/B56Zcme8U2GoAk-/0/1748697343267?e=2147483647&v=beta&t=vTk17FLs57sNLvJVbDnt-rpY_XudkYxMBoednS38F8Q",
+      "title": "Everything is a muscle.\nEverything is a skill issue.",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/carnegie-mellon-university_a-team-from-the-carnegie-mellon-university-activity-7334233912715472896-1vCQ",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQEqFao3vJrvyQ/feedshare-shrink_800/B4EZchu3gTHkAg-/0/1748617626865?e=2147483647&v=beta&t=vWlyAgVAAkerX4WftXTVdjXn9XsZBCqm0QoD7ooLrCw",
+      "title": "A team from the Carnegie Mellon University Robotics Institute, Appleseed Labs, has received the Farm Robotics Challenge Excellence in Regenerative…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/georgia-institute-of-technology_wecandothat-activity-7333135324107169792-ah6q",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFl3q4KGClHXw/feedshare-shrink_800/B4EZcSHtdwG4As-/0/1748355702978?e=2147483647&v=beta&t=3GeuKarP-TitZqEBq0PgLaKl-WQV6iq2U13WtRnbt9E",
+      "title": "Georgia Tech Motorsports placed third overall out of 110 teams worldwide at the annual Formula SAE Michigan competition held at the Michigan…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/university-of-san-francisco_inspiration-at-spring-commencement-activity-7331820525591175168-ysph",
+      "image": "https://media.licdn.com/dms/image/v2/D5605AQHtXk-zE86QTg/videocover-high/B56Zb_a_DmHgBo-/0/1748042215205?e=2147483647&v=beta&t=-tLfq5ixdvxpFI4ITNTzwMj6WHbW_EWR3Uis8XJJNNA",
+      "title": "Inspiration at spring commencement. 🎓\n\n\"The principles of integrity, honesty, and importantly, caring for others — principles that were embedded in…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/university-of-maryland_umdgrad-activity-7331840718681817088-neKD",
+      "image": "https://media.licdn.com/dms/image/v2/D4E10AQGOJ1bz5wKHKw/image-shrink_800/B4EZb_uPgBHQAc-/0/1748047036032?e=2147483647&v=beta&t=2Czxxkt6FY6ghd57zCYORT1mag2dEMpWMgyOe8Ct7M8",
+      "title": "“Life is better when we leap together.” –Kermit the Frog 💚\n\nInspiring speeches, a Rainbow Connection chorus and so much Terp pride. Congratulations…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/priteshjagani_i-have-worked-with-hundreds-of-job-seekers-activity-7334602058932649984-Lqix",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQGfPcwL4uX3yA/feedshare-shrink_800/B56ZcX4X0EGsAo-/0/1748452345285?e=2147483647&v=beta&t=-oZWn3fLN76eXtF4YAoxrOCR7H-gp1u_gSq8zHCe02Q",
+      "title": "I have worked with hundreds of job seekers in 2024–2025, from recent grads to mid-career professionals and I keep seeing the same outdated beliefs…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/davidguybrizan_take-5-ai-and-the-future-of-work-activity-7331199664328712192-hCV8",
+      "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQElIdCR1ueHWw/articleshare-shrink_800/B56Zb2nO56HUAI-/0/1747894202337?e=2147483647&v=beta&t=K79kNw369xQ6vsSAMfZC4_-RtNiOCI4uSfrOZdvWdVg",
+      "title": "USF Magazine asked me 5 quetions about AI and the future of work. \"Keep the answers short,\" they said. https://lnkd.in/gp6GSPDf",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/columbia-university_columbia2025-activity-7333221360191594497-okQt",
+      "image": "https://media.licdn.com/dms/image/v2/D4E10AQHCpImOv39jQw/ads-video-thumbnail_720_1280/B4EZcTV1gCHkAg-/0/1748376186216?e=2147483647&v=beta&t=b9ubU2fGbzSPgGpQTGxJGmyOAGHSPIeCz6DcjNbrPBo",
+      "title": "🎓🦁 At Commencement, the Columbia community came together to honor our #Columbia2025 graduates. Look back at an amazing week of ceremonies and…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/georgia-institute-of-technology_georgia-tech-is-turning-the-iconic-biltmore-activity-7333513694905044993-xiKS",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQFMVCKbbguRBA/feedshare-shrink_800/B56ZcXf1jOG0Ag-/0/1748445914238?e=2147483647&v=beta&t=Rx2muxyJSGIWQ0TE2fZQQqXIU4whXaPWiUFZBF9-k4Y",
+      "title": "Georgia Tech is turning the iconic Biltmore in Tech Square into a strategic hub for innovation and entrepreneurship. The 100-year-old Atlanta…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/marianaantaya_mcp-agents-llm-activity-7327467800770293760-Gmj7",
+      "image": "https://media.licdn.com/dms/image/v2/D5605AQHDKGzgrIFUBg/videocover-high/B56ZbBk.1DGoBw-/0/1747004450282?e=2147483647&v=beta&t=Jy7x8X8TDrnsZFIvVSDK50sqiHVeAmuoWdeA3P5G4W8",
+      "title": "MCP vs API: What’s the difference? \n\nBreaking it down in the video… \n\n#mcp #agents #llm",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/niday-singhal-5b2425253_mba-mbagraduate-saintlouisuniversity-activity-7334311172348760065-jptv",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQFN4ipNB3fuPA/feedshare-shrink_800/B56Zci1GtHGoAg-/0/1748636045110?e=2147483647&v=beta&t=YhE8diIKF8k8m7Sp4RqRdy-KcXwrysMDR_a36md5Gbk",
+      "title": "MBA Journey Complete! 🎓\n🎓 What an incredible journey! Today I'm celebrating the completion of my MBA at Saint Louis University with a 3.85 GPA, and…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/sowmya-kumpatla_umsl-graduation2025-informationsystemsandtechnology-activity-7333891050043789313-rQtj",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQF2tJJykDV2vA/feedshare-shrink_2048_1536/B56Zcc3CY6G0As-/0/1748535881673?e=2147483647&v=beta&t=6R4CiH2_-r4NfoHlejfygA81lEnSpMLePgKrcNDMSJc",
+      "title": "I’m excited to share that I’ve officially graduated with a Master’s degree in Information Systems and Technology from the University of…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/anjali-viramgama_tech-cs-interview-activity-7333345159285276672-E2o1",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQFOzLvPGL7zlQ/feedshare-shrink_2048_1536/B56ZcVGhEkHUAs-/0/1748405730748?e=2147483647&v=beta&t=eLdAOR7row8LUqO0WlQT88cM7urGFW69vgu3onCw7r8",
+      "title": "When I was invited to the YouTube creator event, I met hundreds of extremely inspiring Youtubers from all over the world. I had long conversations…",
+      "activity": "Liked by Veer Raje"
+    },
+    {
+      "link": "https://www.linkedin.com/posts/hemalatha-jayanne-gowda_cmu-graduation2025-womenintech-activity-7332503521637924865-ew2t",
+      "image": "https://media.licdn.com/dms/image/v2/D5622AQFfCGOVfykUow/feedshare-shrink_800/B56ZcJJF8NGoAg-/0/1748205069537?e=2147483647&v=beta&t=10n3y_1GafjyQswX1dSikL8Igj5oaPtaOHr-cYOF-JI",
+      "title": "Officially a Carnegie Mellon Alum! 🎓 \n\nWhen I came to Carnegie Mellon University to begin my Master’s in Information Systems Management, with a…",
+      "activity": "Liked by Veer Raje"
+    }
+  ],
+  "volunteering": [],
+  "certification": [
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Introduction to Responsible AI",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Jan 2025",
+      "credential_id": "Credential ID 13489326",
+      "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13489326?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Prompt Design on Vertex AI",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Jan 2025",
+      "credential_id": "Credential ID 13514675",
+      "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13514675?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Introduction to Gen AI",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Dec 2024",
+      "credential_id": "Credential ID 13433483",
+      "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13433483?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Introduction to Large Language Models",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Dec 2024",
+      "credential_id": "Credential ID 13433432",
+      "credential_url": "https://www.cloudskillsboost.google/public_profiles/6ee0db9e-d7f5-4f18-8d86-87e6f20eb0c2/badges/13433432?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share&trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Image Classification Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://developers.google.com/profile/badges/playlists/ml/going-further-image-classification?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Product Image Search Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Aug 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://developers.google.com/profile/badges/playlists/ml/going-further-image-product-search?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEx1F57_8I-Yg/company-logo_100_100/company-logo_100_100/0/1631301693161?e=2147483647&v=beta&t=KdHBbCCK8eqprZm5TizNf9nP6GftE9XHMZhITfBBJPQ",
+      "certification": "Cybersecurity and Ethical Hacking",
+      "company_url": "https://in.linkedin.com/company/idemi-mumbai?trk=public_profile_profile-section-card_image-click",
+      "company_name": "IDEMI MUMBAI",
+      "issue_date": "Issued Jul 2024",
+      "credential_id": ""
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Object Detection Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Jul 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://developers.google.com/profile/badges/playlists/ml/going-further-object-detection?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_100_100/company-logo_100_100/0/1631311446380?e=2147483647&v=beta&t=fpIR4mVp092kTPQiY9WCtffmz9qUqsnLCSfc0In3daE",
+      "certification": "Tensorflow Badge",
+      "company_url": "https://www.linkedin.com/company/google?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Google",
+      "issue_date": "Issued Jul 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://developers.google.com/profile/badges/playlists/tensorflow?trk=public_profile_see-credential"
+    },
+    {
+      "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFf8sH83foEVg/company-logo_100_100/company-logo_100_100/0/1654794308958/postman_platform_logo?e=2147483647&v=beta&t=vhUFiD_84RWtJWzqMFME4YJ9Jgnne9fH6DlCHgLCIEA",
+      "certification": "Postman API Fundamentals Student Expert",
+      "company_url": "https://www.linkedin.com/company/postman-platform?trk=public_profile_profile-section-card_image-click",
+      "company_name": "Postman",
+      "issue_date": "Issued Mar 2024",
+      "credential_id": "See credential",
+      "credential_url": "https://badgr.com/public/assertions/BsOxvUXbRqqg-A8QcG9kFA?trk=public_profile_see-credential"
+    }
+  ],
+  "people_also_viewed": [],
+  "similar_profiles": [
+    {
+      "link": "https://in.linkedin.com/in/veer-raje-234b21250?trk=public_profile_samename-profile",
+      "name": "Veer Raje",
+      "summary": "--",
+      "location": "Pune"
+    }
+  ],
+  "recommendations": [],
+  "publications": [],
+  "courses": [],
+  "languages": [],
+  "organizations": [],
+  "projects": [],
+  "awards": [],
+  "score": []
+}

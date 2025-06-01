@@ -3,7 +3,7 @@ import path from 'path';
 import mongoose from 'mongoose';
 import Candidate from "../models/candidate.model.js"
 
-const transformCandidateData = (data, aiSummary = null) => {
+const transformCandidateData = (data, aiSummary = null, linkedinData = null) => {
     if (data.additional_information?.volunteering) {
         if (typeof data.additional_information.volunteering === 'string') {
             if (data.additional_information.volunteering.trim().startsWith('[') ||
@@ -65,7 +65,7 @@ const transformCandidateData = (data, aiSummary = null) => {
     let linkedinDataTransformed = null;
     if (linkedinData && Array.isArray(linkedinData) && linkedinData.length > 0) {
         linkedinDataTransformed = {
-            profile_data: linkedinData[0],
+            profile_data: linkedinData,
             last_updated: new Date()
         };
     }
@@ -78,7 +78,7 @@ const transformCandidateData = (data, aiSummary = null) => {
     };
 };
 
-const processCandidateFile = async (filePath, summaryData = null, linkedinData = null, retries = 0) => {
+const processCandidateFile = async (filePath, summaryData = null, linkedinData = null, retries = 3) => {
     try {
         const data = fs.readFileSync(filePath, 'utf8');
         let candidateData;
@@ -181,7 +181,7 @@ const processCandidateDirectory = async (dataDirectoryPath, summariesDirectoryPa
             for (const file of jsonLinkedinFiles) {
                 try {
                     // Extract candidate number from filename (linkedin_candidate_1.json -> 1)
-                    const candidateNumberMatch = file.match(/linkedin_candidate_(\d+)\.json/);
+                    const candidateNumberMatch = file.match(/linkeldn_candidate_(\d+)\.json/);
                     if (candidateNumberMatch && candidateNumberMatch[1]) {
                         const candidateNumber = candidateNumberMatch[1];
                         const filePath = path.join(linkedinDirectoryPath, file);

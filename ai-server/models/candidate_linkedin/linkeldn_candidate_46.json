@@ -1,0 +1,175 @@
+{
+    "fullName": "Surabhi Waingankar",
+    "linkedin_internal_id": "1107756404",
+    "first_name": "Surabhi",
+    "last_name": "Waingankar",
+    "public_identifier": "surabhi-waingankar-898b9a26a",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D5616AQEO9TrKEs-33Q/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1719347286366?e=2147483647&v=beta&t=X6rhxh8Hw4f4oDq6UZbV7FLaM6CVVBFtA0M96tmOKUA",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQGQyICNX6zQZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705920670271?e=2147483647&v=beta&t=ryvPZVSupSQ4OnN4MzZb3BIWeSkPwCb6PyAtM8jsjaQ",
+    "headline": "Upcoming Summer Analyst @Goldman Sachs | SIH'24 Winner | JPMC CFG'24 Runner-up | 9 x Hackathon Winner| TY Student DJSCE",
+    "location": "Mumbai, Maharashtra, India",
+    "followers": "5K followers",
+    "connections": "500+ connections",
+    "about": "I am a passionate 3rd-year IT Engineering student with strong problem-solving skills and expertise in Java and Python. I have a deep interest in artificial intelligence, data analysis, and software development. As a full-stack web developer, I have experience in front-end and back-end technologies using the MERN stack. I am also exploring the potential of Generative AI and its real-world applications. Eager to learn and adapt to new technologies, I am seeking opportunities to gain hands-on experience through internships or projects.",
+    "experience": [
+        {
+            "position": "Research Lead",
+            "company_url": "https://in.linkedin.com/company/init-ai?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHqmLjBwUcYeg/company-logo_100_100/company-logo_100_100/0/1674211674099/init_ai_logo?e=2147483647&v=beta&t=P5W_jclXbbcZOnY6TeHgyKF5fXj0Y2aZ1bvfXToi1N4",
+            "company_name": "DJ InIT.AI",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "",
+            "starts_at": "Sep 2024",
+            "ends_at": "Present",
+            "duration": "10 months"
+        },
+        {
+            "position": "Artificial Intelligence Intern",
+            "company_url": "https://in.linkedin.com/company/cerelabs?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQHKizU9orECnw/company-logo_100_100/company-logo_100_100/0/1688119561933/cerelabs_logo?e=2147483647&v=beta&t=xaq0TW1nxPoo6xGph-qhdP-W_jhjpwYlrJvm3K-PN7s",
+            "company_name": "Cere Labs",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "•\t Migrated Robotic Process Automation (RPA) workflows from UiPath to Microsoft Power Automate.•\t Leveraged Large Language Models (LLMs) to convert and adapt platform-specific syntax.",
+            "starts_at": "Oct 2024",
+            "ends_at": "Present",
+            "duration": "9 months"
+        },
+        {
+            "position": "Research Intern",
+            "company_url": "https://in.linkedin.com/school/c-dac/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQH-TZG5VyLf7g/company-logo_100_100/company-logo_100_100/0/1665334485197/c_dac_logo?e=2147483647&v=beta&t=7aTwtGwTaDhbEPt6I425UWm8dVPpOPTPR4NXcJf0ZCs",
+            "company_name": "Centre for Development of Advanced Computing (C-DAC)",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "• Developed a Flowchart Similarity Detection System focusing on structural and textual similarity analysis.• Trained a custom YOLOv8 model to detect flowchart shapes and arrows for accurate structural representation.• Integrated OCR to extract text from the flowchart and mapped it to the corresponding flowchart shapes and arrows for detailed analysis.• Utilized graph-based data structures to model flowcharts, applying graph isomorphism techniques to compare node, edge, spatial and textual similarities.\n            \n\n    \n    \n\n    \n        Show less",
+            "starts_at": "Jun 2024",
+            "ends_at": "Jun 2025",
+            "duration": "1 year 1 month"
+        },
+        {
+            "position": "Artificial Intelligence and Machine Learning Intern",
+            "company_url": "https://www.linkedin.com/company/datamatics?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQHAvlzUsYGfxQ/company-logo_100_100/company-logo_100_100/0/1630653955408/datamatics_global_services_logo?e=2147483647&v=beta&t=r0UNK1LePijPfLqxOXXCuGAMFRIhI7GT-icaYhJv81Y",
+            "company_name": "Datamatics",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "• Developed Agentic Process Automation (APA) systems using Autogen to optimize business workflows.• Utilized Large Language Models (LLMs) to enhance Large Action Models (LAMs) for decision-making.• Implemented Retrieval-Augmented Generation (RAG) using LangChain for contextual information retrieval and automated agents and workflow generation.",
+            "starts_at": "Jun 2024",
+            "ends_at": "Aug 2024",
+            "duration": "3 months"
+        },
+        {
+            "position": "Data Analyst Intern",
+            "company_url": "https://in.linkedin.com/company/rubix-data-sciences?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+            "company_image": "https://media.licdn.com/dms/image/v2/C510BAQFhkkuGu7HSAg/company-logo_100_100/company-logo_100_100/0/1631404220498/rubix_data_sciences_logo?e=2147483647&v=beta&t=6vK7zwEs59y4sefPFAgeXeRT2-RSHuodUD0p-XKoc-0",
+            "company_name": "Rubix Data Sciences Private Limited",
+            "location": "Mumbai, Maharashtra, India",
+            "summary": "• Designed and deployed a module on Docker that scrapes specific company news from Google News using Selenium.• Summarized the scraped news and analyzed its sentiment to provide actionable insights for effective decision-making.• Created a Flask API endpoint to access and integrate the news insights seamlessly.",
+            "starts_at": "Feb 2024",
+            "ends_at": "May 2024",
+            "duration": "4 months"
+        }
+    ],
+    "education": [
+        {
+            "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+            "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+            "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+            "college_degree": "Bachelor of Technology - BTech",
+            "college_degree_field": "9.5",
+            "college_duration": "2022 - 2026",
+            "college_activity": ""
+        },
+        {
+            "college_name": "Shri T.P Bhatia Jr. College of Science",
+            "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+            "college_degree": "HSC",
+            "college_degree_field": "86.33%",
+            "college_duration": "2020 - 2022",
+            "college_activity": ""
+        },
+        {
+            "college_name": "Lakshdham High School",
+            "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+            "college_degree": "ICSE",
+            "college_degree_field": "97.34%",
+            "college_duration": " - ",
+            "college_activity": ""
+        }
+    ],
+    "articles": [],
+    "description": {
+        "description1": "DJ InIT.AI",
+        "description1_link": "https://in.linkedin.com/company/init-ai?trk=public_profile_topcard-current-company",
+        "description2": "Dwarkadas J. Sanghvi College of Engineering",
+        "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+        "description3": ""
+    },
+    "activities": [
+        {
+            "link": "https://www.linkedin.com/posts/sathishgathpa_goldmansachs-softwareengineering-interviewexperience-activity-7333190272480067584-NgnF",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQGj3-iMbKta4Q/feedshare-shrink_800/B56ZcQldMvGsAo-/0/1748329945078?e=2147483647&v=beta&t=QR0LvFfezocS_fO7Z2DjNf7C_dn2pJAce5g4m7cu-Ok",
+            "title": "Interviewing for Associate Software Roles at Goldman Sachs – My Experience & Preparation Guide\n\nRecently, I had the opportunity to interview for two…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/tanisha-harde-a75385186_legaltech-ai-legalinnovation-activity-7326471045589164032-MeGh",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQGAKcHCs5d4KQ/feedshare-shrink_2048_1536/B4DZawMwpNHwAs-/0/1746712861633?e=2147483647&v=beta&t=ue0hvSd-Msfvca-icmcbbJUn-NeAXmM555jx4kmidv4",
+            "title": "A few weeks late, but still excited to share this milestone! 🏅  \n\nIn the courtroom, every argument matters. The strength of an argument often…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/jinish08_amazon-aws-maang-activity-7325337516239163392-yGN4",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQGyoaxonrJ-jQ/feedshare-shrink_800/B4DZajTp0VG8Ag-/0/1746496560958?e=2147483647&v=beta&t=nIuhHddP3aA7LwiIOjAs2opOFtKshw5bTU44PQAfyeI",
+            "title": "Finally made it into the “A” of MAANG! ✨ \nI’m thrilled to share that I’ll be joining Amazon Web Services (AWS) in Seattle this summer as a Software…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/djsce_happy-to-inform-you-all-that-a-team-name-activity-7325125726280552448-n1CM",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQH33UxvCuX_sg/feedshare-shrink_800/B4DZagTB7bGgAk-/0/1746446066428?e=2147483647&v=beta&t=X3_peVnPMoyiOTfq04qpo_-6tbtOYjpohtqfO7QN8ZE",
+            "title": "Happy to inform you all that a team  (name:Syntax Sirens) of the following students of our Institute has  won  a first Prize of  Rs. 10,000 at…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/lawrence-wong-15728a18_the-singapore-india-hackathon-is-a-unique-activity-7086339828870508544-lcdQ",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQEEyEci0fsV3A/feedshare-shrink_800/feedshare-shrink_800/0/1689515056084?e=2147483647&v=beta&t=wRzkBvDLSObaPVsqbkv0jz_4VVcFX1Th3dbOi-DhyYs",
+            "title": "The Singapore-India Hackathon is a unique platform for young talents from both countries to work together and develop innovative solutions for global…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/djsce_happy-to-inform-you-all-that-a-team-name-activity-7321455029234593795-dqkr",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQGYN1mg1wtz_w/feedshare-shrink_2048_1536/B4DZZsIjQiGwAo-/0/1745570903794?e=2147483647&v=beta&t=gtm8HkLvh2ikhtNwovVx6TiGriW6GyHGRppTCK3Bu9E",
+            "title": "Happy to inform you all that a team ( name: Team India AI) of the following students from second year IT class of our Institute has won \"1st…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/twinkle-dhingra-43113a261_genai-hackathon-amdocs-activity-7320868937502490624-2clr",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQGG77bSuYJYOw/feedshare-shrink_2048_1536/B56ZZjzXkdHUAs-/0/1745431135571?e=2147483647&v=beta&t=KrmsSx13hxuO_MNowHIpz36e-KWgoeFwGHMB2LjxEMM",
+            "title": "✨ 1st Runner-Up | Amdocs GenAI Graduate Hackathon 2025 ✨\n\nI’m thrilled to share that Team AllRounders emerged as the Runner-Up in the Amdocs GenAI…",
+            "activity": "Liked by Surabhi Waingankar"
+        },
+        {
+            "link": "https://www.linkedin.com/posts/musteryashivam_one-final-time-at-dwarkadas-j-sanghvi-college-activity-7321092818939133954-R1xP",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQHIrd75QsLLiw/feedshare-shrink_2048_1536/B4DZZm_CW8G0A0-/0/1745484524497?e=2147483647&v=beta&t=Oozv0sVPxluJqMDOwM4ta4sb7WQgDDQc55TGSISQ5PE",
+            "title": "One Final Time at Dwarkadas J. Sanghvi College of Engineering 🚀\nBefore BTech wraps up, I couldn’t miss the chance to be part of one more hackathon —…",
+            "activity": "Liked by Surabhi Waingankar"
+        }
+    ],
+    "volunteering": [],
+    "certification": [],
+    "people_also_viewed": [],
+    "similar_profiles": [
+        {
+            "link": "https://in.linkedin.com/in/surabhiw?trk=public_profile_samename-profile",
+            "name": "Surabhi Waingankar",
+            "summary": "Textile Designer | Print-Pattern Designer | Product Stylist",
+            "location": "Mumbai"
+        }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [],
+    "organizations": [],
+    "projects": [],
+    "awards": [],
+    "score": []
+}
