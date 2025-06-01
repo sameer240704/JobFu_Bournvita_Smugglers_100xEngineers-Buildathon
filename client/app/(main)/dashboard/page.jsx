@@ -1,178 +1,398 @@
+// pages/AnalyticsPage.js (or your main page file)
 "use client";
-import React from "react";
 
-// Remove the d3 imports and create separate components for each chart type
-import { DonutChart } from "@/components/charts/DonutChart";
-import { HorizontalBarChart } from "@/components/charts/HorizontalBarChart";
-import { VerticalBarChart } from "@/components/charts/VerticalBarChart";
+import React from "react";
+import Image from "next/image"; // For user avatar and company logos
+
+// Assuming your chart components are in this path
 import { AreaChart } from "@/components/charts/AreaChart";
-import { LineChart } from "@/components/charts/LineChart";
+// You'll need to create/adapt HorizontalBarChart for Countries Insight
+// import { HorizontalBarChart } from "@/components/charts/HorizontalBarChart";
+
+// Lucide React Icons
+import {
+  Users,
+  UserPlus,
+  UserMinus,
+  Briefcase,
+  Bell,
+  Mail,
+  MoreHorizontal,
+  Phone,
+  CalendarDays,
+  MapPin,
+} from "lucide-react";
+
+// Mock data structure similar to the image
+const analyticsData = {
+  user: {
+    name: "Maria",
+    avatarUrl: "/placeholder-avatar.jpg", // Replace with actual path or use a placeholder service
+  },
+  stats: [
+    {
+      title: "Total employees",
+      value: "418",
+      change: "+7%",
+      changeType: "positive",
+      icon: <Users size={20} className="text-gray-500" />,
+    },
+    {
+      title: "New employees",
+      value: "21",
+      change: "+7%",
+      changeType: "positive",
+      icon: <UserPlus size={20} className="text-gray-500" />,
+    },
+    {
+      title: "Resigned employees",
+      value: "14",
+      change: "+4%",
+      changeType: "positive",
+      icon: <UserMinus size={20} className="text-gray-500" />,
+    }, // Change type might be negative in reality
+    {
+      title: "Job applicants",
+      value: "261",
+      change: "+12%",
+      changeType: "positive",
+      icon: <Briefcase size={20} className="text-gray-500" />,
+    },
+  ],
+  upcomingInterview: {
+    name: "Jordan Maccan",
+    role: "Front-End Developer",
+    time: "11:30 AM - 12:45 AM",
+    company: "PayPal",
+    companyLogoUrl: "/paypal-logo.png", // Replace
+    avatarUrl: "/jordan-maccan.jpg", // Replace
+  },
+  vacancyTrends: {
+    // Using your 'sales' data structure for AreaChart
+    vacancies: [
+      // Blue line
+      { date: "2023-01-15", value: 10 },
+      { date: "2023-02-15", value: 15 },
+      { date: "2023-03-15", value: 25 },
+      { date: "2023-04-15", value: 20 },
+      { date: "2023-05-15", value: 30 },
+      { date: "2023-06-15", value: 45.83 },
+      { date: "2023-07-15", value: 40 },
+      { date: "2023-08-15", value: 38 },
+      { date: "2023-09-15", value: 42 },
+      { date: "2023-10-15", value: 35 },
+    ],
+    candidates: [
+      // Red line
+      { date: "2023-01-15", value: 25 },
+      { date: "2023-02-15", value: 20 },
+      { date: "2023-03-15", value: 18 },
+      { date: "2023-04-15", value: 22 },
+      { date: "2023-05-15", value: 20 },
+      { date: "2023-06-15", value: 23 },
+      { date: "2023-07-15", value: 25 },
+      { date: "2023-08-15", value: 22 },
+      { date: "2023-09-15", value: 18 },
+      { date: "2023-10-15", value: 20 },
+    ],
+  },
+  countriesInsight: [
+    {
+      name: "United States",
+      flagUrl: "/flags/us.png",
+      percentage: 74,
+      color: "bg-blue-500",
+    }, // Replace flag paths
+    {
+      name: "France",
+      flagUrl: "/flags/fr.png",
+      percentage: 43,
+      color: "bg-indigo-500",
+    },
+    {
+      name: "Japan",
+      flagUrl: "/flags/jp.png",
+      percentage: 38,
+      color: "bg-red-500",
+    },
+    {
+      name: "Sweden",
+      flagUrl: "/flags/se.png",
+      percentage: 24,
+      color: "bg-yellow-500",
+    },
+    {
+      name: "Spain",
+      flagUrl: "/flags/es.png",
+      percentage: 16,
+      color: "bg-orange-500",
+    },
+  ],
+  employees: [
+    {
+      id: "E421",
+      name: "Kevin Michel",
+      avatarUrl: "/avatars/kevin.png",
+      email: "kevinmichel@gmail.com",
+      role: "Sr / Developer",
+    },
+    {
+      id: "E422",
+      name: "Tanisha Combs",
+      avatarUrl: "/avatars/tanisha.png",
+      email: "tanicom@gmail.com",
+      role: "Jn / UX Designer",
+    },
+    {
+      id: "E423",
+      name: "Aron Armstrong",
+      avatarUrl: "/avatars/aron.png",
+      email: "armsaron@gmail.com",
+      role: "Md / QA automation",
+    },
+    {
+      id: "E424",
+      name: "Josh Wiggins",
+      avatarUrl: "/avatars/josh.png",
+      email: "wiggijo@gmail.com",
+      role: "Sr / Analytics",
+    },
+  ],
+  currentVacancies: [
+    {
+      title: "Financial Analyst",
+      companyLogoUrl: "/logos/hm.png",
+      company: "H&M",
+    },
+    {
+      title: "Software Developer",
+      companyLogoUrl: "/logos/w.png",
+      company: "Wayfair",
+    },
+    {
+      title: "Project Manager",
+      companyLogoUrl: "/logos/twitch.png",
+      company: "Twitch",
+    },
+  ],
+};
+
+// Reusable Card Component
+const Card = ({ children, className = "", title, menuAction }) => (
+  <div
+    className={`bg-white dark:bg-slate-800 p-5 sm:p-6 rounded-xl shadow-lg ${className}`}
+  >
+    {(title || menuAction) && (
+      <div className="flex justify-between items-center mb-4">
+        {title && (
+          <h2 className="text-lg font-semibold text-slate-700 dark:text-slate-200">
+            {title}
+          </h2>
+        )}
+        {menuAction && (
+          <button className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300">
+            <MoreHorizontal size={20} />
+          </button>
+        )}
+      </div>
+    )}
+    {children}
+  </div>
+);
 
 const AnalyticsPage = () => {
-  const data = {
-    acceptanceRate: {
-      accepted: 68,
-      rejected: 32,
-    },
-    locationData: [
-      { location: "San Francisco", count: 156 },
-      { location: "New York", count: 142 },
-      { location: "London", count: 98 },
-      { location: "Singapore", count: 76 },
-      { location: "Toronto", count: 64 },
-    ],
-    jobTypes: [
-      { type: "Software Engineer", count: 245 },
-      { type: "Product Manager", count: 128 },
-      { type: "Data Scientist", count: 112 },
-      { type: "DevOps Engineer", count: 89 },
-      { type: "UX Designer", count: 76 },
-    ],
-    sales: [
-      { date: "2023-05-04", value: 10 },
-      { date: "2023-05-05", value: 12 },
-      { date: "2023-05-06", value: 10.5 },
-      { date: "2023-05-07", value: 6 },
-      { date: "2023-05-13", value: 10 },
-      { date: "2023-05-14", value: 17 },
-      { date: "2023-05-15", value: 14 },
-      { date: "2023-05-16", value: 15 },
-      { date: "2023-05-17", value: 20 },
-      { date: "2023-05-18", value: 18 },
-      { date: "2023-05-19", value: 16 },
-      { date: "2023-05-20", value: 15 },
-      { date: "2023-05-21", value: 16 },
-      { date: "2023-05-22", value: 13 },
-      { date: "2023-05-23", value: 11 },
-      { date: "2023-05-24", value: 11 },
-      { date: "2023-05-25", value: 13 },
-      { date: "2023-05-26", value: 12 },
-      { date: "2023-05-27", value: 9 },
-      { date: "2023-05-28", value: 8 },
-      { date: "2023-05-29", value: 10 },
-      { date: "2023-05-30", value: 11 },
-      { date: "2023-05-31", value: 8 },
-      { date: "2023-06-01", value: 9 },
-      { date: "2023-06-02", value: 10 },
-      { date: "2023-06-03", value: 12 },
-      { date: "2023-06-04", value: 13 },
-      { date: "2023-06-05", value: 15 },
-      { date: "2023-06-06", value: 13.5 },
-      { date: "2023-06-07", value: 13 },
-      { date: "2023-06-08", value: 13 },
-      { date: "2023-06-09", value: 14 },
-      { date: "2023-06-10", value: 13 },
-      { date: "2023-06-11", value: 12.5 },
-    ],
-    retentionRate: [
-      { date: "2023-05-01", value: 6 },
-      { date: "2023-05-02", value: 8 },
-      { date: "2023-05-03", value: 7 },
-      { date: "2023-05-04", value: 10 },
-      { date: "2023-05-05", value: 12 },
-      { date: "2023-05-06", value: 11 },
-      { date: "2023-05-07", value: 8 },
-      { date: "2023-05-09", value: 9 },
-    ],
-    keyMetrics: [
-      { metric: "Avg. Time to Hire", value: "18 days" },
-      { metric: "Offer Acceptance Rate", value: "89%" },
-      { metric: "Interview Success Rate", value: "42%" },
-      { metric: "Candidate Satisfaction", value: "4.6/5" },
-    ],
-  };
+  const {
+    user,
+    stats,
+    upcomingInterview,
+    vacancyTrends,
+    countriesInsight,
+    employees,
+    currentVacancies,
+  } = analyticsData;
 
   return (
-    <div className=" p-6 space-y-6">
-      <h1 className="text-2xl font-bold mb-8">
+    <div className="min-h-screen overflow-scroll bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-50 p-4 sm:p-6 lg:p-8">
+      {/* Top Header */}
+      <header className="flex justify-between items-center bg-white rounded-md mb-8 p-10 text-3xl font-bold">
         Recruitment Analytics Dashboard
-      </h1>
+      </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-4">Application Status</h2>
-          <div className="">
-            <DonutChart
-              data={[
-                { name: "Accepted", value: data.acceptanceRate.accepted },
-                { name: "Rejected", value: data.acceptanceRate.rejected },
-              ]}
-              colors={["#4ade80", "#f87171"]}
-            />
-          </div>
-        </div>
-
-        {/* Location Density - Horizontal Bar Chart */}
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-4">Location Distribution</h2>
-          <div className="">
-            <HorizontalBarChart
-              data={data.locationData.map((item) => ({
-                key: item.location,
-                value: item.count,
-              }))}
-            />
-          </div>
-        </div>
-
-        {/* Job Types - Vertical Bar Chart */}
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-4">Job Types Applied</h2>
-          <div>
-            <VerticalBarChart
-              data={data.jobTypes.map((item) => ({
-                key: item.type,
-                value: item.count,
-              }))}
-              color="#a78bfa"
-            />
-          </div>
-        </div>
-
-        {/* Experience Distribution - Area Chart */}
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-4">
-            Years of Experience Distribution
-          </h2>
-          <div>
-            <AreaChart
-              sales={data.sales.map((item) => ({
-                date: item.date,
-                value: item.value,
-              }))}
-            />
-          </div>
-        </div>
-
-        {/* Retention Rate - Line Chart */}
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-4">Retention Rate Trend</h2>
-          <div className="h-64">
-            <LineChart
-              sales={data.retentionRate.map((item) => ({
-                date: item.date,
-                value: item.rate,
-              }))}
-            />
-          </div>
-        </div>
-
-        {/* Key Metrics - Grid */}
-        <div className="bg-white p-6 rounded-lg shadow">
-          <h2 className="text-lg font-semibold mb-4">Key Takeaways</h2>
-          <div className="grid grid-cols-2 gap-4">
-            {data.keyMetrics.map((metric) => (
-              <div
-                key={metric.metric}
-                className="text-center p-4 bg-gray-50 rounded-lg"
-              >
-                <p className="text-sm text-gray-600">{metric.metric}</p>
-                <p className="text-xl font-semibold text-gray-900">
-                  {metric.value}
+      {/* Main Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Left Column (Stats, Upcoming Interview, Employees) */}
+        <div className="lg:col-span-2 space-y-6">
+          {/* Stats Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+            {stats.map((stat) => (
+              <Card key={stat.title}>
+                <div className="flex items-center text-slate-500 dark:text-slate-400 mb-1">
+                  {stat.icon}
+                  <span className="ml-2 text-sm">{stat.title}</span>
+                </div>
+                <p className="text-3xl font-bold text-slate-800 dark:text-slate-100">
+                  {stat.value}
                 </p>
-              </div>
+                <p
+                  className={`text-xs mt-1 ${
+                    stat.changeType === "positive"
+                      ? "text-green-500"
+                      : "text-red-500"
+                  }`}
+                >
+                  {stat.change} last month
+                </p>
+              </Card>
             ))}
           </div>
+
+          {/* Vacancy Trends */}
+          <Card title="Vacancy Trends" className="h-[400px]">
+            {" "}
+            {/* Explicit height for chart container */}
+            <div className="flex justify-end items-center gap-4 text-xs mb-2">
+              <span className="flex items-center gap-1">
+                <span className="h-2 w-2 rounded-full bg-indigo-500"></span>{" "}
+                Vacancies
+              </span>
+              <span className="flex items-center gap-1">
+                <span className="h-2 w-2 rounded-full bg-rose-500"></span>{" "}
+                Candidates
+              </span>
+            </div>
+            <div className="h-[300px] relative">
+              <AreaChart sales={vacancyTrends.vacancies} />
+              <div
+                className="absolute h-full border-l border-slate-400 dark:border-slate-600"
+                style={{ left: "55%", top: 0 }}
+              >
+                {" "}
+                {/* Approximate position */}
+                <span
+                  className="absolute -top-2 -left-5 bg-indigo-600 text-white text-xs px-2 py-0.5 rounded-md shadow-lg"
+                  style={{ transform: "translateX(-50%)" }}
+                >
+                  45.83
+                </span>
+              </div>
+            </div>
+          </Card>
+
+          {/* Employees Table */}
+          <Card title="Employees" menuAction>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left text-slate-500 dark:text-slate-400">
+                <thead className="text-xs text-slate-700 dark:text-slate-300 uppercase bg-slate-50 dark:bg-slate-700/50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3">
+                      Employee name
+                    </th>
+                    <th scope="col" className="px-6 py-3">
+                      Employee ID
+                    </th>
+                    <th scope="col" className="px-6 py-3">
+                      Email
+                    </th>
+                    <th scope="col" className="px-6 py-3">
+                      Role
+                    </th>
+                    <th scope="col" className="px-6 py-3">
+                      <span className="sr-only">Actions</span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {employees.map((emp) => (
+                    <tr
+                      key={emp.id}
+                      className="bg-white dark:bg-slate-800 border-b dark:border-slate-700 hover:bg-slate-50/50 dark:hover:bg-slate-700/30"
+                    >
+                      <td className="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap flex items-center gap-3">
+                        <Image
+                          src={emp.avatarUrl}
+                          alt={emp.name}
+                          width={32}
+                          height={32}
+                          className="rounded-full object-cover"
+                        />
+                        {emp.name}
+                      </td>
+                      <td className="px-6 py-4">{emp.id}</td>
+                      <td className="px-6 py-4">{emp.email}</td>
+                      <td className="px-6 py-4">{emp.role}</td>
+                      <td className="px-6 py-4 text-right">
+                        <button className="text-indigo-600 dark:text-indigo-400 hover:underline">
+                          Edit
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </div>
+
+        {/* Right Column (Countries Insight, Current Vacancies) */}
+        <div className="lg:col-span-1 space-y-6">
+          <Card title="Countries Insight" menuAction>
+            <div className="space-y-4">
+              {countriesInsight.map((country) => (
+                <div key={country.name}>
+                  <div className="flex justify-between items-center mb-1">
+                    <div className="flex items-center gap-2">
+                      <Image
+                        src={country.flagUrl}
+                        alt={country.name}
+                        width={20}
+                        height={15}
+                        className="object-contain rounded-sm"
+                      />
+                      <span className="text-sm text-slate-700 dark:text-slate-200">
+                        {country.name}
+                      </span>
+                    </div>
+                    <span className="text-sm font-medium text-slate-600 dark:text-slate-300">
+                      {country.percentage}%
+                    </span>
+                  </div>
+                  <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-1.5">
+                    <div
+                      className={`${country.color} h-1.5 rounded-full`}
+                      style={{ width: `${country.percentage}%` }}
+                    ></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
+
+          <Card title="Current vacancies" menuAction>
+            <div className="space-y-4">
+              {currentVacancies.map((vacancy, index) => (
+                <div key={index} className="flex items-center gap-3">
+                  <Image
+                    src={vacancy.companyLogoUrl}
+                    alt={vacancy.company}
+                    width={40}
+                    height={40}
+                    className="p-1 bg-slate-100 dark:bg-slate-700 rounded-lg object-contain"
+                  />
+                  <div>
+                    <p className="font-semibold text-sm text-slate-700 dark:text-slate-200">
+                      {vacancy.title}
+                    </p>
+                    <a
+                      href="#"
+                      className="text-xs text-indigo-600 dark:text-indigo-400 hover:underline"
+                    >
+                      View Details
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
         </div>
       </div>
     </div>
