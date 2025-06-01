@@ -1,0 +1,414 @@
+{
+  "user_profile": {
+    "name": "Veer Raje",
+    "username": "VR952004",
+    "followers": 15,
+    "following": 11,
+    "public_repos": 11
+  },
+  "repository_analysis": {
+    "total_repositories": 11,
+    "total_stars": 1,
+    "total_forks": 0,
+    "total_watchers": 1,
+    "total_contributors": 13,
+    "average_health_score": 48.0
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "created_date": "2024-03-16",
+      "last_updated": "2024-08-20",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 26,
+      "last_commit": "2024-08-20",
+      "repository_size": "1079 KB",
+      "health_score": 70,
+      "default_branch": "main",
+      "type": "Fork",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "readme_excerpt": "500 AI Machine learning Deep learning Computer vision NLP Projects with code !!!"
+    },
+    {
+      "id": 2,
+      "name": "AI-Insights-Excelerate-Project",
+      "category": "General",
+      "primary_language": "Python",
+      "description": null,
+      "created_date": "2025-05-04",
+      "last_updated": "2025-05-04",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 58,
+      "last_commit": "2025-05-04",
+      "repository_size": "286 KB",
+      "health_score": 50,
+      "default_branch": "main",
+      "type": "Fork",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "readme_excerpt": "Streamlit App"
+    },
+    {
+      "id": 3,
+      "name": "StressDetectionIPD",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "Contains all the files used in making the stress detection chatbot.",
+      "created_date": "2024-08-18",
+      "last_updated": "2025-04-06",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 1,
+      "releases": 0,
+      "recent_commits": 16,
+      "last_commit": "2025-04-06",
+      "repository_size": "27074 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "97.2%",
+        "TypeScript": "1.6%",
+        "Python": "1.0%"
+      },
+      "readme_excerpt": "Contains all the files used in making the stress detection chatbot."
+    },
+    {
+      "id": 4,
+      "name": "DataAnalysis_MachineLearningProjects",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "Contains Data Analysis and ML projects",
+      "created_date": "2023-09-24",
+      "last_updated": "2024-11-05",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 9,
+      "last_commit": "2024-04-09",
+      "repository_size": "5855 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "Collection of data analysis and machine learning projects showcasing skills and exploration of various datasets",
+        "technology_stack": ["Jupyter Notebook", "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"],
+        "project_category": "Collection of Data Analysis and Machine Learning projects/Notebooks - Portfolio showcase",
+        "key_features": [
+          "Data Analysis - Performing exploratory data analysis (EDA)",
+          "Data Visualization - Creating visualizations for data insights",
+          "Machine Learning - Building and evaluating ML models",
+          "Dataset Exploration - Investigating different datasets",
+          "Project Examples - Runnable examples in Jupyter Notebooks"
+        ],
+        "development_status": "Personal portfolio project with limited active development",
+        "use_cases": [
+          "Data Science Learners for understanding workflows",
+          "Portfolio showcase for demonstrating skills",
+          "Inspiration for different types of data analysis projects"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "IBM-DataScience-MachineLearning-CapstoneProject",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "This repository consists of all the lab conducted during the IBM Data Science and Machine Learning Capstone Project certification course.",
+      "created_date": "2024-10-11",
+      "last_updated": "2024-10-30",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 6,
+      "last_commit": "2024-10-30",
+      "repository_size": "485 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "99.8%",
+        "Python": "0.2%"
+      },
+      "readme_excerpt": "This repository consists of all the lab conducted during the IBM Data Science and Machine Learning Capstone Project certification course."
+    },
+    {
+      "id": 6,
+      "name": "Interlagos-Racing-Line",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "Making a Computer vision project to plot the racing line of the Brazilian Grand Prix track in Intelagos.",
+      "created_date": "2024-10-12",
+      "last_updated": "2024-10-27",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 7,
+      "last_commit": "2024-10-27",
+      "repository_size": "518157 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "75.2%",
+        "Python": "24.8%"
+      },
+      "readme_excerpt": "Making a Computer vision project to plot the racing line of the Brazilian Grand Prix track in Intelagos."
+    },
+    {
+      "id": 7,
+      "name": "LearningDocker",
+      "category": "General",
+      "primary_language": "Python",
+      "description": "This is a repo to learn how a ML model can be deployed with the help of Docker.",
+      "created_date": "2024-09-05",
+      "last_updated": "2024-10-11",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2024-09-07",
+      "repository_size": "451 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "67.7%",
+        "Dockerfile": "32.3%"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "Demonstrates how to deploy a machine learning model (emotion recognition) using Docker containerization",
+        "technology_stack": ["Python", "scikit-learn", "FastAPI", "Uvicorn", "Docker"],
+        "project_category": "Demonstration project and simple web application for ML model deployment",
+        "key_features": [
+          "Emotion Recognition Model - Pre-trained Support Vector Classifier (SVC)",
+          "REST API Endpoint - Web API built with FastAPI",
+          "Dockerized Deployment - Container image for easy deployment",
+          "Dependency Management - Uses requirements.txt"
+        ],
+        "development_status": "Learning exercise/demonstration - personal project or proof-of-concept",
+        "use_cases": [
+          "Developers learning Docker with practical ML example",
+          "Machine Learning Engineers for deploying ML models as web services",
+          "Students understanding integration of ML and containerization",
+          "Getting started with deploying ML models using FastAPI and Docker"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Student-Performance-Predictor",
+      "category": "General",
+      "primary_language": "HTML",
+      "description": "This project is focused on deploying a ML model on a webpage with the help of FasstAPI",
+      "created_date": "2024-04-09",
+      "last_updated": "2024-04-10",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 3,
+      "last_commit": "2024-04-10",
+      "repository_size": "1607 KB",
+      "health_score": 45,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "HTML": "63.9%",
+        "Python": "36.1%"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "Deploy a machine learning model predicting student performance as a web application using FastAPI",
+        "technology_stack": ["FastAPI", "HTML", "Python", "Machine Learning"],
+        "project_category": "Web Application - Machine Learning Model Deployment",
+        "key_features": [
+          "ML Model Serving - Student performance prediction model",
+          "Web Interface - User-friendly webpage for model interaction",
+          "API Endpoint - FastAPI-based API for model predictions"
+        ],
+        "development_status": "Early-stage project, likely personal or work in progress",
+        "use_cases": [
+          "Educators/Teachers - Identify students at risk of underperforming",
+          "Students - Understand factors impacting academic success",
+          "Educational Institutions - Resource allocation and intervention strategies"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Pizza-Ordering-App",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "description": "Developing a mobile app to order pizza",
+      "created_date": "2024-03-20",
+      "last_updated": "2024-03-20",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 12,
+      "last_commit": "2024-03-23",
+      "repository_size": "612 KB",
+      "health_score": 45,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "TypeScript": "98.7%",
+        "JavaScript": "1.3%"
+      },
+      "readme_excerpt": "This is a repository that contains the files for creating a mobile app using react native. This app is used to order pizzas."
+    },
+    {
+      "id": 10,
+      "name": "Patient-Management-system",
+      "category": "General",
+      "primary_language": "Python",
+      "description": "This is a college project for the subjects python and DBMS",
+      "created_date": "2023-12-02",
+      "last_updated": "2023-12-02",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2023-12-02",
+      "repository_size": "8 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "Basic Patient Management System designed as a college project demonstrating Python programming and database management skills",
+        "technology_stack": ["Python", "DBMS (Database Management System)", "Database Connector"],
+        "project_category": "Small-scale database application - Command-line tool or simple GUI for patient record management",
+        "key_features": [
+          "Patient record creation and storage",
+          "Data persistence using database",
+          "Basic patient information retrieval/search"
+        ],
+        "development_status": "Beginner-level, inactive project - simple implementation completed for course requirements",
+        "use_cases": [
+          "Students/Beginners - Learning tool for Python database programming",
+          "Educational Demonstration - Basic patient management system in educational setting"
+        ]
+      }
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "AI-Insights-Excelerate-Project",
+    "details": {
+      "description": null,
+      "language": "Python",
+      "size": "286 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  },
+  "social_activity": {
+    "followers": [
+      {
+        "username": "IDouble"
+      },
+      {
+        "username": "DnyaneshSawant511"
+      },
+      {
+        "username": "Chitus"
+      },
+      {
+        "username": "nholuongut"
+      },
+      {
+        "username": "Charles-Chrismann"
+      }
+    ],
+    "following": [
+      {
+        "username": "GoogleCloudPlatform"
+      },
+      {
+        "username": "XiaomingX"
+      },
+      {
+        "username": "AntonioLonga"
+      },
+      {
+        "username": "DnyaneshSawant511"
+      },
+      {
+        "username": "alicangunduz"
+      }
+    ],
+    "total_followers": 15,
+    "total_following": 11
+  },
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_timestamp": "2025-06-02",
+    "profile_analyzed": "Veer Raje (@VR952004)",
+    "profile_description": null,
+    "total_repositories_analyzed": 10,
+    "top_repositories_by_stars": 1,
+    "top_repositories_total_forks": 0,
+    "top_repositories_total_contributors": 13
+  }
+}

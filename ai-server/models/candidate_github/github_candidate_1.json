@@ -1,0 +1,122 @@
+{
+  "user_profile": {
+    "name": "Ami Khatri",
+    "username": "@amikhatri-07",
+    "bio": "Learning IT Things",
+    "location": "Mumbai, Maharashtra",
+    "followers": 0,
+    "following": 3,
+    "public_repos": 9,
+    "top_followers": [],
+    "following_users": []
+  },
+  "repositories_analysis": {
+    "total_repositories": 9,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "top_repositories_by_stars": [],
+  "top_10_projects_summary": {
+    "total_stars_top_10": 0,
+    "total_forks_top_10": 0,
+    "total_contributors": 10,
+    "average_health_score": 34.4
+  },
+  "repositories": [
+    {
+      "name": "Exp05",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-25",
+      "last_updated": "2025-02-25",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Python": 100.0
+      },
+      "recent_commits": 1,
+      "last_commit": "2025-02-25",
+      "repository_size_kb": 1,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "name": "EcommerceShoppingSite",
+      "stars": 0,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-21",
+      "last_updated": "2025-02-21",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Python": 47.0,
+        "HTML": 41.5,
+        "CSS": 7.6
+      },
+      "recent_commits": 6,
+      "last_commit": "2024-04-25",
+      "repository_size_kb": 18031,
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "name": "mlops",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-04",
+      "last_updated": "2025-02-04",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Python": 100.0
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-02-04",
+      "repository_size_kb": 0,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "name": "EmailSpam-NotSpam",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2025-01-29",
+      "last_updated": "2025-01-29",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Jupyter Notebook": 100.0
+      },
+      "recent_commits": 1,
+      "last_commit": "2025-01-29",
+      "repository_size_kb": 245,
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ]
+}

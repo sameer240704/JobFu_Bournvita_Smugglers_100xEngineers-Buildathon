@@ -1,0 +1,390 @@
+{
+  "profile": {
+    "username": "tejasmaroo",
+    "bio": "AI Enthusiast",
+    "followers": 0,
+    "following": 1,
+    "public_repos": 25,
+    "following_list": ["@ALucek"]
+  },
+  "repository_summary": {
+    "total_repositories": 25,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "total_contributors": 49,
+    "average_health_score": 40.0
+  },
+  "repositories": [
+    {
+      "name": "lead-scraper-api",
+      "rank": 1,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-05-16",
+        "last_updated": "2025-05-16",
+        "recent_commits": 9,
+        "last_commit": "2025-05-16",
+        "repository_size": "27 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "This API takes natural language queries and returns Apollo.io search links.",
+      "language_breakdown": {
+        "Python": "98.3%",
+        "Shell": "1.7%"
+      }
+    },
+    {
+      "name": "email-verifier-api",
+      "rank": 2,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-05-11",
+        "last_updated": "2025-05-11",
+        "recent_commits": 9,
+        "last_commit": "2025-05-11",
+        "repository_size": "16 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "A simple REST API that verifies email addresses without sending actual emails.",
+      "language_breakdown": {
+        "Python": "99.8%",
+        "Procfile": "0.2%"
+      }
+    },
+    {
+      "name": "daa",
+      "rank": 3,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-05-08",
+        "last_updated": "2025-05-08",
+        "recent_commits": 1,
+        "last_commit": "2025-05-08",
+        "repository_size": "8 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "ai_analysis": {
+        "project_purpose": "This repository appears to contain implementations of various machine learning algorithms in Python. It likely serves as a learning resource or a collection of code examples for understanding and experimenting with different neural network architectures and dimensionality reduction techniques.",
+        "technology_stack": "Python as the primary programming language. Likely uses libraries such as NumPy for numerical computation, Scikit-learn for PCA and possibly other utility functions, TensorFlow or PyTorch for building and training the neural network models (CNN, RNN, VAE, GAN).",
+        "project_category": "Machine Learning Algorithm Implementation / Code Examples / Educational Resource",
+        "key_features": [
+          "Implementation of a Perceptron",
+          "Backpropagation Algorithm",
+          "Convolutional Neural Network (CNN) implementation",
+          "Recurrent Neural Network (RNN) implementation",
+          "Kohonen Self-Organizing Feature Map (KSOFM) implementation",
+          "Principal Component Analysis (PCA) implementation",
+          "Variational Autoencoder (VAE) implementation",
+          "Generative Adversarial Network (GAN) implementation"
+        ],
+        "development_status": "Based on the lack of stars, forks, and a description, the project seems to be in an early stage of development or may be a personal learning project. It is difficult to assess its maturity or level of activity without more information, but the limited information suggests it might not be actively maintained or comprehensively documented.",
+        "use_cases": [
+          "Machine Learning Students/Learners: To study and understand the implementation details of various machine learning algorithms",
+          "Researchers/Engineers: As a starting point or reference for building and experimenting with different neural network architectures",
+          "Educators: To provide students with practical code examples to complement theoretical concepts"
+        ]
+      }
+    },
+    {
+      "name": "faceid-login",
+      "rank": 4,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "HTML",
+        "created_date": "2025-03-01",
+        "last_updated": "2025-03-01",
+        "recent_commits": 1,
+        "last_commit": "2025-03-01",
+        "repository_size": "8083 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "HTML": "61.3%",
+        "Python": "16.0%",
+        "JavaScript": "12.0%"
+      },
+      "ai_analysis": {
+        "project_purpose": "The faceid-login project appears to be a web application that implements face recognition-based login functionality. It likely allows users to register their face and subsequently use facial recognition to authenticate and access a dashboard.",
+        "technology_stack": "HTML for structuring web pages, CSS for styling, JavaScript for client-side logic (app.js, face-api.min.js), Python (Flask - Assumption) with app.py file and templates directory, JSON for user data storage (users.json), Shell scripting for downloading face recognition models.",
+        "project_category": "Web application",
+        "key_features": [
+          "User registration with face data capture",
+          "Face recognition login",
+          "User dashboard access after successful authentication",
+          "Front-end face detection and recognition using face-api.js",
+          "Backend user management and data storage (likely rudimentary in users.json)"
+        ],
+        "development_status": "The repository has zero stars and forks, and 'No description' implies a lack of formal documentation. This indicates the project is likely in an early development stage, personal project, or possibly abandoned. The download_models.sh script suggests that external face recognition models must be downloaded, indicating a dependence on third-party resources and potentially complex setup process.",
+        "use_cases": [
+          "Personal Projects/Learning: A developer learning about face recognition and web development could use this project as a starting point",
+          "Proof-of-Concept: Could be used as a quick prototype for a system requiring facial recognition login",
+          "Educational Purposes: Can be used in educational settings to demonstrate and teach face recognition in web applications"
+        ]
+      }
+    },
+    {
+      "name": "mlops6",
+      "rank": 5,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 1,
+        "closed_issues": 1,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-02-25",
+        "last_updated": "2025-02-25",
+        "recent_commits": 13,
+        "last_commit": "2025-02-25",
+        "repository_size": "24 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "ai_analysis": {
+        "project_purpose": "This project likely implements a basic machine learning pipeline or a component thereof. Based on the requirements.txt, it prepares a machine learning model using common libraries and automates the workflow through GitHub Actions. The goal seems to be creating a simple, reproducible machine learning project, possibly for demonstration or learning purposes.",
+        "technology_stack": "Python as primary programming language, NumPy for numerical computing, Scikit-learn for machine learning, Matplotlib for data visualization, GitHub Actions for workflow automation (likely CI/CD).",
+        "project_category": "Machine Learning Pipeline/Component. It likely focuses on model training, evaluation, or deployment within an MLOps context.",
+        "key_features": [
+          "Machine learning model implementation (likely a simple model due to the small size)",
+          "Dependency management via requirements.txt",
+          "Automated workflow using GitHub Actions (.github/workflows/main.yml), potentially for testing, building, or deploying the model"
+        ],
+        "development_status": "The project appears to be in an early stage of development. No stars or forks suggest it's relatively new or not widely known. The small size and absence of a description imply it's a basic or incomplete implementation, possibly a personal project or a starting point.",
+        "use_cases": [
+          "Students/Learners: Can be used as a simple example for learning basic machine learning concepts and MLOps principles",
+          "Developers: Could serve as a starting template for a more complex machine learning project",
+          "MLOps Engineers (potentially): As a basic demonstration of automating a simple ML pipeline using GitHub Actions"
+        ]
+      }
+    },
+    {
+      "name": "educhain",
+      "rank": 6,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 11,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-02-17",
+        "last_updated": "2025-02-17",
+        "recent_commits": 150,
+        "last_commit": "2025-02-17",
+        "repository_size": "3417 KB",
+        "health_score": 60,
+        "default_branch": "main",
+        "type": "Fork",
+        "description": "A Python package for generating educational content using Generative AI"
+      },
+      "readme_excerpt": "<img src=\"https://github.com/VedantDeshmukh2/educhain/blob/main/images/educhain.svg\" alt=\"Educhain Logo\" width=\"800\" height=\"400\">",
+      "language_breakdown": {
+        "Python": "100.0%"
+      }
+    },
+    {
+      "name": "F5-TTS",
+      "rank": 7,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 30,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-01-18",
+        "last_updated": "2025-01-18",
+        "recent_commits": 150,
+        "last_commit": "2025-01-18",
+        "repository_size": "1810 KB",
+        "health_score": 60,
+        "default_branch": "main",
+        "type": "Fork",
+        "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\""
+      },
+      "readme_excerpt": "python",
+      "language_breakdown": {
+        "Python": "99.5%",
+        "Dockerfile": "0.3%",
+        "Shell": "0.2%"
+      }
+    },
+    {
+      "name": "Cold-EMail-Generator-Project",
+      "rank": 8,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Jupyter Notebook",
+        "created_date": "2024-09-02",
+        "last_updated": "2025-01-12",
+        "recent_commits": 5,
+        "last_commit": "2025-01-12",
+        "repository_size": "82 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "Link: https://cold-email-generator-project.streamlit.app/",
+      "language_breakdown": {
+        "Jupyter Notebook": "96.2%",
+        "Python": "3.8%"
+      }
+    },
+    {
+      "name": "spam-sms-detection",
+      "rank": 9,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Jupyter Notebook",
+        "created_date": "2025-01-12",
+        "last_updated": "2025-01-12",
+        "recent_commits": 6,
+        "last_commit": "2025-01-12",
+        "repository_size": "941 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "End to end code for the email spam classifier project",
+      "language_breakdown": {
+        "Jupyter Notebook": "99.9%",
+        "Python": "0.1%"
+      }
+    },
+    {
+      "name": "ChatPDF",
+      "rank": 10,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "Python",
+        "created_date": "2025-01-03",
+        "last_updated": "2025-01-11",
+        "recent_commits": 13,
+        "last_commit": "2025-01-11",
+        "repository_size": "16238 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "Deployed on Streamlit: https://chatpdf-fylslwb4mpsvdg6uwidi3b.streamlit.app/",
+      "language_breakdown": {
+        "Python": "100.0%"
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "analysis_date": "2025-06-01",
+    "total_projects_analyzed": 25,
+    "projects_shown": 10,
+    "health_score_range": "35-60/100",
+    "most_recent_activity": "2025-05-16",
+    "oldest_project_shown": "2024-09-02",
+    "primary_focus": "AI/ML Development",
+    "deployment_platforms": ["Streamlit"],
+    "repository_types": {
+      "original": 8,
+      "forks": 2
+    }
+  }
+}

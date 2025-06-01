@@ -1,0 +1,367 @@
+{
+  "profile": {
+    "display_name": "spadeking",
+    "username": "rachit404",
+    "bio": "Creator!",
+    "followers": 11,
+    "following": 13,
+    "public_repos": 15
+  },
+  "repository_stats": {
+    "total_repositories": 15,
+    "total_stars": 1,
+    "total_forks": 0,
+    "total_watchers": 1,
+    "total_contributors": 15,
+    "average_health_score": 48.0
+  },
+  "top_repositories": [
+    {
+      "rank": 1,
+      "name": "FINDR_IPD",
+      "stars": 1,
+      "health_score": 70,
+      "category": "Data Science/AI",
+      "primary_language": "JavaScript",
+      "created": "2025-05-13",
+      "last_updated": "2025-05-28",
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "**FINDR_IPD** is an academic project developed during college with the potential to evolve into a scalable startup. It aims to revolutionize how businesses and stakeholders in the food processing ind...",
+      "language_breakdown": {
+        "JavaScript": "83.3%",
+        "Jupyter Notebook": "11.3%",
+        "Python": "4.9%"
+      },
+      "topics": ["flask-backend", "javascript", "python", "reactjs", "tailwindcss"],
+      "recent_commits": 19,
+      "last_commit": "2025-05-28",
+      "repository_size": "538 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "interactive_trading_chart",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-06-01",
+      "last_updated": "2025-06-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "This project likely aims to create an interactive charting interface for visualizing trading or financial data. It appears to be a frontend-focused application designed to display and allow interaction with stock prices or other financial metrics.",
+        "technology_stack": "JavaScript, React (likely), Vite, HTML/CSS, possibly ESLint",
+        "project_category": "Web Application (specifically, a frontend component or application)",
+        "key_features": [
+          "Interactive Charting: Core functionality appears to be displaying interactive charts of trading data",
+          "Data Visualization: Likely able to visualize time-series data (e.g., stock prices)",
+          "Frontend Interface: Provides a user interface built with React for interacting with the chart",
+          "Data Handling (potentially): src/utils/data.js likely handles data fetching, processing, or simulation for the chart"
+        ],
+        "development_status": "Early Stage: The lack of a detailed description, zero stars/forks, and relatively small size (32 KB) suggest the project is in its early stages of development or possibly unmaintained",
+        "use_cases": [
+          "Individual Traders/Investors: To visualize and analyze stock data",
+          "Financial Analysts: To create custom charting tools for research",
+          "Educational Purposes: As a learning resource for building interactive charts",
+          "Web Developers: To integrate interactive charts into trading platforms or financial websites"
+        ]
+      },
+      "language_breakdown": {
+        "JavaScript": "79.7%",
+        "HTML": "19.1%",
+        "CSS": "1.2%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2025-06-01",
+      "repository_size": "32 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "code_editor_frontend",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-05-29",
+      "last_updated": "2025-05-29",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "Welcome to the **Code Editor**, a minimalist, performant, and beautiful web-based coding playground built using modern React practices. It features **real-time code editing**, **local persistence**, a...",
+      "language_breakdown": {
+        "JavaScript": "78.2%",
+        "CSS": "16.2%",
+        "HTML": "5.6%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2025-05-29",
+      "repository_size": "116 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "skills-introduction-to-secret-scanning",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": null,
+      "created": "2025-05-28",
+      "last_updated": "2025-05-28",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 1,
+      "releases": 0,
+      "description": "GitHub Skills: Introduction to Secret Scanning",
+      "readme_excerpt": "<img src=\"https://octodex.github.com/images/welcometocat.png\" align=\"right\" height=\"250px\" />",
+      "recent_commits": 5,
+      "last_commit": "2025-05-28",
+      "repository_size": "16 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "skills-secure-repository-supply-chain",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "C#",
+      "created": "2025-05-28",
+      "last_updated": "2025-05-28",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 1,
+      "closed_issues": 6,
+      "releases": 0,
+      "description": "Exercise: Secure your Repository Supply Chain",
+      "readme_excerpt": "<img src=\"https://octodex.github.com/images/welcometocat.png\" align=\"right\" height=\"250px\" />",
+      "language_breakdown": {
+        "C#": "98.3%",
+        "JavaScript": "1.7%"
+      },
+      "recent_commits": 11,
+      "last_commit": "2025-05-28",
+      "repository_size": "76 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "skills-introduction-to-repository-management",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-05-26",
+      "last_updated": "2025-05-26",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 3,
+      "releases": 0,
+      "description": "Exercise: introduction to repository management",
+      "readme_excerpt": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
+      "language_breakdown": {
+        "JavaScript": "45.1%",
+        "Python": "23.1%",
+        "CSS": "20.3%"
+      },
+      "recent_commits": 11,
+      "last_commit": "2025-05-26",
+      "repository_size": "35 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "NyayMitra",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": null,
+      "created": "2025-05-19",
+      "last_updated": "2025-05-19",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "NyayMitra is a comprehensive legal assistance platform offering AI chatbot support, lawyer search with maps, legal document analysis, case tracking, contract drafting, and interactive legal flowcharts to simplify access to justice for all.",
+      "readme_excerpt": "https://drive.google.com/file/d/1_R1p5gsIdxzoO8-1VLlps4H9FdN7yr4N/view?usp=drive_link",
+      "language_breakdown": {
+        "JavaScript": "51.3%",
+        "TypeScript": "41.2%",
+        "Python": "4.3%"
+      },
+      "recent_commits": 11,
+      "last_commit": "2025-05-06",
+      "repository_size": "5605 KB",
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 8,
+      "name": "python_keylogger",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-05-04",
+      "last_updated": "2025-05-16",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "This project implements a Python-based keylogger. It appears to capture keystrokes and system information on a host machine and potentially encrypts the logged data. This information is then saved to local files.",
+        "technology_stack": "Python, likely cryptography library, IntelliJ IDEA IDE",
+        "project_category": "Security Tool/Potentially Malicious Software. While keyloggers can have legitimate uses (e.g., debugging, security research), their primary function is to record keystrokes, raising privacy and security concerns.",
+        "key_features": [
+          "Keystroke Logging: Captures keystrokes entered by the user",
+          "System Information Gathering: Collects information about the host system",
+          "Data Encryption (Potentially): Uses encryption to protect logged information",
+          "Data Storage: Saves logged data to local text files",
+          "Key Generation (Potentially): Mechanism to generate encryption keys"
+        ],
+        "development_status": "Based on the lack of stars, forks, and the simple file structure, the project is likely a small, personal project or a basic proof-of-concept. It is probably not actively maintained.",
+        "use_cases": [
+          "Security Research: Understanding how keyloggers work (ethical use only)",
+          "Debugging/Troubleshooting: Potentially tracking keystrokes for debugging purposes in a controlled environment",
+          "Malicious Activity: (Most likely intention if deployed without consent). Can be used to steal passwords, personal information, and other sensitive data"
+        ]
+      },
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 12,
+      "last_commit": "2025-05-16",
+      "repository_size": "11 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "ChatWebApp",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-03-15",
+      "last_updated": "2025-04-23",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 2,
+      "closed_issues": 1,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "This project is a real-time chat application built with a backend likely focused on user authentication, message handling, and persistent storage. It appears to allow users to exchange messages in real-time, potentially supporting features like user accounts and data persistence.",
+        "technology_stack": "Backend: JavaScript (Node.js most likely), possibly with Express.js framework. Database likely MongoDB or PostgreSQL. WebSockets via socket.js for real-time communication. Cloudinary for image/file storage.",
+        "project_category": "Web Application (specifically, a Chat Application)",
+        "key_features": [
+          "User Authentication: Includes auth.controller.js and auth.middleware.js for login/registration",
+          "Real-time Messaging: Employs WebSockets for real-time message exchange",
+          "Message Handling: message.controller.js handles message creation, storage, and retrieval",
+          "Data Persistence: Utilizes a database to store users and messages",
+          "Cloud Storage: Cloudinary integration for uploaded images or files"
+        ],
+        "development_status": "The project seems to be in an early or intermediate stage of development. The small size (366KB), lack of stars/forks, and absence of detailed documentation suggest it's not a fully mature or widely adopted project.",
+        "use_cases": [
+          "Small Teams: Can be used by small teams needing a simple, private chat solution",
+          "Personal Projects: Could serve as a personal messaging application or learning project",
+          "Specific Communities: Adaptable for small, niche communities requiring a dedicated chat platform"
+        ]
+      },
+      "language_breakdown": {
+        "JavaScript": "99.3%",
+        "HTML": "0.6%",
+        "CSS": "0.1%"
+      },
+      "recent_commits": 32,
+      "last_commit": "2025-04-23",
+      "repository_size": "366 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "E-Commerce-Website",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-04-10",
+      "last_updated": "2025-04-20",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Me trying more complex",
+      "readme_excerpt": "<summary><span style=\"font-size: 20px;\"> Backend Setup </span></summary>",
+      "language_breakdown": {
+        "JavaScript": "100.0%"
+      },
+      "recent_commits": 19,
+      "last_commit": "2025-04-20",
+      "repository_size": "68 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ],
+  "social_data": {
+    "top_followers": [
+      "@parthgala1",
+      "@Charles-Chrismann",
+      "@ethanflower1903",
+      "@SujalChoudhari",
+      "@george0st"
+    ],
+    "following": [
+      "@dessalines",
+      "@GoogleCloudPlatform",
+      "@hiteshchoudhary",
+      "@parthgala1",
+      "@SujalChoudhari"
+    ]
+  },
+  "detailed_analysis_selected": {
+    "repository_name": "interactive_trading_chart",
+    "description": null,
+    "language": "JavaScript",
+    "size": "32 KB",
+    "default_branch": "main",
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "watchers": 0
+  }
+}

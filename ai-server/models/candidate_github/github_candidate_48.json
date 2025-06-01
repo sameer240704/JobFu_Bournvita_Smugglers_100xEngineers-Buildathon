@@ -1,0 +1,271 @@
+{
+  "user_profile": {
+    "name": "Engenharia de Software da UEPA",
+    "username": "Engenharia-de-Software-da-UEPA",
+    "bio": "Somos estudantes de Engenharia de Software da Universidade do Estado do Pará no GitHub, focados em projetos de software, código aberto e crescimento coletivo.",
+    "location": "Brazil",
+    "followers": 14,
+    "following": 0,
+    "public_repos": 7
+  },
+  "repository_stats": {
+    "total_repositories": 7,
+    "total_stars": 1,
+    "total_forks": 4,
+    "total_watchers": 1
+  },
+  "top_projects_summary": {
+    "total_stars_top_10": 1,
+    "total_forks_top_10": 4,
+    "total_contributors": 13,
+    "avg_health_score": 50.0
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "projeto-desenvolvimento-web",
+      "stars": 1,
+      "forks": 3,
+      "watchers": 1,
+      "contributors": 5,
+      "health_score": 70,
+      "category": "General",
+      "primary_language": "HTML",
+      "created_date": "2024-05-08",
+      "last_updated": "2024-09-05",
+      "last_commit": "2024-05-14",
+      "open_issues": 0,
+      "closed_issues": 9,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "git init: Inicia o repositório git na pasta de sua escolha",
+      "language_breakdown": {
+        "HTML": 90.0,
+        "CSS": 10.0
+      },
+      "recent_commits": 59,
+      "repository_size_kb": 91511,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "ia-jogo-da-velha",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Python",
+      "created_date": "2024-01-04",
+      "last_updated": "2024-11-29",
+      "last_commit": "2024-11-29",
+      "open_issues": 0,
+      "closed_issues": 2,
+      "releases": 0,
+      "description": "Repositório do projeto Jogo da Velha com Inteligência Artificial.",
+      "readme_excerpt": "Este projeto é um jogo da velha (Tic Tac Toe) controlado por uma inteligência artificial desenvolvida em Python e acessível via web utilizando Django. Você pode jogar contra a IA diretamente no navega...",
+      "language_breakdown": {
+        "Python": 71.8,
+        "HTML": 28.2
+      },
+      "recent_commits": 14,
+      "repository_size_kb": 64,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": ".github",
+      "stars": 0,
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 2,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": null,
+      "created_date": "2023-09-24",
+      "last_updated": "2023-09-24",
+      "last_commit": "2024-01-04",
+      "open_issues": 0,
+      "closed_issues": 1,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This repository is likely a personal profile repository on GitHub. It's used to customize the GitHub profile page of the user owning the repository, showcasing information and visual elements on their main profile view.",
+        "technology_stack": "Primarily Markdown (for the README.md) and potentially image formats (e.g., JPEG) for visual elements. No major frameworks or tools are apparent.",
+        "project_category": "Personal Profile Customization",
+        "key_features": "Customization of the GitHub profile page with a README displaying information and potentially a profile picture or other visual elements.",
+        "development_status": "Likely considered \"complete\" or \"maintained\" in a static state. Since the file count is very low and there are no visible signs of active development, it likely functions as intended and isn't undergoing significant changes.",
+        "use_cases": "The owner of the GitHub account would use this. The purpose is to present a more engaging and informative profile to visitors, recruiters, and collaborators who view their GitHub page."
+      },
+      "language_breakdown": {},
+      "recent_commits": 20,
+      "repository_size_kb": 174,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "portfolio",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "HTML",
+      "created_date": "2024-01-17",
+      "last_updated": "2024-02-05",
+      "last_commit": "2024-01-17",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "git@github.com:Engenharia-de-Software-da-UEPA/portfolio.git",
+      "language_breakdown": {
+        "HTML": 56.2,
+        "CSS": 43.8
+      },
+      "recent_commits": 4,
+      "repository_size_kb": 7,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "project-01.2024",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "HTML",
+      "created_date": "2023-12-14",
+      "last_updated": "2023-12-14",
+      "last_commit": "2023-12-24",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Based on the file structure, this project likely represents a basic website or web application. Without a description, its specific purpose is unclear, but it probably serves as a portfolio piece or a starting point for a larger project.",
+        "technology_stack": "The technology stack is simple: HTML: Used for structuring the website's content. CSS: Used for styling and visual presentation (style.css). JavaScript: Likely used for interactive elements and client-side logic (main.js).",
+        "project_category": "This appears to be a simple web application or static website project.",
+        "key_features": "It's difficult to determine specific features without further analysis. However, a typical project with this structure would likely include: Basic website structure and layout. Potentially some simple JavaScript-driven interactions. Basic styling applied through CSS.",
+        "development_status": "The project is likely in an early stage of development or is a simple finished example. The lack of a description, stars, forks, and complex configuration files suggests it's either newly created, a small personal project, or abandoned.",
+        "use_cases": "This project could be used as: A template for creating a basic website. A learning resource for beginners learning HTML, CSS, and JavaScript. A simple portfolio project to showcase front-end skills."
+      },
+      "language_breakdown": {
+        "HTML": 51.6,
+        "CSS": 48.4
+      },
+      "recent_commits": 6,
+      "repository_size_kb": 3,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "Compiladores-e-Interpretadores---Douglas",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Java",
+      "created_date": "2023-12-06",
+      "last_updated": "2023-12-06",
+      "last_commit": "2023-12-07",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Atividades da Matéria de Compiladores e Interpretadores",
+      "readme_excerpt": "Atividades da Matéria de Compiladores e Interpretadores",
+      "language_breakdown": {
+        "Java": 52.5,
+        "C": 31.5,
+        "Python": 16.0
+      },
+      "recent_commits": 8,
+      "repository_size_kb": 7,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "Programas-em-Kotlin---Douglas",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Kotlin",
+      "created_date": "2023-12-04",
+      "last_updated": "2023-12-04",
+      "last_commit": "2023-12-05",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Programas da Matéria de Programação Mobile usando Linguagem Kotlin",
+      "readme_excerpt": "Programas da Matéria de Programação Mobile usando Linguagem Kotlin",
+      "language_breakdown": {
+        "Kotlin": 100.0
+      },
+      "recent_commits": 8,
+      "repository_size_kb": 124,
+      "default_branch": "master",
+      "type": "Original Repository"
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "ia-jogo-da-velha",
+    "description": "Repositório do projeto Jogo da Velha com Inteligência Artificial.",
+    "primary_language": "Python",
+    "size_kb": 64,
+    "default_branch": "main",
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "watchers": 0
+  },
+  "social_activity": {
+    "recent_activity": {
+      "note": "Activity data not provided in source"
+    },
+    "followers_list": [
+      {
+        "username": "KaioCMM"
+      },
+      {
+        "username": "frcelipe7"
+      },
+      {
+        "username": "DouglaxDev"
+      },
+      {
+        "username": "Glhalton"
+      },
+      {
+        "username": "Gabryel-dev1"
+      }
+    ],
+    "total_followers": 14,
+    "following_list": [],
+    "total_following": 0
+  },
+  "metadata": {
+    "data_fetched": "GitHub Data Fetcher",
+    "organization_type": "Educational - Software Engineering Students",
+    "university": "Universidade do Estado do Pará",
+    "country": "Brazil",
+    "export_type": "Top 10 Summary",
+    "analysis_type": "Comprehensive GitHub Data"
+  }
+}

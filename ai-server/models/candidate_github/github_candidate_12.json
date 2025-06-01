@@ -1,0 +1,179 @@
+{
+  "user_profile": {
+    "name": "jenishboricha",
+    "username": "jenishboricha",
+    "bio": null,
+    "followers": 1,
+    "following": 0,
+    "public_repos": 3
+  },
+  "repository_analysis": {
+    "total_repositories": 3,
+    "total_stars": 0,
+    "total_forks": 1,
+    "total_watchers": 0,
+    "top_10_summary": {
+      "total_stars": 0,
+      "total_forks": 1,
+      "total_contributors": 3,
+      "avg_health_score": 36.7
+    },
+    "api_errors": [
+      {
+        "status": 204,
+        "message": "API Error: 204 -"
+      },
+      {
+        "status": 409,
+        "message": "Git Repository is empty.",
+        "documentation_url": "https://docs.github.com/rest/commits/commits#list-commits"
+      },
+      {
+        "status": 409,
+        "message": "Git Repository is empty.",
+        "documentation_url": "https://docs.github.com/rest/git/trees#get-a-tree"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "IPD",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-08-05",
+      "last_updated": "2024-08-17",
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "project_purpose": "Automates the creation and/or processing of videos, potentially involving data analysis and visualization",
+        "technology_stack": {
+          "primary_language": "Python",
+          "data_libraries": ["scikit-learn", "numpy", "pandas", "matplotlib", "seaborn", "statsmodels"],
+          "ai_libraries": ["google-generativeai"],
+          "web_framework": ["streamlit"],
+          "video_processing": ["moviepy"],
+          "utilities": ["requests", "os", "re"]
+        },
+        "project_category": "Tool/application combining data analysis, AI, and video processing",
+        "key_features": [
+          "Video Creation/Compilation using moviepy",
+          "Data Analysis & Visualization",
+          "AI-Powered Content Generation",
+          "Web Interface using streamlit",
+          "Automated Script Generation"
+        ],
+        "development_status": "Early stage of development or personal project",
+        "use_cases": ["Data Scientists/Analysts", "Content Creators", "Researchers/Educators", "Businesses"]
+      },
+      "language_breakdown": {
+        "Python": 100.0
+      },
+      "recent_commits": 4,
+      "last_commit": "2024-08-17",
+      "repository_size_kb": 19281,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "Indian-Food-Recommendation-System",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-04-27",
+      "last_updated": "2025-04-27",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "project_purpose": "Build an Indian food recommendation system using machine learning techniques",
+        "technology_stack": {
+          "primary_language": "Python",
+          "data_libraries": ["Pandas", "NumPy"],
+          "ml_libraries": ["Scikit-learn", "SciPy"],
+          "web_framework": ["Flask/Streamlit (implied in app.py)"]
+        },
+        "project_category": "Machine Learning Web Application",
+        "key_features": [
+          "Indian Food Dataset",
+          "Recommendation Algorithm",
+          "Basic User Interface (UI)"
+        ],
+        "development_status": "Early stage of development, personal project or proof-of-concept",
+        "use_cases": ["Individuals seeking food recommendations", "Restaurants", "Food Bloggers/Enthusiasts"]
+      },
+      "language_breakdown": {
+        "Python": 100.0
+      },
+      "recent_commits": 3,
+      "last_commit": "2025-04-27",
+      "repository_size_kb": 99,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "temp",
+      "stars": 0,
+      "health_score": 15,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2024-09-02",
+      "last_updated": "2024-09-02",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "project_purpose": "Impossible to determine - empty repository",
+        "technology_stack": {
+          "primary_language": "Unknown"
+        },
+        "project_category": "Cannot be determined",
+        "key_features": ["No discernible features - empty repository"],
+        "development_status": "Very early stage, most likely inactive or abandoned",
+        "use_cases": ["No identifiable use cases - offers no value in current state"]
+      },
+      "recent_commits": 0,
+      "last_commit": null,
+      "repository_size_kb": 0,
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ],
+  "detailed_repository_analysis": {
+    "selected_repository": "Indian-Food-Recommendation-System",
+    "details": {
+      "description": null,
+      "language": "Python",
+      "size_kb": 99,
+      "default_branch": "main",
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "watchers": 0
+      }
+    }
+  },
+  "social_activity": {
+    "recent_activity": "Not specified",
+    "top_followers": [
+      "@Atharva-N"
+    ],
+    "following": []
+  }
+}

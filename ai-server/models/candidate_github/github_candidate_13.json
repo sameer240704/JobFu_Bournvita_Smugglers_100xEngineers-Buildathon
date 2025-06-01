@@ -1,0 +1,403 @@
+{
+  "profile": {
+    "name": "Jenish Soni",
+    "username": "pro1zero",
+    "bio": "The more I learn, the more I give it back to my community.",
+    "location": "Montreal",
+    "website": "https://jenishsoni.com",
+    "followers": 1,
+    "following": 0,
+    "public_repos": 26
+  },
+  "repository_stats": {
+    "total_repositories": 26,
+    "total_stars": 0,
+    "total_forks": 4,
+    "total_watchers": 0,
+    "top_10_stats": {
+      "total_stars": 0,
+      "total_forks": 4,
+      "total_contributors": 8,
+      "avg_health_score": 32.0
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "terraform",
+      "stars": 0,
+      "health_score": 15,
+      "category": "General",
+      "primary_language": null,
+      "created": "2025-05-10",
+      "last_updated": "2025-05-10",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "project_purpose": "Infrastructure as Code (IaC) configurations managed by Terraform for provisioning and managing cloud resources",
+        "technology_stack": [
+          "HashiCorp Terraform",
+          "HashiCorp Configuration Language (HCL)"
+        ],
+        "project_category": "Infrastructure as Code (IaC) configuration repository",
+        "key_features": [
+          "Automated provisioning and management of infrastructure via Terraform",
+          "Defining infrastructure resources as code",
+          "Applying configuration changes",
+          "Maintaining infrastructure state"
+        ],
+        "development_status": "Very early stage - likely inactive or just starting",
+        "use_cases": [
+          "DevOps engineers",
+          "Cloud engineers",
+          "Infrastructure administrators"
+        ],
+        "note": "Analysis based on repository name only due to lack of content"
+      },
+      "recent_commits": 0,
+      "repository_size": "0 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "tf",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": null,
+      "created": "2025-05-10",
+      "last_updated": "2025-05-10",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "project_purpose": "Terraform code for infrastructure provisioning or configuration based on main.tf file",
+        "technology_stack": [
+          "Terraform"
+        ],
+        "project_category": "Infrastructure as Code (IaC) Configuration",
+        "key_features": [
+          "Infrastructure Definition using main.tf",
+          "Automated Provisioning",
+          "Version Control benefits"
+        ],
+        "development_status": "Early Stage/Inactive",
+        "use_cases": [
+          "DevOps Engineers/System Administrators",
+          "Developers for development/testing environments"
+        ],
+        "note": "Analysis based on speculation due to lack of information"
+      },
+      "recent_commits": 1,
+      "last_commit": "2025-05-10",
+      "repository_size": "0 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "CLCI",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2024-07-02",
+      "last_updated": "2024-09-23",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "project_purpose": "Java-based tool or application, likely a Command Line Interface (CLI) application",
+        "technology_stack": [
+          "Java",
+          "Maven or Gradle (likely)"
+        ],
+        "project_category": "CLI tool/application or small utility library",
+        "key_features": [
+          "Automation or data processing via command line interface"
+        ],
+        "development_status": "Early stage or inactive",
+        "use_cases": [
+          "Developers or system administrators needing command-line automation"
+        ],
+        "note": "Analysis speculative due to lack of description and file structure access"
+      },
+      "language_breakdown": {
+        "Java": "100.0%"
+      },
+      "recent_commits": 28,
+      "last_commit": "2024-09-23",
+      "repository_size": "26 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "Data-Structures",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2022-01-21",
+      "last_updated": "2022-01-22",
+      "forks": 4,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "Public repository for Data Structures using Java workshop.",
+      "language_breakdown": {
+        "Java": "100.0%"
+      },
+      "recent_commits": 34,
+      "last_commit": "2022-03-05",
+      "repository_size": "1995 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "pro1zero",
+      "stars": 0,
+      "health_score": 15,
+      "category": "General",
+      "primary_language": null,
+      "created": "2022-02-18",
+      "last_updated": "2022-02-18",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "project_purpose": "Impossible to determine - appears to be placeholder or very early stage project",
+        "technology_stack": [
+          "Unknown"
+        ],
+        "project_category": "Undetermined",
+        "key_features": [
+          "None identified"
+        ],
+        "development_status": "Likely inactive or in very nascent stage",
+        "use_cases": [
+          "None"
+        ],
+        "note": "Empty or placeholder repository with no discernible purpose"
+      },
+      "recent_commits": 0,
+      "repository_size": "0 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "Spring-JPA-PostgreSQL-Docker-Compose",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2022-02-04",
+      "last_updated": "2022-02-05",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "At the moment, I'm still dealing with some platform related issues (Mac M1 → LINUX - amd/64) but, you can still test this code up by following the below steps:",
+      "language_breakdown": {
+        "Java": "96.2%",
+        "Dockerfile": "3.8%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2022-02-06",
+      "repository_size": "70 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "Visualizer",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2022-01-21",
+      "last_updated": "2022-01-21",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "supports Bubble Sort, Insertion Sort, Selection Sort, and Quick Sort visualizations.",
+      "language_breakdown": {
+        "JavaScript": "83.9%",
+        "CSS": "16.1%"
+      },
+      "recent_commits": 4,
+      "last_commit": "2022-01-21",
+      "repository_size": "9 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 8,
+      "name": "Personal-Portfolio",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2021-10-03",
+      "last_updated": "2022-01-06",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 1,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "project_purpose": "Personal portfolio website built using JavaScript to showcase developer's skills and experience",
+        "technology_stack": [
+          "JavaScript",
+          "React.js (Likely)",
+          "CSS-in-JS libraries"
+        ],
+        "project_category": "Web Application - Static website",
+        "key_features": [
+          "Accomplishments Section",
+          "Background Animation",
+          "Experience Section",
+          "Footer",
+          "Header",
+          "Hero Section"
+        ],
+        "development_status": "Active development or recently completed",
+        "use_cases": [
+          "Developers/Engineers creating portfolio websites",
+          "Anyone seeking customizable portfolio template"
+        ]
+      },
+      "language_breakdown": {
+        "JavaScript": "100.0%"
+      },
+      "recent_commits": 8,
+      "last_commit": "2023-03-06",
+      "repository_size": "34 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "FillActive-Chat-App",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2021-09-29",
+      "last_updated": "2021-11-04",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "Visit: https://fillactive-chat-app.netlify.app/ </br>",
+      "live_url": "https://fillactive-chat-app.netlify.app/",
+      "language_breakdown": {
+        "JavaScript": "53.6%",
+        "CSS": "41.6%",
+        "HTML": "4.7%"
+      },
+      "recent_commits": 9,
+      "last_commit": "2022-02-07",
+      "repository_size": "231 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "COMP-6461",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Dockerfile",
+      "created": "2021-10-08",
+      "last_updated": "2021-11-04",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "Press 'Start' and 'Add new instance' (You'll need to login into Docker first.) </br>",
+      "language_breakdown": {
+        "Dockerfile": "100.0%"
+      },
+      "recent_commits": 7,
+      "last_commit": "2021-11-04",
+      "repository_size": "14 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "terraform",
+    "description": null,
+    "language": null,
+    "size": "0 KB",
+    "default_branch": "main",
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "watchers": 0,
+    "recent_commits_error": "409 - Git Repository is empty"
+  },
+  "social_data": {
+    "followers": {
+      "count": 1,
+      "list": [
+        "@Negarafr"
+      ]
+    },
+    "following": {
+      "count": 0,
+      "list": []
+    }
+  },
+  "notable_projects": {
+    "most_forked": "Data-Structures",
+    "largest_by_size": "Data-Structures",
+    "highest_health_score": "Data-Structures",
+    "most_commits": "Data-Structures",
+    "live_deployments": [
+      {
+        "name": "FillActive-Chat-App",
+        "url": "https://fillactive-chat-app.netlify.app/"
+      }
+    ]
+  }
+}

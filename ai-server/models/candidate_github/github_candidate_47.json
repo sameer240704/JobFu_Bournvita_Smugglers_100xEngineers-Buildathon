@@ -1,0 +1,82 @@
+{
+  "user_profile": {
+    "name": "Yulong Zhang",
+    "username": "yulongzhang",
+    "followers": 16,
+    "following": 0,
+    "public_repos": 1
+  },
+  "repository_stats": {
+    "total_repositories": 1,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "top_projects_summary": {
+    "total_stars_top_10": 0,
+    "total_forks_top_10": 0,
+    "total_contributors": 30,
+    "avg_health_score": 60.0
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "oss-fuzz",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 30,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "Shell",
+      "created_date": "2022-10-21",
+      "last_updated": "2023-08-23",
+      "last_commit": "2023-08-24",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "OSS-Fuzz - continuous fuzzing for open source software.",
+      "readme_excerpt": "[Fuzz testing] is a well-known technique for uncovering programming errors in",
+      "language_breakdown": {
+        "Shell": 28.3,
+        "Python": 20.5,
+        "Dockerfile": 18.1
+      },
+      "recent_commits": 150,
+      "repository_size_kb": 41922,
+      "default_branch": "master",
+      "type": "Fork",
+      "github_url": "https://github.com/yulongzhang/oss-fuzz"
+    }
+  ],
+  "social_activity": {
+    "recent_activity": {
+      "note": "Activity data not provided in source"
+    },
+    "followers_list": [
+      {
+        "username": "frite"
+      },
+      {
+        "username": "uraj"
+      },
+      {
+        "username": "mssun"
+      },
+      {
+        "username": "jiayunhan"
+      },
+      {
+        "username": "Corey-Wang"
+      }
+    ],
+    "total_followers": 16,
+    "following_list": [],
+    "total_following": 0
+  },
+  "metadata": {
+    "data_fetched": "GitHub Data Fetcher",
+    "export_type": "Top 10 Summary",
+    "analysis_type": "Comprehensive GitHub Data"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "user_profile": {
+    "name": "stanley",
+    "username": "@stanleyedward",
+    "bio": "i like making things run fast",
+    "website": "stanleyedward.github.io",
+    "followers": 24,
+    "following": 39,
+    "public_repos": 64
+  },
+  "repositories_analysis": {
+    "total_repositories": 64,
+    "total_stars": 44,
+    "total_forks": 4,
+    "total_watchers": 44
+  },
+  "top_10_projects_summary": {
+    "total_stars_top_10": 43,
+    "total_forks_top_10": 4,
+    "total_contributors": 53,
+    "avg_health_score": 57.5
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "panorama-image-stitching",
+      "stars": 42,
+      "health_score": "75/100",
+      "category": "Data Science/AI",
+      "primary_language": "Python",
+      "created": "2024-01-21",
+      "last_updated": "2025-05-27",
+      "forks": 2,
+      "watchers": 42,
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 1,
+      "releases": 0,
+      "description": "Panorama image stitching using SIFT algorithm, Homography, RANSAC and weighted blending in OpenCV.",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "topics": [
+        "blending-images",
+        "computer-vision",
+        "feature-detection",
+        "homography",
+        "image-processing",
+        "image-stitching",
+        "opencv",
+        "opencv-python",
+        "panorama",
+        "panorama-stitching"
+      ],
+      "recent_commits": 75,
+      "last_commit": "2024-11-05",
+      "repository_size": "71450 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "academic-portfolio",
+      "stars": 0,
+      "health_score": "70/100",
+      "category": "General",
+      "primary_language": "Svelte",
+      "created": "2024-02-29",
+      "last_updated": "2025-04-22",
+      "forks": 2,
+      "watchers": 0,
+      "contributors": 4,
+      "open_issues": 0,
+      "closed_issues": 2,
+      "releases": 0,
+      "description": "Academic portfolio template for showcasing academic achievements, experiences, projects, and so on!",
+      "language_breakdown": {
+        "Svelte": "88.3%",
+        "JavaScript": "6.9%",
+        "CSS": "3.2%"
+      },
+      "recent_commits": 92,
+      "last_commit": "2025-04-22",
+      "repository_size": "14390 KB",
+      "default_branch": "master",
+      "type": "Fork"
+    },
+    {
+      "rank": 3,
+      "name": "vision_transformer_pytorch",
+      "stars": 1,
+      "health_score": "65/100",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2023-10-01",
+      "last_updated": "2024-06-17",
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "paper replication of a ViT model using pytorch",
+      "language_breakdown": {
+        "Jupyter Notebook": "99.8%",
+        "Python": "0.2%"
+      },
+      "topics": [
+        "computer-vision",
+        "deep-learning",
+        "pytorch",
+        "vision-transformer"
+      ],
+      "recent_commits": 46,
+      "last_commit": "2024-06-17",
+      "repository_size": "42718 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": ".dotfiles",
+      "stars": 0,
+      "health_score": "55/100",
+      "category": "General",
+      "primary_language": "Lua",
+      "created": "2024-07-25",
+      "last_updated": "2025-05-28",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "mine",
+      "language_breakdown": {
+        "Lua": "46.0%",
+        "CSS": "34.9%",
+        "Shell": "9.1%"
+      },
+      "topics": [
+        "dotfiles"
+      ],
+      "recent_commits": 40,
+      "last_commit": "2025-05-28",
+      "repository_size": "37513 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "gsplat",
+      "stars": 0,
+      "health_score": "60/100",
+      "category": "General",
+      "primary_language": "Cuda",
+      "created": "2025-05-04",
+      "last_updated": "2025-05-08",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 30,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "CUDA accelerated rasterization of gaussian splatting",
+      "language_breakdown": {
+        "Cuda": "43.7%",
+        "Python": "40.3%",
+        "C++": "16.0%"
+      },
+      "recent_commits": 150,
+      "last_commit": "2025-05-08",
+      "repository_size": "27733 KB",
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 6,
+      "name": "gaussian-splatting",
+      "stars": 0,
+      "health_score": "60/100",
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-04-13",
+      "last_updated": "2025-05-04",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 12,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
+      "language_breakdown": {
+        "Python": "99.6%",
+        "Shell": "0.4%"
+      },
+      "recent_commits": 150,
+      "last_commit": "2025-05-04",
+      "repository_size": "80530 KB",
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 7,
+      "name": "learn_triton",
+      "stars": 0,
+      "health_score": "45/100",
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-03-31",
+      "last_updated": "2025-04-14",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "title",
+      "language_breakdown": {
+        "Python": "97.6%",
+        "HTML": "2.4%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2025-04-14",
+      "repository_size": "35 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Learning resource or demonstration project focused on using Triton, a Python-like programming language designed for writing highly performant kernels for GPUs.",
+        "key_features": [
+          "Vector Addition Example",
+          "Performance Analysis",
+          "Triton kernel programming examples"
+        ],
+        "use_cases": [
+          "Developers learning Triton and GPU kernel programming",
+          "Researchers exploring hardware acceleration techniques",
+          "Students understanding parallel computing"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "name": "learn_cuda",
+      "stars": 0,
+      "health_score": "45/100",
+      "category": "General",
+      "primary_language": "Cuda",
+      "created": "2024-06-05",
+      "last_updated": "2025-04-13",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "cudaing",
+      "language_breakdown": {
+        "Cuda": "91.0%",
+        "C": "7.6%",
+        "Makefile": "1.0%"
+      },
+      "recent_commits": 57,
+      "last_commit": "2025-04-13",
+      "repository_size": "6590 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "high_performance_neural_nets",
+      "stars": 0,
+      "health_score": "55/100",
+      "category": "General",
+      "primary_language": "Cuda",
+      "created": "2024-12-07",
+      "last_updated": "2025-04-06",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "optimized nn training in cuda",
+      "language_breakdown": {
+        "Cuda": "96.2%",
+        "Python": "2.9%",
+        "Makefile": "0.9%"
+      },
+      "topics": [
+        "cuda",
+        "deep-learning",
+        "neural-networks",
+        "high-performance-computing"
+      ],
+      "recent_commits": 101,
+      "last_commit": "2025-03-23",
+      "repository_size": "2422 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "compiler",
+      "stars": 0,
+      "health_score": "45/100",
+      "category": "General",
+      "primary_language": "C",
+      "created": "2025-02-26",
+      "last_updated": "2025-04-06",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "cd",
+      "language_breakdown": {
+        "C": "89.6%",
+        "Yacc": "6.7%",
+        "Lex": "3.7%"
+      },
+      "recent_commits": 7,
+      "last_commit": "2025-04-06",
+      "repository_size": "13 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Collection of small, educational compiler-related examples implemented in C. Serves as a learning resource for understanding compiler construction concepts.",
+        "key_features": [
+          "Lexical analysis examples using Flex",
+          "Parsing examples using Bison",
+          "Left recursion removal and addition",
+          "First and Follow sets calculation",
+          "Shift-reduce parsing implementation"
+        ],
+        "use_cases": [
+          "Students learning compiler design",
+          "Developers exploring Flex and Bison",
+          "Simple parsing technique examples",
+          "Formal languages and automata theory study"
+        ]
+      }
+    }
+  ],
+  "social_activity": {
+    "followers": [
+      "@arjf",
+      "@mkswagger",
+      "@Connor9994",
+      "@Gangasagarhl",
+      "@ik04"
+    ],
+    "following": [
+      "@antirez",
+      "@lucidrains",
+      "@yk",
+      "@NVlabs",
+      "@liuziwei7"
+    ]
+  }
+}

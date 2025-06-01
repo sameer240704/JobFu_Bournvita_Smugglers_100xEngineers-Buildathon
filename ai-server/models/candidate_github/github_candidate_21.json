@@ -1,0 +1,258 @@
+{
+  "user_profile": {
+    "name": "Rajvardhan Singh Chib",
+    "username": "@Rajvardhan135",
+    "followers": 6,
+    "following": 3,
+    "public_repos": 7
+  },
+  "repositories_analysis": {
+    "total_repositories": 7,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "avg_health_score": 35.0,
+    "total_contributors": 7
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "ieor-frontend",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2025-03-09",
+      "last_updated": "2025-03-19",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This is a Next.js project bootstrapped with create-next-app.",
+      "language_breakdown": {
+        "TypeScript": "97.1%",
+        "CSS": "2.6%",
+        "JavaScript": "0.3%"
+      },
+      "recent_commits": 4,
+      "last_commit": "2025-03-19",
+      "repository_size": "114 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "id": 2,
+      "name": "nasa-project",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-06-17",
+      "last_updated": "2024-06-17",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Full-stack web application designed to visualize or interact with NASA-related data",
+        "technology_stack": ["JavaScript", "Node.js", "npm", "concurrently", "React (Likely)", "Git/GitHub", "Express.js (Likely)"],
+        "project_category": "Full-Stack Web Application",
+        "key_features": ["Data Visualization", "User Interface", "API Integration", "Deployment Scripts"],
+        "development_status": "Early stage or abandoned",
+        "use_cases": ["NASA data visualization", "Educational purposes", "Data Scientists platform"]
+      },
+      "language_breakdown": {
+        "JavaScript": "90.6%",
+        "HTML": "9.4%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2024-06-17",
+      "repository_size": "3232 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "id": 3,
+      "name": "fit-flex-hub",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-04-30",
+      "last_updated": "2024-04-30",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Full-stack web application designed to provide fitness-related services",
+        "technology_stack": ["JavaScript", "Python (Django)", "npm", "concurrently"],
+        "project_category": "Full-Stack Web Application (fitness/wellness)",
+        "key_features": ["Fitness tracking", "Workout planning", "User authentication and management"],
+        "development_status": "Early stage of development",
+        "use_cases": ["Individual fitness tracking", "Personal trainer client management"]
+      },
+      "language_breakdown": {
+        "JavaScript": "76.8%",
+        "Python": "18.6%",
+        "CSS": "2.8%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-04-30",
+      "repository_size": "12312 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 4,
+      "name": "blog-ster",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-03-11",
+      "last_updated": "2024-03-11",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Blog or blog-related application",
+        "technology_stack": ["Python"],
+        "project_category": "Web application or static site generator",
+        "key_features": ["Blog post creation and management", "User authentication", "Templating", "Static site generation"],
+        "development_status": "Very early stage or inactive",
+        "use_cases": ["Personal blog creation", "Developer template", "Educational purposes"]
+      },
+      "language_breakdown": {
+        "Python": "81.5%",
+        "HTML": "18.5%"
+      },
+      "recent_commits": 4,
+      "last_commit": "2024-03-11",
+      "repository_size": "44 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 5,
+      "name": "u-turn-real-estate",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2023-06-25",
+      "last_updated": "2024-03-10",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This project was bootstrapped with Create React App.",
+      "recent_commits": 3,
+      "last_commit": "2023-07-01",
+      "repository_size": "8199 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 6,
+      "name": "3d-portfolio-website-clone",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-02-21",
+      "last_updated": "2024-02-21",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+      "language_breakdown": {
+        "JavaScript": "83.8%",
+        "CSS": "15.3%",
+        "HTML": "0.9%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-02-21",
+      "repository_size": "18895 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 7,
+      "name": "e-commerce-website",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2023-09-04",
+      "last_updated": "2023-09-30",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This is a complete ecommerce website with user sign in and firebase authentication. The website is responsive for all devices.",
+      "language_breakdown": {
+        "JavaScript": "48.4%",
+        "SCSS": "25.7%",
+        "CSS": "22.5%"
+      },
+      "recent_commits": 10,
+      "last_commit": "2023-09-05",
+      "repository_size": "9378 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    }
+  ],
+  "social_activity": {
+    "followers": {
+      "count": 6,
+      "list": [
+        "@VaibhavSutar",
+        "@Charles-Chrismann",
+        "@george0st",
+        "@Ronit26Mehta",
+        "@harshchi19"
+      ]
+    },
+    "following": {
+      "count": 3,
+      "list": [
+        "@VaibhavSutar",
+        "@harshchi19",
+        "@prnvpwr2612"
+      ]
+    }
+  },
+  "detailed_analysis": {
+    "selected_repository": "ieor-frontend",
+    "details": {
+      "description": null,
+      "language": "TypeScript",
+      "size": "114 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  }
+}

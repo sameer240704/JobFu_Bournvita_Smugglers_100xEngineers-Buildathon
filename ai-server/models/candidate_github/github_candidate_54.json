@@ -1,0 +1,446 @@
+{
+  "user_profile": {
+    "name": "Ziad Tariq",
+    "username": "Ziadtari",
+    "followers": 0,
+    "following": 1,
+    "public_repos": 11
+  },
+  "repository_analysis": {
+    "total_repositories": 11,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "total_contributors": 10,
+    "average_health_score": 37.0
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "Ziad_Portfolio",
+      "category": "General",
+      "primary_language": null,
+      "description": null,
+      "created_date": "2025-05-19",
+      "last_updated": "2025-05-19",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-05-19",
+      "repository_size": "0 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Personal portfolio website for showcasing skills, projects, and experience",
+        "technology_stack": ["HTML", "CSS", "JavaScript"],
+        "project_category": "Website/Personal Portfolio",
+        "key_features": [
+          "About Me section",
+          "Project Showcase",
+          "Contact Information",
+          "Resume/CV"
+        ],
+        "development_status": "Very early stage or not publicly shared",
+        "use_cases": [
+          "Job Seekers/Professionals",
+          "Employers/Recruiters",
+          "Potential Collaborators"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Student_Sys",
+      "category": "General",
+      "primary_language": null,
+      "description": null,
+      "created_date": "2025-05-04",
+      "last_updated": "2025-05-04",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-05-04",
+      "repository_size": "38 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Student management system for registration, grade tracking, or attendance",
+        "technology_stack": ["Unknown - could be Python/Flask, JavaScript/React, or PHP/Laravel"],
+        "project_category": "Data management tool/Basic application",
+        "key_features": [
+          "Student records management",
+          "Course enrollment",
+          "Grade reporting"
+        ],
+        "development_status": "Very early stage, possibly inactive",
+        "use_cases": [
+          "Individual students",
+          "Small educational institutions"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "djanjo_local_library",
+      "category": "General",
+      "primary_language": null,
+      "description": "Local library website written in django",
+      "created_date": "2024-10-22",
+      "last_updated": "2024-10-22",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2024-10-22",
+      "repository_size": "5 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Local library website for browsing books and managing user accounts",
+        "technology_stack": ["Python", "Django", "HTML/CSS/JavaScript", "Database (SQLite/PostgreSQL/MySQL)"],
+        "project_category": "Web application/Content Management System",
+        "key_features": [
+          "Book catalog browsing and search",
+          "User account management",
+          "Book borrowing and return tracking",
+          "Book reservation system"
+        ],
+        "development_status": "Very early stage, bare-bones template",
+        "use_cases": [
+          "Learning Django",
+          "Building simple library website",
+          "Portfolio project"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "movie-tracker-app",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": null,
+      "created_date": "2023-09-07",
+      "last_updated": "2023-09-07",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2023-09-07",
+      "repository_size": "420 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "49.8%",
+        "CSS": "35.8%",
+        "HTML": "14.4%"
+      },
+      "ai_analysis": {
+        "purpose": "Client-side web application for searching movies using movie database API",
+        "technology_stack": ["JavaScript", "HTML", "CSS", "Movie Database API (TMDb/OMDB)"],
+        "project_category": "Client-side Web Application",
+        "key_features": [
+          "Movie search functionality",
+          "Movie information display",
+          "Image handling for missing posters"
+        ],
+        "development_status": "Early stage or possibly abandoned",
+        "use_cases": [
+          "Movie enthusiasts",
+          "Developers learning JavaScript",
+          "Portfolio project"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "TinDog-",
+      "category": "General",
+      "primary_language": "HTML",
+      "description": null,
+      "created_date": "2023-08-31",
+      "last_updated": "2023-08-31",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 3,
+      "last_commit": "2023-08-31",
+      "repository_size": "1423 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "HTML": "79.5%",
+        "CSS": "20.5%"
+      },
+      "ai_analysis": {
+        "purpose": "Single-page website showcasing fictional dating app 'TinDog' for dogs",
+        "technology_stack": ["HTML", "CSS"],
+        "project_category": "Static website/Landing page",
+        "key_features": [
+          "Visual presentation with images",
+          "Informational content about app",
+          "Responsive design potential"
+        ],
+        "development_status": "Completed project or educational example",
+        "use_cases": [
+          "Portfolio piece",
+          "Educational example",
+          "Template/Starting point"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Quiz-app",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": "Quiz Web app",
+      "created_date": "2023-08-31",
+      "last_updated": "2023-08-31",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 2,
+      "last_commit": "2023-08-31",
+      "repository_size": "3 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "50.6%",
+        "HTML": "29.7%",
+        "CSS": "19.8%"
+      },
+      "readme_excerpt": "Simple testing is off website is done you can add changes"
+    },
+    {
+      "id": 7,
+      "name": "Design",
+      "category": "General",
+      "primary_language": "CSS",
+      "description": null,
+      "created_date": "2023-07-24",
+      "last_updated": "2023-07-24",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 2,
+      "last_commit": "2023-07-24",
+      "repository_size": "266 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "CSS": "56.8%",
+        "HTML": "43.2%"
+      },
+      "ai_analysis": {
+        "purpose": "Design project showcasing single-page web design or UI component",
+        "technology_stack": ["CSS", "HTML", "PNG images"],
+        "project_category": "Design project/UI component",
+        "key_features": [
+          "Visually designed elements",
+          "CSS styling focus",
+          "Image assets integration"
+        ],
+        "development_status": "Early or completed stage, potentially personal project",
+        "use_cases": [
+          "Design inspiration",
+          "Learning resource for CSS",
+          "Portfolio piece"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Counter",
+      "category": "General",
+      "primary_language": "HTML",
+      "description": null,
+      "created_date": "2023-07-24",
+      "last_updated": "2023-07-24",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 3,
+      "last_commit": "2023-07-24",
+      "repository_size": "3822 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "HTML": "44.2%",
+        "CSS": "31.9%",
+        "JavaScript": "23.8%"
+      },
+      "ai_analysis": {
+        "purpose": "Countdown timer application with visual elements",
+        "technology_stack": ["HTML", "CSS", "JavaScript", "Image assets"],
+        "project_category": "Web application",
+        "key_features": [
+          "Countdown timer display",
+          "Customizable styling",
+          "Dynamic updates with JavaScript",
+          "Visual enhancement with images"
+        ],
+        "development_status": "Basic or initial state, personal project",
+        "use_cases": [
+          "Personal reminders and event countdowns",
+          "Web development template",
+          "Event organizer tool"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "automa",
+      "category": "General",
+      "primary_language": "CSS",
+      "description": null,
+      "created_date": "2023-06-07",
+      "last_updated": "2023-06-07",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2023-06-07",
+      "repository_size": "16185 KB",
+      "health_score": 35,
+      "default_branch": "dev",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "CSS": "54.3%",
+        "JavaScript": "45.5%",
+        "HTML": "0.2%"
+      },
+      "ai_analysis": {
+        "purpose": "E-commerce application platform",
+        "technology_stack": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Mongoose",
+          "JWT",
+          "bcryptjs",
+          "Stripe",
+          "Cloudinary",
+          "Nodemailer"
+        ],
+        "project_category": "Web Application (E-commerce)",
+        "key_features": [
+          "User registration and authentication",
+          "Product catalog browsing",
+          "Shopping cart functionality",
+          "Order placement and management",
+          "Secure payment processing via Stripe",
+          "Image upload and management",
+          "Email notifications"
+        ],
+        "development_status": "Early stages or abandoned",
+        "use_cases": [
+          "Small to medium-sized businesses",
+          "Developers learning e-commerce development",
+          "Basic e-commerce platform foundation"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Automaniaa",
+      "category": "General",
+      "primary_language": null,
+      "description": null,
+      "created_date": "2023-06-07",
+      "last_updated": "2023-06-07",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2023-06-07",
+      "repository_size": "0 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Unknown - appears to be empty or uninitialized",
+        "technology_stack": ["Undefined"],
+        "project_category": "Indeterminate",
+        "key_features": [],
+        "development_status": "Very early and inactive state",
+        "use_cases": []
+      }
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "Ziad_Portfolio",
+    "details": {
+      "description": null,
+      "language": null,
+      "size": "0 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  },
+  "social_activity": {
+    "top_followers": [
+      {
+        "username": "PrimeFord"
+      }
+    ],
+    "total_followers": 1
+  },
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_timestamp": "2025-06-02",
+    "profile_analyzed": "Ziad Tariq (@Ziadtari)"
+  }
+}

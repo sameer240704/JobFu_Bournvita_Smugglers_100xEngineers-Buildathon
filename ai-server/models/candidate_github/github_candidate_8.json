@@ -1,0 +1,223 @@
+{
+  "user_profile": {
+    "name": "Darshan Jain",
+    "username": "DarshanJain-07",
+    "bio": "DJSCE",
+    "followers": 1,
+    "following": 2,
+    "public_repos": 5
+  },
+  "repository_analysis": {
+    "total_repositories": 5,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "top_10_summary": {
+      "total_stars": 0,
+      "total_forks": 0,
+      "total_contributors": 6,
+      "avg_health_score": 42.0
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "incubation.simppl",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2025-04-16",
+      "last_updated": "2025-04-16",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This is a Next.js project bootstrapped with create-next-app.",
+      "language_breakdown": {
+        "TypeScript": 82.5,
+        "CSS": 15.9,
+        "JavaScript": 1.6
+      },
+      "recent_commits": 3,
+      "last_commit": "2025-04-16",
+      "repository_size_kb": 225,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "Transdermal-Optical-Imaging-r-ppg",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-04-06",
+      "last_updated": "2025-04-07",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "project_purpose": "Implement a remote photoplethysmography (rPPG) system using transdermal optical imaging for non-contact heart rate monitoring",
+        "technology_stack": {
+          "primary_language": "Python",
+          "libraries": ["OpenCV", "Mediapipe", "NumPy", "PyWavelets"]
+        },
+        "project_category": "Data Science/Signal Processing tool",
+        "key_features": [
+          "Video Acquisition and Processing",
+          "Face Detection/Tracking",
+          "rPPG Signal Extraction",
+          "Signal Processing",
+          "Heart Rate Estimation"
+        ],
+        "development_status": "Early stage of development",
+        "use_cases": ["Researchers", "Developers", "Healthcare Professionals", "Fitness enthusiasts"]
+      },
+      "language_breakdown": {
+        "Python": 100.0
+      },
+      "recent_commits": 3,
+      "last_commit": "2025-04-07",
+      "repository_size_kb": 3337,
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "youtube_dashboard",
+      "stars": 0,
+      "health_score": 55,
+      "category": "Data Science/AI",
+      "primary_language": "TypeScript",
+      "created": "2025-02-27",
+      "last_updated": "2025-03-14",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "YouTube Analytics Dashboard is a Next.js application that provides content creators with comprehensive insights into their channel performance. The dashboard aggregates data from the YouTube API and presents it in an intuitive interface with interactive charts, performance metrics, and actionable recommendations.",
+      "readme_excerpt": "A powerful, modern dashboard for YouTube content creators to analyze channel performance, track growth metrics, and optimize content strategy with advanced visualizations and actionable insights.",
+      "language_breakdown": {
+        "TypeScript": 98.6,
+        "CSS": 1.0,
+        "JavaScript": 0.3
+      },
+      "topics": ["analytics", "dashboard", "youtube", "youtube-api", "youtube-api-v3"],
+      "recent_commits": 19,
+      "last_commit": "2025-03-14",
+      "repository_size_kb": 443,
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "IPD",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-08-20",
+      "last_updated": "2025-02-24",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "project_purpose": "Processing video and images related to faces, detecting face landmarks using MediaPipe with potential API component",
+        "technology_stack": {
+          "primary_language": "Python",
+          "libraries": ["OpenCV", "NumPy", "MediaPipe", "PyWavelets", "Matplotlib", "SciPy"],
+          "frameworks": ["FastAPI", "Uvicorn"]
+        },
+        "project_category": "Computer vision application with web API deployment potential",
+        "key_features": [
+          "Face landmark detection using MediaPipe",
+          "Image and video processing with OpenCV",
+          "Signal processing techniques using SciPy",
+          "Wavelet denoising using PyWavelets",
+          "Web API interface using FastAPI"
+        ],
+        "development_status": "Very early stage of development",
+        "use_cases": ["Researchers", "Developers", "Students"]
+      },
+      "language_breakdown": {
+        "Python": 100.0
+      },
+      "recent_commits": 14,
+      "last_commit": "2025-02-24",
+      "repository_size_kb": 73956,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "23_jrs_python_first_task",
+      "stars": 0,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2023-07-06",
+      "last_updated": "2023-07-06",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "project_purpose": "Basic introductory task or template for junior Python developers",
+        "technology_stack": {
+          "primary_language": "Python (inferred)"
+        },
+        "project_category": "Educational/Learning Resource & Simple Code Submission Platform",
+        "key_features": [
+          "Folder structure for junior developers",
+          "Microsoft Word document interaction",
+          "Simple framework for practicing Python skills"
+        ],
+        "development_status": "Very basic and likely inactive",
+        "use_cases": ["Learning Python", "Instructors", "Learners"]
+      },
+      "recent_commits": 4,
+      "last_commit": "2023-06-18",
+      "repository_size_kb": 3,
+      "default_branch": "main",
+      "type": "Fork"
+    }
+  ],
+  "detailed_repository_analysis": {
+    "selected_repository": "incubation.simppl",
+    "details": {
+      "description": null,
+      "language": "TypeScript",
+      "size_kb": 225,
+      "default_branch": "main",
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "watchers": 0
+      }
+    }
+  },
+  "social_activity": {
+    "recent_activity": "Not specified",
+    "top_followers": [
+      "@kalashjain9"
+    ],
+    "following": [
+      "@SimPPL",
+      "@kalashjain9"
+    ]
+  }
+}

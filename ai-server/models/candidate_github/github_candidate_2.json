@@ -1,0 +1,168 @@
+{
+  "user_profile": {
+    "username": "@AryaG26",
+    "followers": 1,
+    "following": 0,
+    "public_repos": 3
+  },
+  "repositories_analysis": {
+    "total_repositories": 3,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "top_repositories_by_stars": [],
+  "top_10_projects_summary": {
+    "total_stars_top_10": 0,
+    "total_forks_top_10": 0,
+    "total_contributors": 5,
+    "average_health_score": 40.0
+  },
+  "repositories": [
+    {
+      "name": "h2c_ecosafar",
+      "stars": 0,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2025-03-20",
+      "last_updated": "2025-03-27",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_summary": {
+        "purpose": "Web application built using Next.js for prototyping or personal use.",
+        "technology_stack": [
+          "Next.js",
+          "TypeScript",
+          "Radix UI",
+          "React Hook Form",
+          "Tailwind CSS"
+        ],
+        "category": "Web Application",
+        "key_features": [
+          "Headless UI components",
+          "Form creation and data validation"
+        ],
+        "development_status": "Early-stage prototype; likely not for public use",
+        "use_cases": [
+          "Prototype/POC",
+          "Personal project",
+          "Internal tool"
+        ],
+        "language_breakdown": {
+          "TypeScript": "96.9%",
+          "JavaScript": "1.6%",
+          "CSS": "1.5%"
+        }
+      },
+      "recent_commits": 23,
+      "last_commit": "2025-03-27",
+      "repository_size_kb": 197,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "github_url": "https://github.com/AryaG26/h2c_ecosafar"
+    },
+    {
+      "name": "vocab_book",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-12-25",
+      "last_updated": "2024-12-28",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_summary": {
+        "purpose": "Vocabulary learning tool potentially targeted towards GRE preparation.",
+        "technology_stack": [
+          "Python",
+          "JSON",
+          "VS Code Dev Container"
+        ],
+        "category": "Vocabulary Learning Tool",
+        "key_features": [
+          "Browse and learn vocabulary",
+          "Structured data in JSON",
+          "Docker-based development"
+        ],
+        "development_status": "First version, early development stage",
+        "use_cases": [
+          "GRE aspirants",
+          "English learners",
+          "Personal improvement"
+        ],
+        "language_breakdown": {
+          "Python": "100.0%"
+        }
+      },
+      "recent_commits": 4,
+      "last_commit": "2024-12-28",
+      "repository_size_kb": 83,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "https://github.com/AryaG26/vocab_book"
+    },
+    {
+      "name": "website",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-10-03",
+      "last_updated": "2024-10-03",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "Minimal setup React + Vite + ESLint",
+      "ai_summary": {
+        "purpose": "React-based website template with Vite setup",
+        "technology_stack": [
+          "React",
+          "JavaScript",
+          "Vite",
+          "CSS",
+          "HTML"
+        ],
+        "category": "Frontend Web App",
+        "key_features": [
+          "Hot Module Reloading (HMR)",
+          "ESLint rules"
+        ],
+        "development_status": "Basic template, minimal configuration",
+        "use_cases": [
+          "Frontend starter project",
+          "Learning/experimentation"
+        ],
+        "language_breakdown": {
+          "JavaScript": "49.9%",
+          "CSS": "48.1%",
+          "HTML": "2.0%"
+        }
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-10-03",
+      "repository_size_kb": 13983,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "github_url": "https://github.com/AryaG26/website"
+    }
+  ],
+  "social_activity": {
+    "top_followers": [
+      "@AryaVaidya13"
+    ]
+  }
+}

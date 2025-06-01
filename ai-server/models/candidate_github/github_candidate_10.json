@@ -1,0 +1,178 @@
+{
+  "user_profile": {
+    "name": "Gaurav Prakash Singh Khati",
+    "username": "Gaurav-Prakash-Singh-khati-007",
+    "bio": "Learning IT Things",
+    "location": "India",
+    "followers": 2,
+    "following": 1,
+    "public_repos": 4,
+    "top_followers": [
+      "@prabh8331",
+      "@Charles-Chrismann"
+    ],
+    "following_users": [
+      "@Metaorange-Digita"
+    ]
+  },
+  "repository_overview": {
+    "total_repositories": 4,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "total_contributors": 4,
+    "avg_health_score": 40.0
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Learning_platform",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2025-05-11",
+      "last_updated": "2025-05-11",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "HTML": "85.8%",
+        "JavaScript": "14.2%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-05-11",
+      "repository_size": "14 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Basic desktop application built using Electron, intended as a rudimentary learning platform or hub for displaying course content and managing learning resources",
+        "technology_stack": "HTML, JavaScript, Electron, Node.js/npm",
+        "category": "Desktop Application (Educational/Productivity Tool)",
+        "key_features": [
+          "Basic GUI layout (HTML)",
+          "Application initialization and Electron setup",
+          "Potentially content display and navigation for learning"
+        ],
+        "development_status": "Very early or nascent stage, basic Electron application skeleton",
+        "use_cases": [
+          "Personal learning organizer",
+          "Basis for content delivery tool (with further development)"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Gaurav-Prakash-Singh-khati-007",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-04-10",
+      "last_updated": "2025-04-10",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "<h1 align=\"center\">Hi 👋, I'm Gaurav Prakash Singh Khati</h1>",
+      "recent_commits": 54,
+      "last_commit": "2025-04-10",
+      "repository_size": "757 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "SQL-Classes",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2024-06-28",
+      "last_updated": "2024-07-10",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "This Repository will contain all code related to SQL",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "recent_commits": 4,
+      "last_commit": "2024-07-10",
+      "repository_size": "2 KB",
+      "default_branch": "master",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Store and organize SQL code examples, exercises, or tutorials related to SQL as a learning resource",
+        "technology_stack": "SQL (various dialects)",
+        "category": "Learning resource/Code Snippet Repository/Educational Material",
+        "key_features": [
+          "Collection of SQL code",
+          "Covers different aspects of SQL (data definition, manipulation, querying)"
+        ],
+        "development_status": "Very early stage of development or possibly abandoned based on small size and low activity",
+        "use_cases": [
+          "Students/Beginners Learning SQL",
+          "Developers as quick reference for SQL snippets",
+          "Database Administrators for common SQL tasks"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Python-learning",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-06-27",
+      "last_updated": "2024-06-28",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "This repository contains all codes related to python learning and practice",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2024-06-28",
+      "repository_size": "3 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Personal repository for Python learning and practice containing various Python code examples covering fundamental concepts",
+        "technology_stack": "Python",
+        "category": "Learning/Practice Project, Code Examples, Personal Repository",
+        "key_features": [
+          "Collection of Python code snippets",
+          "Covers fundamental Python concepts and potentially advanced topics",
+          "Personal learning resource and progress tracker"
+        ],
+        "development_status": "Early stage, ongoing and evolving project rather than completed",
+        "use_cases": [
+          "Python Learners as reference for code examples",
+          "Personal Learning Trackers to organize Python learning journey"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_type": "Complete Profile Summary",
+    "analysis_includes_ai_summaries": true,
+    "profile_type": "Learning-focused developer profile"
+  }
+}
