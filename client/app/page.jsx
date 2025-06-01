@@ -3,6 +3,8 @@ import CandidateCarousel from "@/components/landing-page/candidate-carousel";
 import PricingSection from "@/components/landing-page/pricing-section";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/context/theme-context";
+import { Logo } from "@/public";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import {
@@ -55,7 +57,7 @@ const LandingPage = () => {
         <div className="flex items-center justify-between px-4 py-2">
           <div className="flex items-center space-x-3">
             <div className="bg-gradient-to-r from-purple-500 to-indigo-500 w-10 h-10 rounded-xl flex items-center justify-center shadow-lg">
-              <FiActivity className="text-white text-xl" />
+              <Image src={Logo} alt="JobFu" className="h-10 w-10 rounded-md" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent dark:from-purple-400 dark:to-indigo-400">
               JobFu

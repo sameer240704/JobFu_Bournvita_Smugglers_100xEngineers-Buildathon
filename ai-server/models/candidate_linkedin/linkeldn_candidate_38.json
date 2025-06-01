@@ -1,0 +1,419 @@
+[
+    {
+      "fullName": "Fernando Salviati",
+      "linkedin_internal_id": "590034148",
+      "first_name": "Fernando",
+      "last_name": "Salviati",
+      "public_identifier": "fernando-salviati",
+      "background_cover_image_url": "https://media.licdn.com/dms/image/v2/C5616AQFGqTP7UOsr7A/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1603674143459?e=2147483647&v=beta&t=fLvEIlv8Y6W_dBd2eBOtCz_hrfoUy8zJwHW6OWmG5Lg",
+      "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQH1iwbwejyFCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705394074320?e=2147483647&v=beta&t=I4k3PJabd9OeHPQHWOPBwvawxSgtY2zFLS2MO8Ds_0o",
+      "headline": "Full Stack Developer | Front-End Developer",
+      "location": "Melbourne, Victoria, Australia",
+      "followers": "588 followers",
+      "connections": "500+ connections",
+      "about": "I began my career working with Software Testing, my first job within the IT industry. This opportunity opened the door to my beginning at IBM where I worked with Oracle Database development and analysis, in this case specifically my first contact with coding and a feeling that varies between discoveries, learning, frustration, expectation and hours of hard work in solving errors. Despite the hard work invested in addressing these challenges, the satisfaction derived from resolving problems and meeting expectations cannot be overlooked. I believe every Developer identifies with these moments in their career, forming a deep passion for what we do.An informal conversation with a childhood friend, who happens to be an excellent Developer, sparked my interest in Web development. This led me to enroll in a bootcamp, an experience that felt like love at first sight! Over the years, my journey in Web development has continued, with a daily commitment to progress and staying updated on the latest technologies in the market.In summary, I am a Software Developer/Analyst with a successful 8+ years of experience.Please refer to my resume for details of my previous experience and skill set.Interested in checking the code I have worked? Please access my GitHub Profile:https://github.com/fsalviatihttps://salviati-portfolio.vercel.app/",
+      "experience": [
+        {
+          "position": "Software Developer",
+          "company_url": "https://au.linkedin.com/company/otic-group?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/C560BAQFPwZG_BtxQVA/company-logo_100_100/company-logo_100_100/0/1662360301154/otic_group_logo?e=2147483647&v=beta&t=usW6kkbWvqZOIfs3u1P41lQfvOexnUlF8ju2zdyIWrk",
+          "company_name": "Otic Group",
+          "location": "Melbourne, Victoria, Australia",
+          "summary": "",
+          "starts_at": "Jan 2025",
+          "ends_at": "Present",
+          "duration": "6 months"
+        },
+        {
+          "position": "Full Stack Developer",
+          "company_url": "https://au.linkedin.com/company/aurecon?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/D560BAQHvUDy6sPqLsw/company-logo_100_100/company-logo_100_100/0/1688338608906/aurecon_logo?e=2147483647&v=beta&t=VKebb9bqu9Xd_pY_Y1Qbp3MdmJOR27TiMhrYEmQq1No",
+          "company_name": "Aurecon",
+          "location": "Melbourne, Victoria, Australia",
+          "summary": "• Developed and maintained full-stack applications using React, Sass, Node.js, and SQL Server, ensuring efficient and reliable performance across Aurecon’s projects.• Built and documented reusable UI components using Storybook to promote design consistency. Migrated and configured Storybook to improve development workflows.• Implemented AI and LLM integrations, contributing to AI-driven solutions that enhanced project outcomes, becoming one of the most utilised applications across the organisation.• Developed robust backend services using Node.js for efficient and secure API handling.• Experienced in Azure Cloud environments, including configuring applications and contributing to deployment activities.• Participated in Agile development, including Scrum activities such as sprint planning, daily stand-ups, and retrospectives.\n            \n\n    \n    \n\n    \n        Show less",
+          "starts_at": "Feb 2024",
+          "ends_at": "Nov 2024",
+          "duration": "10 months"
+        },
+        {
+          "position": "Web Developer",
+          "company_url": "https://au.linkedin.com/company/cosette-au?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQE4imwDdoY6vw/company-logo_100_100/company-logo_100_100/0/1677542052881/cosette_au_logo?e=2147483647&v=beta&t=RW44diYTERgi3yMwMeqmnnA65NIhPjARU2WLUgQrf1Q",
+          "company_name": "Cosette",
+          "location": "Melbourne, Victoria, Australia",
+          "summary": "• Researched, designed, implemented, and managed web applications integral to the company's ecommerce website. Collaborated directly with technologies spanning Frontend, Middleware, and Backend components.• Architected and crafted high-performing, scalable website components adhering to best practices for maintainability and testability using standard HTML/CSS/Javascript/jQuery/Node.js/MongoDB practices.• Maintained a Middleware system built using React, that seamlessly supported the website’s operation in several tasks such as integration with third-party services through API’s and Webhooks.• Orchestrated the successful implementation of over 20 innovative features, pages, and code refactoring techniques. This strategic initiative resulted in a substantial 30% improvement in website performance, SEO and Google rank, resulting in a notable surge of over 15% in customer traffic throughout the year.• Developed both client and server-side architecture.• Conducted training sessions and workshops to educate on system processes, alongside the development of system guidelines and manuals for the organisation.• Successfully managed and optimised Shopify Plus, including parametrisation, settings configuration, Shopify Flow implementation, seamless integration with third-party apps, and custom Shopify scripts.\n            \n\n    \n    \n\n    \n        Show less",
+          "starts_at": "Jul 2021",
+          "ends_at": "Dec 2023",
+          "duration": "2 years 6 months"
+        },
+        {
+          "position": "Frontend Developer (React)",
+          "company_url": "https://au.linkedin.com/company/reesby?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHvgxhjMl-LOA/company-logo_100_100/company-logo_100_100/0/1630606622071/reesby_logo?e=2147483647&v=beta&t=Edjv8nZDcSIOpn1GD2uNg3R8w0NjPwEsSQckk87d9pI",
+          "company_name": "Reesby",
+          "location": "Melbourne, Victoria, Australia",
+          "summary": "• Developed a web-based CRM using React and Material UI.• Worked on a CRM Live Project involving AI / Machine Learning.• Ensured the functionality of current websites through regular maintenance.• Directly interacted with the team, utilising Git, GitHub, GitLab and Visual Studio Code for source code management.• Analysis and evaluation of proposed solutions related to complex architectural challenges to introduce new features.• Worked on AWS cloud-based infrastructure.",
+          "starts_at": "Feb 2021",
+          "ends_at": "May 2021",
+          "duration": "4 months"
+        },
+        {
+          "position": "Oracle Technical Consultant Developer",
+          "company_url": "https://www.linkedin.com/company/deloitte?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY",
+          "company_name": "Deloitte",
+          "location": "São Paulo Area, Brazil",
+          "summary": "• Oracle System Analyst / Developer, sustained operations for General Electric (GE).• Analyst Developer proficient in PL/SQL, designing and optimising Oracle based programs, writing complex queries, and developing efficient solutions.• Utilised robust analytical skills in modelling to uphold data integrity and generate valuable business insights.• Provided support for incidents and issues at both first and second levels.• Executed tuning measures to address issues arising from the upgrade and migration process.• Maintained Oracle Financial and Tax Management systems (Thomson Reuters), including testing, change management and deployment.• Developed comprehensive technical documentation.\n            \n\n    \n    \n\n    \n        Show less",
+          "starts_at": "May 2011",
+          "ends_at": "May 2016",
+          "duration": "5 years 1 month"
+        },
+        {
+          "position": "Oracle Developer",
+          "company_url": "https://jp.linkedin.com/company/fujitsu?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFyQiJPlVTNoA/company-logo_100_100/company-logo_100_100/0/1721235064307/fujitsu_logo?e=2147483647&v=beta&t=P0jVYcGO48GKUdw5RlNgrEs410SCU036KjTZVHcO960",
+          "company_name": "Fujitsu",
+          "location": "São Paulo Area, Brazil",
+          "summary": "• Oracle Developer / Analyst.• Developed and maintained software’s using PL/SQL, Oracle Forms, and Oracle Reports.• Responsible for the maintenance and support of Tokyo Marine legacy systems.• Provided database design assistance to the development teams.• Sustained large scale of applications, involving ERP support methodologies and customer relationship.",
+          "starts_at": "Sep 2010",
+          "ends_at": "Feb 2011",
+          "duration": "6 months"
+        },
+        {
+          "position": "Oracle Analyst/ Developer",
+          "company_url": "https://www.linkedin.com/company/ibm?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+          "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=2147483647&v=beta&t=HPSmWLOCvdPkWO1nRWwjjmCNpaCqww20rSJ4E54QtxQ",
+          "company_name": "IBM",
+          "location": "São Paulo Area, Brazil",
+          "summary": "• Oracle Developer / Analyst.• Developed and maintained software’s using PL/SQL, Oracle Forms, and Oracle Reports.• Migrated and upgraded to Oracle 6i Forms.• Contributed to the integration project of the Amadeus package, applying web services technology and vast knowledge in Oracle.• Developed technical documentation utilised by the entire team to streamline development processes.• ITIL methodology.",
+          "starts_at": "Aug 2008",
+          "ends_at": "Sep 2010",
+          "duration": "2 years 2 months"
+        }
+      ],
+      "education": [
+        {
+          "college_url": "https://au.linkedin.com/school/torrens-university-australia/?trk=public_profile_school_profile-section-card_image-click",
+          "college_name": "Torrens University Australia",
+          "college_image": "https://media.licdn.com/dms/image/v2/D560BAQGhdiNDnykA2Q/company-logo_100_100/B56ZWNXb.kHsAY-/0/1741833486631/torrens_university_australia_logo?e=2147483647&v=beta&t=dAaux5Qmb8zoJUaGwAIDekHNEw8l_iRbxeaRjJHSdWQ",
+          "college_degree": "Master's degree",
+          "college_degree_field": "Computer Software Engineering",
+          "college_duration": "2020 - 2021",
+          "college_activity": ""
+        },
+        {
+          "college_url": "https://br.linkedin.com/school/impactaoficial/?trk=public_profile_school_profile-section-card_image-click",
+          "college_name": "Faculdade Impacta Tecnologia",
+          "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEG8qandFQNjw/company-logo_100_100/company-logo_100_100/0/1630550349648/impacta_tecnologia_logo?e=2147483647&v=beta&t=_LaWchAc_MdiSBIqWFGFm69dBYH-uCrX5YjZdpIo8Ek",
+          "college_degree": "Bachelor's degree",
+          "college_degree_field": "Information Technology",
+          "college_duration": "2009 - 2013",
+          "college_activity": ""
+        }
+      ],
+      "articles": [],
+      "description": {
+        "description1": "Otic Group",
+        "description1_link": "https://au.linkedin.com/company/otic-group?trk=public_profile_topcard-current-company",
+        "description2": "Torrens University Australia",
+        "description2_link": "https://au.linkedin.com/school/torrens-university-australia/?trk=public_profile_topcard-school",
+        "description3": ""
+      },
+      "activities": [
+        {
+          "link": "https://pt.linkedin.com/posts/patr%C3%ADciadelmonaco_rede-suzano-vaga-activity-7328386602647339009-xrMK",
+          "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+          "title": "Bom dia #rede !! Temos vagas novas para a região de #SUZANO\n\nOPERADOR DE PROCESSOS I\n\n🛄 Empresa: ICL Group\n\n📄 Contrato: Temporário de 9 meses\n\n📍…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://pt.linkedin.com/posts/patr%C3%ADciadelmonaco_vaga-veterinaria-zootecnia-activity-7322944023269203970-bg06",
+          "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+          "title": "🚨 Estamos contratando! 🚨\n\n📢 Vaga: ANALISTA DE PRODUTOS NUTRICIONAIS\n\n📍 Local: Belo Horizonte/MG – Modelo Híbrido (1 a 2 dias presencial por…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/behlkanika_mothersday-multitaskers-homemakers-activity-7327151813747453956-1_cs",
+          "image": "https://media.licdn.com/dms/image/v2/D5622AQGbEHh6YuEz0A/feedshare-shrink_800/B56Za9Ft5fHUAg-/0/1746929122484?e=2147483647&v=beta&t=kBmqF2Mw_JeUNQrJ3qdsrJ0KrNjB45pCV9gS8OridJ8",
+          "title": "Happy Mother’s Day to all the incredible women in my network! \nYour strength, resilience, and ability to juggle a thousand things—often before the…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://pt.linkedin.com/posts/gerson-scholz_a-decis%C3%A3o-de-sa%C3%ADda-de-uma-enorme-organiza%C3%A7%C3%A3o-activity-7331075049723973633-i_8s",
+          "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+          "title": "A decisão de saída de uma enorme organização, uma mudança de vida, é sempre difícil. Fica minha eterna gratidão à todos os amigos que conquistei…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/rachelschmied_ozwater25-activity-7328570470138609664-lWbc",
+          "image": "https://media.licdn.com/dms/image/v2/D5605AQFMbCHmIDoapA/videocover-high/B56ZbRPg0kHUB0-/0/1747267341481?e=2147483647&v=beta&t=z5K6v57unLWD7nkJOkiyQM_WmSMlm77E4TGt1C0NhXs",
+          "title": "What if you could ask 2,900 Ozwater papers a question—and get a real answer? \n\nFind out next Wednesday at this year’s #Ozwater25 when we do exactly…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://pt.linkedin.com/posts/patr%C3%ADciadelmonaco_linkedin-activity-7320498532711325696-rJ8I",
+          "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+          "title": "Olá #rede ! Temos vagas na região de #Pinheiros - SP!\n\nANALISTA DE ATENDIMENTO AO CLIENTE\n\n🏭 Empresa: VASCO\n\n💰 Salário: R$ 2800,00 - R$ 3200,00\n\n💳…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://pt.linkedin.com/posts/patr%C3%ADciadelmonaco_hoje-recebi-um-mimo-de-p%C3%A1scoa-da-manpowergroup-activity-7322709679824904193-f2LR",
+          "image": "https://media.licdn.com/dms/image/v2/D4D22AQGfP8T18LlhlA/feedshare-shrink_2048_1536/B4DZZ99ombG0Ao-/0/1745870035358?e=2147483647&v=beta&t=X6JJQ8yLIUQrN4az9UFot_INkKrD-vgNwYBaI_t2ovU",
+          "title": "Hoje recebi um mimo de Páscoa da ManpowerGroup Brasil 🐇🤍\n\nAchei bacana compartilhar esse momento aqui, porque, mesmo nas rotinas mais corridas…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/rafaelandradedonascimento_certificate-of-completion-activity-7321045980991078400-7JS1",
+          "image": "https://media.licdn.com/dms/image/v2/D5622AQHeXKXBS9Hg6Q/feedshare-shrink_800/B56ZZmTCsOHUAg-/0/1745472990214?e=2147483647&v=beta&t=oCGzbqnojyRJEcwprDi164p-7fBHKixAA5o65aDcciQ",
+          "title": "🚀 Just wrapped up the “Adobe: Customer Journey Analytics” course by Eric Matisoff!\n\nReally cool to see how CJA goes beyond traditional Adobe…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/the-co-accountants-%26-business-advisors-pty-ltd_meettheteam-thecocommunity-greatplacetowork-activity-7318025342537916416-yqgS",
+          "image": "https://media.licdn.com/dms/image/v2/D4E10AQHRCNP4TFTRYQ/image-shrink_1280/B4EZY7ZQ5hHkAU-/0/1744753201472?e=2147483647&v=beta&t=_XRgwtznu9GKrqJpxc5hSY_mmi5hSonXCOReSN3PS7I",
+          "title": "Meet Karla, with over 12 years in accounting and tax analysis, she brings a sharp analytical mindset and a drive for process improvement to every…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://pt.linkedin.com/posts/patr%C3%ADciadelmonaco_rede-matogrosso-barradogar%C3%A7as-activity-7316437451848204290-R1M1",
+          "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+          "title": "Olá #rede ! Temos vagas na região de BARRA DO GARÇAS - MT!! 🧡 💙 \n\nANALISTA DE PLANEJAMENTO E PRODUÇÃO I \n\n🛄 Empresa: DSM Produtos Nutricionais…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://pt.linkedin.com/posts/patr%C3%ADciadelmonaco_vaga-para-analista-bil%C3%ADngue-vaga-afirmativa-activity-7313887970615287808-Yjqf",
+          "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQHUoj1cjflepw/articleshare-shrink_1280_800/B4DZYAlu97G8AU-/0/1743766615155?e=2147483647&v=beta&t=Q4e4e9laJJ2AP865nS1S-dWkVE7OY_rO4cDqFujgu7E",
+          "title": "Bom dia rede!\n\nEstamos com diversas vagas em várias regiões do Brasil! \n\n🧡 TÉCNICO DE REFRIGERAÇÃO - LOUVEIRA\nhttps://lnkd.in/daW8XQPU\n\n💙 ANALISTA…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/davemackenzie_genai-chatgpt-ai-activity-7313686918272073728-6FS3",
+          "image": "https://media.licdn.com/dms/image/v2/D5622AQE-L4aH600Ujw/feedshare-shrink_1280/B56ZX9vfafGoAk-/0/1743718841791?e=2147483647&v=beta&t=yVRdwPI53Ik6HhdQS8yOZmQkDuxbIDPHbLjmvEhK_-A",
+          "title": "Inspired Fooch Foo Chi Sung playing with the new image capabilities in ChatGTP. I have always wanted to be a figurine, now I am. \n\nI have to say the…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/behlkanika_genderdiversity-skillsgap-wearehays-activity-7313314498633707520-Dd-J",
+          "image": "https://media.licdn.com/dms/image/v2/D5622AQGzgm4hNQGk8w/feedshare-shrink_2048_1536/B56ZX4cuxiHQAo-/0/1743630047087?e=2147483647&v=beta&t=e5oTkCdu8k2r1oIIS1DXDDxzp5hmv1A9zC8YyIKZGsU",
+          "title": "Happy Thursday LI members, almost weekend approaching 😊 !!!\nI had the privilege of attending an insightful event hosted by RMIT online, alongside my…",
+          "activity": "Liked by Fernando Salviati"
+        },
+        {
+          "link": "https://www.linkedin.com/posts/guiepifanio_braziliantechcommunity-networking-itinaustralia-activity-7310985461911429122-M-4e",
+          "image": "https://media.licdn.com/dms/image/v2/D5622AQGLpzoFNOyZXw/feedshare-shrink_800/B56ZXXWfupGQAg-/0/1743074763749?e=2147483647&v=beta&t=4zUGceo5S0jtZTdWX1sArLPVJLvqu7O_0YbcpPEaLco",
+          "title": "First catch-up of the year with the Brazilian IT community IT.BR Australia in Australia! It’s always inspiring to connect with fellow Brazilians in…",
+          "activity": "Liked by Fernando Salviati"
+        }
+      ],
+      "volunteering": [],
+      "certification": [
+        {
+          "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+          "certification": "React: Design Patterns",
+          "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
+          "company_name": "LinkedIn",
+          "issue_date": "Issued Dec 2024",
+          "credential_id": "See credential",
+          "credential_url": "https://www.linkedin.com/learning/certificates/7f8671dca2cdd53aaa90d632e4e5872255a3452b919ab3ea70622831c41eeaee?trk=public_profile_see-credential"
+        },
+        {
+          "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=2147483647&v=beta&t=_PvUQac1LcQjfzQ33gtxFqjvIxBbtsM9ZqIxLs5QcFI",
+          "certification": "React.js Essential Training",
+          "company_url": "https://www.linkedin.com/company/linkedin?trk=public_profile_profile-section-card_image-click",
+          "company_name": "LinkedIn",
+          "issue_date": "Issued Dec 2024",
+          "credential_id": "See credential",
+          "credential_url": "https://www.linkedin.com/learning/certificates/955239c547cb872654c6e17f63f82bf0bf930abff86d60b12e95dc42fcfe8c7f?trk=public_profile_see-credential"
+        }
+      ],
+      "people_also_viewed": [
+        {
+          "link": "https://au.linkedin.com/in/dwoest/en?trk=public_profile_browsemap-profile",
+          "name": "Dieter Woestemeier",
+          "summary": "Software developer at Bluewaters Power Services",
+          "location": "Greater Perth Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/patrick-liu?trk=public_profile_browsemap-profile",
+          "name": "Chang (Patrick) Liu",
+          "summary": "",
+          "location": "Brisbane, QLD"
+        },
+        {
+          "link": "https://au.linkedin.com/in/gaurav-kumar-83681b39?trk=public_profile_browsemap-profile",
+          "name": "Gaurav Kumar",
+          "summary": "",
+          "location": "Sydney, NSW"
+        },
+        {
+          "link": "https://au.linkedin.com/in/rera-bressington-1432ba113?trk=public_profile_browsemap-profile",
+          "name": "Rera Bressington",
+          "summary": "Product and Technical Lead",
+          "location": "Greater Adelaide Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/seema-pradhan-4b85b4a9?trk=public_profile_browsemap-profile",
+          "name": "Seema Pradhan",
+          "summary": "Cloud/System Administrator",
+          "location": "Greater Sydney Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/rajeevrkbanda?trk=public_profile_browsemap-profile",
+          "name": "Rajeev Banda",
+          "summary": "",
+          "location": "Greater Melbourne Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/mrlouisli?trk=public_profile_browsemap-profile",
+          "name": "Louis LI",
+          "summary": "FullStack Developer | JavaScript, Java, Python, TypeScript, React, Next and more",
+          "location": "Brisbane City, QLD"
+        },
+        {
+          "link": "https://au.linkedin.com/in/longleh?trk=public_profile_browsemap-profile",
+          "name": "Long Le",
+          "summary": "",
+          "location": "Greater Sydney Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/sangeet-arora-41a373134?trk=public_profile_browsemap-profile",
+          "name": "Sangeet Arora",
+          "summary": "",
+          "location": "Sydney, NSW"
+        },
+        {
+          "link": "https://au.linkedin.com/in/michael-balazs-920b7656?trk=public_profile_browsemap-profile",
+          "name": "Michael Balazs",
+          "summary": "Professional Services Consultant at International Decision Systems",
+          "location": "Greater Melbourne Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/dmitry-nadezhdin-64192553?trk=public_profile_browsemap-profile",
+          "name": "Dmitry Nadezhdin",
+          "summary": "Senior Information Technology Consultant at DXC Technology",
+          "location": "Greater Adelaide Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/huihuang-yu-82364552?trk=public_profile_browsemap-profile",
+          "name": "Huihuang Yu",
+          "summary": "Chief Technology Officer at GPost Corporation Australia",
+          "location": "Greater Melbourne Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/maryam-jabbar-3a8a7431?trk=public_profile_browsemap-profile",
+          "name": "Maryam Jabbar",
+          "summary": "",
+          "location": "South Melbourne, VIC"
+        },
+        {
+          "link": "https://au.linkedin.com/in/ravindrafernando91?trk=public_profile_browsemap-profile",
+          "name": "Ravindra Fernando",
+          "summary": "Data Analyst",
+          "location": "Greater Sydney Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/antonioasejo?trk=public_profile_browsemap-profile",
+          "name": "Antonio Asejo",
+          "summary": "Senior Information Analyst Developer",
+          "location": "Greater Sydney Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/sowmya-rangineni-2683a697?trk=public_profile_browsemap-profile",
+          "name": "Sowmya Rangineni",
+          "summary": "",
+          "location": "Greater Sydney Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/lorna-deng-ab726a51?trk=public_profile_browsemap-profile",
+          "name": "Lorna Deng",
+          "summary": "",
+          "location": "Sydney, NSW"
+        },
+        {
+          "link": "https://au.linkedin.com/in/jatinder-singh-626ba328?trk=public_profile_browsemap-profile",
+          "name": "Jatinder SIngh",
+          "summary": "",
+          "location": "Greater Melbourne Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/meysam-ghazvini-59706b32?trk=public_profile_browsemap-profile",
+          "name": "Meysam Ghazvini",
+          "summary": "Service Delivery Lead at Esri Australia",
+          "location": "Greater Brisbane Area"
+        },
+        {
+          "link": "https://au.linkedin.com/in/samuelchan-dev?trk=public_profile_browsemap-profile",
+          "name": "Samuel Chan",
+          "summary": "Senior System Architect at Pegasystems",
+          "location": "Sydney, NSW"
+        }
+      ],
+      "similar_profiles": [
+        {
+          "link": "https://br.linkedin.com/in/fernando-emilio-salviati-gabriel-05531a45?trk=public_profile_samename-profile",
+          "name": "Fernando Emilio Salviati Gabriel",
+          "summary": "Area Comercial.",
+          "location": "Santa Catarina, Brazil"
+        },
+        {
+          "link": "https://br.linkedin.com/in/fernando-emilio-salviati-gabriel-33a51b1a1?trk=public_profile_samename-profile",
+          "name": "Fernando Emilio Salviati Gabriel",
+          "summary": "Corretor de imóveis licenciado na Nassimoveis",
+          "location": "Santa Catarina, Brazil"
+        }
+      ],
+      "recommendations": [
+        {
+          "link": "https://au.linkedin.com/in/jakubkozakiewicz?trk=public_profile_recommendations",
+          "name": "Jakub Kozakiewicz",
+          "summary": "“I had the pleasure of working with Fernando as a valued member of my development team. His dedication to delivering high-quality code and his ability to meet tight deadlines consistently impressed me.\n\nFernando is a self-motivated individual who seamlessly integrates into team dynamics. He's always eager to learn and adapt to new challenges, as evidenced by his significant contributions to our UI component library, particularly the dark mode implementation. His willingness to step outside his comfort zone and tackle complex projects showcases his potential for growth.\n\nI highly recommend Fernando to any team seeking a talented and motivated developer.”"
+        },
+        {
+          "link": "https://au.linkedin.com/in/anushka-jayasekara-7215ba15a?trk=public_profile_recommendations",
+          "name": "Anushka Jayasekara",
+          "summary": "“I had the privilege of working with Fernando on the same team, and I can confidently say that he is an exceptional Full Stack Developer and a true asset to any team. His ability to collaborate seamlessly with team members and communicate complex ideas in an accessible manner truly stands out.\n\nFernando's technical skills are outstanding, spanning both front-end and back-end development. He consistently delivers high-quality code that is efficient and reliable. Whether it's tackling challenging tasks or refining intricate details, his dedication to excellence is evident in every aspect of his work.\n\nWhat sets Fernando apart is not only his technical expertise but also his efficiency and ability to meet tight deadlines without compromising the quality of the final product. He approaches each challenge with a solution-oriented and positive mindset, making him an indispensable team player.\n\nI highly recommend having Fernando on any team. His skills, professionalism, and collaborative spirit will undoubtedly elevate any project he is part of.”"
+        }
+      ],
+      "publications": [],
+      "courses": [
+        {
+          "name": "Advanced Diploma of Program Management - Lonsdale Institute"
+        },
+        {
+          "name": "Diploma of Project Management - Lonsdale Institute"
+        },
+        {
+          "name": "ITIL Foundation"
+        },
+        {
+          "name": "Java programming"
+        },
+        {
+          "name": "Oracle Database PL/SQL"
+        },
+        {
+          "name": "Oracle Forms and Reports"
+        },
+        {
+          "name": "The Complete JavaScript Course 2020, Jonas Schmedtmann, Udemy, 2020"
+        },
+        {
+          "name": "The Web Developer (HTML, CSS, JS) Bootcamp, Colt Steele, Udemy, 2020"
+        }
+      ],
+      "languages": [
+        {
+          "name": "English",
+          "level": "Full professional proficiency"
+        },
+        {
+          "name": "Portuguese",
+          "level": "Native or bilingual proficiency"
+        }
+      ],
+      "organizations": [],
+      "projects": [],
+      "awards": [],
+      "score": []
+    }
+  ]

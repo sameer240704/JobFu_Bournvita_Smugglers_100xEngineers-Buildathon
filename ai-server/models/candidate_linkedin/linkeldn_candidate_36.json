@@ -1,0 +1,396 @@
+[
+  {
+    "fullName": "Bhimesh Patil",
+    "linkedin_internal_id": "874880574",
+    "first_name": "Bhimesh",
+    "last_name": "Patil",
+    "public_identifier": "bhimesh-patil",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/C4E16AQEs7NusbyMTsQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1628741335876?e=2147483647&v=beta&t=3y12agV6g1p7R9yzd0SqxHBrrv0ZLuaEMpeBH3hGlhM",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D4E03AQGK43fPL0ZLvw/profile-displayphoto-shrink_200_200/B4EZZs349oHcAc-/0/1745583313317?e=2147483647&v=beta&t=lkJnzjb5a_rfLSDQLZ0ZKFvFV--4qoShymyEy31trSc",
+    "headline": "MSc Software Technology @HFT Stuttgart | Java, Spring Boot, Javascript, Azure Cloud, Docker | Stuttgart, Germany.",
+    "location": "Stuttgart, Baden-Württemberg, Germany",
+    "followers": "5K followers",
+    "connections": "500+ connections",
+    "about": "Passionate Java developer with 1 year+ of hands‑on Spring Boot and Docker experience, now diving deep into cloud and DevOps while finishing my M.Sc. in Software Technology. I enjoy turning complex ideas into clean, reliable back‑end code, whether that’s a microservice on Azure or a FastAPI blockchain project for my thesis. I value teamwork, thoughtful automation, and building software that simply makes life easier for its users.",
+    "experience": [
+      {
+        "position": "Blockchain-Based Geospatial Data Storage (Master Thesis)",
+        "company_url": "https://de.linkedin.com/school/hochschule-f%C3%BCr-technik-stuttgart-%E2%80%93-university-of-applied-sciences/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHLo2aKtJ8-Qg/company-logo_100_100/company-logo_100_100/0/1732800916377/hochschule_fr_technik_stuttgart__university_of_applied_sciences_logo?e=2147483647&v=beta&t=yZasyBwSxOMBLWHgfZOtsBi8edFIziy48JwLOc1YFHU",
+        "company_name": "Hochschule für Technik Stuttgart",
+        "location": "Stuttgart, Baden-Württemberg, Germany",
+        "summary": "Designed a secure full-stack system for encrypted geospatial data using AES-256, RSA, and Ethereum smart contracts, enabling tamper-proof and privacy-preserving storage.Built a FastAPI backend with Web3.py & a React frontend for secure uploads, permission control, & map visualization.Deployed the platform using Docker, NGINX, and GitHub Actions for automated CI/CD, supporting decentralized access control and scalable operations.",
+        "starts_at": "Oct 2024",
+        "ends_at": "Present",
+        "duration": "9 months"
+      },
+      {
+        "position": "Full-stack Developer (KNIGHT Project)",
+        "company_url": "https://de.linkedin.com/school/hochschule-f%C3%BCr-technik-stuttgart-%E2%80%93-university-of-applied-sciences/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHLo2aKtJ8-Qg/company-logo_100_100/company-logo_100_100/0/1732800916377/hochschule_fr_technik_stuttgart__university_of_applied_sciences_logo?e=2147483647&v=beta&t=yZasyBwSxOMBLWHgfZOtsBi8edFIziy48JwLOc1YFHU",
+        "company_name": "Hochschule für Technik Stuttgart",
+        "location": "Stuttgart, Baden-Württemberg, Germany",
+        "summary": "Designed and implemented MongoDB-based backend infrastructure for data ingestion and storage.Integrated MongoDB Atlas with Amazon S3 to build a reliable and efficient data pipeline. Used Python scripts to automate data uploads and ensured smooth flow into MongoDB Compass for data visualization and debugging.Built CI/CD pipelines for automated deployment, monitoring, streamlining software updates. Also developed and tested MySQL database with 1,000+ rows using Python scripts, & integrating it with Grafana for real-time analytics.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Apr 2024",
+        "ends_at": "Sep 2024",
+        "duration": "6 months"
+      },
+      {
+        "position": "Software Developer",
+        "company_url": "https://in.linkedin.com/company/tata-consultancy-services?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=2147483647&v=beta&t=P-PkUMh7Ks1GQY0_l7GhzQiwfyLfQpvKWwX8Tq18Yc4",
+        "company_name": "Tata Consultancy Services",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "Modernized legacy mainframe app into a cloud-based accounting platform, improving accessibility and scalability.Developed Spring Boot microservices for transaction processing on Azure, improving system efficiency.Automated the Revenue Distribution System using Spring Batch, reducing manual effort, optimizing revenue allocation in the car rental sector.",
+        "starts_at": "May 2022",
+        "ends_at": "Feb 2023",
+        "duration": "10 months"
+      },
+      {
+        "position": "Microsoft Azure Cloud Computing",
+        "company_url": "https://in.linkedin.com/company/verzeo?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQH2DIKjyNKb7Q/company-logo_100_100/company-logo_100_100/0/1634279392235/verzeo_logo?e=2147483647&v=beta&t=mZnsJSsmelM20XbdADjBnuQj9jgs4pSdhUSlt2z-3PA",
+        "company_name": "Verzeo",
+        "location": "Bengaluru, Karnataka, India",
+        "summary": "Configured Azure Virtual Networks (VNets) with subnets, established peering between them, and verified seamless communication between virtual machines in different VNets.Implemented Azure storage solutions, including creating a storage account, setting up Blob containers, and monitoring performance and usage metrics.",
+        "starts_at": "Feb 2021",
+        "ends_at": "Mar 2021",
+        "duration": "2 months"
+      },
+      {
+        "position": "Website Development and Administrative Support",
+        "company_url": "https://in.linkedin.com/company/vhbs-enterprises?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQE7IqOQjurKaQ/company-logo_100_100/company-logo_100_100/0/1679733194445?e=2147483647&v=beta&t=GzP24JTnC6rkiYtl8jdWuRg-bvC-M1puAtFplLFC454",
+        "company_name": "VHBS Enterprises",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "Leveraged my expertise as a computer science student to develop an engaging website using Wix, effectively showcasing VHBS Enterprise's construction projects and services to attract clients.Managed administrative tasks such as billing, quotations, and email correspondence, ensuring smooth operations and client communication, while also designing a professional logo to enhance brand identity within the construction industry.",
+        "starts_at": "Nov 2019",
+        "ends_at": "May 2020",
+        "duration": "7 months"
+      }
+    ],
+    "education": [
+      {
+        "college_url": "https://de.linkedin.com/school/hochschule-f%C3%BCr-technik-stuttgart-%E2%80%93-university-of-applied-sciences/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Hochschule für Technik Stuttgart",
+        "college_image": "https://media.licdn.com/dms/image/v2/D4E0BAQHLo2aKtJ8-Qg/company-logo_100_100/company-logo_100_100/0/1732800916377/hochschule_fr_technik_stuttgart__university_of_applied_sciences_logo?e=2147483647&v=beta&t=yZasyBwSxOMBLWHgfZOtsBi8edFIziy48JwLOc1YFHU",
+        "college_degree": "Master's degree",
+        "college_degree_field": "Software Technology",
+        "college_duration": "2023 - 2025",
+        "college_activity": "Subjects: Data Structures and Algorithm, Software Architecture, Software Project Management, Database, Middleware Technology, Software Engineering II."
+      },
+      {
+        "college_url": "https://in.linkedin.com/school/university-of-mumbai/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "University of Mumbai",
+        "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_100_100/company-logo_100_100/0/1631357817785?e=2147483647&v=beta&t=WzuKv-YUgDtkuyTDWlspuSsN_0GywNKeJwSv10yCePY",
+        "college_degree": "Bachelor of Science",
+        "college_degree_field": "Information Technology",
+        "college_duration": "2019 - 2022",
+        "college_activity": "Subjects: Object-oriented programming in C++, Data Structures, Artificial Intelligence, IOT, Business Intelligence, IT Service Management, Python, C#, .Net, Principles of GIS. Score: 9.10 CGPA (German Grade: 1.45)"
+      },
+      {
+        "college_name": "Navneet Junior College of Arts Science and Commerce",
+        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+        "college_degree": "12th(HSC)",
+        "college_degree_field": "Science",
+        "college_duration": "2018 - 2019",
+        "college_activity": "Subjects: English, Physics, Chemistry, Mathematics, Computer Science."
+      }
+    ],
+    "articles": [],
+    "description": {
+      "description1": "Hochschule für Technik Stuttgart",
+      "description1_link": "https://de.linkedin.com/school/hochschule-f%C3%BCr-technik-stuttgart-%E2%80%93-university-of-applied-sciences/?trk=public_profile_topcard-current-company",
+      "description2": "Hochschule für Technik Stuttgart",
+      "description2_link": "https://de.linkedin.com/school/hochschule-f%C3%BCr-technik-stuttgart-%E2%80%93-university-of-applied-sciences/?trk=public_profile_topcard-school",
+      "description3": ""
+    },
+    "activities": [
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_container-whisperer-activity-7331956722959269889-RSJ2",
+        "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQHUhPTKPo9j5Q/articleshare-shrink_800/B4DZb8w_PiG8AI-/0/1747997423955?e=2147483647&v=beta&t=FM1akhJBUdhVLIPoTZZjE09O_km3GDT0N0J-UlILXzY",
+        "title": "I am Container whisperer. \n\nI just did the JetBrains Unleash your inner Duke test and got this incredible result 🤗\n\nUnleash your inner Duke and win…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://de.linkedin.com/posts/michael-spuling-8a564a2a6_baue-echte-beziehungen-und-benutz-menschen-activity-7328102979113267204-loiE",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQHbRTNVlet3Mg/feedshare-shrink_2048_1536/B4EZbKmv7IHoAo-/0/1747155887307?e=2147483647&v=beta&t=dybqntaTCJ2FSP4M6r2WfgjxHuLRz56fhHsBkEuBVkk",
+        "title": "Baue echte Beziehungen und benutz Menschen nicht als Mittel zum Zweck! 👥\n\n\nEhrliches Interesse bedeutet zuhören, verstehen und mitdenken…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_barcelona-container-springboot-activity-7328067763531399168-7l26",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQHB3-oYMrdTnQ/feedshare-shrink_800/B4EZbKC12DGQAg-/0/1747146477150?e=2147483647&v=beta&t=nDs1BUu3Bie3ILY4u3tNfnoWX9GGg44xu8wreR3EGuM",
+        "title": "For the very first time, two colleagues from our company — one from Spain 🇪🇸 and one from Germany 🇩🇪 — are joining forces to give a conference…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/k15t-software-gmbh_welcome-newteammembers-k15t-activity-7326528263835578368-IRNS",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFimSeJ-BElDw/feedshare-shrink_800/B4EZa0On8PHoAk-/0/1746780456186?e=2147483647&v=beta&t=emirI9lPY8fxyHLFkjuASHwLD4cXfzUHWg9FnYE4bhU",
+        "title": "🎉 Welcome to the Team! 🎉\nWe’re excited to share that our team is growing further! Please join us in giving a warm welcome to two fantastic new…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/saili-rao-54265a190_mastersinit-convocation-workingstudent-activity-7323045321058463745-A9E6",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHv2nzLAuc9sg/feedshare-shrink_800/B4DZaCu31EHwAo-/0/1745950057395?e=2147483647&v=beta&t=Mt5lVq1_Bj1HK4XCOCBErOYA7lCMD2vPNZaEsMfE2Q8",
+        "title": "Pursuing a Master’s degree while working full-time was one of the challenging things I’ve done. Balancing late-night assignments with early morning…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/k15t-software-gmbh_atlassian-team-25-day-3-recap-the-last-activity-7317466469640908800-aen4",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQHB11OlVBt0ow/feedshare-shrink_800/B4EZYzc7bhHcAk-/0/1744619955217?e=2147483647&v=beta&t=ZF6IUelGhEYuc3z3FlRoIrAEXlOeLRHBd4tqo1VcLuY",
+        "title": "Atlassian Team '25 day #3 recap!\n\nThe last day of the event brought great energy, packed sessions, and lots of engaging conversations at our…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_there-are-great-conferences-and-there-activity-7316065822953668609-1Agn",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFjjpZN3lDtuw/feedshare-shrink_1280/B4EZYfjDOrHcAk-/0/1744286007016?e=2147483647&v=beta&t=K11NuUcuMcGoQ-KRRQUa-3F85S3b5Bqtfzy7VX-p-y8",
+        "title": "There are great conferences ... and there are great conferences that have Dimitris Doutsiopoulos as photographer 🙂 \n\nLast two conferences I attended…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_returning-to-voxxed-days-z%C3%BCrich-currently-activity-7309964733774778370-uyqA",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGbqOwbI82jqw/feedshare-shrink_800/B4EZXI2KoJH0Ag-/0/1742831402469?e=2147483647&v=beta&t=W1lXPevBrstvV4CPK6PQYq4hA5cwxOxKV50FXPLqgPo",
+        "title": "Returning to Voxxed Days Zürich ♥️\n\nCurrently on the train to Zurich where I will give a talk at 15:55 in Room 4 tomorrow.\n\nhttps://lnkd.in/ev_qddjq…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_returning-from-my-first-ever-cgi-event-activity-7308595289798430720-xymf",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGltFYAzJnmhw/feedshare-shrink_2048_1536/B4EZW1X8WKHUAw-/0/1742504888981?e=2147483647&v=beta&t=olUrlz5PNIETOItYYInAI0ySmN38ZSF66Kv2wTb2s6g",
+        "title": "Returning from my first ever CGI  event -\npossibly my last event ever as Novatec Consulting GmbH  employee 🙂\n\nAt least I have one badge with both…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/michaelamayer87_tonight-i-attended-my-first-ace-munich-event-activity-7304979883972071426-DKJc",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEKslGgJQqfgw/feedshare-shrink_2048_1536/B4DZWCAeHeGkAo-/0/1741642921384?e=2147483647&v=beta&t=m0ggWwKjxQH4N6OTKCmIKKc_SiaHk2obwz7F7A4xcPc",
+        "title": "Tonight, I attended my first ACE Munich event after returning from parental leave, and it honestly felt great to be back. With only 3 weeks left of…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_voxxed-devoxx-cern-activity-7298342067502567425-_-XF",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQE0hRirx4UnaQ/feedshare-shrink_800/B4EZUjrX_wHMAk-/0/1740060330999?e=2147483647&v=beta&t=8pBczPD4h-scwz7N_qLBId6REo2iMdeCu1zdZcOac44",
+        "title": "Update to my (broken) Voxxed Days CERN video link from yesterday\n\nSome had already noticed that the YT video I posted yesterday had a glitch (the…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/k15t-software-gmbh_k15t-workanniversary-10yearsstrong-activity-7293603942876282881-tktL",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEXMuoOkGGGLA/feedshare-shrink_2048_1536/B4EZTgWHY6HcAo-/0/1738930687571?e=2147483647&v=beta&t=CY8M0kd58khC7OwCBpJWTN8Ndjlen6D4okom_XBNjvc",
+        "title": "A decade of dedication—time to celebrate! 🥂🎉\nWe raise a toast to Anja Drollinger, who is celebrating her 10-year work anniversary with K15t! 🚀\nShe…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_cgi-novatec-newbeginnings-activity-7293252653784969217-3nXV",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEikRNWum0Raw/feedshare-shrink_800/B4EZTbWlwOHUAg-/0/1738846931992?e=2147483647&v=beta&t=jnomLbIHfJRu3083xqr2eJFORjtiyXIHkCmAhgsibIs",
+        "title": "Stronger 🤝  together!\n\nI guess this the first CGI and Novatec Consulting GmbH employee conference selfie since the announcement of the merger.\n\nI've…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_big-news-and-of-course-a-big-helloto-activity-7290761360013950976-RDVo",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQH31tnHKYyVIw/feedshare-shrink_1280/B4DZS3AFruHkAo-/0/1738237041985?e=2147483647&v=beta&t=YAcjrVmVepvkByPxX67ll9P6_aULEHiOBBVnlwcwok4",
+        "title": "Big News 😇 \n\nAnd of course a Big Hello to all my new CGI colleagues.\nLooking forward to working with you! 🚀",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_cloudnative-kubernetes-opentelemetry-activity-7276918842973405184-j0_9",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQES_yaw5Cinvg/feedshare-shrink_1280/B4EZPzPH1.HAAk-/0/1734952648737?e=2147483647&v=beta&t=ZM4YuKgmCBVw1WmMAvq8sweDYMwA0I4zDRqkMJhsPAE",
+        "title": "My Super Power: Demystifying cloud technologies through practical teaching.\n\nI love that 🤗  \n\nThanks Coauthor Studio for this nice 2024 LinkedIn…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/matthiashaeussler_bluesky-activity-7265425724298129409-tSvR",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFyVZufwKYnWw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1732212476267?e=2147483647&v=beta&t=fV18YUeea13AK-GSDPA1SzQOgITDazIm1kHof7l_iQg",
+        "title": "🦋 Bluesky, anyone? 🦋 \n\nI've signed up for Bluesky already a while ago, but within the last two week it got a certain momentum and I seriously…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/gargee-348846192_rejections-ppo-collab-activity-7262683211724447745-C7nu",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQG-ToVe54vpjQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731522801838?e=2147483647&v=beta&t=ESWJSrIHOBuRIhfb_K6aTmDvQoKLQgwmFfaK06p3K40",
+        "title": "𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗿𝗲𝗷𝗲𝗰𝘁𝗲𝗱 𝗺𝘆 𝗣𝗣𝗢 𝗮𝗳𝘁𝗲𝗿 𝗺𝘆 𝗶𝗻𝘁𝗲𝗿𝗻𝘀𝗵𝗶𝗽💔\n\nLinkedIn is full of success stories, but today, I want to…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/k15t-software-gmbh_k15tparty-anniversary-k15teenyears-activity-7260638703398588417-_8vu",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQHLx-_SEUbnRQ/feedshare-shrink_800/feedshare-shrink_800/0/1731071159860?e=2147483647&v=beta&t=z5Y1o8DFlUIljJHxq9T9ghXFuxzzRGSGSsVi2bmK7kA",
+        "title": "Our first guests have arrived, and we’re delighted to welcome everyone to our beautiful office! We’re enjoying a lovely lunch together and look…",
+        "activity": "Liked by Bhimesh Patil"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/k15t-software-gmbh_our-team-mates-max-f%C3%B6rster-and-markus-borm-activity-7262799922368843776-F_2i",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGrvoVynDGKyA/feedshare-shrink_800/feedshare-shrink_800/0/1731586436002?e=2147483647&v=beta&t=kEiqw9aHUoOknFA4CIxL1hIdG7clNpxEaccBlTYBz80",
+        "title": "Our team mates Max Förster and Markus Borm had a great time at yesterday's DWSC - Digital Workplace Summit by Communardo listening to talks and…",
+        "activity": "Liked by Bhimesh Patil"
+      }
+    ],
+    "volunteering": [],
+    "certification": [
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=2147483647&v=beta&t=rr_7_bFRKp6umQxIHErPOZHtR8dMPIYeTjlKFdotJBY",
+        "certification": "AZ-900: Microsoft Azure Fundamentals",
+        "company_url": "https://www.linkedin.com/company/microsoft?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Microsoft",
+        "issue_date": "Issued Feb 2022",
+        "credential_id": "Credential ID I142-7306",
+        "credential_url": "https://drive.google.com/file/d/1rbPkGqF3mn_u4pdOpXHksxr3McXUHksj/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGV36q2EowSyw/company-logo_100_100/company-logo_100_100/0/1724881581208/nvidia_logo?e=2147483647&v=beta&t=oCxt8kGhi0AfLuVDY7D_jzkUIEe-fAV5Q5eLaRxXzOE",
+        "certification": "Fundamentals of Deep Learning",
+        "company_url": "https://www.linkedin.com/company/nvidia?trk=public_profile_profile-section-card_image-click",
+        "company_name": "NVIDIA",
+        "issue_date": "Issued Jan 2022",
+        "credential_id": "Credential ID afca4c733a2b4c27849e1ab2a86dabc1",
+        "credential_url": "https://courses.nvidia.com/certificates/afca4c733a2b4c27849e1ab2a86dabc1?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQHT3lpSlRAwCg/company-logo_100_100/B56ZaSy889G4AQ-/0/1746219552862/cisco_logo?e=2147483647&v=beta&t=Pxi5EbiRdGvmO8frjL7YTT9Z9yy20zHh_LktrkgtwZI",
+        "certification": "introduction to Cyber Security",
+        "company_url": "https://www.linkedin.com/company/cisco?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Cisco",
+        "issue_date": "Issued Jan 2022",
+        "credential_id": "Credential ID 2ae7d8c4-550f-4df9-bd90-90d57af2e485",
+        "credential_url": "https://www.credly.com/badges/2ae7d8c4-550f-4df9-bd90-90d57af2e485/public_url?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=2147483647&v=beta&t=rr_7_bFRKp6umQxIHErPOZHtR8dMPIYeTjlKFdotJBY",
+        "certification": "Microsoft Certified: SC-900: Security, Compliance, and Identity Fundamentals",
+        "company_url": "https://www.linkedin.com/company/microsoft?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Microsoft",
+        "issue_date": "Issued Jan 2022",
+        "credential_id": "Credential ID waQvT-Fa87",
+        "credential_url": "https://drive.google.com/file/d/11fVqty0b0XCrjNpfJCltUWxseLB7jRT2/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQHkMhN-vtxOrg/company-logo_100_100/company-logo_100_100/0/1631301130477?e=2147483647&v=beta&t=LocCPWClM62u-GWKfFEbhSUblbDhoH0ln_7CmLlKoNc",
+        "certification": "Cyber Security",
+        "company_url": "https://www.linkedin.com/company/certiport?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Certiport - A Pearson VUE Business",
+        "issue_date": "Issued Oct 2021",
+        "credential_id": "Credential ID NASTECH21259"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "Cyber security",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued May 2021",
+        "credential_id": "See credential",
+        "credential_url": "https://www.udemy.com/certificate/UC-b02fa71e-3387-4d28-9efe-0bfabdc02175/?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQH2DIKjyNKb7Q/company-logo_100_100/company-logo_100_100/0/1634279392235/verzeo_logo?e=2147483647&v=beta&t=mZnsJSsmelM20XbdADjBnuQj9jgs4pSdhUSlt2z-3PA",
+        "certification": "Microsoft Azure Cloud Computing",
+        "company_url": "https://in.linkedin.com/company/verzeo?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Verzeo",
+        "issue_date": "Issued Mar 2021",
+        "credential_id": "Credential ID 253881996",
+        "credential_url": "https://drive.google.com/file/d/1HJBszw289UqrZyABABkfm6ODdvQhfLRj/view?usp=drivesdk&trk=public_profile_see-credential"
+      }
+    ],
+    "people_also_viewed": [
+      {
+        "link": "https://in.linkedin.com/in/tanya-gandhi-a34978120?trk=public_profile_browsemap-profile",
+        "name": "Tanya Gandhi",
+        "summary": "",
+        "location": "New Delhi"
+      },
+      {
+        "link": "https://in.linkedin.com/in/krishnakumar-k-t-73086129?trk=public_profile_browsemap-profile",
+        "name": "Krishnakumar K T",
+        "summary": "",
+        "location": "Ernakulam"
+      },
+      {
+        "link": "https://in.linkedin.com/in/shilpi-singh-1108a0187?trk=public_profile_browsemap-profile",
+        "name": "Shilpi Singh",
+        "summary": "Analytical and organised logistics , distribution professional ,adept at evaluating situations and change .Oriented Team player with exceptional problem solving and leadership skills Experience in SAP R3 , SAP TM , Excel",
+        "location": "Gurugram"
+      },
+      {
+        "link": "https://in.linkedin.com/in/vinod-k-dasari-7bb0918?trk=public_profile_browsemap-profile",
+        "name": "Vinod K. Dasari",
+        "summary": "",
+        "location": "Chennai"
+      },
+      {
+        "link": "https://in.linkedin.com/in/akashgoila?trk=public_profile_browsemap-profile",
+        "name": "Akash Goila",
+        "summary": "Exporter,Film Director, Film Distributor, Export and Film Finance, Export and OTT Consultant, Venture Capitalist, International Marketing",
+        "location": "Delhi, India"
+      },
+      {
+        "link": "https://in.linkedin.com/in/imdad-kaskar-6a943712a?trk=public_profile_browsemap-profile",
+        "name": "Imdad Kaskar",
+        "summary": "-",
+        "location": "Chiplun"
+      },
+      {
+        "link": "https://in.linkedin.com/in/krishan-kumar-saraswat-4a3213134?trk=public_profile_browsemap-profile",
+        "name": "Krishan kumar Saraswat",
+        "summary": "Restaurant General Manager",
+        "location": "Noida"
+      },
+      {
+        "link": "https://in.linkedin.com/in/sudhirsitapati?trk=public_profile_browsemap-profile",
+        "name": "Sudhir Sitapati",
+        "summary": "Managing Director and CEO, Godrej Consumer Products I Author of 'The CEO Factory'",
+        "location": "Mumbai"
+      },
+      {
+        "link": "https://in.linkedin.com/in/surendrarawat?trk=public_profile_browsemap-profile",
+        "name": "Surendra Rawat",
+        "summary": "Sr. SEO Analyst at India Internets",
+        "location": "Noida"
+      },
+      {
+        "link": "https://in.linkedin.com/in/vvikash?trk=public_profile_browsemap-profile",
+        "name": "Vikash Singh",
+        "summary": "Digital Marketing Specialist:\nE-Commerce | Shopify | WordPress | WooCommerce | Google Ads | Meta Ads |\nSEO | SMO | Web Analytics | Performance Marketing | Marketing Automation",
+        "location": "Delhi, India"
+      }
+    ],
+    "similar_profiles": [
+      {
+        "link": "https://in.linkedin.com/in/bhimesh-p-306a40166?trk=public_profile_samename-profile",
+        "name": "Bhimesh P.",
+        "summary": "Student at Savitribai Phule Pune University",
+        "location": "Pune"
+      },
+      {
+        "link": "https://in.linkedin.com/in/bhimesh-patil-575466143?trk=public_profile_samename-profile",
+        "name": "Bhimesh Patil",
+        "summary": "Attended bhiwapr mahavavidyalaya bhiwapur",
+        "location": "Nagpur"
+      }
+    ],
+    "recommendations": [],
+    "publications": [
+      {
+        "name": "Voting System Based On Blockchain Technology (EasyChair)",
+        "sub_title": "EasyChair",
+        "summary": "The goal of this research was to analyze and evaluate the traditional voting system, as well as the benefits of implementing a blockchain based E‑voting system that makes use of a variety of blockchain‑based technologies, as well as a case study of manual voting.Also, in Shaastrarth 2022, 7th International Conference Program, I presented my research paper, which proposed a technology solution to election system to hold a fair and speedy election by making the system transparent and secure…\n            \n\n    \n    \n\n    \n        Show more",
+        "date": "April 1, 2022",
+        "link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Feasychair%2Eorg%2Fpublications%2Fpreprint%2FTkFM&urlhash=cfG7&trk=public_profile_publication-title"
+      }
+    ],
+    "courses": [],
+    "languages": [],
+    "organizations": [],
+    "projects": [
+      {
+        "title": "DeBallot",
+        "link": "https://github.com/Bhimesh1/Deballot?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "AI FacePoint",
+        "duration": "-"
+      },
+      {
+        "title": "MS Cloud Computing",
+        "duration": "-"
+      }
+    ],
+    "awards": [],
+    "score": []
+  }
+]

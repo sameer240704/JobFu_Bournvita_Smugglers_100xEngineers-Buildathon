@@ -1,0 +1,377 @@
+[
+  {
+    "fullName": "Tanapong Dechsakul",
+    "linkedin_internal_id": "607803460",
+    "first_name": "Tanapong",
+    "last_name": "Dechsakul",
+    "public_identifier": "tanapongdech",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D5616AQFi2aNHhKPpTg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1710054456145?e=2147483647&v=beta&t=83daISgcenygsIg8GouI_N-VlBbGDg_ar-mp63nDLq0",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQHIyNgnGEe8yg/profile-displayphoto-shrink_200_200/B56ZV_dwVbGUAc-/0/1741600261997?e=2147483647&v=beta&t=IyLbkQ5g8MSWB-XrgopwAWs8DbU47TTXIR2rpKCtoEc",
+    "headline": "Master of Information Technology Graduate | Full-Stack Developer (React.js • TypeScript • .NET • Python) | Quantitative Trading",
+    "location": "Adelaide, South Australia, Australia",
+    "followers": "156 followers",
+    "connections": "156 connections",
+    "about": "Hi! I'm Tanapong Dechsakul (Tan), a recent graduate with a Master of Information Technology from Flinders University. I'm experienced in web and software development and interested especially in Python for quantitative investment and algorithmic trading which uses machine learning to optimise trading strategies.Part of my various personal and university projects, showcasing my dedication to continuous learning and versatility, made me proficient with industry-standard tools and technologies and enhanced my ability to contribute effectively to development teams.I’d be grateful to connect, share information, and explore potential opportunities for collaboration.",
+    "experience": [
+      {
+        "position": "FIFO",
+        "company_url": "https://au.linkedin.com/company/techforce-personnel?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHFn_i8GCXoQQ/company-logo_100_100/company-logo_100_100/0/1635128338924/techforce_personnel_logo?e=2147483647&v=beta&t=Fm6QL6zxm9t8z4Eh50J7-UJKHyqvneAyeoGodxcv3JU",
+        "company_name": "Techforce Personnel Pty Ltd",
+        "location": "Olympic Dam, South Australia, Australia",
+        "summary": "Assigned to Compass Group | Olympic Dam & Roxby Downs Village, SAAssigned to AssetLink | Windy Valley Camp, Coober Pedy, SAKey Skills Acquired: • Strengthened communication and teamwork skills in high-pressure environments.• Applied safety and hazard identification procedures in line with organisational protocols.• Maintained attention to detail, time management, and adaptability in dynamic work settings.",
+        "starts_at": "Aug 2022",
+        "ends_at": "Feb 2025",
+        "duration": "2 years 7 months"
+      },
+      {
+        "position": "Manual Software Tester (Freelance)",
+        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+        "company_name": "IGET UGOT Co., Ltd.",
+        "location": "Bangkok City, Thailand",
+        "summary": "● Analysed user interfaces and use cases to ensure alignment with system requirements.● Conducted manual testing across multiple platforms, including Windows and Android, to identify and resolve issues.● Followed test case procedures to verify system functionality and reported defects for resolution.● Performed negative testing (e.g., uploading large image files) to evaluate system stability and performance.",
+        "starts_at": "Aug 2019",
+        "ends_at": "Oct 2019",
+        "duration": "3 months"
+      },
+      {
+        "position": "Restaurant System Administrator",
+        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+        "company_name": "Highway Steak Restaurant and Heng Charoen Butchery Restaurant",
+        "location": "Bangkok City, Thailand",
+        "summary": "● Installed and maintained CCTV systems, with cloud-based storage for video files.● Setup and managed Point of Sale (POS) and payment systems, supporting CSV data exports for reporting and visualisation in Excel.● Analysed costs, sales, and inventory data to generate detailed performance reports and business insights.● Maintained dashboards for menu creation, cost tracking, inventory control, and income and expense auditing.",
+        "starts_at": "Jun 2017",
+        "ends_at": "Aug 2019",
+        "duration": "2 years 3 months"
+      }
+    ],
+    "education": [
+      {
+        "college_url": "https://au.linkedin.com/school/flinders-university/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Flinders University",
+        "college_image": "https://media.licdn.com/dms/image/v2/C560BAQH4Ri5OesCW0A/company-logo_100_100/company-logo_100_100/0/1658099082273/flinders_university_logo?e=2147483647&v=beta&t=TYtSofnrv0FS-qdrY-KUsnQlrslaQBcVQ_PSZXFEsJU",
+        "college_degree": "Master of Information Technology",
+        "college_degree_field": null,
+        "college_duration": "2023 - 2024",
+        "college_activity": "Main Courses: - Computer Programming- Advanced Software Development- Computational Intelligence- Software Testing and Quality Assurance- Software System Requirements and Design- Human Factors for Interactive and Web-Based Systems- DevOps- Data Science- Data Engineering- Database Modelling and Information Management- Cloud and Distributed Computing- Networks and Cybersecurity- ICT Management and Professional Standards- Information…\n            \n\n    \n    \n\n    \n        Show more"
+      },
+      {
+        "college_url": "https://au.linkedin.com/school/academyitau/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Academy IT",
+        "college_image": "https://media.licdn.com/dms/image/v2/D560BAQEVirccy-NL8A/company-logo_100_100/company-logo_100_100/0/1666316451019/academyitau_logo?e=2147483647&v=beta&t=bUB2KdsJRgkdg-ZbDtokNUOR7VP-Ml8dDeeWU3b_qAY",
+        "college_degree": "Professional Year",
+        "college_degree_field": "Association for Australia's ICT",
+        "college_duration": "2025 - 2025",
+        "college_activity": "The leading professional association for Australia’s technology community, across industry, government and education."
+      },
+      {
+        "college_url": "https://th.linkedin.com/school/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%87/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Ramkhamhaeng University",
+        "college_image": "https://media.licdn.com/dms/image/v2/C560BAQFhR4rxu_Gy5g/company-logo_100_100/company-logo_100_100/0/1630644159661/_logo?e=2147483647&v=beta&t=E66wRca92EfIvoYlWVapjqy9j9DIct8WUElQZ-z5lRw",
+        "college_degree": "Bachelor of International Business Administration",
+        "college_degree_field": null,
+        "college_duration": "2011 - 2013",
+        "college_activity": ""
+      }
+    ],
+    "articles": [],
+    "description": {
+      "description1": "Techforce Personnel Pty Ltd",
+      "description1_link": "https://au.linkedin.com/company/techforce-personnel?trk=public_profile_topcard-current-company",
+      "description2": "Flinders University",
+      "description2_link": "https://au.linkedin.com/school/flinders-university/?trk=public_profile_topcard-school",
+      "description3": "Portfolio",
+      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Ftdech%2Eme%2F&urlhash=jG4F&trk=public_profile_topcard-website"
+    },
+    "activities": [
+      {
+        "link": "https://www.linkedin.com/posts/simoncookencode_the-future-of-adelaides-tech-scene-activity-7328916606116417536-uwg5",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHmjibUbsN4ew/feedshare-shrink_800/B56ZbWKzSUHUAo-/0/1747349882863?e=2147483647&v=beta&t=szaSt4EojayVIO6dEOK49JWPOun5FFUDLJdjxKQ1gdY",
+        "title": "📸 The future of Adelaide’s tech scene — right here in one photo.\n\nLast night, these brilliant junior developers showed up to JuniorDev Adelaide:…",
+        "activity": "Liked by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/tanapongdech_does-anyone-know-of-companies-here-in-adelaide-activity-7324113191343468544-_CHP",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "Does anyone know of companies here in Adelaide that specialise in quantitative analysis for financial trading, or a meet-up group? There’s so much…",
+        "activity": "Liked by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/gp-one-consulting_gponeconsulting-sectorswesupport-innovation-activity-7322864847769976832-pmBe",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHFkvl-Vjopng/feedshare-shrink_2048_1536/B56ZaAKxUJGoAo-/0/1745907030481?e=2147483647&v=beta&t=JalLJOi3OcoYsyNNNttedK3QRp_9mGsOXDomXKFD7Qc",
+        "title": "🌟Sectors We Support🌟\n\nAt GP One Consulting, we are proud to support a diverse range of sectors, each playing a crucial role in shaping our world…",
+        "activity": "Liked by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/tanapongdech_does-anyone-know-of-companies-here-in-adelaide-activity-7324113191343468544-_CHP",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "Does anyone know of companies here in Adelaide that specialise in quantitative analysis for financial trading, or a meet-up group? There’s so much…",
+        "activity": "Posted by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/tanapongdech_graduation-masterofit-flindersuniversity-activity-7324111507762356224-T67o",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHGvRUVHVMlrA/feedshare-shrink_800/B56ZaR4lpCHAAs-/0/1746204257187?e=2147483647&v=beta&t=oCH-PxRevwQx-Y3ckciqhLLMT45GDEXOKNle-SaDkRI",
+        "title": "On 16 April, I graduated with a Master of Information Technology from Flinders University. I’ve just looked through the photos my lovely friend took,…",
+        "activity": "Shared by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/mygov-watch_mygovwatch-government-performance-activity-7323849284339040256-LAxc",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHQ48f3CKav_w/feedshare-shrink_1280/B56ZaOKHP.HUAk-/0/1746141739287?e=2147483647&v=beta&t=xVYFhEWiKvyHRR5JcWjGq9NyzlXSms_x1AmzCohdFDY",
+        "title": "Working towards providing a simple portal for understanding Australia's performance as a country and how government contributes to that.\n(an evolving…",
+        "activity": "Liked by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/nuri-duzce_react-react19-webdevelopment-activity-7292314219864084480-SCGv",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEQAaOJXb00eA/feedshare-shrink_800/B4EZTOBIzbHgAo-/0/1738623193406?e=2147483647&v=beta&t=efaZXSNxScmbzRReB5YmDqmtto3tLzNmH_DoyJraxwQ",
+        "title": "✨ New approach to asynchronous data fetching in React 19 🚀\n\nThe new 'use' React API simplifies asynchronous operations. No more need for useEffect…",
+        "activity": "Liked by Tanapong Dechsakul"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/amazon-web-services_aws-innovate-data-edition-activity-7085190471106326528-F80S",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQFgcB7y8GLSvQ/image-shrink_1280/image-shrink_1280/0/1689241040336?e=2147483647&v=beta&t=6AUNlqqDTMLe_MvJWv4Sn_Be0-IFfHC0MH83fpNmyG4",
+        "title": "Ready to unlock the power of your data? Join us at #AWSInnovate to learn the latest in analytics, machine learning, and generative AI!",
+        "activity": "Liked by Tanapong Dechsakul"
+      }
+    ],
+    "volunteering": [],
+    "certification": [
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "PyTorch: Deep Learning and Artificial Intelligence",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued Mar 2024",
+        "credential_id": "Credential ID UC-a927a972-5702-48f6-b6b6-c7197ce6cbb0",
+        "credential_url": "https://www.udemy.com/certificate/UC-a927a972-5702-48f6-b6b6-c7197ce6cbb0/?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "พัฒนาเว็บด้วย JavaScript แบบ MERN Stack",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued Mar 2024",
+        "credential_id": "Credential ID UC-0104e118-9868-4b04-bc62-f9ea346ab712",
+        "credential_url": "https://www.udemy.com/certificate/UC-0104e118-9868-4b04-bc62-f9ea346ab712/?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "พัฒนาเว็บแอพพลิเคชั่นด้วย React (Real-World Projects)",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued Mar 2024",
+        "credential_id": "Credential ID UC-302b68ff-7d4f-45e4-9f27-ffc4950edfde",
+        "credential_url": "https://www.udemy.com/certificate/UC-302b68ff-7d4f-45e4-9f27-ffc4950edfde/?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQHT3lpSlRAwCg/company-logo_100_100/B56ZaSy889G4AQ-/0/1746219552862/cisco_logo?e=2147483647&v=beta&t=Pxi5EbiRdGvmO8frjL7YTT9Z9yy20zHh_LktrkgtwZI",
+        "certification": "CyberOps Associate",
+        "company_url": "https://www.linkedin.com/company/cisco?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Cisco",
+        "issue_date": "Issued Nov 2023",
+        "credential_id": "See credential",
+        "credential_url": "https://www.credly.com/badges/95181452-7c75-4c80-a20b-edf12b41b7ff/linked_in_profile?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=2147483647&v=beta&t=aHl55JZmApxMr1IUyZ8nHvqhyeYIqBPC136YCXMufm0",
+        "certification": "Google Data Analytics",
+        "company_url": "https://www.linkedin.com/company/coursera?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Coursera",
+        "issue_date": "Issued Jul 2023",
+        "credential_id": "Credential ID Q6PRCAJ9B3TU",
+        "credential_url": "https://coursera.org/share/b3c3ca667299f14e88e29ae502e835c6?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEhb_j1_sDRJQ/company-logo_100_100/company-logo_100_100/0/1720817595519/theforage_logo?e=2147483647&v=beta&t=HXxhI4B7d0y4g0IRarS8qZp3InTt4lw0LQMvGkO4rOQ",
+        "certification": "Walmart USA - Advanced Software Engineering Job Simulation",
+        "company_url": "https://www.linkedin.com/company/theforage?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Forage",
+        "issue_date": "Issued Jun 2023",
+        "credential_id": "Credential ID Bm9Dji5akYcuhyTBQ",
+        "credential_url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Walmart%20USA/oX6f9BbCL9kJDJzfg_Walmart%20USA_E8CWKgMxmpWWwFctv_1687583882336_completion_certificate.pdf?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGbjnnc_gwUYQ/company-logo_100_100/company-logo_100_100/0/1677121007413/skills_training_college_logo?e=2147483647&v=beta&t=MSdZ950d8jx9Rb0pf-beWD5D3sRavwaAXcLLyAkJPcA",
+        "certification": "Prepare to work safely in the construction industry",
+        "company_url": "https://au.linkedin.com/company/skills-training-college?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Skills Training College - RTO 45654",
+        "issue_date": "Issued Aug 2022",
+        "credential_id": "Credential ID 4044",
+        "credential_url": "https://vastosoft.com/docauth/check.php?vcode=ybeWpKdmaGlnb2lj&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "Financial Engineering and Artificial Intelligence in Python",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued Jun 2022",
+        "credential_id": "Credential ID UC-a512bd8b-fcd5-478e-98ca-d916d1f4138c",
+        "credential_url": "https://www.udemy.com/certificate/UC-a512bd8b-fcd5-478e-98ca-d916d1f4138c/?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "Tensorflow 2.0: Deep Learning and Artificial Intelligence",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued Jun 2022",
+        "credential_id": "Credential ID UC-9e3343a4-26ff-43a0-bfc2-deb4e3d4d7f0",
+        "credential_url": "https://www.udemy.com/certificate/UC-9e3343a4-26ff-43a0-bfc2-deb4e3d4d7f0/?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQGCOd076HCevg/company-logo_100_100/company-logo_100_100/0/1709530740948/acsau_logo?e=2147483647&v=beta&t=ww-bqk2WBhPEADqR4idXrjjVibM9IerZ90F10d0lucs",
+        "certification": "ACS Associate Member",
+        "company_url": "https://au.linkedin.com/company/acsau?trk=public_profile_profile-section-card_image-click",
+        "company_name": "ACS (Australian Computer Society)",
+        "issue_date": "Issued Apr 2025\n                    \n                      \n                        Expires Apr 2026",
+        "credential_id": "Credential ID 4446805"
+      }
+    ],
+    "people_also_viewed": [],
+    "similar_profiles": [
+      {
+        "link": "https://th.linkedin.com/in/tanapong-dechsakul-96167414b?trk=public_profile_samename-profile",
+        "name": "Tanapong Dechsakul",
+        "summary": "--",
+        "location": "Thailand"
+      }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [
+      {
+        "name": "English",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "Thai",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "organizations": [],
+    "projects": [
+      {
+        "title": "TDech Portfolio Website",
+        "duration": "Jul 2023"
+      },
+      {
+        "title": "Machine Learning for Algorithmic Trading",
+        "duration": "Jun 2023"
+      },
+      {
+        "title": "Devops for University Research Chemicals Ordering System",
+        "link": "https://jp.linkedin.com/in/taka-hira?trk=public_profile_project_contributor-image",
+        "duration": "Jul 2024 - Oct 2024"
+      },
+      {
+        "title": "",
+        "link": "https://jp.linkedin.com/in/taka-hira?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/setthaluck-smithiweerakun?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/kongpheng-lee-30578320a?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/min-yao-96b84b287?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/maxkim0314?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/lolachu?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/alyssaliuwork?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/jackyy-chn-66a342247?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "ICT Management - CropWise Smart Farming Solutions",
+        "link": "https://au.linkedin.com/in/krish-patel-79229321a?trk=public_profile_project_contributor-image",
+        "duration": "Jul 2024 - Oct 2024"
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/krish-patel-79229321a?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/setthaluck-smithiweerakun?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/jobktn?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/kongpheng-lee-30578320a?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "Virtual Mental Care Web Application",
+        "link": "https://au.linkedin.com/in/setthaluck-smithiweerakun?trk=public_profile_project_contributor-image",
+        "duration": "Jul 2024 - Oct 2024"
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/setthaluck-smithiweerakun?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/kongpheng-lee-30578320a?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/osama-anees-10075b181?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "Car Insurance Web Application",
+        "link": "https://au.linkedin.com/in/kongpheng-lee-30578320a?trk=public_profile_project_contributor-image",
+        "duration": "Feb 2024 - Jun 2024"
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/kongpheng-lee-30578320a?trk=public_profile_project_contributor-image",
+        "duration": ""
+      }
+    ],
+    "awards": [
+      {
+        "name": "Commendation Award of outstanding academic performance",
+        "organization": "Flinders University",
+        "duration": "May 2024",
+        "summary": "Excellent performance in the Master of Information Technology from the College of Science and Engineering with outstanding academic achievement and a high GPA."
+      },
+      {
+        "name": "Go Beyond Global Scholarship",
+        "organization": "Flinders University",
+        "duration": "Feb 2023",
+        "summary": "Flinders Go Beyond Scholarships are designed to recognise international students with high academic performance and the potential to make a positive contribution to Flinders and the global community."
+      }
+    ],
+    "score": []
+  }
+]

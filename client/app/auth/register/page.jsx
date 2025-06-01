@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { FcGoogle } from "react-icons/fc";
+import Image from "next/image";
+import { Logo } from "@/public";
+import { toast } from "sonner";
 
 export default function SignUpPage() {
   const [user, setUser] = useState(null);
@@ -55,8 +58,6 @@ export default function SignUpPage() {
       if (event === "SIGNED_IN" && session?.user) {
         setUser(session.user);
 
-        // Only redirect to dashboard if email is confirmed
-        // For email signups, user needs to confirm email first
         if (session.user.email_confirmed_at) {
           await syncUserToMongoDB(session.user);
           router.push("/dashboard");
@@ -180,7 +181,6 @@ export default function SignUpPage() {
       console.log("User synced to MongoDB:", result);
     } catch (error) {
       console.error("Failed to sync user to MongoDB:", error);
-      // Don't block the registration process if MongoDB sync fails
     }
   };
 
@@ -206,7 +206,6 @@ export default function SignUpPage() {
     return { text: "Strong", color: "text-green-500" };
   };
 
-  // Handle Enter key press for form submission
   const handleKeyPress = (e) => {
     if (
       e.key === "Enter" &&
@@ -228,13 +227,13 @@ export default function SignUpPage() {
       });
 
       if (error) {
-        alert(`Error: ${error.message}`);
+        toast.error(`Error: ${error.message}`);
       } else {
-        alert("Confirmation email resent! Please check your inbox.");
+        toast.error("Confirmation email resent! Please check your inbox.");
       }
     } catch (error) {
       console.error("Error resending confirmation:", error);
-      alert("Failed to resend confirmation email. Please try again.");
+      toast.error("Failed to resend confirmation email. Please try again.");
     }
   };
 
@@ -246,7 +245,6 @@ export default function SignUpPage() {
     );
   }
 
-  // Show email confirmation message
   if (showEmailSent) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-pink-50 px-4 sm:px-6 lg:px-8">
@@ -277,14 +275,14 @@ export default function SignUpPage() {
             <div className="space-y-4">
               <Button
                 onClick={resendConfirmation}
-                className="w-full bg-purple-600 hover:bg-purple-700 text-white"
+                className="w-full bg-purple-600 hover:bg-purple-700 text-white cursor-pointer"
               >
                 Resend confirmation email
               </Button>
               <Button
                 onClick={() => router.push("/auth/login")}
                 variant="outline"
-                className="w-full"
+                className="w-full cursor-pointer"
               >
                 Back to Sign In
               </Button>
@@ -298,7 +296,8 @@ export default function SignUpPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-pink-50 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
-        <div className="text-center">
+        <div className="text-center flex flex-col justify-center items-center">
+          <Image src={Logo} alt="JobFu" className="h-16 w-16 rounded-md mb-4" />
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
             Create your account
           </h2>
@@ -501,7 +500,7 @@ export default function SignUpPage() {
                   password.length < 6 ||
                   !agreedToTerms
                 }
-                className="group relative h-12 w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200 transform hover:scale-[1.02] hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                className="group relative h-12 w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200 transform hover:scale-[1.02] hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none cursor-pointer"
               >
                 {emailLoading ? (
                   <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>

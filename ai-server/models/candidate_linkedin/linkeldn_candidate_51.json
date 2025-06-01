@@ -1,0 +1,270 @@
+[
+  {
+    "fullName": "Haoyi Duan",
+    "linkedin_internal_id": "1186836775",
+    "first_name": "Haoyi",
+    "last_name": "Duan",
+    "public_identifier": "haoyi-duan-a07576291",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D5616AQE4kUm73McwOw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1709193400843?e=2147483647&v=beta&t=f0BcsGkPCqcWo9pRrR4kSwJijjizT3dh0cXtxxnioDg",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQEMRhjfUVBVUg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709193541175?e=2147483647&v=beta&t=_TMZCJpfQU5fqU6aGxD_01HKEUX2nNyM4BRkkR2wlDI",
+    "headline": "MSEE @ Stanford | Research @ SVL | BEng. CS @ ZJU",
+    "location": "Stanford, California, United States",
+    "followers": "879 followers",
+    "connections": "500+ connections",
+    "about": "I am a master's student in Electrical Engineering at Stanford University. Previously I received BEng. in computer science and technology from Zhejiang University. I have a profound interest in the fields of Computer Vision and Multimodal Learning. I am passionate about leveraging AI to engage in creative pursuits and address real-world problems.",
+    "experience": [
+      {
+        "position": "Graduate Teaching Assistant",
+        "company_url": "https://www.linkedin.com/school/stanford-university/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=2147483647&v=beta&t=ZvB25L95o9w4q9drvsWxGcM49tX66Cf5LsLAxYp8rSs",
+        "company_name": "美国斯坦福大学",
+        "location": "美国 加利福尼亚 斯坦福",
+        "summary": "CS 224R: Deep Reinforcement Learning",
+        "starts_at": "Mar 2025",
+        "ends_at": "Present",
+        "duration": "4 months"
+      },
+      {
+        "position": "Graduate Teaching Assistant",
+        "company_url": "https://www.linkedin.com/school/stanford-university/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=2147483647&v=beta&t=ZvB25L95o9w4q9drvsWxGcM49tX66Cf5LsLAxYp8rSs",
+        "company_name": "美国斯坦福大学",
+        "location": "美国 加利福尼亚 斯坦福",
+        "summary": "CS 248A: Computer Graphics: Rendering, Geometry, and Image Manipulation",
+        "starts_at": "Jan 2025",
+        "ends_at": "Mar 2025",
+        "duration": "3 months"
+      },
+      {
+        "position": "Graduate Research Assistant",
+        "company_url": "https://www.linkedin.com/company/stanford-ai-lab?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHIr1u04mwtMA/company-logo_100_100/company-logo_100_100/0/1631434386745/stanford_ai_lab_logo?e=2147483647&v=beta&t=gsTlxGroppn7t9FHXDLz-v5YIFFSxzyhZbN-8iNrASs",
+        "company_name": "Stanford Artificial Intelligence Laboratory (SAIL)",
+        "location": null,
+        "summary": "Research @ Stanford Vision & Learning Lab (SVL)Advisor: Prof. Li Fei-Fei, Prof. Jiajun WuTopics: World GenerationPublication: WorldScore: A Unified Evaluation Benchmark for World Generation, Arxiv 2025",
+        "starts_at": "Sep 2024",
+        "ends_at": "Present",
+        "duration": "10 months"
+      },
+      {
+        "position": "Graduate Research Assistant",
+        "company_url": "https://www.linkedin.com/company/stanford-ai-lab?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHIr1u04mwtMA/company-logo_100_100/company-logo_100_100/0/1631434386745/stanford_ai_lab_logo?e=2147483647&v=beta&t=gsTlxGroppn7t9FHXDLz-v5YIFFSxzyhZbN-8iNrASs",
+        "company_name": "Stanford Artificial Intelligence Laboratory (SAIL)",
+        "location": null,
+        "summary": "Research @ Stanford Vision & Learning Lab (SVL)Advisor: Prof. Jiajun WuTopics: 3D GenerationPublication: WonderWorld: Interactive 3D Scene Generation from a Single Image, CVPR 2025",
+        "starts_at": "Apr 2024",
+        "ends_at": "Sep 2024",
+        "duration": "6 months"
+      },
+      {
+        "position": "Graduate Research Intern",
+        "company_url": "https://www.linkedin.com/company/stanford-ai-lab?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHIr1u04mwtMA/company-logo_100_100/company-logo_100_100/0/1631434386745/stanford_ai_lab_logo?e=2147483647&v=beta&t=gsTlxGroppn7t9FHXDLz-v5YIFFSxzyhZbN-8iNrASs",
+        "company_name": "Stanford Artificial Intelligence Laboratory (SAIL)",
+        "location": null,
+        "summary": "Research @ Stanford Vision & Learning Lab (SVL)Advisor: Prof. Jiajun WuTopics: 3D GenerationPublication: WonderJourney: Going from Anywhere to Everywhere, CVPR 2024",
+        "starts_at": "Sep 2023",
+        "ends_at": "Apr 2024",
+        "duration": "8 months"
+      },
+      {
+        "position": "Undergraduate Research Assistant",
+        "company_url": "https://cn.linkedin.com/school/zhejiang-university/?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQFqHuGrMlNcfg/company-logo_100_100/company-logo_100_100/0/1631311270979?e=2147483647&v=beta&t=lgqDWFmhSnyf-pba-gUnSRD4ibbIhUjz0t8bizEDgtI",
+        "company_name": "浙江大学",
+        "location": "中国 浙江省 杭州",
+        "summary": "Undergraduate research assistant at Zhejiang University DCD LabAdvisor: Prof. Zhou ZhaoTopic: Multimodal LearningPublication: Cross-modal Prompts: Adapting Large Pre-trained Models for Audio-Visual Downstream Tasks, NeurIPS 2023",
+        "starts_at": "Dec 2022",
+        "ends_at": "Aug 2023",
+        "duration": "9 months"
+      }
+    ],
+    "education": [
+      {
+        "college_url": "https://www.linkedin.com/school/stanford-university/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "斯坦福大学",
+        "college_image": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=2147483647&v=beta&t=ZvB25L95o9w4q9drvsWxGcM49tX66Cf5LsLAxYp8rSs",
+        "college_degree": "Master of Science - MS",
+        "college_degree_field": "Electrical Engineering",
+        "college_duration": "2023 - 2025",
+        "college_activity": ""
+      },
+      {
+        "college_url": "https://cn.linkedin.com/school/zhejiang-university/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "浙江大学",
+        "college_image": "https://media.licdn.com/dms/image/v2/C510BAQFqHuGrMlNcfg/company-logo_100_100/company-logo_100_100/0/1631311270979?e=2147483647&v=beta&t=lgqDWFmhSnyf-pba-gUnSRD4ibbIhUjz0t8bizEDgtI",
+        "college_degree": "Bachelor of Engineering - BE",
+        "college_degree_field": "Computer Science and Technology",
+        "college_duration": "2019 - 2023",
+        "college_activity": ""
+      },
+      {
+        "college_url": "https://cn.linkedin.com/school/zhejiang-university/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "浙江大学",
+        "college_image": "https://media.licdn.com/dms/image/v2/C510BAQFqHuGrMlNcfg/company-logo_100_100/company-logo_100_100/0/1631311270979?e=2147483647&v=beta&t=lgqDWFmhSnyf-pba-gUnSRD4ibbIhUjz0t8bizEDgtI",
+        "college_degree": "Honnors degree",
+        "college_degree_field": "Chu Kochen Honors College, Mixed Class",
+        "college_duration": "2019 - 2023",
+        "college_activity": ""
+      },
+      {
+        "college_url": "https://sg.linkedin.com/school/national-university-of-singapore/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "���������������������",
+        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQGvBq9cz6AIIQ/company-logo_100_100/company-logo_100_100/0/1631313842677?e=2147483647&v=beta&t=AQhPmCGRQc-u9MKzDQX_9aKBEu37MUqb9fHECpCNpeQ",
+        "college_degree": "Summer Workshop",
+        "college_degree_field": null,
+        "college_duration": "2022 - 2022",
+        "college_activity": "Real-time graphics rendering"
+      }
+    ],
+    "articles": [],
+    "description": {
+      "description1": "美国斯坦福大学",
+      "description1_link": "https://www.linkedin.com/school/stanford-university/?trk=public_profile_topcard-current-company",
+      "description2": "斯坦福大学",
+      "description2_link": "https://www.linkedin.com/school/stanford-university/?trk=public_profile_topcard-school",
+      "description3": "Personal Website",
+      "description3_link": "https://www.linkedin.com/redir/redirect?url=haoyi-duan%2Egithub%2Eio&urlhash=2LXa&trk=public_profile_topcard-website"
+    },
+    "activities": [
+      {
+        "link": "https://www.linkedin.com/posts/xtiange_i-will-be-joining-google-deepmind-as-a-student-activity-7331438166320611330-Cxx9",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "I will be joining Google DeepMind as a student researcher this summer to work on fun generative models for visual contents. Excited to craft…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/skj21_i-bothered-an-nba-rookie-for-48-hours-on-activity-7328056498712969216-KSZ9",
+        "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQEUyrCx0mg3DQ/articleshare-shrink_800/B56ZbE_njxHUAI-/0/1747061733986?e=2147483647&v=beta&t=9nNlXitEjJxoau2DvBwKanzSnmg6vHQtf1guRyiXq4U",
+        "title": "It’s always a pleasure to stay connected with the guys you grinded with back in college.\n\nEven better when they’re down to bring a camera…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/qingqing-zhao-58944b150_cvpr2025-activity-7312611305041907716-uQ4z",
+        "image": "https://media.licdn.com/dms/image/v2/D4E05AQFYT7SF4Iu5aA/feedshare-thumbnail_720_1280/B4EZXucndwGwA8-/0/1743462235324?e=2147483647&v=beta&t=g_btHs1LMsXh1CMbIOsH7s4OuKssR07uE7pCJqLP3Nw",
+        "title": "Introducing CoT-VLA: Visual Chain-of-Thought reasoning for Robot Foundation Models! 🤖 #CVPR2025 \n\nBy leveraging next-frame prediction as visual…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/wenhao-chai-658274238_cvpr2025-activity-7322758092306206720-BPhG",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "🎉 We’re excited to host two challenges at LOVE: Multimodal Video Agent Workshop at CVPR 2025, advancing the frontier of video-language…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/zhejiang-university_zjuer-zjualumni-graduationceremony-activity-7312715410829647872-4HUn",
+        "image": "https://media.licdn.com/dms/image/v2/D5610AQHk_UWuA1BYMg/image-shrink_1280/B56ZXv75yNGcAU-/0/1743487215612?e=2147483647&v=beta&t=XQbTieQwtFPREgOJqYiIb_WYpAc6RxQn6Uk-qA8rm14",
+        "title": "YOU MADE IT. 🎓✨Now go define what’s next!\n\nPhoto: 浙大官微\n#ZJUer #ZJUalumni #GraduationCeremony #ZJUGrad #NewBeginnings",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/yuhui-zhang-223325121_iclr2025-machinelearning-llms-activity-7320202386814222339-TzXR",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQEOlJlC03ylEQ/feedshare-shrink_800/B56ZZaVRzvHgAg-/0/1745272250544?e=2147483647&v=beta&t=J-E4u2yFdijcLOT9nRayOdmdJMQJFBUMaqaPoUt2Keg",
+        "title": "Three papers being presented by my amazing collaborators at #ICLR2025! 🌟 (sadly I can't make it)\n\n1. Mechanistic Interpretability Meets Vision…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/haoyi-duan-a07576291_excited-to-introduce-our-new-project-here-activity-7315096891506008064-Ny_T",
+        "image": "https://media.licdn.com/dms/image/v2/D5605AQEIQd2XDno-bA/feedshare-thumbnail_720_1280/B56ZYRx0NZGUBE-/0/1744054999100?e=2147483647&v=beta&t=mRNsOSkRcj5jXWtpzG_MrkqGgFN10n755fsM0ukcMDw",
+        "title": "Excited to introduce our new project here!\n🔥 Spatial intelligence requires world generation, and now we have the first comprehensive evaluation…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/nicholas-ezra-pfaff_new-paper-scalable-real2sim-physics-aware-activity-7305319618850541580-Mi1K",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGmtCztNHXa9g/feedshare-shrink_800/B4EZWG1eXlHMAg-/0/1741723921702?e=2147483647&v=beta&t=cfXOtKEqiFx9WELj4eHc87pWnUl6g5ars38TAP0uue4",
+        "title": "New Paper: \"Scalable Real2Sim: Physics-Aware Asset Generation via Robotic Pick-and-Place Setups\" 🤖\n\nExcited to share my first paper! 🎉 We introduce…",
+        "activity": "Liked by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/haoyi-duan-a07576291_excited-to-introduce-our-new-project-here-activity-7315096891506008064-Ny_T",
+        "image": "https://media.licdn.com/dms/image/v2/D5605AQEIQd2XDno-bA/feedshare-thumbnail_720_1280/B56ZYRx0NZGUBE-/0/1744054999100?e=2147483647&v=beta&t=mRNsOSkRcj5jXWtpzG_MrkqGgFN10n755fsM0ukcMDw",
+        "title": "Excited to introduce our new project here!\n🔥 Spatial intelligence requires world generation, and now we have the first comprehensive evaluation…",
+        "activity": "Shared by Haoyi Duan"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/shellguo95_pgc-physics-based-gaussian-cloth-from-a-activity-7312522682904780802-qEfb",
+        "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQG570K1UmonOQ/articleshare-shrink_800/B56ZXexXVjGQAI-/0/1743199238441?e=2147483647&v=beta&t=8VZ1pdSONcQFAShSKgtOJjkDPyZlPIy9VgMnhGG-3II",
+        "title": "Our paper \"PGC: Physics-Based Gaussian Cloth from a Single Pose\" has been accepted to #CVPR2025! \n\nPGC uses a hybrid PBR + Gaussian representation to…",
+        "activity": "Liked by Haoyi Duan"
+      }
+    ],
+    "volunteering": [],
+    "certification": [],
+    "people_also_viewed": [],
+    "similar_profiles": [
+      {
+        "link": "https://fr.linkedin.com/in/haoyi-duan-167b4626?trk=public_profile_samename-profile",
+        "name": "haoyi Duan",
+        "summary": "Superviseur chez Visea Consulting",
+        "location": "Greater Paris Metropolitan Region"
+      },
+      {
+        "link": "https://cn.linkedin.com/in/%E7%9A%9E%E4%B8%80-%E6%AE%B5-b473b4238?trk=public_profile_samename-profile",
+        "name": "段皞一",
+        "summary": "--",
+        "location": "Hangzhou"
+      },
+      {
+        "link": "https://cn.linkedin.com/in/%E6%B5%A9%E4%B9%89-%E6%AE%B5-417594153?trk=public_profile_samename-profile",
+        "name": "段浩义",
+        "summary": "大理大学 - 学生",
+        "location": "Yunnan, China"
+      },
+      {
+        "link": "https://cn.linkedin.com/in/%E6%B5%A9%E6%AF%85-%E6%AE%B5-958285152?trk=public_profile_samename-profile",
+        "name": "段浩毅",
+        "summary": "安财 - 学生",
+        "location": "Songjiang District"
+      }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [
+      {
+        "name": "中文",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "英语",
+        "level": "Professional working proficiency"
+      }
+    ],
+    "organizations": [],
+    "projects": [],
+    "awards": [
+      {
+        "name": "First-Class Scholarship",
+        "organization": "Zhejiang University",
+        "duration": "",
+        "summary": ""
+      },
+      {
+        "name": "National Scholarship",
+        "organization": "Ministry of Education of P.R.China",
+        "duration": "",
+        "summary": ""
+      },
+      {
+        "name": "Outstanding Graduate Thesis",
+        "organization": "Zhejiang University",
+        "duration": "",
+        "summary": ""
+      },
+      {
+        "name": "Outstanding Graduate of Zhejiang University",
+        "organization": "Zhejiang University",
+        "duration": "",
+        "summary": ""
+      },
+      {
+        "name": "Zhejiang Provincial Outstanding Graduate",
+        "organization": "Zhejiang Provincial Department of Education",
+        "duration": "",
+        "summary": ""
+      }
+    ],
+    "score": []
+  }
+]

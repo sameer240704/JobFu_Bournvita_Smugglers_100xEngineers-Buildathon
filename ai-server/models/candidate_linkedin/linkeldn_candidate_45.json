@@ -1,0 +1,518 @@
+[
+  {
+    "fullName": "Sujal Choudhari",
+    "linkedin_internal_id": "1112313684",
+    "first_name": "Sujal",
+    "last_name": "Choudhari",
+    "public_identifier": "sujalchoudhari",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D5616AQGXKzxfTa3eug/profile-displaybackgroundimage-shrink_350_1400/B56ZZHIbHHHQAc-/0/1744950113528?e=2147483647&v=beta&t=8n-MZC_w9l4Emdf9aEp2mCdqK7fSEeh5D-fIBcyl1DA",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQFmZvmNDOqSuA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693060621355?e=2147483647&v=beta&t=c4P3dUEiENoVHZwMvrXWODbeHZcL0jbnRlmoVaTUIks",
+    "headline": "Winner at SIH'24 and SIH'23 | Winner at IDEA Hackathon by Union Bank | Maha Hackathon Challenge 1.0 Winner | 12x Hackathon Winner | Author of 6 Tech Books",
+    "location": "Mumbai, Maharashtra, India",
+    "followers": "4K followers",
+    "connections": "500+ connections",
+    "about": "Hey there! I’m Sujal Choudhari—a third-year IT student at DJSCE, Mumbai, and a coding enthusiast who’s been tinkering with tech for over five years. I live at the intersection of creativity and code, building projects that solve problems, spark joy, and push boundaries. Here’s what I’ve been up to:🌟 I’ve created over 100 open-source projects on GitHub—my playground—featuring work like Neptune.js (a game engine born from a wild 80kb challenge) and Coda, where I’ve earned stars, forks, and a ton of fun collaborating with the dev community.📦 I’ve shipped packages on pub.dev, npmjs.com, and PyPI—little gifts to developers everywhere, making their lives easier one line of code at a time.📚 I’ve authored books on Amazon and Gumroad (some freebies too!), spilling my insights to inspire and empower the next wave of programmers.🏆 I’m a hackathon hustler—clinching Smart India Hackathon (twice!) and winning GenAI and AR/VR challenges, thriving on turning ideas into victories under pressure.I’m fluent in Python, C++, TypeScript, and more—think of me as a tech Swiss Army knife, equally at home crafting sleek web apps with React or immersive games in Unity. What drives me? A relentless curiosity, a knack for problem-solving, and a passion for creating stuff that matters.I’m always up for a challenge and eager to team up with folks who dream big. If you’re looking for a versatile developer who brings energy, skill, and a fresh perspective, let’s chat—I’d love to help turn your vision into reality! 🚀P.S. Check out my GitHub or sujal.xyz for a peek at what I’m building next! 👀",
+    "experience": [
+      {
+        "position": "Software Developer",
+        "company_url": "https://www.linkedin.com/company/meresu?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFtkhUMrKYx0A/company-logo_100_100/company-logo_100_100/0/1726378045511?e=2147483647&v=beta&t=un-jvpr1-m00g-D_thJZBaDXdrXhnlusSoo5ZhjAFJw",
+        "company_name": "Meresu",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "Developed an interview automation platform leveraging AI-powered calls to assess candidates based on tone and speaking skills. This system reduced human intervention and interview time by 60% through scheduled calls managed via cron jobs, while strictly adhering to user requirements.Implemented a comprehensive analytics dashboard for visualizing interview metrics, skill gaps, and performance insights. Integrated LLMs for real-time transcript analysis, providing personalized recommendations for candidates and suggesting optimal workforce strategies (layoff, role change, or retraining).Designed a highly scalable system utilizing PostgreSQL and Serverless Functions. Managed complex data relationships across multiple entities and ensured system reliability through thorough functional testing.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "May 2024",
+        "ends_at": "Oct 2024",
+        "duration": "6 months"
+      },
+      {
+        "position": "Back End Developer",
+        "company_url": "https://in.linkedin.com/company/genoshi?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG57KUSflJPUA/company-logo_100_100/company-logo_100_100/0/1710314161222/genoshi_logo?e=2147483647&v=beta&t=hmvfHUE2MBVPC9Xe0IYvXS_FT-awmlhoS9VK23qf5Lc",
+        "company_name": "genoshi.io",
+        "location": "Delhi, India",
+        "summary": "Architected a high-performance Python backend for FEDaiQuest, a Retrieval-Augmented Generation (RAG) solution. This system helps bankers quickly find accurate information with citations from official document sources, resulting in an 80% reduction in search times. Collaborated on the development of an automation system for the DelCapital X Genishi’s Cicon Project. This tool will enable regulated entities to comply with complex data reporting requirements mandated by credit bureaus.Enhanced Security Implementation: Implemented Multi-Factor Authentication (MFA) for enhanced security, along with robust encryption protocols for storing highly sensitive data.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Mar 2024",
+        "ends_at": "Apr 2024",
+        "duration": "2 months"
+      },
+      {
+        "position": "Open Source Developer",
+        "company_url": "https://www.linkedin.com/company/hacktoberfest?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG7leDZ_Wo5rw/company-logo_100_100/company-logo_100_100/0/1726669676583/hacktoberfest_logo?e=2147483647&v=beta&t=bKM-Jp4wiks3HlTAudRUEFjY4kp0HW4ZvdaYl6ghsYg",
+        "company_name": "Hacktoberfest",
+        "location": "Remote",
+        "summary": "Served as a maintainer for Coda, an open-source programming language built on C++, during Hacktoberfest, guiding contributors and ensuring code quality.Reviewed and merged pull requests from community contributors, contributing to the refinement and enhancement of the Coda programming language and its ecosystem.Mentored new contributors to the Coda project, fostering a collaborative environment and promoting open-source development best practices during Hacktoberfest.Maintained and updated project documentation, including the comprehensive wiki, to ensure clarity and accessibility for new users and contributors to the Coda programming language.Managed the Coda GitHub repository, addressing issues, triaging bugs, and facilitating discussions within the community to advance the development of the language.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Oct 2023",
+        "ends_at": "Oct 2023",
+        "duration": "1 month"
+      },
+      {
+        "position": "Software Development Intern",
+        "company_url": "https://in.linkedin.com/company/techwhoop?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQEOCNGejezmYA/company-logo_100_100/company-logo_100_100/0/1630612987671/techwhoop_logo?e=2147483647&v=beta&t=58NEeM4AhYZ5N7whUkNlSE3B5HsoHxoKjCWlHcw4BtU",
+        "company_name": "TechWhoop",
+        "location": null,
+        "summary": "Configured and maintained Google Sheets API integration for a website index checker application, managing authentication using service_account.json and ensuring proper access control.Managed application dependencies using requirements.txt and deployed the Flask-based application on Heroku with unicorn.Implemented URL indexing verification logic by sending targeted search queries to Google, utilizing specific User-Agent and language settings to accurately identify indexed URLs.Contributed to the development of a website index checker, enabling efficient verification of URL indexing status via Google Search and streamlining website SEO analysis.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Aug 2023",
+        "ends_at": "Sep 2023",
+        "duration": "2 months"
+      },
+      {
+        "position": "Game Developer",
+        "company_url": "https://www.linkedin.com/company/unity?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFoRUR2DxPJiw/company-logo_100_100/company-logo_100_100/0/1682010178745/unity_logo?e=2147483647&v=beta&t=f3N7wPUZ6Lb-BfLKCKYtHlnVqroknakPtKZZaaU_sWE",
+        "company_name": "Unity",
+        "location": null,
+        "summary": "Proficient in Unity Engine, Godot, and native programming languages for game development.Successfully designed and developed a variety of games, including simulations, visual novels, strategy games, and endless runners.Notable projects include Dungeon Dwellers (multiplayer dungeon race), The October Nights (visual novel), and Core Defender (interactive adventure).Skilled in creating immersive gameplay experiences across diverse genres.Actively engaged with the gaming community to gather feedback and improve projects.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Dec 2021",
+        "ends_at": "Mar 2023",
+        "duration": "1 year 4 months"
+      }
+    ],
+    "education": [
+      {
+        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+        "college_degree": "Bachelor of Technology - BTech",
+        "college_degree_field": "9.14 GPA",
+        "college_duration": "2022 - 2026",
+        "college_activity": ""
+      },
+      {
+        "college_name": "R. P. Jr College of Arts, Science and Commerce",
+        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+        "college_degree": "HSC",
+        "college_degree_field": "85.17%",
+        "college_duration": "2020 - 2022",
+        "college_activity": ""
+      },
+      {
+        "college_name": "Dr. M. G. Parulekar Mitramandals School Vasai",
+        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+        "college_degree": "SSC",
+        "college_degree_field": "89.60%",
+        "college_duration": " - ",
+        "college_activity": ""
+      }
+    ],
+    "articles": [
+      {
+        "link": "https://www.linkedin.com/pulse/neptunejs-game-engine-born-from-challenge-sujal-choudhari",
+        "image": "https://media.licdn.com/dms/image/v2/D5612AQHDdh_kbLCBIQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680619123192?e=2147483647&v=beta&t=tc73crJ9BhP6l2yJbXMxaPuN2wgrRVfiH7Q2B6SdwhA",
+        "title": "Neptune.js - The Game Engine Born from a Challenge",
+        "author": "",
+        "published_date": "Apr 5, 2023"
+      }
+    ],
+    "description": {
+      "description1": "Meresu",
+      "description1_link": "https://www.linkedin.com/company/meresu?trk=public_profile_topcard-current-company",
+      "description2": "Dwarkadas J. Sanghvi College of Engineering",
+      "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+      "description3": "Portfolio",
+      "description3_link": "https://www.linkedin.com/redir/redirect?url=sujal%2Exyz&urlhash=wX_8&trk=public_profile_topcard-website"
+    },
+    "activities": [
+      {
+        "link": "https://www.linkedin.com/posts/siddhi-mehta-228048298_tseccodecell-farewellpost-gratitude-activity-7334585775168053248-tl6P",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHMTWcJ1d12xA/feedshare-shrink_800/B4DZcmuuSCGUAg-/0/1748701476629?e=2147483647&v=beta&t=G8ahkQSDZHqselbx8exE9q0GK0h97hPNMUsgVZRzFhQ",
+        "title": "✨ Signing Off: A Journey of Growth and Gratitude ✨\nWhoever says being part of a committee doesn't help you grow has never been a part of TSEC…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/mayankagrawal1406_agritechhack-hackathon-microsoft-activity-7331674837125365760-d_PX",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQG31eW8YjKgmQ/feedshare-shrink_800/B4EZb9XX.kHQAk-/0/1748007489789?e=2147483647&v=beta&t=cKNhPI9t7ZBZHccfKrSCFmSDBKQe9eRMMIylvy2fOcc",
+        "title": "🌱🚀 Thrilled to announce that my team secured position in Top 5 yesterday at the AgriTech Hackathon 2025 at Microsoft Sovereign Office, Noida with…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/vishwasjoshi2019_google-lifeatgoogle-gratitude-activity-7334173575886622722-IzF0",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQE9qULyiSK_oA/feedshare-shrink_1280/B56Zcg4AFhHUAk-/0/1748603241592?e=2147483647&v=beta&t=T0wyTkDZK-OIPf1EUJfDGVSNtW2cqkZaBmiA3anJ6ec",
+        "title": "Hey Everyone !!\n\nI'm excited to share that I've joined Google. 🚀 💫\n\nThis isn't just a career milestone — it's the result of months of hard work…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/debanurag_marketingintern-exionstech-toastmasters-activity-7332366899705454592-LWfp",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFf2SSKm9hJeA/feedshare-shrink_2048_1536/B56ZcHM1g.H4Ao-/0/1748172496822?e=2147483647&v=beta&t=OS9CPvY15pPOCfxOGVaG74qhaPsh4XQ6p8EEJSWbSLg",
+        "title": "I am excited to announce that I am joining Exions Tech as an 𝗶𝗻𝘁𝗲𝗿𝗻, working as a 𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘀𝘁. From connecting with…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/vatssneha14_gartnerinternship-firstcorporateexperience-activity-7334247054111592448-XbTE",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQEpUpgIlztDDQ/feedshare-shrink_2048_1536/B56Zch6yUlGQAo-/0/1748620756797?e=2147483647&v=beta&t=xY689guV2gjcdj0vfbGZ1lmHjrECq2iN4SiYt2Z5IVY",
+        "title": "🎉 Exciting News: I’ve Joined Gartner as an IT Intern! 🎉\n\nI once read in The New York Times that “What Gartner says about IT trends becomes a…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/vishakha-madaan-681b66246_microsoft-softwareengineeringintern-internship2025-activity-7333412330732441600-B21d",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQExb4KuZQU__A/feedshare-shrink_2048_1536/B56ZcWDpusHEAs-/0/1748421746699?e=2147483647&v=beta&t=EFzaMz_Zmtq_prrFc2d45U-O-SgU9IXb9Bq8aWiOmi0",
+        "title": "Hi everyone!\n I'm thrilled to share that I’ll be joining Microsoft as a Software Engineer Intern this summer! 🚀💻\nIt’s been quite a journey! I…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/mukti-bhavsar-7502702b7_olabsthon-olabs-uiux-activity-7334182260314722305-8qO1",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFCzMd0G5xGYA/feedshare-shrink_2048_1536/B4EZcg_cUaHkA0-/0/1748605287462?e=2147483647&v=beta&t=E_12LEkRhUh7qJ3baku3XAV2WTbwFiYbe6jLVUfLohM",
+        "title": "🚀 𝐅𝐫𝐨𝐦 𝐂𝐥𝐚𝐬𝐬𝐫𝐨𝐨𝐦 𝐭𝐨 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫: 𝐖𝐞 𝐖𝐨𝐧 𝐚𝐭 #𝐎𝐋𝐚𝐛𝐬𝐭𝐡𝐨𝐧!  🎉\nI’m over the moon to share that our team -- Kiah…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/kiah-monpara-34aa91292_olabsthon-olabs-uiux-activity-7334192114320195585-cwTO",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFdEIjDNFJM3g/feedshare-shrink_800/B4DZchI2EBH4Ak-/0/1748607657762?e=2147483647&v=beta&t=aZRUJdE9OckORzevSRvQ_osGU5Ap1mMpvN7OsfVIlIo",
+        "title": "🚀 𝐅𝐫𝐨𝐦 𝐂𝐥𝐚𝐬𝐬𝐫𝐨𝐨𝐦 𝐭𝐨 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫: 𝐖𝐞 𝐖𝐨𝐧 𝐚𝐭 #𝐎𝐋𝐚𝐛𝐬𝐭𝐡𝐨𝐧!  🎉\nI’m over the moon to share that our team --…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/soni-sharma-5107532a7_amazon-sdeintern-afe-activity-7331960387459829762-d1yv",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFF77cNJFJ0_Q/feedshare-shrink_800/B56ZcBbHW9HwAg-/0/1748075576049?e=2147483647&v=beta&t=WI3CjT-Yj6526lGMHtz8LfvK4JJYD-QlNy40LKwSBw4",
+        "title": "🌟 Internship Update | Amazon SDE Intern '25 🚀\nNot long ago, this was something on my \"maybe one day\" list — and today, I’m thrilled to share that…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/adolfogg_multi-talented-but-lacking-focus-always-activity-7333946613196894208-Jqv9",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEtuuIB02oAxA/feedshare-shrink_2048_1536/B4EZcdpi4lHYAo-/0/1748549129833?e=2147483647&v=beta&t=i0KUYLqmWiffs4GgWDas4jXu2Pg9ChytYF_2t4zuBjE",
+        "title": "Multi-talented but lacking focus?\n\nAlways busy but never truly moving forward?\n\nHere's the hard truth:\nBeing good at many things can feel like a…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/venisha-kalola-997756258_google-interviewexperience-learningjourney-activity-7334097002265219073-0YV0",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGnZIiUw8__BA/feedshare-shrink_2048_1536/B4DZcfyWkUGYAo-/0/1748584984883?e=2147483647&v=beta&t=B8TewxS9nMqKqIT5xp1-saB78omHnUw-Q8uPf_JwtyI",
+        "title": "🚀 Excited to share something a little different today!\n\n💬 If you’re curious about the Google Summer Internship process — and what it actually feels…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/kaushikhardik35_dtu-btech-microcontroller-activity-7333879140724490240-SXCE",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQH2SyFkSzfiTQ/feedshare-shrink_2048_1536/B56ZccsJmZGQA0-/0/1748533041459?e=2147483647&v=beta&t=CgQFcQ3fGu7-8CEUIH5ZTPpzl3Y5ti-RmKz3nMK7l6g",
+        "title": "🚀 𝗔 𝗠𝗶𝗹𝗲𝘀𝘁𝗼𝗻𝗲 𝗥𝗲𝗮𝗰𝗵𝗲𝗱, 𝗔 𝗡𝗲𝘄 𝗝𝗼𝘂𝗿𝗻𝗲𝘆 𝗔𝘄𝗮𝗶𝘁𝘀! 🚀\nToday, I wrapped up my B.Tech project viva on…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/kriti-mehrotra_jpmorganchase-sepintern2025-summerinternship-activity-7333436254270767106-2TvT",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQG7jOkj6XErlg/feedshare-shrink_2048_1536/B56ZcWZYVkHoAo-/0/1748427446417?e=2147483647&v=beta&t=UWJ1miGVgaiPfZ9iOBUX-Y7dse7Oq3c9LDNrHulXpxA",
+        "title": "✨ A New Chapter Begins! ✨\n\nIt’s truly a surreal moment — holding the onboarding kit from JPMorganChase, a firm globally revered not only for its…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/suryasnat-biswal-23b8932a7_webdevelopment-internship-elevatelabs-activity-7333426097306386432-PYWM",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGAW_Pn1O3NKQ/feedshare-shrink_1280/B4DZcWQK17GcAk-/0/1748425028624?e=2147483647&v=beta&t=vGS2lxD2tomYkMnbl-MPoAhpTZHTYJLNuEq_Q7qAfWk",
+        "title": "I’m thrilled to announce that I’ll be starting my journey as a Web Development Intern at ELEVATE LABS! 🙌\n\nThis opportunity means a lot to me as I…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/shobita-bhardwaj-327745264_microsoftintern-softwareengineering-offcampusopportunity-activity-7333065011453468672-dudo",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGM7_13wTYrAw/feedshare-shrink_800/B56ZcRHwXAHoAk-/0/1748338938583?e=2147483647&v=beta&t=JFqfySSwQoOtHDBKnZoJF1A_wndcgNnyrTSeQPmhc6g",
+        "title": "I’m incredibly excited ✨ to share that I’ll be joining 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 as a 𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗜𝗻𝘁𝗲𝗿𝗻 this summer!\n\nThe…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/ahmedhajahmed_googleinterns-gemini-googleio-activity-7331784138523344898-kIRG",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEpV4Q__AuLXw/feedshare-shrink_1280/B4EZb.60geHAAo-/0/1748033555159?e=2147483647&v=beta&t=OkVnDmzRMowPKwp9GnHopH-BWX7gpqXS_OUvP8Qa96M",
+        "title": "Joining the Gemini team at Google as a SWE intern in Pittsburgh this summer. Super excited to build, learn, and grow alongside some insanely talented…",
+        "activity": "Liked by Sujal Choudhari"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/mahi-verma-91811525a_microsoftintern-softwareengineering-gratitude-activity-7333732649997410304-SJju",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGCm_42PlGI2A/feedshare-shrink_800/B56Zcam.o9HwAk-/0/1748498116090?e=2147483647&v=beta&t=bdl6VWPNYIfcI1_qjNR-a-4xNgMqLcZxZUsjSwMofuc",
+        "title": "🌟 Thrilled to Announce an Exciting Milestone! 🌟\nI’m incredibly excited and honored to share that I’ll be joining 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 as a…",
+        "activity": "Liked by Sujal Choudhari"
+      }
+    ],
+    "volunteering": [],
+    "certification": [
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQF75rMd2SJIXw/company-logo_100_100/company-logo_100_100/0/1728033541155?e=2147483647&v=beta&t=SPa1XCdoylC0czq4fJH9iQc2VjZENUv_gvkRhSo-Mdc",
+        "certification": "Student Spotlight",
+        "company_url": "https://in.linkedin.com/company/djsce-ecell?trk=public_profile_profile-section-card_image-click",
+        "company_name": "DJSCE E-Cell",
+        "issue_date": "Issued Jan 2025",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQGAmTUtxpvm0Q/company-logo_100_100/company-logo_100_100/0/1630581404006?e=2147483647&v=beta&t=DoMENbcjW3SadLbP0jmOlLSQk0yfdZOXVPRzsxUssnw",
+        "certification": "SIH 24 Winner Ceritifiate",
+        "company_url": "https://in.linkedin.com/company/smart-india-hackathon?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Smart India Hackathon",
+        "issue_date": "Issued Dec 2024",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGI57hsCDMbFA/company-logo_100_100/company-logo_100_100/0/1677770348287?e=2147483647&v=beta&t=MNaBWAgYsJOlK75zQfy4SIf6YFIxPSJgxye48gO1oLc",
+        "certification": "Mapel Moulds Internship Completion Certificate",
+        "company_url": "https://in.linkedin.com/company/mapel-moulds-and-dies-india-private-limited?trk=public_profile_profile-section-card_image-click",
+        "company_name": "MAPEL Moulds & Dies India Pvt Ltd",
+        "issue_date": "Issued Oct 2024",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQEqVumYiWBxBA/company-logo_100_100/company-logo_100_100/0/1698663856842/mumbaitech_logo?e=2147483647&v=beta&t=yjNUrVYN-dWp_tykqhSK1mritk3Msqw1UG9GDnirpV0",
+        "certification": "Mumbai Hacks24 Participation",
+        "company_url": "https://in.linkedin.com/company/mumbaitech?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Tech Entrepreneurs Association of Mumbai (TEAM)",
+        "issue_date": "Issued Oct 2024",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEvQG-ObLy9RQ/company-logo_100_100-alternative/company-logo_100_100-alternative/0/1630557005620?e=2147483647&v=beta&t=hcIKEBSsmojOrt5OrUbZNilPGYOgw3EIfCzFtyNUuu0",
+        "certification": "Hackniche Winner",
+        "company_url": "https://in.linkedin.com/company/gdsc-djsce?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Google Developer Student Club DJSCE",
+        "issue_date": "Issued Feb 2024",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQHE1bLMZIcIxw/company-logo_100_100/company-logo_100_100/0/1630567177590/bhartiya_vidya_bhavans_sardar_patel_institute_of_technology_munshi_nagar_andheri_mumbai_logo?e=2147483647&v=beta&t=G4qbu2msyz74gVqh1thHMacNLAJY-I0z0H4JmmTf85Q",
+        "certification": "SPIT Hackathon Winner",
+        "company_url": "https://in.linkedin.com/school/bhartiya-vidya-bhavans-sardar-patel-institute-of-technology-munshi-nagar-andheri-mumbai/?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Bhartiya Vidya Bhavans Sardar Patel Institute of Technology Munshi Nagar Andheri Mumbai",
+        "issue_date": "Issued Feb 2024",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQG4sYsX-0yuMQ/company-logo_100_100/company-logo_100_100/0/1630614192236/thadomal_shahani_engineering_college_logo?e=2147483647&v=beta&t=ePDuffB5OgaUskYtrI6k8pDvTxOmU1a-Fjflpvx-WqQ",
+        "certification": "TsecHacks 2024 Top 13",
+        "company_url": "https://in.linkedin.com/school/thadomal-shahani-engineering-college/?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Thadomal Shahani Engineering College",
+        "issue_date": "Issued Feb 2024",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQGAmTUtxpvm0Q/company-logo_100_100/company-logo_100_100/0/1630581404006?e=2147483647&v=beta&t=DoMENbcjW3SadLbP0jmOlLSQk0yfdZOXVPRzsxUssnw",
+        "certification": "Smart India Hackathon Winner",
+        "company_url": "https://in.linkedin.com/company/smart-india-hackathon?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Smart India Hackathon",
+        "issue_date": "Issued Dec 2023",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4E0BAQFun_IrhG4fbQ/company-logo_100_100/company-logo_100_100/0/1649437849911?e=2147483647&v=beta&t=sAdPDmzLHfdgZNAJAEt3BDxEovHVFrIoqcdFeJSnyXQ",
+        "certification": "HackMania Hackathon",
+        "company_url": "https://in.linkedin.com/school/atharva-college-of-engineering-acoe/?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Atharva College of Engineering",
+        "issue_date": "Issued Oct 2023",
+        "credential_id": ""
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQEdxiOJl75AuA/company-logo_100_100/company-logo_100_100/0/1630583347345/acm_juit_logo?e=2147483647&v=beta&t=qOd83cSodaCdRsoCda4WIhBD-xrNx3L-T5anS5h071c",
+        "certification": "Adventum Online Hackathon",
+        "company_url": "https://in.linkedin.com/company/acmjuit?trk=public_profile_profile-section-card_image-click",
+        "company_name": "ACM Student Chapter, JUIT",
+        "issue_date": "Issued May 2023",
+        "credential_id": "Credential ID ede9404f-406e-4c60-9869-95c15406f450",
+        "credential_url": "https://certificate.givemycertificate.com/c/ede9404f-406e-4c60-9869-95c15406f450?trk=public_profile_see-credential"
+      }
+    ],
+    "people_also_viewed": [],
+    "similar_profiles": [
+      {
+        "link": "https://in.linkedin.com/in/sujal-choudhari-08914a322?trk=public_profile_samename-profile",
+        "name": "Sujal Choudhari",
+        "summary": "Sales & Service associate - RJ Mobiles |Graduated in (BMS) Bachelor of management studies| St Paul College Mumbai |",
+        "location": "Mumbai"
+      },
+      {
+        "link": "https://in.linkedin.com/in/sujal-choudhari?trk=public_profile_samename-profile",
+        "name": "Sujal Choudhari",
+        "summary": "Student Ambassador at TEC Spartans •Learner•Graphic Designer",
+        "location": "Pune"
+      },
+      {
+        "link": "https://in.linkedin.com/in/sujal-choudhari-2a234132b?trk=public_profile_samename-profile",
+        "name": "Sujal Choudhari",
+        "summary": "Attended K.K.Wagh institute of Engineering Education & Research",
+        "location": "Nashik"
+      },
+      {
+        "link": "https://in.linkedin.com/in/sujal-choudhari-24833531b?trk=public_profile_samename-profile",
+        "name": "Sujal Choudhari",
+        "summary": "--",
+        "location": "Mumbai"
+      }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [
+      {
+        "name": "Marathi",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "Hindi",
+        "level": "Full professional proficiency"
+      },
+      {
+        "name": "English",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "German",
+        "level": "Elementary proficiency"
+      }
+    ],
+    "organizations": [],
+    "projects": [
+      {
+        "title": "Forge",
+        "duration": "Mar 2024 - Apr 2024"
+      },
+      {
+        "title": "FileServer",
+        "link": "https://in.linkedin.com/in/taarak-gada-ab0107252?trk=public_profile_project_contributor-image",
+        "duration": "Mar 2024 - Mar 2024"
+      },
+      {
+        "title": "",
+        "link": "https://in.linkedin.com/in/taarak-gada-ab0107252?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "Coda",
+        "link": "https://github.com/SujalChoudhari/coda?trk=public_profile_project-title",
+        "duration": "May 2023 - Nov 2023"
+      },
+      {
+        "title": "Mono Focus",
+        "duration": "Oct 2023 - Oct 2023"
+      },
+      {
+        "title": "Coda Language Support",
+        "duration": "Sep 2023 - Sep 2023"
+      },
+      {
+        "title": "ShopNest",
+        "link": "https://in.linkedin.com/in/ayush100?trk=public_profile_project_contributor-image",
+        "duration": "Sep 2023 - Sep 2023"
+      },
+      {
+        "title": "",
+        "link": "https://in.linkedin.com/in/ayush100?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://in.linkedin.com/in/engineer-anish?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "StirFry",
+        "duration": "Aug 2023 - Aug 2023"
+      },
+      {
+        "title": "Java Made Simpler",
+        "duration": "Jun 2023 - Jun 2023"
+      },
+      {
+        "title": "SolarisUI",
+        "link": "https://github.com/SujalChoudhari/SolarisUI?trk=public_profile_project-title",
+        "duration": "Mar 2023 - May 2023"
+      },
+      {
+        "title": "Solarstache",
+        "link": "https://github.com/SujalChoudhari/Solarstache?trk=public_profile_project-title",
+        "duration": "Mar 2023 - Mar 2023"
+      },
+      {
+        "title": "Neptune.js",
+        "link": "https://github.com/SujalChoudhari/Neptune.js?trk=public_profile_project-title",
+        "duration": "Jul 2022 - Feb 2023"
+      },
+      {
+        "title": "Tachyon Robot",
+        "link": "https://github.com/SujalChoudhari/TachyonRobot?trk=public_profile_project-title",
+        "duration": "Dec 2022 - Jan 2023"
+      },
+      {
+        "title": "Singularity Clicker - Birth of Infinity",
+        "link": "https://sujalchoudhari.itch.io/singularity?trk=public_profile_project-title",
+        "duration": "Apr 2022 - Apr 2022"
+      },
+      {
+        "title": "Fast Presentation",
+        "link": "https://github.com/SujalChoudhari/FastPresentation?trk=public_profile_project-title",
+        "duration": "Mar 2022 - Mar 2022"
+      },
+      {
+        "title": "8085 Assembly Translator",
+        "link": "https://github.com/SujalChoudhari/8085AssemblyTranslator?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Archive Manager",
+        "link": "https://github.com/SujalChoudhari/ArchiveManager?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Basic Template Library",
+        "link": "https://github.com/SujalChoudhari/BasicTemplateLibrary?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Blog in NextJs",
+        "link": "https://github.com/SujalChoudhari/NextJsBlog?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Ceramic Shop Website Clone",
+        "link": "https://github.com/SujalChoudhari/CeramicShopWebsiteClone?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Cyber",
+        "link": "https://github.com/SujalChoudhari/Cyber?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Django Apps",
+        "link": "https://github.com/SujalChoudhari/DjangoDemoApplication?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "EV Shop Website",
+        "link": "https://github.com/SujalChoudhari/EVShopWebsiteClone?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Indie Engine",
+        "link": "https://github.com/SujalChoudhari/Indie?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Lexer and Parser",
+        "link": "https://github.com/SujalChoudhari/AnotherLanguage?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Login SignUp",
+        "link": "https://github.com/SujalChoudhari/LoginSystem?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Payroll System",
+        "link": "https://github.com/SujalChoudhari/PayrollSystem?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Personal Website",
+        "link": "https://github.com/SujalChoudhari/SujalChoudhari?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Seat Allotment System in Java",
+        "link": "https://github.com/SujalChoudhari/SeatAllotmentSystem?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "SimpleBlockchain",
+        "link": "https://github.com/SujalChoudhari/SimpleBlockchain?trk=public_profile_project-title",
+        "duration": "-"
+      },
+      {
+        "title": "Turing Machine",
+        "link": "https://github.com/SujalChoudhari/TuringMachine?trk=public_profile_project-title",
+        "duration": "-"
+      }
+    ],
+    "awards": [],
+    "score": []
+  }
+]

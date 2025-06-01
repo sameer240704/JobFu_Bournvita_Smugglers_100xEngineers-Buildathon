@@ -1,0 +1,416 @@
+[
+  {
+    "fullName": "Harsh Chitaliya",
+    "linkedin_internal_id": "992901062",
+    "first_name": "Harsh",
+    "last_name": "Chitaliya",
+    "public_identifier": "harshchitaliya",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D4D16AQHitI-YmrPbLw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1711953483458?e=2147483647&v=beta&t=Em1vjVlCOj1rffFg1PZ8pxnm04_Gw8SjlnunoEIeiCI",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D4D03AQGofqCxP-h9pg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688946512665?e=2147483647&v=beta&t=KOh_nPF8YxcnyxGZJJ2ewOtDH6-ZH8rybT-vFqDL4Z8",
+    "headline": "SIH'24 Winner || Intern @WEBXELA || GSSoC'24 Contributor || SSOC'24 Contributor || VCP Tech @DJS Infomatrix || Data and ML enthusiast || Computational finance enthusiast|| Indigo Squad Member at Mood Indigo IIT Bombay",
+    "location": "Mumbai, Maharashtra, India",
+    "followers": "3K followers",
+    "connections": "500+ connections",
+    "about": "\"\ud83d\ude80 Passionate about leveraging technology to drive meaningful change! Currently pursuing a Bachelor of Technology (BTech) degree in Artificial Intelligence and Data Science at Dwarkadas Sanghvi College of Engineering. \ud83c\udf1f Throughout my academic journey, I've honed my technical skills with a keen focus on coding principles. \ud83d\udcbb Proficient in Flask, Python, JavaScript, TypeScript, HTML, CSS, Java, C, SQLite, and more. \ud83d\udcc8 Beyond the realms of tech, I've delved into the intricacies of stock market analysis and computational finance, expanding my horizons beyond traditional AI domains. \ud83d\udcac With a natural aptitude for communication and a knack for collaborative problem-solving, I thrive in team settings. \ud83c\udf10 Excited to continue my journey of learning and growth, I'm enthusiastic about applying my diverse skill set to tackle real-world challenges in the dynamic field of AI and data science. Let's connect and explore possibilities together!\"",
+    "experience": [
+      {
+        "position": "Head of Marketing",
+        "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
+        "company_name": "DJS-NSDC",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "",
+        "starts_at": "Jul 2024",
+        "ends_at": "Present",
+        "duration": "11 months"
+      },
+      {
+        "position": "Marketing Co-committee",
+        "company_url": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQFPhFhqMrlYVA/company-logo_100_100/company-logo_100_100/0/1698767830914/djs_nsdc_logo?e=2147483647&v=beta&t=dHIWweA05foe6yTGS9XMhpV8oEu7cMjLNb2NMWWlE-c",
+        "company_name": "DJS-NSDC",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "As a proactive member of the Marketing at DJS-NSDC, I've been actively involved in searheading various initiatives to promote the organization's vision and mission. Leveraging my strong communication skills, I've collaborated with fellow team members to develop and execute innovative marketing strategies. From devising comprehensive social media campaigns to implementing effective digital marketing techniques, I've played a pivotal role in enhancing the organization's online presence. Additionally, my proficiency in email marketing has facilitated targeted outreach efforts, driving engagement and fostering meaningful connections. Through my contributions, I've been instrumental in amplifying the impact of DJS-NSDC's initiatives and reaching wider audiences.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Apr 2023",
+        "ends_at": "Jul 2024",
+        "duration": "1 year 4 months"
+      },
+      {
+        "position": "Cloud Computing Intern",
+        "company_url": "https://in.linkedin.com/company/webxela?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQGZkLllNSqYow/company-logo_100_100/B4DZYU7Oz9HIAY-/0/1744107795261/webxela_logo?e=2147483647&v=beta&t=lD2V-Mm-1mPutAuXg9rAFcmZt-QXBebhFvGk69MVk5s",
+        "company_name": "WEBXELA",
+        "location": "Mumbai Metropolitan Region",
+        "summary": "",
+        "starts_at": "Jun 2024",
+        "ends_at": "Present",
+        "duration": "1 year"
+      },
+      {
+        "position": "Contributor",
+        "company_url": "https://in.linkedin.com/company/girlscriptsoc?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=2147483647&v=beta&t=PnW1Ox6vGSlsUxIiTKR9XKLBHJfDDjA7VICHhTnHQIU",
+        "company_name": "GirlScript Summer of Code",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "",
+        "starts_at": "May 2024",
+        "ends_at": "Present",
+        "duration": "1 year 1 month"
+      },
+      {
+        "position": "Contributor",
+        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+        "company_name": "Social Summer of Code",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "",
+        "starts_at": "May 2024",
+        "ends_at": "Present",
+        "duration": "1 year 1 month"
+      },
+      {
+        "position": "VCP Tech",
+        "company_url": "https://in.linkedin.com/company/djs-infomatrix?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQG0_1TbbOIPjQ/company-logo_100_100/company-logo_100_100/0/1711559421731/djs_infomatrix_logo?e=2147483647&v=beta&t=tgeVJgRIFna_871Q3RUAzdVm9D66_TY0IpQO5BodGX8",
+        "company_name": "DJS InfoMatrix",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "",
+        "starts_at": "Apr 2024",
+        "ends_at": "Present",
+        "duration": "1 year 2 months"
+      },
+      {
+        "position": "Java Programming Intern",
+        "company_url": "https://in.linkedin.com/company/codsoft?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQHDmIfYA5sY7w/company-logo_100_100/company-logo_100_100/0/1685777115831?e=2147483647&v=beta&t=rpCwyPH9kKbP8nl0939f3-9DSNcIe-7s9StFVuFpi24",
+        "company_name": "CodSoft",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "\ud83c\udf1f Currently contributing as a Java Programming Intern at CodSoft, where I've been immersed in real-world projects and hands-on experiences. \ud83d\udda5\ufe0f Leveraging my expertise in Java, JavaFX, and object-oriented programming (OOP), I've been actively involved in tackling challenging problems and implementing efficient solutions. \ud83d\udca1 With a strong foundation in data structures and a keen eye for problem-solving, I've collaborated with talented teams to deliver high-quality software solutions. \ud83d\udcbb Excited to continue learning and growing in this dynamic environment, I'm passionate about leveraging my skills to make a meaningful impact.\"\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Sep 2023",
+        "ends_at": "Present",
+        "duration": "1 year 9 months"
+      },
+      {
+        "position": "Publicity Co-Committee",
+        "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
+        "company_name": "DJS S4DS",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "In College, I am currently serving as a member of the Publicity Co-Committee at DJS S4DS (Dwarkadas Sanghvi School for Data Science). In this role, I am actively involved in promoting and enhancing the visibility of our organization's initiatives within the college community and beyond. From designing creative marketing materials to strategizing social media campaigns, I contribute to the effective communication and outreach efforts of the committee. Through my dedicated involvement, I aim to foster greater engagement and awareness of the impactful work being done by DJS S4DS.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Aug 2023",
+        "ends_at": "Present",
+        "duration": "1 year 10 months"
+      },
+      {
+        "position": "Indigo squad member",
+        "company_url": "https://in.linkedin.com/company/mood-indigo?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGLMKVj7H5ecw/company-logo_100_100/company-logo_100_100/0/1631318286396?e=2147483647&v=beta&t=9ctxPRx5wkN0zPJaEtaeGhfA7K_MOTN2Cx4mxCFNXx0",
+        "company_name": "Mood Indigo IIT Bombay",
+        "location": "Mumbai, Maharashtra, India",
+        "summary": "As an Indigo Squad Member at Mood Indigo, Asia's premier college cultural festival, I've been instrumental in shaping unforgettable experiences and fostering a vibrant community. From spearheading innovative marketing and publicity campaigns to collaborating seamlessly with team members, my role has allowed me to hone my skills in personal development and event management. By leveraging creativity and strategic thinking, I've contributed to the success of numerous events, driving increased participation and engagement. I'm proud to be part of an esteemed organization dedicated to excellence, and I'm excited to continue making a meaningful impact in the dynamic world of event management and community building\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Jan 2023",
+        "ends_at": "Present",
+        "duration": "2 years 5 months"
+      }
+    ],
+    "education": [
+      {
+        "college_url": "https://in.linkedin.com/school/djsce/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Dwarkadas J. Sanghvi College of Engineering",
+        "college_image": "https://media.licdn.com/dms/image/v2/C4D0BAQFZRBOE0uG9Og/company-logo_100_100/company-logo_100_100/0/1675337351376/djsce_logo?e=2147483647&v=beta&t=4xq8Y27Y7GunrjHjN-SHwL7AtXsiAQUc9upExCd-oWQ",
+        "college_degree": "Bachelor of Technology - BTech, Artificial Intelligence and Data",
+        "college_degree_field": "CGPA:9.25",
+        "college_duration": "2022 - 2025",
+        "college_activity": ""
+      },
+      {
+        "college_url": "https://in.linkedin.com/school/university-of-mumbai/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "University of Mumbai",
+        "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_100_100/company-logo_100_100/0/1631357817785?e=2147483647&v=beta&t=WzuKv-YUgDtkuyTDWlspuSsN_0GywNKeJwSv10yCePY",
+        "college_degree": "Bachelor of Technology - BTech",
+        "college_degree_field": "Artificial Intelligence and Data Science",
+        "college_duration": "2022 - 2026",
+        "college_activity": ""
+      },
+      {
+        "college_name": "Sardar Vallabbhai Patel Junior College of Science and Commerce",
+        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+        "college_degree": "12TH",
+        "college_degree_field": "80%",
+        "college_duration": "2020 - 2022",
+        "college_activity": ""
+      },
+      {
+        "college_name": "The Saraswati Vidyalaya",
+        "college_image": "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw",
+        "college_degree": "10TH",
+        "college_degree_field": "92%",
+        "college_duration": "2019 - 2020",
+        "college_activity": ""
+      }
+    ],
+    "articles": [],
+    "description": {
+      "description1": "DJS-NSDC",
+      "description1_link": "https://in.linkedin.com/company/djs-nsdc?trk=public_profile_topcard-current-company",
+      "description2": "Dwarkadas J. Sanghvi College of Engineering",
+      "description2_link": "https://in.linkedin.com/school/djsce/?trk=public_profile_topcard-school",
+      "description3": "Personal Website",
+      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fgithub%2Ecom%2Fharshchi19&urlhash=FyuU&trk=public_profile_topcard-website"
+    },
+    "activities": [
+      {
+        "link": "https://www.linkedin.com/posts/morvi-panchal-37980128a_finnoverse25-fintechinnovation-atharvacollegeofengineering-activity-7319688919128657920-ZFp3",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQF2DNRkxJqAbw/feedshare-shrink_800/B4DZZTCSPtG8Ak-/0/1745149830779?e=2147483647&v=beta&t=qccCY46FLcLCRxu5yjuv3CdLLDUIOvla1RQ91hL6iQ0",
+        "title": "\ud83c\udfc6 Excited to Share Our 1st Place Win at Finnoverse\u201925! \nThrilled to announce that my team, Harsh Chitaliya, Hemangini Patel, Deep Jain and I\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/darshan-dihora-38bb652a1_finnoverse25-fintechinnovation-atharvacollegeofengineering-activity-7318343162760957956-pDyI",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFGpj5l1lHuGQ/feedshare-shrink_2048_1536/B4DZY_6UauGwAo-/0/1744828975548?e=2147483647&v=beta&t=E1aDUMO5CegbYv3VlKENBUM316CdlF0yRQjXUEJRwA8",
+        "title": "\ud83c\udfc6 1st Runner Up at Finnoverse\u201925 - A FinTech Buildathon Journey!\n\nI'm thrilled to announce that my team, NANgry_Birds, comprising of Bhavvya Jain\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/harshchitaliya_finnoverse25-fintechinnovation-teamideainnovators-activity-7318007721499230209-i7E5",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEi1xT7Dwf9hw/feedshare-shrink_800/B4DZY7JPcBHsAg-/0/1744749001099?e=2147483647&v=beta&t=DMu9qaOvBsuCCY4HFqnTbEONhY_16iXkgiegBwFmu0U",
+        "title": "\ud83c\udfc6 1st Place at Finnoverse\u201925 \u2013 A Thrilling FinTech Buildathon Journey! \ud83d\ude80\n\nI'm excited to share that my team Hemangini Patel, Deep Jain, Morvi\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/harshchitaliya_finnoverse25-fintechinnovation-teamideainnovators-activity-7318007721499230209-i7E5",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEi1xT7Dwf9hw/feedshare-shrink_800/B4DZY7JPcBHsAg-/0/1744749001099?e=2147483647&v=beta&t=DMu9qaOvBsuCCY4HFqnTbEONhY_16iXkgiegBwFmu0U",
+        "title": "\ud83c\udfc6 1st Place at Finnoverse\u201925 \u2013 A Thrilling FinTech Buildathon Journey! \ud83d\ude80\n\nI'm excited to share that my team Hemangini Patel, Deep Jain, Morvi\u2026",
+        "activity": "Shared by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/rajauria-tarun_hackverse2025-hackathon-ai-activity-7311987913980837888-vZyt",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFyB-XJtzpgew/feedshare-shrink_800/B4DZXlmPjAHIAg-/0/1743313763685?e=2147483647&v=beta&t=jy84ez6qyMBKyoP8WrbBUdjxvOBaPgXTKM98SkGACk0",
+        "title": "\u2728 HackVerse 2025 \u2013 An Unforgettable 24-Hour Hackathon Experience! \u2728\n\nI recently had the incredible opportunity to participate in HackVerse 2025, a\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/riddhi-humbratkar-5a3259217_trupay-buildhathon-fintechinnovation-activity-7314105713667018752-9kUo",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFFkHG6svvpUg/feedshare-shrink_1280/B56ZYDsYKMGcAk-/0/1743818689176?e=2147483647&v=beta&t=ds5ejYY1Rtm4dEeAoiiDgsa6ONQT5okn3F5NknMy8nA",
+        "title": "TruPay Secures 3rd Place at Buildhathon! \ud83c\udfc6\u2728\n\nAfter two weeks of intense ideation, design, and development, my teammate Chetana Patil  and I are\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/djs-nsdc_syn3rgy2-agenticai-djsce-activity-7312022261455097856-omWB",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQH8pNlz1mUiTA/feedshare-shrink_800/B4DZXmFfjuH4Ag-/0/1743321955660?e=2147483647&v=beta&t=VHGeHxJ6E2D8mGCE4KBdHTGD-TMYccVcvVx6qH9rBS0",
+        "title": "SYN3RGY 2.0 \u2013 The Ultimate Agentic AI Buildathon\n\n\ud83c\udfae Innovating in the World of Jumanji \ud83c\udfae\n\nSYN3RGY 2.0 was a thrilling convergence of creativity\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/sameergupta24_ai-nlp-hackathon-activity-7312359387338055681-HFCT",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGIPhANLVKpgg/feedshare-shrink_2048_1536/B4DZXq4GZHHwAo-/0/1743402331065?e=2147483647&v=beta&t=OylVHbK1q9YexGdz2q7I9kOnaB3BoYF2gsQIBo6aCyc",
+        "title": "\ud83c\udfc6 9-Hour NLP Sprint \u2013 1st Runner-Up! \ud83d\ude80\n\nWhat an incredible journey\u2014from idea to execution in just\u00a09 hours\u00a0at\u00a0DJ InIT.AI's Data2Knowledge 3.0! Our\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/yash-buddhadev-889955289_llms-fintech-ai-activity-7310164546571165696-XwDY",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGHP0OAe5jALw/feedshare-shrink_800/B4DZXLr52sHAAg-/0/1742879041120?e=2147483647&v=beta&t=8J4qCO-01zQH17UonZ1nvod_l5Nn4pnKpmEkjc6pMvw",
+        "title": "\ud83c\udfc6 First Place at the App Development with LLMs Competition! \n\nThrilled to share that Team Bournvita Smugglers\u2014comprising Sameer Gupta, Parth Gala\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/djsce_happy-to-inform-you-all-that-a-team-name-activity-7309102849290911744-YQUc",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQFeBw0yOk59gA/feedshare-shrink_800/B4DZW8mTmqG8Ag-/0/1742625914969?e=2147483647&v=beta&t=WhNv2Uw3msHDWZzsabaC9NOKLeRv0ih2MRWJ8Rowczg",
+        "title": "Happy to inform you all that a team (name: Last Epoch)\u00a0of the following students of our Institute has secured the 1st position at \"TechBlitz\"\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/sujalchoudhari_ideahackathon-unionbankofindia-psbhackathon2025-activity-7308426635857252355-JMF7",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQG6ch1VZDdiiQ/feedshare-shrink_800/B56ZWy_PowGsAw-/0/1742464678989?e=2147483647&v=beta&t=Z_v05w6naNfIfgk4F5s1kGaymAEEff8QaIFaosS2suY",
+        "title": "\ud83c\udfc6 \u2111\ud835\udd2b\ud835\udd2b\ud835\udd2c\ud835\udd33\ud835\udd1e\ud835\udd31\ud835\udd26\ud835\udd2c\ud835\udd2b \ud835\udd31\ud835\udd25\ud835\udd1e\ud835\udd31 \ud835\udd2a\ud835\udd1e\ud835\udd31\ud835\udd31\ud835\udd22\ud835\udd2f\ud835\udd30!\nOur team just won the IDEA Hackathon\u00a0organized by Union Bank of India under the PSBs Hackathon\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/djsce_happy-to-inform-you-all-that-a-team-name-activity-7308019662473039872-Ap_M",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQGh_HtHMzu2yw/feedshare-shrink_2048_1536/B4DZWtNKKKGkAo-/0/1742367663237?e=2147483647&v=beta&t=onY6kRwm2_1pZ5MwGkRg3xHL9MmS7mIftO2bfRHsed4",
+        "title": "Happy to inform you all that a team ( name: init 0)\u00a0of following students of our Institute has won second prize of Rs. 3,00,000 at \"Idea Hackathon\"\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/vipul-mhatre_syn3rgy-hackathon-socialcause-activity-7305822440901742592-MvW_",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQEifU1kOKVkLg/feedshare-shrink_2048_1536/B4DZWN5PSRGcAo-/0/1741842348205?e=2147483647&v=beta&t=RyDAnqYixmLHugi-GR1fX3YsnQBEk2OH_ZMJRmnPlLs",
+        "title": "I didn\u2019t get selected for some committees, but I made sure they noticed me! \ud83d\ude0a\n\nOur team, ITerative Bytes- Me, Saniyaa B Shetty, Vedant Khade, Varun\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/jeel-doshi-76202a230_hackathon-sih2024-innovation-activity-7305265789207539713-pNXh",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQF9smXNDl7Ucg/feedshare-shrink_1280/B4EZWGEgFvGwAo-/0/1741711083369?e=2147483647&v=beta&t=NbA_yfwfg1d938o6UhXr5wJN5TRLn6UYIfltjgOFGOQ",
+        "title": "\ud83d\ude80 From Participant to Mentor \u2013 Giving Back to the Hackathon Community! \ud83d\udd25\n\nHonored to receive this Letter of Appreciation from SVKM's Shri Bhagubhai\u2026",
+        "activity": "Liked by Harsh Chitaliya"
+      }
+    ],
+    "volunteering": [],
+    "certification": [
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQHHStwOuLz0Zw/company-logo_100_100/company-logo_100_100/0/1695186690956?e=2147483647&v=beta&t=Mamrbs2Tb6Gi44EEaZQpy_DEHZXAluhCPhq_KEbTSeA",
+        "certification": "MegaHack 4.0",
+        "company_url": "https://in.linkedin.com/company/gdsc-sjcem?trk=public_profile_profile-section-card_image-click",
+        "company_name": "GDSC  SJCEM",
+        "issue_date": "Issued Mar 2024",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/12IjtkDRdILREyTsg5SROtpDtqBtACGPu/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQEiB4PSDmJ48w/company-logo_100_100/company-logo_100_100/0/1719255932418/analytika_nmims_logo?e=2147483647&v=beta&t=lvyOSsYz8ne9ZdUOXjs_byw-520X77k1Bdr7KpYTSC8",
+        "certification": "DATATHON 2.0",
+        "company_url": "https://in.linkedin.com/company/analytika-nmims?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Analytika - The Data Science Club",
+        "issue_date": "Issued Jan 2024",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/15FerKScK8n9Ps1CbWjc1k17__uY-mrhS/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
+        "certification": "Machine Learning Bootcamp",
+        "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_profile-section-card_image-click",
+        "company_name": "DJS S4DS",
+        "issue_date": "Issued Sep 2023",
+        "credential_id": "See credential",
+        "credential_url": "https://certificate.givemycertificate.com/c/ad7d8d95-085f-41a6-a2f1-f858ee8cdc20?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEkPwpN1VfEkQ/company-logo_100_100/company-logo_100_100/0/1670591179096/djs_s4ds_logo?e=2147483647&v=beta&t=LD52WYXgkz2RVqxbDPZKYl3ytAdqXj59_Cdjdm9cDlU",
+        "certification": "Robotics Workshop",
+        "company_url": "https://in.linkedin.com/company/djs-s4ds?trk=public_profile_profile-section-card_image-click",
+        "company_name": "DJS S4DS",
+        "issue_date": "Issued Sep 2023",
+        "credential_id": "Credential ID fe96fdaa-cb8a-4bf2-8ae7-ca39addd2846",
+        "credential_url": "https://certificate.givemycertificate.com/c/fe96fdaa-cb8a-4bf2-8ae7-ca39addd2846?trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQE7Zf1-vvfbUA/company-logo_100_100/company-logo_100_100/0/1692876768583/infosys_logo?e=2147483647&v=beta&t=97JBbbuq2-RM9553tu_mnMtg_cQU7DSEPtFWT28uwkc",
+        "certification": "Basics Of Bussiness Communication",
+        "company_url": "https://in.linkedin.com/company/infosys?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Infosys",
+        "issue_date": "Issued Jan 2023",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/1bPqm6sp1BeAFOHyRyXNQm_GDGoIcIxYE/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=2147483647&v=beta&t=ossYk2TZYS8UvUN3s4WS7ZaXqgKph-ue7DFGNXO4-0U",
+        "certification": "AI Appreciate",
+        "company_url": "https://www.linkedin.com/company/intel-corporation?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Intel Corporation",
+        "issue_date": "Issued Dec 2022",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/1LpaTgFC2aqPwdKjcpu5DZ8aNgiV113ws/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=2147483647&v=beta&t=5LWGGC1ppFOKVpSsj1Rn2ARu0PhILwDIhu6zqCnCr7o",
+        "certification": "Digishock 3.0:The Future Of Artificial Intelligence(AI)",
+        "company_url": "https://www.linkedin.com/company/udemy?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Udemy",
+        "issue_date": "Issued Dec 2022",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/1_I4g7I_yCs56FLGmMSmx9ZZXKRcXSOjs/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQEvNU0EYy6wUw/company-logo_100_100/company-logo_100_100/0/1631319527790?e=2147483647&v=beta&t=uFEX2yNToZNJL6RysdOrsiBxCiOVzntZfBmBO77VYuE",
+        "certification": "Digital Marketing for CXO's",
+        "company_url": "https://www.linkedin.com/company/simplilearn?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Simplilearn",
+        "issue_date": "Issued Sep 2022",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/1kZwQs8ppF4P6HyzL9N6SX6CNKM-CD6_C/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQEvnkOIhHSQIg/company-logo_100_100/company-logo_100_100/0/1630527821959?e=2147483647&v=beta&t=mSyjpvdTYhPZZcANz33KmCUzghx4dldGGJLtfoDRRUg",
+        "certification": "HackHaven 1.0 24-Hr Hackathon",
+        "company_url": "https://www.linkedin.com/company/slrtce-csi?trk=public_profile_profile-section-card_image-click",
+        "company_name": "SLRTCE CSI",
+        "issue_date": "Issued Mar 2024\n                    \n                      \n                        Expires Mar 2024",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/1HD8jq_rH0BP2mydqzNlh6naT-MtlyXa4/view?usp=sharing&trk=public_profile_see-credential"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=2147483647&v=beta&t=ossYk2TZYS8UvUN3s4WS7ZaXqgKph-ue7DFGNXO4-0U",
+        "certification": "AI Aware",
+        "company_url": "https://www.linkedin.com/company/intel-corporation?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Intel Corporation",
+        "issue_date": "Issued Dec 2022\n                    \n                      \n                        Expires Dec 2022",
+        "credential_id": "See credential",
+        "credential_url": "https://drive.google.com/file/d/1-My1-OOKBh29Ia_aqCe7x8uCz2XtUMbY/view?usp=sharing&trk=public_profile_see-credential"
+      }
+    ],
+    "people_also_viewed": [],
+    "similar_profiles": [
+      {
+        "link": "https://in.linkedin.com/in/harsh-chitaliya-690888243?trk=public_profile_samename-profile",
+        "name": "Harsh Chitaliya",
+        "summary": "React Native Developer | Mobile App Development | Typescript | Javascript",
+        "location": "Surat"
+      },
+      {
+        "link": "https://in.linkedin.com/in/harsh-chitaliya?trk=public_profile_samename-profile",
+        "name": "Harsh Chitaliya",
+        "summary": "Passionate Aspiring Data Scientist | Open to Learning and Growth",
+        "location": "Surat"
+      },
+      {
+        "link": "https://in.linkedin.com/in/harsh-chitaliya-3494b425b?trk=public_profile_samename-profile",
+        "name": "Harsh Chitaliya",
+        "summary": "WordPress , Php , Laravel",
+        "location": "Surat"
+      },
+      {
+        "link": "https://in.linkedin.com/in/harsh-chitaliya-6b8442303?trk=public_profile_samename-profile",
+        "name": "Harsh Chitaliya",
+        "summary": "--",
+        "location": "Mumbai"
+      }
+    ],
+    "recommendations": [
+      {
+        "link": "https://in.linkedin.com/in/vatsalkotha?trk=public_profile_recommendations",
+        "name": "Vatsal Kotha",
+        "summary": "\u201cI had the pleasure of working with Harsh during a hackathon where we successfully won as a team. Harsh's passion for AI/ML and Data Science was evident throughout the competition. His problem-solving skills, creativity, and ability to quickly adapt to new challenges were key to our success. Harsh brought deep technical knowledge to the table and was always eager to collaborate and share insights, making him a fantastic teammate. His enthusiasm for cutting-edge technology and data-driven solutions is truly inspiring, and I highly recommend him for any AI/ML or Data Science opportunity!\u201d"
+      },
+      {
+        "link": "https://in.linkedin.com/in/nencyravaliya28?trk=public_profile_recommendations",
+        "name": "Nensi Ravaliya",
+        "summary": "\u201cI highly recommend Harsh for his excellent skills in cloud computing. At WEBXELA, he showed great dedication, and problem-solving abilities, and was always eager to learn. A true team player and an asset to any project!\u201d"
+      }
+    ],
+    "publications": [],
+    "courses": [],
+    "languages": [
+      {
+        "name": "English",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "Hindi",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "Gujarati",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "Marathi",
+        "level": "Limited working proficiency"
+      }
+    ],
+    "organizations": [],
+    "projects": [],
+    "awards": [],
+    "score": [
+      {
+        "name": "MHTCET",
+        "score": "Score: 96.50 %",
+        "duration": "Aug 2022",
+        "summary": ""
+      },
+      {
+        "name": "JEE MAIN",
+        "score": "Score: 88%",
+        "duration": "Jun 2022",
+        "summary": ""
+      }
+    ]
+  }
+]

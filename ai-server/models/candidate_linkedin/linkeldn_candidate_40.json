@@ -1,0 +1,312 @@
+[
+  {
+    "fullName": "Yuanming Wu",
+    "linkedin_internal_id": "976250992",
+    "first_name": "Yuanming",
+    "last_name": "Wu",
+    "public_identifier": "yuanming-wu-094b40232",
+    "background_cover_image_url": "https://media.licdn.com/dms/image/v2/D5616AQGx1olhihzGcQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1702713698797?e=2147483647&v=beta&t=56mSd6S0-hBO9laOcvxdXttokCJb6PIptlHcNi3MFBk",
+    "profile_photo": "https://media.licdn.com/dms/image/v2/D5603AQEW_XiQxj8LxQ/profile-displayphoto-shrink_200_200/B56ZWPxkLnGsAY-/0/1741873890878?e=2147483647&v=beta&t=L9oxdzWsreXBWXt7j7OB9zQGkF22-A0FSO3Imjh3kC4",
+    "headline": "Junior Software Engineer | React, Node.js, TypeScript | AWS Certified Cloud Practitioner | Building Scalable, User-Friendly Solutions",
+    "location": "North Melbourne, Victoria, Australia",
+    "followers": "1K followers",
+    "connections": "500+ connections",
+    "card_title": "Contact Yuanming for services",
+    "card_subtitle": "Web Development and Application Development",
+    "about": "Junior Software Engineer with experience in full-stack development, specializing in React, Node.js, and TypeScript. Built scalable, responsive applications, achieving 20% faster load times and improving user engagement by 35%. Proficient in Agile workflows and cloud deployment (AWS, GCP), with a strong focus on delivering efficient, user-friendly solutions.",
+    "experience": [
+      {
+        "position": "Software Developer",
+        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+        "company_name": "Cybercore Solutions",
+        "location": null,
+        "summary": "",
+        "starts_at": "Apr 2025",
+        "ends_at": "Present",
+        "duration": "3 months"
+      },
+      {
+        "position": "Team Member",
+        "company_url": "https://au.linkedin.com/company/colesgroup?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQEE1puAFu2smw/company-logo_100_100/company-logo_100_100/0/1688961657987/colesgroup_logo?e=2147483647&v=beta&t=N84W0kj2ObZhBMz2UP4hIqncHpItqJfKoh8mhdvLkBA",
+        "company_name": "Coles Group",
+        "location": "Melbourne, Victoria, Australia",
+        "summary": "",
+        "starts_at": "Aug 2023",
+        "ends_at": "Present",
+        "duration": "1 year 11 months"
+      },
+      {
+        "position": "Web Developer",
+        "company_url": "https://au.linkedin.com/company/tidyteddy?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D560BAQG5YpBx4nPrGQ/company-logo_100_100/company-logo_100_100/0/1707735478275/tidyteddy_logo?e=2147483647&v=beta&t=zgzMDIg9Utv1lzsy1RnoK7HSRlCdw4QMUiP99YhDhXU",
+        "company_name": "TidyTeddy",
+        "location": "Melbourne, Victoria, Australia",
+        "summary": "Led the frontend and backend team to migrate the company website (new.tidyteddy.com.au) to a modern architecture using React, Vite, and TailwindCSS on the frontend, and Node.js, Express, and MySQL on the backend, achieving a 20% improvement in load times and scalability.Collaborated with designers using Figma and Agile workflows via Jira to translate mockups into responsive web pages, ensuring 100% adherence to UI/UX best practices and seamless deployment via cPanel.Spearheaded Agile development workflows with Jira, enhancing sprint efficiency, leading to a 30% improvement in code maintainability.Leading the development of a dynamic quotation system using React, Node.js, and MySQL, enabling personalized service customization and direct order placement.\n            \n\n    \n    \n\n    \n        Show less",
+        "starts_at": "Sep 2024",
+        "ends_at": "Apr 2025",
+        "duration": "8 months"
+      },
+      {
+        "position": "Web Developer",
+        "company_url": "https://www.linkedin.com/company/quicksite-space?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/D4D0BAQEyhTSaa9PsVw/company-logo_100_100/B4DZanmh9VG0AQ-/0/1746568619479/quicksite_space_logo?e=2147483647&v=beta&t=w_PwNxPJ8YhqooxFoJMlsLDRHaR3K-kbULrhQnxC6dQ",
+        "company_name": "QuickSite Guru",
+        "location": "Melbourne, Victoria, Australia",
+        "summary": "Designed and developed a comprehensive UI Guideline website using React and custom components, improving developer efficiency by 25%.Automated the CI/CD pipeline with GitHub Actions, reducing manual deployment time by 40% and improving update reliability.Leveraged Agile methodologies through GitHub Kanban, optimizing task management and ensuring the successful delivery of 3 key features on time.",
+        "starts_at": "Jun 2024",
+        "ends_at": "Sep 2024",
+        "duration": "4 months"
+      },
+      {
+        "position": "Software Engineer",
+        "company_url": "https://au.linkedin.com/company/award-global?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "company_image": "https://media.licdn.com/dms/image/v2/C560BAQHrQwECvRsShA/company-logo_100_100/company-logo_100_100/0/1630575172949?e=2147483647&v=beta&t=2iBn0lYtEOdD24SqA5pS4eOSViFDLmDU8nc2rjK-rOU",
+        "company_name": "Award Global",
+        "location": "Sydney, New South Wales, Australia",
+        "summary": "Designed and developed a responsive showcase website using Next.js and Tailwind CSS, improving mobile user experience by 35% and reducing bounce rates by 20%.Integrated the website with a backend content management system using WordPress, enhancing response time to market changes by 40%.Orchestrated the integration of front-end and back-end systems with API-driven updates, ensuring maintainability and reducing update time by 50%.",
+        "starts_at": "Apr 2023",
+        "ends_at": "Jul 2023",
+        "duration": "4 months"
+      }
+    ],
+    "education": [
+      {
+        "college_url": "https://au.linkedin.com/school/unsw/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "UNSW",
+        "college_image": "https://media.licdn.com/dms/image/v2/D560BAQGIlGcJynP5Dg/company-logo_100_100/company-logo_100_100/0/1709503417850/unsw_logo?e=2147483647&v=beta&t=Zf3y8Mva-qo8Em0SHFfUQmAaSmrKVDDaSDQbT1DULwU",
+        "college_degree": "Master of Technology - MTech",
+        "college_degree_field": "Distinction",
+        "college_duration": "2022 - 2023",
+        "college_activity": "I'm a graduated student of UNSW Master of Information Technology. Hope to be an experienced developer, especially in front-end."
+      },
+      {
+        "college_url": "https://cn.linkedin.com/school/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6/?trk=public_profile_school_profile-section-card_image-click",
+        "college_name": "Shenzhen University",
+        "college_image": "https://media.licdn.com/dms/image/v2/C4E0BAQE8ISzTtb_Mew/company-logo_100_100/company-logo_100_100/0/1631301751407?e=2147483647&v=beta&t=HChBVHkI7aMecjLsUT-ClVS2KfLE4wdyLLHd5v90284",
+        "college_degree": "Bachelor of Engineering - BE",
+        "college_degree_field": "Electrical, Electronics and Communications Engineering",
+        "college_duration": "2017 - 2021",
+        "college_activity": ""
+      }
+    ],
+    "articles": [],
+    "description": {
+      "description1": "Cybercore Solutions",
+      "description2": "UNSW",
+      "description2_link": "https://au.linkedin.com/school/unsw/?trk=public_profile_topcard-school",
+      "description3": "Portfolio",
+      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Foliver-wu%2Evercel%2Eapp%2F&urlhash=9lcM&trk=public_profile_topcard-website"
+    },
+    "activities": [
+      {
+        "link": "https://www.linkedin.com/posts/lisxia_openais-4o-image-model-is-here-and-its-activity-7311167644257202177-oElV",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQH9EuMhxHbCEQ/feedshare-shrink_800/B4DZXWjO63HAAg-/0/1743061326937?e=2147483647&v=beta&t=KwOnW0AtP5Z_t-CxXBMBZ89fFmhxOpcDYQl09s94Qgc",
+        "title": "OpenAI’s 4o image model is here, and it’s shaking up UI design and prototyping. Here are some initial observations of its capabilities.\n\n1. Its'…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/sebastian-sequoiah-grayson-19544a245_hooray-for-all-of-our-wonderful-new-students-activity-7295685769401184258-FbzC",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGDbRmR0We5CQ/feedshare-shrink_800/B56ZT97f6lHEAg-/0/1739427033050?e=2147483647&v=beta&t=PSk6zivwGi1Ranwznfz0Q-Z7bEwCIEjV2d6t32Sy_fY",
+        "title": "Hooray for all of our wonderful new students this term at UNSW Computer Science and Engineering - and this is just some of them!",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/manchester-united_flowersofmanchester-activity-7293207059141963778-OpYB",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQGNNYtHkvfdtA/ads-video-thumbnail_720_1280/B4EZTas.2GGgAc-/0/1738836033144?e=2147483647&v=beta&t=MiE3Bh_vYl1uQvFNLVb4JExQUqdsRzyl6awtqreg5Zw",
+        "title": "We remember not only those we lost, but the lives they lived.\n\n#FlowersOfManchester 🌹",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/madsbrodt_nextjs-15-react-19-shadcn-ui-is-a-pretty-activity-7286703746858835968-xPYk",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "NextJS 15 + React 19 + ShadCN UI is a pretty damn good stack.\n\nThrow in TanStack Query, Motion React and React Hook Form and you've got everything…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/manchester-united_everyone-at-manchester-united-is-mourning-activity-7286107090220118016-RDh5",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFAX-YVqtBkUw/feedshare-shrink_2048_1536/B4EZR1zySMGYAo-/0/1737143298156?e=2147483647&v=beta&t=dGXk7fGA5Zh4tOnxFAWxbR9Og9ZrHQHZTRog2ydJOtg",
+        "title": "Everyone at Manchester United is mourning the loss of Denis Law, the King of the Stretford End, who has passed away, aged 84.\n\nWith 237 goals in 404…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/hayden-smith-4505a55a_engineering-hiring-startup-activity-7272346851062771712-qtaE",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "#engineering #hiring #startup #fintech \n🥳💼We're hiring a **software engineer** in the lead up to the launching of two new major products in the…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/robinyoong_999992-uptime-that-was-vercels-uptime-activity-7270712901751992320-njCA",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQEOFBWSrrUsRQ/feedshare-shrink_800/feedshare-shrink_800/0/1733473038469?e=2147483647&v=beta&t=XAljXLxHq7WimWHQj0JqPKi-iaaHRVcFmUtyLGKJbiE",
+        "title": "99.9992% uptime.\n\nThat was Vercel's uptime during Black Friday-Cyber Monday, handling 86 billion requests and a peak of 1.9 million requests per…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/lauren-mowen-06724927_this-discussion-is-close-to-home-for-me-as-activity-7267396474122964993-HXhq",
+        "image": "https://media.licdn.com/dms/image/v2/D5610AQFzCxkSkIPEDQ/image-shrink_800/image-shrink_800/0/1732681051373?e=2147483647&v=beta&t=ozK_NPWE4eF0kS7vIJqQ-LStQ6q56jrBt29fWOLoEsA",
+        "title": "This discussion is close to home for me as a mum of three junior players. \n\nThe proposed legislation to ban social media for under 16s has brought…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/heidihealth_what-an-incredible-3-days-at-the-royal-activity-7265971103573901312-m8v8",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQECRPt165p_DQ/feedshare-shrink_800/feedshare-shrink_800/0/1732342503540?e=2147483647&v=beta&t=Q878mi6isAD3kT2MoqJgHcFl35FmAAy_BuxbZusB4KU",
+        "title": "🌟 What an incredible 3 days at The Royal Australian College of General Practitioners (RACGP) 24 in Perth! 🌟\n\nIt was such a pleasure to meet so many…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/renoperry_stop-obsessing-over-chatgpt-4-tools-i-found-activity-7262101809958125568-Vqq8",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHfHQiQvV-pLQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731419993816?e=2147483647&v=beta&t=9SY9lygQW90Ctn2xGTs_LKwfdzbM9bv2j5ptRSASoQA",
+        "title": "Stop obsessing over ChatGPT.\n\n4 tools I found more useful (and how I use them):\n\n2024 is shaping up to be my best year.\n\nFor revenue, productivity…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/jun-benjamin-li_so-nice-to-have-worked-on-the-chrome-extension-activity-7259364373599592448-gh95",
+        "image": "https://static.licdn.com/aero-v1/sc/h/53n89ecoxpr1qrki1do3alazb",
+        "title": "So nice to have worked on the chrome extension and see it released 🥳,big thx to all ppl @ Heidi Health  who helped me throughout this time so far…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/manchester-united_its-done-manchester-united-is-activity-7258085198276308992-NIq6",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFVdrgFiQNFqA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1730462358455?e=2147483647&v=beta&t=riGxSPXPSCjmF5OF1Eq0GuEB-kYUv8TtjJ21YesjFOY",
+        "title": "It's done 🇵🇹🤝🔴\n\nManchester United is delighted to announce the appointment of Ruben Amorim as Head Coach of the men’s first team, subject to work…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/clubland-australia_digitalclubhouses-clubrugby-communitysport-activity-7247831597817692160-8kdW",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQEZK8Lw3zpZrA/image-shrink_800/image-shrink_800/0/1728017701600?e=2147483647&v=beta&t=ARwkc-21gxPk2INPPND2R-JaT-TTn7hjfd4CGBThjVw",
+        "title": "We are supporters. \nWe are players. \nWe are committees. \n\nWe're built for club sport. And we're built from within.\n\nWe are Clubland. \n\nAre you?…",
+        "activity": "Liked by Yuanming Wu"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/lauren-mowen-06724927_with-the-official-playing-season-over-for-activity-7247884196210204673-DK06",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQEZK8Lw3zpZrA/image-shrink_800/image-shrink_800/0/1728017701600?e=2147483647&v=beta&t=ARwkc-21gxPk2INPPND2R-JaT-TTn7hjfd4CGBThjVw",
+        "title": "With the official playing season over for club rugby, clubland might be entering hibernation mode but Clubland isn't. With several new additions in…",
+        "activity": "Liked by Yuanming Wu"
+      }
+    ],
+    "volunteering": [],
+    "certification": [
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/C510BAQHjvtKepNJrsQ/company-logo_100_100/company-logo_100_100/0/1631402556894/thedigitaladda_logo?e=2147483647&v=beta&t=8R9FvCeIpxjuAHOVLHt3mZMbXABMmhkOAs7Ev8hBiSs",
+        "certification": "Full Stack Web Development Certification",
+        "company_url": "https://in.linkedin.com/company/thedigitaladda?trk=public_profile_profile-section-card_image-click",
+        "company_name": "TheDigitalAdda",
+        "issue_date": "Issued Jun 2023",
+        "credential_id": "Credential ID DA/FS/22/12671"
+      },
+      {
+        "company_image": "https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=2147483647&v=beta&t=OZG6TFGHaiu0-IazkwLYMxAfZ4u_LGMAYSSlnyQp8bY",
+        "certification": "AWS Certified Cloud Practitioner",
+        "company_url": "https://www.linkedin.com/company/amazon-web-services?trk=public_profile_profile-section-card_image-click",
+        "company_name": "Amazon Web Services (AWS)",
+        "issue_date": "Issued Sep 2023\n                    \n                      \n                        Expires Sep 2026",
+        "credential_id": "Credential ID F4Q1JC61W1EQ1JCZ",
+        "credential_url": "https://www.credly.com/badges/2540b4fc-7b35-4fce-a32c-beb174d31963/linked_in_profile?trk=public_profile_see-credential"
+      }
+    ],
+    "people_also_viewed": [],
+    "similar_profiles": [
+      {
+        "link": "https://cn.linkedin.com/in/yuanming-wu-54354275?trk=public_profile_samename-profile",
+        "name": "Yuanming Wu",
+        "summary": "Professor at University of Electronic Science and Technology of China",
+        "location": "Chengdu"
+      },
+      {
+        "link": "https://www.linkedin.com/in/yuanming-wu-3077a583?trk=public_profile_samename-profile",
+        "name": "Yuanming Wu",
+        "summary": "Research scientist at university of iowa",
+        "location": "Iowa City, IA"
+      },
+      {
+        "link": "https://cn.linkedin.com/in/yuanming-wu-550b29200?trk=public_profile_samename-profile",
+        "name": "yuanming wu",
+        "summary": "Student at Shanghai Jiao Tong University",
+        "location": "Beijing"
+      },
+      {
+        "link": "https://cn.linkedin.com/in/yuanming-wu-81b59674?trk=public_profile_samename-profile",
+        "name": "Yuanming Wu",
+        "summary": "Professor at UESTC",
+        "location": "Chengdu"
+      }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [
+      {
+        "name": "Computer Networks&Applications"
+      },
+      {
+        "name": "Data Services Engineering"
+      },
+      {
+        "name": "Data Structures & Algorithms"
+      },
+      {
+        "name": "Database Systems"
+      },
+      {
+        "name": "Foundations of Comp. Science"
+      },
+      {
+        "name": "Modern Prog Problems with Rust"
+      },
+      {
+        "name": "Principles of Programming"
+      },
+      {
+        "name": "Project Management"
+      },
+      {
+        "name": "Software Construction"
+      },
+      {
+        "name": "Web Front-End Programming"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Mandarin",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "Cantonese",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "English",
+        "level": "Professional working proficiency"
+      }
+    ],
+    "organizations": [],
+    "projects": [
+      {
+        "title": "Tutor Trackr",
+        "link": "https://au.linkedin.com/in/jun-benjamin-li?trk=public_profile_project_contributor-image",
+        "duration": "Sep 2023 - Dec 2023"
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/jun-benjamin-li?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/dingjun-zhao-284aa3265?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "",
+        "link": "https://au.linkedin.com/in/haoran-li-79a5b7270?trk=public_profile_project_contributor-image",
+        "duration": ""
+      },
+      {
+        "title": "Oliver Wu's Portfolio Website",
+        "duration": "-"
+      }
+    ],
+    "awards": [],
+    "score": []
+  }
+]
