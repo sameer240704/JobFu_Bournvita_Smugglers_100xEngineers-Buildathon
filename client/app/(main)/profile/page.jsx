@@ -8,6 +8,9 @@ import { useCurrentUserImage } from "@/hooks/use-current-user-image";
 import { useCurrentUserName } from "@/hooks/use-current-user-name";
 import { useCurrentUserId } from "@/hooks/use-current-user-id";
 import { Button } from "@/components/ui/button";
+import { logout } from "@/utils/supabase/auth";
+import { useRouter } from "next/navigation";
+import { FiLogOut } from "react-icons/fi";
 
 const ProfilePage = () => {
   const [user, setUser] = useState({
@@ -36,6 +39,7 @@ const ProfilePage = () => {
   const profileImage = useCurrentUserImage();
   const userName = useCurrentUserName();
   const userId = useCurrentUserId();
+  const router = useRouter();
 
   useEffect(() => {
     const fetchUserData = async () => {
@@ -141,6 +145,15 @@ const ProfilePage = () => {
     return Math.round((completed / fields.length) * 100);
   };
 
+  const handleLogout = async () => {
+    try {
+      await logout();
+      router.push("/");
+    } catch (error) {
+      console.error("Logout failed:", error);
+    }
+  };
+
   return (
     <div className="h-screen bg-transparent overflow-auto">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
@@ -231,6 +244,19 @@ const ProfilePage = () => {
                     {user.phone || "No phone number"}
                   </span>
                 </div>
+              </div>
+
+              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <Button
+                  variant="outline"
+                  onClick={handleLogout}
+                  className="h-10 w-full flex items-center justify-center gap-2 transition-all duration-200 border-none hover:bg-red-50/80 dark:hover:bg-red-900/50 hover:text-red-600 dark:hover:text-red-300 group cursor-pointer"
+                >
+                  <FiLogOut className="h-4 w-4 text-red-500 dark:text-red-400 group-hover:text-red-600 dark:group-hover:text-red-300 transition-colors" />
+                  <span className="text-red-500 dark:text-red-400 group-hover:text-red-600 dark:group-hover:text-red-300 transition-colors">
+                    Sign Out
+                  </span>
+                </Button>
               </div>
             </div>
           </div>

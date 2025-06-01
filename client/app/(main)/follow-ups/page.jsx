@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const page = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const FollowUpsPage = () => {
+  return <div>FollowUpsPage</div>;
+};
 
-export default page
+export default FollowUpsPage;
