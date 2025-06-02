@@ -100,6 +100,7 @@ async function sendOfferEmail(userId, candidate, emailTemplate, templateVariable
         };
 
         const result = await transporter.sendMail(mailOptions);
+
         console.log('Email sent successfully:', {
             messageId: result.messageId,
             to: candidate.contact_information.email,
