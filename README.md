@@ -338,9 +338,9 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## 🎥 Project Demo & Deployed Link
-Video Demo: [Insert video link here]
+Video Demo: [https://www.loom.com/share/18327b9baa65499697d23b2141af4bc6?sid=1f3d33f9-fa07-4527-bd58-62c2ea32a2d4]
 
-Deployed Link: [Insert deployed link here]
+Deployed Link: [jobfu-tech.vercel.app]
 
 P.S. We had an absolute blast crafting the AI agent for side-by-side candidate comparison in HireAI by JobFu! Its robust evaluation across ten key parameters, including Technical Skills Depth, Programming Languages Proficiency, Project Complexity, and Career Growth Potential, is set to revolutionize hiring processes. We’re thrilled about its potential to streamline recruitment and can’t wait to integrate this feature into the frontend, creating an intuitive, dynamic interface that empowers recruiters with unparalleled insights and efficiency!
 
