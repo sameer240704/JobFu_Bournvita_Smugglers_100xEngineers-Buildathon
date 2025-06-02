@@ -254,7 +254,7 @@ const Page = () => {
         user: userId, // Make sure userId is available and correct
         query: trimmedQuery,
         filters: cleanFiltersPayload,
-        response: aiData.map((can) => can.candidate_id), // Assuming aiData.response is an array of candidate IDs or basic info
+        response: aiData.ranked_candidates.map((can) => can.candidate_id), // Assuming aiData.response is an array of candidate IDs or basic info
       };
 
       const chatResponse = await fetch(

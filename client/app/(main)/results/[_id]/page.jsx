@@ -84,12 +84,11 @@ const CandidateSearchResults = () => {
         setAllChatHistory(data.data);
       } catch (error) {
         console.error("Error fetching all chats:", error);
-        toast.error("Failed to load chat history");
+        // toast.error("Failed to load chat history");`
       }
     };
     fetchAllChats();
   }, [userId]);
-  console.log(allChatHistory);
 
   useEffect(() => {
     const fetchShortlistedCandidates = async () => {
