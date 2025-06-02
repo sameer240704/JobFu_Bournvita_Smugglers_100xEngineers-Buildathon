@@ -9,106 +9,172 @@ import {
   ExternalLink,
   Calendar,
   Award,
-  Building2, // For Experience (general)
-  GraduationCap, // For Education (general)
-  Code, // For Projects / Skills (general)
-  Star, // For Skills / Rating (general)
-  Users, // For Additional / Followers
-  BookOpen, // For Publications / Articles
-  Briefcase, // For Job Title in LinkedIn Profile
-  Globe, // For Website in LinkedIn Profile
-  MessageSquare, // For About section
-  Share2, // For Activities
-  Heart, // For Volunteering
-  CheckCircle, // For Certifications
-  Languages as LanguagesIcon, // For Languages, aliased to avoid conflict
-  Image as ImageIcon, // For missing images
+  Building2,
+  GraduationCap,
+  Code,
+  Star,
+  User,
+  BookOpen,
+  Briefcase,
+  Globe,
+  MessageSquare,
+  Share2,
+  Heart,
+  CheckCircle,
+  Languages as LanguagesIcon,
   Link2,
-  Brain, // For links
+  Brain,
+  Database,
+  GithubIcon,
+  Notebook,
 } from "lucide-react";
 import { useParams } from "next/navigation";
-import { Button } from "@/components/ui/button"; // Assuming you have this
-import { useCurrentUserId } from "@/hooks/use-current-user-id"; // Assuming you have this
-import Image from "next/image";
-// import Image from "next/image"; // Using <img> for simplicity with external URLs for now
-
-// The LinkedIn JSON data you provided (assuming it comes from candidateData.linkedinScrapedProfile)
+import { Button } from "@/components/ui/button"; // Assuming path
+import { useCurrentUserId } from "@/hooks/use-current-user-id"; // Assuming path
+import GitHubProfileTab from "@/components/misc/GitHubProfileTab"; // Import the new component
 
 const CandidateProfile = () => {
-  const [activeTab, setActiveTab] = useState("experiences");
+  const [activeTab, setActiveTab] = useState("experiences"); // Default tab
   const params = useParams();
-  const id = params._id; // Or params.id, depending on your route structure
+  const candidateIdFromUrl = params._id;
   const [candidateData, setCandidateData] = useState({});
-  const [linkedInProfileData, setLinkedInProfileData] = useState(null); // State for LinkedIn specific data
-  const [loading, setLoading] = useState(true); // State for loading
-  const [summary, setSummary] = useState([]);
-  const user = useCurrentUserId();
-  const [userId, setUserId] = useState("");
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [linkedInProfileData, setLinkedInProfileData] = useState(null);
+  const [githubData, setGithubData] = useState(null);
+  const [summary, setSummary] = useState([]); // For AI generated summary
+  const [loading, setLoading] = useState(true);
+  const [isShortlisted, setIsShortlisted] = useState(false); // Local state for shortlist button
 
+  const authProviderUserId = useCurrentUserId();
+  const [dbUserId, setDbUserId] = useState(""); // Application's internal MongoDB user ID
+
+  // Fetch application's internal user ID
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${user}`)
-      .then((response) => response.json())
-      .then((data) => {
-        setUserId(data.user[0]._id);
-      })
-      .catch((error) => {
-        console.error("Error fetching user data:", error);
-      });
-  }, [user]);
-
-  console.log(userId);
-
-  useEffect(() => {
-    if (id) {
-      setLoading(true);
-      fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/candidates/${id}`)
+    if (authProviderUserId) {
+      fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${authProviderUserId}`
+      )
         .then((response) => response.json())
         .then((data) => {
-          const mainData = {
-            ...data,
-            experience: Object.values(data.experience || {}),
-          };
-          setCandidateData(mainData);
-          setLinkedInProfileData(data.linkedin_data?.profile_data); // Use fetched or sample
+          if (data && data.user && data.user.length > 0 && data.user[0]?._id) {
+            setDbUserId(data.user[0]._id);
+          } else {
+            console.error("User's database ID not found.");
+          }
+        })
+        .catch((error) =>
+          console.error("Error fetching user's database ID:", error)
+        );
+    }
+  }, [authProviderUserId]);
+
+  // Fetch candidate data (including LinkedIn and GitHub sub-objects)
+
+  useEffect(() => {
+    if (candidateIdFromUrl) {
+      setLoading(true);
+      fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/candidates/${candidateIdFromUrl}`
+      )
+        .then((response) => {
+          if (!response)
+            throw new Error(`HTTP error! status: ${response.status}`);
+          return response.json();
+        })
+        .then((apiResponse) => {
+          if (apiResponse && apiResponse) {
+            const data = apiResponse;
+            const mainData = {
+              ...data,
+              experience: Object.values(data.experience || {}), // Normalize experience
+            };
+            setCandidateData(mainData);
+            setLinkedInProfileData(data.linkedin_data?.profile_data || null);
+            setGithubData(data.github_data || null); // Assuming github_data is the key
+            setIsShortlisted(data.shortlisted || false); // Initialize shortlist status
+            if (data.ai_summary_data?.raw_summary) {
+              // Pre-populate summary if available
+              setSummary(data.ai_summary_data.raw_summary);
+            }
+          } else {
+            console.error(
+              "Candidate data not found or API error:",
+              apiResponse
+            );
+            setCandidateData({});
+            setLinkedInProfileData(null);
+            setGithubData(null);
+          }
         })
         .catch((error) => {
           console.error("Error fetching candidate data:", error);
+          setCandidateData({});
+          setLinkedInProfileData(null);
+          setGithubData(null);
         })
         .finally(() => {
           setLoading(false);
         });
+    } else {
+      setLoading(false); // No ID, so not loading
     }
-  }, [id]);
+  }, [candidateIdFromUrl]);
 
   console.log(candidateData);
 
-  if (loading && !linkedInProfileData) {
-    return <div>Loading...</div>;
-  }
+  const handleToggleShortlist = async () => {
+    if (!dbUserId || !candidateIdFromUrl) {
+      alert("User or Candidate ID missing.");
+      return;
+    }
+    const newShortlistStatus = !isShortlisted;
+    const endpoint = newShortlistStatus
+      ? `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${dbUserId}/add`
+      : `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${dbUserId}/candidate/${candidateIdFromUrl}`; // Assuming this is your remove endpoint
 
-  const handleAddToShortlist = () => {
+    const method = newShortlistStatus ? "POST" : "DELETE";
+
     try {
-      fetch(
-        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${userId}/add`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            userId: userId,
-            chatHistoryId: chatHistoryId,
-            candidateId: id,
-          }),
-        }
-      );
+      const response = await fetch(endpoint, {
+        method: method,
+        headers: { "Content-Type": "application/json" },
+        body: newShortlistStatus
+          ? JSON.stringify({ candidateId: candidateIdFromUrl })
+          : null,
+      });
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(
+          errorData.message || "Failed to update shortlist status"
+        );
+      }
+      setIsShortlisted(newShortlistStatus);
+      // Optionally: show a success toast
     } catch (error) {
-      console.error("Error adding to shortlist:", error);
+      console.error("Error updating shortlist status:", error);
+      alert("Error: " + error.message);
     }
   };
 
-  const TabButton = ({ id, label, icon: Icon, isActive, onClick }) => (
+  const handleGenerateSummary = async () => {
+    if (candidateData.ai_summary_data?.raw_summary) {
+      setSummary(candidateData.ai_summary_data.raw_summary);
+      return; // Use existing summary
+    }
+    // If no existing summary, proceed to generate (implement API call if needed)
+    alert(
+      "AI Summary generation endpoint not implemented yet. Showing placeholder."
+    );
+    // Placeholder:
+    // setLoading(true);
+    // try {
+    //   const response = await fetch(`/api/candidates/${candidateIdFromUrl}/generate-summary`, { method: 'POST' });
+    //   const data = await response.json();
+    //   if (data.success) setSummary(data.summary); else throw new Error(data.message);
+    // } catch (error) { console.error("Error generating summary:", error); }
+    // finally { setLoading(false); }
+  };
+
+  const TabButton = ({ id, label, icon: IconComponent, isActive, onClick }) => (
     <button
       onClick={() => onClick(id)}
       className={`flex items-center gap-2 px-4 md:px-6 py-3 text-sm font-medium transition-all duration-200 border-b-2 whitespace-nowrap ${
@@ -117,7 +183,7 @@ const CandidateProfile = () => {
           : "text-gray-600 border-transparent hover:text-blue-600 hover:border-blue-300"
       }`}
     >
-      <Icon size={16} />
+      <IconComponent size={16} />
       {label}
     </button>
   );
@@ -126,11 +192,9 @@ const CandidateProfile = () => {
     <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow duration-200">
       <div className="flex items-start gap-4 mb-4">
         <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
-          {experience.company_name
-            ? experience.company_name.charAt(0)
-            : experience.company
-            ? experience.company.charAt(0)
-            : "C"}
+          {experience.company_name?.charAt(0) ||
+            experience.company?.charAt(0) ||
+            "C"}
         </div>
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-gray-900 mb-1">
@@ -166,24 +230,23 @@ const CandidateProfile = () => {
           {experience.summary || experience.description}
         </p>
       )}
-      {experience.technologies_used &&
-        experience.technologies_used.length > 0 && (
-          <div className="flex flex-wrap gap-2">
-            {experience.technologies_used.slice(0, 6).map((tech, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
-              >
-                {tech}
-              </span>
-            ))}
-            {experience.technologies_used.length > 6 && (
-              <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
-                +{experience.technologies_used.length - 6} more
-              </span>
-            )}
-          </div>
-        )}
+      {experience.technologies_used?.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {experience.technologies_used.slice(0, 6).map((tech, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
+            >
+              {tech}
+            </span>
+          ))}
+          {experience.technologies_used.length > 6 && (
+            <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+              +{experience.technologies_used.length - 6} more
+            </span>
+          )}
+        </div>
+      )}
     </div>
   );
 
@@ -196,7 +259,7 @@ const CandidateProfile = () => {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-blue-600 transition-colors"
+            className="text-gray-400 hover:text-blue-600"
           >
             <Github size={20} />
           </a>
@@ -216,11 +279,11 @@ const CandidateProfile = () => {
     </div>
   );
 
-  const SkillSection = ({ title, skills, icon: Icon }) =>
-    skills && skills.length > 0 ? ( // Check if skills array exists and is not empty
+  const SkillSection = ({ title, skills, icon: IconComponent }) =>
+    skills?.length > 0 ? (
       <div className="mb-6">
         <h4 className="flex items-center gap-2 text-sm font-semibold text-gray-900 mb-3">
-          <Icon size={16} className="text-blue-600" />
+          <IconComponent size={16} className="text-blue-600" />
           {title}
         </h4>
         <div className="flex flex-wrap gap-2">
@@ -229,8 +292,7 @@ const CandidateProfile = () => {
               key={index}
               className="px-3 py-1 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg"
             >
-              {skill.name || skill}{" "}
-              {/* Handle if skill is an object or string */}
+              {skill.name || skill}
             </span>
           ))}
         </div>
@@ -258,12 +320,10 @@ const CandidateProfile = () => {
     const LinkedInExperienceItem = ({ exp }) => (
       <div className="flex items-start gap-4 py-4 border-b border-gray-100 last:border-b-0">
         {exp?.company_image ? (
-          <Image
+          <img
             src={exp.company_image}
             alt={exp.company_name}
             className="w-12 h-12 rounded-md object-contain flex-shrink-0"
-            height={100}
-            width={100}
           />
         ) : (
           <div className="w-12 h-12 bg-gray-100 rounded-md flex items-center justify-center text-gray-400 flex-shrink-0">
@@ -298,12 +358,10 @@ const CandidateProfile = () => {
         {edu?.college_image &&
         edu?.college_image !==
           "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw" ? (
-          <Image
+          <img
             src={edu.college_image}
             alt={edu.college_name}
             className="w-12 h-12 rounded-md object-contain flex-shrink-0"
-            height={100}
-            width={100}
           />
         ) : (
           <div className="w-12 h-12 bg-gray-100 rounded-md flex items-center justify-center text-gray-400 flex-shrink-0">
@@ -335,12 +393,10 @@ const CandidateProfile = () => {
     const LinkedInCertificationItem = ({ cert }) => (
       <div className="flex items-start gap-4 py-4 border-b border-gray-100 last:border-b-0">
         {cert.company_image ? (
-          <Image
+          <img
             src={cert.company_image}
             alt={cert.company_name}
             className="w-12 h-12 rounded-md object-contain flex-shrink-0"
-            height={100}
-            width={100}
           />
         ) : (
           <div className="w-12 h-12 bg-gray-100 rounded-md flex items-center justify-center text-gray-400 flex-shrink-0">
@@ -457,12 +513,10 @@ const CandidateProfile = () => {
             className="hover:bg-gray-50 p-2 -m-2 block rounded-md"
           >
             {act.image && (
-              <Image
+              <img
                 src={act.image}
                 alt="Activity image"
                 className="w-full h-auto max-h-48 object-cover rounded-md mb-2"
-                height={10000}
-                width={10000}
               />
             )}
             <p className="text-sm text-gray-700 mb-1 line-clamp-3">
@@ -486,28 +540,36 @@ const CandidateProfile = () => {
         {/* LinkedIn Header Section */}
         <div className="relative bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
           {data.background_cover_image_url && (
-            <Image
+            <img
               src={data.background_cover_image_url}
               alt="Cover"
               className="w-full h-32 sm:h-48 object-cover"
-              height={10000}
-              width={10000}
+              onError={(e) => (e.currentTarget.style.display = "none")}
             />
           )}
           <div className="p-6">
             <div className="flex flex-col sm:flex-row items-start sm:gap-6">
-              {data.profile_photo && (
-                <Image
+              {data.profile_photo ? (
+                <img
                   src={data.profile_photo}
-                  alt={data.fullName}
-                  height={10000}
-                  width={10000}
+                  alt={data.fullName || "Profile"}
                   className={`w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-white flex-shrink-0 object-cover ${
                     data.background_cover_image_url
                       ? "-mt-12 sm:-mt-16"
                       : "mt-0"
                   } mb-4 sm:mb-0 shadow-md`}
+                  onError={(e) => (e.currentTarget.style.display = "none")}
                 />
+              ) : (
+                <div
+                  className={`w-24 h-24 sm:w-32 sm:h-32 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 text-4xl font-semibold ${
+                    data.background_cover_image_url
+                      ? "-mt-12 sm:-mt-16"
+                      : "mt-0"
+                  } mb-4 sm:mb-0 shadow-md`}
+                >
+                  {(data.first_name?.[0] || "") + (data.last_name?.[0] || "")}
+                </div>
               )}
               <div className="flex-1 min-w-0">
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
@@ -520,61 +582,38 @@ const CandidateProfile = () => {
                 <div className="flex items-center gap-4 mt-2 text-sm text-gray-600">
                   {data.followers && (
                     <span className="flex items-center gap-1">
-                      <Users size={14} />
+                      <User size={14} />
                       {data.followers}
                     </span>
                   )}
                   {data.connections && <span>{data.connections}</span>}
                 </div>
-                {/* Top Card Description Links from LinkedIn Data */}
-                {data.description && (
+                {data.description && typeof data.description === "object" && (
                   <div className="mt-3 text-xs text-gray-500 space-y-0.5">
-                    {data.description.description1 &&
-                      data.description.description1_link && (
-                        <p>
+                    {Object.entries(data.description).map(([key, value]) => {
+                      if (key.endsWith("_link") || !value) return null;
+                      const linkKey = `${key}_link`;
+                      return value && data.description[linkKey] ? (
+                        <p key={key}>
                           <a
-                            href={data.description.description1_link}
+                            href={data.description[linkKey]}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:underline text-blue-600"
                           >
-                            {data.description.description1}
+                            {value}
                           </a>
                         </p>
-                      )}
-                    {data.description.description2 &&
-                      data.description.description2_link && (
-                        <p>
-                          <a
-                            href={data.description.description2_link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:underline text-blue-600"
-                          >
-                            {data.description.description2}
-                          </a>
-                        </p>
-                      )}
-                    {data.description.description3 &&
-                      data.description.description3_link && (
-                        <p>
-                          <a
-                            href={data.description.description3_link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:underline text-blue-600"
-                          >
-                            {data.description.description3}
-                          </a>
-                        </p>
-                      )}
+                      ) : value ? (
+                        <p key={key}>{value}</p>
+                      ) : null;
+                    })}
                   </div>
                 )}
               </div>
             </div>
           </div>
         </div>
-
         {data.about && (
           <SectionWrapper title="About" icon={MessageSquare}>
             <p className="text-gray-700 leading-relaxed whitespace-pre-line">
@@ -583,102 +622,70 @@ const CandidateProfile = () => {
           </SectionWrapper>
         )}
 
-        {data.experience && data.experience.length > 0 && (
-          <SectionWrapper title="Experience" icon={Briefcase}>
-            <div className="space-y-4">
-              {data.experience.map((exp, index) => (
-                <LinkedInExperienceItem
-                  key={`linkedin-exp-${index}`}
-                  exp={exp}
-                />
-              ))}
-            </div>
-          </SectionWrapper>
-        )}
-
-        {data.education && data.education.length > 0 && (
+        {data.education?.length > 0 && (
           <SectionWrapper title="Education" icon={GraduationCap}>
-            <div className="space-y-4">
-              {data.education.map((edu, index) => (
-                <LinkedInEducationItem
-                  key={`linkedin-edu-${index}`}
-                  edu={edu}
-                />
+            <div className="space-y-0">
+              {data.education.map((edu, i) => (
+                <LinkedInEducationItem key={`li-edu-${i}`} edu={edu} />
               ))}
             </div>
           </SectionWrapper>
         )}
-
-        {/* Skills from LinkedIn Data (if different from primary skills tab) */}
-        {data.skills && data.skills.length > 0 && (
-          <SectionWrapper title="Skills (from LinkedIn)" icon={Star}>
+        {data.skills?.length > 0 && (
+          <SectionWrapper title="Skills" icon={Star}>
             <div className="flex flex-wrap gap-2">
-              {data.skills.map((skill, index) => (
+              {data.skills.map((s, i) => (
                 <span
-                  key={`linkedin-skill-${index}`}
+                  key={`li-skill-${i}`}
                   className="px-3 py-1 bg-indigo-50 text-indigo-700 text-sm font-medium rounded-lg"
                 >
-                  {skill}
+                  {s.name || s}
                 </span>
               ))}
             </div>
           </SectionWrapper>
         )}
-
-        {data.certification && data.certification.length > 0 && (
+        {data.certification?.length > 0 && (
           <SectionWrapper title="Licenses & Certifications" icon={CheckCircle}>
-            <div className="space-y-4">
-              {data.certification.map((cert, index) => (
-                <LinkedInCertificationItem
-                  key={`linkedin-cert-${index}`}
-                  cert={cert}
-                />
+            <div className="space-y-0">
+              {data.certification.map((cert, i) => (
+                <LinkedInCertificationItem key={`li-cert-${i}`} cert={cert} />
               ))}
             </div>
           </SectionWrapper>
         )}
-
-        {data.volunteering && data.volunteering.length > 0 && (
+        {data.volunteering?.length > 0 && (
           <SectionWrapper title="Volunteering" icon={Heart}>
-            <div className="space-y-4">
-              {data.volunteering?.map((vol, index) => (
-                <LinkedInVolunteeringItem
-                  key={`linkedin-vol-${index}`}
-                  vol={vol}
-                />
+            <div className="space-y-0">
+              {data.volunteering.map((vol, i) => (
+                <LinkedInVolunteeringItem key={`li-vol-${i}`} vol={vol} />
               ))}
             </div>
           </SectionWrapper>
         )}
-
-        {data.languages && data.languages.length > 0 && (
+        {data.languages?.length > 0 && (
           <SectionWrapper title="Languages" icon={LanguagesIcon}>
-            <div className="space-y-1">
-              {data.languages?.map((lang, index) => (
-                <LinkedInLanguageItem
-                  key={`linkedin-lang-${index}`}
-                  lang={lang}
-                />
+            <div className="space-y-0">
+              {data.languages.map((lang, i) => (
+                <LinkedInLanguageItem key={`li-lang-${i}`} lang={lang} />
               ))}
             </div>
           </SectionWrapper>
         )}
-
-        {data.activities && data.activities.length > 0 && (
+        {data.activities?.length > 0 && (
           <SectionWrapper title="Activities" icon={Share2}>
-            <div className="grid grid-cols-3 space-x-4 space-y-4">
-              {data.activities.map((act, index) => (
-                <LinkedInActivityItem key={`linkedin-act-${index}`} act={act} />
+            <div className="grid grid-cols-3 gap-4 space-y-4">
+              {data.activities.map((act, i) => (
+                <LinkedInActivityItem key={`li-act-${i}`} act={act} />
               ))}
             </div>
           </SectionWrapper>
         )}
-
-        {data.similar_profiles && data.similar_profiles.length > 0 && (
-          <SectionWrapper title="People Also Viewed" icon={Share2}>
-            <div className="space-y-1 grid grid-cols-4 w-full justify-center gap-2">
-              {data.similar_profiles.map((profile, index) => (
-                <LinkedInSimilarProfileItem key={index} profile={profile} />
+        {data.similar_profiles?.length > 0 && (
+          <SectionWrapper title="People Also Viewed" icon={User}>
+            <div className="flex space-x-4 overflow-x-auto pb-3 -mb-3 scrollbar-thin scrollbar-thumb-gray-300 hover:scrollbar-thumb-gray-400 scrollbar-track-transparent">
+              {data.similar_profiles.map((p, i) => (
+                <LinkedInSimilarProfileItem key={`li-sim-${i}`} profile={p} />
               ))}
             </div>
           </SectionWrapper>
@@ -687,27 +694,68 @@ const CandidateProfile = () => {
     );
   };
 
-  const handleGenerateSummary = async () => {
-    setLoading(true);
-    try {
-      if (candidateData.ai_summary_data?.raw_summary) {
-        setSummary(candidateData.ai_summary_data.raw_summary);
-        setIsModalOpen(true);
-      }
-      setLoading(false);
-    } catch (error) {
-      console.error("Error generating summary:", error);
-      setLoading(false);
-    }
-  };
+  if (loading) {
+    return (
+      <div className="h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <svg
+            className="animate-spin h-16 w-16 text-purple-600 mx-auto mb-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              className="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              strokeWidth="4"
+            ></circle>
+            <path
+              className="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+            ></path>
+          </svg>
+          <p className="text-xl font-semibold text-gray-700">
+            Loading Candidate Profile...
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  if (
+    !candidateData.name &&
+    !linkedInProfileData?.fullName &&
+    !githubData?.profile?.name
+  ) {
+    return (
+      <div className="h-screen overflow-scroll bg-gray-50 flex items-center justify-center p-4">
+        <div className="text-center bg-white p-10 rounded-xl shadow-xl">
+          <User size={64} className="mx-auto mb-6 text-red-500" />
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">
+            Profile Not Found
+          </h2>
+          <p className="text-gray-600 mb-6">
+            We couldn't find the candidate profile you were looking for.
+          </p>
+          <Button
+            onClick={() => router.push("/chat-history")}
+            className="bg-purple-600 hover:bg-purple-700"
+          >
+            Back to Searches
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="h-screen overflow-scroll bg-gray-50">
       <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-b-lg">
-        {/* Header */}
-        <div className="bg-white border-b border-gray-200 px-6 py-4 sticky top-0 z-10">
-          {" "}
-          {/* Made header sticky */}
+        <header className="bg-white border-b border-gray-200 px-6 py-4 sticky top-0 z-30">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <h1 className="text-xl font-semibold text-gray-900">
               Candidate Profile
@@ -718,346 +766,337 @@ const CandidateProfile = () => {
                 className="border-purple-600 text-purple-600 hover:bg-purple-50 hover:text-purple-500"
                 onClick={handleGenerateSummary}
               >
-                <Brain className="w-5 h-5" /> Generate Summary
+                <Brain size={18} className="mr-2" /> AI Summary
               </Button>
               <Button
-                className="bg-gradient-to-r from-purple-500 to-purple-600 text-white hover:from-purple-600 hover:to-purple-700"
-                onClick={handleAddToShortlist}
+                className={`transition-colors ${
+                  isShortlisted
+                    ? "bg-green-600 hover:bg-green-700"
+                    : "bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700"
+                }`}
+                onClick={handleToggleShortlist}
               >
-                {candidateData.shortlisted ? "✓ Shortlisted" : "Shortlist"}
+                {isShortlisted ? (
+                  <>
+                    <CheckCircle size={18} className="mr-2" /> Shortlisted
+                  </>
+                ) : (
+                  "Shortlist Candidate"
+                )}
               </Button>
             </div>
           </div>
-        </div>
-        {/* Profile Header */}
-        {candidateData.name && ( // Only render if candidateData is loaded
-          <div className="relative">
-            {linkedInProfileData?.background_cover_image_url && (
-              <Image
-                src={linkedInProfileData.background_cover_image_url}
-                alt="Cover"
-                className="w-full h-40 md:h-56 object-cover rounded-t-lg"
-                height={10000}
-                width={10000}
-              />
+        </header>
+
+        <div className="relative px-4 py-6">
+          <div className="flex items-start gap-6">
+            {linkedInProfileData?.profile_photo ||
+            candidateData?.profile_photo_url ? (
+              <div className="flex-col">
+                <img
+                  src={
+                    linkedInProfileData?.profile_photo ||
+                    candidateData?.profile_photo_url
+                  }
+                  alt={
+                    linkedInProfileData?.fullName ||
+                    candidateData?.candidate_name ||
+                    "Profile"
+                  }
+                  className={`w-28 h-28 md:w-32 md:h-32 rounded-full border-4 border-white object-cover flex-shrink-0 shadow-lg ${
+                    linkedInProfileData?.background_cover_image_url ||
+                    candidateData?.cover_image_url
+                      ? ""
+                      : ""
+                  }`}
+                  onError={(e) => (e.currentTarget.style.display = "none")}
+                />
+                <div className="grid items-center gap-3 mt-4">
+                  {candidateData?.contact_information?.linkedin && (
+                    <a
+                      href={candidateData.contact_information.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg transition-colors ${
+                        linkedInProfileData?.background_cover_image_url ||
+                        candidateData?.cover_image_url
+                          ? "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                          : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
+                      }`}
+                    >
+                      <Linkedin size={14} /> LinkedIn
+                    </a>
+                  )}
+                  {candidateData?.contact_information?.github && (
+                    <a
+                      href={candidateData.contact_information.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg transition-colors ${
+                        linkedInProfileData?.background_cover_image_url ||
+                        candidateData?.cover_image_url
+                          ? "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                          : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
+                      }`}
+                    >
+                      <Github size={14} /> GitHub
+                    </a>
+                  )}
+                  {candidateData?.contact_information?.portfolio && (
+                    <a
+                      href={candidateData.contact_information.portfolio}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg transition-colors ${
+                        linkedInProfileData?.background_cover_image_url ||
+                        candidateData?.cover_image_url
+                          ? "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                          : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
+                      }`}
+                    >
+                      <ExternalLink size={14} /> Portfolio
+                    </a>
+                  )}
+                </div>
+              </div>
+            ) : (
+              (candidateData?.candidate_name ||
+                linkedInProfileData?.fullName) && (
+                <div
+                  className={`w-28 h-28 md:w-32 md:h-32 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 text-4xl font-bold flex-shrink-0 shadow-lg`}
+                >
+                  {(
+                    candidateData?.candidate_name ||
+                    linkedInProfileData?.fullName
+                  )
+                    ?.split(" ")
+                    .map((word, index) => (
+                      <span key={index}>{word.charAt(0)}</span>
+                    ))
+                    .slice(0, 2)}
+                </div>
+              )
             )}
             <div
-              className={`px-6 py-8 ${
-                !linkedInProfileData?.background_cover_image_url
-                  ? "bg-gradient-to-r from-blue-600 to-purple-700 rounded-t-lg"
-                  : ""
+              className={`flex-1 ${
+                linkedInProfileData?.background_cover_image_url ||
+                candidateData?.cover_image_url
+                  ? "pt-4"
+                  : "text-white"
               }`}
             >
-              <div className="flex flex-col md:flex-row items-start gap-6">
-                {linkedInProfileData?.profile_photo ? (
-                  <Image
-                    src={linkedInProfileData.profile_photo}
-                    height={10000}
-                    width={10000}
-                    alt={
-                      linkedInProfileData.fullName ||
-                      candidateData.candidate_name
-                    }
-                    className={`w-28 h-28 md:w-32 md:h-32 rounded-full border-4 border-white object-cover flex-shrink-0 shadow-lg ${
-                      linkedInProfileData?.background_cover_image_url
-                        ? "-mt-16 md:-mt-20"
-                        : ""
-                    }`}
-                  />
-                ) : (
-                  <div
-                    className={`w-28 h-28 md:w-32 md:h-32 bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center text-white text-4xl font-bold flex-shrink-0 shadow-lg ${
-                      linkedInProfileData?.background_cover_image_url
-                        ? "-mt-16 md:-mt-20"
-                        : ""
-                    }`}
-                  >
-                    {candidateData.candidate_name
-                      ?.split(" ")
-                      .map((word, index) => (
-                        <span key={index}>{word.charAt(0)}</span>
-                      ))}
-                  </div>
+              <h2
+                className={`text-2xl md:text-3xl font-bold mb-1 ${
+                  linkedInProfileData?.background_cover_image_url ||
+                  candidateData?.cover_image_url
+                    ? "text-gray-900"
+                    : "text-white"
+                }`}
+              >
+                {linkedInProfileData?.fullName ||
+                  candidateData?.candidate_name ||
+                  "N/A"}
+              </h2>
+              <p
+                className={`text-md md:text-lg mb-2 ${
+                  linkedInProfileData?.background_cover_image_url ||
+                  candidateData?.cover_image_url
+                    ? "text-gray-600"
+                    : "text-blue-100"
+                }`}
+              >
+                {linkedInProfileData?.headline ||
+                  candidateData?.title ||
+                  "No headline available"}
+              </p>
+              <p
+                className={`text-sm mb-3 max-w-2xl leading-relaxed ${
+                  linkedInProfileData?.background_cover_image_url ||
+                  candidateData?.cover_image_url
+                    ? "text-gray-500"
+                    : "text-blue-100"
+                }`}
+              >
+                {candidateData?.description ||
+                  linkedInProfileData?.about ||
+                  "No description available."}
+              </p>
+              <div
+                className={`flex flex-wrap items-center gap-x-6 gap-y-2 text-sm ${
+                  linkedInProfileData?.background_cover_image_url ||
+                  candidateData?.cover_image_url
+                    ? "text-gray-500"
+                    : "text-blue-100"
+                }`}
+              >
+                {candidateData?.contact_information?.location && (
+                  <span className="flex items-center gap-2">
+                    <MapPin size={16} />
+                    {candidateData.contact_information.location}
+                  </span>
                 )}
-                <div
-                  className={`flex-1 ${
-                    linkedInProfileData?.background_cover_image_url
-                      ? "pt-4"
-                      : "text-white"
-                  }`}
-                >
-                  <h2
-                    className={`text-2xl md:text-3xl font-bold mb-1 ${
-                      linkedInProfileData?.background_cover_image_url
-                        ? "text-gray-900"
-                        : "text-white"
+                {candidateData?.contact_information?.email && (
+                  <a
+                    href={`mailto:${candidateData.contact_information.email}`}
+                    className={`flex items-center gap-2 transition-colors ${
+                      linkedInProfileData?.background_cover_image_url ||
+                      candidateData?.cover_image_url
+                        ? "hover:text-blue-600"
+                        : "hover:text-blue-200"
                     }`}
                   >
-                    {linkedInProfileData?.fullName ||
-                      candidateData.candidate_name}
-                  </h2>
-                  <p
-                    className={`text-md md:text-lg mb-2 ${
-                      linkedInProfileData?.background_cover_image_url
-                        ? "text-gray-600"
-                        : "text-blue-100"
-                    }`}
-                  >
-                    {
-                      linkedInProfileData?.headline ||
-                        candidateData.title /* Assuming candidateData.title for fallback */
-                    }
-                  </p>
-                  <p
-                    className={`text-sm mb-3 max-w-2xl leading-relaxed ${
-                      linkedInProfileData?.background_cover_image_url
-                        ? "text-gray-500"
-                        : "text-blue-100"
-                    }`}
-                  >
-                    {
-                      candidateData.description /* This is the main description from your original schema */
-                    }
-                  </p>
-
-                  <div
-                    className={`flex flex-wrap items-center gap-x-6 gap-y-2 text-sm ${
-                      linkedInProfileData?.background_cover_image_url
-                        ? "text-gray-500"
-                        : "text-blue-100"
-                    }`}
-                  >
-                    {candidateData.contact_information?.location && (
-                      <span className="flex items-center gap-2">
-                        <MapPin size={16} />
-                        {candidateData.contact_information.location}
-                      </span>
-                    )}
-                    {candidateData.contact_information?.email && (
-                      <a
-                        href={`mailto:${candidateData.contact_information.email}`}
-                        className={`flex items-center gap-2 transition-colors ${
-                          linkedInProfileData?.background_cover_image_url
-                            ? "hover:text-blue-600"
-                            : "hover:text-blue-200"
-                        }`}
-                      >
-                        <Mail size={16} />
-                        {candidateData.contact_information.email}
-                      </a>
-                    )}
-                    {candidateData.contact_information?.phone && (
-                      <span className="flex items-center gap-2">
-                        <Phone size={16} />
-                        {candidateData.contact_information.phone}
-                      </span>
-                    )}
-                  </div>
-
-                  <div className="flex flex-wrap items-center gap-3 mt-4">
-                    {candidateData.contact_information?.linkedin && (
-                      <a
-                        href={candidateData.contact_information.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`flex items-center gap-2 px-3 py-1.5 text-xs rounded-lg transition-colors ${
-                          linkedInProfileData?.background_cover_image_url
-                            ? "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                            : "bg-white/20 text-white backdrop-blur-sm hover:bg-white/30"
-                        }`}
-                      >
-                        <Linkedin size={14} /> LinkedIn
-                      </a>
-                    )}
-                    {/* Add GitHub and Portfolio similarly */}
-                  </div>
-                </div>
+                    <Mail size={16} />
+                    {candidateData.contact_information.email}
+                  </a>
+                )}
+                {candidateData?.contact_information?.phone && (
+                  <span className="flex items-center gap-2">
+                    <Phone size={16} />
+                    {candidateData.contact_information.phone}
+                  </span>
+                )}
               </div>
             </div>
           </div>
-        )}
-        {/* Tabs */}
-        <div className="border-b border-gray-200 bg-white sticky top-[70px] z-10">
+        </div>
+
+        <nav className="border-b border-gray-200 bg-white sticky top-[70px] z-20">
           {" "}
-          {/* Adjust top value based on header height */}
-          <div className="max-w-6xl mx-auto flex overflow-x-auto">
+          {/* Tabs also sticky */}
+          <div className="max-w-6xl mx-auto flex overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 hover:scrollbar-thumb-gray-400 scrollbar-track-transparent">
             <TabButton
               id="experiences"
-              label="Summary" // Changed from Experiences to Summary
-              icon={Building2}
+              label="Summary"
+              icon={Briefcase}
               isActive={activeTab === "experiences"}
               onClick={setActiveTab}
             />
-            <TabButton
-              id="linkedin"
-              label="LinkedIn Profile"
-              icon={Linkedin}
-              isActive={activeTab === "linkedin"}
-              onClick={setActiveTab}
-            />
-            <TabButton
-              id="projects"
-              label="Projects"
-              icon={Code}
-              isActive={activeTab === "projects"}
-              onClick={setActiveTab}
-            />
-
-            <TabButton
-              id="skills"
-              label="Skills"
-              icon={Star}
-              isActive={activeTab === "skills"}
-              onClick={setActiveTab}
-            />
-            {candidateData.additional_information &&
-              Object.keys(candidateData.additional_information).length > 0 && (
+            {linkedInProfileData && (
+              <TabButton
+                id="linkedin"
+                label="LinkedIn"
+                icon={Linkedin}
+                isActive={activeTab === "linkedin"}
+                onClick={setActiveTab}
+              />
+            )}
+            {githubData && (
+              <TabButton
+                id="github"
+                label="GitHub"
+                icon={Github}
+                isActive={activeTab === "github"}
+                onClick={setActiveTab}
+              />
+            )}
+            {candidateData?.projects?.length > 0 && (
+              <TabButton
+                id="projects"
+                label="Projects"
+                icon={Code}
+                isActive={activeTab === "projects"}
+                onClick={setActiveTab}
+              />
+            )}
+            {candidateData?.skills &&
+              (candidateData.skills.technical_skills?.programming_languages
+                ?.length > 0 ||
+                candidateData.skills.other_skills?.length > 0) && (
+                <TabButton
+                  id="skills"
+                  label="Skills"
+                  icon={Star}
+                  isActive={activeTab === "skills"}
+                  onClick={setActiveTab}
+                />
+              )}
+            {candidateData?.education?.length > 0 && (
+              <TabButton
+                id="education"
+                label="Education"
+                icon={GraduationCap}
+                isActive={activeTab === "education"}
+                onClick={setActiveTab}
+              />
+            )}
+            {candidateData?.additional_information &&
+              (candidateData.additional_information.volunteering?.length > 0 ||
+                candidateData.additional_information.publications?.length > 0 ||
+                candidateData.additional_information.awards?.length > 0) && (
                 <TabButton
                   id="additional"
                   label="Additional"
-                  icon={Users}
+                  icon={User}
                   isActive={activeTab === "additional"}
                   onClick={setActiveTab}
                 />
               )}
           </div>
-        </div>
-        {/* Tab Content */}
-        <div className="p-6 bg-gray-50 min-h-[calc(100vh-200px)]">
-          {" "}
-          {/* Added min-height and bg */}
-          {/* Experiences Tab (now Summary Tab) */}
-          {activeTab === "experiences" && candidateData.experience && (
+        </nav>
+
+        <div className="p-6 mb-8">
+          {/* Adjust min-height if needed */}
+          {activeTab === "experiences" && (
             <>
-              <div className="space-y-6">
-                <div className="bg-gradient-to-r from-blue-600 to-purple-700 px-6 py-8 rounded">
-                  <div className="flex items-start gap-6">
-                    <div className="w-32 h-32 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-white text-4xl font-bold">
-                      {candidateData.candidate_name
-                        ?.split(" ")
-                        .map((word, index) => {
-                          return <span key={index}>{word.charAt(0)}</span>;
-                        })}
-                    </div>
-                    <div className="flex-1 text-white">
-                      <h2 className="text-3xl font-bold mb-2">
-                        {candidateData.name}
-                      </h2>
-                      <p className="text-xl text-blue-100 mb-3">
-                        {candidateData.candidate_name}
-                      </p>
-                      <p className="text-blue-100 mb-4 max-w-2xl leading-relaxed">
-                        {candidateData.description}
-                      </p>
-
-                      <div className="flex items-center gap-6 text-sm">
-                        <span className="flex items-center gap-2">
-                          <MapPin size={16} />
-                          {candidateData.contact_information?.location}
-                        </span>
-                        <a
-                          href={`mailto:${candidateData.email}`}
-                          className="flex items-center gap-2 hover:text-blue-200 transition-colors"
-                        >
-                          <Mail size={16} />
-                          {candidateData.contact_information?.email}
-                        </a>
-                        <span className="flex items-center gap-2">
-                          <Phone size={16} />
-                          {candidateData.contact_information?.phone}
-                        </span>
-                      </div>
-
-                      <div className="flex items-center gap-4 mt-4">
-                        <a
-                          href={candidateData.contact_information?.linkedin}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
-                        >
-                          <Linkedin size={16} />
-                          LinkedIn
-                        </a>
-                        <a
-                          href={candidateData.contact_information?.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
-                        >
-                          <Github size={16} />
-                          GitHub
-                        </a>
-                        <a
-                          href={candidateData.contact_information?.portfolio}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
-                        >
-                          <ExternalLink size={16} />
-                          Portfolio
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 mb-6">
-                  <Building2 className="text-blue-600" size={24} />
-                  <h2 className="text-2xl font-bold text-gray-900">
-                    Work Experience Summary
-                  </h2>
-                </div>
-                {candidateData.experience?.map((exp, index) => (
-                  <ExperienceCard
-                    key={`summary-exp-${index}`}
-                    experience={exp}
-                  />
-                ))}
-              </div>
-
               {summary.length > 0 && (
-                <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+                <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
-                    <Brain className="text-blue-600" size={24} />
+                    <Brain className="text-purple-600" size={24} />
                     <h2 className="text-2xl font-bold text-gray-900">
                       AI Generated Summary
                     </h2>
                   </div>
-                  <div className="space-y-4">
+                  <div className="space-y-3 text-gray-700 leading-relaxed prose prose-sm max-w-none">
                     {summary.map((item, index) => (
-                      <p key={index} className="text-gray-700 leading-relaxed">
-                        {item}
-                      </p>
+                      <p key={index}>{item}</p>
                     ))}
                   </div>
                 </div>
               )}
+              {candidateData?.experience?.length > 0 ? (
+                <div className="space-y-6">
+                  <div className="flex items-center gap-3">
+                    <Briefcase className="text-blue-600" size={24} />
+                    <h2 className="text-2xl font-bold text-gray-900">
+                      Work Experience
+                    </h2>
+                  </div>
+                  {candidateData.experience.map((exp, index) => (
+                    <ExperienceCard
+                      key={`summary-exp-${index}`}
+                      experience={exp}
+                    />
+                  ))}
+                </div>
+              ) : (
+                summary.length === 0 && (
+                  <p className="text-gray-500 text-center py-10">
+                    No summary or work experience available.
+                  </p>
+                )
+              )}
             </>
           )}
-          {/* LinkedIn Profile Tab */}
-          {activeTab === "linkedin" && (
+          {activeTab === "linkedin" && linkedInProfileData && (
             <LinkedInProfileTabContent data={linkedInProfileData} />
           )}
-          {/* Projects Tab */}
-          {activeTab === "projects" && candidateData.projects && (
+          {activeTab === "github" && githubData && (
+            <GitHubProfileTab githubData={githubData} />
+          )}
+          {activeTab === "projects" && candidateData?.projects?.length > 0 && (
             <div className="space-y-6">
               <div className="flex items-center gap-3 mb-6">
                 <Code className="text-blue-600" size={24} />
                 <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
               </div>
-              {candidateData.projects.length > 0 ? (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  {candidateData.projects.map((project, index) => (
-                    <ProjectCard key={index} project={project} />
-                  ))}
-                </div>
-              ) : (
-                <p className="text-gray-500">No projects listed.</p>
-              )}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {candidateData.projects.map((project, index) => (
+                  <ProjectCard key={index} project={project} />
+                ))}
+              </div>
             </div>
           )}
-          {/* Skills Tab */}
-          {activeTab === "skills" && candidateData.skills && (
-            // ... your existing skills tab content, ensure it checks for candidateData.skills and its sub-properties
+          {activeTab === "skills" && candidateData?.skills && (
             <div className="space-y-6">
               <div className="flex items-center gap-3 mb-6">
                 <Star className="text-blue-600" size={24} />
@@ -1087,14 +1126,14 @@ const CandidateProfile = () => {
                   skills={
                     candidateData.skills?.technical_skills?.databases || []
                   }
-                  icon={Star} // Consider Database icon from lucide if available
+                  icon={Database}
                 />
                 <SkillSection
                   title="Tools & Platforms"
                   skills={
                     candidateData.skills?.technical_skills?.tools_software || []
                   }
-                  icon={Briefcase} // Or a tools icon
+                  icon={Briefcase}
                 />
                 <SkillSection
                   title="Cloud Platforms"
@@ -1102,19 +1141,19 @@ const CandidateProfile = () => {
                     candidateData.skills?.technical_skills?.cloud_platforms ||
                     []
                   }
-                  icon={Globe} // Or a cloud icon
+                  icon={Globe}
                 />
                 <SkillSection
                   title="DevOps"
                   skills={candidateData.skills?.technical_skills?.devops || []}
-                  icon={Code}
+                  icon={GithubIcon}
                 />
                 <SkillSection
-                  title="Data Science"
+                  title="Data Science & ML"
                   skills={
                     candidateData.skills?.technical_skills?.data_science || []
                   }
-                  icon={Star}
+                  icon={Brain}
                 />
                 <SkillSection
                   title="Other Technical Skills"
@@ -1122,71 +1161,132 @@ const CandidateProfile = () => {
                     candidateData.skills?.technical_skills?.other_technical ||
                     []
                   }
-                  icon={Star}
+                  icon={Code}
+                />
+                <SkillSection
+                  title="Soft Skills"
+                  skills={candidateData.skills?.other_skills?.soft_skills || []}
+                  icon={User}
+                />
+                <SkillSection
+                  title="Methodologies"
+                  skills={
+                    candidateData.skills?.other_skills?.methodologies || []
+                  }
+                  icon={Notebook}
                 />
               </div>
             </div>
           )}
-          {/* Additional Tab */}
-          {activeTab === "additional" &&
-            candidateData.additional_information.length && (
-              // ... your existing additional tab content
+          {activeTab === "education" &&
+            candidateData?.education?.length > 0 && (
               <div className="space-y-6">
                 <div className="flex items-center gap-3 mb-6">
-                  <Users className="text-blue-600" size={24} />
+                  <GraduationCap className="text-blue-600" size={24} />
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    Education
+                  </h2>
+                </div>
+                {candidateData.education.map((ed, index) => (
+                  <div
+                    key={index}
+                    className="bg-white rounded-xl border border-gray-200 p-6"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+                        {ed.institution?.charAt(0) || "E"}
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                          {ed.degree}
+                        </h3>
+                        <p className="text-blue-600 font-medium mb-1">
+                          {ed.institution}
+                        </p>
+                        <div className="flex items-center gap-4 text-sm text-gray-500 mb-2">
+                          <span className="flex items-center gap-1">
+                            <Calendar size={14} />
+                            {ed.duration}
+                          </span>
+                          {ed.location && (
+                            <span className="flex items-center gap-1">
+                              <MapPin size={14} />
+                              {ed.location}
+                            </span>
+                          )}
+                        </div>
+                        {ed.gpa_cgpa && (
+                          <div className="flex items-center gap-2">
+                            <Star
+                              size={16}
+                              className="text-yellow-500 fill-yellow-500"
+                            />
+                            <span className="text-sm font-medium text-gray-700">
+                              CGPA: {ed.gpa_cgpa}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          {activeTab === "additional" &&
+            candidateData?.additional_information && (
+              <div className="space-y-6">
+                <div className="flex items-center gap-3 mb-6">
+                  <User className="text-blue-600" size={24} />
                   <h2 className="text-2xl font-bold text-gray-900">
                     Additional Information
                   </h2>
                 </div>
-                {/* Volunteering */}
-                {candidateData.additional_information.volunteering &&
-                  candidateData.additional_information.volunteering.length >
-                    0 && (
-                    <div className="bg-white rounded-xl border border-gray-200 p-6">
-                      <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
-                        <Heart size={20} className="text-blue-600" />
-                        Volunteering
-                      </h3>
-                      <div className="space-y-3">
-                        {candidateData.additional_information.volunteering.map(
-                          (vol, index) => (
-                            <div
-                              key={index}
-                              className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                            >
-                              <h4 className="font-medium text-gray-900 mb-1">
-                                {vol.role || vol}
-                              </h4>{" "}
-                              {/* Adjust if 'vol' is an object */}
-                              {vol.organization && (
-                                <p className="text-sm text-blue-600">
-                                  {vol.organization}
-                                </p>
-                              )}
-                              {vol.duration && (
-                                <p className="text-xs text-gray-500">
-                                  {vol.duration}
-                                </p>
-                              )}
-                            </div>
-                          )
-                        )}
-                      </div>
-                    </div>
-                  )}
-                {/* Publications */}
-                {candidateData.publications &&
-                  candidateData.publications.length > 0 && (
-                    <div className="bg-white rounded-xl border border-gray-200 p-6">
-                      <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
-                        <BookOpen size={20} className="text-blue-600" />
-                        Publications
-                      </h3>
-                      <div className="space-y-3">
-                        {candidateData.publications.map((pub, index) => (
+                {candidateData.additional_information.volunteering?.length >
+                  0 && (
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
+                      <Heart size={20} className="text-blue-600" />
+                      Volunteering
+                    </h3>
+                    <div className="space-y-3">
+                      {candidateData.additional_information.volunteering.map(
+                        (vol, index) => (
                           <div
                             key={index}
-                            className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+                            className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100"
+                          >
+                            <h4 className="font-medium text-gray-900 mb-1">
+                              {vol.role || vol}
+                            </h4>
+                            {vol.organization && (
+                              <p className="text-sm text-blue-600">
+                                {vol.organization}
+                              </p>
+                            )}
+                            {vol.duration && (
+                              <p className="text-xs text-gray-500">
+                                {vol.duration}
+                              </p>
+                            )}
+                          </div>
+                        )
+                      )}
+                    </div>
+                  </div>
+                )}
+                {candidateData.additional_information.publications?.length >
+                  0 && (
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
+                      <BookOpen size={20} className="text-blue-600" />
+                      Publications
+                    </h3>
+                    <div className="space-y-3">
+                      {candidateData.additional_information.publications.map(
+                        (pub, index) => (
+                          <div
+                            key={index}
+                            className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100"
                           >
                             <h4 className="font-medium text-gray-900 mb-1">
                               {pub.title}
@@ -1205,57 +1305,45 @@ const CandidateProfile = () => {
                               </a>
                             )}
                           </div>
-                        ))}
-                      </div>
+                        )
+                      )}
                     </div>
-                  )}
+                  </div>
+                )}
+                {candidateData.additional_information.awards?.length > 0 && (
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 mb-4">
+                      <Award size={20} className="text-blue-600" />
+                      Awards & Honors
+                    </h3>
+                    <div className="space-y-3">
+                      {candidateData.additional_information.awards.map(
+                        (award, index) => (
+                          <div
+                            key={index}
+                            className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100"
+                          >
+                            <h4 className="font-medium text-gray-900 mb-1">
+                              {award.title}
+                            </h4>
+                            <p className="text-sm text-gray-600">
+                              {award.issuer} - {award.date}
+                            </p>
+                            {award.description && (
+                              <p className="text-xs text-gray-500 mt-1">
+                                {award.description}
+                              </p>
+                            )}
+                          </div>
+                        )
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
         </div>
       </div>
-      {/* Summary Modal */}
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl font-semibold text-gray-900">
-                AI Generated Summary
-              </h2>
-              <button
-                onClick={() => setIsModalOpen(false)}
-                className="text-gray-500 hover:text-gray-700"
-              >
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div className="prose prose-sm max-w-none">
-              {Array.isArray(summary) ? (
-                <ul className="list-disc pl-4 space-y-2">
-                  {summary.map((point, index) => (
-                    <li key={index} className="text-gray-700">
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <p className="text-gray-700">{summary}</p>
-              )}
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

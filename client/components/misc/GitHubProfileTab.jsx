@@ -26,6 +26,7 @@ import {
   Sparkles,
   ListChecks,
   Target,
+  Heart,
 } from "lucide-react";
 
 const StatCard = ({
@@ -244,7 +245,7 @@ const RepositoryCard = ({ repo, username }) => {
 };
 
 const GitHubProfileTab = ({ githubData }) => {
-  if (!githubData || !githubData.profile) {
+  if (!githubData || !githubData.profile_data) {
     return (
       <div className="p-6 text-center text-gray-500">
         <Github size={48} className="mx-auto mb-4 text-gray-400" />
@@ -253,59 +254,61 @@ const GitHubProfileTab = ({ githubData }) => {
     );
   }
 
-  const { profile, repository_summary, repositories, social_activity } =
+  const { profile_data, repository_summary, repositories, social_activity } =
     githubData;
 
   return (
     <div className="space-y-8 p-1">
       <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
         <img
-          src={`https://github.com/${profile.username}.png`}
-          alt={profile.name || profile.username}
+          src={`https://github.com/${profile_data.username}.png`}
+          alt={profile_data.name || profile_data.username}
           className="w-24 h-24 rounded-full border-2 border-gray-300"
           onError={(e) => {
             e.currentTarget.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
-              profile.name || profile.username || "GH"
+              profile_data.name || profile_data.username || "GH"
             )}&background=24292f&color=ffffff&font-size=0.5&bold=true`;
           }}
         />
         <div className="text-center sm:text-left">
           <h2 className="text-3xl font-bold text-gray-800">
-            {profile.name || profile.username}
+            {profile_data.name || profile_data.username}
           </h2>
-          <p className="text-lg text-gray-500">@{profile.username}</p>
-          {profile.bio && (
-            <p className="mt-2 text-sm text-gray-700 max-w-xl">{profile.bio}</p>
+          <p className="text-lg text-gray-500">@{profile_data.username}</p>
+          {profile_data.bio && (
+            <p className="mt-2 text-sm text-gray-700 max-w-xl">
+              {profile_data.bio}
+            </p>
           )}
           <div className="mt-3 flex flex-wrap justify-center sm:justify-start items-center gap-x-4 gap-y-2 text-sm text-gray-600">
-            {profile.location && (
+            {profile_data.location && (
               <span className="flex items-center gap-1">
-                <MapPin size={14} /> {profile.location}
+                <MapPin size={14} /> {profile_data.location}
               </span>
             )}
-            {profile.website && (
+            {profile_data.website && (
               <a
                 href={
-                  profile.website.startsWith("http")
-                    ? profile.website
-                    : `https://${profile.website}`
+                  profile_data.website.startsWith("http")
+                    ? profile_data.website
+                    : `https://${profile_data.website}`
                 }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-blue-600 hover:underline"
               >
                 <Globe size={14} />{" "}
-                {profile.website.replace(/^https?:\/\//, "")}
+                {profile_data.website.replace(/^https?:\/\//, "")}
               </a>
             )}
             <span className="flex items-center gap-1">
-              <BookOpen size={14} /> {profile.public_repos} Repos
+              <BookOpen size={14} /> {profile_data.public_repos} Repos
             </span>
             <span className="flex items-center gap-1">
-              <Users size={14} /> {profile.followers} Followers
+              <Users size={14} /> {profile_data.followers} Followers
             </span>
             <span className="flex items-center gap-1">
-              <Heart size={14} /> Following {profile.following}
+              <Heart size={14} /> Following {profile_data.following}
             </span>
           </div>
         </div>
@@ -376,7 +379,7 @@ const GitHubProfileTab = ({ githubData }) => {
               <RepositoryCard
                 key={repo.rank || repo.name}
                 repo={repo}
-                username={profile.username}
+                username={profile_data.username}
               />
             ))}
           </div>

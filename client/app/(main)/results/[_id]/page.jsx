@@ -54,6 +54,27 @@ const CandidateSearchResults = () => {
   const [appliedFiltersFromUrl, setAppliedFiltersFromUrl] =
     useState(initialFiltersState);
   const [editableFilters, setEditableFilters] = useState(initialFiltersState);
+  const [allChatHistory, setAllChatHistory] = useState([]);
+  // Add this at the top of the file with other imports
+  const useTypewriter = (text, speed = 50) => {
+    const [displayText, setDisplayText] = useState("");
+
+    useEffect(() => {
+      let i = 0;
+      const typing = setInterval(() => {
+        if (i < text?.length) {
+          setDisplayText((prev) => prev + text.charAt(i));
+          i++;
+        } else {
+          clearInterval(typing);
+        }
+      }, speed);
+
+      return () => clearInterval(typing);
+    }, [text, speed]);
+
+    return displayText;
+  };
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${user}`)
@@ -69,6 +90,28 @@ const CandidateSearchResults = () => {
         console.error("Error fetching user data:", error);
       });
   }, [user]);
+
+  useEffect(() => {
+    const fetchAllChats = async () => {
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${userId}`
+        );
+        if (!response.success) {
+          throw new Error(`Error fetching all chats: ${response.statusText}`);
+        }
+        const data = await response.json();
+        console.log(data);
+
+        setAllChatHistory(data.data);
+      } catch (error) {
+        console.error("Error fetching all chats:", error);
+        toast.error("Failed to load chat history");
+      }
+    };
+    fetchAllChats();
+  }, [userId]);
+  console.log(allChatHistory);
 
   useEffect(() => {
     const fetchShortlistedCandidates = async () => {
@@ -126,7 +169,7 @@ const CandidateSearchResults = () => {
         const response = await fetch(
           `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${userId}/${id}`
         );
-        if (!response.ok) {
+        if (!response) {
           throw new Error(
             `Error fetching chat history: ${response.statusText}`
           );
@@ -173,8 +216,6 @@ const CandidateSearchResults = () => {
       fetchChatHistory();
     }
   }, [userId]);
-
-  console.log(candidates);
 
   // --- Save new search to DB-backed chat history ---
   const saveSearchToDbHistory = useCallback(
@@ -246,6 +287,11 @@ const CandidateSearchResults = () => {
     [chatHistory, candidates]
   ); // candidates dependency might be too broad if only count is needed
 
+  console.log(candidates);
+
+  const animatedSummary = useTypewriter(
+    candidates?.ai_summary_data?.raw_summary["point1"]
+  );
   // Save search results when candidates are loaded (and URL params are present)
   useEffect(() => {
     if (
@@ -488,7 +534,7 @@ const CandidateSearchResults = () => {
               </button>
               <div className="h-6 border-l border-gray-300 hidden sm:block"></div>
               <h1 className="text-lg sm:text-xl font-semibold text-gray-900">
-                Profiles ({loading ? "..." : candidates.length})
+                Profiles ({loading ? "..." : candidates?.length})
               </h1>
             </div>
 
@@ -682,7 +728,8 @@ const CandidateSearchResults = () => {
                         <div className="flex items-center gap-2 mb-1.5 text-sm text-gray-600">
                           <Briefcase size={15} className="flex-shrink-0" />
                           <p className="font-medium">
-                            {candidate.ai_summary_data?.raw_summary["point1"]}
+                            {animatedSummary}
+                            <span className="animate-pulse">|</span>
                           </p>
                         </div>
                         <div className="flex items-center gap-2 mb-1.5 text-xs sm:text-sm text-gray-500">
@@ -792,14 +839,37 @@ const CandidateSearchResults = () => {
       {/* Chat History Panel */}
       <ChatHistoryPanel
         isOpen={isChatHistoryOpen}
-        onClose={() => setIsChatHistoryOpen(false)} // Corrected onClose
-        chatHistory={chatHistory}
+        onClose={() => setIsChatHistoryOpen(false)}
+        chatHistory={allChatHistory}
         onSelectChat={handleSelectChat}
         onDeleteChat={handleDeleteChat}
-        onNewChat={handleNewChat} // This now clears search and navigates to base page
-        title={chatHistoryLoading ? "Loading Chats..." : "Search History"}
-        isLoading={chatHistoryLoading}
+        onNewChat={handleNewChat}
+        title="Search History"
+        isLoading={allChatHistory.length === 0} // Show loading in panel only if history is empty and page is loading
       />
+      {/* Floating button to open chat history */}
+      {!isChatHistoryOpen && (
+        <button
+          onClick={() => setIsChatHistoryOpen(true)}
+          className="fixed bottom-6 right-6 bg-purple-600 p-3 text-white rounded-full shadow-xl hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 z-20 transition-transform hover:scale-110"
+          aria-label="Open chat history"
+        >
+          <svg
+            className="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+            />
+          </svg>
+        </button>
+      )}
     </div>
   );
 };

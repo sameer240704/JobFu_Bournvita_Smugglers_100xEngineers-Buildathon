@@ -233,7 +233,6 @@ export const deleteChatHistory = async (req, res) => {
 export const getChatHistoriesByUserId = async (req, res) => {
   try {
     const { userId } = req.params;
-    const { page = 1, limit = 10 } = req.query;
 
     // Validate ObjectId format
     if (!userId.match(/^[0-9a-fA-F]{24}$/)) {
@@ -243,30 +242,16 @@ export const getChatHistoriesByUserId = async (req, res) => {
       });
     }
 
-    // Calculate pagination
-    const skip = (parseInt(page) - 1) * parseInt(limit);
-
-    const chatHistories = await ChatHistory.find({ user: userId })
-      .populate("user", "name email")
-      .populate("response.candidate", "name email jobTitle")
-      .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(parseInt(limit));
+    const chatHistories = await ChatHistory.find({ user: userId }).sort({
+      createdAt: -1,
+    });
 
     const totalCount = await ChatHistory.countDocuments({ user: userId });
-    const totalPages = Math.ceil(totalCount / parseInt(limit));
 
     res.status(200).json({
       success: true,
       message: "User chat histories retrieved successfully",
       data: chatHistories,
-      pagination: {
-        currentPage: parseInt(page),
-        totalPages,
-        totalCount,
-        hasNextPage: parseInt(page) < totalPages,
-        hasPrevPage: parseInt(page) > 1,
-      },
     });
   } catch (error) {
     console.error("Error getting chat histories by user ID:", error);
