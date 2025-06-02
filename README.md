@@ -1,6 +1,6 @@
-# 100xEngineers Buildathon
+# HireAI by Jobfu
 
-Welcome to the **100xEngineers Buildathon** repository!  
+Welcome to the **HireAI by Jobfu** repository!  
 This project demonstrates an advanced AI-powered resume extraction, enrichment, and candidate ranking pipeline, designed for efficient, accurate, and scalable candidate search and comparison.
 
 ---
@@ -13,10 +13,77 @@ This repository contains a Python backend that enables:
 - Graph database (Neo4j) initialization and clustering for fast, relationship-aware querying
 - Advanced candidate ranking using industry-standard information retrieval techniques (BM25, TF-IDF, Fuzzy Matching, Query Expansion)
 - AI-powered candidate comparison
+- **Dual Database Architecture**: User authentication and candidate data are managed through Supabase and MongoDB
 
 ---
 
-## 📂 Repository Structure
+## 📁 Main Repository Structure
+
+**Top-level:**
+```
+README.md
+ai-server/
+client/
+server/
+```
+
+---
+
+### Contents of `ai-server/`:
+```
+.gitignore
+main.py
+__pycache__/
+models/
+services/
+# ... (view more in ai-server directory)
+```
+
+---
+
+### Contents of `client/`:
+```
+.gitignore
+README.md
+components.json
+jsconfig.json
+middleware.js
+next.config.mjs
+package.json
+postcss.config.mjs
+yarn.lock
+app/
+components/
+constants/
+context/
+hooks/
+lib/
+public/
+utils/
+# ... (view more in client directory)
+```
+
+---
+
+### Contents of `server/`:
+```
+.gitignore
+index.js
+package.json
+vercel.json
+yarn.lock
+controllers/
+database/
+helpers/
+middlewares/
+models/
+routes/
+# ... (view more in server directory)
+```
+
+---
+
+## 📂 Additional Data/Model Structure
 
 - `datafolder/` – Contains 36 Mumbai-based resumes for local extraction.
 - `globalfolder/` – Contains 22 global resumes (LinkedIn sourced).
@@ -24,12 +91,12 @@ This repository contains a Python backend that enables:
 - `candidate_linkeldn/` – Stores extracted LinkedIn data per candidate.
 - `candidate_github/` – Stores extracted GitHub data per candidate.
 - `candidate_summaries/` – Stores AI-generated summaries for each candidate.
-- `models/` – Contains all backend scripts and FastAPI server logic.
-- `extractor.py` – Uses Grok model Llama-3-8B-8192 to individually extract resume data.
+- `models/` – Contains all backend scripts and FastAPI server logic (within `ai-server/`).
+- `extractor.py` – Uses Llama 3 8B to individually extract resume data.
 - `extracted_folder.py` – Bulk extractor for multiple resumes at once.
 - `linkeldn_data_extractor.py` – Extracts data from LinkedIn, stores in `candidate_linkeldn/`.
-- `github_data_extractor.py` – Extracts data from GitHub, stores in `candidate_github/`.
-- `summary_extractor.py` – Generates AI summaries (Grok model : Llama-3-8B-8192), saves to `candidate_summaries/`.
+- `github_data_extractor.py` – Extracts candidate data from GitHub, stores in `candidate_github/`.
+- `summary_extractor.py` – Generates AI summaries (Llama 3 8B 8192 context), saves to `candidate_summaries/`.
 - `eligble_neo.py` – Initializes Neo4j (AuraDB) for each candidate's JSON; builds graph structure for fast query/retrieval.
 - `rank_fastapi.py` – Implements advanced ranking logic for candidate search results.
 - `comparison.py` – Provides AI-based candidate comparison across multiple parameters.
@@ -40,7 +107,7 @@ This repository contains a Python backend that enables:
 ## 🏗️ Data Extraction & Processing Pipeline
 
 - **Resume Extraction**:  
-  - Use `extractor.py` (model) for single resumes, or `extracted_folder.py` for bulk extraction from `datafolder/` (Mumbai resumes) and `globalfolder/` (LinkedIn global resumes).
+  - Use `extractor.py` (Llama 3 8B) for single resumes, or `extracted_folder.py` for bulk extraction from `datafolder/` (Mumbai resumes) and `globalfolder/` (LinkedIn global resumes).
   - Output: JSON files in `candidate_data/`, each including parameters like LinkedIn link and GitHub link.
 
 - **LinkedIn & GitHub Data Extraction**:  
@@ -49,6 +116,24 @@ This repository contains a Python backend that enables:
 
 - **AI Summary Generation**:  
   - `summary_extractor.py` uses Llama 3 8B (8192 context) to create a detailed summary for each candidate, stored in `candidate_summaries/`.
+
+---
+
+## 🗃️ Database Architecture
+
+### Supabase (User Authentication)
+
+- **Supabase** is used for handling user authentication, specifically Google authentication.
+- All user authentication data (registration, login, profiles) is securely managed by Supabase.
+
+### MongoDB (Candidate Data, History, and More)
+
+- **MongoDB** is used to store all application data except authentication, including:
+  - Candidate data
+  - Candidate search and comparison history
+  - Extracted LinkedIn data
+  - Extracted GitHub data
+  - Any other relevant data related to candidates or application state
 
 ---
 
@@ -76,6 +161,18 @@ This repository contains a Python backend that enables:
   - Nodes and sub-nodes can be connected to multiple clusters.
   - Graph structure ensures comprehensive data coverage and prevents overlooked relationships.
   - Enables extremely fast, relationship-aware indexing and querying (superior to traditional retrieval).
+![Untitled](https://github.com/user-attachments/assets/886ec931-3314-49d2-805a-8c51f8b43a6d)
+![Untitled-1](https://github.com/user-attachments/assets/c2def683-9b8e-4353-9dbf-e9a95440c33b)
+![Untitled-1](https://github.com/user-attachments/assets/9c7948fd-b968-4c73-8013-72a345dea9bb)
+![Untitled](https://github.com/user-attachments/assets/13643947-3018-4304-841f-5db3d6d145f9)
+![Untitled-1](https://github.com/user-attachments/assets/7db6d3cb-c3b4-446b-9c13-75c53d05b79d)
+![Untitled](https://github.com/user-attachments/assets/77ab4fda-3f40-490a-82f7-049a93a3c0c5)
+![Untitled-1](https://github.com/user-attachments/assets/8473b960-9cbf-463d-a670-4efbc2b63160)
+
+
+
+
+
 
 ---
 
@@ -148,10 +245,13 @@ The system uses a multi-dimensional ranking approach combining:
     ```
 
 2. **Install Dependencies**
-    - Follow the setup instructions in the `models/` directory or project root.
+    - Follow the setup instructions in the `ai-server/`, `server/`, and `client/` directories.
 
-3. **Run the Backend**
-    - See documentation in the `models/` directory for starting the FastAPI server and using the endpoints.
+3. **Run the Backend and AI Server**
+    - See respective directories for FastAPI/Node.js server instructions.
+
+4. **Run the Client**
+    - See `client/` folder for frontend setup and start instructions.
 
 ---
 
@@ -169,7 +269,7 @@ Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) and review our [Contribu
 
 ## 📑 Resources
 
-- [Buildathon Website](#) (insert link if available)
+- [HireAI by Jobfu Website](#) (insert link if available)
 - [Documentation](./docs/)
 - [Issues](https://github.com/sameer240704/100xEngineers-Buildathon/issues)
 
@@ -177,7 +277,7 @@ Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) and review our [Contribu
 
 ## 🙏 Acknowledgements
 
-Special thanks to the organizers, mentors, and all participants of the 100xEngineers Buildathon.
+Special thanks to the organizers, mentors, and all participants of the HireAI by Jobfu project.
 
 ---
 
