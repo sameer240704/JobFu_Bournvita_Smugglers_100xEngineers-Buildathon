@@ -12,7 +12,7 @@ import {
 const router = express.Router();
 
 router.post("/user/:userId/add", addShortlistedCandidate);
-router.get("/user/:userId", getShortlistedCandidates);
+router.get("/user/:userId/chat/:chatId", getShortlistedCandidates);
 router.post("/user/:userId/send-offer", sendOffer);
 router.get("/track-email/:offerId", trackEmailOpen);
 router.get("/offer/:offerId", getOfferDetails);

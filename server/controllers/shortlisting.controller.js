@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import Shortlisting from "../models/shortlisting.model.js";
 import { sendOfferEmail } from "../middlewares/email.middleware.js";
 import User from "../models/user.model.js";
@@ -5,8 +6,12 @@ import User from "../models/user.model.js";
 export const addShortlistedCandidate = async (req, res) => {
   try {
     const { userId, candidateId, chatHistoryId, offerDetails } = req.body;
+
+    const user = await User.findOne({ supabaseId: userId });
+    const newUserId = user._id;
+
     const existingShortlisting = await Shortlisting.findOne({
-      userId,
+      newUserId,
       candidateId,
     });
     if (existingShortlisting) {
@@ -15,11 +20,11 @@ export const addShortlistedCandidate = async (req, res) => {
         .json({ message: "Candidate is already shortlisted" });
     }
     const shortlisted = new Shortlisting({
-      userId,
-      candidateId,
-      chatHistoryId,
+      userId: newUserId,
+      candidateId: new mongoose.Types.ObjectId(candidateId),
+      chatHistoryId: new mongoose.Types.ObjectId(chatHistoryId),
       offerDetails,
-      status: "pending",
+      status: "none",
       emailStatus: {
         sentAt: new Date(),
         openedAt: null,
@@ -35,33 +40,36 @@ export const addShortlistedCandidate = async (req, res) => {
 
 export const getShortlistedCandidates = async (req, res) => {
   try {
-    const { userId } = req.params;
-    const { status, search } = req.query;
+    const { userId, chatId, userName } = req.params;
 
-    let query = { userId };
+    const user = await User.findOne({ supabaseId: userId });
+    const newUserId = user._id;
 
-    if (status && status !== "all") {
-      query.status = status;
-    }
-
-    if (search) {
-      query.$or = [
-        { "candidateDetails.name": { $regex: search, $options: "i" } },
-        { "offerDetails.jobTitle": { $regex: search, $options: "i" } },
-      ];
-    }
-
-    const shortlisted = await Shortlisting.find(query)
+    const shortlisted = await Shortlisting.find({
+      userId: newUserId,
+      chatHistoryId: new mongoose.Types.ObjectId(chatId)
+    })
       .populate(
         "candidateId",
-        "candidate_name contact_information skills experience"
+        "offerDetails"
       )
-      .populate("chatHistoryId", "createdAt")
-      .sort({ createdAt: -1 });
+      .select("candidateId")
+      .lean();
 
-    res.status(200).json(shortlisted);
+    console.log(shortlisted)
+
+    const candidateIds = shortlisted
+      .filter(item => item.candidateId && item.candidateId._id)
+      .map(item => item.candidateId._id);
+
+    console.log(candidateIds)
+
+    res.status(200).json(candidateIds);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Error fetching shortlisted candidates:", error);
+    res.status(500).json({
+      message: error.message || "Failed to fetch shortlisted candidates"
+    });
   }
 };
 

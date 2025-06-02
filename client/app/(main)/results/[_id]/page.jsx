@@ -20,6 +20,9 @@ import ChatHistoryPanel from "@/components/misc/ChatHistoryPanel"; // Assuming t
 import Link from "next/link";
 import { useCurrentUserId } from "@/hooks/use-current-user-id";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import JobDetailsPopup from "@/components/misc/job-details-popup";
+import { toast } from "sonner";
 
 const initialFiltersState = {
   location: [],
@@ -38,6 +41,9 @@ const CandidateSearchResults = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [sortBy, setSortBy] = useState("relevance");
   const [shortlisted, setShortlisted] = useState(new Set());
+
+  const [showJobDetailsPopup, setShowJobDetailsPopup] = useState(false);
+  const [selectedCandidate, setSelectedCandidate] = useState(null);
 
   const router = useRouter();
   const id = useParams()._id;
@@ -63,6 +69,35 @@ const CandidateSearchResults = () => {
         console.error("Error fetching user data:", error);
       });
   }, [user]);
+
+  useEffect(() => {
+    const fetchShortlistedCandidates = async () => {
+      if (!user || !id) return;
+
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/user/${user}/chat/${id}`
+        );
+
+        if (!response.ok) {
+          throw new Error(
+            `Error fetching shortlisted candidates: ${response.statusText}`
+          );
+        }
+
+        const data = await response.json();
+        const shortlistedIds = new Set(
+          data.map((item) => item.candidateId._id || item.candidateId)
+        );
+        setShortlisted(shortlistedIds);
+      } catch (error) {
+        console.error("Failed to fetch shortlisted candidates:", error);
+        toast.error("Failed to load shortlisted candidates");
+      }
+    };
+
+    fetchShortlistedCandidates();
+  }, [user, id]);
 
   // --- Helper to generate summary for titles etc. ---
   const generateSearchSummaryText = (query, filters) => {
@@ -287,13 +322,59 @@ const CandidateSearchResults = () => {
     setIsChatHistoryOpen(false); // Or keep it open if a new chat is started in the panel
   };
 
-  const toggleShortlist = (candidateId) => {
-    setShortlisted((prev) => {
-      const newSet = new Set(prev);
-      if (newSet.has(candidateId)) newSet.delete(candidateId);
-      else newSet.add(candidateId);
-      return newSet;
-    });
+  const handleShortlistClick = (candidate) => {
+    setSelectedCandidate(candidate);
+    setShowJobDetailsPopup(true);
+  };
+
+  const handleSaveJobDetails = async (jobDetails) => {
+    if (!user) return;
+
+    try {
+      const offerDetails = {
+        jobTitle: jobDetails.jobTitle,
+        jobDescription: jobDetails.jobDescription,
+        salary: jobDetails.salary,
+        benefits: jobDetails.benefits,
+        startDate: jobDetails.startDate,
+      };
+
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/user/${user}/add`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            userId: user,
+            candidateId: selectedCandidate._id,
+            chatHistoryId: id,
+            offerDetails,
+          }),
+        }
+      );
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        toast.error("Error:", data.message);
+      } else {
+        setShortlisted((prev) => {
+          const newSet = new Set(prev);
+          newSet.add(selectedCandidate._id);
+          return newSet;
+        });
+
+        toast.success("Candidate has been shortlisted!");
+      }
+    } catch (err) {
+      console.error("Shortlist Error:", err.message);
+      toast.error("Shortlist Error:", err.message);
+    } finally {
+      setShowJobDetailsPopup(false);
+      setSelectedCandidate(null);
+    }
   };
 
   const SocialLink = ({ href, icon: Icon, label, className = "" }) => {
@@ -652,11 +733,11 @@ const CandidateSearchResults = () => {
                       </div>
                     </div>
                     <div className="flex flex-row sm:flex-col gap-2 w-full sm:w-auto sm:ml-4">
-                      <button
+                      <Button
                         onClick={() =>
-                          toggleShortlist(candidate.id || candidate._id)
+                          handleShortlistClick(candidate.id || candidate._id)
                         }
-                        className={`w-full sm:w-auto px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md transition-colors flex items-center justify-center gap-1.5 ${
+                        className={`w-full sm:w-auto px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md transition-colors flex items-center justify-center gap-1.5 cursor-pointer ${
                           shortlisted.has(candidate.id || candidate._id)
                             ? "bg-purple-100 text-purple-700 border border-purple-300"
                             : "bg-gray-100 text-gray-700 border border-gray-300 hover:bg-gray-200"
@@ -673,7 +754,7 @@ const CandidateSearchResults = () => {
                         {shortlisted.has(candidate.id || candidate._id)
                           ? "Shortlisted"
                           : "Shortlist"}
-                      </button>
+                      </Button>
                       <button
                         onClick={() => setIsChatHistoryOpen(true)} // Simplified: opens main chat history
                         className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3 py-1.5 text-xs sm:text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors"
@@ -696,6 +777,18 @@ const CandidateSearchResults = () => {
               Load More Results
             </button>
           </div>
+        )}
+
+        {showJobDetailsPopup && selectedCandidate && (
+          <JobDetailsPopup
+            isOpen={showJobDetailsPopup}
+            onClose={() => {
+              setShowJobDetailsPopup(false);
+              setSelectedCandidate(null);
+            }}
+            onSave={handleSaveJobDetails}
+            candidateName={selectedCandidate.candidate_name}
+          />
         )}
       </div>
       {/* Chat History Panel */}

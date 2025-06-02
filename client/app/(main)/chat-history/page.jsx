@@ -428,7 +428,7 @@ const Page = () => {
 
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${chatIdToDelete}`,
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${userId}/${chatIdToDelete}`,
         {
           method: "DELETE",
         }
@@ -446,10 +446,11 @@ const Page = () => {
   };
 
   const handleSelectChat = (chatId) => {
-    const selectedChat = chatHistory.find((chat) => chat.id === chatId);
+    const selectedChat = chatHistory.find((chat) => chat._id === chatId);
     if (selectedChat && selectedChat.searchParameters) {
     }
     setIsChatHistoryOpen(false); // Close panel after selection
+    router.push(`/results/${chatId}`);
   };
 
   if (pageLoading) {
