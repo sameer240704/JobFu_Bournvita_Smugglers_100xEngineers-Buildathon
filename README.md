@@ -26,7 +26,6 @@ ai-server/
 client/
 server/
 ```
-
 ---
 
 ### Contents of `ai-server/`:
@@ -37,7 +36,6 @@ __pycache__/
 models/
 services/
 ```
-
 ---
 
 ### Contents of `client/`:
@@ -76,7 +74,6 @@ middlewares/
 models/
 routes/
 ```
-
 ---
 
 ## 📂 Additional Data/Model Structure
@@ -99,7 +96,15 @@ routes/
 - `comparison.py` takes its input from the file `candidates_1.json`.
 
 ---
+## Why we choose Llama-3-8B-8192 is best 
 
+    1.Large 8192-token context window for handling long documents.
+    2.8B parameters enable strong extraction accuracy and efficiency.
+    3.Advanced Llama-3 architecture boosts comprehension and reasoning.
+    4.Better multilingual and domain adaptability than older Grok or Gemini models.
+    5.State-of-the-art fine-tuning yields more reliable data extraction.
+    
+---
 ## 🏗️ Data Extraction & Processing Pipeline
 
 - **Resume Extraction**:  
