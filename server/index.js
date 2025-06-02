@@ -10,6 +10,7 @@ import userRoutes from "./routes/user.routes.js";
 import shortlistingRoutes from "./routes/shortlisting.route.js";
 import chatRoutes from "./routes/chathistory.routes.js";
 import candidateRoutes from "./routes/candidate.routes.js";
+import analyticsRoutes from "./routes/analytics.routes.js";
 
 dotenv.config();
 
@@ -29,6 +30,8 @@ app.use(cookieParser());
 app.use(bodyParser.json({ limit: "100mb" }));
 app.use(bodyParser.urlencoded({ limit: "100mb", extended: true }));
 
+
+app.use("/api", analyticsRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/shortlist", shortlistingRoutes);
 app.use("/api/chats", chatRoutes);
