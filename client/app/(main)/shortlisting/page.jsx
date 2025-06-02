@@ -128,6 +128,8 @@ const ShortlistingPage = () => {
     currentPage * ITEMS_PER_PAGE
   );
 
+  console.log(paginatedFollowUps);
+
   const handleSelectFollowUp = (followUpId) => {
     setSelectedFollowUps((prev) =>
       prev.includes(followUpId)

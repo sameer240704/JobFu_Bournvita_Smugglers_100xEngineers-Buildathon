@@ -222,11 +222,8 @@ const AnalyticsPage = () => {
         </span>
       </h3>
 
-      {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Left Column */}
         <div className="lg:col-span-2 space-y-6">
-          {/* Stats Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
             <Card>
               <div className="flex items-center text-slate-500 dark:text-slate-400 mb-1">
