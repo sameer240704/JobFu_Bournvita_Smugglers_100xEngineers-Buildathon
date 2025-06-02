@@ -123,6 +123,8 @@ const Page = () => {
     fetchChatHistory();
   }, [fetchChatHistory]);
 
+  console.log(chatHistory);
+
   const dropdownRefs = {
     location: useRef(null),
     jobTitle: useRef(null),
@@ -251,7 +253,7 @@ const Page = () => {
         user: userId, // Make sure userId is available and correct
         query: trimmedQuery,
         filters: cleanFiltersPayload,
-        response: aiData.ranked_candidates.map((can) => can.name), // Assuming aiData.response is an array of candidate IDs or basic info
+        response: aiData.ranked_candidates.map((can) => can._id), // Assuming aiData.response is an array of candidate IDs or basic info
       };
 
       const chatResponse = await fetch(
@@ -428,7 +430,7 @@ const Page = () => {
 
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${chatIdToDelete}`,
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${userId}/${chatIdToDelete}`,
         {
           method: "DELETE",
         }
@@ -446,15 +448,17 @@ const Page = () => {
   };
 
   const handleSelectChat = (chatId) => {
-    const selectedChat = chatHistory.find((chat) => chat.id === chatId);
+    
+    const selectedChat = chatHistory.find((chat) => chat._id === chatId);
     if (selectedChat && selectedChat.searchParameters) {
     }
     setIsChatHistoryOpen(false); // Close panel after selection
+    router.push(`/results/${chatId}`);
   };
 
   if (pageLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="mb-4 flex items-center justify-center">
             <svg
@@ -489,7 +493,7 @@ const Page = () => {
           isChatHistoryOpen ? "md:mr-80" : "md:mr-0"
         }`}
       >
-        <div className="min-h-full flex items-center justify-center p-4 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+        <div className="min-h-full flex items-center justify-center p-4 ">
           <div className="w-full max-w-3xl bg-white p-6 sm:p-10 rounded-xl shadow-2xl">
             {/* PeopleGPT Header */}
             <div className="mb-8 text-center">
@@ -752,7 +756,7 @@ const Page = () => {
       {!isChatHistoryOpen && (
         <button
           onClick={() => setIsChatHistoryOpen(true)}
-          className="fixed bottom-6 right-6 bg-purple-600 text-white p-3 rounded-full shadow-xl hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 z-20 transition-transform hover:scale-110"
+          className="fixed bottom-6 right-6 bg-purple-600 p-3 text-white rounded-full shadow-xl hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 z-20 transition-transform hover:scale-110"
           aria-label="Open chat history"
         >
           <svg
