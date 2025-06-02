@@ -13,7 +13,7 @@ This repository contains a Python backend that enables:
 - Graph database (Neo4j) initialization and clustering for fast, relationship-aware querying
 - Advanced candidate ranking using industry-standard information retrieval techniques (BM25, TF-IDF, Fuzzy Matching, Query Expansion)
 - AI-powered candidate comparison
-- **Dual Database Architecture**: User authentication and candidate data are managed through Supabase and MongoDB
+- **Trio Database Architecture**: User authentication and candidate data are managed through Supabase and MongoDB. Ranking is managed by Neo4j
 
 ---
 
@@ -96,13 +96,27 @@ routes/
 - `comparison.py` takes its input from the file `candidates_1.json`.
 
 ---
-## Why we choose Llama-3-8B-8192 is best 
+## Why we choose Llama-3-8B-8192 
 
-    1.Large 8192-token context window for handling long documents.
-    2.8B parameters enable strong extraction accuracy and efficiency.
-    3.Advanced Llama-3 architecture boosts comprehension and reasoning.
-    4.Better multilingual and domain adaptability than older Grok or Gemini models.
-    5.State-of-the-art fine-tuning yields more reliable data extraction.
+1. **Extended Context Window (8192 tokens)** : Allowed seamless parsing of long resumes and LinkedIn profiles without truncation, improving extraction fidelity.
+   
+3. **Efficient 8B Parameter Size** : Balanced high performance and speed on mid-range GPUs, making it suitable for fast, scalable bulk extraction tasks.
+
+4. **Advanced LLaMA 3 Architecture**: Outperformed Groq and Gemini in reasoning and comprehension tasks, crucial for understanding nuanced candidate profiles.
+
+5. **Superior Fine-Tuning for Extraction** : Achieved higher precision in identifying and structuring candidate details (skills, education, projects, etc.) from noisy real-world data.
+
+6. **Domain Adaptability**: Handled resumes and profiles across Indian and global datasets with better accuracy than older Groq/Gemini models.
+
+7. **Lower Latency in Local Deployment** : Enabled near real-time extraction and summary generation compared to cloud-only alternatives like Gemini Pro.
+
+8. **Consistent Performance Across Tasks** : Used in extractor.py, summary_extractor.py, and comparison.py—showed reliable output across extraction, summarization, and ranking.
+
+9. **Better Reasoning for AI Comparisons** : Generated coherent, comparative summaries between candidates, aiding HR decision-making.
+
+10. **Integration Flexibility** : Easily integrated with your FastAPI backend, supporting both single and bulk extraction workflows.
+
+11. **Open-Weight Model Advantage** : Unlike proprietary Groq or Gemini APIs, LLaMA 3–8B–8192 provided full control over deployment, scaling, and cost optimization.
     
 ---
 ## 🏗️ Data Extraction & Processing Pipeline
@@ -237,6 +251,41 @@ The system uses a multi-dimensional ranking approach combining:
 
 ---
 
+## 🤖 Something to bring you in  notice 
+We want to highlight that we have developed an AI agent to select and compare any number of candidates side by side based on their general overall profile, education, experience, projects, and skills. The comparison is conducted using the following ten parameters for each candidate:
+    Technical Skills Depth
+    Programming Languages Proficiency
+    Project Complexity & Impact
+    Professional Experience Quality
+    Technology Stack Breadth
+    Problem Solving Ability
+    Educational Foundation
+    Industry Exposure
+    Communication & Leadership
+    Career Growth Potential
+
+##  Project Images 
+![image](https://github.com/user-attachments/assets/a750c45d-f3b8-41cf-967f-ed8edecc7a47)
+![image](https://github.com/user-attachments/assets/16100adc-000f-408f-9c28-63776c4e5c25)
+![image](https://github.com/user-attachments/assets/85e84aea-fd4f-471a-8064-bc4db8cb2f35)
+![image](https://github.com/user-attachments/assets/c12bc4c0-1a5d-4ddf-a862-b5fd3f18049d)
+![image](https://github.com/user-attachments/assets/3e061945-a809-4b8f-93f8-e8d6182c7461)
+![image](https://github.com/user-attachments/assets/2cde4624-6763-40db-9b96-faf12402898a)
+
+
+
+
+
+
+
+
+##  This is how the Email has been sent 
+![Untitled-1](https://github.com/user-attachments/assets/4bc12821-d9d7-487a-877c-2db901541ca4)
+![Untitled](https://github.com/user-attachments/assets/3aacf16c-8640-4dbc-ac13-f612d0f84dac)
+![Untitled](https://github.com/user-attachments/assets/e8e07833-85d4-4a7b-8340-f378f919a845)
+
+
+
 ## 🛠️ Getting Started
 
 1. **Clone the Repository**
@@ -287,5 +336,14 @@ Special thanks to the organizers, mentors, and all participants of the HireAI by
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+## 🎥 Project Demo & Deployed Link
+Video Demo: [Insert video link here]
+
+Deployed Link: [Insert deployed link here]
+
+P.S. We had an absolute blast crafting the AI agent for side-by-side candidate comparison in HireAI by JobFu! Its robust evaluation across ten key parameters, including Technical Skills Depth, Programming Languages Proficiency, Project Complexity, and Career Growth Potential, is set to revolutionize hiring processes. We’re thrilled about its potential to streamline recruitment and can’t wait to integrate this feature into the frontend, creating an intuitive, dynamic interface that empowers recruiters with unparalleled insights and efficiency!
+
+
 
 Happy building! 🚀
