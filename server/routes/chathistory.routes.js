@@ -11,7 +11,7 @@ import {
 const router = express.Router();
 router.get("/", getAllChatHistories);
 router.get("/:userId", getChatHistoriesByUserId);
-router.get("/:userId/:chatHistoryId", getChatHistoryById);
+router.get("/:user/:id", getChatHistoryById);
 router.post("/", addChatHistory);
 router.delete("/:userId", deleteChatHistory);
 router.delete("/:userId/:chatHistoryId", deleteChatHistoryById);

@@ -1,0 +1,211 @@
+{
+  "profile": {
+    "name": "Satyavrat Tiwari",
+    "username": "Satyavrat2005",
+    "bio": "Freelance full-stack developer and an AI & ML enthusiast, passionate about creating intelligent, real-world solutions that make a meaningful impact.",
+    "website": "https://www.djsce.ac.in/",
+    "followers": 2,
+    "following": 2,
+    "public_repos": 5
+  },
+  "repository_summary": {
+    "total_repositories": 5,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "top_10_stats": {
+      "total_stars": 0,
+      "total_forks": 0,
+      "total_contributors": 5,
+      "avg_health_score": 41.0
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Printf-Winners-",
+      "description": null,
+      "readme_excerpt": "Uddeshya is a web-based platform designed to streamline operations for NGOs dedicated to the education of underprivileged students. It provides a centralized system for efficiently assigning students ...",
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2024-03-18",
+      "last_updated": "2024-04-04",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "HTML": "85.8%",
+        "CSS": "7.7%",
+        "Python": "5.1%"
+      },
+      "recent_commits": 28,
+      "last_commit": "2024-04-04",
+      "repository_size": "65423 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "Idea_Masters",
+      "description": "Predicting Landing Feasibility with a Data-Driven Model Integrate various datasets, which have weather information and historical flight delay information. Developed an ML model trained on given datasets (weather, flight delays). Model will take weather parameters as input and it will predict safe landing possibility.",
+      "readme_excerpt": "Predicting Landing Feasibility with a Data-Driven Model Integrate various datasets, which have weather information and historical flight delay information. Developed an ML model trained on given datas...",
+      "category": "General",
+      "primary_language": null,
+      "created": "2024-02-04",
+      "last_updated": "2024-02-04",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2024-02-04",
+      "repository_size": "208 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 3,
+      "name": "Dathathon",
+      "description": "This is the solution by IDEA MASTERS",
+      "readme_excerpt": "In day-to-day aviation operations, decision-makers often encounter unforeseen circumstances that deviate from the original plan, ranging from unexpected weather conditions to changes in aircraft vers...",
+      "category": "General",
+      "primary_language": null,
+      "created": "2024-02-04",
+      "last_updated": "2024-02-04",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {},
+      "recent_commits": 2,
+      "last_commit": "2024-02-04",
+      "repository_size": "2 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "IDEAMASTERS",
+      "description": "DATATHON 2.0",
+      "readme_excerpt": null,
+      "category": "General",
+      "primary_language": null,
+      "created": "2024-02-01",
+      "last_updated": "2024-02-01",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {},
+      "recent_commits": 1,
+      "last_commit": "2024-02-01",
+      "repository_size": "450 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Repository appears to be associated with a 'DATATHON 2.0' competition or event. Given the presence of a single PDF file, it likely contains a submission, report, or presentation related to the data science competition",
+        "technology_stack": ["Python (potentially)", "R (potentially)", "LaTeX/Word (for documentation)"],
+        "project_category": "Data Science Competition Submission/Report",
+        "key_features": [
+          "Analysis, model, or solution documented within the IDEAMASTERS.pdf file concerning the Datathon 2.0 challenges"
+        ],
+        "development_status": "Static state - likely a completed submission for DATATHON 2.0 with little to no ongoing development",
+        "use_cases": [
+          "Participants of DATATHON 2.0 who want to revisit their submission or compare with others",
+          "Organizers of DATATHON 2.0 for archiving and reference purposes",
+          "Individuals interested in the particular data science problem addressed by the submission"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "name": "djs-compute-tasks",
+      "description": null,
+      "readme_excerpt": null,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2023-08-31",
+      "last_updated": "2023-08-31",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 6,
+      "last_commit": "2023-09-01",
+      "repository_size": "5 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Collection of basic Python scripts designed to solve introductory programming problems. Likely serves as a personal learning exercise or practice repository for honing fundamental Python skills",
+        "technology_stack": ["Python"],
+        "project_category": "Educational/Learning Resource, Exercise Repository",
+        "key_features": [
+          "Python scripts (.py files) that solve basic coding challenges or implement simple algorithms",
+          "File names suggest problems covering conditional logic and simple mathematical computations",
+          "Examples include 'Python_problem[number].py' and 'elseifladder.py'"
+        ],
+        "development_status": "Rudimentary or early stage of development. Appears to be a personal learning project",
+        "use_cases": [
+          "Beginner Python Learners: Can use the code as examples to understand basic Python syntax, control flow (if/else), and problem-solving techniques",
+          "Individuals Practicing Coding: Can use the repository as a starting point for implementing solutions to common programming challenges"
+        ]
+      }
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "Printf-Winners-",
+    "details": {
+      "description": null,
+      "language": "HTML",
+      "size": "65423 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  },
+  "social_activity": {
+    "followers": {
+      "count": 2,
+      "list": [
+        "@george0st",
+        "@harshchi19"
+      ]
+    },
+    "following": {
+      "count": 2,
+      "list": [
+        "@harshchi19",
+        "@deepjaindrj"
+      ]
+    }
+  }
+}

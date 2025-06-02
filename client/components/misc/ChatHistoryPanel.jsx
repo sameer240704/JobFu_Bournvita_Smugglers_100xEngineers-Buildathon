@@ -15,6 +15,8 @@ const ChatHistoryPanel = ({
   onNewChat,
   title = "Chat History",
 }) => {
+  console.log(chatHistory);
+
   return (
     <>
       <div

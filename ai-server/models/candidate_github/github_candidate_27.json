@@ -1,0 +1,214 @@
+{
+  "profile": {
+    "username": "SakshiPatel7",
+    "followers": 0,
+    "following": 0,
+    "public_repos": 5
+  },
+  "repository_summary": {
+    "total_repositories": 5,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "total_contributors": 5,
+    "average_health_score": 35.0
+  },
+  "repositories": [
+    {
+      "name": "Crypto-Tracker",
+      "rank": 1,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "JavaScript",
+        "created_date": "2025-04-24",
+        "last_updated": "2025-04-24",
+        "recent_commits": 4,
+        "last_commit": "2025-04-24",
+        "repository_size": "25 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "This is a Real-Time Crypto Price Tracker built using React and Redux Toolkit. The application fetches and displays the latest cryptocurrency data, simulates live updates, and tracks variou...",
+      "language_breakdown": {
+        "JavaScript": "81.3%",
+        "CSS": "16.1%",
+        "HTML": "2.6%"
+      }
+    },
+    {
+      "name": "The-Last-War",
+      "rank": 2,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "CSS",
+        "created_date": "2024-04-30",
+        "last_updated": "2025-04-12",
+        "recent_commits": 4,
+        "last_commit": "2025-04-12",
+        "repository_size": "12 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "The Last War is an interactive web-based game where you are humanity's last hope 🌱",
+      "language_breakdown": {
+        "CSS": "74.2%",
+        "JavaScript": "18.1%",
+        "HTML": "7.7%"
+      }
+    },
+    {
+      "name": "Sprinkle-of-Flavor",
+      "rank": 3,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "HTML",
+        "created_date": "2024-04-30",
+        "last_updated": "2024-04-30",
+        "recent_commits": 2,
+        "last_commit": "2024-04-30",
+        "repository_size": "1694 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "HTML": "93.1%",
+        "CSS": "6.9%"
+      },
+      "ai_analysis": {
+        "project_purpose": "This project appears to be a simple, static website showcasing various food recipes and related images. It likely aims to provide a collection of recipes and visual inspiration for cooking enthusiasts.",
+        "technology_stack": "The project primarily utilizes HTML, based on the provided repository information. The images (JPEG format) suggest that visual presentation is a key aspect. There's no indication of JavaScript, CSS, or any backend technologies.",
+        "project_category": "This is a static website, specifically a recipe/food blog or personal showcase.",
+        "key_features": [
+          "Display of recipes with corresponding images",
+          "Navigation through different recipe categories (appetizer, dessert)",
+          "Basic pages for 'about' and 'contact' information",
+          "Simple, image-based recipe presentation"
+        ],
+        "development_status": "The project seems to be in a basic, early stage of development. There are no stars or forks, and the file structure suggests a relatively simple and possibly incomplete website. The absence of CSS files implies a lack of styling beyond potentially inline HTML attributes. It may be a personal project just starting out.",
+        "use_cases": [
+          "Individuals looking for recipe inspiration",
+          "Home cooks seeking visual references for dishes",
+          "Potentially, someone building a personal recipe collection website"
+        ]
+      }
+    },
+    {
+      "name": "project_nms",
+      "rank": 4,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "None",
+        "created_date": "2024-04-30",
+        "last_updated": "2024-04-30",
+        "recent_commits": 7,
+        "last_commit": "2024-04-15",
+        "repository_size": "67 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Fork"
+      },
+      "readme_excerpt": "Welcome to Connect, a real-time chat application designed to bring people closer to their loved ones!",
+      "language_breakdown": {
+        "CSS": "42.2%",
+        "JavaScript": "39.5%",
+        "HTML": "18.4%"
+      }
+    },
+    {
+      "name": "FashionInFocus",
+      "rank": 5,
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "contributors": 1,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "releases": 0
+      },
+      "details": {
+        "category": "General",
+        "primary_language": "HTML",
+        "created_date": "2024-03-28",
+        "last_updated": "2024-03-28",
+        "recent_commits": 2,
+        "last_commit": "2024-03-28",
+        "repository_size": "568 KB",
+        "health_score": 35,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "HTML": "79.8%",
+        "CSS": "20.2%"
+      },
+      "ai_analysis": {
+        "project_purpose": "The FashionInFocus project appears to be a simple website focused on the fashion industry. Based on the filenames, it likely features information about the website owners ('about us'), events, services, and potentially a registration form.",
+        "technology_stack": "The project primarily uses HTML for structuring the web pages and CSS (style3.css) for styling. No Javascript or other dynamic scripting languages are explicitly mentioned, suggesting a static website. Images are being used for visual content.",
+        "project_category": "This is a static website project, most likely a marketing or informational website.",
+        "key_features": [
+          "Basic Website Structure: Uses HTML to create web pages",
+          "Styling: Employs CSS for visual presentation",
+          "Image Integration: Includes images for visual appeal and content",
+          "Information Pages: Includes pages for 'about us,' 'events,' and 'services'",
+          "Registration Form: Features a registration form"
+        ],
+        "development_status": "The project seems to be in an early stage of development. With 0 stars and 0 forks, it hasn't garnered much attention, and the lack of a descriptive README.md suggests it may be incomplete or not actively maintained. The filenames 'eventsssss.html' and 'style3.css' also suggest the code may be in development.",
+        "use_cases": [
+          "Fashion Boutiques: To showcase their collections and events",
+          "Fashion Designers: To present their work and contact information",
+          "Fashion Event Organizers: To promote upcoming events and gather registrations"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "analysis_date": "2025-06-01",
+    "total_projects_analyzed": 5,
+    "health_score_range": "35/100 (All repositories)",
+    "most_recent_activity": "2025-04-24",
+    "oldest_project": "2024-03-28"
+  }
+}

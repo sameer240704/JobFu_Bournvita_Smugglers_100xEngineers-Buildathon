@@ -1,0 +1,444 @@
+{
+  "user_profile": {
+    "username": "@henryjeff",
+    "full_name": "Henry Heffernan",
+    "bio": "design engineer @vercel",
+    "location": "San Francisco",
+    "company": "@vercel",
+    "website": "henryheffernan.com",
+    "followers": {
+      "count": 831,
+      "top_followers": [
+        "@nickpunt",
+        "@29decibel",
+        "@chandanjog",
+        "@pingf",
+        "@umaar"
+      ],
+      "total_top_shown": 30
+    },
+    "following": {
+      "count": 5,
+      "list": [
+        "@ikeryou",
+        "@chenglou",
+        "@vercel",
+        "@scottbass47",
+        "@rocicorp"
+      ]
+    },
+    "public_repos": 14
+  },
+  "repository_analytics": {
+    "total_repositories": 14,
+    "total_stars": 1794,
+    "total_forks": 297,
+    "total_watchers": 1794,
+    "top_10_summary": {
+      "total_stars": 1791,
+      "total_forks": 296,
+      "total_contributors": 15,
+      "average_health_score": "56.5/100"
+    }
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "portfolio-website",
+      "stars": 1546,
+      "health_score": "65/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2022-03-11",
+      "last_updated": "2025-05-31",
+      "forks": 214,
+      "watchers": 1546,
+      "contributors": 1,
+      "open_issues": 4,
+      "closed_issues": 12,
+      "releases": 0,
+      "readme_excerpt": "This is one of two repositories created for my portfolio website henryheffernan.com. If you are looking for the 2D OS repository you can find it ...",
+      "language_breakdown": {
+        "TypeScript": "86.0%",
+        "CSS": "3.8%",
+        "JavaScript": "3.5%"
+      },
+      "topics": ["portfolio"],
+      "recent_commits": 150,
+      "last_commit": "2024-06-24",
+      "repository_size": "236918 KB",
+      "default_branch": "master",
+      "type": "Original Repository",
+      "detailed_analysis": {
+        "description": "None",
+        "languages_used": true,
+        "recent_commits_shown": true,
+        "issues_shown": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "portfolio-inner-site",
+      "stars": 191,
+      "health_score": "70/100",
+      "health_status": "🟢",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2022-03-17",
+      "last_updated": "2025-05-30",
+      "forks": 79,
+      "watchers": 191,
+      "contributors": 4,
+      "open_issues": 4,
+      "closed_issues": 3,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Personal portfolio website built using React and TypeScript showcasing developer's skills, projects, and experience",
+        "technology_stack": {
+          "frontend": "React, TypeScript",
+          "ui_animations": "Framer Motion",
+          "testing": "Jest, React Testing Library",
+          "unique_features": "js-dos integration for retro experiences",
+          "build_manager": "npm"
+        },
+        "key_features": [
+          "Interactive project demos with js-dos integration",
+          "Responsive design for all devices",
+          "Engaging animations with Framer Motion",
+          "Skills and experience showcase",
+          "Contact information display"
+        ],
+        "development_status": "Stable and well-maintained with community interest",
+        "use_cases": [
+          "Showcasing projects to employers/clients",
+          "Quick capability assessment for recruiters",
+          "Attracting new clients for freelancers"
+        ]
+      },
+      "language_breakdown": {
+        "TypeScript": "82.4%",
+        "CSS": "16.5%",
+        "HTML": "1.1%"
+      },
+      "recent_commits": 118,
+      "last_commit": "2024-08-22",
+      "repository_size": "126565 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 3,
+      "name": "skip-the-scroll",
+      "stars": 30,
+      "health_score": "55/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2021-12-24",
+      "last_updated": "2025-04-25",
+      "forks": 1,
+      "watchers": 30,
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "<!-- ![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg) -->",
+      "language_breakdown": {
+        "TypeScript": "71.1%",
+        "CSS": "15.4%",
+        "JavaScript": "10.8%"
+      },
+      "recent_commits": 10,
+      "last_commit": "2022-02-07",
+      "repository_size": "2689 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 4,
+      "name": "wo",
+      "stars": 7,
+      "health_score": "45/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2022-06-24",
+      "last_updated": "2025-05-14",
+      "forks": 0,
+      "watchers": 7,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This is a Next.js project bootstrapped with create-next-app.",
+      "language_breakdown": {
+        "TypeScript": "83.2%",
+        "CSS": "16.2%",
+        "GLSL": "0.4%"
+      },
+      "recent_commits": 57,
+      "last_commit": "2022-07-06",
+      "repository_size": "232 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "id": 5,
+      "name": "gsts_assets",
+      "stars": 4,
+      "health_score": "80/100",
+      "health_status": "🟢",
+      "category": "General",
+      "primary_language": null,
+      "created": "2019-08-02",
+      "last_updated": "2025-03-17",
+      "forks": 2,
+      "watchers": 4,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Assets for Guntattchment Saga The Sequel",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Asset repository containing visual, audio, or other media elements for the game 'Guntattchment Saga The Sequel'",
+        "technology_stack": {
+          "asset_tools": ["Photoshop/GIMP/Krita for images", "Audacity/Ableton Live for audio", "Blender/Maya/3ds Max for 3D models"],
+          "game_engine_assumption": "Unity/Unreal Engine/Godot"
+        },
+        "project_category": "Asset Repository",
+        "key_features": [
+          "Visual and audio components for game",
+          "Central location for game assets",
+          "Various formats and resolutions for different platforms"
+        ],
+        "development_status": "Moderate activity and interest, likely related to completed or in-progress sequel project",
+        "use_cases": [
+          "Game developers working on the sequel",
+          "Modders/community developers for fan content",
+          "Game designers for inspiration"
+        ]
+      },
+      "recent_commits": 30,
+      "last_commit": "2019-10-24",
+      "repository_size": "5881 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 6,
+      "name": "henryjeff",
+      "stars": 4,
+      "health_score": "55/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": null,
+      "created": "2022-05-08",
+      "last_updated": "2025-04-10",
+      "forks": 0,
+      "watchers": 4,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "GitHub Profile README",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "GitHub profile README serving as personalized landing page showcasing skills, experience, and projects",
+        "technology_stack": {
+          "primary": "Markdown (README.md)"
+        },
+        "project_category": "Profile Page/Personal Website",
+        "key_features": [
+          "Profile introduction with skills and interests",
+          "GitHub project showcase",
+          "Personal branding and professional presentation"
+        ],
+        "development_status": "Actively maintained with occasional updates as developer gains new experiences",
+        "use_cases": [
+          "Recruiters/employers for skill assessment",
+          "Potential collaborators for project opportunities",
+          "Other developers for finding interesting projects"
+        ]
+      },
+      "recent_commits": 15,
+      "last_commit": "2022-07-07",
+      "repository_size": "15 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "id": 7,
+      "name": "technical-uis",
+      "stars": 3,
+      "health_score": "45/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2023-02-24",
+      "last_updated": "2025-04-10",
+      "forks": 0,
+      "watchers": 3,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "This is a Next.js project bootstrapped with create-next-app.",
+      "language_breakdown": {
+        "TypeScript": "86.6%",
+        "CSS": "12.7%",
+        "JavaScript": "0.7%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2023-02-24",
+      "repository_size": "117 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "id": 8,
+      "name": "bracs",
+      "stars": 3,
+      "health_score": "60/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2021-09-21",
+      "last_updated": "2024-08-21",
+      "forks": 0,
+      "watchers": 3,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 4,
+      "releases": 0,
+      "readme_excerpt": "This project was bootstrapped with Create React App.",
+      "language_breakdown": {
+        "TypeScript": "96.8%",
+        "HTML": "1.4%",
+        "CSS": "1.3%"
+      },
+      "recent_commits": 121,
+      "last_commit": "2022-04-26",
+      "repository_size": "1195 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "id": 9,
+      "name": "2-player-tetris",
+      "stars": 2,
+      "health_score": "45/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2017-05-18",
+      "last_updated": "2024-08-21",
+      "forks": 0,
+      "watchers": 2,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Two-player Tetris game implemented in Java allowing real-time competitive gameplay",
+        "technology_stack": {
+          "language": "Java",
+          "framework": "LibGDX (version 1.9.6)",
+          "build_tool": "Gradle",
+          "dependencies": ["RoboVM (2.3.0)", "Box2DLights (1.4)", "Ashley (1.7.0)", "AI (1.8.0)"]
+        },
+        "project_category": "Game (Desktop/Potentially Mobile)",
+        "key_features": [
+          "Two-player gameplay",
+          "Standard Tetris rules",
+          "Cross-platform compatibility via LibGDX",
+          "Graphics and input handling"
+        ],
+        "development_status": "Limited activity, likely completed or unmaintained project using older LibGDX versions",
+        "use_cases": [
+          "Local two-player Tetris gaming",
+          "Learning resource for LibGDX game development",
+          "Portfolio demonstration of Java and LibGDX skills"
+        ]
+      },
+      "language_breakdown": {
+        "Java": "69.0%",
+        "PLSQL": "28.3%",
+        "GLSL": "2.7%"
+      },
+      "recent_commits": 6,
+      "last_commit": "2017-06-08",
+      "repository_size": "927 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "id": 10,
+      "name": "iit",
+      "stars": 1,
+      "health_score": "45/100",
+      "health_status": "🟡",
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2022-02-03",
+      "last_updated": "2024-08-21",
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 8,
+      "releases": 0,
+      "readme_excerpt": "This lab wasnt too hard to do. I originally took a stab at it like 20 days ago",
+      "language_breakdown": {
+        "HTML": "71.2%",
+        "JavaScript": "16.0%",
+        "CSS": "12.8%"
+      },
+      "recent_commits": 21,
+      "last_commit": "2022-04-18",
+      "repository_size": "498 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    }
+  ],
+  "summary": {
+    "total_repositories": 14,
+    "most_starred_project": {
+      "name": "portfolio-website",
+      "stars": 1546
+    },
+    "health_score_distribution": {
+      "green": 2,
+      "yellow": 8,
+      "red": 0
+    },
+    "primary_languages": {
+      "TypeScript": 7,
+      "Java": 1,
+      "HTML": 1,
+      "None": 5
+    },
+    "total_community_engagement": {
+      "stars": 1794,
+      "forks": 297,
+      "watchers": 1794
+    },
+    "project_types": {
+      "portfolio_websites": 2,
+      "web_applications": 4,
+      "games": 1,
+      "assets": 1,
+      "profile": 1,
+      "other": 5
+    },
+    "career_highlights": {
+      "role": "Design Engineer at Vercel",
+      "location": "San Francisco",
+      "portfolio_success": "1546 stars on main portfolio project",
+      "community_following": "831 followers"
+    }
+  }
+}

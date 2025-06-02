@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import { Crown, Check, Zap } from "lucide-react";
 import { Button } from "../ui/button";
 import { sidebarData } from "@/constants/sidebar-data";
+import Image from "next/image";
+import { Logo } from "@/public";
 
 const Sidebar = ({ isCollapsed = false }) => {
   const pathname = usePathname();
@@ -27,7 +29,6 @@ const Sidebar = ({ isCollapsed = false }) => {
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
         <div className="flex flex-col h-full">
-          {/* Logo section */}
           <div
             className={`flex mb-8 ${isCollapsed ? "justify-center" : "px-1"}`}
           >
@@ -38,7 +39,7 @@ const Sidebar = ({ isCollapsed = false }) => {
             ) : (
               <div className="flex items-center gap-3">
                 <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-purple-600 to-indigo-600 flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-lg">H</span>
+                  <Image src={Logo} alt="JobFu Logo" className="rounded-md" />
                 </div>
                 <div>
                   <h1 className="text-xl font-bold text-gray-900 dark:text-white">

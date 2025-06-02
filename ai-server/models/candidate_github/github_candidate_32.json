@@ -1,0 +1,516 @@
+{
+  "profile": {
+    "username": "vedantgavankar24",
+    "followers": 0,
+    "following": 0,
+    "public_repos": 16
+  },
+  "repositories_summary": {
+    "total_repositories": 16,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "total_contributors": 10,
+    "avg_health_score": 35.0
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "expressrupya-react",
+      "description": null,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-04-26",
+      "last_updated": "2025-04-26",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-04-26",
+      "repository_size_kb": 1119,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "98.3%",
+        "CSS": "1.7%"
+      },
+      "ai_analysis": {
+        "purpose": "Web application built using React and Next.js, likely a landing page or simple website for a financial service, potentially related to loans or microfinance",
+        "technology_stack": [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "JavaScript"
+        ],
+        "project_category": "Web Application (Landing Page/Website)",
+        "key_features": [
+          "Multiple sections including About Us",
+          "Basic layout with Navbar",
+          "Financial services related content",
+          "GitHub Pages deployment ready"
+        ],
+        "development_status": "Early stage development",
+        "use_cases": [
+          "Financial Institutions landing page",
+          "Startup website template",
+          "Portfolio project for developers"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "onethrive-react",
+      "description": null,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-04-14",
+      "last_updated": "2025-04-14",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-04-14",
+      "repository_size_kb": 15,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "98.9%",
+        "CSS": "1.1%"
+      },
+      "ai_analysis": {
+        "purpose": "Website built using React, likely a landing page or marketing website with various sections",
+        "technology_stack": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Tailwind CSS",
+          "gh-pages"
+        ],
+        "project_category": "Web Application (Landing Page / Marketing Website)",
+        "key_features": [
+          "Modular React components",
+          "Features, pricing, testimonials sections",
+          "Call-to-action functionality",
+          "Responsive layout with navbar and footer",
+          "GitHub Pages deployment"
+        ],
+        "development_status": "Early stage development",
+        "use_cases": [
+          "Small business marketing website",
+          "Next.js + Tailwind CSS template",
+          "Learning resource for React development"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "coldmail",
+      "description": null,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-03-12",
+      "last_updated": "2025-03-28",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-03-28",
+      "repository_size_kb": 55,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "50.1%",
+        "Handlebars": "34.6%",
+        "CSS": "7.9%",
+        "Python": "7.4%"
+      },
+      "ai_analysis": {
+        "purpose": "Blog application with user authentication, posts management, and email generation functionality",
+        "technology_stack": [
+          "JavaScript",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Mongoose",
+          "Handlebars",
+          "Bcrypt",
+          "Passport.js",
+          "Python"
+        ],
+        "project_category": "Web Application (Blog/Social Media platform)",
+        "key_features": [
+          "User authentication (registration, login, logout)",
+          "Post CRUD operations",
+          "Post liking functionality",
+          "Password hashing and security",
+          "Email generation for personalization"
+        ],
+        "development_status": "Early stage development",
+        "use_cases": [
+          "Simple blog platform creation",
+          "Web application template with authentication",
+          "Learning resource for Node.js and MongoDB"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "sleepnova",
+      "description": null,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-02-23",
+      "last_updated": "2025-02-24",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 5,
+      "last_commit": "2025-02-24",
+      "repository_size_kb": 33305,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "98.0%",
+        "Python": "1.2%",
+        "CSS": "0.8%"
+      },
+      "ai_analysis": {
+        "purpose": "Web application designed to analyze or manage sleep disorder data with machine learning capabilities",
+        "technology_stack": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "Axios",
+          "NumPy",
+          "Pandas",
+          "Python ML libraries"
+        ],
+        "project_category": "Web Application (Healthcare/Personal Wellness)",
+        "key_features": [
+          "Sleep pattern data analysis",
+          "User interface for sleep disorder information",
+          "Machine learning integration",
+          "Data visualization capabilities"
+        ],
+        "development_status": "Early development",
+        "use_cases": [
+          "Medical professionals for sleep disorder diagnosis",
+          "Researchers for sleep data analysis",
+          "Individual sleep pattern tracking"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "mlproject",
+      "description": null,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-04",
+      "last_updated": "2025-02-04",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 3,
+      "last_commit": "2025-02-04",
+      "repository_size_kb": 14,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "ai_analysis": {
+        "purpose": "Rudimentary Machine Learning project, possibly exploratory with experimentation documentation",
+        "technology_stack": [
+          "Python",
+          "Likely ML libraries (scikit-learn, TensorFlow, PyTorch)"
+        ],
+        "project_category": "Machine Learning Experiment/Project",
+        "key_features": [
+          "Python ML model implementation",
+          "Experiment documentation (.docx file)",
+          "Basic ML techniques demonstration"
+        ],
+        "development_status": "Very early/exploratory stage",
+        "use_cases": [
+          "Individual ML learning and experimentation",
+          "Starting point for larger ML project",
+          "Basic ML techniques demonstration"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "socialmedia",
+      "description": null,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-01-17",
+      "last_updated": "2025-01-17",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-01-17",
+      "repository_size_kb": 11484,
+      "health_score": 35,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "54.0%",
+        "Handlebars": "37.6%",
+        "CSS": "8.4%"
+      },
+      "ai_analysis": {
+        "purpose": "Blog application with potential social media integration features for content management and sharing",
+        "technology_stack": [
+          "JavaScript",
+          "Node.js",
+          "Handlebars",
+          "MongoDB",
+          "Express.js",
+          "Bcrypt"
+        ],
+        "project_category": "Web Application (Blog with social media elements)",
+        "key_features": [
+          "User authentication and authorization",
+          "Content creation and management",
+          "Database storage",
+          "Session management",
+          "Potential social media sharing"
+        ],
+        "development_status": "Early stage or abandoned",
+        "use_cases": [
+          "Personal blog creation",
+          "Social media application starting point",
+          "Content management system for small businesses"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "studycrypt",
+      "description": null,
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2025-01-16",
+      "last_updated": "2025-01-17",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 4,
+      "last_commit": "2025-01-17",
+      "repository_size_kb": 19120,
+      "health_score": 35,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "HTML": "75.8%",
+        "TypeScript": "9.6%",
+        "JavaScript": "7.7%",
+        "CSS": "6.9%"
+      },
+      "ai_analysis": {
+        "purpose": "Real-time cryptocurrency price monitoring and alerting system with API endpoints",
+        "technology_stack": [
+          "Node.js",
+          "Express.js",
+          "Mongoose",
+          "MongoDB",
+          "Redis",
+          "Axios",
+          "TypeScript",
+          "Bcrypt"
+        ],
+        "project_category": "Web application (API endpoint/Server-side application)",
+        "key_features": [
+          "Real-time cryptocurrency price monitoring",
+          "User accounts and price alerts",
+          "API endpoints for crypto data",
+          "Redis caching for performance",
+          "TypeScript development"
+        ],
+        "development_status": "Active development possible",
+        "use_cases": [
+          "Cryptocurrency traders and investors",
+          "Backend API for crypto applications",
+          "Portfolio performance tracking"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "AI-DS",
+      "description": null,
+      "category": "General",
+      "primary_language": "Handlebars",
+      "created": "2025-01-12",
+      "last_updated": "2025-01-12",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 5,
+      "last_commit": "2025-01-12",
+      "repository_size_kb": 14362,
+      "health_score": 35,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Handlebars": "50.7%",
+        "JavaScript": "34.5%",
+        "CSS": "14.7%"
+      },
+      "ai_analysis": {
+        "purpose": "Blog application with user authentication and post management functionality",
+        "technology_stack": [
+          "Node.js",
+          "Express.js",
+          "Handlebars",
+          "MongoDB",
+          "Bcrypt",
+          "Express-session"
+        ],
+        "project_category": "Web Application",
+        "key_features": [
+          "User authentication (registration, login)",
+          "Blog post CRUD operations",
+          "Session management",
+          "MongoDB data persistence",
+          "Potential comment functionality"
+        ],
+        "development_status": "Early stage development",
+        "use_cases": [
+          "Personal blog hosting",
+          "Simple CMS for small teams",
+          "Full-stack learning exercise"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "webdev_asgmt",
+      "description": null,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-01-10",
+      "last_updated": "2025-01-10",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-01-10",
+      "repository_size_kb": 18935,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {},
+      "ai_analysis": {
+        "purpose": "Hospital Management System - web development assignment project",
+        "technology_stack": [
+          "Unknown (packaged in hospman.zip)"
+        ],
+        "project_category": "Web Application or Desktop Application",
+        "key_features": [
+          "Patient Management (registration, records)",
+          "Appointment Scheduling",
+          "Billing/Invoicing",
+          "Staff Management",
+          "Inventory Management (potentially)",
+          "Reporting"
+        ],
+        "development_status": "Assignment completion stage",
+        "use_cases": [
+          "Student web development learning",
+          "Small clinic management system",
+          "Hospital management system template"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "AIDS-demo",
+      "description": null,
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2024-11-25",
+      "last_updated": "2024-11-25",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2024-11-25",
+      "repository_size_kb": 2,
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "HTML": "100.0%"
+      },
+      "ai_analysis": {
+        "purpose": "Rudimentary user registration process demonstration (purpose unclear)",
+        "technology_stack": [
+          "HTML"
+        ],
+        "project_category": "Basic web application demo",
+        "key_features": [
+          "User registration form (register.html)"
+        ],
+        "development_status": "Extremely early stage/Inactive",
+        "use_cases": [
+          "Educational purpose for HTML forms",
+          "Placeholder/Initial setup for larger project"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "data_fetched_date": "2025-06-01",
+    "total_projects_analyzed": 10,
+    "github_profile_url": "https://github.com/vedantgavankar24"
+  }
+}

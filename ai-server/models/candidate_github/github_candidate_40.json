@@ -1,0 +1,349 @@
+{
+    "profile": {
+        "name": "Yuanming (Oliver) Wu",
+        "username": "MUOliver1026",
+        "bio": "Aspiring Software Engineer | Full-Stack Web Developer | Master's in IT (AI) | AWS Certified",
+        "location": "Melbourne",
+        "followers": 3,
+        "following": 5,
+        "public_repos": 12
+    },
+    "repository_stats": {
+        "total_repositories": 12,
+        "total_stars": 1,
+        "total_forks": 0,
+        "total_watchers": 1,
+        "top_10_stats": {
+            "total_stars": 1,
+            "total_forks": 0,
+            "total_contributors": 11,
+            "avg_health_score": 42.5
+        }
+    },
+    "repositories": [
+        {
+            "rank": 1,
+            "name": "tutor_management_platform",
+            "stars": 1,
+            "health_score": 70,
+            "category": "General",
+            "primary_language": "TypeScript",
+            "created": "2023-11-17",
+            "last_updated": "2024-08-27",
+            "forks": 0,
+            "watchers": 1,
+            "contributors": 2,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": "Tutor Trackr - Tutor Management Platform",
+            "readme_excerpt": "This is a Next.js project bootstrapped with create-next-app.",
+            "language_breakdown": {
+                "TypeScript": "98.9%",
+                "JavaScript": "0.6%",
+                "CSS": "0.4%"
+            },
+            "recent_commits": 9,
+            "last_commit": "2023-11-18",
+            "repository_size": "1248 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 2,
+            "name": "Oliver_Wu_Portfolio",
+            "stars": 0,
+            "health_score": 45,
+            "category": "General",
+            "primary_language": "TypeScript",
+            "created": "2023-06-27",
+            "last_updated": "2025-03-03",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": "The portfolio for Oliver Wu",
+            "readme_excerpt": "This is a template for creating a portfolio with Tailwind CSS and Next.js.",
+            "language_breakdown": {
+                "TypeScript": "92.0%",
+                "JavaScript": "7.7%",
+                "CSS": "0.3%"
+            },
+            "recent_commits": 10,
+            "last_commit": "2025-03-03",
+            "repository_size": "31661 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 3,
+            "name": "Rhombus_test",
+            "stars": 0,
+            "health_score": 35,
+            "category": "General",
+            "primary_language": "Python",
+            "created": "2024-10-18",
+            "last_updated": "2024-10-18",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": null,
+            "ai_analysis": {
+                "project_purpose": "Data processing and type inference for CSV files",
+                "technology_stack": [
+                    "Python",
+                    "CSV"
+                ],
+                "project_category": "Data analysis/processing tool or utility script",
+                "key_features": [
+                    "Data Type Inference",
+                    "CSV Data Handling"
+                ],
+                "development_status": "Early stage/Proof of Concept",
+                "use_cases": [
+                    "Data Scientists/Analysts",
+                    "Data Engineers"
+                ]
+            },
+            "language_breakdown": {
+                "Python": "100.0%"
+            },
+            "recent_commits": 1,
+            "last_commit": "2024-10-18",
+            "repository_size": "0 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 4,
+            "name": "my-app-router-demo",
+            "stars": 0,
+            "health_score": 35,
+            "category": "General",
+            "primary_language": "TypeScript",
+            "created": "2024-09-16",
+            "last_updated": "2024-09-19",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": null,
+            "readme_excerpt": "This project demonstrates the usage of the Next.js App Router, a powerful routing system introduced in Next.js 13. The App Router provides a more intuitive and flexible way to handle routing in your N...",
+            "language_breakdown": {
+                "TypeScript": "85.6%",
+                "CSS": "9.3%",
+                "JavaScript": "5.1%"
+            },
+            "recent_commits": 2,
+            "last_commit": "2024-09-19",
+            "repository_size": "187 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 5,
+            "name": "CarDealerAPI",
+            "stars": 0,
+            "health_score": 35,
+            "category": "General",
+            "primary_language": "C#",
+            "created": "2024-09-14",
+            "last_updated": "2024-09-15",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": null,
+            "readme_excerpt": "This project consists of a Car Dealer API built with ASP.NET Core and a React frontend that allows dealers to manage their car stocks.",
+            "language_breakdown": {
+                "C#": "40.5%",
+                "TypeScript": "37.1%",
+                "JavaScript": "8.9%"
+            },
+            "recent_commits": 4,
+            "last_commit": "2024-09-15",
+            "repository_size": "52 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 6,
+            "name": "robot-control",
+            "stars": 0,
+            "health_score": 35,
+            "category": "General",
+            "primary_language": "TypeScript",
+            "created": "2024-08-07",
+            "last_updated": "2024-08-07",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": null,
+            "readme_excerpt": "Robot Control Simulator is a web-based application that allows users to control a virtual robot on a 5x5 grid. Built with React, TypeScript, and styled with TailwindCSS, this project demonstrates mode...",
+            "language_breakdown": {
+                "TypeScript": "71.2%",
+                "CSS": "16.4%",
+                "JavaScript": "9.0%"
+            },
+            "recent_commits": 12,
+            "last_commit": "2024-08-07",
+            "repository_size": "187 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 7,
+            "name": "EstateEase",
+            "stars": 0,
+            "health_score": 35,
+            "category": "General",
+            "primary_language": "TypeScript",
+            "created": "2024-03-10",
+            "last_updated": "2024-06-14",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": null,
+            "readme_excerpt": "This project is a modern real estate marketplace built from scratch using the MERN stack (MongoDB, Express.js, React, and Node.js). It incorporates advanced features such as JWT authentication, Fireba...",
+            "language_breakdown": {
+                "TypeScript": "73.5%",
+                "JavaScript": "26.3%",
+                "CSS": "0.3%"
+            },
+            "recent_commits": 28,
+            "last_commit": "2024-06-14",
+            "repository_size": "530 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 8,
+            "name": "cognicare-innovation-website",
+            "stars": 0,
+            "health_score": 35,
+            "category": "General",
+            "primary_language": "JavaScript",
+            "created": "2024-05-19",
+            "last_updated": "2024-06-10",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": null,
+            "readme_excerpt": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+            "language_breakdown": {
+                "JavaScript": "98.1%",
+                "CSS": "1.1%",
+                "HTML": "0.7%"
+            },
+            "recent_commits": 29,
+            "last_commit": "2024-05-30",
+            "repository_size": "1159 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 9,
+            "name": "MUOliver1026",
+            "stars": 0,
+            "health_score": 55,
+            "category": "General",
+            "primary_language": null,
+            "created": "2022-02-28",
+            "last_updated": "2024-05-18",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": "Config files for my GitHub profile.",
+            "readme_excerpt": "I'm an IT Graduate with a master's degree in Information Technology, specializing in AI, from UNSW. I have extensive experience in developing responsive, user-centric web applications using modern tec...",
+            "topics": [
+                "config",
+                "github-config"
+            ],
+            "recent_commits": 10,
+            "last_commit": "2024-05-18",
+            "repository_size": "14 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        },
+        {
+            "rank": 10,
+            "name": "DocuSphere",
+            "stars": 0,
+            "health_score": 45,
+            "category": "General",
+            "primary_language": "TypeScript",
+            "created": "2024-02-04",
+            "last_updated": "2024-02-04",
+            "forks": 0,
+            "watchers": 0,
+            "contributors": 1,
+            "open_issues": 0,
+            "closed_issues": 0,
+            "releases": 0,
+            "description": "DocuSphere is an innovative cloud-based document management system designed to revolutionize the way individuals and teams create, store, share, and collaborate on documents online.",
+            "readme_excerpt": "DocuSphere is a cloud-based document management system designed to facilitate the online creation, storage, sharing, and editing of documents with support for version control and team collaboration. B...",
+            "language_breakdown": {
+                "TypeScript": "63.7%",
+                "JavaScript": "26.6%",
+                "CSS": "8.2%"
+            },
+            "recent_commits": 12,
+            "last_commit": "2024-02-22",
+            "repository_size": "161 KB",
+            "default_branch": "main",
+            "type": "Original Repository"
+        }
+    ],
+    "detailed_analysis": {
+        "selected_repository": "Oliver_Wu_Portfolio",
+        "description": "The portfolio for Oliver Wu",
+        "language": "TypeScript",
+        "size": "31661 KB",
+        "default_branch": "main",
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "watchers": 0
+    },
+    "social_data": {
+        "followers": {
+            "count": 3,
+            "list": [
+                "@Jo99ey",
+                "@Mr-DjZhao",
+                "@Jingli-123"
+            ]
+        },
+        "following": {
+            "count": 5,
+            "list": [
+                "@YumeLoL",
+                "@m4ch374",
+                "@Mr-DjZhao",
+                "@ByteByteGoHq",
+                "@Jessienka"
+            ]
+        }
+    }
+}

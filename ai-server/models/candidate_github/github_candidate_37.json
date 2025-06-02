@@ -1,0 +1,335 @@
+{
+  "user_profile": {
+    "username": "TanapongAUS",
+    "display_name": "T. Dech",
+    "location": "Australia",
+    "website": "tdech.me",
+    "followers": 0,
+    "following": 0,
+    "public_repos": 12
+  },
+  "repositories_overview": {
+    "total_repositories": 12,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "top_10_summary": {
+      "total_stars": 0,
+      "total_forks": 0,
+      "total_contributors": 10,
+      "avg_health_score": 35.0
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Asset_Feature",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": null,
+      "created": "2025-04-01",
+      "last_updated": "2025-04-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "Development of Asset Features, to showcase the understanding of the MVC architecture concept",
+      "recent_commits": 2,
+      "last_commit": "2025-04-01",
+      "repository_size": "0 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "advanced-software-development-youtube_trender",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2025-03-07",
+      "last_updated": "2025-03-07",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "1. Practical-1: https://github.com/TanapongAUS/advanced-software-development-pract_1",
+      "language_breakdown": {
+        "Java": "100.0%"
+      },
+      "recent_commits": 7,
+      "last_commit": "2025-03-07",
+      "repository_size": "169 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "advanced-software-development-pract_2",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2025-03-07",
+      "last_updated": "2025-03-07",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "Example input output is shown below. User Input in bold",
+      "language_breakdown": {
+        "Java": "100.0%"
+      },
+      "recent_commits": 6,
+      "last_commit": "2025-03-07",
+      "repository_size": "19 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "advanced-software-development-pract_1",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2025-03-07",
+      "last_updated": "2025-03-07",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "Example of program usage: Your program should behave, for example, as follows:<br>",
+      "language_breakdown": {
+        "Java": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-03-07",
+      "repository_size": "14 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "java-software-testing",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Java",
+      "created": "2025-03-06",
+      "last_updated": "2025-03-06",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "purpose": "Practice or demonstration of basic software testing concepts in Java with simple Java classes implementing common algorithms and data structures, along with unit tests",
+        "technology_stack": "Java, Maven (pom.xml), VS Code (.vscode/settings.json), JUnit testing framework",
+        "category": "Educational project, practice repository, or small utility library",
+        "key_features": [
+          "Implementation of basic algorithms (Factorial, Max3)",
+          "Implementation of BmiCalculator (Body Mass Index calculation)",
+          "Implementation of Cup and StringList class (OOP and data structures practice)",
+          "Unit tests for implementations using JUnit"
+        ],
+        "development_status": "Early stage of development - personal learning project or simple exercise",
+        "use_cases": [
+          "Students learning Java programming and software testing",
+          "Junior Developers looking for unit testing examples",
+          "Instructors as starter code for teaching software testing principles"
+        ]
+      },
+      "language_breakdown": {
+        "Java": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-03-06",
+      "repository_size": "34 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "ML_for_Algorithmic_Trading-Preview",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-12",
+      "last_updated": "2025-02-12",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "This repository contains demonstration code intended solely for preview purposes. Please note that significant portions of the implementation have been deliberately omitted, including essential functi...",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-02-12",
+      "repository_size": "19 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "Mental_Care_App-Preview",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-02-12",
+      "last_updated": "2025-02-12",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "- public: store public files that can be accessible to all people such as images, icons, and fonts.",
+      "language_breakdown": {
+        "JavaScript": "42.4%",
+        "HTML": "38.5%",
+        "CSS": "19.1%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-02-12",
+      "repository_size": "24252 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 8,
+      "name": "Weather-App",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-06-25",
+      "last_updated": "2025-02-12",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "A weather application project that is developed from utilising React for frontend including JavaScript, HTML, CSS, Bootstrap5, and various APIS to design responsive web applications.",
+      "language_breakdown": {
+        "JavaScript": "75.8%",
+        "HTML": "14.8%",
+        "CSS": "9.4%"
+      },
+      "recent_commits": 11,
+      "last_commit": "2025-02-12",
+      "repository_size": "400 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "Data-Engineering",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "R",
+      "created": "2025-02-10",
+      "last_updated": "2025-02-10",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "purpose": "Analyzing and processing grades data using R, likely for calculating grade statistics, generating reports, or performing data engineering tasks related to grades",
+        "technology_stack": "R programming language with likely standard R libraries (dplyr, readr, ggplot2)",
+        "category": "Data analysis/data engineering script or small project",
+        "key_features": [
+          "Grades Data Processing",
+          "Data Analysis (calculating averages, distributions, identifying trends)",
+          "Data Transformation (potentially converting data into desired format)"
+        ],
+        "development_status": "Early or initial stage of development - appears to be personal project or small assignment",
+        "use_cases": [
+          "Educators/Teachers analyzing student performance",
+          "Data Analysts in education providing insights to stakeholders",
+          "Students/Researchers learning data engineering techniques"
+        ]
+      },
+      "language_breakdown": {
+        "R": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2025-02-10",
+      "repository_size": "6 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "Check-Pytorch-GPU",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-03-21",
+      "last_updated": "2024-03-21",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "1. Check for nvidia CUDA version cmd: nvidia-smi.exe",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2024-03-21",
+      "repository_size": "1 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ],
+  "detailed_analysis_focus": {
+    "repository": "Asset_Feature",
+    "description": null,
+    "language": null,
+    "size": "0 KB",
+    "default_branch": "main",
+    "stats": {
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  },
+  "social_activity": {
+    "recent_activity": null,
+    "followers": [],
+    "following": []
+  }
+}

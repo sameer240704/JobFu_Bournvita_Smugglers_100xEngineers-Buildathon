@@ -1,11 +1,12 @@
+import mongoose from "mongoose";
 import ChatHistory from "../models/chathistory.model.js";
+import Candidate from "../models/candidate.model.js";
 
 // Add new chat history
 export const addChatHistory = async (req, res) => {
   try {
     const { user, query, filters, response } = req.body;
 
-    // Validate required fields
     if (!user || !query) {
       return res.status(400).json({
         success: false,
@@ -13,22 +14,37 @@ export const addChatHistory = async (req, res) => {
       });
     }
 
-    // Create new chat history
+    // Fetch ObjectIds using nested email
+    const responseIds = await Promise.all(
+      response.map(async (res) => {
+        const candidate = await Candidate.findOne({
+          candidate_name: res, // correct path
+        }).select("_id");
+
+        if (!candidate)
+          throw new Error(`Candidate with email ${res} not found`);
+
+        return { candidate: candidate._id };
+      })
+    );
+
     const newChatHistory = new ChatHistory({
-      user,
+      user: new mongoose.Types.ObjectId(user),
       query,
       filters: filters || {},
-      response: response || [],
+      response: responseIds,
     });
 
     const savedChatHistory = await newChatHistory.save();
 
-    // Populate user and candidate references
     const populatedChatHistory = await ChatHistory.findById(
       savedChatHistory._id
     )
       .populate("user", "name email")
-      .populate("response.candidate", "name email jobTitle");
+      .populate(
+        "response.candidate",
+        "candidate_name contact_information.email"
+      );
 
     res.status(201).json({
       success: true,
@@ -87,17 +103,21 @@ export const getAllChatHistories = async (req, res) => {
 // Get chat history by ID
 export const getChatHistoryById = async (req, res) => {
   try {
-    const { id } = req.params;
+    const { user, id } = req.params;
+    // console.log(user, id);
 
     // Validate ObjectId format
-    if (!id.match(/^[0-9a-fA-F]{24}$/)) {
+    if (!id) {
       return res.status(400).json({
         success: false,
-        message: "Invalid chat history ID format",
+        message: "Invalid chat history ID",
       });
     }
 
-    const chatHistory = await ChatHistory.findById(id)
+    const chatHistory = await ChatHistory.find({
+      _id: id,
+      user: user,
+    })
       .populate("user", "name email")
       .populate("response.candidate", "name email jobTitle skills experience");
 
@@ -213,7 +233,6 @@ export const deleteChatHistory = async (req, res) => {
 export const getChatHistoriesByUserId = async (req, res) => {
   try {
     const { userId } = req.params;
-    const { page = 1, limit = 10 } = req.query;
 
     // Validate ObjectId format
     if (!userId.match(/^[0-9a-fA-F]{24}$/)) {
@@ -223,30 +242,16 @@ export const getChatHistoriesByUserId = async (req, res) => {
       });
     }
 
-    // Calculate pagination
-    const skip = (parseInt(page) - 1) * parseInt(limit);
-
-    const chatHistories = await ChatHistory.find({ user: userId })
-      .populate("user", "name email")
-      .populate("response.candidate", "name email jobTitle")
-      .sort({ createdAt: -1 })
-      .skip(skip)
-      .limit(parseInt(limit));
+    const chatHistories = await ChatHistory.find({ user: userId }).sort({
+      createdAt: -1,
+    });
 
     const totalCount = await ChatHistory.countDocuments({ user: userId });
-    const totalPages = Math.ceil(totalCount / parseInt(limit));
 
     res.status(200).json({
       success: true,
       message: "User chat histories retrieved successfully",
       data: chatHistories,
-      pagination: {
-        currentPage: parseInt(page),
-        totalPages,
-        totalCount,
-        hasNextPage: parseInt(page) < totalPages,
-        hasPrevPage: parseInt(page) > 1,
-      },
     });
   } catch (error) {
     console.error("Error getting chat histories by user ID:", error);

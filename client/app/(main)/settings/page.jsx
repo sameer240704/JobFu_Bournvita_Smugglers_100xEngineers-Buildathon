@@ -21,7 +21,6 @@ import { useTheme } from "@/context/theme-context";
 
 const SettingsPage = () => {
   const { theme, toggleTheme } = useTheme();
-  const [darkMode, setDarkMode] = useState(false);
   const [emailNotifications, setEmailNotifications] = useState(true);
   const [pushNotifications, setPushNotifications] = useState(true);
   const [soundEnabled, setSoundEnabled] = useState(false);
@@ -61,7 +60,7 @@ const SettingsPage = () => {
     highlight = false,
   }) => (
     <div
-      className={`rounded-xl border transition-all duration-300 hover:shadow-lg hover:scale-[1.01] ${
+      className={`rounded-xl border transition-all duration-300 hover:shadow-sm ${
         highlight
           ? "bg-gradient-to-r from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 border-purple-200 dark:border-purple-700"
           : "bg-card border-border hover:border-purple-300 dark:hover:border-purple-600"
@@ -216,14 +215,13 @@ const SettingsPage = () => {
             </div>
           </div>
 
-          {/* Account Section */}
           <div>
             <h2 className="text-xl font-semibold text-foreground mb-4 flex items-center">
               <User className="w-5 h-5 mr-2 text-purple-600" />
               Account
             </h2>
             <div className="space-y-4">
-              <div className="rounded-xl border border-border bg-card p-6 hover:shadow-lg hover:scale-[1.01] transition-all duration-300">
+              <div className="rounded-xl border border-border bg-card p-6 hover:shadow-sm transition-all duration-300">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-purple-600 flex items-center justify-center">
@@ -247,7 +245,7 @@ const SettingsPage = () => {
                 </div>
               </div>
 
-              <div className="rounded-xl border border-border bg-card p-6 hover:shadow-lg hover:scale-[1.01] transition-all duration-300">
+              <div className="rounded-xl border border-border bg-card p-6 hover:shadow-sm transition-all duration-300">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center">

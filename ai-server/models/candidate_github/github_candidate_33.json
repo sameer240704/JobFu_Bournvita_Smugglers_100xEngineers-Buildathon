@@ -1,0 +1,438 @@
+{
+  "profile": {
+    "username": "buddhadevyash",
+    "displayName": "yash buddhadev",
+    "bio": "i build stuff.",
+    "followers": 23,
+    "following": 14,
+    "publicRepos": 16
+  },
+  "repositoryStats": {
+    "totalRepositories": 16,
+    "totalStars": 5,
+    "totalForks": 5,
+    "totalWatchers": 5
+  },
+  "topRepositoriesStats": {
+    "totalStarsTop10": 5,
+    "totalForksTop10": 5,
+    "totalContributors": 29,
+    "averageHealthScore": 49.0
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "INNOV8-HumanAIze-FintechEdition",
+      "stars": 1,
+      "healthScore": 70,
+      "category": "General",
+      "primaryLanguage": "Python",
+      "created": "2024-06-22",
+      "lastUpdated": "2024-08-18",
+      "forks": 3,
+      "watchers": 1,
+      "contributors": 4,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "Welcome to SmartSure, a groundbreaking project designed to revolutionize the insurance industry through advanced AI technologies. This project was developed as part of **Hack2Skill's HumanAIze Hac...",
+      "languageBreakdown": {
+        "Python": "99.6%",
+        "CSS": "0.4%"
+      },
+      "recentCommits": 148,
+      "lastCommit": "2024-08-18",
+      "repositorySize": "7774 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "rag-templates",
+      "stars": 2,
+      "healthScore": 45,
+      "category": "General",
+      "primaryLanguage": "Python",
+      "created": "2025-03-25",
+      "lastUpdated": "2025-03-27",
+      "forks": 0,
+      "watchers": 2,
+      "contributors": 1,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "AI-Generated Summary Available",
+      "aiAnalysis": {
+        "purpose": "The repository likely provides a starter template for building Retrieval-Augmented Generation (RAG) applications. Based on the file structure, it aims to simplify the development of RAG systems by providing a pre-configured setup with necessary components like data processing, vector storage, and a user interface.",
+        "technologyStack": [
+          "Python",
+          "Streamlit",
+          "FAISS (Facebook AI Similarity Search)",
+          "RAG related library"
+        ],
+        "projectCategory": "Template/Starter Project for RAG Application Development",
+        "keyFeatures": [
+          "RAG Implementation",
+          "Vector Storage",
+          "Data Preprocessing",
+          "User Interface",
+          "Example Assets"
+        ],
+        "useCases": [
+          "Developers: Can use this as a starting point for building their own RAG applications",
+          "Researchers/Students: Can use this template to experiment with RAG concepts",
+          "Organizations: Can adapt this template to create custom RAG solutions"
+        ]
+      },
+      "languageBreakdown": {
+        "Python": "100.0%"
+      },
+      "recentCommits": 8,
+      "lastCommit": "2025-03-26",
+      "repositorySize": "1624 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "PhysioPlay",
+      "stars": 0,
+      "healthScore": 60,
+      "category": "General",
+      "primaryLanguage": "Python",
+      "created": "2024-07-12",
+      "lastUpdated": "2025-05-25",
+      "forks": 2,
+      "watchers": 0,
+      "contributors": 4,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "AI-Generated Summary Available",
+      "aiAnalysis": {
+        "purpose": "Based on the file structure and dependencies, PhysioPlay likely utilizes large language models (LLMs) and embeddings to process and interact with text-based data, potentially PDFs. It appears to be a tool or application for generating or manipulating content related to potentially physiotherapy exercises or user interactions, possibly within a Streamlit-based interface.",
+        "technologyStack": [
+          "Python",
+          "Langchain",
+          "Langchain Community",
+          "Langchain Core",
+          "Langchain Groq",
+          "Langchain OpenAI",
+          "Hugging Face Hub",
+          "Sentence Transformers",
+          "Faiss",
+          "PyPDF",
+          "Streamlit",
+          "pyttsx3",
+          "pywin32",
+          "pyaudio"
+        ],
+        "projectCategory": "Web application built with Streamlit, leveraging LLMs and embeddings for data processing and generation",
+        "keyFeatures": [
+          "PDF Text Extraction",
+          "Text Embedding Generation",
+          "Vector Indexing",
+          "LLM-Powered Content Generation",
+          "Streamlit User Interface",
+          "Potential Text-to-Speech Functionality"
+        ],
+        "useCases": [
+          "Physiotherapists: Potentially to generate personalized exercise plans, educational materials, or interactive guidance for patients",
+          "Patients: Possibly to access information about exercises, track progress, or receive AI-powered feedback",
+          "Researchers: Perhaps to explore the application of LLMs in physiotherapy-related tasks"
+        ]
+      },
+      "languageBreakdown": {
+        "Python": "92.6%",
+        "HTML": "7.4%"
+      },
+      "recentCommits": 60,
+      "lastCommit": "2025-05-25",
+      "repositorySize": "4030 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "FinSage",
+      "stars": 1,
+      "healthScore": 45,
+      "category": "General",
+      "primaryLanguage": "Python",
+      "created": "2025-04-10",
+      "lastUpdated": "2025-05-14",
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "AI-Generated Summary Available",
+      "aiAnalysis": {
+        "purpose": "FinSage appears to be a Python-based project related to finance, potentially providing an AI assistant and financial risk assessment tools. It likely aims to provide users with insights and assistance in making informed financial decisions.",
+        "technologyStack": [
+          "Python",
+          "Streamlit (likely)",
+          ".devcontainer",
+          "Custom Financial Modules"
+        ],
+        "projectCategory": "Web Application",
+        "keyFeatures": [
+          "AI Assistant",
+          "Financial Risk Assessment (FinRisk)",
+          "Prediction Page"
+        ],
+        "useCases": [
+          "Individual Investors: Could use the AI assistant for financial advice and the risk assessment tool to evaluate investment opportunities",
+          "Finance Students/Enthusiasts: Could use the project to learn about financial modeling, risk management, and AI applications in finance",
+          "Financial Professionals (potentially): If the tools are sufficiently robust, they could be used for preliminary analysis or research"
+        ]
+      },
+      "languageBreakdown": {
+        "Python": "100.0%"
+      },
+      "recentCommits": 8,
+      "lastCommit": "2025-05-14",
+      "repositorySize": "3456 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "fin-graph",
+      "stars": 1,
+      "healthScore": 45,
+      "category": "General",
+      "primaryLanguage": "Python",
+      "created": "2025-03-21",
+      "lastUpdated": "2025-03-21",
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "AI-Generated Summary Available",
+      "aiAnalysis": {
+        "purpose": "Based on the filename gr.py, which likely suggests 'graph,' and the name 'fin-graph,' this project likely aims to generate or visualize financial graphs. Given the lack of detailed description and limited file structure, it's probably a simple implementation focused on a specific financial charting task.",
+        "technologyStack": [
+          "Python",
+          "Possible graph visualization library"
+        ],
+        "projectCategory": "Likely a script/tool or a very basic web application",
+        "keyFeatures": [
+          "Generating/visualizing financial graphs (price charts, volume charts, etc.)",
+          "Potentially uses an .env file to store API keys or environment variables",
+          "(Inferred) Reads/processes financial data to create the graphs"
+        ],
+        "useCases": [
+          "Individual developers/analysts: Who need a quick way to visualize financial data from a source they provide",
+          "Beginners learning financial data visualization: As a simple example to build upon"
+        ]
+      },
+      "languageBreakdown": {
+        "Python": "100.0%"
+      },
+      "recentCommits": 1,
+      "lastCommit": "2025-03-21",
+      "repositorySize": "10 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "d2kaiml",
+      "stars": 0,
+      "healthScore": 35,
+      "category": "General",
+      "primaryLanguage": "Python",
+      "created": "2025-03-22",
+      "lastUpdated": "2025-04-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "AI-Generated Summary Available",
+      "aiAnalysis": {
+        "purpose": "The project appears to be a Python-based application focused on financial analysis and potentially business reporting. It likely leverages Streamlit for a user interface and generative AI models (likely from Google) to assist in the analysis process. The project also includes functionalities for handling PDF documents and OCR for text extraction.",
+        "technologyStack": [
+          "Python",
+          "Streamlit",
+          "Google Generative AI",
+          "Pandas",
+          "NumPy",
+          "SQLite",
+          "PyPDF2",
+          "PyTesseract",
+          "ReportLab",
+          "Python dotenv"
+        ],
+        "projectCategory": "Web Application focused on financial analysis and business reporting, potentially utilizing AI for enhanced capabilities",
+        "keyFeatures": [
+          "Financial Data Analysis",
+          "PDF Handling",
+          "OCR",
+          "Generative AI Integration",
+          "Data Visualization",
+          "Interactive User Interface",
+          "Reporting Generation",
+          "Vector Database"
+        ],
+        "useCases": [
+          "Financial Analysts: To quickly analyze financial documents, extract key information, and generate reports",
+          "Business Professionals: To gain insights from financial data and automate report creation",
+          "Data Scientists: As a foundation for building more advanced financial analysis tools using Streamlit and generative AI"
+        ]
+      },
+      "languageBreakdown": {
+        "Python": "100.0%"
+      },
+      "recentCommits": 4,
+      "lastCommit": "2025-04-01",
+      "repositorySize": "1027 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "portfolio",
+      "stars": 0,
+      "healthScore": 60,
+      "category": "General",
+      "primaryLanguage": "JavaScript",
+      "created": "2024-09-29",
+      "lastUpdated": "2025-02-20",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 13,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "description": "Personal portfolio website simulating Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+      "readmeExcerpt": "This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.",
+      "languageBreakdown": {
+        "JavaScript": "100.0%"
+      },
+      "recentCommits": 150,
+      "lastCommit": "2024-12-05",
+      "repositorySize": "42950 KB",
+      "defaultBranch": "master",
+      "type": "Fork"
+    },
+    {
+      "rank": 8,
+      "name": "memory-game",
+      "stars": 0,
+      "healthScore": 35,
+      "category": "General",
+      "primaryLanguage": null,
+      "created": "2025-02-06",
+      "lastUpdated": "2025-02-06",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "This is a Next.js project bootstrapped with create-next-app.",
+      "recentCommits": 2,
+      "lastCommit": "2025-02-06",
+      "repositorySize": "79 KB",
+      "defaultBranch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "globalwarming",
+      "stars": 0,
+      "healthScore": 35,
+      "category": "General",
+      "primaryLanguage": "JavaScript",
+      "created": "2024-07-19",
+      "lastUpdated": "2024-07-19",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "readmeExcerpt": "AI-Generated Summary Available",
+      "aiAnalysis": {
+        "purpose": "The repository appears to be a collection of resources, likely related to a presentation or talk on animation, potentially within the context of web user interfaces. The 'animation-talk-webu-2018' folder strongly suggests this is a demonstration of animation principles and techniques showcased in a web UI context during a 2018 event.",
+        "technologyStack": [
+          "JavaScript",
+          "Web Technologies (HTML, CSS)",
+          "Babel",
+          "ESLint",
+          "Media Assets"
+        ],
+        "projectCategory": "A collection of resources for a presentation or talk, primarily focusing on web UI animation",
+        "keyFeatures": [
+          "Example Animations",
+          "Web UI Focus",
+          "Presentation Materials"
+        ],
+        "useCases": [
+          "Web Developers/UI Designers: Can use the examples to learn and implement animation techniques in their web projects",
+          "Presentation Viewers: Serves as a companion resource for individuals who attended or are interested in the associated animation talk",
+          "Educators: Might use the materials to teach animation principles or JavaScript-based UI development"
+        ]
+      },
+      "languageBreakdown": {
+        "JavaScript": "98.6%",
+        "HTML": "1.4%"
+      },
+      "recentCommits": 1,
+      "lastCommit": "2024-07-19",
+      "repositorySize": "46967 KB",
+      "defaultBranch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "printf-Winners-HackHaven1.0",
+      "stars": 0,
+      "healthScore": 60,
+      "category": "General",
+      "primaryLanguage": null,
+      "created": "2024-06-30",
+      "lastUpdated": "2024-06-30",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "openIssues": 0,
+      "closedIssues": 0,
+      "releases": 0,
+      "description": "Uddeshya: Revolutionizing NGO education management. Centralizes student assignments, offers chatbot support, and empowers volunteers for impactful contributions.",
+      "readmeExcerpt": "Uddeshya is a web-based platform designed to streamline operations for NGOs dedicated to the education of underprivileged students. It provides a centralized system for efficiently assigning students ...",
+      "languageBreakdown": {
+        "HTML": "72.3%",
+        "CSS": "16.0%",
+        "Python": "10.5%"
+      },
+      "recentCommits": 18,
+      "lastCommit": "2024-06-03",
+      "repositorySize": "10106 KB",
+      "defaultBranch": "main",
+      "type": "Fork"
+    }
+  ],
+  "socialData": {
+    "topFollowers": [
+      "@parthgala1",
+      "@arnitdo",
+      "@Charles-Chrismann",
+      "@MihirRajeshPanchal",
+      "@VatsalKotha"
+    ],
+    "following": [
+      "@parthgala1",
+      "@MihirRajeshPanchal",
+      "@VatsalKotha",
+      "@Ronit26Mehta",
+      "@harshchi19"
+    ]
+  }
+}

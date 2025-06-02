@@ -30,7 +30,7 @@ app.use(bodyParser.json({ limit: "100mb" }));
 app.use(bodyParser.urlencoded({ limit: "100mb", extended: true }));
 
 app.use("/api/users", userRoutes);
-app.use("/api/shortlisting", shortlistingRoutes);
+app.use("/api/shortlist", shortlistingRoutes);
 app.use("/api/chats", chatRoutes);
 app.use("/api/candidates", candidateRoutes);
 

@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
 from neo4j import GraphDatabase
 from groq import Groq
 import json
@@ -25,6 +26,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Download required NLTK data (run once)
+nltk.download('punkt_tab')
 try:
     nltk.data.find('tokenizers/punkt')
     nltk.data.find('corpora/stopwords')
@@ -39,6 +41,14 @@ app = FastAPI(
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Pydantic models

@@ -1,0 +1,226 @@
+{
+  "user_profile": {
+    "name": "satya@git",
+    "username": "@Satya1998-debug",
+    "followers": 0,
+    "following": 0,
+    "public_repos": 6
+  },
+  "repositories_analysis": {
+    "total_repositories": 6,
+    "total_stars": 1,
+    "total_forks": 0,
+    "total_watchers": 1
+  },
+  "top_10_projects_summary": {
+    "total_stars_top_10": 1,
+    "total_forks_top_10": 0,
+    "total_contributors": 66,
+    "avg_health_score": 50.8
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "lossless-data-compression",
+      "stars": 1,
+      "health_score": "55/100",
+      "category": "General",
+      "primary_language": "C",
+      "created": "2024-10-26",
+      "last_updated": "2025-04-02",
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Contains C code for loss less data compression using Rice Algorithm",
+      "language_breakdown": {
+        "C": "100.0%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-10-26",
+      "repository_size": "23 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Implements lossless data compression using the Rice Algorithm. Provides C code for both encoding and decoding data, aiming to reduce file size without losing any information.",
+        "key_features": [
+          "Rice Algorithm Implementation",
+          "Lossless Compression",
+          "Modular Design",
+          "Encoder & Decoder",
+          "Test Suite"
+        ],
+        "use_cases": [
+          "Archiving and Backup",
+          "Data Transmission",
+          "Embedded Systems",
+          "Educational Purposes"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Satya1998-debug",
+      "stars": 0,
+      "health_score": "35/100",
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-04-24",
+      "last_updated": "2025-06-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Personal GitHub profile repository",
+      "recent_commits": 4,
+      "last_commit": "2025-06-01",
+      "repository_size": "6 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "Satya1998-debug.github.io",
+      "stars": 0,
+      "health_score": "60/100",
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2025-06-01",
+      "last_updated": "2025-06-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 30,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "A beautiful, simple, clean, and responsive Jekyll theme for academics",
+      "language_breakdown": {
+        "HTML": "66.5%",
+        "SCSS": "16.4%",
+        "JavaScript": "12.7%"
+      },
+      "recent_commits": 150,
+      "last_commit": "2025-06-01",
+      "repository_size": "195291 KB",
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 4,
+      "name": "minimal-mistakes",
+      "stars": 0,
+      "health_score": "60/100",
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-06-01",
+      "last_updated": "2025-06-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 30,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "📐 Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
+      "language_breakdown": {
+        "HTML": "47.2%",
+        "SCSS": "45.9%",
+        "JavaScript": "3.7%"
+      },
+      "recent_commits": 150,
+      "last_commit": "2025-05-02",
+      "repository_size": "47641 KB",
+      "default_branch": "master",
+      "type": "Fork"
+    },
+    {
+      "rank": 5,
+      "name": "my-website",
+      "stars": 0,
+      "health_score": "35/100",
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2025-05-31",
+      "last_updated": "2025-06-01",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Personal website or online portfolio showcasing skills, experience, and projects",
+      "language_breakdown": {
+        "HTML": "90.4%",
+        "CSS": "9.6%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2025-06-01",
+      "repository_size": "10 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Personal website or online portfolio. Likely showcases the owner's skills, experience, projects, and provides contact information.",
+        "key_features": [
+          "Homepage (index.html)",
+          "About Page (about.html)",
+          "Contact Page (contact.html)",
+          "Experience Page (experience.html)",
+          "Projects Page (projects.html)",
+          "Basic Styling (style.css)"
+        ],
+        "use_cases": [
+          "Creating simple online presence",
+          "Portfolio website for job seekers",
+          "Showcasing skills and projects"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Eco-Riders",
+      "stars": 0,
+      "health_score": "60/100",
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-09-17",
+      "last_updated": "2024-09-17",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Gamify the ride",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 12,
+      "last_commit": "2024-09-17",
+      "repository_size": "13 KB",
+      "default_branch": "main",
+      "type": "Fork",
+      "ai_analysis": {
+        "purpose": "Aims to gamify rides, likely to promote eco-friendly transportation. Uses location data and potentially user data to track and reward rides.",
+        "key_features": [
+          "Processing and analyzing user ride data",
+          "Visualizing ride data on maps using folium",
+          "Awarding points or badges based on ride characteristics",
+          "Integrating with external data sources",
+          "Handling geographic data"
+        ],
+        "use_cases": [
+          "Tracking and gamifying personal rides",
+          "Analyzing transportation patterns",
+          "Incentivizing eco-friendly transportation"
+        ]
+      }
+    }
+  ],
+  "social_activity": {
+    "followers": [],
+    "following": []
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "user_profile": {
+    "name": "Mary Ella",
+    "username": "maryella",
+    "bio": "Software developer",
+    "location": "Atlanta, GA",
+    "website": "maryella.dev",
+    "followers": 35,
+    "following": 22,
+    "public_repos": 41
+  },
+  "repository_analytics": {
+    "total_repositories": 41,
+    "total_stars": 2,
+    "total_forks": 4,
+    "total_watchers": 2,
+    "top_10_stats": {
+      "total_stars": 2,
+      "total_forks": 4,
+      "total_contributors": 16,
+      "average_health_score": 52.0
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "clc",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2025-01-14",
+      "last_updated": "2025-01-15",
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "cute lil calculator",
+      "readme_excerpt": "A very simple little calculator in (my humble opinion) happy colors built as a fun way to hone my front end skills.",
+      "language_breakdown": {
+        "TypeScript": "94.2%",
+        "JavaScript": "3.5%",
+        "CSS": "2.3%"
+      },
+      "recent_commits": 16,
+      "last_commit": "2025-01-15",
+      "repository_size": "62 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "mepage",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2024-02-15",
+      "last_updated": "2024-08-29",
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "purpose": "Personal website or portfolio built with Next.js",
+        "technology_stack": ["Next.js", "TypeScript", "React", "Tailwind CSS", "ESLint", "PostCSS", "Autoprefixer"],
+        "category": "Personal Website/Portfolio Web Application",
+        "key_features": ["Main landing page", "Social card component", "Custom fonts", "Downloadable resume", "Standard website layout"],
+        "development_status": "Early stage of development",
+        "use_cases": ["Showcase software engineering skills", "Portfolio for recruiters/hiring managers"]
+      },
+      "language_breakdown": {
+        "TypeScript": "92.1%",
+        "CSS": "5.6%",
+        "JavaScript": "2.3%"
+      },
+      "recent_commits": 12,
+      "last_commit": "2024-08-29",
+      "repository_size": "151 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "turntable",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2024-08-14",
+      "last_updated": "2024-08-14",
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "purpose": "Integration of Express.js application with Next.js frontend",
+        "technology_stack": ["TypeScript", "Next.js", "Express.js", "Node.js"],
+        "category": "Full-Stack Web Application",
+        "key_features": ["Frontend rendered via Next.js", "Backend API built with Express.js", "Integration between frontend and backend", "Possible database interaction"],
+        "development_status": "Early development stage",
+        "use_cases": ["Learning full-stack development", "Template for Next.js and Express.js integration"]
+      },
+      "language_breakdown": {
+        "TypeScript": "93.1%",
+        "CSS": "4.9%",
+        "JavaScript": "2.1%"
+      },
+      "recent_commits": 4,
+      "last_commit": "2024-07-03",
+      "repository_size": "75 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "interview_prep",
+      "stars": 1,
+      "forks": 1,
+      "watchers": 1,
+      "health_score": 65,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2020-02-23",
+      "last_updated": "2023-08-23",
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Presentation and (hopefully) other resources on behavioral interview questions and other interview prep materials",
+      "ai_analysis": {
+        "purpose": "Provide resources and presentation for behavioral interview preparation",
+        "technology_stack": ["JavaScript", "HTML", "CSS"],
+        "category": "Resource repository or educational tool",
+        "key_features": ["Presentation on behavioral interview questions", "Collection of interview preparation resources", "Interactive presentation elements"],
+        "development_status": "Early stage, potentially inactive",
+        "use_cases": ["Job seekers preparing for interviews", "Students learning interview skills", "Interviewer insights"]
+      },
+      "language_breakdown": {
+        "JavaScript": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2020-04-03",
+      "repository_size": "96 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "isurvived",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "health_score": 55,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2019-12-18",
+      "last_updated": "2020-04-07",
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Capstone Project for Digital Crafts Program",
+      "language_breakdown": {
+        "JavaScript": "96.1%",
+        "CSS": "2.3%",
+        "HTML": "1.6%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2020-03-31",
+      "repository_size": "191 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "bikesmart",
+      "stars": 0,
+      "forks": 2,
+      "watchers": 0,
+      "health_score": 70,
+      "category": "General",
+      "primary_language": "CSS",
+      "created": "2019-09-30",
+      "last_updated": "2020-03-31",
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 4,
+      "releases": 0,
+      "description": "Front End Project for Digital Crafts August 2019 Cohort",
+      "language_breakdown": {
+        "CSS": "47.0%",
+        "JavaScript": "38.9%",
+        "HTML": "14.1%"
+      },
+      "recent_commits": 40,
+      "last_commit": "2020-03-31",
+      "repository_size": "995 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "wineryreview",
+      "stars": 0,
+      "forks": 1,
+      "watchers": 0,
+      "health_score": 70,
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2019-10-23",
+      "last_updated": "2022-12-20",
+      "contributors": 3,
+      "open_issues": 1,
+      "closed_issues": 2,
+      "releases": 0,
+      "description": "Backend Project for Digital Crafts August 2019 Cohort",
+      "language_breakdown": {
+        "HTML": "52.0%",
+        "JavaScript": "46.7%",
+        "CSS": "1.3%"
+      },
+      "recent_commits": 33,
+      "last_commit": "2022-12-20",
+      "repository_size": "425 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 8,
+      "name": "frontendmasters",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-03-20",
+      "last_updated": "2024-03-20",
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "purpose": "Likely contains Frontend Masters course examples or exercises",
+        "technology_stack": ["JavaScript", "HTML", "CSS"],
+        "category": "Educational Resources/Example Code Repository",
+        "development_status": "Inactive, minimal content",
+        "use_cases": ["Students taking Frontend Masters courses", "Reference for frontend techniques"]
+      },
+      "language_breakdown": {
+        "JavaScript": "100.0%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-03-20",
+      "repository_size": "2 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "topicranking",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2019-10-21",
+      "last_updated": "2022-12-20",
+      "contributors": 2,
+      "open_issues": 1,
+      "closed_issues": 2,
+      "releases": 0,
+      "description": null,
+      "ai_analysis": {
+        "purpose": "Topic ranking or management system, possibly for educational context",
+        "technology_stack": ["Node.js", "Express.js", "PostgreSQL", "Express-ES6-Template-Engine"],
+        "category": "Web application backend",
+        "key_features": ["API endpoints for managing topics", "Database integration", "User interface capabilities"],
+        "development_status": "Early stage, pre-release version",
+        "use_cases": ["Teachers organizing topics", "Students voting on topic relevance", "Educational platform integration"]
+      },
+      "language_breakdown": {
+        "JavaScript": "74.4%",
+        "HTML": "21.4%",
+        "CSS": "4.2%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2022-12-20",
+      "repository_size": "34 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "dc_day2",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2020-01-17",
+      "last_updated": "2021-03-13",
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "DigitalCrafts Day 2: Dir Git Demo",
+      "ai_analysis": {
+        "purpose": "Demonstration project for learning Git and Python basics",
+        "technology_stack": ["Python", "Git"],
+        "category": "Educational Demo/Example",
+        "key_features": ["Basic Git operations demonstration", "Simple Python code examples", "Hands-on learning experience"],
+        "development_status": "Completed static learning exercise",
+        "use_cases": ["DigitalCrafts students learning Git and Python", "Beginners learning version control"]
+      },
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2020-01-17",
+      "repository_size": "2 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    }
+  ],
+  "social_activity": {
+    "top_followers": [
+      "@seanrreid",
+      "@blue-codes-yep",
+      "@devouracid",
+      "@mabdulul",
+      "@tchaikousky"
+    ],
+    "following": [
+      "@seanrreid",
+      "@mabdulul",
+      "@Da-Colon",
+      "@benremy",
+      "@MAOneill"
+    ]
+  },
+  "metadata": {
+    "data_fetched_via": "GitHub Data Fetcher",
+    "analysis_includes_ai_summaries": true,
+    "total_followers_count": 30,
+    "total_following_count": 22
+  }
+}

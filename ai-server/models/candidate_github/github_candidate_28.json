@@ -1,0 +1,410 @@
+{
+  "profile": {
+    "name": "Sameer Gupta",
+    "username": "sameer240704",
+    "bio": "Nothing is as permanent as a temporary solution that works",
+    "website": "https://sameer-gupta.vercel.app/",
+    "followers": 43,
+    "following": 41,
+    "public_repos": 47
+  },
+  "repository_summary": {
+    "total_repositories": 47,
+    "total_stars": 8,
+    "total_forks": 4,
+    "total_watchers": 8,
+    "top_10_stats": {
+      "total_stars": 8,
+      "total_forks": 2,
+      "total_contributors": 13,
+      "avg_health_score": 53.0
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Data_Structures",
+      "description": "College Data Structures & Algorithms Code",
+      "category": "General",
+      "primary_language": "C",
+      "created": "2023-10-13",
+      "last_updated": "2024-11-08",
+      "stars": 2,
+      "forks": 0,
+      "watchers": 2,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "C": "100.0%"
+      },
+      "recent_commits": 91,
+      "last_commit": "2024-01-08",
+      "repository_size": "318 KB",
+      "health_score": 55,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Repository for C code implementations of various fundamental data structures and algorithms, likely created as part of a college-level Data Structures & Algorithms course",
+        "technology_stack": ["C", "Data Structures", "Algorithms"],
+        "key_features": [
+          "Implementation of common data structures like linked lists (singly, doubly, circular), queues (including priority queues), and graphs",
+          "Implementation of graph traversal algorithms (BFS and DFS)",
+          "Implementation of a binary search algorithm",
+          "Example code for polynomial addition using linked lists"
+        ],
+        "use_cases": [
+          "Students: Can use the code as a learning resource for understanding and implementing data structures and algorithms in C",
+          "Developers: May refer to specific implementations for reference or adapt them for use in their own projects"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "General-Portfolio",
+      "description": "This is a Next.js project bootstrapped with create-next-app.",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-12-22",
+      "last_updated": "2025-05-27",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "JavaScript": "86.7%",
+        "CSS": "13.3%"
+      },
+      "topics": ["nextjs15", "shadcn-ui", "tailwindcss"],
+      "recent_commits": 17,
+      "last_commit": "2025-05-27",
+      "repository_size": "9791 KB",
+      "health_score": 55,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "DAA",
+      "description": null,
+      "category": "General",
+      "primary_language": "C",
+      "created": "2024-05-05",
+      "last_updated": "2025-05-11",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "C": "100.0%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2024-05-12",
+      "repository_size": "15 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Contains implementations of various algorithms and data structures, likely for educational or demonstration purposes. Collection of solutions to classic algorithmic problems often encountered in a Design and Analysis of Algorithms (DAA) course",
+        "technology_stack": ["C", "Algorithms & Data Structures"],
+        "key_features": [
+          "Knapsack Problem (0/1 and Fractional)",
+          "Activity Selection Problem",
+          "Bellman-Ford Algorithm",
+          "Coin Change Problem (DP and Greedy approaches)",
+          "Dijkstra's Algorithm",
+          "Floyd-Warshall Algorithm",
+          "Graph Coloring",
+          "Hamiltonian Cycle",
+          "Job Sequencing",
+          "KMP Algorithm",
+          "Kruskal's Algorithm",
+          "Longest Common Subsequence (LCS)"
+        ],
+        "use_cases": [
+          "Students: Learning and practicing algorithm implementations in C",
+          "Developers: Quick reference or starting point for implementing specific algorithms",
+          "Interview Preparation: Practicing common algorithm questions for technical interviews"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "name": "AI",
+      "description": null,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-05-15",
+      "last_updated": "2025-05-11",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "Jupyter Notebook": "80.1%",
+        "Python": "19.9%"
+      },
+      "recent_commits": 6,
+      "last_commit": "2024-05-16",
+      "repository_size": "25 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Implements various classic Artificial Intelligence (AI) search algorithms and optimization techniques. Provides hands-on code examples and implementations for exploring and understanding fundamental AI concepts",
+        "technology_stack": ["Python", "Jupyter Notebooks", "NumPy (implied)"],
+        "key_features": [
+          "A* Search Algorithm",
+          "Ant Colony Optimization",
+          "Genetic Algorithm",
+          "Hill Climbing Algorithm",
+          "MiniMax Algorithm",
+          "Jupyter Notebooks for interactive exploration and demonstration"
+        ],
+        "use_cases": [
+          "Students learning AI algorithms",
+          "Developers experimenting with AI techniques",
+          "Self-learners gaining practical understanding of AI concepts"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "name": "CodePencil",
+      "description": "CodePencil is a collaborative coding platform supporting HTML, CSS, JS, and C++. It allows multiple users to work together on a single codebase in real-time with the \"Friends Activity\" feature, enhancing the collaborative experience. CodePencil also offers storage, enabling users to save and manage their files for future use efficiently.",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-06-07",
+      "last_updated": "2025-02-04",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "JavaScript": "94.5%",
+        "CSS": "5.0%",
+        "HTML": "0.3%"
+      },
+      "recent_commits": 13,
+      "last_commit": "2024-09-20",
+      "repository_size": "1044 KB",
+      "health_score": 55,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Collaborative online coding environment designed for real-time co-editing of HTML, CSS, JS, and C++ code. Enables multiple users to work together on a single project",
+        "technology_stack": ["JavaScript", "React (likely)", "Vite", "Node.js (implied)", "WebSockets (implied)"],
+        "key_features": [
+          "Real-time Collaborative Coding",
+          "Language Support: HTML, CSS, JavaScript, and C++",
+          "Friends Activity Feature",
+          "File Storage and Management"
+        ],
+        "use_cases": [
+          "Students: Ideal for collaborative coding assignments and learning",
+          "Small Teams: Useful for quick prototyping and collaborative debugging",
+          "Educational Institutions: Platform for teaching and collaborative coding workshops",
+          "Open-Source Contributors: Simplifies collaborative coding during hackathons"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Learning-Management-System",
+      "description": "Our LMS caters to disabled students with tailored accessibility features, alternative assessments, collaborative tools, and personalized learning paths, fostering an inclusive educational environment.",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-03-10",
+      "last_updated": "2024-12-17",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "JavaScript": "96.7%",
+        "CSS": "2.1%",
+        "HTML": "1.3%"
+      },
+      "recent_commits": 7,
+      "last_commit": "2024-04-04",
+      "repository_size": "267 KB",
+      "health_score": 55,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "Gaavwale_Hunar_Intern",
+      "description": null,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-08-11",
+      "last_updated": "2024-08-19",
+      "stars": 1,
+      "forks": 0,
+      "watchers": 1,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 3,
+      "releases": 0,
+      "language_breakdown": {
+        "JavaScript": "97.4%",
+        "CSS": "1.7%",
+        "HTML": "0.8%"
+      },
+      "recent_commits": 11,
+      "last_commit": "2024-08-19",
+      "repository_size": "385 KB",
+      "health_score": 60,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Front-end web application, likely a single-page application (SPA) built with React, potentially related to note-taking functionality",
+        "technology_stack": ["JavaScript", "React", "Vite", "ESLint", "PostCSS", "npm"],
+        "key_features": [
+          "Note taking functionality",
+          "User Authentication (based on login image)",
+          "React-based UI components"
+        ],
+        "use_cases": [
+          "Individuals who need a simple web application for creating and managing notes",
+          "Users requiring a secure platform to store notes behind a login system",
+          "Learning/example project for React and related technologies"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "name": "hack2skill-chatbot",
+      "description": "This is a Next.js project bootstrapped with create-next-app.",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2025-01-18",
+      "last_updated": "2025-03-03",
+      "stars": 0,
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "JavaScript": "90.5%",
+        "CSS": "9.5%"
+      },
+      "topics": ["nextjs", "openai", "shadcn"],
+      "recent_commits": 4,
+      "last_commit": "2025-01-23",
+      "repository_size": "445 KB",
+      "health_score": 55,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "HachNCode_Gaavwale",
+      "description": "Artify is a game-based creative learning platform aimed at students passionate about creative thinking. It nurtures talents in music, painting, drawing, and more through interactive activities. With leaderboards to inspire growth and an art gallery to showcase students' work, Artify makes learning creativity fun and engaging.",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-04-06",
+      "last_updated": "2024-09-15",
+      "stars": 0,
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 1,
+      "releases": 0,
+      "language_breakdown": {
+        "JavaScript": "77.6%",
+        "TypeScript": "17.5%",
+        "CSS": "4.7%"
+      },
+      "recent_commits": 69,
+      "last_commit": "2024-09-15",
+      "repository_size": "61726 KB",
+      "health_score": 70,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "local-ollama-bot",
+      "description": null,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2025-05-28",
+      "last_updated": "2025-05-28",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "language_breakdown": {
+        "TypeScript": "54.4%",
+        "CSS": "44.7%",
+        "JavaScript": "0.9%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2025-05-28",
+      "repository_size": "29 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Create a chatbot interface that integrates with a local instance of Ollama, a framework for running large language models (LLMs) locally",
+        "technology_stack": ["TypeScript", "Next.js", "CSS", "PostCSS"],
+        "key_features": [
+          "Text input and output for conversational interaction",
+          "Frontend interface for displaying chatbot functionality",
+          "Integration with the Ollama framework"
+        ],
+        "use_cases": [
+          "Developers experimenting with LLMs locally",
+          "Users who prioritize privacy and security",
+          "Individuals with limited internet connectivity"
+        ]
+      }
+    }
+  ],
+  "social_activity": {
+    "followers": {
+      "count": 43,
+      "top_followers": [
+        "@idimetrix",
+        "@mustafacagri",
+        "@IDouble",
+        "@DnyaneshSawant511",
+        "@Chitus"
+      ]
+    },
+    "following": {
+      "count": 41,
+      "sample_following": [
+        "@XiaomingX",
+        "@wass08",
+        "@Sidstumple",
+        "@DnyaneshSawant511",
+        "@parthgala1"
+      ]
+    }
+  }
+}

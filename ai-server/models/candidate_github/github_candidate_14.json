@@ -1,0 +1,143 @@
+{
+  "user_profile": {
+    "username": "mahek0123",
+    "display_name": null,
+    "bio": null,
+    "location": null,
+    "website": null,
+    "followers": 0,
+    "following": 0,
+    "public_repos": 3
+  },
+  "repository_analysis": {
+    "total_repositories": 3,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "top_10_summary": {
+      "total_stars": 0,
+      "total_forks": 0,
+      "total_contributors": 2,
+      "average_health_score": 28.3
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "nova",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2023-12-27",
+      "last_updated": "2023-12-27",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 3,
+      "last_commit": "2024-02-20",
+      "repository_size_kb": 1188,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "This project appears to be a data analysis and visualization exploration focused on exoplanets. The Jupyter Notebook files suggest that the project analyzes data related to exoplanets, likely aiming to gain insights and present them visually.",
+        "technology_stack": "Primary Language: Python (via Jupyter Notebooks). Likely Libraries (inferred): Pandas (for data manipulation), Matplotlib or Seaborn (for data visualization), potentially NumPy for numerical operations, and potentially astropy (for astronomical calculations and data analysis).",
+        "project_category": "Data Analysis/Exploration Project. This is a Jupyter Notebook-based data science project.",
+        "key_features": "Data Visualization: Likely generates plots and charts to represent exoplanet data. Data Analysis: Performs analysis on exoplanet datasets. Jupyter Notebook format: Allows for interactive code execution and documentation within the same file.",
+        "development_status": "The project appears to be in an early stage of development or a personal exploration. The lack of stars, forks, and a detailed description suggest it might be a work-in-progress or a completed but not actively maintained project.",
+        "use_cases": "Data Science Students/Hobbyists: Could be used for learning data analysis and visualization techniques applied to astronomical datasets. Exoplanet Enthusiasts: Individuals interested in exploring and visualizing publicly available exoplanet data. Portfolio Project: Can serve as a demonstration of data analysis and visualization skills using Python and Jupyter Notebooks."
+      }
+    },
+    {
+      "rank": 2,
+      "name": "demo_1",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": null,
+      "created": "2021-11-30",
+      "last_updated": "2021-11-30",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 2,
+      "last_commit": "2021-11-30",
+      "repository_size_kb": 1,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "This project's purpose is currently unclear due to the lack of a description and specific files. It appears to be a placeholder or a very basic demonstration, possibly intended for initial testing or experimentation.",
+        "technology_stack": "The technology stack is undefined. The absence of a specified primary language and key configuration files suggests that no particular technology or framework is being utilized at this stage.",
+        "project_category": "The project category is currently ambiguous. Given its size, lack of description, and minimal file structure, it's likely either a simple demonstration, a template repository, or a project in its very earliest stages of development.",
+        "key_features": "No key features can be identified due to the lack of substantive code or a descriptive overview. The presence of only a README.md file suggests a potentially nascent project.",
+        "development_status": "The development status is extremely early and incomplete. With no description, minimal size, and no active development indicated by stars or forks, it's likely a dormant or freshly created repository.",
+        "use_cases": "Since the project's purpose is unknown, use cases are equally undefined. It might eventually be useful as a basic code example, a template for future projects, or nothing at all."
+      }
+    },
+    {
+      "rank": 3,
+      "name": "demo1",
+      "stars": 0,
+      "health_score": 15,
+      "category": "General",
+      "primary_language": null,
+      "created": "2021-11-30",
+      "last_updated": "2021-11-30",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 0,
+      "repository_size_kb": 0,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "Without additional context like files or code, it's impossible to determine the project's purpose definitively. Based on the name 'demo1', it is most likely a small, introductory demonstration project used to showcase a particular concept or technology.",
+        "technology_stack": "The primary language isn't specified, and there are no key configuration files, so we can't reliably determine the technology stack used. This means the repo is either empty or has files we don't have access to.",
+        "project_category": "Likely a demo or a learning exercise project.",
+        "key_features": "Without code, we can't determine any features. It is assumed the key feature is to demonstrate the basic functionality of something.",
+        "development_status": "The repository is likely in a very early stage of development, possibly even just initialized. The lack of a description, topics, files, and its small size (0 KB) suggest minimal or no activity.",
+        "use_cases": "This project would be used primarily for personal learning or demonstration purposes. A developer might use it to experiment with a new framework or language, or as a minimal example to share with others learning the same technology."
+      }
+    }
+  ],
+  "social_activity": {
+    "followers": {
+      "total": 0,
+      "top_followers": []
+    },
+    "following": {
+      "total": 0
+    }
+  },
+  "api_errors": [
+    "API Error: 204 -",
+    "API Error: 409 - Git Repository is empty",
+    "API Error: 409 - Git Repository is empty"
+  ],
+  "detailed_analysis": {
+    "selected_repository": "nova",
+    "description": null,
+    "language": "Jupyter Notebook",
+    "size_kb": 1188,
+    "default_branch": "main",
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "watchers": 0
+  }
+}

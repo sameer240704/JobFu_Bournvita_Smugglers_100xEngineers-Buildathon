@@ -1,0 +1,388 @@
+{
+  "user_profile": {
+    "name": "Abdul",
+    "username": "101Viper777",
+    "website": "https://abduls-portfolio.vercel.app/",
+    "followers": 5,
+    "following": 6,
+    "public_repos": 20
+  },
+  "repository_stats": {
+    "total_repositories": 20,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "top_projects_summary": {
+    "total_stars_top_10": 0,
+    "total_forks_top_10": 0,
+    "total_contributors": 68,
+    "avg_health_score": 44.0
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Deep-Live-Cam",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 30,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": null,
+      "created_date": "2025-05-15",
+      "last_updated": "2025-05-15",
+      "last_commit": "2025-05-12",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "readme_excerpt": "Real-time face swap and video deepfake with a single click and only a single image.",
+      "language_breakdown": {
+        "Python": 99.9,
+        "Batchfile": 0.1
+      },
+      "recent_commits": 150,
+      "repository_size_kb": 155749,
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 2,
+      "name": "101Viper777",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 55,
+      "category": "General",
+      "primary_language": null,
+      "created_date": "2023-11-11",
+      "last_updated": "2025-02-06",
+      "last_commit": "2025-02-06",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Config files for my GitHub profile.",
+      "readme_excerpt": "<h3 align=\"center\">A Graduate Comp Sci student in AU!</h3>",
+      "topics": ["config", "github-config"],
+      "language_breakdown": {},
+      "recent_commits": 9,
+      "repository_size_kb": 16,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "WebODM",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 30,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": null,
+      "created_date": "2024-11-24",
+      "last_updated": "2024-11-24",
+      "last_commit": "2024-11-20",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "User-friendly, commercial-grade software for processing aerial imagery. 🛩",
+      "readme_excerpt": "<img alt=\"WebODM\" src=\"https://user-images.githubusercontent.com/1951843/34074943-8f057c3c-e287-11e7-924d-3ccafa60c43a.png\" width=\"180\">",
+      "language_breakdown": {
+        "JavaScript": 46.8,
+        "Python": 35.8,
+        "HTML": 7.4
+      },
+      "recent_commits": 150,
+      "repository_size_kb": 110692,
+      "default_branch": "master",
+      "type": "Fork"
+    },
+    {
+      "rank": 4,
+      "name": "Honours_Project",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created_date": "2024-09-16",
+      "last_updated": "2024-09-17",
+      "last_commit": "2024-09-17",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project likely focuses on image analysis or object detection, leveraging the COCO dataset format. It appears to be structured around training, validation, and potentially testing machine learning models on image data.",
+        "technology_stack": "Python: Primary programming language. OpenCV (opencv-python): For image processing tasks. Matplotlib: For data visualization. NumPy: For numerical computations. Scikit-learn: For machine learning algorithms. Jupyter: Likely used for interactive development and experimentation. pycocotools: For interacting with and evaluating models trained on COCO datasets. COCO-merger: For merging or manipulating COCO datasets. venv: A virtual environment for managing dependencies.",
+        "project_category": "Machine Learning / Computer Vision Project. Specifically, it seems to be related to object detection or image segmentation tasks.",
+        "key_features": "Handling of COCO formatted datasets (training, validation, instances). Image processing using OpenCV. Model evaluation with pycocotools. Potentially, model training using Scikit-learn. Dataset manipulation (merging) using COCO-merger.",
+        "development_status": "Based on the lack of stars, forks, and description, the project appears to be in early stages of development or a personal project not yet shared widely. The presence of OUTPUT_JSON.json, first_batch.json and second_batch.json suggest it is actively processing data.",
+        "use_cases": "Students or Researchers: Learning and experimenting with object detection and image analysis using the COCO dataset. Computer Vision Engineers: As a starting point for building and evaluating object detection models. Data Scientists: For manipulating or creating COCO datasets for specific tasks."
+      },
+      "language_breakdown": {
+        "Python": 93.6,
+        "Cython": 2.8,
+        "C": 0.8
+      },
+      "recent_commits": 3,
+      "repository_size_kb": 173190,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "hazen-Logo",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created_date": "2024-03-18",
+      "last_updated": "2024-09-11",
+      "last_commit": "2024-09-11",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "Based on the file structure, this repository likely contains resources related to the creation or presentation of a logo, possibly for a project named 'Hazen.' The repository seems to hold image files and potentially video relating to an introductory animation or sequence for the logo.",
+        "technology_stack": "Primary Language: Jupyter Notebook (potentially for logo design exploration, visualization, or documentation). Image Files: The presence of .webp files suggests usage of modern web image compression. Video Files: The GOT.mp4 file suggests the use of video editing software and possibly tools for video encoding and compression.",
+        "project_category": "Likely a Resource Repository or Asset Repository focused on logo design and presentation. It's not a functional application, library, or tool in itself, but rather a collection of media assets.",
+        "key_features": "Storage and organization of image and video assets. Potential for demonstrating the Hazen logo in different formats (static images, animated sequences, and video). A README.md file (likely containing information about the logo and its usage guidelines).",
+        "development_status": "Judging by the lack of stars, forks, and active commits, the repository seems relatively inactive and possibly represents a finalized logo design. The presence of numbered image files suggests a sequence that may have been used for an animation.",
+        "use_cases": "Branding and Marketing Teams: Individuals or teams responsible for maintaining brand consistency and assets would use this repository to access the official logo and related materials. Content Creators: Designers, video editors, and web developers could use the assets within this repository to incorporate the Hazen logo into their projects."
+      },
+      "language_breakdown": {
+        "Jupyter Notebook": 95.9,
+        "JavaScript": 2.6,
+        "HTML": 0.9
+      },
+      "recent_commits": 23,
+      "repository_size_kb": 22067,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "AI-Capstone-project",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created_date": "2024-03-15",
+      "last_updated": "2024-06-03",
+      "last_commit": "2024-06-03",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "git clone https://github.com/101Viper777/AI-Capstone-project/tree/main",
+      "language_breakdown": {
+        "Jupyter Notebook": 100.0
+      },
+      "recent_commits": 43,
+      "repository_size_kb": 225663,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "Mern",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created_date": "2024-05-30",
+      "last_updated": "2024-06-01",
+      "last_commit": "2024-06-01",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project appears to be a boilerplate or template for a MERN (MongoDB, Express.js, React, Node.js) stack application. It likely aims to provide a starting point for developers to quickly build full-stack web applications with a modern JavaScript-based architecture.",
+        "technology_stack": "Frontend: React (written in TypeScript), CSS. Backend: Express.js (likely, as it's a MERN stack), Node.js. Database: MongoDB (likely, as it's a MERN stack, but not explicitly confirmed by file structure). Language: TypeScript",
+        "project_category": "Full-stack web application boilerplate / starter project.",
+        "key_features": "Frontend built with React and TypeScript, likely including basic UI elements. Basic project structure for both client and server. Configuration for client-side dependencies (via client/package.json).",
+        "development_status": "The project seems to be in an early stage of development. The lack of a description, few stars/forks, and relatively small size suggest it's a personal project or a very recent creation. The presence of standard React files suggests an initial setup, perhaps created using create-react-app or a similar tool.",
+        "use_cases": "Developers who want a quick starting point for building MERN stack applications using TypeScript. Learners who want to explore the basic structure of a MERN application."
+      },
+      "language_breakdown": {
+        "TypeScript": 73.3,
+        "CSS": 16.5,
+        "HTML": 10.2
+      },
+      "recent_commits": 9,
+      "repository_size_kb": 416,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 8,
+      "name": "game-hub",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created_date": "2024-05-24",
+      "last_updated": "2024-05-24",
+      "last_commit": "2024-05-22",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Learning React",
+      "readme_excerpt": "This project was bootstrapped with Create React App.",
+      "language_breakdown": {
+        "TypeScript": 84.3,
+        "HTML": 11.8,
+        "CSS": 3.9
+      },
+      "recent_commits": 22,
+      "repository_size_kb": 216,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "css2-repo",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created_date": "2024-04-07",
+      "last_updated": "2024-05-08",
+      "last_commit": "2024-05-08",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": null,
+      "readme_excerpt": "also when u clone and activate the venv via: source env/bin/activate , you need to pip install tensorflow",
+      "language_breakdown": {
+        "Jupyter Notebook": 57.4,
+        "C": 26.5,
+        "Cuda": 6.3
+      },
+      "recent_commits": 18,
+      "repository_size_kb": 2183983,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 10,
+      "name": "ios-unit-assesment-2",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Swift",
+      "created_date": "2024-04-17",
+      "last_updated": "2024-04-24",
+      "last_commit": "2024-04-24",
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "the balloon popping game",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project is an iOS-based balloon popping game. The user likely interacts with the screen to pop balloons, potentially with scoring or other game mechanics. It appears to be designed as a small, self-contained application suitable for demonstrating iOS development skills.",
+        "technology_stack": "Swift: The primary programming language. Xcode: Implied as the IDE and build tool, based on the .xcodeproj file. UIKit: (Implied) The iOS framework used for building the user interface, based on the presence of .xcassets.",
+        "project_category": "Mobile Application (iOS Game)",
+        "key_features": "Balloon popping gameplay. (Inferred from the description) Likely includes a user interface for interacting with the game. Potentially includes scoring or other game mechanics.",
+        "development_status": "Based on the lack of activity (0 stars, 0 forks) and the naming convention (ios-unit-assesment-2), it's likely a student project or a small, personal project with minimal community involvement. The files within the .xcodeproj suggest that at least the initial project setup and some development activity have taken place.",
+        "use_cases": "Learning/Education: Used by individuals learning iOS development or Swift programming. Portfolio Piece: Could be used as a demonstration of basic iOS development skills (UI, event handling, game logic). Simple Entertainment: Could be used as a simple, casual game for personal enjoyment."
+      },
+      "language_breakdown": {
+        "Swift": 100.0
+      },
+      "recent_commits": 17,
+      "repository_size_kb": 2981,
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "Deep-Live-Cam",
+    "description": "real time face swap and one-click video deepfake with only a single image",
+    "primary_language": null,
+    "size_kb": 155749,
+    "default_branch": "main",
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "watchers": 0
+  },
+  "social_activity": {
+    "recent_activity": {
+      "note": "Activity data not provided in source"
+    },
+    "followers_list": [
+      {
+        "username": "nekovin"
+      },
+      {
+        "username": "lachlancroll"
+      },
+      {
+        "username": "JohnL0919"
+      },
+      {
+        "username": "shafiqihtsham"
+      },
+      {
+        "username": "Edflow-ai"
+      }
+    ],
+    "following_list": [
+      {
+        "username": "hiepvo01"
+      },
+      {
+        "username": "nekovin"
+      },
+      {
+        "username": "lachlancroll"
+      },
+      {
+        "username": "NightmareAI"
+      },
+      {
+        "username": "shafiqihtsham"
+      }
+    ],
+    "total_followers": 5,
+    "total_following": 6
+  },
+  "metadata": {
+    "data_fetched": "GitHub Data Fetcher",
+    "user_type": "Graduate Computer Science Student",
+    "location": "Australia",
+    "portfolio_website": "https://abduls-portfolio.vercel.app/",
+    "export_type": "Top 10 Summary",
+    "analysis_type": "Comprehensive GitHub Data"
+  }
+}

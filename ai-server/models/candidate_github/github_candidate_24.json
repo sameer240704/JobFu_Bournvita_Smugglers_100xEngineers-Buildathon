@@ -1,0 +1,99 @@
+{
+  "user_profile": {
+    "name": "Deep Jain",
+    "username": "@deepjaindrj",
+    "followers": 7,
+    "following": 1,
+    "public_repos": 5
+  },
+  "repositories_analysis": {
+    "total_repositories": 5,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "avg_health_score": 47.0,
+    "total_contributors": 7,
+    "top_10_summary": {
+      "total_stars": 0,
+      "total_forks": 0
+    }
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "CV-Project-Sem-6",
+      "stars": 0,
+      "health_score": 45,
+      "description": "An Aircraft Intelligence Hub for detecting accurate targets and optimizing decision making during crucial times.",
+      "primary_language": "Python",
+      "repository_size": "239979 KB",
+      "default_branch": "main",
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0,
+      "type": "Original Repository"
+    },
+    {
+      "id": 2,
+      "name": "temporary_Kurash",
+      "stars": 0,
+      "health_score": 35,
+      "type": "Original Repository"
+    },
+    {
+      "id": 3,
+      "name": "IP-Glaucoma-Detection",
+      "stars": 0,
+      "health_score": 60,
+      "type": "Original Repository"
+    },
+    {
+      "id": 4,
+      "name": "3D_model",
+      "stars": 0,
+      "health_score": 35,
+      "type": "Original Repository"
+    },
+    {
+      "id": 5,
+      "name": "Nexus_DJS-CSK",
+      "stars": 0,
+      "health_score": 60,
+      "type": "Original Repository"
+    }
+  ],
+  "social_activity": {
+    "followers": {
+      "count": 7,
+      "list": [
+        "@harshchi19",
+        "@RonitJariwala",
+        "@Satyavrat2005",
+        "@prnvpwr2612",
+        "@rachit404"
+      ]
+    },
+    "following": {
+      "count": 1,
+      "list": [
+        "@DnyaneshSawant511"
+      ]
+    }
+  },
+  "detailed_analysis": {
+    "selected_repository": "CV-Project-Sem-6",
+    "details": {
+      "description": "An Aircraft Intelligence Hub for detecting accurate targets and optimizing decision making during crucial times.",
+      "language": "Python",
+      "size": "239979 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0,
+      "languages_used": true,
+      "recent_commits": true,
+      "issues_tracking": true
+    }
+  }
+}
