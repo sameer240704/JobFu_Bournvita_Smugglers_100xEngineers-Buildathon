@@ -603,7 +603,7 @@ const CandidateSearchResults = () => {
                         </div>
                         <div className="flex items-center gap-2 mb-1.5 text-xs sm:text-sm text-gray-500">
                           <MapPin size={15} className="flex-shrink-0" />
-                          <p>{candidate.location}</p>
+                          <p>{candidate.contact_information.location}</p>
                         </div>
                         {candidate.education && candidate.education[0] && (
                           <div className="mb-4">

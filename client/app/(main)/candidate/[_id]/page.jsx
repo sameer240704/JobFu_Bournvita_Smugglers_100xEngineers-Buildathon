@@ -29,9 +29,7 @@ import {
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button"; // Assuming you have this
 import { useCurrentUserId } from "@/hooks/use-current-user-id"; // Assuming you have this
-// import Image from "next/image"; // Using <img> for simplicity with external URLs for now
-
-// The LinkedIn JSON data you provided (assuming it comes from candidateData.linkedinScrapedProfile)
+// import GitHubProfileTab from "@/components/misc/GithubProfileTab";
 
 const CandidateProfile = () => {
   const [activeTab, setActiveTab] = useState("experiences");
@@ -43,6 +41,7 @@ const CandidateProfile = () => {
   const [summary, setSummary] = useState([]);
   const user = useCurrentUserId();
   const [userId, setUserId] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${user}`)
@@ -119,11 +118,6 @@ const CandidateProfile = () => {
       {label}
     </button>
   );
-
-  // ... (Your existing ExperienceCard, ProjectCard, SkillSection components)
-  // You might want to adapt ExperienceCard or create a new one if the structure
-  // from `candidateData.experience` is different from `linkedInProfileData.experience`.
-  // For now, I'll assume `ExperienceCard` can be reused or you'll adapt it.
 
   const ExperienceCard = ({ experience }) => (
     <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow duration-200">
@@ -681,10 +675,13 @@ const CandidateProfile = () => {
   const handleGenerateSummary = async () => {
     setLoading(true);
     try {
-      await new Promise(setTimeout(() => setLoading(false), 500));
-      setSummary([candidateData.ai_summary_data.raw_summary]);
+      if (candidateData.ai_summary_data?.raw_summary) {
+        setSummary(candidateData.ai_summary_data.raw_summary);
+        setIsModalOpen(true);
+      }
+      setLoading(false);
     } catch (error) {
-      console.error("Error fetching data:", error);
+      console.error("Error generating summary:", error);
       setLoading(false);
     }
   };
@@ -912,88 +909,110 @@ const CandidateProfile = () => {
           {/* Added min-height and bg */}
           {/* Experiences Tab (now Summary Tab) */}
           {activeTab === "experiences" && candidateData.experience && (
-            <div className="space-y-6">
-              <div className="bg-gradient-to-r from-blue-600 to-purple-700 px-6 py-8 rounded">
-                <div className="flex items-start gap-6">
-                  <div className="w-32 h-32 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-white text-4xl font-bold">
-                    {candidateData.candidate_name
-                      ?.split(" ")
-                      .map((word, index) => {
-                        return <span key={index}>{word.charAt(0)}</span>;
-                      })}
-                  </div>
-                  <div className="flex-1 text-white">
-                    <h2 className="text-3xl font-bold mb-2">
-                      {candidateData.name}
-                    </h2>
-                    <p className="text-xl text-blue-100 mb-3">
-                      {candidateData.candidate_name}
-                    </p>
-                    <p className="text-blue-100 mb-4 max-w-2xl leading-relaxed">
-                      {candidateData.description}
-                    </p>
-
-                    <div className="flex items-center gap-6 text-sm">
-                      <span className="flex items-center gap-2">
-                        <MapPin size={16} />
-                        {candidateData.contact_information?.location}
-                      </span>
-                      <a
-                        href={`mailto:${candidateData.email}`}
-                        className="flex items-center gap-2 hover:text-blue-200 transition-colors"
-                      >
-                        <Mail size={16} />
-                        {candidateData.contact_information?.email}
-                      </a>
-                      <span className="flex items-center gap-2">
-                        <Phone size={16} />
-                        {candidateData.contact_information?.phone}
-                      </span>
+            <>
+              <div className="space-y-6">
+                <div className="bg-gradient-to-r from-blue-600 to-purple-700 px-6 py-8 rounded">
+                  <div className="flex items-start gap-6">
+                    <div className="w-32 h-32 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-white text-4xl font-bold">
+                      {candidateData.candidate_name
+                        ?.split(" ")
+                        .map((word, index) => {
+                          return <span key={index}>{word.charAt(0)}</span>;
+                        })}
                     </div>
+                    <div className="flex-1 text-white">
+                      <h2 className="text-3xl font-bold mb-2">
+                        {candidateData.name}
+                      </h2>
+                      <p className="text-xl text-blue-100 mb-3">
+                        {candidateData.candidate_name}
+                      </p>
+                      <p className="text-blue-100 mb-4 max-w-2xl leading-relaxed">
+                        {candidateData.description}
+                      </p>
 
-                    <div className="flex items-center gap-4 mt-4">
-                      <a
-                        href={candidateData.contact_information?.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
-                      >
-                        <Linkedin size={16} />
-                        LinkedIn
-                      </a>
-                      <a
-                        href={candidateData.contact_information?.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
-                      >
-                        <Github size={16} />
-                        GitHub
-                      </a>
-                      <a
-                        href={candidateData.contact_information?.portfolio}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
-                      >
-                        <ExternalLink size={16} />
-                        Portfolio
-                      </a>
+                      <div className="flex items-center gap-6 text-sm">
+                        <span className="flex items-center gap-2">
+                          <MapPin size={16} />
+                          {candidateData.contact_information?.location}
+                        </span>
+                        <a
+                          href={`mailto:${candidateData.email}`}
+                          className="flex items-center gap-2 hover:text-blue-200 transition-colors"
+                        >
+                          <Mail size={16} />
+                          {candidateData.contact_information?.email}
+                        </a>
+                        <span className="flex items-center gap-2">
+                          <Phone size={16} />
+                          {candidateData.contact_information?.phone}
+                        </span>
+                      </div>
+
+                      <div className="flex items-center gap-4 mt-4">
+                        <a
+                          href={candidateData.contact_information?.linkedin}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
+                        >
+                          <Linkedin size={16} />
+                          LinkedIn
+                        </a>
+                        <a
+                          href={candidateData.contact_information?.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
+                        >
+                          <Github size={16} />
+                          GitHub
+                        </a>
+                        <a
+                          href={candidateData.contact_information?.portfolio}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg hover:bg-white/30 transition-colors"
+                        >
+                          <ExternalLink size={16} />
+                          Portfolio
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <div className="flex items-center gap-3 mb-6">
+                  <Building2 className="text-blue-600" size={24} />
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    Work Experience Summary
+                  </h2>
+                </div>
+                {candidateData.experience?.map((exp, index) => (
+                  <ExperienceCard
+                    key={`summary-exp-${index}`}
+                    experience={exp}
+                  />
+                ))}
               </div>
-              <div>{summary}</div>
-              <div className="flex items-center gap-3 mb-6">
-                <Building2 className="text-blue-600" size={24} />
-                <h2 className="text-2xl font-bold text-gray-900">
-                  Work Experience Summary
-                </h2>
-              </div>
-              {candidateData.experience?.map((exp, index) => (
-                <ExperienceCard key={`summary-exp-${index}`} experience={exp} />
-              ))}
-            </div>
+
+              {summary.length > 0 && (
+                <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Brain className="text-blue-600" size={24} />
+                    <h2 className="text-2xl font-bold text-gray-900">
+                      AI Generated Summary
+                    </h2>
+                  </div>
+                  <div className="space-y-4">
+                    {summary.map((item, index) => (
+                      <p key={index} className="text-gray-700 leading-relaxed">
+                        {item}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
           )}
           {/* LinkedIn Profile Tab */}
           {activeTab === "linkedin" && (
@@ -1175,6 +1194,49 @@ const CandidateProfile = () => {
             )}
         </div>
       </div>
+      {/* Summary Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-semibold text-gray-900">
+                AI Generated Summary
+              </h2>
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="text-gray-500 hover:text-gray-700"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div className="prose prose-sm max-w-none">
+              {Array.isArray(summary) ? (
+                <ul className="list-disc pl-4 space-y-2">
+                  {summary.map((point, index) => (
+                    <li key={index} className="text-gray-700">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-gray-700">{summary}</p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
