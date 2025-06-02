@@ -103,7 +103,7 @@ routes/
 ## 🏗️ Data Extraction & Processing Pipeline
 
 - **Resume Extraction**:  
-  - Use `extractor.py` (Llama 3 8B) for single resumes, or `extracted_folder.py` for bulk extraction from `datafolder/` (Mumbai resumes) and `globalfolder/` (LinkedIn global resumes).
+  - Use `extractor.py` (Llama-3-8B-8192) for single resumes, or `extracted_folder.py` for bulk extraction from `datafolder/` (Mumbai resumes) and `globalfolder/` (LinkedIn global resumes).
   - Output: JSON files in `candidate_data/`, each including parameters like LinkedIn link and GitHub link.
 
 - **LinkedIn & GitHub Data Extraction**:  
