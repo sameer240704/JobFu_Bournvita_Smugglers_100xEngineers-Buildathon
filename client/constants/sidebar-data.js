@@ -1,7 +1,6 @@
 import {
   LayoutDashboard,
   UserCheck,
-  Clock,
   Bot,
   User,
   Settings,
@@ -24,11 +23,6 @@ export const sidebarData = [
     title: "Shortlisting",
     route: "/shortlisting",
     icon: UserCheck,
-  },
-  {
-    title: "Follow-Ups",
-    route: "/follow-ups",
-    icon: Clock,
   },
   {
     title: "News",
