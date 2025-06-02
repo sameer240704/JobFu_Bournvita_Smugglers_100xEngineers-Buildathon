@@ -14,10 +14,11 @@ import {
   GraduationCap,
   Clock,
 } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 // import Link from "next/link"; // Not used in the provided snippet
 import ChatHistoryPanel from "@/components/misc/ChatHistoryPanel"; // Assuming this path is correct
 import Link from "next/link";
+import { useCurrentUserId } from "@/hooks/use-current-user-id";
 
 const initialFiltersState = {
   location: [],
@@ -29,7 +30,7 @@ const initialFiltersState = {
 };
 
 const CandidateSearchResults = () => {
-  const [candidates, setCandidates] = useState([]);
+  const [candidates, setCandidates] = useState(null);
   const [loading, setLoading] = useState(true); // Initial loading for page
   const [chatHistoryLoading, setChatHistoryLoading] = useState(true); // Loading for chat history
   const [isChatHistoryOpen, setIsChatHistoryOpen] = useState(false);
@@ -38,54 +39,29 @@ const CandidateSearchResults = () => {
   const [shortlisted, setShortlisted] = useState(new Set());
 
   const router = useRouter();
+  const id = useParams()._id;
+  const user = useCurrentUserId();
+  const [userId, setUserId] = useState(null); // State for user ID
 
   const [searchQueryFromUrl, setSearchQueryFromUrl] = useState("");
   const [appliedFiltersFromUrl, setAppliedFiltersFromUrl] =
     useState(initialFiltersState);
   const [editableFilters, setEditableFilters] = useState(initialFiltersState);
 
-  // Mock search results (as in your original code) - this would eventually be from an API
-  const mockCandidates = [
-    {
-      _id: "mockcandidate1", // Using _id to simulate DB ID
-      id: 1, // Keeping original id for some internal logic if needed
-      name: "Mohit Agarwal",
-      title: "Software Development Engineer 3 at Amazon",
-      location: "Pune, Maharashtra, India",
-      education:
-        "Bachelor of Technology, Computer Science at Orissa Engineering College, Bhubaneswar",
-      experience: "over 5 years of experience in the IT industry",
-      description:
-        "Mohit Agarwal has over 5 years of experience in the IT industry and has worked extensively with NodeJS, Express, and JavaScript technologies.",
-      skills: ["NodeJS", "Express", "JavaScript", "React", "AWS"],
-      linkedin: "https://linkedin.com/in/mohitagarwal",
-      github: "https://github.com/mohitagarwal",
-      avatar:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      rating: 4.8,
-      availability: "Available in 2 weeks",
-    },
-    // ... other mock candidates, ensure they have _id
-    {
-      _id: "mockcandidate2",
-      id: 2,
-      name: "Chandan Mistry",
-      title: "Senior Software Engineer at Digital Aptech PVT. LTD.",
-      location: "Kolkata, West Bengal, India",
-      education: "Masters, Computer Application at University of Technology",
-      experience: "Senior Software Engineer with over 5 years of experience",
-      description:
-        "Chandan Mistry is a Senior Software Engineer with over 5 years of experience in IT, proficient in Node.js (Express.js) and has been developing full-stack applications using technologies like Angular, Vue.js, and Laravel.",
-      skills: ["Node.js", "Express.js", "Angular", "Vue.js", "Laravel"],
-      linkedin: "https://linkedin.com/in/chandanmistry",
-      github: "https://github.com/chandanmistry",
-      twitter: "https://twitter.com/chandanmistry",
-      avatar:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      rating: 4.9,
-      availability: "Immediately available",
-    },
-  ];
+  useEffect(() => {
+    fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${user}`)
+      .then((response) => response.json())
+      .then((data) => {
+        if (data && data.user) {
+          setUserId(data.user[0]?._id);
+        } else {
+          console.error("No user data found in the response.");
+        }
+      })
+      .catch((error) => {
+        console.error("Error fetching user data:", error);
+      });
+  }, [user]);
 
   // --- Helper to generate summary for titles etc. ---
   const generateSearchSummaryText = (query, filters) => {
@@ -107,44 +83,62 @@ const CandidateSearchResults = () => {
   };
 
   // --- Fetch Chat History from API ---
-  const fetchChatHistory = useCallback(async () => {
-    setChatHistoryLoading(true);
-    try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats`
-      ); // Adjust API path if needed
-      if (!response.ok) {
-        throw new Error(`Error fetching chat history: ${response.statusText}`);
-      }
-      const dbChats = await response.json();
-      // Map DB chat items to the structure expected by ChatHistoryPanel
-      console.log(dbChats.length);
-      if (!dbChats.length) return;
-      const formattedChats = dbChats.map((chat) => ({
-        id: chat._id, // Use MongoDB _id
-        title: generateSearchSummaryText(chat.query, chat.filters),
-        type: "search",
-        timestamp: new Date(chat.createdAt).toLocaleString(),
-        lastMessage: `Found ${chat.response?.length || 0} candidates`, // Or a more generic message
-        searchData: {
-          // Store the raw query and filters for restoration
-          query: chat.query,
-          filters: chat.filters,
-          // candidateIds: chat.response?.map(r => r.candidate) || [] // Store candidate IDs if needed
-        },
-      }));
-      setChatHistory(formattedChats);
-    } catch (error) {
-      console.error("Failed to load chat history:", error);
-      setChatHistory([]); // Ensure it's an array on error
-    } finally {
-      setChatHistoryLoading(false);
-    }
-  }, []);
 
   useEffect(() => {
-    fetchChatHistory();
-  }, [fetchChatHistory]);
+    const fetchChatHistory = async () => {
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${userId}/${id}`
+        );
+        if (!response.ok) {
+          throw new Error(
+            `Error fetching chat history: ${response.statusText}`
+          );
+        }
+        const data = await response.json();
+
+        const formattedHistory = data.data.map((chat) => ({
+          id: chat._id,
+          title: generateSearchSummaryText(chat.query, chat.filters),
+          type: "search",
+          timestamp: new Date(chat.createdAt).toLocaleString(),
+          lastMessage: `Found ${chat.response?.length || 0} candidates`,
+          query: chat.query,
+          filters: chat.filters,
+          response: chat.response,
+        }));
+        setChatHistory(formattedHistory);
+
+        setChatHistoryLoading(false);
+
+        // Get all candidate IDs from the chat history responses
+        const candidateIds = formattedHistory.flatMap(
+          (chat) => chat.response?.map((item) => item.candidate._id) || []
+        );
+
+        // Fetch candidates for all IDs
+        const candidatePromises = candidateIds.map((candidateId) =>
+          fetch(
+            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/candidates/${candidateId}`
+          ).then((res) => res.json())
+        );
+
+        const candidateResults = await Promise.all(candidatePromises);
+        setCandidates(candidateResults);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching chat history:", error);
+        setChatHistoryLoading(false);
+        setLoading(false);
+      }
+    };
+
+    if (userId) {
+      fetchChatHistory();
+    }
+  }, [userId]);
+
+  console.log(candidates);
 
   // --- Save new search to DB-backed chat history ---
   const saveSearchToDbHistory = useCallback(
@@ -380,7 +374,7 @@ const CandidateSearchResults = () => {
 
   const { pills: displayPills, otherFiltersCount } = getDisplayableFilters();
 
-  if (loading) {
+  if (loading && !candidates?.length) {
     // Show main loading only if no candidates yet
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -393,7 +387,7 @@ const CandidateSearchResults = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="h-screen overflow-scroll bg-gray-50">
       {" "}
       {/* Changed overflow-scroll to bg-gray-50 for main page background */}
       {/* Header */}
@@ -549,12 +543,13 @@ const CandidateSearchResults = () => {
                       <div className="flex-shrink-0">
                         <img
                           src={
-                            candidate.avatar ||
+                            candidate.linkedin_data.profile_data
+                              .profile_photo ||
                             `https://ui-avatars.com/api/?name=${encodeURIComponent(
-                              candidate.name
+                              candidate.linkedin_data.profile_data.profile_photo
                             )}&background=random`
                           }
-                          alt={candidate.name}
+                          alt={candidate.candidate_name}
                           className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-gray-200"
                         />
                       </div>
@@ -566,34 +561,34 @@ const CandidateSearchResults = () => {
                                 candidate.id || candidate._id
                               }`}
                             >
-                              {candidate.name}
+                              {candidate.candidate_name}
                             </Link>
                           </h3>
                           <div className="flex items-center gap-2 mt-1 sm:mt-0">
-                            {candidate.linkedin && (
+                            {candidate.contact_information.linkedin && (
                               <SocialLink
-                                href={candidate.linkedin}
+                                href={candidate.contact_information.linkedin}
                                 icon={Linkedin}
                                 label="LinkedIn"
                               />
                             )}
-                            {candidate.github && (
+                            {candidate.contact_information.github && (
                               <SocialLink
-                                href={candidate.github}
+                                href={candidate.contact_information.github}
                                 icon={Github}
                                 label="GitHub"
                               />
                             )}
-                            {candidate.twitter && (
+                            {candidate.contact_information.twitter && (
                               <SocialLink
-                                href={candidate.twitter}
+                                href={candidate.contact_information.twitter}
                                 icon={Twitter}
                                 label="Twitter"
                               />
                             )}
-                            {candidate.website && (
+                            {candidate.contact_information.portfolio && (
                               <SocialLink
-                                href={candidate.website}
+                                href={candidate.contact_information.portfolio}
                                 icon={Globe}
                                 label="Website"
                               />
@@ -602,73 +597,55 @@ const CandidateSearchResults = () => {
                         </div>
                         <div className="flex items-center gap-2 mb-1.5 text-sm text-gray-600">
                           <Briefcase size={15} className="flex-shrink-0" />
-                          <p className="font-medium">{candidate.title}</p>
+                          <p className="font-medium">
+                            {candidate.ai_summary_data?.raw_summary["point1"]}
+                          </p>
                         </div>
                         <div className="flex items-center gap-2 mb-1.5 text-xs sm:text-sm text-gray-500">
                           <MapPin size={15} className="flex-shrink-0" />
                           <p>{candidate.location}</p>
                         </div>
-                        {candidate.education && (
-                          <div className="flex items-start gap-2 mb-2 text-xs sm:text-sm text-gray-500">
-                            <GraduationCap
-                              size={15}
-                              className="flex-shrink-0 mt-0.5"
-                            />
-                            <p className="line-clamp-2">
-                              {candidate.education}
-                            </p>
+                        {candidate.education && candidate.education[0] && (
+                          <div className="mb-4">
+                            <h3 className="font-semibold">
+                              {candidate.education[0].degree}
+                            </h3>
+                            <p>{candidate.education[0].institution}</p>
+                            <p>{candidate.education[0].location}</p>
+                            <p>{candidate.education[0].duration}</p>
+                            {candidate.education[0].gpa_cgpa && (
+                              <p>GPA/CGPA: {candidate.education[0].gpa_cgpa}</p>
+                            )}
+                            {candidate.education[0].additional_info && (
+                              <p>{candidate.education[0].additional_info}</p>
+                            )}
                           </div>
                         )}
-                        {candidate.description && (
-                          <div className="flex items-start gap-2 mb-3 text-xs sm:text-sm text-gray-600">
-                            <Star
-                              size={15}
-                              className="text-purple-500 flex-shrink-0 mt-0.5"
-                            />
-                            <p className="leading-relaxed line-clamp-2 sm:line-clamp-3">
-                              {candidate.description}
-                            </p>
-                          </div>
-                        )}
-                        {candidate.skills && candidate.skills.length > 0 && (
-                          <div className="flex flex-wrap gap-1.5 mb-3">
-                            {candidate.skills.slice(0, 5).map(
-                              (
-                                skill,
-                                skillIndex // Show limited skills
-                              ) => (
-                                <span
-                                  key={skillIndex}
-                                  className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-700"
-                                >
-                                  {skill}
+                        {candidate.skills.technical_skills
+                          .programming_languages &&
+                          candidate.skills.technical_skills
+                            .programming_languages.length > 0 && (
+                            <div className="flex flex-wrap gap-1.5 mb-3">
+                              {candidate.skills.technical_skills.programming_languages.map(
+                                (
+                                  skill,
+                                  skillIndex // Show limited skills
+                                ) => (
+                                  <span
+                                    key={skillIndex}
+                                    className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-700"
+                                  >
+                                    {skill}
+                                  </span>
+                                )
+                              )}
+                              {candidate.skills.length > 5 && (
+                                <span className="text-xs text-gray-500 self-center">
+                                  +{candidate.skills.length - 5} more
                                 </span>
-                              )
-                            )}
-                            {candidate.skills.length > 5 && (
-                              <span className="text-xs text-gray-500 self-center">
-                                +{candidate.skills.length - 5} more
-                              </span>
-                            )}
-                          </div>
-                        )}
-                        <div className="flex items-center gap-3 text-xs sm:text-sm text-gray-500">
-                          {candidate.availability && (
-                            <div className="flex items-center gap-1">
-                              <Clock size={14} />
-                              <span>{candidate.availability}</span>
+                              )}
                             </div>
                           )}
-                          {candidate.rating && (
-                            <div className="flex items-center gap-1">
-                              <Star
-                                size={14}
-                                className="fill-yellow-400 text-yellow-400"
-                              />
-                              <span>{candidate.rating}</span>
-                            </div>
-                          )}
-                        </div>
                       </div>
                     </div>
                     <div className="flex flex-row sm:flex-col gap-2 w-full sm:w-auto sm:ml-4">
