@@ -25,21 +25,22 @@ This repository contains a Python backend that enables:
 - `candidate_github/` – Stores extracted GitHub data per candidate.
 - `candidate_summaries/` – Stores AI-generated summaries for each candidate.
 - `models/` – Contains all backend scripts and FastAPI server logic.
-- `extractor.py` – Uses Llama 3 8B to individually extract resume data.
+- `extractor.py` – Uses Grok model Llama-3-8B-8192 to individually extract resume data.
 - `extracted_folder.py` – Bulk extractor for multiple resumes at once.
 - `linkeldn_data_extractor.py` – Extracts data from LinkedIn, stores in `candidate_linkeldn/`.
 - `github_data_extractor.py` – Extracts data from GitHub, stores in `candidate_github/`.
-- `summary_extractor.py` – Generates AI summaries (Llama 3 8B 8192 context), saves to `candidate_summaries/`.
+- `summary_extractor.py` – Generates AI summaries (Grok model : Llama-3-8B-8192), saves to `candidate_summaries/`.
 - `eligble_neo.py` – Initializes Neo4j (AuraDB) for each candidate's JSON; builds graph structure for fast query/retrieval.
 - `rank_fastapi.py` – Implements advanced ranking logic for candidate search results.
 - `comparison.py` – Provides AI-based candidate comparison across multiple parameters.
+  - **Note:** `comparison.py` takes its input from the file `candidates_1.json`.
 
 ---
 
 ## 🏗️ Data Extraction & Processing Pipeline
 
 - **Resume Extraction**:  
-  - Use `extractor.py` (Llama 3 8B) for single resumes, or `extracted_folder.py` for bulk extraction from `datafolder/` (Mumbai resumes) and `globalfolder/` (LinkedIn global resumes).
+  - Use `extractor.py` (model) for single resumes, or `extracted_folder.py` for bulk extraction from `datafolder/` (Mumbai resumes) and `globalfolder/` (LinkedIn global resumes).
   - Output: JSON files in `candidate_data/`, each including parameters like LinkedIn link and GitHub link.
 
 - **LinkedIn & GitHub Data Extraction**:  
@@ -133,7 +134,8 @@ The system uses a multi-dimensional ranking approach combining:
 
 ## 🤖 AI Candidate Comparison
 
-- Use `comparison.py` for AI-generated comparisons between any number of candidates, scored on similar parameters.
+- Use `comparison.py` for AI-generated comparisons between any number of candidates.
+- **Note:** `comparison.py` reads candidate data from the file `candidates_1.json` for comparison across similar parameters.
 
 ---
 
