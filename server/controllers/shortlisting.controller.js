@@ -206,3 +206,67 @@ export const deleteShortlistedCandidate = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
+// Add this new controller method
+export const getShortlistedCandidatesForUser = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { status, search, page = 1, limit = 10 } = req.query;
+
+    const user = await User.findOne({ supabaseId: userId });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    const query = { userId: user._id };
+
+    if (status && status !== 'all') {
+      query.status = status;
+    }
+
+    if (search) {
+      query.$or = [
+        { 'candidateId.candidate_name': { $regex: search, $options: 'i' } },
+        { 'candidateId.contact_information.email': { $regex: search, $options: 'i' } },
+        { 'offerDetails.jobTitle': { $regex: search, $options: 'i' } }
+      ];
+    }
+
+    const skip = (page - 1) * limit;
+
+    const shortlistings = await Shortlisting.find(query)
+      .populate({
+        path: 'candidateId',
+        select: 'candidate_name contact_information experience skills linkedin_data'
+      })
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(parseInt(limit))
+      .lean();
+
+    const total = await Shortlisting.countDocuments(query);
+
+    // Transform the data to include candidate details and status
+    const candidates = shortlistings.map(item => ({
+      ...item.candidateId,
+      shortlistingId: item._id,
+      status: item.status,
+      lastContacted: item.emailStatus?.sentAt || item.createdAt,
+      contactCount: item.communications?.length || 0
+    }));
+
+    res.status(200).json({
+      success: true,
+      data: candidates,
+      total,
+      page: parseInt(page),
+      pages: Math.ceil(total / limit)
+    });
+  } catch (error) {
+    console.error("Error fetching shortlisted candidates:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to fetch shortlisted candidates"
+    });
+  }
+};

@@ -22,8 +22,6 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
-import { useTheme } from "@/context/theme-context";
-import { demoCandidates } from "@/constants/candidates-data";
 import {
   Dialog,
   DialogContent,
@@ -42,9 +40,9 @@ import {
   PaginationLink,
   PaginationNext,
 } from "@/components/ui/pagination";
-import { Switch } from "@/components/ui/switch";
 import { FaSpinner } from "react-icons/fa6";
-import { FiMail, FiPhone, FiLinkedin, FiGithub } from "react-icons/fi";
+import { IoMailOutline } from "react-icons/io5";
+import { FaGithub, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { useCurrentUserId } from "@/hooks/use-current-user-id";
 
 const ITEMS_PER_PAGE = 8;
@@ -62,11 +60,11 @@ const ShortlistingPage = () => {
     jobDescription: "developing cutting-edge generative AI solutions",
     recruiterName: "Alex Johnson",
   });
-  const [useDemoData, setUseDemoData] = useState(true);
   const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [statusFilter, setStatusFilter] = useState("all");
+  const [totalPages, setTotalPages] = useState(1);
 
   const userId = useCurrentUserId();
 
@@ -86,14 +84,15 @@ const ShortlistingPage = () => {
       try {
         setIsLoading(true);
 
-        if (useDemoData) {
-          setFollowUps(demoCandidates);
-        } else {
-          const response = await fetch(
-            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${userId}?status=${statusFilter}&search=${searchTerm}&page=${currentPage}&limit=${ITEMS_PER_PAGE}`
-          );
-          const data = await response.json();
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/user/${userId}?status=${statusFilter}&search=${searchTerm}&page=${currentPage}&limit=${ITEMS_PER_PAGE}`
+        );
+        const data = await response.json();
+        if (data.success) {
           setFollowUps(data.data);
+          setTotalPages(data.pages);
+        } else {
+          toast.error(data.message || "Failed to fetch follow-ups");
         }
       } catch (error) {
         toast.error("Failed to fetch follow-ups");
@@ -102,8 +101,10 @@ const ShortlistingPage = () => {
       }
     };
 
-    fetchFollowUps();
-  }, [useDemoData, searchTerm, currentPage, statusFilter]);
+    if (userId) {
+      fetchFollowUps();
+    }
+  }, [searchTerm, currentPage, statusFilter, userId]);
 
   const filteredFollowUps = followUps.filter((followUp) => {
     const candidate = followUp;
@@ -196,7 +197,7 @@ const ShortlistingPage = () => {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/${followUpId}/status`,
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/${followUpId}/status`,
         {
           method: "PUT",
           headers: {
@@ -278,47 +279,18 @@ const ShortlistingPage = () => {
   };
 
   return (
-    <div className="container mx-auto py-6 px-4">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
-        <div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            Candidate Follow-ups
-          </h1>
-          <p className="text-gray-600 dark:text-gray-400 mt-1">
-            Track and manage your candidate communications
-          </p>
-        </div>
-
-        <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-          <Input
-            placeholder="Search candidates..."
-            className="w-full md:w-64"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
-          <div className="flex gap-3">
-            <Button
-              onClick={() => setIsEmailModalOpen(true)}
-              disabled={selectedFollowUps.length === 0}
-              className="bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-lg hover:from-purple-600 hover:to-purple-700 cursor-pointer"
-            >
-              Contact ({selectedFollowUps.length})
-            </Button>
-          </div>
-        </div>
-      </div>
+    <div className="container mx-auto py-6">
       <Card className="shadow-sm">
         <CardHeader className="border-b border-gray-200">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
-              <CardTitle className="text-lg">Follow-up Pipeline</CardTitle>
+              <CardTitle className="text-lg">
+                <h2 className="text-xl font-bold text-gray-900 dark:text-white">
+                  Shortlisted Candidates
+                </h2>
+              </CardTitle>
               <CardDescription>
                 {filteredFollowUps.length} candidates found
-                {useDemoData && (
-                  <span className="ml-2 text-purple-600 dark:text-purple-400">
-                    (Using demo data)
-                  </span>
-                )}
               </CardDescription>
             </div>
             <div className="flex items-center gap-4">
@@ -339,13 +311,23 @@ const ShortlistingPage = () => {
                   <option value="on_hold">On Hold</option>
                 </select>
               </div>
-              <div className="flex items-center space-x-2">
-                <Switch
-                  id="demo-mode"
-                  checked={useDemoData}
-                  onCheckedChange={setUseDemoData}
+
+              <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                <Input
+                  placeholder="Search candidates..."
+                  className="w-full md:w-64"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                <Label htmlFor="demo-mode">Demo Mode</Label>
+                <div className="flex gap-3">
+                  <Button
+                    onClick={() => setIsEmailModalOpen(true)}
+                    disabled={selectedFollowUps.length === 0}
+                    className="bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-lg hover:from-purple-600 hover:to-purple-700 cursor-pointer"
+                  >
+                    Contact ({selectedFollowUps.length})
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -399,7 +381,17 @@ const ShortlistingPage = () => {
                         <TableCell>
                           <div className="flex items-center gap-3">
                             <Avatar className="h-10 w-10">
-                              <AvatarImage src={candidate.avatar} />
+                              <AvatarImage
+                                src={
+                                  candidate.linkedin_data?.profile_data
+                                    ?.profile_photo ||
+                                  candidate.contact_information?.linkedin
+                                    ? `https://unavatar.io/linkedin/${candidate.contact_information.linkedin
+                                        .split("/")
+                                        .pop()}`
+                                    : ""
+                                }
+                              />
                               <AvatarFallback className="w-10 h-10 rounded-full bg-gray-100 border text-gray-700 font-semibold flex items-center justify-center text-sm">
                                 {candidate.candidate_name
                                   ?.charAt(0)
@@ -415,14 +407,14 @@ const ShortlistingPage = () => {
                                   href={`mailto:${candidate.contact_information.email}`}
                                   className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
                                 >
-                                  <FiMail className="h-4 w-4" />
+                                  <IoMailOutline className="h-4 w-4" />
                                 </a>
                                 {candidate.contact_information.phone && (
                                   <a
                                     href={`tel:${candidate.contact_information.phone}`}
                                     className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
                                   >
-                                    <FiPhone className="h-4 w-4" />
+                                    <FaPhoneAlt className="h-4 w-4" />
                                   </a>
                                 )}
                                 {candidate.contact_information.linkedin && (
@@ -434,7 +426,7 @@ const ShortlistingPage = () => {
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
                                   >
-                                    <FiLinkedin className="h-4 w-4" />
+                                    <FaLinkedinIn className="h-4 w-4" />
                                   </a>
                                 )}
                                 {candidate.contact_information.github && (
@@ -444,7 +436,7 @@ const ShortlistingPage = () => {
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
                                   >
-                                    <FiGithub className="h-4 w-4" />
+                                    <FaGithub className="h-4 w-4" />
                                   </a>
                                 )}
                               </div>
@@ -510,7 +502,8 @@ const ShortlistingPage = () => {
                           <div className="flex flex-col">
                             <span className="font-medium">
                               {new Date(
-                                candidate.metadata?.lastContacted
+                                candidate.metadata?.lastContacted ||
+                                  candidate.createdAt
                               ).toLocaleDateString()}
                             </span>
                             <span className="text-xs text-gray-500 dark:text-gray-400">
@@ -570,42 +563,33 @@ const ShortlistingPage = () => {
                   />
                 </PaginationItem>
 
-                {Array.from(
-                  {
-                    length: Math.ceil(
-                      filteredFollowUps.length / ITEMS_PER_PAGE
-                    ),
-                  },
-                  (_, i) => i + 1
-                ).map((page) => (
-                  <PaginationItem key={page}>
-                    <PaginationLink
-                      href="#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setCurrentPage(page);
-                      }}
-                      isActive={page === currentPage}
-                    >
-                      {page}
-                    </PaginationLink>
-                  </PaginationItem>
-                ))}
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map(
+                  (page) => (
+                    <PaginationItem key={page}>
+                      <PaginationLink
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setCurrentPage(page);
+                        }}
+                        isActive={page === currentPage}
+                      >
+                        {page}
+                      </PaginationLink>
+                    </PaginationItem>
+                  )
+                )}
 
                 <PaginationItem>
                   <PaginationNext
                     href="#"
                     onClick={(e) => {
                       e.preventDefault();
-                      if (
-                        currentPage <
-                        Math.ceil(filteredFollowUps.length / ITEMS_PER_PAGE)
-                      )
+                      if (currentPage < totalPages)
                         setCurrentPage(currentPage + 1);
                     }}
                     className={
-                      currentPage ===
-                      Math.ceil(filteredFollowUps.length / ITEMS_PER_PAGE)
+                      currentPage === totalPages
                         ? "opacity-50 cursor-not-allowed"
                         : ""
                     }
@@ -617,6 +601,7 @@ const ShortlistingPage = () => {
         )}
       </Card>
 
+      {/* Email Dialog */}
       <Dialog open={isEmailModalOpen} onOpenChange={setIsEmailModalOpen}>
         <DialogContent className="h-[90vh] max-w-5xl overflow-auto">
           <DialogHeader>
@@ -768,7 +753,17 @@ const ShortlistingPage = () => {
                         >
                           <div className="flex items-center gap-3">
                             <Avatar className="h-8 w-8">
-                              <AvatarImage src={candidate.avatar} />
+                              <AvatarImage
+                                src={
+                                  candidate.linkedin_data?.profile_data
+                                    ?.profile_photo ||
+                                  candidate.contact_information?.linkedin
+                                    ? `https://unavatar.io/linkedin/${candidate.contact_information.linkedin
+                                        .split("/")
+                                        .pop()}`
+                                    : ""
+                                }
+                              />
                               <AvatarFallback>
                                 {candidate.candidate_name.charAt(0)}
                               </AvatarFallback>
