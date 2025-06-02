@@ -455,7 +455,7 @@ const Page = () => {
 
   if (pageLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="mb-4 flex items-center justify-center">
             <svg
@@ -490,7 +490,7 @@ const Page = () => {
           isChatHistoryOpen ? "md:mr-80" : "md:mr-0"
         }`}
       >
-        <div className="min-h-full flex items-center justify-center p-4 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+        <div className="min-h-full flex items-center justify-center p-4 ">
           <div className="w-full max-w-3xl bg-white p-6 sm:p-10 rounded-xl shadow-2xl">
             {/* PeopleGPT Header */}
             <div className="mb-8 text-center">
