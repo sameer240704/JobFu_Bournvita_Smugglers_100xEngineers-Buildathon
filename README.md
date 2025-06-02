@@ -1,6 +1,6 @@
-# HireAI by Jobfu
+# HireAI by JobFu
 
-Welcome to the **HireAI by Jobfu** repository!  
+Welcome to the **HireAI by JobFu** repository!  
 This project demonstrates an advanced AI-powered resume extraction, enrichment, and candidate ranking pipeline, designed for efficient, accurate, and scalable candidate search and comparison.
 
 ---
@@ -92,15 +92,15 @@ routes/
 - `candidate_github/` – Stores extracted GitHub data per candidate.
 - `candidate_summaries/` – Stores AI-generated summaries for each candidate.
 - `models/` – Contains all backend scripts and FastAPI server logic (within `ai-server/`).
-- `extractor.py` – Uses Llama 3 8B to individually extract resume data.
+- `extractor.py` – Uses Llama-3-8B-8192 to individually extract resume data.
 - `extracted_folder.py` – Bulk extractor for multiple resumes at once.
 - `linkeldn_data_extractor.py` – Extracts data from LinkedIn, stores in `candidate_linkeldn/`.
 - `github_data_extractor.py` – Extracts candidate data from GitHub, stores in `candidate_github/`.
-- `summary_extractor.py` – Generates AI summaries (Llama 3 8B 8192 context), saves to `candidate_summaries/`.
+- `summary_extractor.py` – Generates AI summaries (Llama-3-8B-8192 context), saves to `candidate_summaries/`.
 - `eligble_neo.py` – Initializes Neo4j (AuraDB) for each candidate's JSON; builds graph structure for fast query/retrieval.
 - `rank_fastapi.py` – Implements advanced ranking logic for candidate search results.
 - `comparison.py` – Provides AI-based candidate comparison across multiple parameters.
-  - **Note:** `comparison.py` takes its input from the file `candidates_1.json`.
+- `comparison.py` takes its input from the file `candidates_1.json`.
 
 ---
 
@@ -115,7 +115,7 @@ routes/
   - `github_data_extractor.py`: Extracts candidate data from GitHub, storing results in `candidate_github/`.
 
 - **AI Summary Generation**:  
-  - `summary_extractor.py` uses Llama 3 8B (8192 context) to create a detailed summary for each candidate, stored in `candidate_summaries/`.
+  - `summary_extractor.py` uses Llama-3-8B-8192 context to create a detailed summary for each candidate, stored in `candidate_summaries/`.
 
 ---
 
@@ -269,7 +269,7 @@ Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) and review our [Contribu
 
 ## 📑 Resources
 
-- [HireAI by Jobfu Website](#) (insert link if available)
+- [HireAI by JobFu Website](#) (insert link if available)
 - [Documentation](./docs/)
 - [Issues](https://github.com/sameer240704/100xEngineers-Buildathon/issues)
 
