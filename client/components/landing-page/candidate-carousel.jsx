@@ -127,7 +127,7 @@ const FloatingCandidateCarousel = () => {
           </div>
         </div>
 
-        <div className="flex flex-nowrap overflow-x-auto pb-2 mb-6 gap-2 no-scrollbar">
+        <div className="flex flex-nowrap overflow-x-auto pb-2 mb-6 gap-2 no-scrollbar overflow-hidden">
           {candidate.skills.map((skill, index) => (
             <span
               key={index}
