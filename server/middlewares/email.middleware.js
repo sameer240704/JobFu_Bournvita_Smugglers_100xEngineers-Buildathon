@@ -4,8 +4,8 @@ dotenv.config();
 import nodemailer from 'nodemailer';
 import { google } from 'googleapis';
 import { v4 as uuidv4 } from 'uuid';
-// import Shortlisting from '../models/shortlisting.model.js';
-
+import Shortlisting from "../models/shortlisting.model.js";
+import mongoose from "mongoose";
 
 const requiredEnvVars = ['CLIENT_ID', 'CLIENT_SECRET', 'REFRESH_TOKEN'];
 for (const envVar of requiredEnvVars) {
@@ -75,7 +75,6 @@ async function sendOfferEmail(userId, candidate, emailTemplate, templateVariable
         offerLink: `${process.env.NEXT_PUBLIC_BASE_URL}/offer/${offerId}`,
     };
 
-    // Replace template variables
     for (const [key, value] of Object.entries(variables)) {
         const regex = new RegExp(`\\{${key}\\}`, 'g');
         emailBody = emailBody.replace(regex, value || '');
@@ -86,7 +85,7 @@ async function sendOfferEmail(userId, candidate, emailTemplate, templateVariable
         const transporter = await createTransporter();
 
         const mailOptions = {
-            from: `"HireAI Recruiter" <jobfutech@gmail.com>`,
+            from: `"HireAI Recruiter" <${process.env.EMAIL_USER}>`,
             to: candidate.contact_information.email,
             subject: emailSubject,
             text: emailBody,
@@ -107,25 +106,34 @@ async function sendOfferEmail(userId, candidate, emailTemplate, templateVariable
             subject: emailSubject
         });
 
-        // Uncomment when ready to save to database
-        // const shortlistingData = {
-        //     userId,
-        //     candidateId: candidate._id,
-        //     chatHistoryId: candidate.chatHistoryId,
-        //     offerId,
-        //     status: 'sent',
-        //     emailStatus: { sentAt: new Date() },
-        //     offerDetails: {
-        //         jobTitle: templateVariables.jobTitle,
-        //         jobDescription: templateVariables.jobDescription
-        //     }
-        // };
+        const shortlistingData = {
+            userId: userId._id,
+            candidateId: new mongoose.Types.ObjectId(candidate._id),
+            offerId,
+            status: 'sent',
+            emailStatus: {
+                sentAt: new Date(),
+                messageId: result.messageId
+            },
+            offerDetails: {
+                jobTitle: templateVariables.jobTitle,
+                jobDescription: templateVariables.jobDescription,
+                salary: templateVariables.salary || 'Not specified',
+                benefits: templateVariables.benefits || 'Standard benefits package'
+            },
+            communications: [{
+                type: 'email',
+                content: emailBody,
+                direction: 'outbound',
+                timestamp: new Date()
+            }]
+        };
 
-        // const shortlisting = await Shortlisting.findOneAndUpdate(
-        //     { userId, candidateId: candidate._id },
-        //     { ...shortlistingData, $push: { communications: { type: 'email', content: emailBody, direction: 'outbound' } } },
-        //     { upsert: true, new: true }
-        // );
+        await Shortlisting.findOneAndUpdate(
+            { userId: shortlistingData.userId, candidateId: shortlistingData.candidateId },
+            shortlistingData,
+            { upsert: true, new: true }
+        );
 
         return {
             success: true,

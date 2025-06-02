@@ -40,10 +40,12 @@ import {
   PaginationLink,
   PaginationNext,
 } from "@/components/ui/pagination";
-import { FaSpinner } from "react-icons/fa6";
+import { FaFileExcel, FaSpinner } from "react-icons/fa6";
 import { IoMailOutline } from "react-icons/io5";
-import { FaGithub, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaPhoneAlt, FaRegClock } from "react-icons/fa";
 import { useCurrentUserId } from "@/hooks/use-current-user-id";
+import { MdOutlineWorkOutline, MdSchool } from "react-icons/md";
+import * as XLSX from "xlsx";
 
 const ITEMS_PER_PAGE = 8;
 
@@ -278,6 +280,32 @@ const ShortlistingPage = () => {
     return preview;
   };
 
+  const exportToExcel = async () => {
+    try {
+      setIsLoading(true);
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/user/${userId}/export?status=${statusFilter}`
+      );
+      const data = await response.json();
+
+      if (!Array.isArray(data)) {
+        throw new Error("Invalid data format received");
+      }
+
+      const worksheet = XLSX.utils.json_to_sheet(data);
+      const workbook = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(workbook, worksheet, "Candidates");
+      XLSX.writeFile(workbook, "shortlisted_candidates.xlsx");
+
+      toast.success("Excel file downloaded successfully");
+    } catch (error) {
+      toast.error("Failed to export data");
+      console.error("Export error:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   return (
     <div className="container mx-auto py-6">
       <Card className="shadow-sm">
@@ -321,8 +349,17 @@ const ShortlistingPage = () => {
                 />
                 <div className="flex gap-3">
                   <Button
+                    onClick={exportToExcel}
+                    variant="outline"
+                    className="flex items-center gap-2"
+                    disabled={isLoading}
+                  >
+                    <FaFileExcel className="h-4 w-4 text-green-600" />
+                    Export
+                  </Button>
+                  <Button
                     onClick={() => setIsEmailModalOpen(true)}
-                    disabled={selectedFollowUps.length === 0}
+                    disabled={selectedFollowUps.length === 0 || isLoading}
                     className="bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-lg hover:from-purple-600 hover:to-purple-700 cursor-pointer"
                   >
                     Contact ({selectedFollowUps.length})
@@ -358,9 +395,10 @@ const ShortlistingPage = () => {
                       <TableHead className="min-w-[200px]">Candidate</TableHead>
                       <TableHead className="min-w-[150px]">Position</TableHead>
                       <TableHead className="min-w-[120px]">Skills</TableHead>
+                      <TableHead className="min-w-[100px]">Education</TableHead>
                       <TableHead className="min-w-[100px]">Status</TableHead>
-                      <TableHead className="min-w-[120px] text-right">
-                        Last Contact
+                      <TableHead className="min-w-[150px]">
+                        Offer Details
                       </TableHead>
                     </TableRow>
                   </TableHeader>
@@ -406,6 +444,7 @@ const ShortlistingPage = () => {
                                 <a
                                   href={`mailto:${candidate.contact_information.email}`}
                                   className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
+                                  title="Email"
                                 >
                                   <IoMailOutline className="h-4 w-4" />
                                 </a>
@@ -413,6 +452,7 @@ const ShortlistingPage = () => {
                                   <a
                                     href={`tel:${candidate.contact_information.phone}`}
                                     className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
+                                    title="Phone"
                                   >
                                     <FaPhoneAlt className="h-4 w-4" />
                                   </a>
@@ -425,6 +465,7 @@ const ShortlistingPage = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
+                                    title="LinkedIn"
                                   >
                                     <FaLinkedinIn className="h-4 w-4" />
                                   </a>
@@ -435,6 +476,7 @@ const ShortlistingPage = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-purple-600 dark:hover:text-purple-400"
+                                    title="GitHub"
                                   >
                                     <FaGithub className="h-4 w-4" />
                                   </a>
@@ -445,10 +487,13 @@ const ShortlistingPage = () => {
                         </TableCell>
                         <TableCell>
                           <div>
-                            <p className="font-medium">
-                              {candidate.experience?.[0]?.position || "N/A"}
-                            </p>
-                            <p className="text-sm text-gray-500 dark:text-gray-400">
+                            <div className="flex items-center gap-2">
+                              <MdOutlineWorkOutline className="text-gray-400" />
+                              <p className="font-medium">
+                                {candidate.experience?.[0]?.position || "N/A"}
+                              </p>
+                            </div>
+                            <p className="text-sm text-gray-500 dark:text-gray-400 ml-6">
                               {candidate.experience?.[0]?.company || ""}
                             </p>
                           </div>
@@ -466,7 +511,29 @@ const ShortlistingPage = () => {
                                   {skill}
                                 </Badge>
                               ))}
+                            {candidate.skills?.technical_skills
+                              ?.programming_languages?.length > 3 && (
+                              <Badge
+                                variant="outline"
+                                className="text-xs font-normal"
+                              >
+                                +
+                                {candidate.skills?.technical_skills
+                                  ?.programming_languages?.length - 3}
+                              </Badge>
+                            )}
                           </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex items-center gap-2">
+                            <MdSchool className="text-gray-400" />
+                            <p className="text-sm">
+                              {candidate.education?.[0]?.degree || "N/A"}
+                            </p>
+                          </div>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 ml-6">
+                            {candidate.education?.[0]?.institution || ""}
+                          </p>
                         </TableCell>
                         <TableCell>
                           <div className="flex items-center gap-2">
@@ -497,18 +564,23 @@ const ShortlistingPage = () => {
                             </Badge>
                           </div>
                         </TableCell>
-
-                        <TableCell className="text-right">
-                          <div className="flex flex-col">
-                            <span className="font-medium">
-                              {new Date(
-                                candidate.metadata?.lastContacted ||
-                                  candidate.createdAt
-                              ).toLocaleDateString()}
-                            </span>
-                            <span className="text-xs text-gray-500 dark:text-gray-400">
-                              {candidate.metadata?.contactCount || 0} contact(s)
-                            </span>
+                        <TableCell>
+                          <div className="flex flex-col gap-1">
+                            <div className="flex items-center gap-2">
+                              <FaRegClock className="text-gray-400" />
+                              <span className="text-sm">
+                                {new Date(
+                                  candidate.metadata?.lastContacted ||
+                                    candidate.createdAt
+                                ).toLocaleDateString()}
+                              </span>
+                            </div>
+                            <p className="text-sm font-medium">
+                              {candidate.offerDetails?.jobTitle || "N/A"}
+                            </p>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">
+                              {candidate.offerDetails?.salary || ""}
+                            </p>
                           </div>
                         </TableCell>
                       </TableRow>
