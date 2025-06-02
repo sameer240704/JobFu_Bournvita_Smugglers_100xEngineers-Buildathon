@@ -214,9 +214,17 @@ export const getOfferDetails = async (req, res) => {
 };
 
 export const respondToOffer = async (req, res) => {
+  console.log(req.params)
   try {
     const { offerId } = req.params;
     const { decision, comments } = req.body;
+
+    if (!['accepted', 'rejected'].includes(decision)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid decision. Must be either 'accepted' or 'rejected'"
+      });
+    }
 
     const updatedOffer = await Shortlisting.findOneAndUpdate(
       { offerId },
@@ -225,34 +233,62 @@ export const respondToOffer = async (req, res) => {
           status: decision,
           response: {
             decision,
-            comments,
+            comments: comments || '',
             respondedAt: new Date(),
           },
         },
         $push: {
           communications: {
             type: "email",
-            content: `Candidate ${decision} the offer`,
+            content: `Candidate ${decision} the offer${comments ? ` with comments: ${comments}` : ''}`,
             direction: "inbound",
             timestamp: new Date()
           },
         },
       },
-      { new: true }
-    ).populate("candidateId", "candidate_name contact_information");
+      {
+        new: true,
+        runValidators: true
+      }
+    )
+      .populate("candidateId", "candidate_name contact_information")
+      .populate("userId", "name email");
 
     if (!updatedOffer) {
-      return res.status(404).json({ message: "Offer not found" });
+      return res.status(404).json({
+        success: false,
+        message: "Offer not found"
+      });
     }
 
-    res.status(200).json({
+    const responseData = {
+      success: true,
       message: `Offer ${decision} successfully`,
-      candidateName: updatedOffer.candidateId.candidate_name,
-      contactEmail: updatedOffer.candidateId.contact_information.email,
-      status: updatedOffer.status
-    });
+      data: {
+        status: updatedOffer.status,
+        candidate: {
+          name: updatedOffer.candidateId?.candidate_name || 'Unknown',
+          email: updatedOffer.candidateId?.contact_information?.email || '',
+        },
+        recruiter: {
+          name: updatedOffer.userId?.name || 'Unknown',
+          email: updatedOffer.userId?.email || '',
+        },
+        responseDetails: {
+          decision: updatedOffer.response?.decision,
+          comments: updatedOffer.response?.comments,
+          respondedAt: updatedOffer.response?.respondedAt
+        }
+      }
+    };
+
+    res.status(200).json(responseData);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Error responding to offer:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to process offer response"
+    });
   }
 };
 
