@@ -26,6 +26,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Download required NLTK data (run once)
+nltk.download('punkt_tab')
 try:
     nltk.data.find('tokenizers/punkt')
     nltk.data.find('corpora/stopwords')

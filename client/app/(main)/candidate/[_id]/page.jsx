@@ -29,7 +29,10 @@ import {
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button"; // Assuming you have this
 import { useCurrentUserId } from "@/hooks/use-current-user-id"; // Assuming you have this
-// import GitHubProfileTab from "@/components/misc/GithubProfileTab";
+import Image from "next/image";
+// import Image from "next/image"; // Using <img> for simplicity with external URLs for now
+
+// The LinkedIn JSON data you provided (assuming it comes from candidateData.linkedinScrapedProfile)
 
 const CandidateProfile = () => {
   const [activeTab, setActiveTab] = useState("experiences");
@@ -255,10 +258,12 @@ const CandidateProfile = () => {
     const LinkedInExperienceItem = ({ exp }) => (
       <div className="flex items-start gap-4 py-4 border-b border-gray-100 last:border-b-0">
         {exp?.company_image ? (
-          <img
+          <Image
             src={exp.company_image}
             alt={exp.company_name}
             className="w-12 h-12 rounded-md object-contain flex-shrink-0"
+            height={100}
+            width={100}
           />
         ) : (
           <div className="w-12 h-12 bg-gray-100 rounded-md flex items-center justify-center text-gray-400 flex-shrink-0">
@@ -293,10 +298,12 @@ const CandidateProfile = () => {
         {edu?.college_image &&
         edu?.college_image !==
           "https://static.licdn.com/aero-v1/sc/h/6qpnald1ddva78jx4bnnl3vw" ? (
-          <img
+          <Image
             src={edu.college_image}
             alt={edu.college_name}
             className="w-12 h-12 rounded-md object-contain flex-shrink-0"
+            height={100}
+            width={100}
           />
         ) : (
           <div className="w-12 h-12 bg-gray-100 rounded-md flex items-center justify-center text-gray-400 flex-shrink-0">
@@ -328,10 +335,12 @@ const CandidateProfile = () => {
     const LinkedInCertificationItem = ({ cert }) => (
       <div className="flex items-start gap-4 py-4 border-b border-gray-100 last:border-b-0">
         {cert.company_image ? (
-          <img
+          <Image
             src={cert.company_image}
             alt={cert.company_name}
             className="w-12 h-12 rounded-md object-contain flex-shrink-0"
+            height={100}
+            width={100}
           />
         ) : (
           <div className="w-12 h-12 bg-gray-100 rounded-md flex items-center justify-center text-gray-400 flex-shrink-0">
@@ -448,10 +457,12 @@ const CandidateProfile = () => {
             className="hover:bg-gray-50 p-2 -m-2 block rounded-md"
           >
             {act.image && (
-              <img
+              <Image
                 src={act.image}
                 alt="Activity image"
                 className="w-full h-auto max-h-48 object-cover rounded-md mb-2"
+                height={10000}
+                width={10000}
               />
             )}
             <p className="text-sm text-gray-700 mb-1 line-clamp-3">
@@ -475,18 +486,22 @@ const CandidateProfile = () => {
         {/* LinkedIn Header Section */}
         <div className="relative bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
           {data.background_cover_image_url && (
-            <img
+            <Image
               src={data.background_cover_image_url}
               alt="Cover"
               className="w-full h-32 sm:h-48 object-cover"
+              height={10000}
+              width={10000}
             />
           )}
           <div className="p-6">
             <div className="flex flex-col sm:flex-row items-start sm:gap-6">
               {data.profile_photo && (
-                <img
+                <Image
                   src={data.profile_photo}
                   alt={data.fullName}
+                  height={10000}
+                  width={10000}
                   className={`w-24 h-24 sm:w-32 sm:h-32 rounded-full border-4 border-white flex-shrink-0 object-cover ${
                     data.background_cover_image_url
                       ? "-mt-12 sm:-mt-16"
@@ -718,10 +733,12 @@ const CandidateProfile = () => {
         {candidateData.name && ( // Only render if candidateData is loaded
           <div className="relative">
             {linkedInProfileData?.background_cover_image_url && (
-              <img
+              <Image
                 src={linkedInProfileData.background_cover_image_url}
                 alt="Cover"
                 className="w-full h-40 md:h-56 object-cover rounded-t-lg"
+                height={10000}
+                width={10000}
               />
             )}
             <div
@@ -733,8 +750,10 @@ const CandidateProfile = () => {
             >
               <div className="flex flex-col md:flex-row items-start gap-6">
                 {linkedInProfileData?.profile_photo ? (
-                  <img
+                  <Image
                     src={linkedInProfileData.profile_photo}
+                    height={10000}
+                    width={10000}
                     alt={
                       linkedInProfileData.fullName ||
                       candidateData.candidate_name

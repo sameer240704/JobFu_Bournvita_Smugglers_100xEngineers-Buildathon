@@ -19,6 +19,7 @@ import { useParams, useRouter } from "next/navigation";
 import ChatHistoryPanel from "@/components/misc/ChatHistoryPanel"; // Assuming this path is correct
 import Link from "next/link";
 import { useCurrentUserId } from "@/hooks/use-current-user-id";
+import Image from "next/image";
 
 const initialFiltersState = {
   location: [],
@@ -541,7 +542,7 @@ const CandidateSearchResults = () => {
                   <div className="flex flex-col sm:flex-row items-start justify-between">
                     <div className="flex gap-4 flex-1 mb-4 sm:mb-0">
                       <div className="flex-shrink-0">
-                        <img
+                        <Image
                           src={
                             candidate.linkedin_data.profile_data
                               .profile_photo ||
@@ -551,6 +552,8 @@ const CandidateSearchResults = () => {
                           }
                           alt={candidate.candidate_name}
                           className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-gray-200"
+                          width={10000}
+                          height={10000}
                         />
                       </div>
                       <div className="flex-1 min-w-0">
