@@ -270,3 +270,51 @@ export const getShortlistedCandidatesForUser = async (req, res) => {
     });
   }
 };
+
+export const exportToExcel = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { status } = req.query;
+
+    const user = await User.findOne({ supabaseId: userId });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    const query = { userId: user._id };
+    if (status && status !== 'all') {
+      query.status = status;
+    }
+
+    const shortlistings = await Shortlisting.find(query)
+      .populate({
+        path: 'candidateId',
+        select: 'candidate_name contact_information experience skills education'
+      })
+      .sort({ createdAt: -1 })
+      .lean();
+
+    const excelData = shortlistings.map(item => ({
+      "Candidate Name": item.candidateId?.candidate_name || 'N/A',
+      "Email": item.candidateId?.contact_information?.email || 'N/A',
+      "Phone": item.candidateId?.contact_information?.phone || 'N/A',
+      "Current Position": item.candidateId?.experience?.[0]?.position || 'N/A',
+      "Current Company": item.candidateId?.experience?.[0]?.company || 'N/A',
+      "Skills": item.candidateId?.skills?.technical_skills?.programming_languages?.join(', ') || 'N/A',
+      "Education": item.candidateId?.education?.[0]?.degree || 'N/A',
+      "Status": item.status,
+      "Offer Title": item.offerDetails?.jobTitle || 'N/A',
+      "Offer Salary": item.offerDetails?.salary || 'N/A',
+      "Sent Date": item.emailStatus?.sentAt?.toISOString().split('T')[0] || 'N/A',
+      "Last Viewed": item.emailStatus?.lastViewed?.toISOString().split('T')[0] || 'N/A'
+    }));
+
+    res.status(200).json(excelData);
+  } catch (error) {
+    console.error("Error exporting to Excel:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to export data"
+    });
+  }
+};

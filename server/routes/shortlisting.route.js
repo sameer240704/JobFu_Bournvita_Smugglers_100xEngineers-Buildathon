@@ -7,7 +7,8 @@ import {
   getOfferDetails,
   respondToOffer,
   deleteShortlistedCandidate,
-  getShortlistedCandidatesForUser
+  getShortlistedCandidatesForUser,
+  exportToExcel
 } from "../controllers/shortlisting.controller.js";
 
 const router = express.Router();
@@ -20,5 +21,6 @@ router.get("/offer/:offerId", getOfferDetails);
 router.post("/offer/:offerId/respond", respondToOffer);
 router.delete("/user/:userId/delete/:candidateId", deleteShortlistedCandidate);
 router.get('/user/:userId', getShortlistedCandidatesForUser);
+router.get('/user/:userId/export', exportToExcel);
 
 export default router;
