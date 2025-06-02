@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 import Shortlisting from "../models/shortlisting.model.js";
 import { sendOfferEmail } from "../middlewares/email.middleware.js";
 import User from "../models/user.model.js";
+import { v4 as uuidv4 } from 'uuid';
 
 export const addShortlistedCandidate = async (req, res) => {
   try {
@@ -19,10 +20,14 @@ export const addShortlistedCandidate = async (req, res) => {
         .status(400)
         .json({ message: "Candidate is already shortlisted" });
     }
+
+    const newOfferId = uuidv4();
+
     const shortlisted = new Shortlisting({
       userId: newUserId,
       candidateId: new mongoose.Types.ObjectId(candidateId),
       chatHistoryId: new mongoose.Types.ObjectId(chatHistoryId),
+      offerId: newOfferId,
       offerDetails,
       status: "none",
       emailStatus: {
@@ -31,7 +36,9 @@ export const addShortlistedCandidate = async (req, res) => {
         lastViewed: null,
       },
     });
+
     await shortlisted.save();
+
     res.status(201).json({ message: "Candidate added to shortlist" });
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -40,7 +47,7 @@ export const addShortlistedCandidate = async (req, res) => {
 
 export const getShortlistedCandidates = async (req, res) => {
   try {
-    const { userId, chatId, userName } = req.params;
+    const { userId, chatId } = req.params;
 
     const user = await User.findOne({ supabaseId: userId });
     const newUserId = user._id;
@@ -56,13 +63,9 @@ export const getShortlistedCandidates = async (req, res) => {
       .select("candidateId")
       .lean();
 
-    console.log(shortlisted)
-
     const candidateIds = shortlisted
       .filter(item => item.candidateId && item.candidateId._id)
       .map(item => item.candidateId._id);
-
-    console.log(candidateIds)
 
     res.status(200).json(candidateIds);
   } catch (error) {
@@ -86,8 +89,6 @@ export const sendOffer = async (req, res) => {
       emailTemplate,
       templateVariables
     );
-
-    console.log(result);
 
     if (result.success) {
       res.status(200).json({

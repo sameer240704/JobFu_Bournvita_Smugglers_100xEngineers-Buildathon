@@ -50,7 +50,6 @@ import { useCurrentUserId } from "@/hooks/use-current-user-id";
 const ITEMS_PER_PAGE = 8;
 
 const ShortlistingPage = () => {
-  const { theme, toggleTheme } = useTheme();
   const [followUps, setFollowUps] = useState([]);
   const [selectedFollowUps, setSelectedFollowUps] = useState([]);
   const [emailTemplate, setEmailTemplate] = useState({

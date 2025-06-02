@@ -97,7 +97,7 @@ const CandidateSearchResults = () => {
     };
 
     fetchShortlistedCandidates();
-  }, [user, id]);
+  }, []);
 
   // --- Helper to generate summary for titles etc. ---
   const generateSearchSummaryText = (query, filters) => {
@@ -348,7 +348,7 @@ const CandidateSearchResults = () => {
           },
           body: JSON.stringify({
             userId: user,
-            candidateId: selectedCandidate._id,
+            candidateId: selectedCandidate,
             chatHistoryId: id,
             offerDetails,
           }),
@@ -734,9 +734,7 @@ const CandidateSearchResults = () => {
                     </div>
                     <div className="flex flex-row sm:flex-col gap-2 w-full sm:w-auto sm:ml-4">
                       <Button
-                        onClick={() =>
-                          handleShortlistClick(candidate.id || candidate._id)
-                        }
+                        onClick={() => handleShortlistClick(candidate._id)}
                         className={`w-full sm:w-auto px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md transition-colors flex items-center justify-center gap-1.5 cursor-pointer ${
                           shortlisted.has(candidate.id || candidate._id)
                             ? "bg-purple-100 text-purple-700 border border-purple-300"
