@@ -104,7 +104,7 @@ export const getAllChatHistories = async (req, res) => {
 export const getChatHistoryById = async (req, res) => {
   try {
     const { user, id } = req.params;
-    console.log(user, id);
+    // console.log(user, id);
 
     // Validate ObjectId format
     if (!id) {

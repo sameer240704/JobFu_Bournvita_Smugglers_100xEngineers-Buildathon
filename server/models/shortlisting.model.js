@@ -22,8 +22,8 @@ const shortlistingSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ['pending', 'sent', 'viewed', 'accepted', 'rejected', 'expired'],
-        default: 'pending'
+        enum: ['pending', 'sent', 'viewed', 'accepted', 'rejected', 'expired', 'none'],
+        default: 'none'
     },
     emailStatus: {
         sentAt: Date,
