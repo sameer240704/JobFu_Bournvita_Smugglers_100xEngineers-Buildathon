@@ -165,10 +165,10 @@ const RepositoryCard = ({ repo, username }) => {
           </h3>
           <span
             className={`text-xs px-2 py-0.5 rounded-full font-medium ${getHealthColor(
-              repo.health_score
+              repo.health_score || repo.healthScore
             )}`}
           >
-            Health: {repo.health_score}%
+            Health: {repo.healthScore || repo.health_score}%
           </span>
         </div>
         {repo.description && (
