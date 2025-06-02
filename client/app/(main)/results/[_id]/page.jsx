@@ -77,7 +77,7 @@ const CandidateSearchResults = () => {
         const response = await fetch(
           `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/chats/${userId}`
         );
-        if (!response.success) {
+        if (response.success) {
           throw new Error(`Error fetching all chats: ${response.statusText}`);
         }
         const data = await response.json();
