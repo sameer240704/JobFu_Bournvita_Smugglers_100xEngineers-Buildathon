@@ -1,0 +1,332 @@
+{
+  "user_profile": {
+    "name": "Nilay Koul",
+    "username": "Nilay-28",
+    "followers": 0,
+    "following": 1,
+    "public_repos": 7,
+    "following_users": ["@tilakjain123"]
+  },
+  "repositories_analysis": {
+    "total_repositories": 7,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "top_10_summary": {
+      "total_stars": 0,
+      "total_forks": 0,
+      "total_contributors": 7,
+      "avg_health_score": 36.4
+    }
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "ChatBot",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-05-31",
+      "last_updated": "2025-05-31",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "A versatile Streamlit-based chatbot combining Google Gemini AI with a suite of useful tools including real-time weather, news headlines, Wikipedia search, voice input, PDF Q&A, math solving, and c...",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 4,
+      "last_commit": "2025-05-31",
+      "repository_size": "13 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    },
+    {
+      "rank": 2,
+      "name": "Food_Delivery_Website",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "JavaScript",
+      "created": "2024-04-09",
+      "last_updated": "2024-04-15",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "ReactJS",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project aims to build a food delivery website using ReactJS. It likely provides a user interface where customers can browse menus, select items, and place orders for delivery.",
+        "technology_stack": {
+          "frontend": "ReactJS",
+          "language": "JavaScript",
+          "assets": "Includes image assets suggesting the use of custom CSS or a CSS-in-JS library"
+        },
+        "project_category": "Web Application - Specifically, a frontend for a food delivery platform",
+        "key_features": [
+          "Browse food items with images",
+          "Add/remove items from a basket/cart",
+          "Potential integration with social media",
+          "Likely has a homepage/landing page",
+          "Potentially interfaces with a backend service for order processing"
+        ],
+        "development_status": "Very early stage of development or potentially an incomplete project",
+        "use_cases": [
+          "Developers learning ReactJS",
+          "Small Restaurant Owners - adaptable as a front-end solution",
+          "Portfolio Piece - demonstrate basic ReactJS skills"
+        ]
+      },
+      "language_breakdown": {
+        "JavaScript": "72.9%",
+        "CSS": "27.1%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2024-04-11",
+      "repository_size": "7610 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    },
+    {
+      "rank": 3,
+      "name": "SMS_Spam_Detector",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-03-21",
+      "last_updated": "2024-03-21",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project is an SMS spam detector. It likely utilizes machine learning techniques, specifically natural language processing (NLP), to classify SMS messages as either spam or legitimate (ham).",
+        "technology_stack": {
+          "primary_language": "Python (via Jupyter Notebook)",
+          "likely_libraries": [
+            "scikit-learn (for machine learning algorithms)",
+            "pandas (for data manipulation)",
+            "NLTK or spaCy (for text preprocessing)",
+            "Potentially Flask or Streamlit if App.py creates a web interface"
+          ]
+        },
+        "project_category": "Machine Learning/NLP application",
+        "key_features": [
+          "SMS Spam Detection - classifies messages as spam or ham",
+          "Data Preprocessing - text cleaning, tokenization, feature extraction",
+          "Model Training - trains ML model on SMS dataset",
+          "(Potentially) Web Interface - if App.py provides user interface"
+        ],
+        "development_status": "Early stage of development or personal project not actively maintained",
+        "use_cases": [
+          "Individuals - to filter spam SMS messages",
+          "Mobile App Developers - integrate spam detection into messaging apps",
+          "Researchers/Students - educational tool for learning SMS spam detection and NLP"
+        ]
+      },
+      "language_breakdown": {
+        "Jupyter Notebook": "91.3%",
+        "Python": "8.7%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-03-21",
+      "repository_size": "238 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    },
+    {
+      "rank": 4,
+      "name": "MyPortfolio",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "HTML",
+      "created": "2024-02-06",
+      "last_updated": "2024-03-20",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 1,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "The project appears to be a simple, personal portfolio website. It's likely designed to showcase the owner's skills, experience, and projects to potential employers or clients.",
+        "technology_stack": {
+          "html": "Primary language for structuring content",
+          "likely_css": "Almost certain CSS is used for styling",
+          "images": "Presence of .png and .jpg files for visual elements"
+        },
+        "project_category": "Personal Website / Portfolio Website",
+        "key_features": [
+          "Basic Information - contact details, profile picture",
+          "Portfolio Display - presentation of work samples and skills",
+          "Static Content - mostly static with no dynamic functionality"
+        ],
+        "development_status": "Basic/Initial Stage - relatively early stage, potentially inactive",
+        "use_cases": [
+          "Job Seekers/Freelancers - showcase skills to employers/clients",
+          "Students/Recent Graduates - create online presence for networking",
+          "Individuals - central hub for online identity and accomplishments"
+        ]
+      },
+      "language_breakdown": {
+        "HTML": "100.0%"
+      },
+      "recent_commits": 20,
+      "last_commit": "2024-03-14",
+      "repository_size": "476 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    },
+    {
+      "rank": 5,
+      "name": "Placement_System_Database",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-02-10",
+      "last_updated": "2024-03-18",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "Upon Successful Input, It Will Redirect To The Main File.",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2024-02-10",
+      "repository_size": "13 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    },
+    {
+      "rank": 6,
+      "name": "Alexa_Clone",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-02-08",
+      "last_updated": "2024-03-17",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project attempts to create a simple, command-line Alexa-like voice assistant. Based on the filename 'SpeechRecognition.py,' it likely aims to process spoken commands and potentially execute associated actions.",
+        "technology_stack": {
+          "python": "Primary programming language",
+          "speech_recognition": "The 'SpeechRecognition.py' filename suggests use of speech_recognition library"
+        },
+        "project_category": "Personal Assistant Clone/Proof-of-Concept",
+        "key_features": [
+          "Voice Input - captures audio and converts to text",
+          "Command Recognition (Likely) - interprets recognized text as commands",
+          "Action Execution (Potentially) - performs actions based on commands"
+        ],
+        "development_status": "Early Stage/Minimal - very basic, possibly incomplete or abandoned",
+        "use_cases": [
+          "Beginner Python Learners - learning speech recognition and automation",
+          "Personal Experimentation - foundation for personal assistant projects"
+        ]
+      },
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 2,
+      "last_commit": "2024-02-08",
+      "repository_size": "3 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    },
+    {
+      "rank": 7,
+      "name": "Google_Assistant_Clone",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-03-17",
+      "last_updated": "2024-03-17",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "project_purpose": "This project likely aims to create a basic clone of Google Assistant using a Jupyter Notebook. It probably demonstrates a simplified implementation of voice interaction or NLP pipeline resembling core Google Assistant functions.",
+        "technology_stack": {
+          "primary_language": "Python (through Jupyter Notebook)",
+          "likely_libraries": [
+            "speech_recognition (for voice-to-text)",
+            "gTTS (for text-to-speech)",
+            "potentially nltk or spaCy for NLP",
+            "possibly requests for API interaction"
+          ],
+          "environment": "Jupyter Notebook"
+        },
+        "project_category": "Educational/Demonstration Script",
+        "key_features": [
+          "Voice Input - capable of capturing audio input",
+          "Speech Recognition - converting speech to text",
+          "Simple Command Handling - basic set of recognizable commands",
+          "Text-to-Speech Output - generating spoken responses"
+        ],
+        "development_status": "Early Stage/Proof of Concept - very initial or experimental stage",
+        "use_cases": [
+          "Students/Beginners - learning resource for voice assistant implementation",
+          "Hobbyists - starting point for personal voice assistant projects"
+        ]
+      },
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2024-03-21",
+      "repository_size": "5 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "github_url": "View on GitHub"
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "ChatBot",
+    "description": "None",
+    "language": "Python",
+    "size": "13 KB",
+    "default_branch": "main",
+    "metrics": {
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  }
+}

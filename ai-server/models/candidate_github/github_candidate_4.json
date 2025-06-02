@@ -1,0 +1,129 @@
+{
+  "user_profile": {
+    "name": "Aryan More",
+    "username": "@aryanm1607",
+    "followers": 1,
+    "following": 1,
+    "public_repos": 2
+  },
+  "repositories_analysis": {
+    "total_repositories": 2,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "top_repositories_by_stars": [],
+  "top_10_projects_summary": {
+    "total_stars_top_10": 0,
+    "total_forks_top_10": 0,
+    "total_contributors": 5,
+    "avg_health_score": 42.5
+  },
+  "repositories": [
+    {
+      "name": "PhysioPlay",
+      "stars": 0,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-17",
+      "last_updated": "2025-02-22",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 4,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "project_analysis": {
+        "project_purpose": "Extracts text from PDF documents, generates embeddings, and builds interactive app with JSON data for cases.",
+        "technology_stack": [
+          "Python",
+          "FAISS",
+          "PDF Extraction Library",
+          "Embedding Generation Library",
+          "json",
+          "HTML"
+        ],
+        "key_features": [
+          "PDF Text Extraction",
+          "Embedding Generation",
+          "Similarity Search",
+          "Data Storage in JSON",
+          "User Interface"
+        ],
+        "development_status": "Early stage, functional but basic",
+        "use_cases": [
+          "Researchers/Analysts",
+          "Physiotherapists/Healthcare Professionals",
+          "Educational Purposes"
+        ],
+        "language_breakdown": {
+          "Python": "92.0%",
+          "HTML": "8.0%"
+        },
+        "recent_commits": 57,
+        "last_commit": "2025-02-22",
+        "repository_size_kb": 4028,
+        "default_branch": "main",
+        "type": "Fork"
+      },
+      "github_link": "🔗 View on GitHub"
+    },
+    {
+      "name": "Crop_production_prediction-recommendation",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2024-11-23",
+      "last_updated": "2024-11-23",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "project_analysis": {
+        "project_purpose": "Predict crop production and recommend suitable crops using machine learning.",
+        "technology_stack": [
+          "Python",
+          "Jupyter Notebook",
+          "scikit-learn",
+          "pandas"
+        ],
+        "key_features": [
+          "Crop production prediction",
+          "Crop recommendation",
+          "Data handling with pandas",
+          "Potential web app interface"
+        ],
+        "development_status": "Early stage, minimal info",
+        "use_cases": [
+          "Farmers",
+          "Agricultural organizations",
+          "Researchers"
+        ],
+        "language_breakdown": {
+          "Jupyter Notebook": "99.2%",
+          "Python": "0.8%"
+        },
+        "recent_commits": 2,
+        "last_commit": "2024-11-20",
+        "repository_size_kb": 2225,
+        "default_branch": "main",
+        "type": "Fork"
+      },
+      "github_link": "🔗 View on GitHub"
+    }
+  ],
+  "social_activity": {
+    "followers": [
+      "@parthbelose"
+    ],
+    "following": [
+      "@parthbelose"
+    ]
+  }
+}

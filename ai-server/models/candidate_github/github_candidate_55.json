@@ -1,0 +1,349 @@
+{
+  "user_profile": {
+    "name": "vansh",
+    "username": "vanshtibrewal",
+    "followers": 7,
+    "following": 3,
+    "public_repos": 10
+  },
+  "repository_analysis": {
+    "total_repositories": 10,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "total_contributors": 32,
+    "average_health_score": 44.0
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "obja-clevr-dataset-gen",
+      "category": "General",
+      "primary_language": "Python",
+      "description": "A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning",
+      "created_date": "2025-04-30",
+      "last_updated": "2025-05-13",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 15,
+      "last_commit": "2025-05-13",
+      "repository_size": "7816 KB",
+      "health_score": 60,
+      "default_branch": "main",
+      "type": "Fork",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "readme_excerpt": "This is the code used to generate the CLEVR dataset as described in the paper:"
+    },
+    {
+      "id": 2,
+      "name": "vanshtibrewal",
+      "category": "General",
+      "primary_language": null,
+      "description": null,
+      "created_date": "2021-07-14",
+      "last_updated": "2025-02-21",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 9,
+      "last_commit": "2025-02-21",
+      "repository_size": "30 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "readme_excerpt": "Hi! I'm a CS major at Caltech passionate about AI research and software engineering!<br>"
+    },
+    {
+      "id": 3,
+      "name": "sam2-segmentation-guidance",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+      "created_date": "2024-08-12",
+      "last_updated": "2024-09-29",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 10,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 57,
+      "last_commit": "2024-09-29",
+      "repository_size": "87305 KB",
+      "health_score": 60,
+      "default_branch": "main",
+      "type": "Fork",
+      "language_breakdown": {
+        "Jupyter Notebook": "96.6%",
+        "Python": "3.3%",
+        "Cuda": "0.1%"
+      },
+      "readme_excerpt": "AI at Meta, FAIR"
+    },
+    {
+      "id": 4,
+      "name": "dinov2-ssl-finetuning",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "PyTorch code and models for the DINOv2 self-supervised learning method, own data set and own adapted training.",
+      "created_date": "2024-07-31",
+      "last_updated": "2024-09-29",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 8,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 139,
+      "last_commit": "2024-09-29",
+      "repository_size": "1766 KB",
+      "health_score": 60,
+      "default_branch": "main",
+      "type": "Fork",
+      "language_breakdown": {
+        "Jupyter Notebook": "67.9%",
+        "Python": "32.1%",
+        "Shell": "0.0%"
+      },
+      "readme_excerpt": "This is the repository of Low-resource finetuning of foundation models beats state-of-the-art in histopathology which was accepted at ISBI 2024."
+    },
+    {
+      "id": 5,
+      "name": "CLIP-classifier",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": null,
+      "created_date": "2023-12-16",
+      "last_updated": "2023-12-16",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 7,
+      "last_commit": "2023-12-16",
+      "repository_size": "570 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "ai_analysis": {
+        "purpose": "Image classification using CLIP (Contrastive Language-Image Pre-training) model for vision lab assignment",
+        "technology_stack": ["Python", "Jupyter Notebook", "CLIP", "transformers", "torch/tensorflow"],
+        "project_category": "Educational demo/experiment; image classification notebook",
+        "key_features": [
+          "Image Classification leveraging CLIP model",
+          "Notebook format for demonstration",
+          "Zero-shot or few-shot classification"
+        ],
+        "development_status": "Early stage or completed assignment, not actively maintained",
+        "use_cases": [
+          "Students learning CLIP applications",
+          "Researchers prototyping with CLIP",
+          "Educational demonstrations"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "chess",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": null,
+      "created_date": "2023-09-13",
+      "last_updated": "2023-09-28",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 26,
+      "last_commit": "2023-09-27",
+      "repository_size": "50891 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "90.7%",
+        "HTML": "4.8%",
+        "CSS": "4.5%"
+      },
+      "readme_excerpt": "This project was bootstrapped with Create React App."
+    },
+    {
+      "id": 7,
+      "name": "air-pollution-india",
+      "category": "General",
+      "primary_language": "R",
+      "description": null,
+      "created_date": "2021-10-14",
+      "last_updated": "2022-10-25",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 5,
+      "last_commit": "2021-10-14",
+      "repository_size": "22 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "R": "100.0%"
+      },
+      "readme_excerpt": "This is the repository for a project to apply the analyses in Wu, X., Nethery, R. C., Sabath, M. B., Braun, D. and Dominici, F., 2020. Air pollution and COVID-19 mortality in the United States: Stren..."
+    },
+    {
+      "id": 8,
+      "name": "heatwave-prediction",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": null,
+      "created_date": "2021-10-14",
+      "last_updated": "2022-10-25",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 3,
+      "last_commit": "2021-10-14",
+      "repository_size": "192 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "readme_excerpt": "Code for the Heat Wave Prediction Project / Early Warning System for Heat Waves"
+    },
+    {
+      "id": 9,
+      "name": "pathfinding-sorting-viz",
+      "category": "General",
+      "primary_language": "Python",
+      "description": null,
+      "created_date": "2021-10-14",
+      "last_updated": "2022-10-25",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 7,
+      "last_commit": "2022-06-11",
+      "repository_size": "264 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "readme_excerpt": "Python code for Pygame based applications visualizing numerous pathfinding and sorting algorithms."
+    },
+    {
+      "id": 10,
+      "name": "CVT-COVID-CT-SCANS",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": null,
+      "created_date": "2021-07-16",
+      "last_updated": "2021-12-23",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 5,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 92,
+      "last_commit": "2023-01-28",
+      "repository_size": "458816 KB",
+      "health_score": 50,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "99.8%",
+        "Python": "0.2%"
+      },
+      "readme_excerpt": "Note: There are no commits by my github profile because there was some problems when setting up the repo for the CVT organization, so I would write/edit the code with one of my collaborators who would..."
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "obja-clevr-dataset-gen",
+    "details": {
+      "description": "A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning",
+      "language": "Python",
+      "size": "7816 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  },
+  "social_activity": {
+    "followers": [
+      {
+        "username": "ericlovesmath"
+      },
+      {
+        "username": "bradybhalla"
+      },
+      {
+        "username": "divinrkz"
+      },
+      {
+        "username": "zack466"
+      },
+      {
+        "username": "GeorgeOre"
+      }
+    ],
+    "following": [
+      {
+        "username": "zack466"
+      },
+      {
+        "username": "Harshvardhan-Mestha"
+      },
+      {
+        "username": "neuraloperator"
+      }
+    ],
+    "total_followers": 7,
+    "total_following": 3
+  },
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_timestamp": "2025-06-02",
+    "profile_analyzed": "vansh (@vanshtibrewal)",
+    "profile_description": "CS major at Caltech passionate about AI research and software engineering"
+  }
+}

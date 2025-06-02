@@ -1,0 +1,106 @@
+{
+  "user_profile": {
+    "name": "Ashna Aglawe",
+    "username": "@AshnaAglawe",
+    "followers": 0,
+    "following": 0,
+    "public_repos": 2
+  },
+  "repositories_analysis": {
+    "total_repositories": 2,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0
+  },
+  "top_repositories_by_stars": [],
+  "top_10_projects_summary": {
+    "total_stars_top_10": 0,
+    "total_forks_top_10": 0,
+    "total_contributors": 1,
+    "avg_health_score": 25.0
+  },
+  "repositories": [
+    {
+      "name": "mlops_exp5",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-25",
+      "last_updated": "2025-02-25",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 1,
+      "closed_issues": 1,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "project_analysis": {
+        "project_purpose": "Implements a machine learning experiment with MLOps features like reproducibility and automation.",
+        "technology_stack": [
+          "Python",
+          "NumPy",
+          "Scikit-learn",
+          "Matplotlib",
+          "GitHub Actions",
+          "YAML"
+        ],
+        "key_features": [
+          "Machine Learning Model Implementation",
+          "Dependency Management",
+          "Automated Workflow using GitHub Actions",
+          "Model Configuration"
+        ],
+        "development_status": "Early stage or self-contained example project.",
+        "use_cases": [
+          "Individuals learning MLOps",
+          "Developers experimenting with ML models",
+          "Teams prototyping MLOps workflows"
+        ],
+        "language_breakdown": {
+          "Python": "100.0%"
+        },
+        "recent_commits": 8,
+        "last_commit": "2025-02-25",
+        "repository_size_kb": 12,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "github_link": "🔗 View on GitHub"
+    },
+    {
+      "name": "ipd_1",
+      "stars": 0,
+      "health_score": 15,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-02-24",
+      "last_updated": "2025-02-24",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "project_analysis": {
+        "project_purpose": "Undetermined, likely empty or placeholder repository.",
+        "technology_stack": [],
+        "key_features": [],
+        "development_status": "Very early or empty repository.",
+        "use_cases": [],
+        "language_breakdown": {},
+        "recent_commits": 0,
+        "last_commit": null,
+        "repository_size_kb": 0,
+        "default_branch": "main",
+        "type": "Original Repository"
+      },
+      "github_link": "🔗 View on GitHub"
+    }
+  ],
+  "social_activity": {
+    "followers": [],
+    "following": []
+  }
+}

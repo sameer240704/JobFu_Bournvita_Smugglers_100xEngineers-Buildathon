@@ -1,0 +1,401 @@
+{
+  "user_profile": {
+    "username": "surabhiwaingankar",
+    "handle": "@surabhiwaingankar",
+    "bio": "3rd Year Engineering Student",
+    "location": "Mumbai, India",
+    "followers": 50,
+    "following": 45,
+    "public_repos": 23
+  },
+  "repository_stats": {
+    "total_repositories": 23,
+    "total_stars": 21,
+    "total_forks": 5,
+    "total_watchers": 21
+  },
+  "top_10_summary": {
+    "total_stars": 12,
+    "total_forks": 4,
+    "total_contributors": 21,
+    "avg_health_score": 60.5,
+    "max_health_score": 100
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "GilmoreGirls_Augenblick",
+      "stars": 5,
+      "health_score": 80,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2024-03-18",
+      "last_updated": "2024-11-04",
+      "forks": 1,
+      "watchers": 5,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Developed using Python-Flask, Next.js, Pinecone, Typescript and Langchain",
+      "readme_excerpt": "Welcome to our conversational customer care assistant web application powered by large language models (LLMs) with sentiment analysis capabilities. This application provides a seamless interface for c...",
+      "language_breakdown": {
+        "TypeScript": "73.0%",
+        "CSS": "12.8%",
+        "Python": "12.6%"
+      },
+      "recent_commits": 23,
+      "last_commit": "2024-03-20",
+      "repository_size_kb": 1820,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 2,
+      "name": "100x_Buildathon_Entropy",
+      "stars": 2,
+      "health_score": 70,
+      "category": "General",
+      "primary_language": "TypeScript",
+      "created": "2024-04-30",
+      "last_updated": "2025-04-25",
+      "forks": 0,
+      "watchers": 2,
+      "contributors": 4,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Randomness",
+      "readme_excerpt": "CLEO is a revolutionary tool designed to streamline the sales process by gathering customer data and generating tailored sales proposals efficiently. Combining advanced language models and speech reco...",
+      "language_breakdown": {
+        "TypeScript": "78.7%",
+        "Python": "18.8%",
+        "CSS": "1.4%"
+      },
+      "recent_commits": 150,
+      "last_commit": "2024-05-01",
+      "repository_size_kb": 5647,
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 3,
+      "name": "Flowchart_Plagiarism_Detection",
+      "stars": 0,
+      "health_score": 80,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-12-04",
+      "last_updated": "2025-01-24",
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "CDAC Project - A tool to check similarity between flowcharts and determine if they are plagiarised",
+      "ai_analysis": {
+        "purpose": "This project aims to detect plagiarism between flowcharts by analyzing their structure and content. It uses image processing, OCR, and graph comparison techniques to assess the similarity between flowcharts and determine if plagiarism has occurred.",
+        "technology_stack": [
+          "Jupyter Notebook",
+          "Python",
+          "streamlit (web interface)",
+          "pillow (image processing)",
+          "networkx (graph manipulation)",
+          "scikit-learn (cosine similarity, TF-IDF)",
+          "matplotlib (visualization)",
+          "numpy (numerical operations)",
+          "easyocr (OCR)",
+          "ultralytics (YOLOv8 for object detection)",
+          "opencv-python (image processing)",
+          "PaddleOCR (OCR tasks)"
+        ],
+        "category": "Tool/application with web interface using Streamlit for flowchart plagiarism detection",
+        "key_features": [
+          "Image Processing using OpenCV and Pillow",
+          "Object Detection with YOLOv8",
+          "Optical Character Recognition using PaddleOCR and EasyOCR",
+          "Graph Representation using NetworkX",
+          "Similarity Analysis using cosine similarity and TF-IDF",
+          "Web Interface using Streamlit"
+        ],
+        "development_status": "Development phase with active development indicated by multiple Notebooks and separate modules",
+        "use_cases": [
+          "Educators: Detect plagiarism in student flowchart submissions",
+          "Researchers: Ensure originality in research papers with flowcharts",
+          "Businesses: Protect intellectual property and prevent unauthorized copying"
+        ]
+      },
+      "language_breakdown": {
+        "Jupyter Notebook": "99.5%",
+        "Python": "0.5%"
+      },
+      "topics": ["cosine-similarity", "graphs", "ocr", "tfidf-vectorizer", "yolov8"],
+      "recent_commits": 45,
+      "last_commit": "2025-01-24",
+      "repository_size_kb": 9233,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "CodeOptimizer",
+      "stars": 0,
+      "health_score": 55,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-07-18",
+      "last_updated": "2024-07-18",
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Code Optimizer Using Autogen",
+      "readme_excerpt": "This Flask application allows users to upload Python files, optimize their content using an optimize function, and return the optimized file along with logging and cost information.",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 12,
+      "last_commit": "2024-07-18",
+      "repository_size_kb": 18,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "cart_pole_v0",
+      "stars": 3,
+      "health_score": 55,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-01-27",
+      "last_updated": "2024-03-10",
+      "forks": 0,
+      "watchers": 3,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Developed using StableBaselines3, open-ai gymnasium",
+      "readme_excerpt": "This project demonstrates the implementation of a reinforcement learning algorithm to train an agent to play the Cart Pole game. The code utilizes the Stable Baselines library and OpenAI Gymnasium, pr...",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "recent_commits": 8,
+      "last_commit": "2024-01-27",
+      "repository_size_kb": 1270,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 6,
+      "name": "NeutralABSA",
+      "stars": 0,
+      "health_score": 55,
+      "category": "Data Science/AI",
+      "primary_language": "Jupyter Notebook",
+      "created": "2025-01-06",
+      "last_updated": "2025-05-19",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Enhancing Neutral Sentiment Classification in Aspect-Based Sentiment Analysis (ABSA)",
+      "readme_excerpt": "This repository contains the datasets and Jupyter notebooks for Aspect Extraction (AE) and Aspect Polarity Classification (APC) as part of our research on improving **neutral sentiment...",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "topics": ["aspect-based-sentiment-analysis", "aspect-polarity-classification", "aspect-term-extraction", "bert-model", "data-augmentation", "low-rank-adaptation", "machine-learning", "parameter-efficient-fine-tuning", "sentiment-analysis"],
+      "recent_commits": 17,
+      "last_commit": "2025-05-19",
+      "repository_size_kb": 1631,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 7,
+      "name": "Asha-AI",
+      "stars": 0,
+      "health_score": 50,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-05-16",
+      "last_updated": "2025-05-16",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "Asha AI Chatbot is an intelligent virtual assistant designed to enhance user engagement on the JobsForHer Foundation platform. The chatbot provides seamless access to information about women's careers...",
+      "language_breakdown": {
+        "TypeScript": "57.8%",
+        "Python": "18.8%",
+        "JavaScript": "18.5%"
+      },
+      "recent_commits": 122,
+      "last_commit": "2025-05-06",
+      "repository_size_kb": 101233,
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 8,
+      "name": "surabhiwaingankar",
+      "stars": 0,
+      "health_score": 55,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2023-08-28",
+      "last_updated": "2025-03-11",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Config files for my GitHub profile.",
+      "readme_excerpt": "🌱 I'm currently learning GraphQL<br><br>💬 Ask me about Generative AI and Machine Learning<br><br>📫 How to reach me surabhiwaingankar@gmail.com<br><br>⚡ Fun fact I can spend an entire day swimming",
+      "topics": ["config", "github-config"],
+      "recent_commits": 36,
+      "last_commit": "2025-03-11",
+      "repository_size_kb": 158,
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 9,
+      "name": "Market-Research-Automation",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2024-07-02",
+      "last_updated": "2024-07-02",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "purpose": "This project likely aims to automate the process of gathering and analyzing data for market research. It is intended to streamline the discovery of market trends, competitor analysis, and customer insights by automating data collection and processing tasks.",
+        "technology_stack": [
+          "Python (likely for data scripting and automation)",
+          "Web Scraping Libraries (Beautiful Soup, Scrapy)",
+          "Data Analysis Libraries (Pandas, NumPy)",
+          "Data Visualization Libraries (Matplotlib, Seaborn)",
+          "APIs from market research platforms",
+          "Databases (SQL or NoSQL)"
+        ],
+        "category": "Scripting/automation tool designed for market research",
+        "potential_features": [
+          "Automated web scraping of relevant websites",
+          "API integration with market research and social media platforms",
+          "Data cleaning and transformation capabilities",
+          "Automated analysis of market trends and competitor activities",
+          "Report generation and data visualization"
+        ],
+        "development_status": "Very early stage - newly created or potentially abandoned project",
+        "use_cases": [
+          "Market Research Analysts: Automate data gathering and analysis",
+          "Business Intelligence Professionals: Monitor market trends",
+          "Entrepreneurs and Startups: Conduct initial market research",
+          "Marketing Teams: Track competitor activities"
+        ],
+        "note": "Analysis based on assumptions from repository name due to limited available information"
+      },
+      "recent_commits": 1,
+      "last_commit": "2024-07-02",
+      "repository_size_kb": 0,
+      "default_branch": "master",
+      "type": "Fork"
+    },
+    {
+      "rank": 10,
+      "name": "HackNiche2.0-K-Means-Gamble",
+      "stars": 2,
+      "health_score": 70,
+      "category": "General",
+      "primary_language": "Dart",
+      "created": "2024-02-16",
+      "last_updated": "2024-04-15",
+      "forks": 1,
+      "watchers": 2,
+      "contributors": 5,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "ai_analysis": {
+        "purpose": "Based on the repository name, this project likely explores the application of the K-Means clustering algorithm within a context involving gambling or games of chance. It probably aims to use K-Means to analyze and potentially predict patterns or outcomes in gambling-related data.",
+        "technology_stack": [
+          "Dart (primary language)",
+          "Flutter (likely for mobile development)",
+          "K-Means Clustering algorithm",
+          "Android development components"
+        ],
+        "category": "Mobile application (Android) with machine learning component - research or experimental project",
+        "key_features": [
+          "Implementation of K-Means clustering algorithm",
+          "Android mobile application interface",
+          "Data processing related to gambling or games of chance",
+          "Potentially visualizes K-Means clustering results"
+        ],
+        "development_status": "Early stage development - appears to be personal project or hackathon prototype",
+        "use_cases": [
+          "Developers/Students: Learning K-Means algorithm in Flutter framework",
+          "Data Scientists/Analysts: Exploring clustering techniques for gambling data",
+          "Researchers: Investigating predictability of gambling outcomes through ML"
+        ],
+        "note": "Some conclusions based on educated guesses without detailed code analysis"
+      },
+      "language_breakdown": {
+        "Dart": "55.1%",
+        "C++": "17.6%",
+        "CMake": "14.4%"
+      },
+      "recent_commits": 93,
+      "last_commit": "2024-02-18",
+      "repository_size_kb": 44543,
+      "default_branch": "main",
+      "type": "Original Repository"
+    }
+  ],
+  "detailed_analysis_example": {
+    "repository_name": "NeutralABSA",
+    "description": "Enhancing Neutral Sentiment Classification in Aspect-Based Sentiment Analysis (ABSA)",
+    "language": "Jupyter Notebook",
+    "size_kb": 1631,
+    "default_branch": "main",
+    "stars": 0,
+    "forks": 0,
+    "issues": 0,
+    "watchers": 0
+  },
+  "social_data": {
+    "top_followers": [
+      "@Connor9994",
+      "@arnitdo",
+      "@kushkapadia",
+      "@jainambarbhaya1509",
+      "@MihirRajeshPanchal"
+    ],
+    "following_sample": [
+      "@karpathy",
+      "@nicknochnack",
+      "@Siddhant-Goswami",
+      "@dhanush17-tech",
+      "@Dhravya"
+    ]
+  },
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_type": "Top 10 Summary",
+    "total_followers_shown": 30,
+    "total_following_shown": 30
+  }
+}

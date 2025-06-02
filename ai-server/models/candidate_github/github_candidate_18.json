@@ -1,0 +1,32 @@
+{
+  "user_profile": {
+    "display_name": "Prat27",
+    "username": "Pratham279",
+    "bio": "This is pratham malavia's (@Pratham279) primary account",
+    "location": null,
+    "website": null,
+    "followers": 0,
+    "following": 0,
+    "public_repos": 0
+  },
+  "repository_analysis": {
+    "total_repositories": 0,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "status": "No repositories found"
+  },
+  "repositories": [],
+  "social_activity": {
+    "followers": {
+      "total": 0,
+      "top_followers": []
+    },
+    "following": {
+      "total": 0
+    },
+    "recent_activity": null
+  },
+  "api_errors": [],
+  "export_status": "Export Data available"
+}

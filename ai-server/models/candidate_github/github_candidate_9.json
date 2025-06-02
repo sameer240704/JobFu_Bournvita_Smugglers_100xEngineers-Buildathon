@@ -1,0 +1,346 @@
+{
+  "user_profile": {
+    "name": "Dev Parekh",
+    "username": "Devp21",
+    "followers": 3,
+    "following": 0,
+    "public_repos": 12,
+    "top_followers": [
+      "@Spamziesagcan",
+      "@PatellAli",
+      "@dranzer-17"
+    ]
+  },
+  "repository_overview": {
+    "total_repositories": 12,
+    "total_stars": 0,
+    "total_forks": 1,
+    "total_watchers": 0,
+    "total_contributors": 33,
+    "avg_health_score": 51.0
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "nfc3_pip_install_error",
+      "stars": 0,
+      "health_score": 70,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-08-29",
+      "last_updated": "2024-08-30",
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Mineral exploration by ml",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "Jupyter Notebook": "86.3%",
+        "JavaScript": "6.2%",
+        "TypeScript": "3.6%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2024-08-30",
+      "repository_size": "66342 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Mineral exploration using machine learning techniques with spatial data related to geology and mineralization across Indian states",
+        "technology_stack": "Jupyter Notebook (Python), Geospatial libraries (GeoPandas/Shapely), Machine learning libraries",
+        "key_features": [
+          "Spatial Data Processing",
+          "Machine Learning Modeling",
+          "State-wise Analysis"
+        ],
+        "use_cases": [
+          "Geologists and Mineral Exploration Companies",
+          "Researchers",
+          "Students"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "resume_rag_AI",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-05-28",
+      "last_updated": "2025-05-31",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "performed simple rag based application on resume with huggingface embeddings and pineconedb",
+      "readme_excerpt": "performed simple rag based application on resume with huggingface embeddings and cromadb",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 6,
+      "last_commit": "2025-05-31",
+      "repository_size": "10 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 3,
+      "name": "deep_research_agent",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-04-26",
+      "last_updated": "2025-04-27",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "An agentic ai application using fundamentals of langchain integrated with langgraph helping out research based tasks but searching the web , validating the information and summarizing it in a report form",
+      "readme_excerpt": "Workflow",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 10,
+      "last_commit": "2025-04-27",
+      "repository_size": "13 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 4,
+      "name": "FauxReal-Ai",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2024-11-29",
+      "last_updated": "2025-04-08",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "A synthetic dataset generator using GAN's",
+      "readme_excerpt": "appp.py is the main interface which is connected to EvaluationMetrics and SyntheticDataGenerator",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 5,
+      "last_commit": "2025-04-06",
+      "repository_size": "19 KB",
+      "default_branch": "main",
+      "type": "Original Repository"
+    },
+    {
+      "rank": 5,
+      "name": "nyaya-sahay-SIH2024",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-04-08",
+      "last_updated": "2025-04-08",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Indian law based chatbot",
+      "readme_excerpt": "Our SIH 2024 final project.. \"Nyaya-Sahay\" - An AI based chatbot/virtual assistant for indian law services.",
+      "language_breakdown": {
+        "Rich Text Format": "97.0%",
+        "TypeScript": "2.6%",
+        "Python": "0.3%"
+      },
+      "recent_commits": 3,
+      "last_commit": "2025-01-04",
+      "repository_size": "16848 KB",
+      "default_branch": "master",
+      "type": "Fork"
+    },
+    {
+      "rank": 6,
+      "name": "calquity_rag_dev",
+      "stars": 0,
+      "health_score": 35,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2025-03-18",
+      "last_updated": "2025-03-18",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "readme_excerpt": "AI-Generated Summary Available",
+      "recent_commits": 2,
+      "last_commit": "2025-03-18",
+      "repository_size": "0 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Implements a Retrieval Augmented Generation (RAG) system for development and experimentation",
+        "technology_stack": "Streamlit, Cohere, Llama, VoyageAI, FAISS, LangChain, datasets, python-dotenv, wandb",
+        "key_features": [
+          "User interface with Streamlit",
+          "Multiple LLM integration",
+          "FAISS for similarity search",
+          "RAG pipeline using LangChain"
+        ],
+        "use_cases": [
+          "Developers experimenting with RAG",
+          "Researchers prototyping QA systems",
+          "Customizable RAG implementation"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "name": "AI",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Python",
+      "created": "2025-02-04",
+      "last_updated": "2025-02-04",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "different AI codes",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "recent_commits": 1,
+      "last_commit": "2025-02-04",
+      "repository_size": "0 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Collection of different AI-related code implementations for learning and showcasing AI concepts",
+        "technology_stack": "Python, potentially Groq API, NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch",
+        "key_features": [
+          "Various AI algorithm implementations",
+          "Groq platform integration"
+        ],
+        "use_cases": [
+          "Learning AI concepts",
+          "Experimenting with Groq",
+          "Personal portfolio demonstration"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "name": "ml",
+      "stars": 0,
+      "health_score": 45,
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "created": "2024-08-10",
+      "last_updated": "2025-01-12",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "all the ml codes I have performed",
+      "readme_excerpt": "AI-Generated Summary Available",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "recent_commits": 11,
+      "last_commit": "2025-01-12",
+      "repository_size": "534 KB",
+      "default_branch": "main",
+      "type": "Original Repository",
+      "ai_analysis": {
+        "purpose": "Collection of machine learning code examples and projects demonstrating various ML algorithms and techniques",
+        "technology_stack": "Python, Jupyter Notebook, Pandas, Scikit-learn, Matplotlib/Seaborn",
+        "key_features": [
+          "K-means clustering implementation",
+          "PCA for dimensionality reduction",
+          "Linear and Logistic Regression",
+          "Heart disease data analysis",
+          "Data cleaning and preprocessing"
+        ],
+        "use_cases": [
+          "Beginner ML practitioners learning resource",
+          "Developer portfolio showcase",
+          "Personal code reference"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "name": "llmware",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2024-05-12",
+      "last_updated": "2024-08-29",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 20,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "Providing enterprise-grade LLM-based development framework, tools, and fine-tuned models.",
+      "readme_excerpt": "Static Badge",
+      "language_breakdown": {
+        "Python": "99.7%",
+        "Shell": "0.2%",
+        "Dockerfile": "0.0%"
+      },
+      "recent_commits": 150,
+      "last_commit": "2024-05-11",
+      "repository_size": "441185 KB",
+      "default_branch": "main",
+      "type": "Fork"
+    },
+    {
+      "rank": 10,
+      "name": "dpmnews",
+      "stars": 0,
+      "health_score": 60,
+      "category": "General",
+      "primary_language": "None",
+      "created": "2024-04-25",
+      "last_updated": "2024-05-04",
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "description": "react based simple news website with Newsapi's api with search and filter functionality",
+      "readme_excerpt": "1. Go to https://newsapi.org/",
+      "recent_commits": 8,
+      "last_commit": "2024-05-04",
+      "repository_size": "442 KB",
+      "default_branch": "master",
+      "type": "Original Repository"
+    }
+  ],
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_type": "Top 10 Projects Summary",
+    "analysis_includes_ai_summaries": true
+  }
+}

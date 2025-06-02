@@ -1,0 +1,359 @@
+{
+  "user_profile": {
+    "name": null,
+    "username": "nikkiii2807",
+    "followers": 0,
+    "following": 0,
+    "public_repos": 29
+  },
+  "repository_analysis": {
+    "total_repositories": 29,
+    "total_stars": 0,
+    "total_forks": 1,
+    "total_watchers": 0,
+    "total_contributors": 16,
+    "average_health_score": 40.0
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "name": "Connect",
+      "category": "General",
+      "primary_language": "CSS",
+      "description": "Welcome to Connect, a real-time chat application designed to bring people closer to their loved ones!",
+      "created_date": "2024-04-15",
+      "last_updated": "2025-04-01",
+      "stars": 0,
+      "forks": 1,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 7,
+      "last_commit": "2024-04-15",
+      "repository_size": "67 KB",
+      "health_score": 45,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "CSS": "42.2%",
+        "JavaScript": "39.5%",
+        "HTML": "18.4%"
+      },
+      "readme_excerpt": "Welcome to Connect, a real-time chat application designed to bring people closer to their loved ones!"
+    },
+    {
+      "id": 2,
+      "name": "CF_Project_new",
+      "category": "General",
+      "primary_language": "Python",
+      "description": "A Streamlit-based web app that combines two powerful financial tools",
+      "created_date": "2025-04-10",
+      "last_updated": "2025-04-10",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 4,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 18,
+      "last_commit": "2025-04-10",
+      "repository_size": "532 KB",
+      "health_score": 50,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "readme_excerpt": "A Streamlit-based web app that combines two powerful financial tools:"
+    },
+    {
+      "id": 3,
+      "name": "CF_Project",
+      "category": "General",
+      "primary_language": null,
+      "description": null,
+      "created_date": "2025-04-10",
+      "last_updated": "2025-04-10",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 0,
+      "last_commit": null,
+      "repository_size": "0 KB",
+      "health_score": 15,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {},
+      "readme_excerpt": null,
+      "ai_analysis": {
+        "purpose": "Unknown - appears to be empty or very early stage project",
+        "technology_stack": [],
+        "project_category": "Undetermined",
+        "key_features": [],
+        "development_status": "Very early stage or potentially abandoned",
+        "use_cases": []
+      }
+    },
+    {
+      "id": 4,
+      "name": "SI_018_NAA",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": null,
+      "created_date": "2025-03-21",
+      "last_updated": "2025-03-21",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2025-03-21",
+      "repository_size": "25002 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "65.8%",
+        "CSS": "31.6%",
+        "HTML": "2.6%"
+      },
+      "readme_excerpt": "Here is the updated README with the requested link included:"
+    },
+    {
+      "id": 5,
+      "name": "HerNurture_NAA",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": null,
+      "created_date": "2025-03-20",
+      "last_updated": "2025-03-21",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 19,
+      "last_commit": "2025-03-21",
+      "repository_size": "3958 KB",
+      "health_score": 50,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "61.3%",
+        "CSS": "33.8%",
+        "HTML": "2.7%"
+      },
+      "readme_excerpt": "Here is the updated README with the requested link included:"
+    },
+    {
+      "id": 6,
+      "name": "Her_nurture2.0",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": null,
+      "created_date": "2025-03-20",
+      "last_updated": "2025-03-21",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 19,
+      "last_commit": "2025-03-21",
+      "repository_size": "24852 KB",
+      "health_score": 50,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "63.6%",
+        "CSS": "33.5%",
+        "HTML": "2.8%"
+      },
+      "readme_excerpt": "Here is the updated README with the requested link included:"
+    },
+    {
+      "id": 7,
+      "name": "Recommendation_System",
+      "category": "General",
+      "primary_language": "Python",
+      "description": "AI-based fashion recommendation system that suggests visually and stylistically similar clothing items",
+      "created_date": "2025-02-23",
+      "last_updated": "2025-02-23",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 4,
+      "last_commit": "2025-02-23",
+      "repository_size": "6 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "100.0%"
+      },
+      "readme_excerpt": "This project implements an AI-based fashion recommendation system that suggests visually and stylistically similar clothing items based on user-uploaded images. The system leverages ResNet50 for f..."
+    },
+    {
+      "id": 8,
+      "name": "HerNurture_chatbot",
+      "category": "General",
+      "primary_language": "Jupyter Notebook",
+      "description": "AI-driven solution designed to support women's safety and wellness with SBERT-powered chatbot",
+      "created_date": "2025-02-23",
+      "last_updated": "2025-02-23",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 4,
+      "last_commit": "2025-02-23",
+      "repository_size": "87 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Jupyter Notebook": "100.0%"
+      },
+      "readme_excerpt": "HerNurture AI is an AI-driven solution designed to support women's safety and wellness. It features an SBERT-powered chatbot for real-time assistance, voice-based interaction, and a **period t..."
+    },
+    {
+      "id": 9,
+      "name": "NotesVerse",
+      "category": "General",
+      "primary_language": "JavaScript",
+      "description": "Modern, feature-rich note-taking platform with login/signup, CRUD operations for notes",
+      "created_date": "2025-01-19",
+      "last_updated": "2025-01-21",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 2,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 16,
+      "last_commit": "2025-01-21",
+      "repository_size": "293 KB",
+      "health_score": 50,
+      "default_branch": "master",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "JavaScript": "97.3%",
+        "CSS": "1.9%",
+        "HTML": "0.8%"
+      },
+      "readme_excerpt": "Notesverse is a modern, feature-rich note-taking platform that allows users to manage their notes seamlessly. With functionalities such as login/signup, adding, updating, searching, and deleting notes..."
+    },
+    {
+      "id": 10,
+      "name": "Credit_card_fraud_detection",
+      "category": "General",
+      "primary_language": "Python",
+      "description": "Web application for credit card fraud detection using machine learning",
+      "created_date": "2024-11-02",
+      "last_updated": "2024-11-18",
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "releases": 0,
+      "recent_commits": 1,
+      "last_commit": "2024-11-02",
+      "repository_size": "2934 KB",
+      "health_score": 35,
+      "default_branch": "main",
+      "type": "Original Repository",
+      "language_breakdown": {
+        "Python": "40.5%",
+        "HTML": "32.3%",
+        "CSS": "27.2%"
+      },
+      "readme_excerpt": "AI-Generated Summary Available",
+      "ai_analysis": {
+        "purpose": "Build a web application that detects credit card fraud using machine learning",
+        "technology_stack": ["Python", "Flask", "scikit-learn", "pandas", "numpy", "pickle", "HTML", "CSS"],
+        "project_category": "Web Application with Machine Learning component",
+        "key_features": [
+          "Credit card fraud detection using ML model",
+          "Web interface powered by Flask",
+          "Pre-trained model loaded from pickle file",
+          "Data processing using pandas and numpy"
+        ],
+        "development_status": "Early stage development with trained model available",
+        "use_cases": [
+          "Fraud analysts for quick transaction risk evaluation",
+          "Businesses for transaction processing integration",
+          "Developers/Data Scientists as example project"
+        ]
+      }
+    }
+  ],
+  "detailed_analysis": {
+    "selected_repository": "CF_Project_new",
+    "details": {
+      "description": null,
+      "language": "Python",
+      "size": "532 KB",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "watchers": 0
+    }
+  },
+  "social_activity": {
+    "followers": [],
+    "following": [],
+    "total_followers": 0,
+    "total_following": 0
+  },
+  "api_errors": [
+    {
+      "error_code": "204",
+      "message": "No content"
+    },
+    {
+      "error_code": "409",
+      "message": "Git Repository is empty",
+      "documentation_url": "https://docs.github.com/rest/commits/commits#list-commits"
+    },
+    {
+      "error_code": "409",
+      "message": "Git Repository is empty",
+      "documentation_url": "https://docs.github.com/rest/git/trees#get-a-tree"
+    }
+  ],
+  "metadata": {
+    "data_source": "GitHub Data Fetcher",
+    "export_timestamp": "2025-06-02",
+    "profile_analyzed": "nikkiii2807",
+    "profile_description": null,
+    "total_repositories_analyzed": 10,
+    "top_repositories_by_stars": 0,
+    "top_repositories_total_forks": 1,
+    "top_repositories_total_contributors": 16
+  }
+}
