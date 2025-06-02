@@ -55,26 +55,6 @@ const CandidateSearchResults = () => {
     useState(initialFiltersState);
   const [editableFilters, setEditableFilters] = useState(initialFiltersState);
   const [allChatHistory, setAllChatHistory] = useState([]);
-  // Add this at the top of the file with other imports
-  const useTypewriter = (text, speed = 50) => {
-    const [displayText, setDisplayText] = useState("");
-
-    useEffect(() => {
-      let i = 0;
-      const typing = setInterval(() => {
-        if (i < text?.length) {
-          setDisplayText((prev) => prev + text.charAt(i));
-          i++;
-        } else {
-          clearInterval(typing);
-        }
-      }, speed);
-
-      return () => clearInterval(typing);
-    }, [text, speed]);
-
-    return displayText;
-  };
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${user}`)
@@ -101,8 +81,6 @@ const CandidateSearchResults = () => {
           throw new Error(`Error fetching all chats: ${response.statusText}`);
         }
         const data = await response.json();
-        console.log(data);
-
         setAllChatHistory(data.data);
       } catch (error) {
         console.error("Error fetching all chats:", error);
@@ -287,11 +265,6 @@ const CandidateSearchResults = () => {
     [chatHistory, candidates]
   ); // candidates dependency might be too broad if only count is needed
 
-  console.log(candidates);
-
-  const animatedSummary = useTypewriter(
-    candidates?.ai_summary_data?.raw_summary["point1"]
-  );
   // Save search results when candidates are loaded (and URL params are present)
   useEffect(() => {
     if (
@@ -728,8 +701,7 @@ const CandidateSearchResults = () => {
                         <div className="flex items-center gap-2 mb-1.5 text-sm text-gray-600">
                           <Briefcase size={15} className="flex-shrink-0" />
                           <p className="font-medium">
-                            {animatedSummary}
-                            <span className="animate-pulse">|</span>
+                            {candidate.ai_summary_data?.raw_summary["point1"]}
                           </p>
                         </div>
                         <div className="flex items-center gap-2 mb-1.5 text-xs sm:text-sm text-gray-500">

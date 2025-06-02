@@ -1,7 +1,7 @@
 // pages/AnalyticsPage.js (or your main page file)
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image"; // For user avatar and company logos
 
 // Assuming your chart components are in this path
@@ -211,6 +211,47 @@ const AnalyticsPage = () => {
     currentVacancies,
   } = analyticsData;
 
+  const [candidates, setCandidates] = useState([]);
+
+  useEffect(() => {
+    const handleCandidates = async () => {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/candidates`
+      );
+      const data = await response.json();
+      setCandidates(data);
+    };
+    handleCandidates();
+  }, []);
+  console.log(candidates);
+
+  const cityCountMap = {};
+
+  candidates.forEach((candidate) => {
+    const location = candidate?.contact_information?.location;
+    if (location) {
+      const city = location.split(",")[0].trim(); // Extract city name
+      if (cityCountMap[city]) {
+        cityCountMap[city]++;
+      } else {
+        cityCountMap[city] = 1;
+      }
+    }
+  });
+
+  const totalCandidates = candidates.length;
+
+  const cityPercentages = Object.entries(cityCountMap).map(([city, count]) => ({
+    city,
+    count,
+    percentage: ((count / totalCandidates) * 100).toFixed(2), // 2 decimal places
+  }));
+
+  // Optional: Sort descending by percentage
+  cityPercentages.sort((a, b) => b.percentage - a.percentage);
+
+  console.log(cityPercentages);
+
   return (
     <div className="min-h-screen overflow-scroll bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-50 p-4 sm:p-6 lg:p-8">
       {/* Top Header */}
@@ -280,7 +321,7 @@ const AnalyticsPage = () => {
 
           {/* Employees Table */}
           <Card title="Employees" menuAction>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto grid-cols-4 col-span-4">
               <table className="w-full text-sm text-left text-slate-500 dark:text-slate-400">
                 <thead className="text-xs text-slate-700 dark:text-slate-300 uppercase bg-slate-50 dark:bg-slate-700/50">
                   <tr>
@@ -302,24 +343,28 @@ const AnalyticsPage = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {employees.map((emp) => (
+                  {candidates.splice(0, 7).map((emp) => (
                     <tr
                       key={emp.id}
                       className="bg-white dark:bg-slate-800 border-b dark:border-slate-700 hover:bg-slate-50/50 dark:hover:bg-slate-700/30"
                     >
                       <td className="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap flex items-center gap-3">
                         <Image
-                          src={emp.avatarUrl}
-                          alt={emp.name}
+                          src={emp.linkedin_data.profile_data.profile_photo}
+                          alt={emp.linkedin_data.profile_data.profile_photo}
                           width={32}
                           height={32}
                           className="rounded-full object-cover"
                         />
-                        {emp.name}
+                        {emp.candidate_name}
                       </td>
-                      <td className="px-6 py-4">{emp.id}</td>
-                      <td className="px-6 py-4">{emp.email}</td>
-                      <td className="px-6 py-4">{emp.role}</td>
+                      <td className="px-6 py-4">{emp._id}</td>
+                      <td className="px-6 py-4">
+                        {emp.contact_information.email}
+                      </td>
+                      <td className="px-6 py-4">
+                        {emp.skills.technical_skills.programming_languages[0]}
+                      </td>
                       <td className="px-6 py-4 text-right">
                         <button className="text-indigo-600 dark:text-indigo-400 hover:underline">
                           Edit
@@ -337,19 +382,15 @@ const AnalyticsPage = () => {
         <div className="lg:col-span-1 space-y-6">
           <Card title="Countries Insight" menuAction>
             <div className="space-y-4">
-              {countriesInsight.map((country) => (
-                <div key={country.name}>
+              {cityPercentages.splice(0, 5).map((country) => (
+                <div key={country.city}>
                   <div className="flex justify-between items-center mb-1">
                     <div className="flex items-center gap-2">
-                      <Image
-                        src={country.flagUrl}
-                        alt={country.name}
-                        width={20}
-                        height={15}
-                        className="object-contain rounded-sm"
-                      />
+                      <div className="p-2 bg-purple-100 text-purple-600 rounded-full w-10 h-10 flex justify-center">
+                        {country.city.charAt(0)}
+                      </div>
                       <span className="text-sm text-slate-700 dark:text-slate-200">
-                        {country.name}
+                        {country.city}
                       </span>
                     </div>
                     <span className="text-sm font-medium text-slate-600 dark:text-slate-300">
@@ -358,7 +399,7 @@ const AnalyticsPage = () => {
                   </div>
                   <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-1.5">
                     <div
-                      className={`${country.color} h-1.5 rounded-full`}
+                      className={`bg-purple-600 h-1.5 rounded-full`}
                       style={{ width: `${country.percentage}%` }}
                     ></div>
                   </div>
@@ -371,13 +412,9 @@ const AnalyticsPage = () => {
             <div className="space-y-4">
               {currentVacancies.map((vacancy, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <Image
-                    src={vacancy.companyLogoUrl}
-                    alt={vacancy.company}
-                    width={40}
-                    height={40}
-                    className="p-1 bg-slate-100 dark:bg-slate-700 rounded-lg object-contain"
-                  />
+                  <div className="p-2 bg-purple-100 text-purple-600 rounded-full w-10 h-10 flex justify-center">
+                    {vacancy.title.charAt(0)}
+                  </div>
                   <div>
                     <p className="font-semibold text-sm text-slate-700 dark:text-slate-200">
                       {vacancy.title}
@@ -387,6 +424,25 @@ const AnalyticsPage = () => {
                       className="text-xs text-indigo-600 dark:text-indigo-400 hover:underline"
                     >
                       View Details
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
+          <Card title="Key Insights" menuAction>
+            <div className="space-y-4">
+              {candidates.slice(0, 1).map((cen) => (
+                <div key={cen._id} className="flex items-center gap-3">
+                  <div>
+                    <p className="font-semibold text-sm text-slate-700 dark:text-slate-200">
+                      {cen.candidate_name}
+                    </p>
+                    <a
+                      href="#"
+                      className="text-xs text-gray-600 dark:text-gray-400 hover:underline"
+                    >
+                      {cen.ai_summary_data.summary}
                     </a>
                   </div>
                 </div>
