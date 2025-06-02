@@ -159,12 +159,12 @@ const NewsPage = () => {
         "AI recruitment OR hiring technology"
       );
 
-      const apiUrl = `https://gnews.io/api/v4/search?q=${finalQuery}&lang=en&max=10&sortby=relevance&apikey=${process.env.NEXT_PUBLIC_GNEWS_API_KEY}`;
+      const apiUrl = `https://gnews.io/api/v4/search?q=${finalQuery}&lang=en&max=9&sortby=relevance&apikey=${process.env.NEXT_PUBLIC_GNEWS_API_KEY}`;
 
       let response = await axios.get(apiUrl);
 
       if (response.data.articles.length === 0) {
-        const fallbackApiUrl = `https://gnews.io/api/v4/search?q=${fallbackQuery}&lang=en&max=10&sortby=relevance&apikey=${process.env.NEXT_PUBLIC_GNEWS_API_KEY}`;
+        const fallbackApiUrl = `https://gnews.io/api/v4/search?q=${fallbackQuery}&lang=en&max=9&sortby=relevance&apikey=${process.env.NEXT_PUBLIC_GNEWS_API_KEY}`;
         response = await axios.get(fallbackApiUrl);
       }
 
@@ -304,7 +304,7 @@ const NewsPage = () => {
         {!loading && !error && (
           <>
             {viewMode === "grid" && (
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className="text-black grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {filteredNews.map((article, index) => (
                   <div
                     key={index}
@@ -380,7 +380,7 @@ const NewsPage = () => {
                         </div>
                       </div>
                       <div className="sm:w-2/3 p-5">
-                        <div className="flex items-center space-x-3 text-xs text-black1 dark:text-white mb-3 font-medium">
+                        <div className="flex items-center space-x-3 text-xs text-purple-700 dark:text-purple-300 mb-3 font-medium">
                           <div className="flex items-center">
                             <Clock className="h-3 w-3 mr-1" />
                             {formatDate(article.publishedAt)}
@@ -392,10 +392,10 @@ const NewsPage = () => {
                             </span>
                           </div>
                         </div>
-                        <h2 className="text-lg font-bold text-black dark:text-white mb-2">
+                        <h2 className="text-lg font-bold text-purple-900 dark:text-purple-100 mb-2">
                           {article.title}
                         </h2>
-                        <p className="text-gray-800 dark:text-purple-200 mb-4 line-clamp-2 text-sm font-medium">
+                        <p className="text-purple-800 dark:text-purple-200 mb-4 line-clamp-2 text-sm font-medium">
                           {article.description}
                         </p>
                         <a

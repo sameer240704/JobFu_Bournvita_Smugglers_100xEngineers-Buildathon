@@ -1,4 +1,3 @@
-// page.jsx
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -50,7 +49,7 @@ import { useCurrentUserId } from "@/hooks/use-current-user-id";
 
 const ITEMS_PER_PAGE = 8;
 
-const FollowUpsPage = () => {
+const ShortlistingPage = () => {
   const { theme, toggleTheme } = useTheme();
   const [followUps, setFollowUps] = useState([]);
   const [selectedFollowUps, setSelectedFollowUps] = useState([]);
@@ -92,7 +91,7 @@ const FollowUpsPage = () => {
           setFollowUps(demoCandidates);
         } else {
           const response = await fetch(
-            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/follow-ups/user/${userId}?status=${statusFilter}&search=${searchTerm}&page=${currentPage}&limit=${ITEMS_PER_PAGE}`
+            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${userId}?status=${statusFilter}&search=${searchTerm}&page=${currentPage}&limit=${ITEMS_PER_PAGE}`
           );
           const data = await response.json();
           setFollowUps(data.data);
@@ -156,7 +155,7 @@ const FollowUpsPage = () => {
         selectedFollowUps.map(async (candidateId) => {
           const candidate = followUps.find((c) => c._id === candidateId);
           const response = await fetch(
-            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/user/${userId}/send-offer`,
+            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/user/${userId}/send-offer`,
             {
               method: "POST",
               headers: {
@@ -829,4 +828,4 @@ const FollowUpsPage = () => {
   );
 };
 
-export default FollowUpsPage;
+export default ShortlistingPage;
