@@ -36,7 +36,6 @@ main.py
 __pycache__/
 models/
 services/
-# ... (view more in ai-server directory)
 ```
 
 ---
@@ -60,8 +59,6 @@ hooks/
 lib/
 public/
 utils/
-# ... (view more in client directory)
-```
 
 ---
 
@@ -78,7 +75,6 @@ helpers/
 middlewares/
 models/
 routes/
-# ... (view more in server directory)
 ```
 
 ---
