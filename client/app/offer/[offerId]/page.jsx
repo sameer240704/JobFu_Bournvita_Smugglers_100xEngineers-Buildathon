@@ -225,11 +225,10 @@ const OfferResponsePage = () => {
               />
             </div>
 
-            {/* Submit Button */}
             <Button
               type="submit"
               disabled={isSubmitting || !decision}
-              className="w-full h-12 text-lg bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 shadow-md transition-all"
+              className="w-full h-12 text-md text-white bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 shadow-md transition-all"
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-2">

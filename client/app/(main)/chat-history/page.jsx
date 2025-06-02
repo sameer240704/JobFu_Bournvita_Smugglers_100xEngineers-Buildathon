@@ -57,6 +57,7 @@ const Page = () => {
     fetch(`${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/users/me/${user}`)
       .then((response) => response.json())
       .then((data) => {
+        console.log("DATA: ", data);
         if (data && data.user) {
           setUserId(data.user[0]._id);
         } else {
@@ -243,8 +244,8 @@ const Page = () => {
         );
       }
       const aiData = await aiResponse.json();
-      console.log("AI response:", aiData.ranked_candidates);
-      if (!aiData || !aiData.success) {
+      console.log("AI response:", aiData);
+      if (!aiData) {
         throw new Error("AI search returned an unexpected response structure.");
       }
 
@@ -253,7 +254,7 @@ const Page = () => {
         user: userId, // Make sure userId is available and correct
         query: trimmedQuery,
         filters: cleanFiltersPayload,
-        response: aiData.ranked_candidates.map((can) => can._id), // Assuming aiData.response is an array of candidate IDs or basic info
+        response: aiData.map((can) => can.candidate_id), // Assuming aiData.response is an array of candidate IDs or basic info
       };
 
       const chatResponse = await fetch(
@@ -448,7 +449,6 @@ const Page = () => {
   };
 
   const handleSelectChat = (chatId) => {
-    
     const selectedChat = chatHistory.find((chat) => chat._id === chatId);
     if (selectedChat && selectedChat.searchParameters) {
     }

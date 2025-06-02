@@ -1,5 +1,3 @@
-print("Loading candidate_search.py for Advanced Candidate Search System")
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict, Any, Set, Optional
@@ -16,7 +14,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 import logging
-import uuid
+from fastapi.middleware.cors import CORSMiddleware
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -26,16 +24,31 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 logger.info(f"GROQ_API_KEY loaded: {bool(os.getenv('GROQ_API_KEY'))}")
 
-# Download required NLTK data
+# FastAPI app
+app = FastAPI(
+    title="Advanced Candidate Search API",
+    description="Industry-standard candidate search system with comprehensive ranking algorithms",
+    version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Download required NLTK data (run once)
+nltk.download('punkt_tab')
 try:
     nltk.data.find('tokenizers/punkt')
     nltk.data.find('corpora/stopwords')
 except LookupError:
     nltk.download('punkt')
     nltk.download('stopwords')
-
-# FastAPI app
-app = FastAPI(title="Advanced Candidate Search System", description="A comprehensive candidate search system using industry-standard information retrieval techniques.")
 
 # Pydantic models for request and response
 class SearchQuery(BaseModel):

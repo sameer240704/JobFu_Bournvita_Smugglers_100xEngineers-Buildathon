@@ -14,12 +14,9 @@ export const addChatHistory = async (req, res) => {
       });
     }
 
-    // Fetch ObjectIds using nested email
     const responseIds = await Promise.all(
       response.map(async (res) => {
-        const candidate = await Candidate.findOne({
-          candidate_name: res, // correct path
-        }).select("_id");
+        const candidate = await Candidate.findById(res).select("_id");
 
         if (!candidate)
           throw new Error(`Candidate with email ${res} not found`);
