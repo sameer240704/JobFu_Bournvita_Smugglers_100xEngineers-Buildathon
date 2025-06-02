@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import ChatHistoryPanel from "@/components/misc/ChatHistoryPanel"; // Ensure this path is correct
 import { useCurrentUserId } from "@/hooks/use-current-user-id"; // Ensure this path is correct
 import { Logo } from "@/public";
+import Image from "next/image";
 
 // --- ICONS ---
 const DropdownIcon = () => (
@@ -492,8 +493,12 @@ const Page = () => {
           <div className="w-full max-w-3xl bg-white p-6 sm:p-10 rounded-xl shadow-2xl">
             {/* PeopleGPT Header */}
             <div className="mb-8 text-center">
-              <div className="inline-block p-3 bg-purple-100 rounded-full mb-4">
-                <img src={Logo} alt="logo" className="w-5 h-5" />
+              <div className="inline-block p-3 mb-1">
+                <Image
+                  src={Logo}
+                  alt="JobFu Logo"
+                  className="w-10 h-10 rounded-md"
+                />
               </div>
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">
                 HireAI by JobFu
