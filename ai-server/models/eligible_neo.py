@@ -627,7 +627,7 @@ if __name__ == "__main__":
         
         # Load candidates from JSON file
         print("Loading candidates from JSON...")
-        db.parse_and_load_candidates("candidates.json")
+        db.parse_and_load_candidates("candidates1.json")
         print("Candidates loaded successfully!")
         
         # Print statistics
