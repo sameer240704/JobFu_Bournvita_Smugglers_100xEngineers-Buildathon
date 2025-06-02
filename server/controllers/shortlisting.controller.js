@@ -9,12 +9,17 @@ export const addShortlistedCandidate = async (req, res) => {
     const { userId, candidateId, chatHistoryId, offerDetails } = req.body;
 
     const user = await User.findOne({ supabaseId: userId });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
     const newUserId = user._id;
 
+    // Check for existing shortlisting with proper userId
     const existingShortlisting = await Shortlisting.findOne({
-      newUserId,
-      candidateId,
+      userId: newUserId,
+      candidateId: new mongoose.Types.ObjectId(candidateId),
     });
+
     if (existingShortlisting) {
       return res
         .status(400)
@@ -31,7 +36,7 @@ export const addShortlistedCandidate = async (req, res) => {
       offerDetails,
       status: "none",
       emailStatus: {
-        sentAt: new Date(),
+        sentAt: null,
         openedAt: null,
         lastViewed: null,
       },
@@ -50,16 +55,16 @@ export const getShortlistedCandidates = async (req, res) => {
     const { userId, chatId } = req.params;
 
     const user = await User.findOne({ supabaseId: userId });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
     const newUserId = user._id;
 
     const shortlisted = await Shortlisting.find({
       userId: newUserId,
       chatHistoryId: new mongoose.Types.ObjectId(chatId)
     })
-      .populate(
-        "candidateId",
-        "offerDetails"
-      )
+      .populate("candidateId", "offerDetails")
       .select("candidateId")
       .lean();
 
@@ -81,23 +86,67 @@ export const sendOffer = async (req, res) => {
     const { userId } = req.params;
     const { candidate, emailTemplate, templateVariables } = req.body;
 
-    const sessionUserId = await User.find({ supabaseId: userId }, { _id: 1 });
+    const user = await User.findOne({ supabaseId: userId });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // Find existing shortlisting or create a new one
+    let shortlisting = await Shortlisting.findOneAndUpdate(
+      {
+        userId: user._id,
+        candidateId: candidate._id
+      },
+      {
+        $set: {
+          status: "sent",
+          emailStatus: {
+            sentAt: new Date(),
+            openedAt: null,
+            lastViewed: null
+          },
+          offerDetails: {
+            jobTitle: templateVariables.jobTitle,
+            jobDescription: templateVariables.jobDescription,
+            salary: templateVariables.salary || 'Not specified',
+            benefits: templateVariables.benefits || 'Standard benefits package'
+          }
+        },
+        $push: {
+          communications: {
+            type: "email",
+            content: `Offer sent for ${templateVariables.jobTitle}`,
+            direction: "outbound",
+            timestamp: new Date()
+          }
+        }
+      },
+      { new: true, upsert: true }
+    );
 
     const result = await sendOfferEmail(
-      sessionUserId,
+      user._id, // Pass the actual ObjectId, not the array
       candidate,
       emailTemplate,
       templateVariables
     );
 
     if (result.success) {
+      // Update with the actual offerId from email sending
+      await Shortlisting.findByIdAndUpdate(shortlisting._id, {
+        $set: { offerId: result.offerId }
+      });
+
       res.status(200).json({
         success: true,
         message: "Email sent successfully",
         offerId: result.offerId,
-        // shortlistingId: result.shortlistingId
       });
     } else {
+      // Rollback status if email failed
+      await Shortlisting.findByIdAndUpdate(shortlisting._id, {
+        $set: { status: "none" }
+      });
       res.status(500).json({ message: result.error });
     }
   } catch (error) {
@@ -109,7 +158,7 @@ export const trackEmailOpen = async (req, res) => {
   try {
     const { offerId } = req.params;
 
-    await Shortlisting.findOneAndUpdate(
+    const updated = await Shortlisting.findOneAndUpdate(
       { offerId },
       {
         $set: {
@@ -117,8 +166,21 @@ export const trackEmailOpen = async (req, res) => {
           "emailStatus.openedAt": new Date(),
           "emailStatus.lastViewed": new Date(),
         },
-      }
+        $push: {
+          communications: {
+            type: "email",
+            content: "Candidate viewed the offer email",
+            direction: "inbound",
+            timestamp: new Date()
+          }
+        }
+      },
+      { new: true }
     );
+
+    if (!updated) {
+      return res.status(404).json({ message: "Offer not found" });
+    }
 
     res.set("Content-Type", "image/png");
     res.send(
@@ -138,7 +200,7 @@ export const getOfferDetails = async (req, res) => {
     const { offerId } = req.params;
 
     const offer = await Shortlisting.findOne({ offerId })
-      .populate("candidateId", "candidate_name contact_information")
+      .populate("candidateId", "candidate_name contact_information skills experience")
       .populate("userId", "name email");
 
     if (!offer) {
@@ -151,7 +213,6 @@ export const getOfferDetails = async (req, res) => {
   }
 };
 
-// Update offer response
 export const respondToOffer = async (req, res) => {
   try {
     const { offerId } = req.params;
@@ -173,11 +234,12 @@ export const respondToOffer = async (req, res) => {
             type: "email",
             content: `Candidate ${decision} the offer`,
             direction: "inbound",
+            timestamp: new Date()
           },
         },
       },
       { new: true }
-    ).populate("candidateId", "candidate_name");
+    ).populate("candidateId", "candidate_name contact_information");
 
     if (!updatedOffer) {
       return res.status(404).json({ message: "Offer not found" });
@@ -186,6 +248,8 @@ export const respondToOffer = async (req, res) => {
     res.status(200).json({
       message: `Offer ${decision} successfully`,
       candidateName: updatedOffer.candidateId.candidate_name,
+      contactEmail: updatedOffer.candidateId.contact_information.email,
+      status: updatedOffer.status
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -207,7 +271,6 @@ export const deleteShortlistedCandidate = async (req, res) => {
   }
 };
 
-// Add this new controller method
 export const getShortlistedCandidatesForUser = async (req, res) => {
   try {
     const { userId } = req.params;
@@ -246,11 +309,11 @@ export const getShortlistedCandidatesForUser = async (req, res) => {
 
     const total = await Shortlisting.countDocuments(query);
 
-    // Transform the data to include candidate details and status
     const candidates = shortlistings.map(item => ({
       ...item.candidateId,
       shortlistingId: item._id,
       status: item.status,
+      offerDetails: item.offerDetails,
       lastContacted: item.emailStatus?.sentAt || item.createdAt,
       contactCount: item.communications?.length || 0
     }));
@@ -306,7 +369,8 @@ export const exportToExcel = async (req, res) => {
       "Offer Title": item.offerDetails?.jobTitle || 'N/A',
       "Offer Salary": item.offerDetails?.salary || 'N/A',
       "Sent Date": item.emailStatus?.sentAt?.toISOString().split('T')[0] || 'N/A',
-      "Last Viewed": item.emailStatus?.lastViewed?.toISOString().split('T')[0] || 'N/A'
+      "Last Viewed": item.emailStatus?.lastViewed?.toISOString().split('T')[0] || 'N/A',
+      "Response": item.response?.decision || 'No response'
     }));
 
     res.status(200).json(excelData);
@@ -315,6 +379,109 @@ export const exportToExcel = async (req, res) => {
     res.status(500).json({
       success: false,
       message: error.message || "Failed to export data"
+    });
+  }
+};
+
+// New endpoint to merge duplicate candidates
+export const cleanupDuplicates = async (req, res) => {
+  try {
+    const { userId } = req.params;
+
+    const user = await User.findOne({ supabaseId: userId });
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // Find all shortlistings for this user
+    const shortlistings = await Shortlisting.find({ userId: user._id });
+
+    // Group by candidateId
+    const candidatesMap = new Map();
+
+    for (const shortlisting of shortlistings) {
+      const candidateId = shortlisting.candidateId.toString();
+
+      if (!candidatesMap.has(candidateId)) {
+        candidatesMap.set(candidateId, []);
+      }
+      candidatesMap.get(candidateId).push(shortlisting);
+    }
+
+    let mergedCount = 0;
+
+    // Process each candidate's shortlistings
+    for (const [candidateId, shortlistings] of candidatesMap.entries()) {
+      if (shortlistings.length > 1) {
+        // Sort by createdAt (newest first)
+        shortlistings.sort((a, b) => b.createdAt - a.createdAt);
+
+        // Keep the newest one as primary
+        const primary = shortlistings[0];
+
+        // Merge data from others
+        for (let i = 1; i < shortlistings.length; i++) {
+          const duplicate = shortlistings[i];
+
+          // Merge communications
+          if (duplicate.communications?.length) {
+            primary.communications = [
+              ...(primary.communications || []),
+              ...duplicate.communications
+            ];
+          }
+
+          // Keep the most advanced status
+          const statusPriority = {
+            'accepted': 4,
+            'rejected': 3,
+            'viewed': 2,
+            'sent': 1,
+            'none': 0
+          };
+
+          if (statusPriority[duplicate.status] > statusPriority[primary.status]) {
+            primary.status = duplicate.status;
+          }
+
+          // Merge email status
+          if (duplicate.emailStatus?.sentAt &&
+            (!primary.emailStatus?.sentAt || duplicate.emailStatus.sentAt > primary.emailStatus.sentAt)) {
+            primary.emailStatus = {
+              ...primary.emailStatus,
+              sentAt: duplicate.emailStatus.sentAt
+            };
+          }
+
+          // Merge other fields if missing in primary
+          if (!primary.offerId && duplicate.offerId) {
+            primary.offerId = duplicate.offerId;
+          }
+
+          if (!primary.offerDetails && duplicate.offerDetails) {
+            primary.offerDetails = duplicate.offerDetails;
+          }
+
+          // Delete the duplicate
+          await Shortlisting.findByIdAndDelete(duplicate._id);
+          mergedCount++;
+        }
+
+        // Save the merged primary
+        await primary.save();
+      }
+    }
+
+    res.status(200).json({
+      success: true,
+      message: `Merged ${mergedCount} duplicate shortlistings`,
+      totalCandidates: candidatesMap.size
+    });
+  } catch (error) {
+    console.error("Error cleaning up duplicates:", error);
+    res.status(500).json({
+      success: false,
+      message: error.message || "Failed to clean up duplicates"
     });
   }
 };

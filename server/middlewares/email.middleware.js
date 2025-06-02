@@ -4,8 +4,6 @@ dotenv.config();
 import nodemailer from 'nodemailer';
 import { google } from 'googleapis';
 import { v4 as uuidv4 } from 'uuid';
-import Shortlisting from "../models/shortlisting.model.js";
-import mongoose from "mongoose";
 
 const requiredEnvVars = ['CLIENT_ID', 'CLIENT_SECRET', 'REFRESH_TOKEN'];
 for (const envVar of requiredEnvVars) {
@@ -24,7 +22,6 @@ oAuth2Client.setCredentials({
     refresh_token: process.env.REFRESH_TOKEN
 });
 
-// Function to create transporter with fresh access token
 async function createTransporter() {
     try {
         const { token } = await oAuth2Client.getAccessToken();
@@ -36,12 +33,7 @@ async function createTransporter() {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                // type: 'OAuth2',
                 user: process.env.EMAIL_USER,
-                // clientId: process.env.CLIENT_ID,
-                // clientSecret: process.env.CLIENT_SECRET,
-                // refreshToken: process.env.REFRESH_TOKEN,
-                // accessToken: token,
                 pass: process.env.PASSWORD_OAUTH
             },
             tls: {
@@ -105,35 +97,6 @@ async function sendOfferEmail(userId, candidate, emailTemplate, templateVariable
             to: candidate.contact_information.email,
             subject: emailSubject
         });
-
-        const shortlistingData = {
-            userId: userId._id,
-            candidateId: new mongoose.Types.ObjectId(candidate._id),
-            offerId,
-            status: 'sent',
-            emailStatus: {
-                sentAt: new Date(),
-                messageId: result.messageId
-            },
-            offerDetails: {
-                jobTitle: templateVariables.jobTitle,
-                jobDescription: templateVariables.jobDescription,
-                salary: templateVariables.salary || 'Not specified',
-                benefits: templateVariables.benefits || 'Standard benefits package'
-            },
-            communications: [{
-                type: 'email',
-                content: emailBody,
-                direction: 'outbound',
-                timestamp: new Date()
-            }]
-        };
-
-        await Shortlisting.findOneAndUpdate(
-            { userId: shortlistingData.userId, candidateId: shortlistingData.candidateId },
-            shortlistingData,
-            { upsert: true, new: true }
-        );
 
         return {
             success: true,

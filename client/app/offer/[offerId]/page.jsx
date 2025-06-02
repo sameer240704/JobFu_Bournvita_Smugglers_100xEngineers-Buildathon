@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { usePathname } from "next/navigation";
 
 const OfferResponsePage = () => {
-  const { offerId } = usePathname();
+  const { offerId } = usePathname;
   const [offer, setOffer] = useState(null);
   const [loading, setLoading] = useState(true);
   const [decision, setDecision] = useState(null);
@@ -15,32 +15,35 @@ const OfferResponsePage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
-    if (offerId) {
-      const fetchOffer = async () => {
-        try {
-          const response = await fetch(
-            `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/offer/${offerId}`
-          );
-          const data = await response.json();
-
-          if (response.ok) {
-            setOffer(data);
-
-            if (data.status === "accepted" || data.status === "rejected") {
-              setDecision(data.status);
-            }
-          } else {
-            toast.error(data.message || "Failed to load offer");
-          }
-        } catch (error) {
-          toast.error("Error fetching offer details");
-        } finally {
-          setLoading(false);
-        }
-      };
-
-      fetchOffer();
+    if (!offerId) {
+      setLoading(false);
+      return;
     }
+
+    const fetchOffer = async () => {
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlist/offer/${offerId}`
+        );
+        const data = await response.json();
+
+        if (response.ok) {
+          setOffer(data);
+
+          if (data.status === "accepted" || data.status === "rejected") {
+            setDecision(data.status);
+          }
+        } else {
+          toast.error(data.message || "Failed to load offer");
+        }
+      } catch (error) {
+        toast.error("Error fetching offer details");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchOffer();
   }, [offerId]);
 
   const handleSubmit = async (e) => {
@@ -55,7 +58,7 @@ const OfferResponsePage = () => {
 
     try {
       const response = await fetch(
-        `/api/shortlisting/offer/${offerId}/respond`,
+        `${process.env.NEXT_PUBLIC_NODE_SERVER_URL}/api/shortlisting/offer/${offerId}/respond`,
         {
           method: "POST",
           headers: {
@@ -69,6 +72,7 @@ const OfferResponsePage = () => {
 
       if (response.ok) {
         toast.success(`Offer ${decision} successfully`);
+        setOffer((prev) => ({ ...prev, status: decision }));
         setDecision(decision);
       } else {
         toast.error(data.message || "Failed to submit response");
@@ -88,7 +92,7 @@ const OfferResponsePage = () => {
     );
   }
 
-  if (!offer) {
+  if (!offerId || !offer) {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <Card className="w-full max-w-md">
@@ -140,10 +144,11 @@ const OfferResponsePage = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-medium">
-                {offer.offerDetails.jobTitle}
+                {offer.offerDetails?.jobTitle || "Job Offer"}
               </h3>
               <p className="text-gray-600 dark:text-gray-400">
-                {offer.offerDetails.jobDescription}
+                {offer.offerDetails?.jobDescription ||
+                  "No description available"}
               </p>
             </div>
 
