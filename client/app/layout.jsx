@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "JobFu",
+  title: "Disha AI",
   description: "Hire like a master!",
 };
 

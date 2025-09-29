@@ -38,12 +38,16 @@ const Sidebar = ({ isCollapsed = false }) => {
               </div>
             ) : (
               <div className="flex items-center gap-3">
-                <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-purple-600 to-indigo-600 flex items-center justify-center shadow-lg">
-                  <Image src={Logo} alt="JobFu Logo" className="rounded-md" />
+                <div className="h-14 w-16 rounded-xl border-2 flex items-center justify-center shadow-lg">
+                  <Image
+                    src={Logo}
+                    alt="Disha AI Logo"
+                    className="rounded-md"
+                  />
                 </div>
                 <div>
                   <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-                    JobFu
+                    Disha AI
                   </h1>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     Hire like a master

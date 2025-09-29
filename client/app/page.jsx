@@ -56,11 +56,15 @@ const LandingPage = () => {
       <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[95%] max-w-5xl z-50 rounded-2xl backdrop-blur-xl bg-white/90 dark:bg-gray-800/90 shadow-xl border border-gray-200/50 dark:border-gray-700/50 transition-all duration-300">
         <div className="flex items-center justify-between px-4 py-2">
           <div className="flex items-center space-x-3">
-            <div className="bg-gradient-to-r from-purple-500 to-indigo-500 w-10 h-10 rounded-xl flex items-center justify-center shadow-lg">
-              <Image src={Logo} alt="JobFu" className="h-10 w-10 rounded-md" />
+            <div className="border-2 dark:bg-white rounded-xl flex items-center justify-center shadow-lg">
+              <Image
+                src={Logo}
+                alt="Disha AI"
+                className="h-12 w-14 rounded-md"
+              />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent dark:from-purple-400 dark:to-indigo-400">
-              JobFu
+              Disha AI
             </span>
           </div>
 

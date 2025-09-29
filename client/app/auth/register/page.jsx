@@ -297,7 +297,11 @@ export default function SignUpPage() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-pink-50 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div className="text-center flex flex-col justify-center items-center">
-          <Image src={Logo} alt="JobFu" className="h-16 w-16 rounded-md mb-4" />
+          <Image
+            src={Logo}
+            alt="Disha AI"
+            className="h-32 w-36 rounded-md mb-4"
+          />
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
             Create your account
           </h2>
