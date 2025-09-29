@@ -122,7 +122,7 @@ const Sidebar = ({ isCollapsed = false }) => {
               ))}
             </ul>
           </nav>
-          <motion.div
+          {/* <motion.div
             className="w-full mt-4 px-1"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -280,7 +280,7 @@ const Sidebar = ({ isCollapsed = false }) => {
                 </motion.div>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </motion.div>
     </div>
