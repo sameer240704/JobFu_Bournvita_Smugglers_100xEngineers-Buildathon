@@ -7,6 +7,7 @@ import {
   BookOpenText,
   Newspaper,
   Calendar,
+  Earth,
 } from "lucide-react";
 
 export const sidebarData = [
@@ -34,6 +35,11 @@ export const sidebarData = [
     title: "Resume Editor",
     route: "/documentation",
     icon: BookOpenText,
+  },
+  {
+    title: "Region Distribution",
+    route: "/region-distribution",
+    icon: Earth,
   },
   {
     title: "News",
