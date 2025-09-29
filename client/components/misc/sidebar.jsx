@@ -50,7 +50,7 @@ const Sidebar = ({ isCollapsed = false }) => {
                     Disha AI
                   </h1>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Hire like a master
+                    Get Discoverd. Get Hired.
                   </p>
                 </div>
               </div>
