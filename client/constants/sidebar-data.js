@@ -6,6 +6,7 @@ import {
   Settings,
   BookOpenText,
   Newspaper,
+  Calendar,
 } from "lucide-react";
 
 export const sidebarData = [
@@ -25,14 +26,19 @@ export const sidebarData = [
     icon: UserCheck,
   },
   {
+    title: "Calendar",
+    route: "/calendar",
+    icon: Calendar,
+  },
+  {
+    title: "Resume Editor",
+    route: "/documentation",
+    icon: BookOpenText,
+  },
+  {
     title: "News",
     route: "/news",
     icon: Newspaper,
-  },
-  {
-    title: "Documentation",
-    route: "/documentation",
-    icon: BookOpenText,
   },
   {
     title: "Settings",

@@ -1,968 +1,1079 @@
 "use client";
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useRef, useCallback } from "react";
 import {
-  Book,
-  HelpCircle,
-  Database,
+  Upload,
+  Download,
+  Save,
   FileText,
-  Github,
-  Linkedin,
-  Shield,
-  Lock,
-  Search,
+  Edit3,
+  Eye,
+  Plus,
+  Trash2,
+  Bold,
+  Italic,
+  Underline,
+  AlignLeft,
+  AlignCenter,
+  AlignRight,
+  List,
   ChevronDown,
-  ChevronRight,
-  Network, // General network/graph
-  Users, // For users/candidates/contributors
-  Zap, // For AI/fast processing
-  Cpu, // For AI models like Llama
-  FileJson, // For JSON data
-  DatabaseZap, // For Neo4j specific
-  Server, // For backend server
-  MonitorPlay, // For Client Application
-  Fingerprint, // For Supabase Auth
-  Layers, // For MongoDB (layers of data)
-  Scaling, // For Ranking
-  GitCompareArrows, // For Comparison
-  Settings2, // For Getting Started/Setup
+  User,
+  Mail,
+  Phone,
+  MapPin,
+  Briefcase,
+  GraduationCap,
+  Award,
+  Code,
   Sun,
-  Moon, // For theme toggle
+  Moon,
+  X,
 } from "lucide-react";
-import {
-  ReactFlow,
-  Background,
-  Controls,
-  MiniMap,
-  useNodesState,
-  useEdgesState,
-  addEdge,
-} from "@xyflow/react";
-import "@xyflow/react/dist/style.css";
-import { useTheme } from "@/context/theme-context"; // Assuming this path
+import { useTheme } from "@/context/theme-context";
 
-const DocumentationPage = () => {
-  const [activeTab, setActiveTab] = useState("knowledge");
-  const [expandedFAQ, setExpandedFAQ] = useState(null);
-  const { theme, toggleTheme } = useTheme(); // Use your theme context
+// EditView Component
+const EditView = ({
+  resumeData,
+  updatePersonalInfo,
+  updateSummary,
+  addExperience,
+  updateExperience,
+  deleteExperience,
+  addEducation,
+  updateEducation,
+  deleteEducation,
+  addSkill,
+  removeSkill,
+  addProject,
+  updateProject,
+  deleteProject,
+  theme,
+}) => {
+  const [newSkill, setNewSkill] = useState("");
 
-  // React Flow nodes updated based on README
-  const getInitialNodes = (currentTheme) => [
-    {
-      id: "resumeData",
-      type: "input",
-      data: { label: "Resume Data (PDFs, Folders)" },
-      position: { x: 50, y: 50 },
-      style: {
-        background: currentTheme === "light" ? "#E0F7FA" : "#004D40",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#00ACC1" : "#4DD0E1"}`,
-      },
-    },
-    {
-      id: "linkedinScraper",
-      type: "input",
-      data: { label: "LinkedIn Scraper" },
-      position: { x: 50, y: 150 },
-      style: {
-        background: currentTheme === "light" ? "#E3F2FD" : "#0D47A1",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#1976D2" : "#90CAF9"}`,
-      },
-    },
-    {
-      id: "githubScraper",
-      type: "input",
-      data: { label: "GitHub Scraper" },
-      position: { x: 50, y: 250 },
-      style: {
-        background: currentTheme === "light" ? "#F1F8E9" : "#33691E",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#558B2F" : "#AED581"}`,
-      },
-    },
-    {
-      id: "llamaExtraction",
-      data: { label: "Llama-3-8B Data Extraction (extractor.py, etc.)" },
-      position: { x: 300, y: 150 },
-      style: {
-        background: currentTheme === "light" ? "#FFF3E0" : "#E65100",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#FF9800" : "#FFCC80"}`,
-      },
-    },
-    {
-      id: "jsonDataStorage",
-      data: {
-        label:
-          "JSON Data Storage (candidate_data/, candidate_linkedin/, candidate_github/)",
-      },
-      position: { x: 550, y: 150 },
-      style: {
-        background: currentTheme === "light" ? "#FCE4EC" : "#880E4F",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#EC407A" : "#F48FB1"}`,
-      },
-    },
-    {
-      id: "llamaSummary",
-      data: { label: "Llama-3-8B AI Summary (summary_extractor.py)" },
-      position: { x: 550, y: 280 },
-      style: {
-        background: currentTheme === "light" ? "#FFF3E0" : "#E65100",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#FF9800" : "#FFCC80"}`,
-      },
-    },
-    {
-      id: "neo4jInit",
-      data: {
-        label:
-          "Neo4j Graph DB Init (eligble_neo.py)\n- Nodes: Candidate ID, Skills, Exp, etc.\n- Clusters: Location, Company, Skill, etc.\n- Relations: HAS_SKILLED, WORKED_AT, etc.",
-      },
-      position: { x: 800, y: 100 },
-      style: {
-        width: 280,
-        background: currentTheme === "light" ? "#E8EAF6" : "#283593",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#3F51B5" : "#9FA8DA"}`,
-      },
-    },
-    {
-      id: "mongoDB",
-      data: {
-        label:
-          "MongoDB (Application Data)\n- Candidates, History, LinkedIn/GitHub Data",
-      },
-      position: { x: 800, y: 280 },
-      style: {
-        width: 280,
-        background: currentTheme === "light" ? "#E8F5E9" : "#1B5E20",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#4CAF50" : "#A5D6A7"}`,
-      },
-    },
-    {
-      id: "supabaseAuth",
-      data: { label: "Supabase (User Authentication)" },
-      position: { x: 800, y: 420 },
-      style: {
-        background: currentTheme === "light" ? "#F3E5F5" : "#4A148C",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#8E24AA" : "#CE93D8"}`,
-      },
-    },
-    {
-      id: "rankingEngine",
-      data: {
-        label: "Ranking Engine (BM25, TF-IDF, Fuzzy)\n(rank_fastapi.py)",
-      },
-      position: { x: 1100, y: 100 },
-      style: {
-        background: currentTheme === "light" ? "#FFFDE7" : "#F57F17",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#FFD600" : "#FFF59D"}`,
-      },
-    },
-    {
-      id: "comparisonEngine",
-      data: { label: "AI Comparison Engine (comparison.py)" },
-      position: { x: 1100, y: 230 },
-      style: {
-        background: currentTheme === "light" ? "#E1F5FE" : "#01579B",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#03A9F4" : "#81D4FA"}`,
-      },
-    },
-    {
-      id: "backendServer",
-      data: { label: "Backend Server (FastAPI/Node.js)" },
-      position: { x: 1350, y: 250 },
-      style: {
-        background: currentTheme === "light" ? "#ECEFF1" : "#37474F",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#546E7A" : "#B0BEC5"}`,
-      },
-    },
-    {
-      id: "clientApp",
-      type: "output",
-      data: { label: "Client Application (Next.js)" },
-      position: { x: 1600, y: 250 },
-      style: {
-        background: currentTheme === "light" ? "#F1F8E9" : "#33691E",
-        color: currentTheme === "light" ? "#000" : "#FFF",
-        border: `1px solid ${currentTheme === "light" ? "#7CB342" : "#C5E1A5"}`,
-      },
-    },
-  ];
-
-  const initialEdges = [
-    {
-      id: "e-resume-llama",
-      source: "resumeData",
-      target: "llamaExtraction",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-linkedin-llama",
-      source: "linkedinScraper",
-      target: "llamaExtraction",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-github-llama",
-      source: "githubScraper",
-      target: "llamaExtraction",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-llama-json",
-      source: "llamaExtraction",
-      target: "jsonDataStorage",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-json-summary",
-      source: "jsonDataStorage",
-      target: "llamaSummary",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-json-neo4j",
-      source: "jsonDataStorage",
-      target: "neo4jInit",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-json-mongo",
-      source: "jsonDataStorage",
-      target: "mongoDB",
-      type: "smoothstep",
-      animated: true,
-    }, // Data from extraction also goes to MongoDB
-    {
-      id: "e-summary-mongo",
-      source: "llamaSummary",
-      target: "mongoDB",
-      type: "smoothstep",
-      animated: true,
-    }, // Summaries stored in MongoDB
-    {
-      id: "e-neo4j-ranking",
-      source: "neo4jInit",
-      target: "rankingEngine",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-mongo-ranking",
-      source: "mongoDB",
-      target: "rankingEngine",
-      type: "smoothstep",
-      animated: true,
-    }, // Ranking might also use MongoDB data
-    {
-      id: "e-mongo-comparison",
-      source: "mongoDB",
-      target: "comparisonEngine",
-      type: "smoothstep",
-      animated: true,
-    }, // Comparison uses candidate data from MongoDB
-    {
-      id: "e-ranking-backend",
-      source: "rankingEngine",
-      target: "backendServer",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-comparison-backend",
-      source: "comparisonEngine",
-      target: "backendServer",
-      type: "smoothstep",
-      animated: true,
-    },
-    {
-      id: "e-mongo-backend",
-      source: "mongoDB",
-      target: "backendServer",
-      type: "smoothstep",
-      animated: true,
-    }, // Backend directly interacts with MongoDB
-    {
-      id: "e-supabase-backend",
-      source: "supabaseAuth",
-      target: "backendServer",
-      type: "smoothstep",
-      animated: true,
-    }, // Auth info used by backend
-    {
-      id: "e-backend-client",
-      source: "backendServer",
-      target: "clientApp",
-      type: "smoothstep",
-      animated: true,
-    },
-  ];
-
-  const [nodes, setNodes, onNodesChange] = useNodesState([]);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-
-  useEffect(() => {
-    setNodes(getInitialNodes(theme));
-  }, [theme, setNodes]);
-
-  const onConnect = useCallback(
-    (params) =>
-      setEdges((eds) =>
-        addEdge({ ...params, type: "smoothstep", animated: true }, eds)
-      ),
-    [setEdges]
-  );
-
-  const faqData = [
-    {
-      question: "What is HireAI by Disha AI?",
-      answer:
-        "HireAI is an advanced AI-powered resume extraction, enrichment, and candidate ranking pipeline designed for efficient, accurate, and scalable candidate search and comparison.",
-    },
-    {
-      question: "What kind of data can be extracted?",
-      answer:
-        "The system extracts candidate data from resumes (PDFs), LinkedIn profiles, and GitHub profiles. This includes skills, experience, education, projects, and more.",
-    },
-    {
-      question: "How is AI used in this project?",
-      answer:
-        "AI (Llama-3-8B) is used for data extraction from resumes, generating candidate summaries, and for advanced candidate comparison. AI techniques like TF-IDF and BM25 are used for ranking.",
-    },
-    {
-      question: "What databases are used?",
-      answer:
-        "HireAI uses a dual database architecture: Supabase for user authentication (Google Auth) and MongoDB for all other application data including candidate profiles, search history, and extracted data. Additionally, Neo4j (AuraDB) is used as a graph database for relationship-aware querying and candidate clustering.",
-    },
-    {
-      question: "How does the candidate ranking work?",
-      answer:
-        "It uses a multi-dimensional approach combining BM25, TF-IDF, semantic fuzzy matching, exact match bonuses, and query expansion for comprehensive and relevant results.",
-    },
-    {
-      question: "Can I compare candidates?",
-      answer:
-        "Yes, the system includes an AI-powered candidate comparison feature (`comparison.py`) that analyzes candidates across multiple parameters.",
-    },
-    {
-      question: "How do I get started with the project?",
-      answer:
-        "Clone the repository, install dependencies for `ai-server/`, `server/`, and `client/` directories, and then run the respective servers and the client application.",
-    },
-  ];
-
-  const toggleFAQ = (index) => {
-    setExpandedFAQ(expandedFAQ === index ? null : index);
+  const handleAddSkill = () => {
+    if (newSkill.trim()) {
+      addSkill(newSkill);
+      setNewSkill("");
+    }
   };
 
-  // Helper for section rendering
-  const Section = ({ title, icon: Icon, children, titleSize = "text-2xl" }) => (
-    <div
-      className={`rounded-xl shadow-sm p-6 sm:p-8 ${
-        theme === "dark" ? "bg-gray-800" : "bg-white"
-      }`}
-    >
-      <h2
-        className={`font-bold mb-5 sm:mb-6 flex items-center gap-2 ${titleSize} ${
-          theme === "dark" ? "text-gray-100" : "text-gray-900"
-        }`}
-      >
-        {Icon && (
-          <Icon
-            className={`${
-              theme === "dark" ? "text-purple-400" : "text-purple-600"
-            }`}
-            size={titleSize === "text-3xl" ? 30 : 24}
-          />
-        )}
-        {title}
-      </h2>
-      <div
-        className={`space-y-4 text-sm sm:text-base leading-relaxed ${
-          theme === "dark" ? "text-gray-300" : "text-gray-600"
-        }`}
-      >
-        {children}
-      </div>
-    </div>
-  );
-
   return (
-    <div
-      className={`h-screen overflow-y-scroll ${
-        theme === "dark"
-          ? "bg-gray-900 text-gray-200"
-          : "bg-gray-50 text-gray-800"
-      }`}
-    >
-      {/* Header */}
-      <header
-        className={`shadow-sm border-b sticky top-0 z-30 ${
-          theme === "dark"
-            ? "bg-gray-800 border-gray-700"
-            : "bg-white border-gray-200"
-        }`}
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <div
-                className={`w-9 h-9 rounded-lg flex items-center justify-center ${
-                  theme === "dark" ? "bg-purple-500" : "bg-purple-600"
-                }`}
-              >
-                <span className="text-white font-bold text-lg">H</span>
-              </div>
-              <span
-                className={`text-xl font-semibold ${
-                  theme === "dark" ? "text-gray-100" : "text-gray-900"
-                }`}
-              >
-                HireAI Documentation
-              </span>
-            </div>
-            <div className="flex items-center space-x-2 sm:space-x-4">
-              <button
-                onClick={() => setActiveTab("knowledge")}
-                className={`flex items-center space-x-1.5 sm:space-x-2 px-3 py-2 sm:px-4 sm:py-2 rounded-lg font-medium text-xs sm:text-sm transition-colors ${
-                  activeTab === "knowledge"
-                    ? theme === "dark"
-                      ? "bg-purple-600 text-white"
-                      : "bg-purple-100 text-purple-700"
-                    : theme === "dark"
-                    ? "text-gray-400 hover:bg-gray-700 hover:text-gray-100"
-                    : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
-                }`}
-              >
-                <Book size={18} /> <span>Knowledge Base</span>
-              </button>
-              <button
-                onClick={() => setActiveTab("help")}
-                className={`flex items-center space-x-1.5 sm:space-x-2 px-3 py-2 sm:px-4 sm:py-2 rounded-lg font-medium text-xs sm:text-sm transition-colors ${
-                  activeTab === "help"
-                    ? theme === "dark"
-                      ? "bg-purple-600 text-white"
-                      : "bg-purple-100 text-purple-700"
-                    : theme === "dark"
-                    ? "text-gray-400 hover:bg-gray-700 hover:text-gray-100"
-                    : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
-                }`}
-              >
-                <HelpCircle size={18} /> <span>Help Centre</span>
-              </button>
-              <button
-                onClick={toggleTheme}
-                className={`p-2 rounded-lg transition-colors ${
-                  theme === "dark"
-                    ? "text-yellow-400 hover:bg-gray-700"
-                    : "text-purple-600 hover:bg-gray-100"
-                }`}
-                title={
-                  theme === "dark"
-                    ? "Switch to Light Mode"
-                    : "Switch to Dark Mode"
-                }
-              >
-                {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
-              </button>
-            </div>
-          </div>
+    <div className="space-y-8">
+      {/* Personal Information */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-semibold flex items-center">
+          <User className="h-5 w-5 mr-2" />
+          Personal Information
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input
+            type="text"
+            placeholder="Full Name"
+            value={resumeData.personalInfo.name}
+            onChange={(e) => updatePersonalInfo("name", e.target.value)}
+            className={`p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            value={resumeData.personalInfo.email}
+            onChange={(e) => updatePersonalInfo("email", e.target.value)}
+            className={`p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
+          <input
+            type="tel"
+            placeholder="Phone"
+            value={resumeData.personalInfo.phone}
+            onChange={(e) => updatePersonalInfo("phone", e.target.value)}
+            className={`p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
+          <input
+            type="text"
+            placeholder="Location"
+            value={resumeData.personalInfo.location}
+            onChange={(e) => updatePersonalInfo("location", e.target.value)}
+            className={`p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
+          <input
+            type="text"
+            placeholder="LinkedIn URL"
+            value={resumeData.personalInfo.linkedin}
+            onChange={(e) => updatePersonalInfo("linkedin", e.target.value)}
+            className={`p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
+          <input
+            type="text"
+            placeholder="Website/Portfolio"
+            value={resumeData.personalInfo.website}
+            onChange={(e) => updatePersonalInfo("website", e.target.value)}
+            className={`p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
         </div>
-      </header>
+      </div>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {activeTab === "knowledge" && (
-          <div className="space-y-8">
-            <Section
-              title="HireAI by Disha AI - Overview"
-              icon={Zap}
-              titleSize="text-3xl"
-            >
-              <p>
-                This project demonstrates an advanced AI-powered resume
-                extraction, enrichment, and candidate ranking pipeline, designed
-                for efficient, accurate, and scalable candidate search and
-                comparison.
-              </p>
-              <p>
-                The Python backend enables extraction from resumes (PDFs,
-                LinkedIn, GitHub), AI summary generation, graph database (Neo4j)
-                initialization for relationship-aware querying, advanced
-                candidate ranking (BM25, TF-IDF, Fuzzy Matching, Query
-                Expansion), AI candidate comparison, and utilizes a dual
-                database architecture (Supabase for auth, MongoDB for data).
-              </p>
-            </Section>
+      {/* Summary/Objective */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-semibold">Professional Summary</h3>
+        <textarea
+          placeholder="Write a compelling professional summary..."
+          value={resumeData.summary}
+          onChange={(e) => updateSummary(e.target.value)}
+          rows={4}
+          className={`w-full p-3 rounded-lg border ${
+            theme === "dark"
+              ? "bg-gray-700 border-gray-600 text-white"
+              : "bg-white border-gray-300 text-gray-900"
+          }`}
+        />
+      </div>
 
-            <Section title="Data Architecture & Flow" icon={Network}>
-              <div
-                className={`h-[500px] rounded-lg border-2 border-dashed ${
-                  theme === "dark"
-                    ? "bg-gray-850 border-gray-700"
-                    : "bg-gray-100 border-gray-300"
-                }`}
-              >
-                <ReactFlow
-                  nodes={nodes}
-                  edges={edges}
-                  onNodesChange={onNodesChange}
-                  onEdgesChange={onEdgesChange}
-                  onConnect={onConnect}
-                  fitView
-                  className={theme === "dark" ? "dark-flow" : ""}
-                >
-                  <Background
-                    color={theme === "dark" ? "#2d3748" : "#e2e8f0"}
-                    gap={16}
-                  />
-                  <Controls
-                    style={{
-                      button: {
-                        backgroundColor:
-                          theme === "dark" ? "#4A5568" : "#f0f0f0",
-                        color: theme === "dark" ? "#E2E8F0" : "#333",
-                        border: "none",
-                      },
-                    }}
-                  />
-                  <MiniMap
-                    nodeColor={(n) =>
-                      n.style?.background ||
-                      (theme === "dark" ? "#4A5568" : "#fff")
-                    }
-                    nodeStrokeWidth={2}
-                    style={{
-                      backgroundColor: theme === "dark" ? "#1A202C" : "#F7FAFC",
-                      border: `1px solid ${
-                        theme === "dark" ? "#4A5568" : "#E2E8F0"
-                      }`,
-                    }}
-                    pannable
-                    zoomable
-                  />
-                </ReactFlow>
-              </div>
-              <p className="mt-4 text-xs">
-                Interactive diagram showing the data pipeline: from
-                resume/profile ingestion, AI extraction & summarization, storage
-                in JSON & MongoDB, graph structuring in Neo4j, to final ranking
-                and comparison feeding the backend server and client
-                application. Supabase handles user authentication.
-              </p>
-            </Section>
+      {/* Experience */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h3 className="text-lg font-semibold flex items-center">
+            <Briefcase className="h-5 w-5 mr-2" />
+            Work Experience
+          </h3>
+          <button
+            onClick={addExperience}
+            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors flex items-center"
+          >
+            <Plus className="h-4 w-4 mr-2" />
+            Add Experience
+          </button>
+        </div>
 
-            <Section
-              title="Data Extraction & Processing Pipeline"
-              icon={FileText}
-            >
-              <div className="space-y-3">
-                <div>
-                  <strong>Resume Extraction:</strong> Use{" "}
-                  <code>extractor.py</code> (Llama-3-8B-8192) for single
-                  resumes, or <code>extracted_folder.py</code> for bulk
-                  extraction. Output: JSON files in <code>candidate_data/</code>
-                  .
-                </div>
-                <div>
-                  <strong>LinkedIn & GitHub Data Extraction:</strong>{" "}
-                  <code>linkeldn_data_extractor.py</code> and{" "}
-                  <code>github_data_extractor.py</code> scrape and parse
-                  profiles, storing results in <code>candidate_linkeldn/</code>{" "}
-                  and <code>candidate_github/</code> respectively.
-                </div>
-                <div>
-                  <strong>AI Summary Generation:</strong>{" "}
-                  <code>summary_extractor.py</code> uses Llama-3-8B-8192 to
-                  create summaries, stored in <code>candidate_summaries/</code>.
-                </div>
-              </div>
-            </Section>
-
-            <Section title="Key Data & Model Components" icon={Cpu}>
-              <ul className="list-disc list-inside space-y-1">
-                <li>
-                  <code>datafolder/</code> & <code>globalfolder/</code>: Contain
-                  sample resumes.
-                </li>
-                <li>
-                  <code>candidate_data/</code>, <code>candidate_linkeldn/</code>
-                  , <code>candidate_github/</code>,{" "}
-                  <code>candidate_summaries/</code>: Store extracted data and
-                  summaries.
-                </li>
-                <li>
-                  <code>models/</code> (within <code>ai-server/</code>):
-                  Contains backend scripts and FastAPI server logic.
-                </li>
-                <li>
-                  Various Python scripts (<code>extractor.py</code>,{" "}
-                  <code>linkeldn_data_extractor.py</code>, etc.) for specific
-                  tasks.
-                </li>
-              </ul>
-            </Section>
-
-            <Section title="Database Architecture" icon={Database}>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div
-                  className={`p-4 rounded-lg border ${
+        {resumeData.experience.map((exp) => (
+          <div
+            key={exp.id}
+            className={`p-4 rounded-lg border ${
+              theme === "dark"
+                ? "border-gray-600 bg-gray-700/50"
+                : "border-gray-200 bg-gray-50"
+            }`}
+          >
+            <div className="flex justify-between items-start mb-4">
+              <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="Job Title"
+                  value={exp.title}
+                  onChange={(e) =>
+                    updateExperience(exp.id, "title", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
                     theme === "dark"
-                      ? "bg-gray-700/30 border-gray-600"
-                      : "bg-gray-50 border-gray-200"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
                   }`}
-                >
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <Fingerprint className="text-green-500" />
-                    Supabase (User Authentication)
-                  </h4>
-                  <p>
-                    Handles user authentication, primarily Google
-                    authentication. All user registration, login, and profile
-                    data related to auth are securely managed by Supabase.
-                  </p>
-                </div>
-                <div
-                  className={`p-4 rounded-lg border ${
-                    theme === "dark"
-                      ? "bg-gray-700/30 border-gray-600"
-                      : "bg-gray-50 border-gray-200"
-                  }`}
-                >
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <Layers className="text-green-500" />
-                    MongoDB (Application Data)
-                  </h4>
-                  <p>
-                    Stores all application data except authentication. This
-                    includes candidate data, search/comparison history,
-                    extracted LinkedIn/GitHub data, and other relevant
-                    application state.
-                  </p>
-                </div>
-              </div>
-            </Section>
-
-            <Section
-              title="Graph Database Initialization (Neo4j)"
-              icon={DatabaseZap}
-            >
-              <p>
-                <code>eligble_neo.py</code> connects candidate JSON to Neo4j
-                (AuraDB). Each candidate ID is a node; extracted data (skills,
-                experience, etc.) are sub-nodes. Clusters are formed based on
-                Location, Company, Institution, Project, Skill, and Technology.
-              </p>
-              <p className="mt-2">
-                <strong>Relationships used:</strong>{" "}
-                <code>HAS_EXPERIENCED_WITH</code>, <code>HAS_SKILLED</code>,{" "}
-                <code>LOCATED_IN</code>, <code>STUDIED_AT</code>,{" "}
-                <code>USES_TECH</code>, <code>WORKED_AT</code>,{" "}
-                <code>WORKED_ON</code>.
-              </p>
-              <p className="mt-2">
-                <strong>Advantages:</strong> Comprehensive data coverage,
-                prevents overlooked relationships, enables fast,
-                relationship-aware querying.
-              </p>
-              {/* Consider adding a placeholder or link to where users can see the graph images from README */}
-            </Section>
-
-            <Section title="Advanced Candidate Ranking" icon={Scaling}>
-              <p>
-                Implemented in <code>rank_fastapi.py</code>, this system uses
-                TF-IDF, BM25, fuzzy string matching, multi-dimensional scoring,
-                and query expansion.
-              </p>
-              <p className="mt-2">
-                <strong>Key Features:</strong> Multi-field semantic search,
-                advanced fuzzy matching, industry-standard ranking, query
-                expansion.
-              </p>
-              <p className="mt-2">
-                <strong>Final Score Weights:</strong> 35% BM25, 25% TF-IDF, 25%
-                Semantic Similarity, 15% Exact Match.
-              </p>
-            </Section>
-
-            <Section title="AI Candidate Comparison" icon={GitCompareArrows}>
-              <p>
-                Utilize <code>comparison.py</code> for AI-generated comparisons
-                between candidates. It reads candidate data from{" "}
-                <code>candidates_1.json</code> for analysis across similar
-                parameters.
-              </p>
-            </Section>
-
-            <Section title="Security & Encryption" icon={Lock}>
-              <p>
-                While specific application-layer encryption for candidate data
-                at rest in MongoDB/Neo4j isn't detailed beyond their native
-                capabilities, Supabase handles secure user authentication. Data
-                in transit should use HTTPS. Best practices for securing API
-                keys and database credentials must be followed.
-              </p>
-            </Section>
-
-            <Section title="Getting Started" icon={Settings2}>
-              <ol className="list-decimal list-inside space-y-2">
-                <li>
-                  <strong>Clone the Repository:</strong>
-                  <br />{" "}
-                  <code
-                    className={`px-2 py-1 rounded text-xs ${
-                      theme === "dark"
-                        ? "bg-gray-700 text-gray-300"
-                        : "bg-gray-200 text-gray-700"
-                    }`}
-                  >
-                    git clone
-                    https://github.com/sameer240704/100xEngineers-Buildathon.git
-                  </code>
-                </li>
-                <li>
-                  <strong>Install Dependencies:</strong> Follow setup
-                  instructions in <code>ai-server/</code>, <code>server/</code>,
-                  and <code>client/</code> directories.
-                </li>
-                <li>
-                  <strong>Run Backend and AI Server:</strong> See respective
-                  directories for FastAPI/Node.js server instructions.
-                </li>
-                <li>
-                  <strong>Run the Client:</strong> See <code>client/</code>{" "}
-                  folder for frontend setup and start instructions.
-                </li>
-              </ol>
-            </Section>
-
-            <Section title="License & Terms" icon={FileText}>
-              <div
-                className={`rounded-lg p-4 sm:p-6 ${
-                  theme === "dark" ? "bg-gray-850" : "bg-gray-100"
-                }`}
-              >
-                <h4
-                  className={`font-semibold mb-3 ${
-                    theme === "dark" ? "text-gray-200" : "text-gray-800"
-                  }`}
-                >
-                  HireAI by Disha AI Software License
-                </h4>
-                <p className="text-sm mb-4">
-                  Copyright © {new Date().getFullYear()} HireAI by Disha AI. All
-                  rights reserved.
-                </p>
-                <div className="text-xs sm:text-sm space-y-2">
-                  <p>
-                    This project is licensed under the MIT License. Please refer
-                    to the LICENSE file in the repository for full terms.
-                  </p>
-                  <p className="mt-4">
-                    For inquiries, please contact the repository owner.
-                  </p>
-                </div>
-              </div>
-            </Section>
-          </div>
-        )}
-
-        {activeTab === "help" && (
-          <div className="space-y-8">
-            <Section title="Help Centre" icon={HelpCircle} titleSize="text-3xl">
-              <p
-                className={`text-lg mb-6 ${
-                  theme === "dark" ? "text-gray-300" : "text-gray-600"
-                }`}
-              >
-                Find answers to common questions and learn how to make the most
-                of HireAI's features.
-              </p>
-              <div className="relative">
-                <Search
-                  className={`absolute left-3 top-1/2 -translate-y-1/2 ${
-                    theme === "dark" ? "text-gray-500" : "text-gray-400"
-                  }`}
-                  size={20}
                 />
                 <input
                   type="text"
-                  placeholder="Search help articles..."
-                  className={`w-full pl-10 pr-4 py-3 border rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent ${
+                  placeholder="Company"
+                  value={exp.company}
+                  onChange={(e) =>
+                    updateExperience(exp.id, "company", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
                     theme === "dark"
-                      ? "bg-gray-700 border-gray-600 text-gray-200 placeholder-gray-400"
-                      : "bg-white border-gray-300 text-gray-900 placeholder-gray-400"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="Location"
+                  value={exp.location}
+                  onChange={(e) =>
+                    updateExperience(exp.id, "location", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="Duration (e.g., 2020 - 2023)"
+                  value={exp.duration}
+                  onChange={(e) =>
+                    updateExperience(exp.id, "duration", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
                   }`}
                 />
               </div>
-            </Section>
-
-            <Section title="Quick Start Guide" icon={Zap}>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {/* ... Quick Start Guide items from previous response, adapt text if needed ... */}
-                {[
-                  {
-                    icon: Users,
-                    color: "purple",
-                    title: "1. Set Up Account",
-                    desc: "Ensure Supabase is configured for user authentication.",
-                  },
-                  {
-                    icon: Search,
-                    color: "blue",
-                    title: "2. Run Servers",
-                    desc: "Start the AI server, backend server, and client application.",
-                  },
-                  {
-                    icon: FileText,
-                    color: "green",
-                    title: "3. Extract Data",
-                    desc: "Use Python scripts to extract and process candidate data.",
-                  },
-                  {
-                    icon: Network,
-                    color: "orange",
-                    title: "4. Search & Analyze",
-                    desc: "Utilize the client to search, rank, and compare candidates.",
-                  },
-                ].map((item, index) => (
-                  <div
-                    key={index}
-                    className={`text-center p-4 border rounded-lg ${
-                      theme === "dark"
-                        ? "border-gray-700 bg-gray-850 hover:border-gray-600"
-                        : "border-gray-200 bg-white hover:border-gray-300"
-                    }`}
-                  >
-                    <div
-                      className={`w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3 ${
-                        theme === "dark"
-                          ? `bg-${item.color}-800/50`
-                          : `bg-${item.color}-100`
-                      }`}
-                    >
-                      <item.icon
-                        className={`${
-                          theme === "dark"
-                            ? `text-${item.color}-400`
-                            : `text-${item.color}-600`
-                        }`}
-                        size={24}
-                      />
-                    </div>
-                    <h3
-                      className={`font-semibold mb-2 ${
-                        theme === "dark" ? "text-gray-100" : "text-gray-900"
-                      }`}
-                    >
-                      {item.title}
-                    </h3>
-                    <p
-                      className={`text-xs ${
-                        theme === "dark" ? "text-gray-400" : "text-gray-600"
-                      }`}
-                    >
-                      {item.desc}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </Section>
-
-            <Section title="Frequently Asked Questions" icon={HelpCircle}>
-              <div className="space-y-3">
-                {faqData.map((faq, index) => (
-                  <div
-                    key={index}
-                    className={`border rounded-lg ${
-                      theme === "dark"
-                        ? "border-gray-700 bg-gray-850"
-                        : "border-gray-200 bg-white"
-                    }`}
-                  >
-                    <button
-                      onClick={() => toggleFAQ(index)}
-                      className={`w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center transition-colors rounded-t-lg ${
-                        theme === "dark"
-                          ? "hover:bg-gray-700/50"
-                          : "hover:bg-gray-50"
-                      }`}
-                    >
-                      <span
-                        className={`font-medium text-sm sm:text-base ${
-                          theme === "dark" ? "text-gray-100" : "text-gray-900"
-                        }`}
-                      >
-                        {faq.question}
-                      </span>
-                      {expandedFAQ === index ? (
-                        <ChevronUp
-                          className={`${
-                            theme === "dark" ? "text-gray-400" : "text-gray-500"
-                          }`}
-                          size={20}
-                        />
-                      ) : (
-                        <ChevronRight
-                          className={`${
-                            theme === "dark" ? "text-gray-400" : "text-gray-500"
-                          }`}
-                          size={20}
-                        />
-                      )}
-                    </button>
-                    {expandedFAQ === index && (
-                      <div
-                        className={`px-4 sm:px-6 pb-4 pt-2 text-xs sm:text-sm border-t ${
-                          theme === "dark"
-                            ? "text-gray-300 border-gray-700"
-                            : "text-gray-600 border-gray-200"
-                        }`}
-                      >
-                        {faq.answer}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </Section>
-
-            <Section title="Contact & Support" icon={Users}>
-              <p>
-                If you encounter issues or have questions, please check the{" "}
-                <a
-                  href="https://github.com/sameer240704/100xEngineers-Buildathon/issues"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-500 hover:underline"
-                >
-                  GitHub Issues
-                </a>{" "}
-                page for this project.
-              </p>
-              <p>
-                For direct support or contributions, please refer to the
-                contributing guidelines in the repository.
-              </p>
-            </Section>
+              <button
+                onClick={() => deleteExperience(exp.id)}
+                className="ml-4 p-2 text-red-600 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-lg transition-colors"
+              >
+                <Trash2 className="h-4 w-4" />
+              </button>
+            </div>
+            <textarea
+              placeholder="Describe your responsibilities and achievements (one per line)"
+              value={exp.description.join("\n")}
+              onChange={(e) =>
+                updateExperience(
+                  exp.id,
+                  "description",
+                  e.target.value.split("\n")
+                )
+              }
+              rows={4}
+              className={`w-full p-3 rounded-lg border ${
+                theme === "dark"
+                  ? "bg-gray-700 border-gray-600 text-white"
+                  : "bg-white border-gray-300 text-gray-900"
+              }`}
+            />
           </div>
-        )}
-      </main>
+        ))}
+      </div>
+
+      {/* Education */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h3 className="text-lg font-semibold flex items-center">
+            <GraduationCap className="h-5 w-5 mr-2" />
+            Education
+          </h3>
+          <button
+            onClick={addEducation}
+            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors flex items-center"
+          >
+            <Plus className="h-4 w-4 mr-2" />
+            Add Education
+          </button>
+        </div>
+
+        {resumeData.education.map((edu) => (
+          <div
+            key={edu.id}
+            className={`p-4 rounded-lg border ${
+              theme === "dark"
+                ? "border-gray-600 bg-gray-700/50"
+                : "border-gray-200 bg-gray-50"
+            }`}
+          >
+            <div className="flex justify-between items-start mb-4">
+              <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="Degree"
+                  value={edu.degree}
+                  onChange={(e) =>
+                    updateEducation(edu.id, "degree", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="Institution"
+                  value={edu.institution}
+                  onChange={(e) =>
+                    updateEducation(edu.id, "institution", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="Duration"
+                  value={edu.duration}
+                  onChange={(e) =>
+                    updateEducation(edu.id, "duration", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="GPA (optional)"
+                  value={edu.gpa}
+                  onChange={(e) =>
+                    updateEducation(edu.id, "gpa", e.target.value)
+                  }
+                  className={`p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+              </div>
+              <button
+                onClick={() => deleteEducation(edu.id)}
+                className="ml-4 p-2 text-red-600 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-lg transition-colors"
+              >
+                <Trash2 className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Skills */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-semibold flex items-center">
+          <Code className="h-5 w-5 mr-2" />
+          Skills
+        </h3>
+
+        <div className="flex gap-2 mb-4">
+          <input
+            type="text"
+            placeholder="Add a skill"
+            value={newSkill}
+            onChange={(e) => setNewSkill(e.target.value)}
+            onKeyPress={(e) => e.key === "Enter" && handleAddSkill()}
+            className={`flex-1 p-3 rounded-lg border ${
+              theme === "dark"
+                ? "bg-gray-700 border-gray-600 text-white"
+                : "bg-white border-gray-300 text-gray-900"
+            }`}
+          />
+          <button
+            onClick={handleAddSkill}
+            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors"
+          >
+            <Plus className="h-4 w-4" />
+          </button>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          {resumeData.skills.map((skill, index) => (
+            <span
+              key={index}
+              className={`px-3 py-1 rounded-full text-sm flex items-center ${
+                theme === "dark"
+                  ? "bg-purple-900 text-purple-100"
+                  : "bg-purple-100 text-purple-800"
+              }`}
+            >
+              {skill}
+              <button
+                onClick={() => removeSkill(skill)}
+                className="ml-2 hover:text-red-600"
+              >
+                <X className="h-3 w-3" />
+              </button>
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Projects */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h3 className="text-lg font-semibold flex items-center">
+            <Award className="h-5 w-5 mr-2" />
+            Projects
+          </h3>
+          <button
+            onClick={addProject}
+            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors flex items-center"
+          >
+            <Plus className="h-4 w-4 mr-2" />
+            Add Project
+          </button>
+        </div>
+
+        {resumeData.projects.map((project) => (
+          <div
+            key={project.id}
+            className={`p-4 rounded-lg border ${
+              theme === "dark"
+                ? "border-gray-600 bg-gray-700/50"
+                : "border-gray-200 bg-gray-50"
+            }`}
+          >
+            <div className="flex justify-between items-start mb-4">
+              <div className="flex-1 space-y-4">
+                <input
+                  type="text"
+                  placeholder="Project Name"
+                  value={project.name}
+                  onChange={(e) =>
+                    updateProject(project.id, "name", e.target.value)
+                  }
+                  className={`w-full p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <textarea
+                  placeholder="Project Description"
+                  value={project.description}
+                  onChange={(e) =>
+                    updateProject(project.id, "description", e.target.value)
+                  }
+                  rows={3}
+                  className={`w-full p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="Technologies (comma-separated)"
+                  value={project.technologies.join(", ")}
+                  onChange={(e) =>
+                    updateProject(
+                      project.id,
+                      "technologies",
+                      e.target.value.split(", ").map((t) => t.trim())
+                    )
+                  }
+                  className={`w-full p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+                <input
+                  type="text"
+                  placeholder="Project Link (optional)"
+                  value={project.link}
+                  onChange={(e) =>
+                    updateProject(project.id, "link", e.target.value)
+                  }
+                  className={`w-full p-3 rounded-lg border ${
+                    theme === "dark"
+                      ? "bg-gray-700 border-gray-600 text-white"
+                      : "bg-white border-gray-300 text-gray-900"
+                  }`}
+                />
+              </div>
+              <button
+                onClick={() => deleteProject(project.id)}
+                className="ml-4 p-2 text-red-600 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-lg transition-colors"
+              >
+                <Trash2 className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default DocumentationPage;
+// ResumePreview Component
+const ResumePreview = ({ resumeData, theme }) => {
+  return (
+    <div
+      className={`max-w-4xl mx-auto p-3 ${
+        theme === "dark"
+          ? "bg-gray-800 text-white"
+          : "bg-transparent text-gray-900"
+      } h-full`}
+    >
+      {/* Header */}
+      <div className="mb-8 text-center border-b pb-6">
+        <h1 className="text-3xl font-bold mb-2">
+          {resumeData.personalInfo.name}
+        </h1>
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">
+          <span className="flex items-center">
+            <Mail className="h-4 w-4 mr-1" />
+            {resumeData.personalInfo.email}
+          </span>
+          <span className="flex items-center">
+            <Phone className="h-4 w-4 mr-1" />
+            {resumeData.personalInfo.phone}
+          </span>
+          <span className="flex items-center">
+            <MapPin className="h-4 w-4 mr-1" />
+            {resumeData.personalInfo.location}
+          </span>
+        </div>
+        {(resumeData.personalInfo.linkedin ||
+          resumeData.personalInfo.website) && (
+          <div className="flex flex-wrap justify-center gap-4 mt-2 text-sm text-purple-600">
+            {resumeData.personalInfo.linkedin && (
+              <a
+                href={`https://${resumeData.personalInfo.linkedin}`}
+                className="hover:underline"
+              >
+                LinkedIn
+              </a>
+            )}
+            {resumeData.personalInfo.website && (
+              <a
+                href={`https://${resumeData.personalInfo.website}`}
+                className="hover:underline"
+              >
+                Portfolio
+              </a>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* Summary */}
+      {resumeData.summary && (
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4 border-b pb-2">
+            Professional Summary
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+            {resumeData.summary}
+          </p>
+        </div>
+      )}
+
+      {/* Experience */}
+      {resumeData.experience.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4 border-b pb-2 flex items-center">
+            <Briefcase className="h-5 w-5 mr-2" />
+            Work Experience
+          </h2>
+          <div className="space-y-6">
+            {resumeData.experience.map((exp) => (
+              <div key={exp.id}>
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="font-semibold text-lg">{exp.title}</h3>
+                    <p className="text-gray-600 dark:text-gray-400">
+                      {exp.company} • {exp.location}
+                    </p>
+                  </div>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">
+                    {exp.duration}
+                  </span>
+                </div>
+                <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300 ml-4">
+                  {exp.description.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Education */}
+      {resumeData.education.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4 border-b pb-2 flex items-center">
+            <GraduationCap className="h-5 w-5 mr-2" />
+            Education
+          </h2>
+          <div className="space-y-4">
+            {resumeData.education.map((edu) => (
+              <div key={edu.id}>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="font-semibold">{edu.degree}</h3>
+                    <p className="text-gray-600 dark:text-gray-400">
+                      {edu.institution}
+                    </p>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">
+                      {edu.duration}
+                    </span>
+                    {edu.gpa && (
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        GPA: {edu.gpa}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Skills */}
+      {resumeData.skills.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4 border-b pb-2 flex items-center">
+            <Code className="h-5 w-5 mr-2" />
+            Skills
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {resumeData.skills.map((skill, index) => (
+              <span
+                key={index}
+                className={`px-3 py-1 rounded-full text-sm ${
+                  theme === "dark"
+                    ? "bg-purple-900 text-purple-100"
+                    : "bg-purple-100 text-purple-800"
+                }`}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Projects */}
+      {resumeData.projects.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4 border-b pb-2 flex items-center">
+            <Award className="h-5 w-5 mr-2" />
+            Projects
+          </h2>
+          <div className="space-y-4">
+            {resumeData.projects.map((project) => (
+              <div key={project.id}>
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-semibold text-lg">{project.name}</h3>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      className="text-purple-600 hover:underline text-sm"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Project
+                    </a>
+                  )}
+                </div>
+                <p className="text-gray-700 dark:text-gray-300 mb-2">
+                  {project.description}
+                </p>
+                {project.technologies.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {project.technologies.map((tech, index) => (
+                      <span
+                        key={index}
+                        className={`px-2 py-1 rounded text-xs ${
+                          theme === "dark"
+                            ? "bg-gray-700 text-gray-300"
+                            : "bg-gray-200 text-gray-700"
+                        }`}
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+// Main Resume Editor Component
+const ResumeEditor = () => {
+  const [uploadedResume, setUploadedResume] = useState(null);
+  const [resumeContent, setResumeContent] = useState("");
+  const [isEditMode, setIsEditMode] = useState(true);
+  const [showPreview, setShowPreview] = useState(true);
+  const { theme, toggleTheme } = useTheme();
+  const fileInputRef = useRef(null);
+
+  // Default resume template
+  const defaultResume = {
+    personalInfo: {
+      name: "John Doe",
+      email: "john.doe@email.com",
+      phone: "+1 (555) 123-4567",
+      location: "San Francisco, CA",
+      linkedin: "linkedin.com/in/johndoe",
+      website: "johndoe.dev",
+    },
+    summary:
+      "Experienced Software Engineer with 5+ years of expertise in full-stack development, specializing in React, Node.js, and cloud technologies. Passionate about building scalable applications and leading cross-functional teams.",
+    experience: [
+      {
+        id: 1,
+        title: "Senior Software Engineer",
+        company: "Tech Corp",
+        location: "San Francisco, CA",
+        duration: "2022 - Present",
+        description: [
+          "Led development of microservices architecture serving 1M+ users",
+          "Implemented CI/CD pipelines reducing deployment time by 60%",
+          "Mentored junior developers and conducted technical interviews",
+        ],
+      },
+      {
+        id: 2,
+        title: "Software Engineer",
+        company: "Startup Inc",
+        location: "Remote",
+        duration: "2020 - 2022",
+        description: [
+          "Built responsive web applications using React and TypeScript",
+          "Developed RESTful APIs with Node.js and MongoDB",
+          "Collaborated with design team to improve user experience",
+        ],
+      },
+    ],
+    education: [
+      {
+        id: 1,
+        degree: "Bachelor of Science in Computer Science",
+        institution: "University of California, Berkeley",
+        duration: "2016 - 2020",
+        gpa: "3.8/4.0",
+      },
+    ],
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker",
+      "MongoDB",
+      "PostgreSQL",
+      "Git",
+    ],
+    projects: [
+      {
+        id: 1,
+        name: "E-commerce Platform",
+        description:
+          "Built a full-stack e-commerce platform with React, Node.js, and Stripe integration",
+        technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+        link: "github.com/johndoe/ecommerce",
+      },
+    ],
+  };
+
+  const [resumeData, setResumeData] = useState(defaultResume);
+
+  // Handle file upload
+  const handleFileUpload = useCallback((event) => {
+    const file = event.target.files[0];
+    if (file) {
+      if (file.type === "application/pdf") {
+        setUploadedResume(file);
+        // Here you would normally parse the PDF content
+        setResumeContent(`Uploaded: ${file.name}`);
+      } else if (file.type === "text/plain" || file.name.endsWith(".txt")) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          setResumeContent(e.target.result);
+          setUploadedResume(file);
+        };
+        reader.readAsText(file);
+      } else {
+        alert("Please upload a PDF or text file");
+      }
+    }
+  }, []);
+
+  // Handle drag and drop
+  const handleDrop = useCallback(
+    (event) => {
+      event.preventDefault();
+      const file = event.dataTransfer.files[0];
+      if (file) {
+        handleFileUpload({ target: { files: [file] } });
+      }
+    },
+    [handleFileUpload]
+  );
+
+  const handleDragOver = useCallback((event) => {
+    event.preventDefault();
+  }, []);
+
+  // Update resume data functions
+  const updatePersonalInfo = (field, value) => {
+    setResumeData((prev) => ({
+      ...prev,
+      personalInfo: { ...prev.personalInfo, [field]: value },
+    }));
+  };
+
+  const updateSummary = (value) => {
+    setResumeData((prev) => ({ ...prev, summary: value }));
+  };
+
+  const addExperience = () => {
+    const newExp = {
+      id: Date.now(),
+      title: "New Position",
+      company: "Company Name",
+      location: "Location",
+      duration: "Start - End",
+      description: ["Add your responsibilities and achievements"],
+    };
+    setResumeData((prev) => ({
+      ...prev,
+      experience: [...prev.experience, newExp],
+    }));
+  };
+
+  const updateExperience = (id, field, value) => {
+    setResumeData((prev) => ({
+      ...prev,
+      experience: prev.experience.map((exp) =>
+        exp.id === id ? { ...exp, [field]: value } : exp
+      ),
+    }));
+  };
+
+  const deleteExperience = (id) => {
+    setResumeData((prev) => ({
+      ...prev,
+      experience: prev.experience.filter((exp) => exp.id !== id),
+    }));
+  };
+
+  const addEducation = () => {
+    const newEdu = {
+      id: Date.now(),
+      degree: "Degree Name",
+      institution: "Institution Name",
+      duration: "Start - End",
+      gpa: "",
+    };
+    setResumeData((prev) => ({
+      ...prev,
+      education: [...prev.education, newEdu],
+    }));
+  };
+
+  const updateEducation = (id, field, value) => {
+    setResumeData((prev) => ({
+      ...prev,
+      education: prev.education.map((edu) =>
+        edu.id === id ? { ...edu, [field]: value } : edu
+      ),
+    }));
+  };
+
+  const deleteEducation = (id) => {
+    setResumeData((prev) => ({
+      ...prev,
+      education: prev.education.filter((edu) => edu.id !== id),
+    }));
+  };
+
+  const addSkill = (skill) => {
+    if (skill.trim() && !resumeData.skills.includes(skill.trim())) {
+      setResumeData((prev) => ({
+        ...prev,
+        skills: [...prev.skills, skill.trim()],
+      }));
+    }
+  };
+
+  const removeSkill = (skillToRemove) => {
+    setResumeData((prev) => ({
+      ...prev,
+      skills: prev.skills.filter((skill) => skill !== skillToRemove),
+    }));
+  };
+
+  const addProject = () => {
+    const newProject = {
+      id: Date.now(),
+      name: "Project Name",
+      description: "Project description",
+      technologies: [],
+      link: "",
+    };
+    setResumeData((prev) => ({
+      ...prev,
+      projects: [...prev.projects, newProject],
+    }));
+  };
+
+  const updateProject = (id, field, value) => {
+    setResumeData((prev) => ({
+      ...prev,
+      projects: prev.projects.map((project) =>
+        project.id === id ? { ...project, [field]: value } : project
+      ),
+    }));
+  };
+
+  const deleteProject = (id) => {
+    setResumeData((prev) => ({
+      ...prev,
+      projects: prev.projects.filter((project) => project.id !== id),
+    }));
+  };
+
+  // Export resume as JSON
+  const exportResume = () => {
+    const dataStr = JSON.stringify(resumeData, null, 2);
+    const dataUri =
+      "data:application/json;charset=utf-8," + encodeURIComponent(dataStr);
+    const exportFileDefaultName = "resume.json";
+    const linkElement = document.createElement("a");
+    linkElement.setAttribute("href", dataUri);
+    linkElement.setAttribute("download", exportFileDefaultName);
+    linkElement.click();
+  };
+
+  return (
+    <div
+      className={`min-h-screen overflow-scroll transition-colors duration-300 ${
+        theme === "dark" ? "bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
+      }`}
+    >
+      <div className="max-w-7xl mx-auto px-4 py-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-[calc(100vh-180px)]">
+          {/* Left Panel - Upload and Editor */}
+          <div
+            className={`rounded-lg border h-full flex flex-col ${
+              theme === "dark"
+                ? "bg-gray-800 border-gray-700"
+                : "bg-white border-gray-200"
+            }`}
+          >
+            <div className="p-6 border-b border-gray-200 dark:border-gray-700">
+              <h2 className="text-xl font-semibold mb-4">
+                Upload & Edit Resume
+              </h2>
+
+              {/* Upload Area */}
+              <div
+                className={`border-2 border-dashed rounded-lg p-8 text-center transition-colors ${
+                  theme === "dark"
+                    ? "border-gray-600 hover:border-gray-500 bg-gray-700/50"
+                    : "border-gray-300 hover:border-gray-400 bg-gray-50"
+                }`}
+                onDrop={handleDrop}
+                onDragOver={handleDragOver}
+              >
+                <Upload className="h-12 w-12 mx-auto mb-4 text-gray-400" />
+                <p className="text-lg mb-2">
+                  Drop your resume here or click to upload
+                </p>
+                <p className="text-sm text-gray-500 mb-4">
+                  Supports PDF and text files
+                </p>
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept=".pdf,.txt"
+                  onChange={handleFileUpload}
+                  className="hidden"
+                />
+                <button
+                  onClick={() => fileInputRef.current?.click()}
+                  className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors"
+                >
+                  Choose File
+                </button>
+              </div>
+
+              {uploadedResume && (
+                <div className="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg">
+                  <p className="text-green-800 dark:text-green-200">
+                    <FileText className="h-4 w-4 inline mr-2" />
+                    Uploaded: {uploadedResume.name}
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Editor Content */}
+            <div className="flex-1 p-6 overflow-y-auto">
+              {isEditMode ? (
+                <EditView
+                  resumeData={resumeData}
+                  updatePersonalInfo={updatePersonalInfo}
+                  updateSummary={updateSummary}
+                  addExperience={addExperience}
+                  updateExperience={updateExperience}
+                  deleteExperience={deleteExperience}
+                  addEducation={addEducation}
+                  updateEducation={updateEducation}
+                  deleteEducation={deleteEducation}
+                  addSkill={addSkill}
+                  removeSkill={removeSkill}
+                  addProject={addProject}
+                  updateProject={updateProject}
+                  deleteProject={deleteProject}
+                  theme={theme}
+                />
+              ) : (
+                <div className="space-y-4">
+                  <h3 className="text-lg font-semibold">Raw Content</h3>
+                  <textarea
+                    value={resumeContent}
+                    onChange={(e) => setResumeContent(e.target.value)}
+                    className={`w-full h-96 p-4 rounded-lg border font-mono text-sm ${
+                      theme === "dark"
+                        ? "bg-gray-700 border-gray-600 text-white"
+                        : "bg-gray-50 border-gray-300 text-gray-900"
+                    }`}
+                    placeholder="Upload a resume or start typing..."
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Right Panel - Preview */}
+          <div
+            className={`rounded-lg border h-full ${
+              theme === "dark"
+                ? "bg-gray-800 border-gray-700"
+                : "bg-white border-gray-200"
+            }`}
+          >
+            <div className="p-6 border-b border-gray-200 dark:border-gray-700">
+              <h2 className="text-xl font-semibold">Live Preview</h2>
+            </div>
+            <div className="p-6 h-full overflow-y-auto">
+              <ResumePreview resumeData={resumeData} theme={theme} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ResumeEditor;
