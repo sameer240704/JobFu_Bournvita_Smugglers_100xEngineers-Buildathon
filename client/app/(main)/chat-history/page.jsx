@@ -503,12 +503,12 @@ const Page = () => {
               <div className="inline-block p-3 mb-1">
                 <Image
                   src={Logo}
-                  alt="JobFu Logo"
-                  className="w-10 h-10 rounded-md"
+                  alt="Disha AI Logo"
+                  className="h-32 w-40 rounded-md"
                 />
               </div>
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">
-                HireAI by JobFu
+                HireAI by Disha AI
               </h1>
               <p className="mt-3 text-gray-600">
                 Find exactly who you're looking for, in seconds.{" "}

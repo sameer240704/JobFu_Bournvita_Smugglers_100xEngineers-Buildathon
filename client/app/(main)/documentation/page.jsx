@@ -328,7 +328,7 @@ const DocumentationPage = () => {
 
   const faqData = [
     {
-      question: "What is HireAI by JobFu?",
+      question: "What is HireAI by Disha AI?",
       answer:
         "HireAI is an advanced AI-powered resume extraction, enrichment, and candidate ranking pipeline designed for efficient, accurate, and scalable candidate search and comparison.",
     },
@@ -488,7 +488,7 @@ const DocumentationPage = () => {
         {activeTab === "knowledge" && (
           <div className="space-y-8">
             <Section
-              title="HireAI by JobFu - Overview"
+              title="HireAI by Disha AI - Overview"
               icon={Zap}
               titleSize="text-3xl"
             >
@@ -760,10 +760,10 @@ const DocumentationPage = () => {
                     theme === "dark" ? "text-gray-200" : "text-gray-800"
                   }`}
                 >
-                  HireAI by JobFu Software License
+                  HireAI by Disha AI Software License
                 </h4>
                 <p className="text-sm mb-4">
-                  Copyright © {new Date().getFullYear()} HireAI by JobFu. All
+                  Copyright © {new Date().getFullYear()} HireAI by Disha AI. All
                   rights reserved.
                 </p>
                 <div className="text-xs sm:text-sm space-y-2">
